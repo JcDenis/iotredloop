@@ -1,6 +1,6 @@
 {
     "name": "iotredloop",
-    "description": "A Node-RED Project",
+    "description": "Simple nodered home automation manager",
     "version": "0.0.1",
     "dependencies": {},
     "node-red": {
