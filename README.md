@@ -9,12 +9,15 @@ Main flows.json was cut into multiple files by tabs using node-red-contrib-flow-
 
 ## REQUIREMENTS
 
-Flows are written under Node-red v3.1.9 with following packages :
+Flows are written under Node-red v3.1.9 with following nodes packages :
 
 * node-red-contrib-flow-manager 0.7.4
 * node-red-contrib-msg-speed 2.1.0
 * node-red-contrib-queue-gate 1.5.5
 * node-red-contrib-simple-gate 0.5.2
+* node-red-contrib-cpu 0.0.4
+* node-red-contrib-moment 5.0.0
+* node-red-contrib-bigtimer 2.8.6
 * node-red-contrib-stackhero-influxdb-v2 1.0.4
 * @flowfuse/node-red-dashboard 1.8.1 (nodered dashboard 2)
 
