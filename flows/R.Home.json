@@ -190,6 +190,89 @@
     "h": 322
   },
   {
+    "id": "df46e2504e16fc3e",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - ui - chart (customized to my needs)",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "04de52a5f5237233",
+      "84416ebc7a349dd4",
+      "638b6d92fcb75ad5"
+    ],
+    "x": 68,
+    "y": 713,
+    "w": 644,
+    "h": 374
+  },
+  {
+    "id": "04de52a5f5237233",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart outdoor temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3bd22b1740d9d8b2",
+      "43e68c058a7661d6",
+      "b3f5b970a9b03119"
+    ],
+    "x": 94,
+    "y": 739,
+    "w": 592,
+    "h": 82
+  },
+  {
+    "id": "84416ebc7a349dd4",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart outdoor humidity",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "53e61734d5875604",
+      "f9ae231f709aa135",
+      "50bc182c3569008c"
+    ],
+    "x": 94,
+    "y": 859,
+    "w": 572,
+    "h": 82
+  },
+  {
+    "id": "638b6d92fcb75ad5",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart linky power",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3abfeada773a5af2",
+      "ae8ac7965d6fb684",
+      "47316bf97f84b277"
+    ],
+    "x": 94,
+    "y": 979,
+    "w": 552,
+    "h": 82
+  },
+  {
     "id": "d210ac6cc3e866c0",
     "type": "change",
     "z": "e19f53e3dc7ab928",
@@ -1529,7 +1612,7 @@
     "type": "influxdb in",
     "z": "e19f53e3dc7ab928",
     "g": "afbdaa08d5344ac6",
-    "influxdb": "a207a0d51c2ff7a8",
+    "influxdb": "e408b55d1dc6870d",
     "name": "",
     "query": "import \"date\"\nfrom(bucket: \"linky\")\n  |> range(start: date.truncate(t:now(),unit:1d), stop: date.truncate(t:1d,unit:1d))\n  |> filter(fn: (r) =>\n    r._field == \"conso_total_day\"\n  )\n  |> aggregateWindow(every: 24h, fn: max)",
     "rawOutput": false,
@@ -1567,7 +1650,7 @@
     "type": "influxdb in",
     "z": "e19f53e3dc7ab928",
     "g": "afbdaa08d5344ac6",
-    "influxdb": "a207a0d51c2ff7a8",
+    "influxdb": "e408b55d1dc6870d",
     "name": "",
     "query": "import \"date\"\nfrom(bucket: \"linky\")\n  |> range(start: date.truncate(t:-1d,unit:1d), stop: date.truncate(t:0d,unit:1d))\n  |> filter(fn: (r) =>\n    r._field == \"conso_total_day\"\n  )\n  |> aggregateWindow(every: 24h, fn: max)",
     "rawOutput": false,
@@ -1725,6 +1808,252 @@
     "wires": [
       [
         "8883fe1a066abc69"
+      ]
+    ]
+  },
+  {
+    "id": "3bd22b1740d9d8b2",
+    "type": "ui-chart",
+    "z": "e19f53e3dc7ab928",
+    "g": "04de52a5f5237233",
+    "group": "8bdaa1ba3eb700cc",
+    "name": "chart outdoor temperature",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 550,
+    "y": 780,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "43e68c058a7661d6",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "04de52a5f5237233",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "from(bucket: \"resume\")\n  |> range(start: -1d, stop: now())\n  |> aggregateWindow(every: 30m, fn: last, createEmpty: false)\n  |> filter(fn: (r) =>\n    r._measurement == \"temperature\" and (r._field == \"parking probe\" or r._field == \"jardin probe\")\n  )",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 300,
+    "y": 780,
+    "wires": [
+      [
+        "3bd22b1740d9d8b2"
+      ]
+    ]
+  },
+  {
+    "id": "b3f5b970a9b03119",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "04de52a5f5237233",
+    "name": "home - ui - chart outdoor temperature",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 780,
+    "wires": [
+      [
+        "43e68c058a7661d6"
+      ]
+    ]
+  },
+  {
+    "id": "53e61734d5875604",
+    "type": "ui-chart",
+    "z": "e19f53e3dc7ab928",
+    "g": "84416ebc7a349dd4",
+    "group": "7f89503f8062898b",
+    "name": "chart outdoor humidity",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 540,
+    "y": 900,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f9ae231f709aa135",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "84416ebc7a349dd4",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "from(bucket: \"resume\")\n  |> range(start: -1d, stop: now())\n  |> aggregateWindow(every: 30m, fn: last, createEmpty: false)\n  |> filter(fn: (r) =>\n    r._measurement == \"humidity\" and (r._field == \"parking probe\" or r._field == \"jardin probe\")\n  )",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 300,
+    "y": 900,
+    "wires": [
+      [
+        "53e61734d5875604"
+      ]
+    ]
+  },
+  {
+    "id": "50bc182c3569008c",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "84416ebc7a349dd4",
+    "name": "home - ui - chart outdoor humidity",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 900,
+    "wires": [
+      [
+        "f9ae231f709aa135"
+      ]
+    ]
+  },
+  {
+    "id": "3abfeada773a5af2",
+    "type": "ui-chart",
+    "z": "e19f53e3dc7ab928",
+    "g": "638b6d92fcb75ad5",
+    "group": "3f3bb7d3a3b206d0",
+    "name": "ui chart linky power",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 530,
+    "y": 1020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ae8ac7965d6fb684",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "638b6d92fcb75ad5",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "from(bucket: \"home\")\n  |> range(start: -1d, stop: now())\n  |> aggregateWindow(every: 15m, fn: last, createEmpty: false)\n  |> filter(fn: (r) =>\n    r._measurement == \"linky\" and r._field == \"power\"\n  )",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 300,
+    "y": 1020,
+    "wires": [
+      [
+        "3abfeada773a5af2"
+      ]
+    ]
+  },
+  {
+    "id": "47316bf97f84b277",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "638b6d92fcb75ad5",
+    "name": "home - ui - chart linky power",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 1020,
+    "wires": [
+      [
+        "ae8ac7965d6fb684"
       ]
     ]
   }
