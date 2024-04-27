@@ -69,6 +69,127 @@
     "h": 82
   },
   {
+    "id": "b31845e35ff96b51",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - linky",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f36ad9add0dea84a",
+      "4cb9d5d99960728b",
+      "afbdaa08d5344ac6"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 3504,
+    "h": 494
+  },
+  {
+    "id": "f36ad9add0dea84a",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "b31845e35ff96b51",
+    "name": "home - linky - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9a7347381e1e503b",
+      "cb99733f4cbf651a",
+      "d16064888745aca6",
+      "4f797f5a02d9c87b",
+      "14633267d792195b",
+      "0883ad76e9a7a5db",
+      "a475141eb65765c3",
+      "d90ff6b37443ec5f",
+      "8e9b1543c286b201",
+      "6d6ed9fb73d6e770",
+      "d8cbcb0859722902",
+      "0dac7d543eb0f2f6",
+      "4587eb595b780266",
+      "1f088dee7d4ae695",
+      "43c18e1bfd41d830",
+      "acc79920bf40652d",
+      "8632c99c540f117b"
+    ],
+    "x": 754,
+    "y": 199,
+    "w": 1242,
+    "h": 442
+  },
+  {
+    "id": "4cb9d5d99960728b",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "b31845e35ff96b51",
+    "name": "home - linky - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0e2bb377d8a36c19",
+      "c726ae1ce799b0e5",
+      "5efcbb548a75c53a",
+      "6bb288d4243c8284",
+      "614269acaeaa7867",
+      "627ed76685724eb3",
+      "f87443fe4174e06e",
+      "ab6d3d1be0d9ea74"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 562,
+    "h": 382
+  },
+  {
+    "id": "afbdaa08d5344ac6",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "b31845e35ff96b51",
+    "name": "home - linky - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "be031b830d435b36",
+      "b0f5b19866b880c9",
+      "14d401bc50aa536b",
+      "9188974904e49bd8",
+      "35ccd1812072ccad",
+      "c3473ac9ec464425",
+      "16de923274d0e608",
+      "b5e38130b6f4407c",
+      "b061fecd100938a0",
+      "a5bcb16d923c6f77",
+      "5d277429bd835728",
+      "942e30b09b200628",
+      "5d9abb5beb266ad0",
+      "b9abd7ec5b21a355",
+      "6c30e4c5efef2336",
+      "04c4726b012f7cde",
+      "b8039538d3ab41e7",
+      "a5b6191ffdceb78b",
+      "9e040dfa6ba0238f",
+      "8883fe1a066abc69",
+      "8e4e7eeb105a289a",
+      "426522c68084a014"
+    ],
+    "x": 2174,
+    "y": 199,
+    "w": 1372,
+    "h": 322
+  },
+  {
     "id": "d210ac6cc3e866c0",
     "type": "change",
     "z": "e19f53e3dc7ab928",
@@ -134,7 +255,9 @@
     "g": "e6f586ce062979fb",
     "name": "home - bucket",
     "mode": "link",
-    "links": [],
+    "links": [
+      "ab6d3d1be0d9ea74"
+    ],
     "x": 395,
     "y": 60,
     "wires": []
@@ -234,6 +357,1374 @@
     "wires": [
       [
         "c32288ec6571a37f"
+      ]
+    ]
+  },
+  {
+    "id": "9a7347381e1e503b",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "current",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "current",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload.IINST.value)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1340,
+    "y": 240,
+    "wires": [
+      [
+        "4587eb595b780266"
+      ]
+    ]
+  },
+  {
+    "id": "cb99733f4cbf651a",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1820,
+    "y": 240,
+    "wires": [
+      [
+        "d16064888745aca6"
+      ]
+    ]
+  },
+  {
+    "id": "d16064888745aca6",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "home - linky - source",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1955,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "4f797f5a02d9c87b",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload.PAPP.value)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1330,
+    "y": 300,
+    "wires": [
+      [
+        "4587eb595b780266"
+      ]
+    ]
+  },
+  {
+    "id": "14633267d792195b",
+    "type": "delay",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "limit 1 msg / m",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "minute",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1620,
+    "y": 420,
+    "wires": [
+      [
+        "cb99733f4cbf651a"
+      ]
+    ]
+  },
+  {
+    "id": "0883ad76e9a7a5db",
+    "type": "delay",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "limit 1 msg / m",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "minute",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1620,
+    "y": 480,
+    "wires": [
+      [
+        "cb99733f4cbf651a"
+      ]
+    ]
+  },
+  {
+    "id": "a475141eb65765c3",
+    "type": "delay",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "limit 1 msg / m",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "minute",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1620,
+    "y": 540,
+    "wires": [
+      [
+        "cb99733f4cbf651a"
+      ]
+    ]
+  },
+  {
+    "id": "d90ff6b37443ec5f",
+    "type": "delay",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "limit 1 msg / m",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "minute",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1620,
+    "y": 360,
+    "wires": [
+      [
+        "cb99733f4cbf651a"
+      ]
+    ]
+  },
+  {
+    "id": "8e9b1543c286b201",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "tariff",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tariff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.PTEC.value",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1330,
+    "y": 360,
+    "wires": [
+      [
+        "d90ff6b37443ec5f"
+      ]
+    ]
+  },
+  {
+    "id": "6d6ed9fb73d6e770",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "peak hours counter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "peak hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload.HCHP.value)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1370,
+    "y": 420,
+    "wires": [
+      [
+        "14633267d792195b"
+      ]
+    ]
+  },
+  {
+    "id": "d8cbcb0859722902",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "off-peak hours counter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "off-peak hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload.HCHC.value)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1380,
+    "y": 480,
+    "wires": [
+      [
+        "0883ad76e9a7a5db"
+      ]
+    ]
+  },
+  {
+    "id": "0dac7d543eb0f2f6",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "total hours counter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "total hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload.HCHC.value) + $number(msg.payload.HCHP.value)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1370,
+    "y": 540,
+    "wires": [
+      [
+        "a475141eb65765c3"
+      ]
+    ]
+  },
+  {
+    "id": "4587eb595b780266",
+    "type": "rbe",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "only changes",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": true,
+    "property": "payload",
+    "topi": "topic",
+    "x": 1530,
+    "y": 240,
+    "wires": [
+      [
+        "cb99733f4cbf651a"
+      ]
+    ]
+  },
+  {
+    "id": "1f088dee7d4ae695",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "home - linky - source passthrough",
+    "mode": "link",
+    "links": [
+      "1ef3db77515c5330"
+    ],
+    "x": 1295,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "43c18e1bfd41d830",
+    "type": "switch",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "check topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "msg.linky_id&'$'",
+        "vt": "jsonata",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1150,
+    "y": 240,
+    "wires": [
+      [
+        "1f088dee7d4ae695",
+        "0dac7d543eb0f2f6",
+        "d8cbcb0859722902",
+        "6d6ed9fb73d6e770",
+        "8e9b1543c286b201",
+        "4f797f5a02d9c87b",
+        "9a7347381e1e503b"
+      ]
+    ]
+  },
+  {
+    "id": "acc79920bf40652d",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "home - linky - source",
+    "links": [
+      "b491f7eb02575108"
+    ],
+    "x": 795,
+    "y": 240,
+    "wires": [
+      [
+        "8632c99c540f117b"
+      ]
+    ]
+  },
+  {
+    "id": "0e2bb377d8a36c19",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / current / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "current",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 240,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "c726ae1ce799b0e5",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "home - linky - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 615,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "5efcbb548a75c53a",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / power / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 300,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "6bb288d4243c8284",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / off-peak hours counter / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "off-peak hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 380,
+    "y": 480,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "614269acaeaa7867",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / peak hours counter / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "peak hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 420,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "627ed76685724eb3",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / total hours counter / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "total hours counter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 540,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "f87443fe4174e06e",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "linky / tariff / text / HP",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tariff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "HP",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 320,
+    "y": 360,
+    "wires": [
+      [
+        "c726ae1ce799b0e5"
+      ]
+    ]
+  },
+  {
+    "id": "ab6d3d1be0d9ea74",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "4cb9d5d99960728b",
+    "name": "home - linky - device",
+    "links": [
+      "fb0afb89fb191395"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "0e2bb377d8a36c19",
+        "5efcbb548a75c53a",
+        "f87443fe4174e06e",
+        "614269acaeaa7867",
+        "6bb288d4243c8284",
+        "627ed76685724eb3"
+      ]
+    ]
+  },
+  {
+    "id": "be031b830d435b36",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "home - linky - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 2215,
+    "y": 240,
+    "wires": [
+      [
+        "14d401bc50aa536b"
+      ]
+    ]
+  },
+  {
+    "id": "b0f5b19866b880c9",
+    "type": "switch",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "home/linky/xxx",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/linky/current'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/linky/power'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/linky/tariff'",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 3010,
+    "y": 300,
+    "wires": [
+      [
+        "c3473ac9ec464425"
+      ],
+      [
+        "16de923274d0e608"
+      ],
+      [
+        "9188974904e49bd8"
+      ]
+    ]
+  },
+  {
+    "id": "14d401bc50aa536b",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "set bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 240,
+    "wires": [
+      [
+        "b0f5b19866b880c9"
+      ]
+    ]
+  },
+  {
+    "id": "9188974904e49bd8",
+    "type": "function",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "HP/HC",
+    "func": "if (msg.payload=='HP'){\n    msg.payload='Heures pleines';\n} else {\n    msg.payload='Heures creuses';\n}\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 3200,
+    "y": 360,
+    "wires": [
+      [
+        "b061fecd100938a0"
+      ]
+    ]
+  },
+  {
+    "id": "35ccd1812072ccad",
+    "type": "ui-text",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "group": "241fa70e798648e8",
+    "order": 2,
+    "width": "1",
+    "height": "1",
+    "name": "current",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3380,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "c3473ac9ec464425",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "'('&msg.payload&'A)'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3200,
+    "y": 300,
+    "wires": [
+      [
+        "35ccd1812072ccad"
+      ]
+    ]
+  },
+  {
+    "id": "16de923274d0e608",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload&'W'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3200,
+    "y": 240,
+    "wires": [
+      [
+        "b5e38130b6f4407c"
+      ]
+    ]
+  },
+  {
+    "id": "b5e38130b6f4407c",
+    "type": "ui-text",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "group": "241fa70e798648e8",
+    "order": 1,
+    "width": "5",
+    "height": "1",
+    "name": "power",
+    "label": "Puissance",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3370,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "b061fecd100938a0",
+    "type": "ui-text",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "group": "241fa70e798648e8",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "tariff",
+    "label": "Tarif",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3370,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "a5bcb16d923c6f77",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "msg.bucket & '/linky/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]linky[msg.field]",
+        "tot": "global"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2800,
+    "y": 300,
+    "wires": [
+      [
+        "b0f5b19866b880c9"
+      ]
+    ]
+  },
+  {
+    "id": "5d277429bd835728",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "home - linky - ui - load",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 2215,
+    "y": 300,
+    "wires": [
+      [
+        "942e30b09b200628"
+      ]
+    ]
+  },
+  {
+    "id": "942e30b09b200628",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.home.linky",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 300,
+    "wires": [
+      [
+        "5d9abb5beb266ad0"
+      ]
+    ]
+  },
+  {
+    "id": "5d9abb5beb266ad0",
+    "type": "split",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "split measurement",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 2590,
+    "y": 300,
+    "wires": [
+      [
+        "a5bcb16d923c6f77"
+      ]
+    ]
+  },
+  {
+    "id": "b9abd7ec5b21a355",
+    "type": "ui-text",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "group": "241fa70e798648e8",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "conso_total_today",
+    "label": "Aujourd'hui",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3410,
+    "y": 420,
+    "wires": []
+  },
+  {
+    "id": "6c30e4c5efef2336",
+    "type": "ui-text",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "group": "241fa70e798648e8",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "conso_total_yesturday",
+    "label": "Hier",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3420,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "04c4726b012f7cde",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "influxdb": "a207a0d51c2ff7a8",
+    "name": "",
+    "query": "import \"date\"\nfrom(bucket: \"linky\")\n  |> range(start: date.truncate(t:now(),unit:1d), stop: date.truncate(t:1d,unit:1d))\n  |> filter(fn: (r) =>\n    r._field == \"conso_total_day\"\n  )\n  |> aggregateWindow(every: 24h, fn: max)",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 2380,
+    "y": 420,
+    "wires": [
+      [
+        "8e4e7eeb105a289a"
+      ]
+    ]
+  },
+  {
+    "id": "b8039538d3ab41e7",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "home - linky - ui - cron",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 2215,
+    "y": 420,
+    "wires": [
+      [
+        "04c4726b012f7cde",
+        "a5b6191ffdceb78b"
+      ]
+    ]
+  },
+  {
+    "id": "a5b6191ffdceb78b",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "influxdb": "a207a0d51c2ff7a8",
+    "name": "",
+    "query": "import \"date\"\nfrom(bucket: \"linky\")\n  |> range(start: date.truncate(t:-1d,unit:1d), stop: date.truncate(t:0d,unit:1d))\n  |> filter(fn: (r) =>\n    r._field == \"conso_total_day\"\n  )\n  |> aggregateWindow(every: 24h, fn: max)",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 2380,
+    "y": 480,
+    "wires": [
+      [
+        "426522c68084a014"
+      ]
+    ]
+  },
+  {
+    "id": "9e040dfa6ba0238f",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "format",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.0['_value']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$round($number(msg.payload)/1000, 1)&'kWh'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2770,
+    "y": 420,
+    "wires": [
+      [
+        "b9abd7ec5b21a355"
+      ]
+    ]
+  },
+  {
+    "id": "8883fe1a066abc69",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "format",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.0['_value']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$round(msg.payload/1000, 1)&'kWh'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2770,
+    "y": 480,
+    "wires": [
+      [
+        "6c30e4c5efef2336"
+      ]
+    ]
+  },
+  {
+    "id": "8632c99c540f117b",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "f36ad9add0dea84a",
+    "name": "get linky id",
+    "rules": [
+      {
+        "t": "set",
+        "p": "linky_id",
+        "pt": "msg",
+        "to": "metrics.linky.config[\"linky id\"]",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 950,
+    "y": 240,
+    "wires": [
+      [
+        "43c18e1bfd41d830"
+      ]
+    ]
+  },
+  {
+    "id": "8e4e7eeb105a289a",
+    "type": "switch",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "has values",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2590,
+    "y": 420,
+    "wires": [
+      [
+        "9e040dfa6ba0238f"
+      ]
+    ]
+  },
+  {
+    "id": "426522c68084a014",
+    "type": "switch",
+    "z": "e19f53e3dc7ab928",
+    "g": "afbdaa08d5344ac6",
+    "name": "has values",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2590,
+    "y": 480,
+    "wires": [
+      [
+        "8883fe1a066abc69"
       ]
     ]
   }

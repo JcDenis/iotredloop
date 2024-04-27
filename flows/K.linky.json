@@ -1,0 +1,3364 @@
+[
+  {
+    "id": "a1e22fa468f03c15",
+    "type": "tab",
+    "label": "K.linky",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "3df91d363faee835",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "3325e4593048135a",
+      "05787fb2b77146c8",
+      "0ad08e9e45d5435d"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "8e10979a9d4df3e5",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d81e30fc75183164",
+      "4ae579561784bac0"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "f7b8f0b4a2f0c6c9",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky to influxdb",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f65dfdda10900ffc",
+      "b0150193e3cce710",
+      "543a74289e049295",
+      "213d292b79e5fbcc",
+      "d0f7ea2cfc4571a3"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1244,
+    "h": 2174
+  },
+  {
+    "id": "f65dfdda10900ffc",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "f7b8f0b4a2f0c6c9",
+    "name": "lecture teleinfo",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "8546ac1e37b1b1fc",
+      "1ef3db77515c5330",
+      "df67aa8c4eb08c4b",
+      "6b5f520afcf9e941",
+      "1c6a5f6cf7a4171a",
+      "e3ec96cdb6ecec1d",
+      "2235915bcd1a9228",
+      "df89dd445c170c34",
+      "539176543f03340e",
+      "528d193f3ad76c04",
+      "d259cbfd50910254",
+      "4f66f48da30fbb41",
+      "5543b63f4f841d35",
+      "16e115607aca11e2",
+      "573b86bbb0b274cd",
+      "6969a430e98620f8",
+      "c40a25fa809f3f3f",
+      "cad9f0d374763a50",
+      "9846cd104deb4095",
+      "80713009a92b1fb1",
+      "25b8f66cb5486055",
+      "25a206dee6cb2d38",
+      "10352a4c8044bff8",
+      "d1f398881a976c8c"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 1192,
+    "h": 502
+  },
+  {
+    "id": "b0150193e3cce710",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "f7b8f0b4a2f0c6c9",
+    "name": "ecriture influxdb",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "c2bbb4adbb91e2eb",
+      "e340056f7c0ff7e6",
+      "4f2f651b305df0d8",
+      "f8e8e4320c84ad84",
+      "b20175d86ac76169"
+    ],
+    "x": 94,
+    "y": 2119,
+    "w": 492,
+    "h": 202
+  },
+  {
+    "id": "543a74289e049295",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "f7b8f0b4a2f0c6c9",
+    "name": "calcul pinst",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "2c63586ece8ae18a",
+      "543a55099b4d2327",
+      "06e4c17b8ac467e1",
+      "af3687a9f899e8da",
+      "9a0856ef24c6ecb1",
+      "905240083e6bd5a2",
+      "e57340f8784de737",
+      "1d84aac6c8e2a838",
+      "eaf239f4e4fd9d20"
+    ],
+    "x": 94,
+    "y": 739,
+    "w": 1182,
+    "h": 142
+  },
+  {
+    "id": "213d292b79e5fbcc",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "f7b8f0b4a2f0c6c9",
+    "name": "Set l'index de chaque période à l'index courant au début de période",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "c84ad49be11b1bd9",
+      "1cde90641d601c65",
+      "78a8877be3e75897",
+      "2b15984780ad93da",
+      "7e164b153068131f",
+      "cdfbaf7f971088a0",
+      "c77835080e9f86f2",
+      "aaa4d5f3593d6d65",
+      "f897b93a09482883",
+      "6430485715d1b2a6",
+      "8c5505de0a4d3dcd",
+      "5b6872ce327b1bf3",
+      "1cde90641d601c65"
+    ],
+    "x": 94,
+    "y": 919,
+    "w": 892,
+    "h": 562
+  },
+  {
+    "id": "d0f7ea2cfc4571a3",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "f7b8f0b4a2f0c6c9",
+    "name": "Compte le nombre d'indexes passé depuis le début de chaque période (toutes les minutes)",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "82ef8057da8c77aa",
+      "6c25a04857d1716e",
+      "f2de43c0a6cb7bf1",
+      "9a2254b818f75188",
+      "86b0a6aba2f70fe6",
+      "9bc81eccbc500c73",
+      "997f6535a7397b5d",
+      "c548f2f0529f2243",
+      "b4e36b962e02a910",
+      "38fbbacd76a1ebc8",
+      "bcd49af0e6417d46",
+      "7a20b1c05a7278f5"
+    ],
+    "x": 94,
+    "y": 1519,
+    "w": 802,
+    "h": 562
+  },
+  {
+    "id": "9817cea0e8546fbb",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - config",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9cd020968fe2a19d",
+      "2cdbc171bc86cb06"
+    ],
+    "x": 68,
+    "y": 2385.5,
+    "w": 1714,
+    "h": 321.5
+  },
+  {
+    "id": "9cd020968fe2a19d",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "9817cea0e8546fbb",
+    "name": "linky - config - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "96d8b83164d22086",
+      "2a688b0630f5cca4",
+      "60a457c83fc5f610",
+      "b52eeb9d79637d39",
+      "5f80823cb39801f0",
+      "33c0603ad410d85c"
+    ],
+    "x": 94,
+    "y": 2419,
+    "w": 622,
+    "h": 202
+  },
+  {
+    "id": "2cdbc171bc86cb06",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "g": "9817cea0e8546fbb",
+    "name": "linky - config - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7e386532c9061f5e",
+      "778b0602db797687",
+      "876d9a75aa665dc1",
+      "9a7fb4052f4efa9d",
+      "7472a7716d5e79fb",
+      "7a340e512e7cec9a",
+      "6ed80a0ca731e211",
+      "3c6f3e3cd994cec9",
+      "18fc113bdb7e4440",
+      "d997a0effd6d0126",
+      "7162b7919ee04e41",
+      "b8a1f342f4e14446"
+    ],
+    "x": 814,
+    "y": 2411.5,
+    "w": 942,
+    "h": 269.5
+  },
+  {
+    "id": "14bfb846eebf04b4",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - scene - current to offloading",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "8a93715d93e96ec9",
+      "ab2015a7036a8a2d",
+      "d5fc9c7840e287c6",
+      "4d9eef91906c3f6b",
+      "5ac5e9a27184058b",
+      "71d2809882564006",
+      "b497d6eeef074cdf",
+      "a97c1309cdf39d94",
+      "c34352d41e16989c",
+      "4638c42f2e097580",
+      "bcab76bcab7be22c",
+      "2aaa6917be59ea44"
+    ],
+    "x": 94,
+    "y": 2779,
+    "w": 1822,
+    "h": 142
+  },
+  {
+    "id": "3325e4593048135a",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "3df91d363faee835",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "0ad08e9e45d5435d"
+      ]
+    ]
+  },
+  {
+    "id": "05787fb2b77146c8",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "3df91d363faee835",
+    "name": "linky - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "3325e4593048135a"
+      ]
+    ]
+  },
+  {
+    "id": "0ad08e9e45d5435d",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "3df91d363faee835",
+    "name": "linky - bucket",
+    "mode": "link",
+    "links": [
+      "60a457c83fc5f610"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "d81e30fc75183164",
+    "type": "catch",
+    "z": "a1e22fa468f03c15",
+    "g": "8e10979a9d4df3e5",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "4ae579561784bac0"
+      ]
+    ]
+  },
+  {
+    "id": "4ae579561784bac0",
+    "type": "debug",
+    "z": "a1e22fa468f03c15",
+    "g": "8e10979a9d4df3e5",
+    "name": "linky - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "8546ac1e37b1b1fc",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "type",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.IINST",
+        "pt": "msg",
+        "to": "$number(msg.payload.IINST.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.HCHC",
+        "pt": "msg",
+        "to": "$number(msg.payload.HCHC.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.HCHP",
+        "pt": "msg",
+        "to": "$number(msg.payload.HCHP.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.PAPP",
+        "pt": "msg",
+        "to": "$number(msg.payload.PAPP.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.IMAX",
+        "pt": "msg",
+        "to": "$number(msg.payload.IMAX.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.ISOUSC",
+        "pt": "msg",
+        "to": "$number(msg.payload.ISOUSC.value)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.PTEC",
+        "pt": "msg",
+        "to": "payload.PTEC.value",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "539176543f03340e",
+        "6969a430e98620f8"
+      ]
+    ]
+  },
+  {
+    "id": "1ef3db77515c5330",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "teleinfo",
+    "links": [
+      "1f088dee7d4ae695"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "8546ac1e37b1b1fc"
+      ]
+    ]
+  },
+  {
+    "id": "df67aa8c4eb08c4b",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 360,
+    "wires": [
+      [
+        "9846cd104deb4095",
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "6b5f520afcf9e941",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 300,
+    "wires": [
+      [
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "1c6a5f6cf7a4171a",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": true,
+    "property": "payload",
+    "x": 930,
+    "y": 600,
+    "wires": [
+      [
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "e3ec96cdb6ecec1d",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 420,
+    "wires": [
+      [
+        "cad9f0d374763a50",
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "2235915bcd1a9228",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 480,
+    "wires": [
+      [
+        "c40a25fa809f3f3f",
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "df89dd445c170c34",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 660,
+    "wires": [
+      [
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "539176543f03340e",
+    "type": "delay",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "1msg/2s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "2",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "outputs": 1,
+    "x": 440,
+    "y": 600,
+    "wires": [
+      [
+        "528d193f3ad76c04",
+        "d259cbfd50910254"
+      ]
+    ]
+  },
+  {
+    "id": "528d193f3ad76c04",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "PAPP",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "puissance",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.PAPP",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "W",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 660,
+    "wires": [
+      [
+        "df89dd445c170c34"
+      ]
+    ]
+  },
+  {
+    "id": "d259cbfd50910254",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "IINST",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "intensite",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.IINST",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "A",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 600,
+    "wires": [
+      [
+        "1c6a5f6cf7a4171a"
+      ]
+    ]
+  },
+  {
+    "id": "4f66f48da30fbb41",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "INDEX HC WH",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "index_hc",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.HCHC",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "Wh",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 640,
+    "y": 480,
+    "wires": [
+      [
+        "2235915bcd1a9228"
+      ]
+    ]
+  },
+  {
+    "id": "5543b63f4f841d35",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "INDEX HP WH",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "index_hp",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.HCHP",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "Wh",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 640,
+    "y": 420,
+    "wires": [
+      [
+        "e3ec96cdb6ecec1d"
+      ]
+    ]
+  },
+  {
+    "id": "16e115607aca11e2",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "INDEX TT KWH",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "index_total",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "(msg.payload.HCHC+ msg.payload.HCHP) / 1000",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "kWh",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 640,
+    "y": 300,
+    "wires": [
+      [
+        "6b5f520afcf9e941"
+      ]
+    ]
+  },
+  {
+    "id": "573b86bbb0b274cd",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "INDEX TT WH",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "index_total",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload.HCHC+ msg.payload.HCHP",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "Wh",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 640,
+    "y": 360,
+    "wires": [
+      [
+        "df67aa8c4eb08c4b"
+      ]
+    ]
+  },
+  {
+    "id": "6969a430e98620f8",
+    "type": "delay",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "1msg/15s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "15",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "outputs": 1,
+    "x": 440,
+    "y": 300,
+    "wires": [
+      [
+        "4f66f48da30fbb41",
+        "5543b63f4f841d35",
+        "16e115607aca11e2",
+        "573b86bbb0b274cd",
+        "25a206dee6cb2d38"
+      ]
+    ]
+  },
+  {
+    "id": "c40a25fa809f3f3f",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hc_wh",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1150,
+    "y": 480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "cad9f0d374763a50",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hp_wh",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1150,
+    "y": 420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9846cd104deb4095",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_total_wh",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1150,
+    "y": 360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "80713009a92b1fb1",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "format",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload[0]",
+        "pt": "msg",
+        "to": "{msg.field:msg.tmp}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 240,
+    "wires": [
+      [
+        "25b8f66cb5486055"
+      ]
+    ]
+  },
+  {
+    "id": "25b8f66cb5486055",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "influxdb",
+    "links": [
+      "e340056f7c0ff7e6"
+    ],
+    "x": 1215,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "25a206dee6cb2d38",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "PTEC",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tarif_hp",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.PTEC",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "T",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 540,
+    "wires": [
+      [
+        "10352a4c8044bff8"
+      ]
+    ]
+  },
+  {
+    "id": "10352a4c8044bff8",
+    "type": "function",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "HPHC",
+    "func": "if (msg.payload==\"HP\"){\n    msg.payload=1;\n    return msg;\n}\nelse if(msg.payload==\"HC\"){\n    msg.payload=0;\n    return msg;\n}",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 770,
+    "y": 540,
+    "wires": [
+      [
+        "d1f398881a976c8c"
+      ]
+    ]
+  },
+  {
+    "id": "d1f398881a976c8c",
+    "type": "rbe",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "property": "payload",
+    "x": 930,
+    "y": 540,
+    "wires": [
+      [
+        "80713009a92b1fb1"
+      ]
+    ]
+  },
+  {
+    "id": "e340056f7c0ff7e6",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "b0150193e3cce710",
+    "name": "influxdb",
+    "links": [
+      "1d84aac6c8e2a838",
+      "25b8f66cb5486055",
+      "f2de43c0a6cb7bf1"
+    ],
+    "x": 135,
+    "y": 2220,
+    "wires": [
+      [
+        "4f2f651b305df0d8"
+      ]
+    ]
+  },
+  {
+    "id": "4f2f651b305df0d8",
+    "type": "delay",
+    "z": "a1e22fa468f03c15",
+    "g": "b0150193e3cce710",
+    "name": "50ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2220,
+    "wires": [
+      [
+        "c2bbb4adbb91e2eb",
+        "f8e8e4320c84ad84",
+        "b20175d86ac76169"
+      ]
+    ]
+  },
+  {
+    "id": "f8e8e4320c84ad84",
+    "type": "debug",
+    "z": "a1e22fa468f03c15",
+    "g": "b0150193e3cce710",
+    "name": "linky to influxdb",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 460,
+    "y": 2160,
+    "wires": []
+  },
+  {
+    "id": "b20175d86ac76169",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "b0150193e3cce710",
+    "name": "increment influxdb stat",
+    "mode": "link",
+    "links": [
+      "b4dcaf3216134966"
+    ],
+    "x": 395,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "06e4c17b8ac467e1",
+    "type": "join",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "",
+    "mode": "custom",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": false,
+    "timeout": "",
+    "count": "2",
+    "reduceRight": false,
+    "reduceExp": "",
+    "reduceInit": "",
+    "reduceInitType": "",
+    "reduceFixup": "",
+    "x": 770,
+    "y": 780,
+    "wires": [
+      [
+        "af3687a9f899e8da"
+      ]
+    ]
+  },
+  {
+    "id": "af3687a9f899e8da",
+    "type": "function",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "",
+    "func": "var old = msg.payload.old.value;\nvar current = msg.payload.new.value;\nvar diff_index = current - old;\nvar diff_seconds = (msg.payload.new.time - msg.payload.old.time) / 1000;\nif (diff_seconds == 0) {\n    var conso = 0;\n} else {\n    var coeff = diff_seconds / 3600\n    var conso = diff_index / coeff\n    conso = Math.round(conso*100)/100\n}\nvar msg2 = {};\nmsg2.payload = {};\nmsg2.payload.conso = conso;\nmsg2.payload.diff_sec = diff_seconds;\nmsg2.payload.old_time = msg.payload.old.time;\nmsg2.payload.new_time = msg.payload.new.time;\nreturn msg2;",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 940,
+    "y": 780,
+    "wires": [
+      [
+        "eaf239f4e4fd9d20"
+      ]
+    ]
+  },
+  {
+    "id": "9a0856ef24c6ecb1",
+    "type": "inject",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "90",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "30",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 210,
+    "y": 780,
+    "wires": [
+      [
+        "2c63586ece8ae18a",
+        "543a55099b4d2327"
+      ]
+    ]
+  },
+  {
+    "id": "905240083e6bd5a2",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "old",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "old",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "tmp.value",
+        "pt": "msg",
+        "to": "payload[0]._value",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "tmp.time",
+        "pt": "msg",
+        "to": "$toMillis(msg.payload[0]._time)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 780,
+    "wires": [
+      [
+        "06e4c17b8ac467e1"
+      ]
+    ]
+  },
+  {
+    "id": "e57340f8784de737",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "new",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "new",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "tmp.value",
+        "pt": "msg",
+        "to": "payload[0]._value",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "tmp.time",
+        "pt": "msg",
+        "to": "$toMillis(msg.payload[0]._time)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 840,
+    "wires": [
+      [
+        "06e4c17b8ac467e1"
+      ]
+    ]
+  },
+  {
+    "id": "1d84aac6c8e2a838",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "influxdb",
+    "links": [
+      "e340056f7c0ff7e6"
+    ],
+    "x": 1235,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "eaf239f4e4fd9d20",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "format",
+    "rules": [
+      {
+        "t": "set",
+        "p": "conso",
+        "pt": "msg",
+        "to": "$number(msg.payload.conso)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload[0]",
+        "pt": "msg",
+        "to": "{\"conso_puissance\":msg.conso}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "W",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 780,
+    "wires": [
+      [
+        "1d84aac6c8e2a838"
+      ]
+    ]
+  },
+  {
+    "id": "c84ad49be11b1bd9",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_total_wh_start_day",
+        "pt": "flow",
+        "to": "index_total_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 960,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "78a8877be3e75897",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_total_wh_start_month",
+        "pt": "flow",
+        "to": "index_total_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 800,
+    "y": 1020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "2b15984780ad93da",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_total_wh_start_year",
+        "pt": "flow",
+        "to": "index_total_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7e164b153068131f",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "period select",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "day",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "month",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "year",
+        "vt": "str"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 3,
+    "x": 510,
+    "y": 1020,
+    "wires": [
+      [
+        "c84ad49be11b1bd9",
+        "c77835080e9f86f2",
+        "5b6872ce327b1bf3"
+      ],
+      [
+        "78a8877be3e75897",
+        "aaa4d5f3593d6d65",
+        "8c5505de0a4d3dcd"
+      ],
+      [
+        "2b15984780ad93da",
+        "f897b93a09482883",
+        "6430485715d1b2a6"
+      ]
+    ]
+  },
+  {
+    "id": "cdfbaf7f971088a0",
+    "type": "inject",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "Manual init >> DO NOT PRESS UNTIL REALLY NEEDED >>",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 360,
+    "y": 1440,
+    "wires": [
+      [
+        "c84ad49be11b1bd9",
+        "78a8877be3e75897",
+        "2b15984780ad93da",
+        "c77835080e9f86f2",
+        "aaa4d5f3593d6d65",
+        "f897b93a09482883",
+        "5b6872ce327b1bf3",
+        "8c5505de0a4d3dcd",
+        "6430485715d1b2a6"
+      ]
+    ]
+  },
+  {
+    "id": "c77835080e9f86f2",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hp_wh_start_day",
+        "pt": "flow",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 1140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "aaa4d5f3593d6d65",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hp_wh_start_month",
+        "pt": "flow",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f897b93a09482883",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hp_wh_start_year",
+        "pt": "flow",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 1260,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6430485715d1b2a6",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hc_wh_start_year",
+        "pt": "flow",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 1440,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8c5505de0a4d3dcd",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hc_wh_start_month",
+        "pt": "flow",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 1380,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5b6872ce327b1bf3",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index_hc_wh_start_day",
+        "pt": "flow",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 1320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "82ef8057da8c77aa",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_total_wh_end_day",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_total_day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_total_wh_start_day",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_total_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_total_wh_end_day",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1560,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "6c25a04857d1716e",
+    "type": "inject",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "60",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "10",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 210,
+    "y": 1560,
+    "wires": [
+      [
+        "82ef8057da8c77aa",
+        "86b0a6aba2f70fe6",
+        "9bc81eccbc500c73",
+        "997f6535a7397b5d",
+        "b4e36b962e02a910",
+        "38fbbacd76a1ebc8",
+        "bcd49af0e6417d46",
+        "7a20b1c05a7278f5",
+        "c548f2f0529f2243"
+      ]
+    ]
+  },
+  {
+    "id": "f2de43c0a6cb7bf1",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "influxdb",
+    "links": [
+      "e340056f7c0ff7e6"
+    ],
+    "x": 855,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "9a2254b818f75188",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "format",
+    "rules": [
+      {
+        "t": "set",
+        "p": "index",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload[0]",
+        "pt": "msg",
+        "to": "{msg.field:msg.index}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "Wh",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 730,
+    "y": 1560,
+    "wires": [
+      [
+        "f2de43c0a6cb7bf1"
+      ]
+    ]
+  },
+  {
+    "id": "86b0a6aba2f70fe6",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_total_wh_end_month",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_total_month",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_total_wh_start_month",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_total_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_total_wh_end_month",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 460,
+    "y": 1620,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "9bc81eccbc500c73",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_total_wh_end_year",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_total_year",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_total_wh_start_year",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_total_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_total_wh_end_year",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1680,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "997f6535a7397b5d",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hp_wh_end_day",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hp_day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hp_wh_start_day",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hp_wh_end_day",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1740,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "c548f2f0529f2243",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hp_wh_end_month",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hp_month",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hp_wh_start_month",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hp_wh_end_month",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1800,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "b4e36b962e02a910",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hp_wh_end_year",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hp_year",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hp_wh_start_year",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hp_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hp_wh_end_year",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1860,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "38fbbacd76a1ebc8",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hc_wh_end_day",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hc_day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hc_wh_start_day",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hc_wh_end_day",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 440,
+    "y": 1920,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "bcd49af0e6417d46",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hc_wh_end_month",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hc_month",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hc_wh_start_month",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hc_wh_end_month",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1980,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "7a20b1c05a7278f5",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "d0f7ea2cfc4571a3",
+    "name": "index_hc_wh_end_year",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "conso_hc_year",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "start",
+        "pt": "msg",
+        "to": "index_hc_wh_start_year",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "end",
+        "pt": "msg",
+        "to": "index_hc_wh",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.end) - $number(msg.start)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index_hc_wh_end_year",
+        "pt": "flow",
+        "to": "end",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 2040,
+    "wires": [
+      [
+        "9a2254b818f75188"
+      ]
+    ]
+  },
+  {
+    "id": "96d8b83164d22086",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "config / offloading current limit / number / 42",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading current limit",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "42",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 2520,
+    "wires": [
+      [
+        "2a688b0630f5cca4"
+      ]
+    ]
+  },
+  {
+    "id": "2a688b0630f5cca4",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "linky - config - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 675,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "60a457c83fc5f610",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "linky - config - device",
+    "links": [
+      "0ad08e9e45d5435d"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "96d8b83164d22086",
+        "b52eeb9d79637d39",
+        "33c0603ad410d85c"
+      ]
+    ]
+  },
+  {
+    "id": "b52eeb9d79637d39",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "config / offloading reset delay / number / 15",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading reset delay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "15",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 2580,
+    "wires": [
+      [
+        "2a688b0630f5cca4"
+      ]
+    ]
+  },
+  {
+    "id": "7e386532c9061f5e",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "linky - config - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 855,
+    "y": 2460,
+    "wires": [
+      [
+        "876d9a75aa665dc1"
+      ]
+    ]
+  },
+  {
+    "id": "778b0602db797687",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "path",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/config/linky id'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/config/offloading current limit'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/config/offloading reset delay'",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 1150,
+    "y": 2460,
+    "wires": [
+      [
+        "b8a1f342f4e14446"
+      ],
+      [
+        "3c6f3e3cd994cec9"
+      ],
+      [
+        "d997a0effd6d0126"
+      ]
+    ]
+  },
+  {
+    "id": "876d9a75aa665dc1",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 990,
+    "y": 2460,
+    "wires": [
+      [
+        "778b0602db797687"
+      ]
+    ]
+  },
+  {
+    "id": "9a7fb4052f4efa9d",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "linky - config - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1715,
+    "y": 2520,
+    "wires": []
+  },
+  {
+    "id": "7472a7716d5e79fb",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1580,
+    "y": 2520,
+    "wires": [
+      [
+        "9a7fb4052f4efa9d"
+      ]
+    ]
+  },
+  {
+    "id": "7a340e512e7cec9a",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "linky - config - ui -load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 855,
+    "y": 2520,
+    "wires": [
+      [
+        "6ed80a0ca731e211",
+        "18fc113bdb7e4440",
+        "7162b7919ee04e41"
+      ]
+    ]
+  },
+  {
+    "id": "6ed80a0ca731e211",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.linky.config['offloading current limit']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 2580,
+    "wires": [
+      [
+        "3c6f3e3cd994cec9"
+      ]
+    ]
+  },
+  {
+    "id": "3c6f3e3cd994cec9",
+    "type": "ui-slider",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "group": "611358544679e8cf",
+    "name": "",
+    "label": "Intensité de délestage",
+    "tooltip": "",
+    "order": 2,
+    "width": 0,
+    "height": 0,
+    "passthru": false,
+    "outs": "end",
+    "topic": "offloading current limit",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "5",
+    "max": "45",
+    "step": "1",
+    "className": "",
+    "x": 1360,
+    "y": 2580,
+    "wires": [
+      [
+        "7472a7716d5e79fb"
+      ]
+    ]
+  },
+  {
+    "id": "18fc113bdb7e4440",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.linky.config['offloading reset delay']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 2640,
+    "wires": [
+      [
+        "d997a0effd6d0126"
+      ]
+    ]
+  },
+  {
+    "id": "d997a0effd6d0126",
+    "type": "ui-slider",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "group": "611358544679e8cf",
+    "name": "",
+    "label": "Délai de réinitialisation",
+    "tooltip": "",
+    "order": 3,
+    "width": 0,
+    "height": 0,
+    "passthru": false,
+    "outs": "end",
+    "topic": "offloading reset delay",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "60",
+    "step": "1",
+    "className": "",
+    "x": 1360,
+    "y": 2640,
+    "wires": [
+      [
+        "7472a7716d5e79fb"
+      ]
+    ]
+  },
+  {
+    "id": "8a93715d93e96ec9",
+    "type": "link in",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "linky - scene - current to offloading",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 2820,
+    "wires": [
+      [
+        "ab2015a7036a8a2d"
+      ]
+    ]
+  },
+  {
+    "id": "ab2015a7036a8a2d",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "home/linky/current",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/offloading",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 2820,
+    "wires": [
+      [
+        "4d9eef91906c3f6b"
+      ],
+      [
+        "4638c42f2e097580"
+      ]
+    ]
+  },
+  {
+    "id": "d5fc9c7840e287c6",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "current limit",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gte",
+        "v": "metrics.linky.config['offloading current limit']",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1090,
+    "y": 2820,
+    "wires": [
+      [
+        "2aaa6917be59ea44"
+      ]
+    ]
+  },
+  {
+    "id": "4d9eef91906c3f6b",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 2820,
+    "wires": [
+      [
+        "5ac5e9a27184058b"
+      ]
+    ]
+  },
+  {
+    "id": "5ac5e9a27184058b",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 660,
+    "y": 2820,
+    "wires": [
+      [
+        "71d2809882564006"
+      ]
+    ]
+  },
+  {
+    "id": "71d2809882564006",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "mode offloading",
+    "property": "metrics.system.mode.offloading",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 880,
+    "y": 2820,
+    "wires": [
+      [
+        "d5fc9c7840e287c6"
+      ]
+    ]
+  },
+  {
+    "id": "b497d6eeef074cdf",
+    "type": "trigger",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "set offloaded then automatic",
+    "op1": "offloaded",
+    "op2": "automatic",
+    "op1type": "str",
+    "op2type": "str",
+    "duration": "1",
+    "extend": true,
+    "overrideDelay": true,
+    "units": "min",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1500,
+    "y": 2820,
+    "wires": [
+      [
+        "c34352d41e16989c"
+      ]
+    ]
+  },
+  {
+    "id": "a97c1309cdf39d94",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "linky - scene - current to offloading",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1875,
+    "y": 2820,
+    "wires": []
+  },
+  {
+    "id": "c34352d41e16989c",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "device/system/mode/offloading",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1740,
+    "y": 2820,
+    "wires": [
+      [
+        "a97c1309cdf39d94"
+      ]
+    ]
+  },
+  {
+    "id": "4638c42f2e097580",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "mode offloading",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "offloaded",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 2880,
+    "wires": [
+      [
+        "bcab76bcab7be22c"
+      ]
+    ]
+  },
+  {
+    "id": "bcab76bcab7be22c",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 2880,
+    "wires": [
+      [
+        "2aaa6917be59ea44"
+      ]
+    ]
+  },
+  {
+    "id": "2aaa6917be59ea44",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "14bfb846eebf04b4",
+    "name": "delay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "metrics.linky.config['offloading reset delay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "$number(msg.delay)=0?1:msg.delay",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 2820,
+    "wires": [
+      [
+        "b497d6eeef074cdf"
+      ]
+    ]
+  },
+  {
+    "id": "c2bbb4adbb91e2eb",
+    "type": "influxdb out",
+    "z": "a1e22fa468f03c15",
+    "g": "b0150193e3cce710",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "linky",
+    "measurement": "",
+    "precision": "",
+    "retentionPolicy": "",
+    "database": "",
+    "precisionV18FluxV20": "s",
+    "retentionPolicyV18Flux": "",
+    "org": "iotredloop",
+    "bucket": "linky",
+    "x": 430,
+    "y": 2280,
+    "wires": []
+  },
+  {
+    "id": "2c63586ece8ae18a",
+    "type": "influxdb in",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "2min ago index",
+    "query": "from(bucket: \"linky\")\n  |> range(start: -120s, stop: now())\n  |> filter(fn: (r) => r[\"_field\"] == \"index_total\" and r[\"_measurement\"] == \"Wh\")\n  |> aggregateWindow(every: 1s, fn: last, createEmpty: false)\n  |> sort(columns: [\"_time\"], desc: false)\n  |> yield(name: \"last\")",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 420,
+    "y": 780,
+    "wires": [
+      [
+        "905240083e6bd5a2"
+      ]
+    ]
+  },
+  {
+    "id": "543a55099b4d2327",
+    "type": "influxdb in",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "last index",
+    "query": "from(bucket: \"linky\")\n  |> range(start: -60s, stop: now())\n  |> filter(fn: (r) => r[\"_field\"] == \"index_total\" and r[\"_measurement\"] == \"Wh\")\n  |> aggregateWindow(every: 1s, fn: last, createEmpty: false)\n  |> sort(columns: [\"_time\"], desc: true)\n  |> yield(name: \"last\")",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 400,
+    "y": 840,
+    "wires": [
+      [
+        "e57340f8784de737"
+      ]
+    ]
+  },
+  {
+    "id": "1cde90641d601c65",
+    "type": "cronplus",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "start periods",
+    "outputField": "payload",
+    "timeZone": "",
+    "persistDynamic": false,
+    "storeName": "",
+    "commandResponseMsgOutput": "output2",
+    "outputs": 2,
+    "options": [
+      {
+        "name": "day",
+        "topic": "day",
+        "payloadType": "default",
+        "payload": "",
+        "expressionType": "cron",
+        "expression": "0 0 0 * * ? *",
+        "location": "",
+        "offset": "0",
+        "solarType": "all",
+        "solarEvents": "sunrise,sunset"
+      },
+      {
+        "name": "month",
+        "topic": "month",
+        "payloadType": "default",
+        "payload": "",
+        "expressionType": "cron",
+        "expression": "0 0 0 1 * ? *",
+        "location": "",
+        "offset": "0",
+        "solarType": "all",
+        "solarEvents": "sunrise,sunset"
+      },
+      {
+        "name": "year",
+        "topic": "year",
+        "payloadType": "default",
+        "payload": "",
+        "expressionType": "cron",
+        "expression": "0 0 0 1 1 ? *",
+        "location": "",
+        "offset": "0",
+        "solarType": "all",
+        "solarEvents": "sunrise,sunset"
+      }
+    ],
+    "x": 210,
+    "y": 1020,
+    "wires": [
+      [
+        "7e164b153068131f"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "5f80823cb39801f0",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "config / linky id / number",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "linky id",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 2460,
+    "wires": [
+      [
+        "2a688b0630f5cca4"
+      ]
+    ]
+  },
+  {
+    "id": "7162b7919ee04e41",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.linky.config['linky id']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 2520,
+    "wires": [
+      [
+        "b8a1f342f4e14446"
+      ]
+    ]
+  },
+  {
+    "id": "b8a1f342f4e14446",
+    "type": "ui-text-input",
+    "z": "a1e22fa468f03c15",
+    "g": "2cdbc171bc86cb06",
+    "group": "611358544679e8cf",
+    "name": "linky id",
+    "label": "Linky ID",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "topic": "linky id",
+    "topicType": "str",
+    "mode": "text",
+    "delay": 300,
+    "passthru": false,
+    "sendOnDelay": false,
+    "sendOnBlur": true,
+    "sendOnEnter": true,
+    "className": "",
+    "x": 1310,
+    "y": 2520,
+    "wires": [
+      [
+        "7472a7716d5e79fb"
+      ]
+    ]
+  },
+  {
+    "id": "33c0603ad410d85c",
+    "type": "credentials",
+    "z": "a1e22fa468f03c15",
+    "g": "9cd020968fe2a19d",
+    "name": "linky id",
+    "props": [
+      {
+        "value": "default",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 2460,
+    "wires": [
+      [
+        "5f80823cb39801f0"
+      ]
+    ]
+  }
+]
