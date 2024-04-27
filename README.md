@@ -9,7 +9,7 @@ Main flows.json was cut into multiple files by tabs using node-red-contrib-flow-
 
 ## REQUIREMENTS
 
-Flows are written under Node-red v1.3.9 with following packages :
+Flows are written under Node-red v3.1.9 with following packages :
 
 * node-red-contrib-flow-manager 0.7.4
 * node-red-contrib-msg-speed 2.1.0
