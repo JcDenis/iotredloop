@@ -16,6 +16,7 @@ Flows are written under Node-red v3.1.9 with following packages :
 * node-red-contrib-queue-gate 1.5.5
 * node-red-contrib-simple-gate 0.5.2
 * node-red-contrib-stackhero-influxdb-v2 1.0.4
+* @flowfuse/node-red-dashboard 1.8.1 (nodered dashboard 2)
 
 Flows also required a working MQTT broker and a InfluxDB database.
 It additionnaly uses some Unifi and Amazon Alexa stuff.

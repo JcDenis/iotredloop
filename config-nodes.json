@@ -221,5 +221,116 @@
     "willMsg": {},
     "userProps": "",
     "sessionExpiry": ""
+  },
+  {
+    "id": "2a41126e36225675",
+    "type": "ui-page",
+    "name": "Configuration",
+    "ui": "2d75e4809d2a6fbf",
+    "path": "/config",
+    "icon": "tune",
+    "layout": "flex",
+    "theme": "0e53487482752cfe",
+    "order": 6,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
+  },
+  {
+    "id": "fcf92ce9c73cd90d",
+    "type": "ui-page",
+    "name": "Pièces",
+    "ui": "2d75e4809d2a6fbf",
+    "path": "/pieces",
+    "icon": "door",
+    "layout": "flex",
+    "theme": "0e53487482752cfe",
+    "order": 3,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
+  },
+  {
+    "id": "d464a60fe4e4c421",
+    "type": "ui-group",
+    "name": "Tableau de bord",
+    "page": "2a41126e36225675",
+    "width": "6",
+    "height": "1",
+    "order": 3,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
+  },
+  {
+    "id": "36396f5285df476c",
+    "type": "ui-group",
+    "name": "Pièce",
+    "page": "fcf92ce9c73cd90d",
+    "width": "6",
+    "height": "5",
+    "order": 1,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
+  },
+  {
+    "id": "0e53487482752cfe",
+    "type": "ui-theme",
+    "name": "home theme",
+    "colors": {
+      "surface": "#ffffff",
+      "primary": "#aebd84",
+      "bgPage": "#eeeeee",
+      "groupBg": "#fafafa",
+      "groupOutline": "#cccccc"
+    },
+    "sizes": {
+      "pagePadding": "10px",
+      "groupGap": "10px",
+      "groupBorderRadius": "4px",
+      "widgetGap": "10px"
+    }
+  },
+  {
+    "id": "2d75e4809d2a6fbf",
+    "type": "ui-base",
+    "name": "home",
+    "path": "/dashboard",
+    "includeClientData": true,
+    "acceptsClientConfig": [
+      "ui-notification",
+      "ui-control"
+    ],
+    "showPathInSidebar": false,
+    "navigationStyle": "icon"
+  },
+  {
+    "id": "018c8ded1126b49a",
+    "type": "ui-group",
+    "name": "Noyau",
+    "page": "2a41126e36225675",
+    "width": "6",
+    "height": "3",
+    "order": 8,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
+  },
+  {
+    "id": "88a7ce8d8fd7e72b",
+    "type": "ui-group",
+    "name": "Suppression de metric",
+    "page": "2a41126e36225675",
+    "width": "6",
+    "height": "1",
+    "order": 6,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
   }
 ]

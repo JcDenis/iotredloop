@@ -1,0 +1,240 @@
+[
+  {
+    "id": "e19f53e3dc7ab928",
+    "type": "tab",
+    "label": "R.Home",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "e6f586ce062979fb",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "d210ac6cc3e866c0",
+      "ef0d3b8996ec469c",
+      "fb0afb89fb191395"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "2b5e040737ce3d94",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e32bfa4021bdd7a5",
+      "8a4cad272a925665"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "c76679b82b664526",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - ui - notification",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "d1f40d903ba49ae7",
+      "c32288ec6571a37f",
+      "32eb12f106b8c786"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 492,
+    "h": 82
+  },
+  {
+    "id": "d210ac6cc3e866c0",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "e6f586ce062979fb",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "home",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "telegram_message",
+        "pt": "flow",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "fb0afb89fb191395"
+      ]
+    ]
+  },
+  {
+    "id": "ef0d3b8996ec469c",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "e6f586ce062979fb",
+    "name": "home - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "d210ac6cc3e866c0"
+      ]
+    ]
+  },
+  {
+    "id": "fb0afb89fb191395",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "e6f586ce062979fb",
+    "name": "home - bucket",
+    "mode": "link",
+    "links": [],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "e32bfa4021bdd7a5",
+    "type": "catch",
+    "z": "e19f53e3dc7ab928",
+    "g": "2b5e040737ce3d94",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "8a4cad272a925665"
+      ]
+    ]
+  },
+  {
+    "id": "8a4cad272a925665",
+    "type": "debug",
+    "z": "e19f53e3dc7ab928",
+    "g": "2b5e040737ce3d94",
+    "name": "home - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "d1f40d903ba49ae7",
+    "type": "ui-notification",
+    "z": "e19f53e3dc7ab928",
+    "g": "c76679b82b664526",
+    "ui": "2d75e4809d2a6fbf",
+    "position": "center center",
+    "colorDefault": true,
+    "color": "#000000",
+    "displayTime": "2",
+    "showCountdown": true,
+    "outputs": 0,
+    "allowDismiss": true,
+    "dismissText": "Close",
+    "raw": false,
+    "className": "",
+    "name": "",
+    "x": 1430,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "c32288ec6571a37f",
+    "type": "switch",
+    "z": "e19f53e3dc7ab928",
+    "g": "c76679b82b664526",
+    "name": "!empty",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "string",
+        "vt": "string"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1230,
+    "y": 60,
+    "wires": [
+      [
+        "d1f40d903ba49ae7"
+      ]
+    ]
+  },
+  {
+    "id": "32eb12f106b8c786",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "c76679b82b664526",
+    "name": "home - ui - notification",
+    "links": [
+      "1ff5fd68e1799ae5"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "c32288ec6571a37f"
+      ]
+    ]
+  }
+]

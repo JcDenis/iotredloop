@@ -1,0 +1,1208 @@
+[
+  {
+    "id": "aab0c030de7df5cc",
+    "type": "tab",
+    "label": "K.Room",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "0aeb80f7dfc7025e",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "606f3caa9058900f",
+      "4e6003732b266fe2",
+      "68c4344a4704c54f"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "287e49684dc25aac",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4ba5de5239f9fc87",
+      "1c06cdf0f784558b"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "f6132c9f3c5a2911",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - metric",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "116de42631d4b17a",
+      "f138e16b633d9429",
+      "2690f4e06626ebda"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "8ebd43deda9d56d4",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - config",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0bdefb56ee5ef918",
+      "fedaeb34f9bc97e4"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1454,
+    "h": 194
+  },
+  {
+    "id": "b64c96e257072f51",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - selection",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "66835e34ae95f3f0",
+      "9ee5e12567650c9d",
+      "3b74b2448cdb18a9",
+      "b2e5e7af716d4ec6",
+      "aa39991b7847c574",
+      "1dd86a8b8b446749",
+      "3ec4a86ec9ec37f6",
+      "ef424db05e8a1103",
+      "1c55a9cf641c38ba",
+      "4ed33d50e1b4ebc9",
+      "656d1866a8ae8cf8",
+      "9e4bfee0db3051d4",
+      "74172837e07ab80d",
+      "1be6ca3c2b8615a2",
+      "06976c9133796ab8",
+      "3d2ea19ae9c4b9d2",
+      "9043871af737eb1a",
+      "b6323e1460f6f50c",
+      "eed5df5df9eb8030",
+      "b375ca01bb8f1e43",
+      "dc4343f890e4a3e1",
+      "57e1a96c1bf54302"
+    ],
+    "x": 94,
+    "y": 439,
+    "w": 1432,
+    "h": 442
+  },
+  {
+    "id": "0bdefb56ee5ef918",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "g": "8ebd43deda9d56d4",
+    "name": "room - config - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "177aee50c214945c",
+      "ca620b08c9922bd0",
+      "8d6827df412a4059"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 502,
+    "h": 82
+  },
+  {
+    "id": "fedaeb34f9bc97e4",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "g": "8ebd43deda9d56d4",
+    "name": "room - config - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b6c03b0d5a9952c9",
+      "9a20f95447f8ddfd",
+      "d4f555ae99a41fee",
+      "cd4ebdd2c6d86368",
+      "48ee82efe7b41570",
+      "290e5853a51cb170",
+      "e15462f85288d3c0"
+    ],
+    "x": 694,
+    "y": 199,
+    "w": 802,
+    "h": 142
+  },
+  {
+    "id": "606f3caa9058900f",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "0aeb80f7dfc7025e",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "flow",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "index",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "68c4344a4704c54f"
+      ]
+    ]
+  },
+  {
+    "id": "4e6003732b266fe2",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "0aeb80f7dfc7025e",
+    "name": "room - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "606f3caa9058900f"
+      ]
+    ]
+  },
+  {
+    "id": "68c4344a4704c54f",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "0aeb80f7dfc7025e",
+    "name": "room - bucket",
+    "mode": "link",
+    "links": [
+      "177aee50c214945c"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "4ba5de5239f9fc87",
+    "type": "catch",
+    "z": "aab0c030de7df5cc",
+    "g": "287e49684dc25aac",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "1c06cdf0f784558b"
+      ]
+    ]
+  },
+  {
+    "id": "1c06cdf0f784558b",
+    "type": "debug",
+    "z": "aab0c030de7df5cc",
+    "g": "287e49684dc25aac",
+    "name": "room - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "116de42631d4b17a",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "f6132c9f3c5a2911",
+    "name": "room - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1355,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "f138e16b633d9429",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "f6132c9f3c5a2911",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "delete",
+        "p": "path",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1220,
+    "y": 60,
+    "wires": [
+      [
+        "116de42631d4b17a"
+      ]
+    ]
+  },
+  {
+    "id": "2690f4e06626ebda",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "f6132c9f3c5a2911",
+    "name": "room - metric",
+    "links": [],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "f138e16b633d9429"
+      ]
+    ]
+  },
+  {
+    "id": "177aee50c214945c",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "0bdefb56ee5ef918",
+    "name": "room - config - device",
+    "links": [
+      "68c4344a4704c54f"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "ca620b08c9922bd0"
+      ]
+    ]
+  },
+  {
+    "id": "ca620b08c9922bd0",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "0bdefb56ee5ef918",
+    "name": "config / reset timer / number / 5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "reset timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "5",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 240,
+    "wires": [
+      [
+        "8d6827df412a4059"
+      ]
+    ]
+  },
+  {
+    "id": "8d6827df412a4059",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "0bdefb56ee5ef918",
+    "name": "room - config - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "b6c03b0d5a9952c9",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "room - config - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 240,
+    "wires": [
+      [
+        "d4f555ae99a41fee"
+      ]
+    ]
+  },
+  {
+    "id": "9a20f95447f8ddfd",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "room - config - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1455,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "d4f555ae99a41fee",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "check path",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "room/config/reset timer",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 890,
+    "y": 240,
+    "wires": [
+      [
+        "cd4ebdd2c6d86368"
+      ]
+    ]
+  },
+  {
+    "id": "48ee82efe7b41570",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1320,
+    "y": 300,
+    "wires": [
+      [
+        "9a20f95447f8ddfd"
+      ]
+    ]
+  },
+  {
+    "id": "290e5853a51cb170",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "room - config - ui - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 735,
+    "y": 300,
+    "wires": [
+      [
+        "e15462f85288d3c0"
+      ]
+    ]
+  },
+  {
+    "id": "e15462f85288d3c0",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "name": "from global metrics",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]config['reset timer']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 910,
+    "y": 300,
+    "wires": [
+      [
+        "cd4ebdd2c6d86368"
+      ]
+    ]
+  },
+  {
+    "id": "66835e34ae95f3f0",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "set room",
+    "rules": [
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "page_title",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.payload]",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "index",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 280,
+    "y": 720,
+    "wires": [
+      [
+        "3b74b2448cdb18a9",
+        "b375ca01bb8f1e43"
+      ]
+    ]
+  },
+  {
+    "id": "9ee5e12567650c9d",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "enabled metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1100,
+    "y": 840,
+    "wires": [
+      [
+        "dc4343f890e4a3e1"
+      ]
+    ]
+  },
+  {
+    "id": "3b74b2448cdb18a9",
+    "type": "split",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "split bucket",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "measurement",
+    "x": 470,
+    "y": 780,
+    "wires": [
+      [
+        "b2e5e7af716d4ec6"
+      ]
+    ]
+  },
+  {
+    "id": "b2e5e7af716d4ec6",
+    "type": "split",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "split measurement",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 690,
+    "y": 780,
+    "wires": [
+      [
+        "aa39991b7847c574"
+      ]
+    ]
+  },
+  {
+    "id": "aa39991b7847c574",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "cleanup",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 900,
+    "y": 780,
+    "wires": [
+      [
+        "9ee5e12567650c9d"
+      ]
+    ]
+  },
+  {
+    "id": "1dd86a8b8b446749",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "disabled elements",
+    "rules": [
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 660,
+    "wires": [
+      [
+        "9e4bfee0db3051d4"
+      ]
+    ]
+  },
+  {
+    "id": "3ec4a86ec9ec37f6",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - selection - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 840,
+    "wires": [
+      [
+        "ef424db05e8a1103"
+      ]
+    ]
+  },
+  {
+    "id": "ef424db05e8a1103",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "check bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "room",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 840,
+    "wires": [
+      [
+        "9ee5e12567650c9d"
+      ]
+    ]
+  },
+  {
+    "id": "1c55a9cf641c38ba",
+    "type": "trigger",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "wait delay then reset visibility",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "str",
+    "duration": "30",
+    "extend": true,
+    "overrideDelay": true,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 580,
+    "y": 540,
+    "wires": [
+      [
+        "4ed33d50e1b4ebc9"
+      ]
+    ]
+  },
+  {
+    "id": "4ed33d50e1b4ebc9",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "unset room",
+    "rules": [
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "flow",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 830,
+    "y": 480,
+    "wires": [
+      [
+        "9043871af737eb1a"
+      ]
+    ]
+  },
+  {
+    "id": "656d1866a8ae8cf8",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "set visibility delay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "metrics.room.config['reset timer']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "msg.delay*60000",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 310,
+    "y": 540,
+    "wires": [
+      [
+        "1c55a9cf641c38ba"
+      ]
+    ]
+  },
+  {
+    "id": "9e4bfee0db3051d4",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - selection - reset",
+    "mode": "link",
+    "links": [],
+    "x": 1435,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "74172837e07ab80d",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - seletion - select",
+    "mode": "link",
+    "links": [],
+    "x": 1395,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "1be6ca3c2b8615a2",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - selection - select",
+    "links": [],
+    "x": 135,
+    "y": 660,
+    "wires": [
+      [
+        "1dd86a8b8b446749",
+        "656d1866a8ae8cf8",
+        "66835e34ae95f3f0",
+        "3d2ea19ae9c4b9d2"
+      ]
+    ]
+  },
+  {
+    "id": "06976c9133796ab8",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - selection - reset",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "4ed33d50e1b4ebc9"
+      ]
+    ]
+  },
+  {
+    "id": "3d2ea19ae9c4b9d2",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "payload to room",
+    "rules": [
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 300,
+    "y": 600,
+    "wires": [
+      [
+        "74172837e07ab80d"
+      ]
+    ]
+  },
+  {
+    "id": "9043871af737eb1a",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "reset menu title",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "page_title",
+        "pt": "msg",
+        "to": "Selectionner une pièce",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 480,
+    "wires": [
+      [
+        "b375ca01bb8f1e43",
+        "57e1a96c1bf54302",
+        "1dd86a8b8b446749"
+      ]
+    ]
+  },
+  {
+    "id": "b6323e1460f6f50c",
+    "type": "link out",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "room - selection - metric",
+    "mode": "link",
+    "links": [],
+    "x": 1415,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "b375ca01bb8f1e43",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "format payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$uppercase(msg.page_title)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 720,
+    "wires": [
+      [
+        "eed5df5df9eb8030"
+      ]
+    ]
+  },
+  {
+    "id": "dc4343f890e4a3e1",
+    "type": "delay",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1290,
+    "y": 840,
+    "wires": [
+      [
+        "b6323e1460f6f50c"
+      ]
+    ]
+  },
+  {
+    "id": "57e1a96c1bf54302",
+    "type": "delay",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "name": "wait 100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1250,
+    "y": 540,
+    "wires": [
+      [
+        "74172837e07ab80d"
+      ]
+    ]
+  },
+  {
+    "id": "cd4ebdd2c6d86368",
+    "type": "ui-slider",
+    "z": "aab0c030de7df5cc",
+    "g": "fedaeb34f9bc97e4",
+    "group": "d464a60fe4e4c421",
+    "name": "reset delay",
+    "label": "Délai de remise à zéro",
+    "tooltip": "",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "reset timer",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "30",
+    "step": "0.5",
+    "className": "",
+    "x": 1130,
+    "y": 300,
+    "wires": [
+      [
+        "48ee82efe7b41570"
+      ]
+    ]
+  },
+  {
+    "id": "eed5df5df9eb8030",
+    "type": "ui-text",
+    "z": "aab0c030de7df5cc",
+    "g": "b64c96e257072f51",
+    "group": "36396f5285df476c",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "Pièce",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1450,
+    "y": 720,
+    "wires": []
+  }
+]
