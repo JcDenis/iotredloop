@@ -65,6 +65,28 @@
     "h": 82
   },
   {
+    "id": "86745759c5123379",
+    "type": "group",
+    "z": "bcb4426f5301b9f2",
+    "name": "search",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "72f51982c4844cb9",
+      "4014b042aee9da95",
+      "3c8f18d59bc57893",
+      "0c4ddf3cde7a1e48",
+      "aadbfea0ba5c45ac"
+    ],
+    "x": 68,
+    "y": 1733,
+    "w": 2244,
+    "h": 1574
+  },
+  {
     "id": "29b883f9654391c8",
     "type": "group",
     "z": "bcb4426f5301b9f2",
@@ -218,28 +240,6 @@
     "y": 199,
     "w": 402,
     "h": 82
-  },
-  {
-    "id": "86745759c5123379",
-    "type": "group",
-    "z": "bcb4426f5301b9f2",
-    "name": "search",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "72f51982c4844cb9",
-      "4014b042aee9da95",
-      "3c8f18d59bc57893",
-      "0c4ddf3cde7a1e48",
-      "aadbfea0ba5c45ac"
-    ],
-    "x": 68,
-    "y": 1733,
-    "w": 2244,
-    "h": 1574
   },
   {
     "id": "72f51982c4844cb9",
@@ -1627,7 +1627,7 @@
         "t": "set",
         "p": "measurement",
         "pt": "msg",
-        "to": "stack[msg.scene.bucket][msg.measurement]",
+        "to": "metrics[msg.scene.bucket][msg.measurement]",
         "tot": "global"
       }
     ],
@@ -3051,7 +3051,7 @@
         "t": "set",
         "p": "motion",
         "pt": "msg",
-        "to": "stack[msg.scene.bucket]['motion'][msg.field]",
+        "to": "metrics[msg.scene.bucket]['motion'][msg.field]",
         "tot": "global"
       }
     ],

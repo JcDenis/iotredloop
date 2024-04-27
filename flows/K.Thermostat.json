@@ -67,6 +67,223 @@
     "h": 254
   },
   {
+    "id": "dbf491fd689e7cd2",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ccc78d495cbd8f7d",
+      "e57e9c900c787424",
+      "8206912d2f9bab36",
+      "0af18fd6cc155518",
+      "c311204f22191fa2",
+      "868902cdeaa428fe",
+      "467ec12f292b2573",
+      "6c4b12585b58300e"
+    ],
+    "x": 78,
+    "y": 1973,
+    "w": 2204,
+    "h": 1874
+  },
+  {
+    "id": "7e9cff1699c061ec",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - compute heat request",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1452439e0c937126",
+      "15d8d0ba06961e4b",
+      "4b342483a51b0f93"
+    ],
+    "x": 94,
+    "y": 1819,
+    "w": 522,
+    "h": 82
+  },
+  {
+    "id": "81842bf5581a2a3f",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - device - partial (bucket must have other thermostat values)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "d8585174fdd6097c",
+      "a35aaf65004eeaac",
+      "f61fef9768da8558",
+      "5cbb323f0e362aed",
+      "3b8629192cde74db",
+      "82a9ec30d38dec10",
+      "9c5d6532a1c36bc4",
+      "804a2d1f3c05de7e",
+      "c170b43fcf7a5bc2",
+      "e1663eb05a273810",
+      "60a8b6c3b2e72ae2",
+      "d5cbc2f49e5bcf37",
+      "a0b0a47a4719edd4",
+      "11886766f827e1fd",
+      "9dc49d567806c040",
+      "db296997eb05a7e3",
+      "de88d060a6e9ab68",
+      "4209dce5b520e62e",
+      "2cda217228ab8a5f",
+      "7c192da441c0e46b",
+      "8d1ed0f3a77d2bb9",
+      "209e2b300932e1ce",
+      "c61e55af251c1588",
+      "c1d7285b5e0a4ef9",
+      "7f74332e39e8c3b6",
+      "ea4ed028bce71805",
+      "c22a1d18683ea7c0"
+    ],
+    "x": 94,
+    "y": 499,
+    "w": 922,
+    "h": 1282
+  },
+  {
+    "id": "93075511ad056e6d",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - outdoor temperature (customized to my needs)",
+    "style": {
+      "label": true,
+      "fill": "#92d04f",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "8bbf52c2a83e09ea",
+      "0a9cb3219b03ca53",
+      "de7ea9b615e052e6",
+      "37844601d21c6184",
+      "e3dc3f877be31d77",
+      "6fbdfc1ab44f9754",
+      "85f9e2ad24cb8a5a"
+    ],
+    "x": 94,
+    "y": 3919,
+    "w": 1102,
+    "h": 82
+  },
+  {
+    "id": "e653f3ec3dc88a8f",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - indoor temperature",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3099e4a17fd21410",
+      "a2b07c98d61de126",
+      "d09ad27d05d54698",
+      "4c169fc26f833802",
+      "a21c6a2db7aeab09",
+      "c7d315d762524494",
+      "e2c388ba43ec89f0",
+      "9eb8cf78caf3141d",
+      "313fbd5fc01985a5",
+      "b7ffd39578f29c8b"
+    ],
+    "x": 94,
+    "y": 4039,
+    "w": 1742,
+    "h": 82
+  },
+  {
+    "id": "6f1f772c23d57e24",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - offloading",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5cb2a229a6fec1aa",
+      "1c4fbd9e3d313b43",
+      "2aaf95392a970167",
+      "e78638ee35b8c069",
+      "2cb92368cb319c65",
+      "1dd82f8d7e2ccd52",
+      "4b2f0c80863bf5e7",
+      "91ee9f04019a9999",
+      "53f044d01f2d18b2",
+      "2df7aa160cbf3a71",
+      "db3681610a5d90d9",
+      "7869c56dce3123ed",
+      "ea0c6cadf1d594c3",
+      "285a0091abda1f58",
+      "96e92d4bad3792d3",
+      "3de9c88ac7ce9a77",
+      "6e120320180e5cfd",
+      "d237415ac7c1b47b",
+      "808426e9258cd024"
+    ],
+    "x": 94,
+    "y": 4159,
+    "w": 3582,
+    "h": 82
+  },
+  {
+    "id": "c3cbb2a2dd06d1bb",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - ui - test",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "659f9752db0967bc",
+      "9caafb8c1719d275",
+      "515b0c184c8a3628",
+      "13697bbd73295b46",
+      "c6fdc57a80266f04",
+      "b7bc73260cea8570",
+      "d60c017a8962d3f8",
+      "dc37631fe73fce2a",
+      "c932311ec07112b5",
+      "67e91e753d3708e2",
+      "a86e51fee3e3458d",
+      "f974a627497b4b7d",
+      "809635d5f2efc402",
+      "c9291360c0f0b490",
+      "f10733a435dc7390",
+      "f81152d8df61c845",
+      "bc4771242d5d3bd8",
+      "135b7546018ecfba",
+      "6bf593bd1612dbde",
+      "64405bce10cccde1",
+      "bf5b9cb6fe9e3550",
+      "6e4f87c323cc4659"
+    ],
+    "x": 94,
+    "y": 4279,
+    "w": 1752,
+    "h": 502
+  },
+  {
     "id": "91157899ceb2151b",
     "type": "group",
     "z": "80f2ffd4953c67e9",
@@ -114,31 +331,6 @@
     "y": 199,
     "w": 782,
     "h": 202
-  },
-  {
-    "id": "dbf491fd689e7cd2",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "ccc78d495cbd8f7d",
-      "e57e9c900c787424",
-      "8206912d2f9bab36",
-      "0af18fd6cc155518",
-      "c311204f22191fa2",
-      "868902cdeaa428fe",
-      "467ec12f292b2573",
-      "6c4b12585b58300e"
-    ],
-    "x": 78,
-    "y": 1973,
-    "w": 2204,
-    "h": 1874
   },
   {
     "id": "ccc78d495cbd8f7d",
@@ -359,198 +551,6 @@
     "y": 3679,
     "w": 592,
     "h": 142
-  },
-  {
-    "id": "7e9cff1699c061ec",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - compute heat request",
-    "style": {
-      "stroke": "#92d04f",
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1452439e0c937126",
-      "15d8d0ba06961e4b",
-      "4b342483a51b0f93"
-    ],
-    "x": 94,
-    "y": 1819,
-    "w": 522,
-    "h": 82
-  },
-  {
-    "id": "81842bf5581a2a3f",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - device - partial (bucket must have other thermostat values)",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "d8585174fdd6097c",
-      "a35aaf65004eeaac",
-      "f61fef9768da8558",
-      "5cbb323f0e362aed",
-      "3b8629192cde74db",
-      "82a9ec30d38dec10",
-      "9c5d6532a1c36bc4",
-      "804a2d1f3c05de7e",
-      "c170b43fcf7a5bc2",
-      "e1663eb05a273810",
-      "60a8b6c3b2e72ae2",
-      "d5cbc2f49e5bcf37",
-      "a0b0a47a4719edd4",
-      "11886766f827e1fd",
-      "9dc49d567806c040",
-      "db296997eb05a7e3",
-      "de88d060a6e9ab68",
-      "4209dce5b520e62e",
-      "2cda217228ab8a5f",
-      "7c192da441c0e46b",
-      "8d1ed0f3a77d2bb9",
-      "209e2b300932e1ce",
-      "c61e55af251c1588",
-      "c1d7285b5e0a4ef9",
-      "7f74332e39e8c3b6",
-      "ea4ed028bce71805",
-      "c22a1d18683ea7c0"
-    ],
-    "x": 94,
-    "y": 499,
-    "w": 922,
-    "h": 1282
-  },
-  {
-    "id": "93075511ad056e6d",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - update - outdoor temperature (customized to my needs)",
-    "style": {
-      "label": true,
-      "fill": "#92d04f",
-      "fill-opacity": "0.05"
-    },
-    "nodes": [
-      "8bbf52c2a83e09ea",
-      "0a9cb3219b03ca53",
-      "de7ea9b615e052e6",
-      "37844601d21c6184",
-      "e3dc3f877be31d77",
-      "6fbdfc1ab44f9754",
-      "85f9e2ad24cb8a5a"
-    ],
-    "x": 94,
-    "y": 3919,
-    "w": 1102,
-    "h": 82
-  },
-  {
-    "id": "e653f3ec3dc88a8f",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - update - indoor temperature",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "3099e4a17fd21410",
-      "a2b07c98d61de126",
-      "d09ad27d05d54698",
-      "4c169fc26f833802",
-      "a21c6a2db7aeab09",
-      "c7d315d762524494",
-      "e2c388ba43ec89f0",
-      "9eb8cf78caf3141d",
-      "313fbd5fc01985a5",
-      "b7ffd39578f29c8b"
-    ],
-    "x": 94,
-    "y": 4039,
-    "w": 1742,
-    "h": 82
-  },
-  {
-    "id": "6f1f772c23d57e24",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - update - offloading",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "5cb2a229a6fec1aa",
-      "1c4fbd9e3d313b43",
-      "2aaf95392a970167",
-      "e78638ee35b8c069",
-      "2cb92368cb319c65",
-      "1dd82f8d7e2ccd52",
-      "4b2f0c80863bf5e7",
-      "91ee9f04019a9999",
-      "53f044d01f2d18b2",
-      "2df7aa160cbf3a71",
-      "db3681610a5d90d9",
-      "7869c56dce3123ed",
-      "ea0c6cadf1d594c3",
-      "285a0091abda1f58",
-      "96e92d4bad3792d3",
-      "3de9c88ac7ce9a77",
-      "6e120320180e5cfd",
-      "d237415ac7c1b47b",
-      "808426e9258cd024"
-    ],
-    "x": 94,
-    "y": 4159,
-    "w": 3582,
-    "h": 82
-  },
-  {
-    "id": "c3cbb2a2dd06d1bb",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - ui - test",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "659f9752db0967bc",
-      "9caafb8c1719d275",
-      "515b0c184c8a3628",
-      "13697bbd73295b46",
-      "c6fdc57a80266f04",
-      "b7bc73260cea8570",
-      "d60c017a8962d3f8",
-      "dc37631fe73fce2a",
-      "c932311ec07112b5",
-      "67e91e753d3708e2",
-      "a86e51fee3e3458d",
-      "f974a627497b4b7d",
-      "809635d5f2efc402",
-      "c9291360c0f0b490",
-      "f10733a435dc7390",
-      "f81152d8df61c845",
-      "bc4771242d5d3bd8",
-      "135b7546018ecfba",
-      "6bf593bd1612dbde",
-      "64405bce10cccde1",
-      "bf5b9cb6fe9e3550",
-      "6e4f87c323cc4659"
-    ],
-    "x": 94,
-    "y": 4279,
-    "w": 1752,
-    "h": 502
   },
   {
     "id": "f0bd4b1ffe5da318",
@@ -2637,7 +2637,7 @@
         "t": "set",
         "p": "delay",
         "pt": "msg",
-        "to": "stack.thermostat.config['aperture delay']",
+        "to": "metrics.thermostat.config['aperture delay']",
         "tot": "global"
       },
       {
