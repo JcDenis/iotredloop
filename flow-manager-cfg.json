@@ -2,6 +2,7 @@
   "filter": [
     "K.Room",
     "K.Routine",
+    "K.Thermostat",
     "K.Translate",
     "K.linky",
     "Kernel",
