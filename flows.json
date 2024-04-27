@@ -730,7 +730,8 @@
             "af148bf44b019b35",
             "b961d989c357e6d6",
             "2cc2cdcf0b1f710e",
-            "56d93c268a656fc4"
+            "56d93c268a656fc4",
+            "d02f1b2f2c3a2a30"
         ],
         "x": 94,
         "y": 3019,
@@ -6081,6 +6082,30 @@
         "info": "",
         "x": 450,
         "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "d02f1b2f2c3a2a30",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "MQTT nodered base topic must be same as automate name (default is iotredloop)",
+        "info": "",
+        "x": 820,
+        "y": 3120,
+        "wires": []
+    },
+    {
+        "id": "ff47fafeee1a758e",
+        "type": "flow2src",
+        "z": "ab51b1e8cad7b700",
+        "name": "",
+        "incFlows": "Kernel,K.Routine",
+        "incSubflows": "",
+        "srcFolder": "src",
+        "chkAutoFlow2Src": true,
+        "x": 1220,
+        "y": 60,
         "wires": []
     },
     {
