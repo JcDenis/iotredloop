@@ -6,5 +6,7173 @@
         "disabled": false,
         "info": "",
         "env": []
+    },
+    {
+        "id": "bcb4426f5301b9f2",
+        "type": "tab",
+        "label": "K.Routine",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "818a8590288d6409",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "name": "kernel - about",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "797eac89000183db",
+            "d49116054bd5cd56",
+            "d9b8f97fb0897586"
+        ],
+        "x": 94,
+        "y": 19,
+        "w": 342,
+        "h": 82
+    },
+    {
+        "id": "648d078d534a93be",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "name": "kernel - catch",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "d248a5e5ab11c9d7",
+            "eebbf361272ea85b"
+        ],
+        "x": 534,
+        "y": 19,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "cf7f82b8517f3250",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - boot",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "464bfd100a5740b8",
+            "f7b2d28d9c7d66ae",
+            "3e652e3da2c711ec",
+            "cb09b67a37901112",
+            "25445f5a9b787a0a",
+            "7c98833082d48029",
+            "4bab6cfef1e2c932",
+            "011c5e62deb510bb",
+            "b0f54ce6c23c6da6",
+            "92dac97dfb662f2d",
+            "d74bb73a0966b4bd"
+        ],
+        "x": 94,
+        "y": 439,
+        "w": 2022,
+        "h": 202,
+        "info": "when flow start, this part launch all sub flows\r\ndevices registration must be called from this part output"
+    },
+    {
+        "id": "9ea365cc69a1f2bf",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - automate",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "df1059b56622c582",
+            "acd42b52bd581740",
+            "324b4e5e9a9419cc",
+            "e68b067b48b94ca2",
+            "cd2ac560f85327a9",
+            "ee66fb38bde2fdf4",
+            "92f76d0a8a4f1178",
+            "8413c966166387ab",
+            "3cd44612df58e32f"
+        ],
+        "x": 94,
+        "y": 199,
+        "w": 792,
+        "h": 202
+    },
+    {
+        "id": "bbf7bb18989048e1",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - device",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "fabb645e0d88c91c",
+            "d3ac50a83c871cc8",
+            "6d65af0eaae695a3",
+            "c1d2a5b213c6568a",
+            "35c936be0ce55676",
+            "e5f9a77af592fc78",
+            "2dedf503efee73c8",
+            "bfa594bf1f876c92",
+            "94c79b8f52f0b6ba",
+            "2ba23548e87b0292"
+        ],
+        "x": 94,
+        "y": 679,
+        "w": 1412,
+        "h": 202,
+        "info": "devices must register their definitions to this part input"
+    },
+    {
+        "id": "3711bd3352570a6c",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kenel - gate",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "149401230ed2ed4c",
+            "1eea209368626bc1",
+            "19dc49123e66ac71",
+            "85ea82a3282907b1",
+            "baaac9a301ef150a",
+            "8fdb5986494986cc"
+        ],
+        "x": 94,
+        "y": 919,
+        "w": 1072,
+        "h": 202,
+        "info": "gate can be opened or closed\r\nWhen closed, all messages are stopped from MQTT links and kernel"
+    },
+    {
+        "id": "a0496edd95de60f3",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "name": "routine - catch",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "2623529da72f4fab",
+            "73d23bc533cf4217"
+        ],
+        "x": 534,
+        "y": 19,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "eefe7f96cf64784b",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "name": "routine - convert",
+        "style": {
+            "fill": "#777777",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "1f31199c6478bed6",
+            "4c2fd374879bcc62",
+            "e9594aa2f7507ac5",
+            "414cdce0186b98d1",
+            "1efacea0cfc080e2"
+        ],
+        "x": 68,
+        "y": 173,
+        "w": 914,
+        "h": 1034
+    },
+    {
+        "id": "ae92592138b2c924",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "name": "routine - cleanup",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "29b883f9654391c8"
+        ],
+        "x": 68,
+        "y": 1253,
+        "w": 1064,
+        "h": 434
+    },
+    {
+        "id": "1f31199c6478bed6",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "eefe7f96cf64784b",
+        "name": "convert minute from midnight to hour",
+        "style": {
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true,
+            "stroke": "#92d04f"
+        },
+        "nodes": [
+            "20617e4a877c8fc3",
+            "2467c6c0b11061b2",
+            "0385dd3208b83d41"
+        ],
+        "x": 94,
+        "y": 199,
+        "w": 402,
+        "h": 82
+    },
+    {
+        "id": "4c2fd374879bcc62",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "eefe7f96cf64784b",
+        "name": "convert payload to boolean",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "a72b20551a3b1f8c",
+            "b75da43db9ea9e7e",
+            "ef13c93a34fcab87",
+            "45647475dad51f30",
+            "825837a029db8ec5",
+            "bd6f2717b2f30241"
+        ],
+        "x": 94,
+        "y": 304,
+        "w": 862,
+        "h": 157
+    },
+    {
+        "id": "e9594aa2f7507ac5",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "eefe7f96cf64784b",
+        "name": "convert to number",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "c213314798c4a9be",
+            "2e643b1746a93b44",
+            "4b32e84f6c624568",
+            "31b42964ff3deb4f",
+            "c2532fc6bfffd154",
+            "e112327c4a55aa35",
+            "91841d3915124c8e"
+        ],
+        "x": 94,
+        "y": 499,
+        "w": 862,
+        "h": 202
+    },
+    {
+        "id": "414cdce0186b98d1",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "eefe7f96cf64784b",
+        "name": "convert to percent",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "0414c3f0d95341ac",
+            "b6f0d1b534279a98",
+            "6ec40cadb83543dd",
+            "d84b5b147f5fa7a4",
+            "73a136cc319902eb",
+            "bc396dcc308c42ee",
+            "f9f49c8d382ee23d"
+        ],
+        "x": 94,
+        "y": 739,
+        "w": 862,
+        "h": 202
+    },
+    {
+        "id": "1efacea0cfc080e2",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "eefe7f96cf64784b",
+        "name": "convert to dimmer (0-99)",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "5070cadd19aa3954",
+            "d40b223a978b9a1e",
+            "6f7e7a5d7ebd031d",
+            "ba9d70c1045cb088",
+            "e7ac1f9f3c8ae78c",
+            "4f02d67d81a83e86",
+            "99e1c9e8654a9f81"
+        ],
+        "x": 94,
+        "y": 979,
+        "w": 862,
+        "h": 202
+    },
+    {
+        "id": "29b883f9654391c8",
+        "type": "group",
+        "z": "bcb4426f5301b9f2",
+        "g": "ae92592138b2c924",
+        "name": "cleanup measurement",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "7662aba4a1cc9dd0",
+            "0e0adba49a29f70f",
+            "b6d241198242a6e5",
+            "71e189afd8659a2d",
+            "f54479dc5f66620e",
+            "6a5bccc5dc98def6",
+            "ce0256824b38971d",
+            "e5ceb5335c3b0d43",
+            "577298e83998f6d7",
+            "af147f11a3d4d652",
+            "afcaa4289efc76f2"
+        ],
+        "x": 94,
+        "y": 1279,
+        "w": 1012,
+        "h": 382
+    },
+    {
+        "id": "20b116b788ef3f27",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - metric",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "12f02c43a82b46f9",
+            "a974cddec777bd94",
+            "7cd303d0aadd1433",
+            "eca0e6f3657f0564",
+            "1e908b6060a584ea",
+            "3743db17cb401840",
+            "6473c46ecd9304c7",
+            "582f8e6b17a9d9d1",
+            "dd79805b7971cbbb",
+            "0831bd7e7daa4915",
+            "ae5e8ae05adac7fd",
+            "b90652e7f7d28f66",
+            "9f055c7cccb634c1",
+            "c785aed10e83430a",
+            "68ad3074767eb2c3",
+            "3c3fe996c199516b",
+            "0d78bebcc5541e02",
+            "fc88fb69cac1e5a5",
+            "82229e46e51f94f5",
+            "895db12fd6d94a67",
+            "4689a4035be0c82e",
+            "6466ac9bacd083e2",
+            "ca80e5fe27609a11",
+            "d7f0ba2534f27b82",
+            "206c1fb4a48067df",
+            "031a6afd8300356a",
+            "4264ed01f3943e2f",
+            "c15d0c66ed5af79f",
+            "e2ef5706b35de7b0",
+            "8bbf418d277b4df7",
+            "357c6d106dec5efd",
+            "3a4c72588bb27ab4",
+            "56d131373d4e2f78",
+            "e6a4e861a99b196c"
+        ],
+        "x": 94,
+        "y": 1159,
+        "w": 5142,
+        "h": 442
+    },
+    {
+        "id": "e9bd98a0b6e0d58c",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - write to journal",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "e4e85a27e4775ac9",
+            "5a49d1f4b12618a7",
+            "234620fe148e1dca",
+            "285c9ffa2f524440",
+            "a441e9df790a0c3c",
+            "074313bb4e48de6f",
+            "c5dc4f8c357a596f",
+            "592483f2183c6711"
+        ],
+        "x": 94,
+        "y": 1639,
+        "w": 1072,
+        "h": 262
+    },
+    {
+        "id": "6386e9a459469b53",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - write to MQTT",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "b425ab40ef97a294",
+            "1102208726a88a10",
+            "4176c5d5bc97709c",
+            "1cbff7f3a7317c5b",
+            "c5465d5f64db4b45"
+        ],
+        "x": 94,
+        "y": 1939,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "3e71b89d61df9fd3",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - write to InluxDB",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "58359ad51f36d68e",
+            "0aca727fc835e615",
+            "5c4a3b8ce0220dd9",
+            "14a5f0183ce7ec8d",
+            "ec2704a8e18114ea",
+            "e287e4f4d7f3a174",
+            "b43439c6ab36fbfc",
+            "61b310386916497a",
+            "a98fde87c6b47e6e",
+            "7c75b6b921f30409",
+            "27e3bd6cada7b554",
+            "4280a1f889505f0c",
+            "4163673982458b27",
+            "faeff76a4321bee2",
+            "28b6c3fdb407e73b"
+        ],
+        "x": 94,
+        "y": 2119,
+        "w": 2452,
+        "h": 202
+    },
+    {
+        "id": "bc29c56f900c8d36",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - read and write to file",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "b1e2b474e4c77892",
+            "ede79ed6b82aa804",
+            "d3064571c2fde064",
+            "2356f963725e84c6",
+            "5205205461f48680",
+            "be0beee97ed2d572",
+            "44308739c0f759ad",
+            "43c695b9490f5104",
+            "9d4a1f539c9bf58c",
+            "dfb4b5350a9383c9",
+            "432e8063fae7039e",
+            "afd6a49ad55de215"
+        ],
+        "x": 94,
+        "y": 2359,
+        "w": 1242,
+        "h": 142
+    },
+    {
+        "id": "656a3398842092de",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "name": "mqtt",
+        "style": {
+            "fill": "#777777",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "93fb3d4a50d16da0",
+            "6c3162f93343ce7e",
+            "c7f0e1480df909e9",
+            "b9a706d9e4980c1e",
+            "72988ccecf802b11",
+            "a3c29b70c82234cc",
+            "17a8ab0a21c7790b"
+        ],
+        "x": 42,
+        "y": 2967,
+        "w": 1816,
+        "h": 1686
+    },
+    {
+        "id": "93fb3d4a50d16da0",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for nodered",
+        "style": {
+            "label": true,
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "d1b208e623179a25",
+            "c706245ab487b7e2"
+        ],
+        "x": 68,
+        "y": 2993,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "6c3162f93343ce7e",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for rfxcom",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "3ab6bcaac666ddc4",
+            "ae4487a0bf7f922f"
+        ],
+        "x": 68,
+        "y": 3233,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "c7f0e1480df909e9",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for zigbee",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "518b634fa908a4aa",
+            "b40a3b0d2d310907"
+        ],
+        "x": 68,
+        "y": 3473,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "b9a706d9e4980c1e",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for teleinfo",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "fee31a77e542b203",
+            "0bf16a20b9656c59"
+        ],
+        "x": 68,
+        "y": 3713,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "72988ccecf802b11",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for bluetooth",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "cf382d5398b6de43",
+            "24eae452ebf32be6"
+        ],
+        "x": 68,
+        "y": 3953,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "a3c29b70c82234cc",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for zwave",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "1e687cd4c0cc0ece",
+            "b5e2408a7d09537d"
+        ],
+        "x": 68,
+        "y": 4193,
+        "w": 1744,
+        "h": 194
+    },
+    {
+        "id": "17a8ab0a21c7790b",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "656a3398842092de",
+        "name": "mqtt server for rhasspy",
+        "style": {
+            "fill": "#ffffff",
+            "fill-opacity": "0.5",
+            "label": true,
+            "stroke": "#0070c0"
+        },
+        "nodes": [
+            "a23c2aa7e24eb8f7",
+            "234feecbe12db6fa"
+        ],
+        "x": 68,
+        "y": 4433,
+        "w": 1764,
+        "h": 194
+    },
+    {
+        "id": "d1b208e623179a25",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "93fb3d4a50d16da0",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "a19b9fbac3e9f89c",
+            "e12bb3f8258f4439",
+            "0a4c943dc3a06f0d",
+            "af148bf44b019b35",
+            "b961d989c357e6d6",
+            "2cc2cdcf0b1f710e",
+            "56d93c268a656fc4"
+        ],
+        "x": 94,
+        "y": 3019,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "c706245ab487b7e2",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "93fb3d4a50d16da0",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "630dfeb0e033a476",
+            "d40db95f9a154c3a",
+            "0f1e413815ecc824",
+            "19a5c46ec6c71456"
+        ],
+        "x": 1294,
+        "y": 3019,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "3ab6bcaac666ddc4",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "6c3162f93343ce7e",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "24a3e98a92c0d57d",
+            "ed6bcbd32e72afe1",
+            "be945e0c2c2208b0",
+            "735774bdb56f6be4",
+            "014d8a5287538444",
+            "03eacf7a446d906c"
+        ],
+        "x": 94,
+        "y": 3259,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "ae4487a0bf7f922f",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "6c3162f93343ce7e",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "a4f8287c851b1796",
+            "de0c34e8104574b0",
+            "f0991abcca9403bc",
+            "a39cfa7867f1affb"
+        ],
+        "x": 1294,
+        "y": 3259,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "518b634fa908a4aa",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "c7f0e1480df909e9",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "5d0abf7735e4d38c",
+            "a3594a90f69fe537",
+            "0c032c944567a64d",
+            "fb76731a2064ad65",
+            "529f7e707934e514",
+            "7b89e1d6b81feb1d",
+            "57bd505da426547c"
+        ],
+        "x": 94,
+        "y": 3499,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "b40a3b0d2d310907",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "c7f0e1480df909e9",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "ac5c011465193c4e",
+            "6c324b24ca028984",
+            "3398dde44269eb08",
+            "08f26275ef69e598"
+        ],
+        "x": 1294,
+        "y": 3499,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "fee31a77e542b203",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "b9a706d9e4980c1e",
+        "name": "devices teleinfo",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "c16f1ae420f44fb5",
+            "b491f7eb02575108",
+            "ca7f0d58c55a1358",
+            "3423fd727184042c",
+            "fa2acb5ac9bb8c8c",
+            "a34aeb4c51bcf655"
+        ],
+        "x": 94,
+        "y": 3739,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "0bf16a20b9656c59",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "b9a706d9e4980c1e",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "b0b2d9829230be99",
+            "5d53068f8b9e6936",
+            "a7e18f888c96ad05",
+            "7a6db5a28141b284"
+        ],
+        "x": 1294,
+        "y": 3739,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "cf382d5398b6de43",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "72988ccecf802b11",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "c73c3b488741b764",
+            "85c0a8032c692a9a",
+            "c8d1b777a117ee56",
+            "be2acafce4c2c74d",
+            "11a6de1c96795b4d",
+            "e60cbfea876d91e7"
+        ],
+        "x": 94,
+        "y": 3979,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "24eae452ebf32be6",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "72988ccecf802b11",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "d4252f4120129d32",
+            "55db3023ac9ae3c1",
+            "a411175648a9f14e",
+            "1052950934d566bf"
+        ],
+        "x": 1294,
+        "y": 3979,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "1e687cd4c0cc0ece",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "a3c29b70c82234cc",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "3eb59215b6fb19e2",
+            "ebdbee7baef678a6",
+            "3738b065c50a0cac",
+            "1d8f71c67df6cec9",
+            "341bc94dee8e9f96",
+            "247945a0f503ac90"
+        ],
+        "x": 94,
+        "y": 4219,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "b5e2408a7d09537d",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "a3c29b70c82234cc",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "92d0d0a5798c06cf",
+            "62dd3e8d6c87a0f9",
+            "82908fcfdf7f599a",
+            "a6b8c9c223ea5942"
+        ],
+        "x": 1294,
+        "y": 4219,
+        "w": 492,
+        "h": 142
+    },
+    {
+        "id": "a23c2aa7e24eb8f7",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "17a8ab0a21c7790b",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "81b03b89f507e5ce",
+            "3eda424ef17379e9",
+            "af3082ef59725979",
+            "9518f42686aaf99c",
+            "6d6bcbb7ce10198f",
+            "da4da5b15f106b4a"
+        ],
+        "x": 94,
+        "y": 4459,
+        "w": 1162,
+        "h": 142
+    },
+    {
+        "id": "234feecbe12db6fa",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "17a8ab0a21c7790b",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "d07502e0620ed3d9",
+            "4cfd419f66b58eda",
+            "4db395b3e8fa404f",
+            "d8b85eb94b57b81f"
+        ],
+        "x": 1294,
+        "y": 4459,
+        "w": 512,
+        "h": 142
+    },
+    {
+        "id": "a762a7a552cb9f03",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "96d8990f6a4978cc",
+        "name": "kernel - cron",
+        "style": {
+            "fill": "#ff0000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "caa3c5097468f133",
+            "722c773f6314dd40",
+            "867a71b7dae9c844",
+            "004bb30c27c94fb4",
+            "287d719de575c01f",
+            "074a67bf0fcf09ad",
+            "d4146047c079ac62",
+            "764da2d0527c1ef6",
+            "7fa17301839c0fa6",
+            "412878f8c488a0f4",
+            "c367834c9cccbe38",
+            "ca442e58e65b32f8"
+        ],
+        "x": 94,
+        "y": 2539,
+        "w": 652,
+        "h": 262,
+        "info": "cron minute = every minutes from flow start\r\ncron hour = every hours from flow start\r\ncron day = every day at 3 am"
+    },
+    {
+        "id": "96d8990f6a4978cc",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "name": "kernel",
+        "style": {
+            "fill": "#777777",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "a762a7a552cb9f03",
+            "bc29c56f900c8d36",
+            "3e71b89d61df9fd3",
+            "6386e9a459469b53",
+            "e9bd98a0b6e0d58c",
+            "20b116b788ef3f27",
+            "3711bd3352570a6c",
+            "bbf7bb18989048e1",
+            "cf7f82b8517f3250",
+            "9ea365cc69a1f2bf"
+        ],
+        "x": 68,
+        "y": 173,
+        "w": 5194,
+        "h": 2654
+    },
+    {
+        "id": "50456628f56ade66",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "name": "device - system kernel version",
+        "style": {
+            "fill": "#777777",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "f67a857ae75d906f",
+            "a8dc4fab59fdefb4"
+        ],
+        "x": 48,
+        "y": 4733,
+        "w": 1094,
+        "h": 134,
+        "info": "this is a fake device for kernel boot (ensure that one device is registered)"
+    },
+    {
+        "id": "f67a857ae75d906f",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "50456628f56ade66",
+        "name": "",
+        "style": {
+            "fill": "#0070c0",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "33f7a250a7341c43",
+            "1b98c37b3b7502e4",
+            "f02b4584af0d800c"
+        ],
+        "x": 654,
+        "y": 4759,
+        "w": 462,
+        "h": 82
+    },
+    {
+        "id": "a8dc4fab59fdefb4",
+        "type": "group",
+        "z": "ab51b1e8cad7b700",
+        "g": "50456628f56ade66",
+        "name": "",
+        "style": {
+            "fill": "#ffC000",
+            "fill-opacity": "0.05",
+            "label": true
+        },
+        "nodes": [
+            "840c05ce502e7fdd",
+            "eed8990163b1ca81",
+            "7f76434616f622dc"
+        ],
+        "x": 74,
+        "y": 4759,
+        "w": 542,
+        "h": 82
+    },
+    {
+        "id": "22dd0707e6d3a364",
+        "type": "Stackhero-InfluxDB-v2-Server",
+        "name": "influxdb",
+        "host": "10.40.0.112",
+        "port": "80",
+        "tls": false
+    },
+    {
+        "id": "51fc92ba27d12eaa",
+        "type": "mqtt-broker",
+        "name": "mqtt nodered",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-nodered",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "connector/status",
+        "birthQos": "1",
+        "birthRetain": "true",
+        "birthPayload": "online",
+        "birthMsg": {},
+        "closeTopic": "connector/status",
+        "closeQos": "1",
+        "closeRetain": "true",
+        "closePayload": "offline",
+        "closeMsg": {},
+        "willTopic": "connector/status",
+        "willQos": "1",
+        "willRetain": "true",
+        "willPayload": "offline",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cdd708cca8782382",
+        "type": "mqtt-broker",
+        "name": "mqtt rfxcom",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-rfxcom",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8b2a4e4f622431e7",
+        "type": "mqtt-broker",
+        "name": "mqtt zigbee",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-zigbee",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d6ba6007b1901314",
+        "type": "mqtt-broker",
+        "name": "mqtt teleinfo",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-teleinfo",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ef0a4a5a649e056f",
+        "type": "mqtt-broker",
+        "name": "mqtt ble",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-ble",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0bd651126b27aac6",
+        "type": "mqtt-broker",
+        "name": "mqtt zwave",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-zwave",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "442ad702808e3c66",
+        "type": "mqtt-broker",
+        "name": "mqtt rhasspy",
+        "broker": "10.40.0.111",
+        "port": "1883",
+        "clientid": "iotredloop-rhasspy",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "domotique/status",
+        "birthQos": "1",
+        "birthRetain": "true",
+        "birthPayload": "online",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "797eac89000183db",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "818a8590288d6409",
+        "name": "kernel - about",
+        "links": [],
+        "x": 135,
+        "y": 60,
+        "wires": [
+            [
+                "d9b8f97fb0897586"
+            ]
+        ]
+    },
+    {
+        "id": "d49116054bd5cd56",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "818a8590288d6409",
+        "name": "kernel - about",
+        "mode": "return",
+        "links": [],
+        "x": 395,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d9b8f97fb0897586",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "818a8590288d6409",
+        "name": "about",
+        "rules": [
+            {
+                "t": "set",
+                "p": "about",
+                "pt": "global",
+                "to": "{\t    'automate':'iotredloop',\t    'version':'0.0.1',\t    'author':'Jean-Christian Paul Denis'\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 60,
+        "wires": [
+            [
+                "d49116054bd5cd56"
+            ]
+        ]
+    },
+    {
+        "id": "d248a5e5ab11c9d7",
+        "type": "catch",
+        "z": "ab51b1e8cad7b700",
+        "g": "648d078d534a93be",
+        "name": "catch error",
+        "scope": null,
+        "uncaught": false,
+        "x": 620,
+        "y": 60,
+        "wires": [
+            [
+                "eebbf361272ea85b"
+            ]
+        ]
+    },
+    {
+        "id": "eebbf361272ea85b",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "648d078d534a93be",
+        "name": "kernel - catch error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "324b4e5e9a9419cc",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "automate start",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "e68b067b48b94ca2"
+            ]
+        ]
+    },
+    {
+        "id": "464bfd100a5740b8",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "check if global metrics exists",
+        "property": "metrics",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "f7b2d28d9c7d66ae"
+            ],
+            [
+                "4bab6cfef1e2c932"
+            ]
+        ]
+    },
+    {
+        "id": "f7b2d28d9c7d66ae",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "define global metrics",
+        "rules": [
+            {
+                "t": "set",
+                "p": "metrics",
+                "pt": "global",
+                "to": "{}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "4bab6cfef1e2c932"
+            ]
+        ]
+    },
+    {
+        "id": "3e652e3da2c711ec",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "initialize global variables",
+        "rules": [
+            {
+                "t": "set",
+                "p": "devices",
+                "pt": "global",
+                "to": "{}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "protocols",
+                "pt": "global",
+                "to": "{}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 540,
+        "wires": [
+            [
+                "011c5e62deb510bb"
+            ]
+        ]
+    },
+    {
+        "id": "cb09b67a37901112",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "set boot time topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "boot",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1910,
+        "y": 540,
+        "wires": [
+            [
+                "25445f5a9b787a0a"
+            ]
+        ]
+    },
+    {
+        "id": "25445f5a9b787a0a",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "kernel - boot",
+        "mode": "link",
+        "links": [
+            "eed8990163b1ca81"
+        ],
+        "x": 2075,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "7c98833082d48029",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "kernel - boot - load",
+        "links": [
+            "ee66fb38bde2fdf4",
+            "afd6a49ad55de215"
+        ],
+        "x": 135,
+        "y": 600,
+        "wires": [
+            [
+                "25445f5a9b787a0a"
+            ]
+        ]
+    },
+    {
+        "id": "df1059b56622c582",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "automate reset",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 240,
+        "wires": [
+            [
+                "acd42b52bd581740"
+            ]
+        ]
+    },
+    {
+        "id": "4bab6cfef1e2c932",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "",
+        "links": [
+            "797eac89000183db"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "3e652e3da2c711ec"
+            ]
+        ]
+    },
+    {
+        "id": "011c5e62deb510bb",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "check if global timers exists",
+        "property": "timers",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1400,
+        "y": 540,
+        "wires": [
+            [
+                "b0f54ce6c23c6da6"
+            ],
+            [
+                "cb09b67a37901112"
+            ]
+        ]
+    },
+    {
+        "id": "b0f54ce6c23c6da6",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "define global timers",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timers",
+                "pt": "global",
+                "to": "{}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1670,
+        "y": 480,
+        "wires": [
+            [
+                "cb09b67a37901112"
+            ]
+        ]
+    },
+    {
+        "id": "92dac97dfb662f2d",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "kernel - boot - start",
+        "links": [
+            "e68b067b48b94ca2"
+        ],
+        "x": 135,
+        "y": 540,
+        "wires": [
+            [
+                "464bfd100a5740b8"
+            ]
+        ]
+    },
+    {
+        "id": "d74bb73a0966b4bd",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf7f82b8517f3250",
+        "name": "kernel - boot - reset",
+        "links": [
+            "acd42b52bd581740"
+        ],
+        "x": 135,
+        "y": 480,
+        "wires": [
+            [
+                "f7b2d28d9c7d66ae"
+            ]
+        ]
+    },
+    {
+        "id": "acd42b52bd581740",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "kernel - automate reset",
+        "mode": "link",
+        "links": [
+            "d74bb73a0966b4bd"
+        ],
+        "x": 375,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e68b067b48b94ca2",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "kernel - automate start",
+        "mode": "link",
+        "links": [
+            "92dac97dfb662f2d"
+        ],
+        "x": 375,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "fabb645e0d88c91c",
+        "type": "function",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "check device",
+        "func": "// Check and recreate clean message of device description\n// output 1 : error message\n// output 2 : device registration\n\n// script var\nvar msg = msg;\nvar newmsg = {};\n\n// no message\nif (typeof msg === 'undefined'){\n    return [null,null];\n}\n\n// check possible var existence\nif (typeof msg.bucket === 'undefined' ||\n    typeof msg.measurement === 'undefined' ||\n    typeof msg.field === 'undefined' ||\n    typeof msg.format === 'undefined' ||\n    typeof msg.default === 'undefined'\n) {\n    node.status({\n        fill: \"red\", shape: \"ring\", text: 'undefined device'});\n    return [msg,null];\n}\n\n// recreate msg\nnewmsg = {\n    'bucket': msg.bucket,\n    'measurement': msg.measurement,\n    'field': msg.field,\n    'format': msg.format,\n    'path': msg.bucket + '/' + msg.measurement + '/' + msg.field,\n    'payload': msg.default,\n\n    'protocol': typeof msg.protocol === 'undefined' ? '' : msg.protocol,\n    'model': typeof msg.model === 'undefined' ? '' : msg.model,\n    'id': typeof msg.id === 'undefined' ? '' : msg.id,\n    'option': typeof msg.option === 'undefined' ? 0 : msg.option\n};\n\nnode.status({ fill: 'green', shape: \"ring\", text:  newmsg.path + ' = ' + newmsg.payload });\nreturn [null,newmsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "\n",
+        "finalize": "\n",
+        "libs": [],
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "6d65af0eaae695a3"
+            ],
+            [
+                "d3ac50a83c871cc8"
+            ]
+        ]
+    },
+    {
+        "id": "d3ac50a83c871cc8",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "register device to global devices",
+        "rules": [
+            {
+                "t": "set",
+                "p": "devices[msg.bucket][msg.measurement][msg.field]",
+                "pt": "global",
+                "to": "{\t    'default':msg.payload,\t    'format':msg.format,\t    'protocol':msg.protocol,\t    'model':msg.model,\t    'option':msg.option,\t    'id':msg.id\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 780,
+        "wires": [
+            [
+                "c1d2a5b213c6568a",
+                "e5f9a77af592fc78"
+            ]
+        ]
+    },
+    {
+        "id": "6d65af0eaae695a3",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "kernel - device uncomplete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "c1d2a5b213c6568a",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "check if device exists in global metrics",
+        "property": "metrics[msg.bucket][msg.measurement][msg.field]",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 890,
+        "y": 840,
+        "wires": [
+            [
+                "35c936be0ce55676"
+            ]
+        ]
+    },
+    {
+        "id": "35c936be0ce55676",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "register device to global metrics",
+        "rules": [
+            {
+                "t": "set",
+                "p": "metrics[msg.bucket][msg.measurement][msg.field]",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1230,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5f9a77af592fc78",
+        "type": "trigger",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "wait for all devices registration",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "50",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 870,
+        "y": 780,
+        "wires": [
+            [
+                "2ba23548e87b0292"
+            ]
+        ]
+    },
+    {
+        "id": "2dedf503efee73c8",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "kernel - device",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "bfa594bf1f876c92",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "kernel - device",
+        "links": [
+            "7f76434616f622dc"
+        ],
+        "x": 135,
+        "y": 780,
+        "wires": [
+            [
+                "fabb645e0d88c91c"
+            ]
+        ]
+    },
+    {
+        "id": "94c79b8f52f0b6ba",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "kernel - device",
+        "mode": "link",
+        "links": [
+            "baaac9a301ef150a",
+            "33f7a250a7341c43"
+        ],
+        "x": 1315,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "cd2ac560f85327a9",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "automate load",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "ee66fb38bde2fdf4"
+            ]
+        ]
+    },
+    {
+        "id": "ee66fb38bde2fdf4",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "kernel - automate load",
+        "mode": "link",
+        "links": [
+            "7c98833082d48029"
+        ],
+        "x": 375,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "92f76d0a8a4f1178",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "reset all global variables and launch complete cycle",
+        "info": "",
+        "x": 670,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8413c966166387ab",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "launch complete cycle",
+        "info": "",
+        "x": 580,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3cd44612df58e32f",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "9ea365cc69a1f2bf",
+        "name": "launch devices configuration cycle",
+        "info": "",
+        "x": 620,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2ba23548e87b0292",
+        "type": "function",
+        "z": "ab51b1e8cad7b700",
+        "g": "bbf7bb18989048e1",
+        "name": "set gate message",
+        "func": "// script var\nvar msg = msg;\nvar newmsg = {};\n\n// recreate msg\nnewmsg = {\n    'topic':'gate',\n    'payload':'open'\n};\n\nreturn newmsg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "\n",
+        "finalize": "\n",
+        "libs": [],
+        "x": 1150,
+        "y": 780,
+        "wires": [
+            [
+                "2dedf503efee73c8",
+                "94c79b8f52f0b6ba"
+            ]
+        ]
+    },
+    {
+        "id": "149401230ed2ed4c",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "check gate topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "gate",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 1020,
+        "wires": [
+            [
+                "19dc49123e66ac71"
+            ]
+        ]
+    },
+    {
+        "id": "1eea209368626bc1",
+        "type": "trigger",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "freeze gate for 10 secondes",
+        "op1": "close",
+        "op2": "open",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 800,
+        "y": 1080,
+        "wires": [
+            [
+                "85ea82a3282907b1",
+                "8fdb5986494986cc"
+            ]
+        ]
+    },
+    {
+        "id": "19dc49123e66ac71",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "check gate payload",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "open|close",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "eq",
+                "v": "freeze",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 1020,
+        "wires": [
+            [
+                "85ea82a3282907b1",
+                "8fdb5986494986cc"
+            ],
+            [
+                "1eea209368626bc1"
+            ]
+        ]
+    },
+    {
+        "id": "85ea82a3282907b1",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "kernel - gate",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "baaac9a301ef150a",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "kernel - gate",
+        "links": [
+            "94c79b8f52f0b6ba",
+            "c15d0c66ed5af79f"
+        ],
+        "x": 135,
+        "y": 1020,
+        "wires": [
+            [
+                "149401230ed2ed4c"
+            ]
+        ]
+    },
+    {
+        "id": "8fdb5986494986cc",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "3711bd3352570a6c",
+        "name": "kernel - gate",
+        "mode": "link",
+        "links": [
+            "206c1fb4a48067df",
+            "af148bf44b019b35",
+            "735774bdb56f6be4",
+            "fb76731a2064ad65",
+            "3423fd727184042c",
+            "be2acafce4c2c74d",
+            "1d8f71c67df6cec9",
+            "af3082ef59725979"
+        ],
+        "x": 995,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "a974cddec777bd94",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check if global devices has metric",
+        "property": "devices[msg.bucket][msg.measurement][msg.field]",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 920,
+        "y": 1260,
+        "wires": [
+            [
+                "eca0e6f3657f0564"
+            ],
+            [
+                "1e908b6060a584ea"
+            ]
+        ]
+    },
+    {
+        "id": "7cd303d0aadd1433",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric uncomplete",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "eca0e6f3657f0564",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric undefined",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "1e908b6060a584ea",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "select metric format",
+        "property": "devices[msg.bucket][msg.measurement][msg.field]format",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "text",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "boolean",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "dimmer",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "percent",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "number",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 1210,
+        "y": 1320,
+        "wires": [
+            [
+                "3743db17cb401840"
+            ],
+            [
+                "e2ef5706b35de7b0"
+            ],
+            [
+                "3a4c72588bb27ab4"
+            ],
+            [
+                "357c6d106dec5efd"
+            ],
+            [
+                "8bbf418d277b4df7"
+            ]
+        ]
+    },
+    {
+        "id": "3743db17cb401840",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "select source",
+        "property": "source",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "loop",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1930,
+        "y": 1260,
+        "wires": [
+            [
+                "895db12fd6d94a67"
+            ],
+            [
+                "6473c46ecd9304c7"
+            ]
+        ]
+    },
+    {
+        "id": "6473c46ecd9304c7",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check if value is different from global metric",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "metrics[msg.bucket][msg.measurement][msg.field]",
+                "vt": "global"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 2230,
+        "y": 1320,
+        "wires": [
+            [
+                "582f8e6b17a9d9d1"
+            ],
+            [
+                "dd79805b7971cbbb"
+            ]
+        ]
+    },
+    {
+        "id": "582f8e6b17a9d9d1",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "set metric to global metrics",
+        "rules": [
+            {
+                "t": "set",
+                "p": "metrics[msg.bucket][msg.measurement][msg.field]",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "timestamps[msg.bucket][msg.measurement][msg.field]",
+                "pt": "flow",
+                "to": "$millis()",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "repeat",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3560,
+        "y": 1320,
+        "wires": [
+            [
+                "68ad3074767eb2c3",
+                "9f055c7cccb634c1"
+            ]
+        ]
+    },
+    {
+        "id": "dd79805b7971cbbb",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "select \"cible\" measurment",
+        "property": "measurement",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "cible",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 2570,
+        "y": 1380,
+        "wires": [
+            [
+                "0831bd7e7daa4915"
+            ],
+            [
+                "ae5e8ae05adac7fd"
+            ]
+        ]
+    },
+    {
+        "id": "0831bd7e7daa4915",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check mode automate",
+        "property": "metrics.systeme.mode.automate",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 2840,
+        "y": 1380,
+        "wires": [
+            [
+                "582f8e6b17a9d9d1"
+            ]
+        ]
+    },
+    {
+        "id": "ae5e8ae05adac7fd",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check request repeat",
+        "property": "repeat",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 2840,
+        "y": 1440,
+        "wires": [
+            [
+                "582f8e6b17a9d9d1"
+            ],
+            [
+                "3c3fe996c199516b"
+            ]
+        ]
+    },
+    {
+        "id": "b90652e7f7d28f66",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "compare timestamp",
+        "property": "#:(memoryOnly)::timestamps[msg.bucket][msg.measurement][msg.field]",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "$millis() - 3600000",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 3290,
+        "y": 1440,
+        "wires": [
+            [
+                "582f8e6b17a9d9d1"
+            ]
+        ]
+    },
+    {
+        "id": "9f055c7cccb634c1",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "limit 12 msg / s",
+        "pauseType": "rate",
+        "timeout": "250",
+        "timeoutUnits": "milliseconds",
+        "rate": "12",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 5040,
+        "y": 1320,
+        "wires": [
+            [
+                "4264ed01f3943e2f"
+            ]
+        ]
+    },
+    {
+        "id": "c785aed10e83430a",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check speed limit of 12 msg/s",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "12",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 4130,
+        "y": 1440,
+        "wires": [
+            [
+                "ca80e5fe27609a11"
+            ],
+            [
+                "6466ac9bacd083e2"
+            ]
+        ]
+    },
+    {
+        "id": "3c3fe996c199516b",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "delay 50 ms",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 3070,
+        "y": 1440,
+        "wires": [
+            [
+                "b90652e7f7d28f66"
+            ]
+        ]
+    },
+    {
+        "id": "0d78bebcc5541e02",
+        "type": "trigger",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "set gate payload",
+        "op1": "close",
+        "op2": "open",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 4800,
+        "y": 1440,
+        "wires": [
+            [
+                "e6a4e861a99b196c"
+            ]
+        ]
+    },
+    {
+        "id": "fc88fb69cac1e5a5",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "limit 1 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 4080,
+        "y": 1380,
+        "wires": [
+            [
+                "e6a4e861a99b196c"
+            ]
+        ]
+    },
+    {
+        "id": "82229e46e51f94f5",
+        "type": "function",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "check metric",
+        "func": "// output 1 : error message\n// output 2 : device registration\n\n// script var\nvar msg = msg;\nvar newmsg = {};\n\n// try if msg.topic is a path\nif (typeof msg.topic === 'string' &&\n    typeof msg.bucket === 'undefined' &&\n    typeof msg.measurement === 'undefined' &&\n    typeof msg.field === 'undefined'\n) {\n    const device = msg.topic.split('/');\n    if (typeof device[1] === 'string' &&\n        typeof device[2] === 'string' &&\n        typeof device[3] === 'string'\n    ) {\n        msg.source = device[0];\n        msg.bucket = device[1];\n        msg.measurement = device[2];\n        msg.field = device[3];\n\n    }\n}\n\n// check var existence\nif (typeof msg.bucket === 'undefined' ||\n    typeof msg.measurement === 'undefined' ||\n    typeof msg.field === 'undefined'\n) {\n    node.status({\n        fill: \"red\", shape: \"ring\", text: 'undefined device'});\n    return [msg,null];\n}\n\n// recreate msg\nnewmsg = {\n    'topic': 'metric',\n    'source': typeof msg.source === 'string' ? msg.source : 'unknow',\n    'bucket': msg.bucket,\n    'measurement': msg.measurement,\n    'field': msg.field,\n    'path': msg.bucket + '/' + msg.measurement + '/' + msg.field,\n    'payload': msg.payload,\n    'repeat': typeof msg.repeat === 'boolean' ? msg.repeat : false\n};\n\nnode.status({ fill: 'green', shape: \"ring\", text:  newmsg.source + ' : ' + newmsg.path + ' = ' + newmsg.payload });\nreturn [null,newmsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1260,
+        "wires": [
+            [
+                "7cd303d0aadd1433"
+            ],
+            [
+                "a974cddec777bd94"
+            ]
+        ]
+    },
+    {
+        "id": "895db12fd6d94a67",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "remove source",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "source",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 5040,
+        "y": 1260,
+        "wires": [
+            [
+                "031a6afd8300356a"
+            ]
+        ]
+    },
+    {
+        "id": "4689a4035be0c82e",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "set source",
+        "rules": [
+            {
+                "t": "set",
+                "p": "automate",
+                "pt": "msg",
+                "to": "about.automate",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "source",
+                "pt": "msg",
+                "to": "msg.source=msg.automate?msg.source:\"loop\"",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "automate",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1260,
+        "wires": [
+            [
+                "82229e46e51f94f5"
+            ]
+        ]
+    },
+    {
+        "id": "6466ac9bacd083e2",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 4370,
+        "y": 1500,
+        "wires": [
+            [
+                "ca80e5fe27609a11"
+            ]
+        ]
+    },
+    {
+        "id": "ca80e5fe27609a11",
+        "type": "trigger",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "wait 4 s then true",
+        "op1": "",
+        "op2": "true",
+        "op1type": "nul",
+        "op2type": "bool",
+        "duration": "4",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 4570,
+        "y": 1440,
+        "wires": [
+            [
+                "0d78bebcc5541e02"
+            ]
+        ]
+    },
+    {
+        "id": "d7f0ba2534f27b82",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "Si plus de 12 messages par seconde pendant 4 secondes alors bloque le kernel pendant 1 seconde",
+        "info": "",
+        "x": 4380,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "206c1fb4a48067df",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric",
+        "links": [
+            "8fdb5986494986cc",
+            "e12bb3f8258f4439",
+            "f02b4584af0d800c"
+        ],
+        "x": 135,
+        "y": 1260,
+        "wires": [
+            [
+                "12f02c43a82b46f9"
+            ]
+        ]
+    },
+    {
+        "id": "031a6afd8300356a",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric - loop",
+        "mode": "link",
+        "links": [],
+        "x": 5195,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "4264ed01f3943e2f",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric - write",
+        "mode": "link",
+        "links": [
+            "c5dc4f8c357a596f",
+            "1cbff7f3a7317c5b",
+            "4280a1f889505f0c"
+        ],
+        "x": 5195,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "c15d0c66ed5af79f",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "kernel - metric - rate",
+        "mode": "link",
+        "links": [
+            "baaac9a301ef150a"
+        ],
+        "x": 5195,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "e2ef5706b35de7b0",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "links": [
+            "a72b20551a3b1f8c"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1450,
+        "y": 1320,
+        "wires": [
+            [
+                "3743db17cb401840"
+            ]
+        ]
+    },
+    {
+        "id": "8bbf418d277b4df7",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "links": [
+            "e112327c4a55aa35"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1450,
+        "y": 1500,
+        "wires": [
+            [
+                "56d131373d4e2f78"
+            ]
+        ]
+    },
+    {
+        "id": "357c6d106dec5efd",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "links": [
+            "bc396dcc308c42ee"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1450,
+        "y": 1440,
+        "wires": [
+            [
+                "56d131373d4e2f78"
+            ]
+        ]
+    },
+    {
+        "id": "3a4c72588bb27ab4",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "links": [
+            "4f02d67d81a83e86"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1450,
+        "y": 1380,
+        "wires": [
+            [
+                "3743db17cb401840"
+            ]
+        ]
+    },
+    {
+        "id": "56d131373d4e2f78",
+        "type": "link call",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "links": [
+            "7662aba4a1cc9dd0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1700,
+        "y": 1440,
+        "wires": [
+            [
+                "3743db17cb401840"
+            ]
+        ]
+    },
+    {
+        "id": "68ad3074767eb2c3",
+        "type": "msg-speed",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "read msg speed",
+        "frequency": "sec",
+        "interval": 1,
+        "estimation": false,
+        "ignore": false,
+        "pauseAtStartup": false,
+        "topicDependent": false,
+        "x": 3820,
+        "y": 1380,
+        "wires": [
+            [
+                "c785aed10e83430a",
+                "fc88fb69cac1e5a5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "12f02c43a82b46f9",
+        "type": "gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "default",
+        "x": 270,
+        "y": 1260,
+        "wires": [
+            [
+                "4689a4035be0c82e"
+            ]
+        ]
+    },
+    {
+        "id": "e6a4e861a99b196c",
+        "type": "function",
+        "z": "ab51b1e8cad7b700",
+        "g": "20b116b788ef3f27",
+        "name": "set gate message",
+        "func": "// script var\nvar msg = msg;\nvar newmsg = {};\n\n// recreate msg\nnewmsg = {\n    'topic':'gate',\n    'payload': msg.payload\n};\n\nreturn newmsg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "\n",
+        "finalize": "\n",
+        "libs": [],
+        "x": 5030,
+        "y": 1380,
+        "wires": [
+            [
+                "c15d0c66ed5af79f"
+            ]
+        ]
+    },
+    {
+        "id": "e4e85a27e4775ac9",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "set human readable payload",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.bucket & ' > ' & msg.measurement & ' > ' & msg.field & ' = ' & $string(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1680,
+        "wires": [
+            [
+                "5a49d1f4b12618a7",
+                "592483f2183c6711"
+            ]
+        ]
+    },
+    {
+        "id": "5a49d1f4b12618a7",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "select measurement",
+        "property": "measurement",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^(power|linky)$",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "eq",
+                "v": "thermostat",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "seen",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 620,
+        "y": 1740,
+        "wires": [
+            [
+                "234620fe148e1dca"
+            ],
+            [
+                "a441e9df790a0c3c"
+            ],
+            [
+                "074313bb4e48de6f"
+            ],
+            [
+                "285c9ffa2f524440"
+            ]
+        ]
+    },
+    {
+        "id": "234620fe148e1dca",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "journal console only linky and power",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "285c9ffa2f524440",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "journal console others",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "a441e9df790a0c3c",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "journal console only thermostat",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "074313bb4e48de6f",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "journal console only seen",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "c5dc4f8c357a596f",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "kernel - write to journal",
+        "links": [
+            "4264ed01f3943e2f"
+        ],
+        "x": 135,
+        "y": 1680,
+        "wires": [
+            [
+                "e4e85a27e4775ac9"
+            ]
+        ]
+    },
+    {
+        "id": "592483f2183c6711",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "e9bd98a0b6e0d58c",
+        "name": "kernel - write to journal",
+        "mode": "link",
+        "links": [],
+        "x": 535,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "b425ab40ef97a294",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "6386e9a459469b53",
+        "name": "set MQTT topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "automate",
+                "pt": "msg",
+                "to": "about.automate",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "msg.automate&\"/\"&msg.bucket&\"/\"&msg.measurement&\"/\"&msg.field",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "automate",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 2040,
+        "wires": [
+            [
+                "4176c5d5bc97709c"
+            ]
+        ]
+    },
+    {
+        "id": "1102208726a88a10",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "6386e9a459469b53",
+        "name": "kernel - write to MQTT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "4176c5d5bc97709c",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "6386e9a459469b53",
+        "name": "delay 5 ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 2040,
+        "wires": [
+            [
+                "1102208726a88a10",
+                "c5465d5f64db4b45"
+            ]
+        ]
+    },
+    {
+        "id": "1cbff7f3a7317c5b",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "6386e9a459469b53",
+        "name": "kernel - write to MQTT",
+        "links": [
+            "4264ed01f3943e2f"
+        ],
+        "x": 135,
+        "y": 2040,
+        "wires": [
+            [
+                "b425ab40ef97a294"
+            ]
+        ]
+    },
+    {
+        "id": "c5465d5f64db4b45",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "6386e9a459469b53",
+        "name": "Kernel - write to MQTT",
+        "mode": "link",
+        "links": [
+            "d40db95f9a154c3a"
+        ],
+        "x": 655,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "58359ad51f36d68e",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "by field",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   'bucket': msg.bucket,\t   'precision': 's',\t   'data': [\t       {\t           'measurement': msg.measurement,\t           'fields': {\t               msg.field : msg.state\t        }\t    }\t   ]\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1540,
+        "y": 2280,
+        "wires": [
+            [
+                "b43439c6ab36fbfc"
+            ]
+        ]
+    },
+    {
+        "id": "5c4a3b8ce0220dd9",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "by room",
+        "rules": [
+            {
+                "t": "set",
+                "p": "roomfield",
+                "pt": "msg",
+                "to": "msg.bucket&' '&msg.field",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   'bucket': 'resume',\t   'precision': 's',\t   'data': [\t       {\t           'measurement': msg.measurement,\t           'fields': {\t               msg.roomfield : msg.state\t        }\t    }\t   ]\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1960,
+        "y": 2220,
+        "wires": [
+            [
+                "b43439c6ab36fbfc"
+            ]
+        ]
+    },
+    {
+        "id": "14a5f0183ce7ec8d",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "select measurements",
+        "property": "measurement",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^(mode|clock|lighting|jarvis|thermostat|heating|shading|cumulus|airflow|linky)$",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1580,
+        "y": 2220,
+        "wires": [
+            [
+                "a98fde87c6b47e6e"
+            ],
+            [
+                "5c4a3b8ce0220dd9"
+            ]
+        ]
+    },
+    {
+        "id": "ec2704a8e18114ea",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "is boolean",
+        "property": "state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "boolean",
+                "vt": "boolean"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1070,
+        "y": 2220,
+        "wires": [
+            [
+                "7c75b6b921f30409"
+            ],
+            [
+                "58359ad51f36d68e",
+                "14a5f0183ce7ec8d"
+            ]
+        ]
+    },
+    {
+        "id": "e287e4f4d7f3a174",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "payload to state",
+        "rules": [
+            {
+                "t": "set",
+                "p": "state",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 2220,
+        "wires": [
+            [
+                "ec2704a8e18114ea"
+            ]
+        ]
+    },
+    {
+        "id": "b43439c6ab36fbfc",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "delay 5 ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2150,
+        "y": 2280,
+        "wires": [
+            [
+                "61b310386916497a",
+                "0aca727fc835e615",
+                "4163673982458b27"
+            ]
+        ]
+    },
+    {
+        "id": "61b310386916497a",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "kernel - write to influxdb",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2390,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "a98fde87c6b47e6e",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "select field",
+        "property": "field",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "pilot",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1770,
+        "y": 2160,
+        "wires": [
+            [
+                "5c4a3b8ce0220dd9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7c75b6b921f30409",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "format boolean to dimmer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "state",
+                "pt": "msg",
+                "to": "$number($boolean(msg.state))=0?0:99",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1310,
+        "y": 2160,
+        "wires": [
+            [
+                "58359ad51f36d68e",
+                "14a5f0183ce7ec8d"
+            ]
+        ]
+    },
+    {
+        "id": "27e3bd6cada7b554",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "remove some measurements",
+        "property": "measurement",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "config",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 600,
+        "y": 2220,
+        "wires": [
+            [
+                "e287e4f4d7f3a174"
+            ]
+        ]
+    },
+    {
+        "id": "4280a1f889505f0c",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "kernel - write to InfluxDB",
+        "links": [
+            "4264ed01f3943e2f"
+        ],
+        "x": 135,
+        "y": 2220,
+        "wires": [
+            [
+                "faeff76a4321bee2"
+            ]
+        ]
+    },
+    {
+        "id": "4163673982458b27",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "kernel - wrtie to InfluxDB",
+        "mode": "link",
+        "links": [],
+        "x": 2295,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "faeff76a4321bee2",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "remove some buckets",
+        "property": "bucket",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "agenda",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2220,
+        "wires": [
+            [
+                "27e3bd6cada7b554"
+            ]
+        ]
+    },
+    {
+        "id": "b1e2b474e4c77892",
+        "type": "file",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "write file",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 460,
+        "y": 2400,
+        "wires": [
+            [
+                "ede79ed6b82aa804"
+            ]
+        ]
+    },
+    {
+        "id": "ede79ed6b82aa804",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "kernel - write file",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "d3064571c2fde064",
+        "type": "file in",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "read file",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 460,
+        "y": 2460,
+        "wires": [
+            [
+                "2356f963725e84c6"
+            ]
+        ]
+    },
+    {
+        "id": "2356f963725e84c6",
+        "type": "json",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 2460,
+        "wires": [
+            [
+                "5205205461f48680"
+            ]
+        ]
+    },
+    {
+        "id": "5205205461f48680",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "write file contents to global metrics",
+        "rules": [
+            {
+                "t": "set",
+                "p": "metrics",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 2460,
+        "wires": [
+            [
+                "be0beee97ed2d572",
+                "43c695b9490f5104"
+            ]
+        ]
+    },
+    {
+        "id": "be0beee97ed2d572",
+        "type": "debug",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "kernel - read file",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "44308739c0f759ad",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "filename",
+        "rules": [
+            {
+                "t": "set",
+                "p": "automate",
+                "pt": "msg",
+                "to": "about.automate",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "'/data/'&msg.automate&'_metrics.bk'",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "automate",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 2460,
+        "wires": [
+            [
+                "d3064571c2fde064"
+            ]
+        ]
+    },
+    {
+        "id": "43c695b9490f5104",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "delay 100 ms",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1150,
+        "y": 2460,
+        "wires": [
+            [
+                "afd6a49ad55de215"
+            ]
+        ]
+    },
+    {
+        "id": "9d4a1f539c9bf58c",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "filename",
+        "rules": [
+            {
+                "t": "set",
+                "p": "automate",
+                "pt": "msg",
+                "to": "about.automate",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "'/data/'&msg.automate&'_metrics.bk'",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "metrics",
+                "tot": "global"
+            },
+            {
+                "t": "delete",
+                "p": "automate",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 2400,
+        "wires": [
+            [
+                "b1e2b474e4c77892"
+            ]
+        ]
+    },
+    {
+        "id": "dfb4b5350a9383c9",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "kernel - read from file",
+        "links": [],
+        "x": 135,
+        "y": 2460,
+        "wires": [
+            [
+                "44308739c0f759ad"
+            ]
+        ]
+    },
+    {
+        "id": "432e8063fae7039e",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "kernel - write to file",
+        "links": [],
+        "x": 135,
+        "y": 2400,
+        "wires": [
+            [
+                "9d4a1f539c9bf58c"
+            ]
+        ]
+    },
+    {
+        "id": "afd6a49ad55de215",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "bc29c56f900c8d36",
+        "name": "kernel - read file",
+        "mode": "link",
+        "links": [
+            "7c98833082d48029"
+        ],
+        "x": 1295,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "0aca727fc835e615",
+        "type": "Stackhero-InfluxDB-v2-write",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "server": "22dd0707e6d3a364",
+        "name": "influxdb",
+        "x": 2340,
+        "y": 2220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a19b9fbac3e9f89c",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "MQTT nodered",
+        "topic": "iotredloop/#",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "51fc92ba27d12eaa",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 3060,
+        "wires": [
+            [
+                "b961d989c357e6d6"
+            ]
+        ]
+    },
+    {
+        "id": "e12bb3f8258f4439",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "mqtt nodered",
+        "mode": "link",
+        "links": [
+            "282314c3181caba2",
+            "f4fed668dbff1da4",
+            "206c1fb4a48067df"
+        ],
+        "x": 1215,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "0a4c943dc3a06f0d",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 3060,
+        "wires": [
+            [
+                "56d93c268a656fc4"
+            ]
+        ]
+    },
+    {
+        "id": "af148bf44b019b35",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "mqtt nodered gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 465,
+        "y": 3120,
+        "wires": [
+            [
+                "0a4c943dc3a06f0d"
+            ]
+        ]
+    },
+    {
+        "id": "b961d989c357e6d6",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "15 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "15",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 3060,
+        "wires": [
+            [
+                "0a4c943dc3a06f0d"
+            ]
+        ]
+    },
+    {
+        "id": "2cc2cdcf0b1f710e",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            },
+            {
+                "t": "set",
+                "p": "source",
+                "pt": "msg",
+                "to": "iotredloop",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 3060,
+        "wires": [
+            [
+                "e12bb3f8258f4439"
+            ]
+        ]
+    },
+    {
+        "id": "56d93c268a656fc4",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "d1b208e623179a25",
+        "name": "ignore \"cible\" path",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "/cible/",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 790,
+        "y": 3060,
+        "wires": [
+            [],
+            [
+                "2cc2cdcf0b1f710e"
+            ]
+        ]
+    },
+    {
+        "id": "630dfeb0e033a476",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "c706245ab487b7e2",
+        "name": "MQTT nodered",
+        "topic": "",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "51fc92ba27d12eaa",
+        "x": 1700,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "d40db95f9a154c3a",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "c706245ab487b7e2",
+        "name": "mqtt nodered",
+        "links": [
+            "e080152994978357",
+            "c5465d5f64db4b45"
+        ],
+        "x": 1335,
+        "y": 3060,
+        "wires": [
+            [
+                "19a5c46ec6c71456"
+            ]
+        ]
+    },
+    {
+        "id": "0f1e413815ecc824",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "c706245ab487b7e2",
+        "name": "mqtt nodered output",
+        "mode": "link",
+        "links": [
+            "32f2b2da5065afde",
+            "e942462a899825f8"
+        ],
+        "x": 1635,
+        "y": 3120,
+        "wires": []
+    },
+    {
+        "id": "19a5c46ec6c71456",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "c706245ab487b7e2",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^iotredloop",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 3060,
+        "wires": [
+            [
+                "630dfeb0e033a476",
+                "0f1e413815ecc824"
+            ]
+        ]
+    },
+    {
+        "id": "24a3e98a92c0d57d",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "MQTT rfxcom",
+        "topic": "rfxcom2mqtt/devices/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "cdd708cca8782382",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 3300,
+        "wires": [
+            [
+                "014d8a5287538444"
+            ]
+        ]
+    },
+    {
+        "id": "ed6bcbd32e72afe1",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "mqtt rfxcom",
+        "mode": "link",
+        "links": [
+            "2dba8c9110e069a7",
+            "35e7aab1f0314355",
+            "5d58266f86a39f1a",
+            "617755f6bb1e2972",
+            "6390818317da9a22",
+            "8a3a49343040e9dd",
+            "92c37a3c88284082",
+            "aeec616505632135",
+            "beb26a3a88ba29ec",
+            "c55d2fbe9a6e0312",
+            "ca854a261959d5e3",
+            "cd0b7dc3cdbb9e58",
+            "dac6324a7409b4c0",
+            "dfe710104e247c4c",
+            "e6048bb9f2a4ecee",
+            "3256d8e9e4075f1f",
+            "d53118042e7346dc",
+            "3be6b8c3d6485c46",
+            "ba77500cd9f7f6da",
+            "bd614b03c17a2dcd",
+            "0e9fc0eb536659f8"
+        ],
+        "x": 1215,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "be945e0c2c2208b0",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 3300,
+        "wires": [
+            [
+                "03eacf7a446d906c"
+            ]
+        ]
+    },
+    {
+        "id": "735774bdb56f6be4",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "mqtt rfxcom gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 3360,
+        "wires": [
+            [
+                "be945e0c2c2208b0"
+            ]
+        ]
+    },
+    {
+        "id": "014d8a5287538444",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "100 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "100",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 3300,
+        "wires": [
+            [
+                "be945e0c2c2208b0"
+            ]
+        ]
+    },
+    {
+        "id": "03eacf7a446d906c",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "3ab6bcaac666ddc4",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 3300,
+        "wires": [
+            [
+                "ed6bcbd32e72afe1"
+            ]
+        ]
+    },
+    {
+        "id": "a4f8287c851b1796",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "ae4487a0bf7f922f",
+        "name": "MQTT rfxcom",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cdd708cca8782382",
+        "x": 1700,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "de0c34e8104574b0",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "ae4487a0bf7f922f",
+        "name": "mqtt rfxcom",
+        "links": [
+            "89d2eebcaafb5013"
+        ],
+        "x": 1335,
+        "y": 3300,
+        "wires": [
+            [
+                "a39cfa7867f1affb"
+            ]
+        ]
+    },
+    {
+        "id": "f0991abcca9403bc",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "ae4487a0bf7f922f",
+        "name": "mqtt rfxcom output",
+        "mode": "link",
+        "links": [
+            "881b1ed942ae2f5d",
+            "e1bd888198e8ad2b",
+            "4c77acdbe9fb09c9"
+        ],
+        "x": 1635,
+        "y": 3360,
+        "wires": []
+    },
+    {
+        "id": "a39cfa7867f1affb",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "ae4487a0bf7f922f",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^rfxcom2mqtt",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 3300,
+        "wires": [
+            [
+                "a4f8287c851b1796",
+                "f0991abcca9403bc"
+            ]
+        ]
+    },
+    {
+        "id": "5d0abf7735e4d38c",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "MQTT zigbee",
+        "topic": "zigbee/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8b2a4e4f622431e7",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 3540,
+        "wires": [
+            [
+                "529f7e707934e514"
+            ]
+        ]
+    },
+    {
+        "id": "a3594a90f69fe537",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "mqtt zigbee",
+        "mode": "link",
+        "links": [
+            "85491b834d936a64",
+            "688beab146efae13",
+            "b07f193a0642cf53",
+            "a06c81c7dbe18d43",
+            "3be6b8c3d6485c46",
+            "ba77500cd9f7f6da"
+        ],
+        "x": 1215,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "0c032c944567a64d",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 3540,
+        "wires": [
+            [
+                "57bd505da426547c"
+            ]
+        ]
+    },
+    {
+        "id": "fb76731a2064ad65",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "mqtt zigbee gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 3600,
+        "wires": [
+            [
+                "0c032c944567a64d"
+            ]
+        ]
+    },
+    {
+        "id": "529f7e707934e514",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "50 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "50",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 3540,
+        "wires": [
+            [
+                "0c032c944567a64d"
+            ]
+        ]
+    },
+    {
+        "id": "7b89e1d6b81feb1d",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 3540,
+        "wires": [
+            [
+                "a3594a90f69fe537"
+            ]
+        ]
+    },
+    {
+        "id": "57bd505da426547c",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "518b634fa908a4aa",
+        "name": "ignore \"bridge\" path",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^zigbee/bridge",
+                "vt": "str",
+                "case": false
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 790,
+        "y": 3540,
+        "wires": [
+            [],
+            [
+                "7b89e1d6b81feb1d"
+            ]
+        ]
+    },
+    {
+        "id": "ac5c011465193c4e",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "b40a3b0d2d310907",
+        "name": "MQTT zigbee",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8b2a4e4f622431e7",
+        "x": 1700,
+        "y": 3540,
+        "wires": []
+    },
+    {
+        "id": "6c324b24ca028984",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "b40a3b0d2d310907",
+        "name": "mqtt zigbee",
+        "links": [
+            "89d2eebcaafb5013"
+        ],
+        "x": 1335,
+        "y": 3540,
+        "wires": [
+            [
+                "08f26275ef69e598"
+            ]
+        ]
+    },
+    {
+        "id": "3398dde44269eb08",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "b40a3b0d2d310907",
+        "name": "mqtt zigbee output",
+        "mode": "link",
+        "links": [
+            "c4571e81ac381f3e",
+            "76a866f04ab291ef"
+        ],
+        "x": 1625,
+        "y": 3600,
+        "wires": []
+    },
+    {
+        "id": "08f26275ef69e598",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "b40a3b0d2d310907",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^zigbee",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 3540,
+        "wires": [
+            [
+                "ac5c011465193c4e",
+                "3398dde44269eb08"
+            ]
+        ]
+    },
+    {
+        "id": "c16f1ae420f44fb5",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "MQTT teleinfo",
+        "topic": "teleinfo/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d6ba6007b1901314",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 3780,
+        "wires": [
+            [
+                "fa2acb5ac9bb8c8c"
+            ]
+        ]
+    },
+    {
+        "id": "b491f7eb02575108",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "mqtt teleinfo",
+        "mode": "link",
+        "links": [
+            "112f15815d373541",
+            "44a6b39d960c738d"
+        ],
+        "x": 1215,
+        "y": 3780,
+        "wires": []
+    },
+    {
+        "id": "ca7f0d58c55a1358",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 3780,
+        "wires": [
+            [
+                "a34aeb4c51bcf655"
+            ]
+        ]
+    },
+    {
+        "id": "3423fd727184042c",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "mqtt teleinfo gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 3840,
+        "wires": [
+            [
+                "ca7f0d58c55a1358"
+            ]
+        ]
+    },
+    {
+        "id": "fa2acb5ac9bb8c8c",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "20 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "20",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 3780,
+        "wires": [
+            [
+                "ca7f0d58c55a1358"
+            ]
+        ]
+    },
+    {
+        "id": "a34aeb4c51bcf655",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "fee31a77e542b203",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 3780,
+        "wires": [
+            [
+                "b491f7eb02575108"
+            ]
+        ]
+    },
+    {
+        "id": "b0b2d9829230be99",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "0bf16a20b9656c59",
+        "name": "MQTT teleinfo",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d6ba6007b1901314",
+        "x": 1700,
+        "y": 3780,
+        "wires": []
+    },
+    {
+        "id": "5d53068f8b9e6936",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "d": true,
+        "g": "0bf16a20b9656c59",
+        "name": "mqtt teleinfo",
+        "links": [],
+        "x": 1335,
+        "y": 3780,
+        "wires": [
+            [
+                "7a6db5a28141b284"
+            ]
+        ]
+    },
+    {
+        "id": "a7e18f888c96ad05",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "0bf16a20b9656c59",
+        "name": "mqtt teleinfo output",
+        "mode": "link",
+        "links": [],
+        "x": 1635,
+        "y": 3840,
+        "wires": []
+    },
+    {
+        "id": "7a6db5a28141b284",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "0bf16a20b9656c59",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^teleinfo",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 3780,
+        "wires": [
+            [
+                "b0b2d9829230be99",
+                "a7e18f888c96ad05"
+            ]
+        ]
+    },
+    {
+        "id": "c73c3b488741b764",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "MQTT bluetooth",
+        "topic": "ble/+/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "ef0a4a5a649e056f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 4020,
+        "wires": [
+            [
+                "11a6de1c96795b4d"
+            ]
+        ]
+    },
+    {
+        "id": "85c0a8032c692a9a",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "mqtt bluetooth",
+        "mode": "link",
+        "links": [
+            "60e7ca843ea8f2e0"
+        ],
+        "x": 1215,
+        "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "c8d1b777a117ee56",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 4020,
+        "wires": [
+            [
+                "e60cbfea876d91e7"
+            ]
+        ]
+    },
+    {
+        "id": "be2acafce4c2c74d",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "mqtt bluetooth gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 4080,
+        "wires": [
+            [
+                "c8d1b777a117ee56"
+            ]
+        ]
+    },
+    {
+        "id": "11a6de1c96795b4d",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "100 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "100",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 4020,
+        "wires": [
+            [
+                "c8d1b777a117ee56"
+            ]
+        ]
+    },
+    {
+        "id": "e60cbfea876d91e7",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "cf382d5398b6de43",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 4020,
+        "wires": [
+            [
+                "85c0a8032c692a9a"
+            ]
+        ]
+    },
+    {
+        "id": "d4252f4120129d32",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "24eae452ebf32be6",
+        "name": "MQTT bluetooth",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ef0a4a5a649e056f",
+        "x": 1700,
+        "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "55db3023ac9ae3c1",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "d": true,
+        "g": "24eae452ebf32be6",
+        "name": "mqtt bluetooth",
+        "links": [],
+        "x": 1335,
+        "y": 4020,
+        "wires": [
+            [
+                "1052950934d566bf"
+            ]
+        ]
+    },
+    {
+        "id": "a411175648a9f14e",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "24eae452ebf32be6",
+        "name": "mqtt bluetooth output",
+        "mode": "link",
+        "links": [
+            "3ce812bf89416c2e",
+            "b5e020af24b6c81a"
+        ],
+        "x": 1635,
+        "y": 4080,
+        "wires": []
+    },
+    {
+        "id": "1052950934d566bf",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "24eae452ebf32be6",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^ble",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 4020,
+        "wires": [
+            [
+                "d4252f4120129d32",
+                "a411175648a9f14e"
+            ]
+        ]
+    },
+    {
+        "id": "3eb59215b6fb19e2",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "MQTT zwave",
+        "topic": "zwave/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "0bd651126b27aac6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 4260,
+        "wires": [
+            [
+                "341bc94dee8e9f96"
+            ]
+        ]
+    },
+    {
+        "id": "ebdbee7baef678a6",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "mqtt zwave",
+        "mode": "link",
+        "links": [
+            "0c42605d4e17f7c0",
+            "13d4b6546b6078c4",
+            "1674f27502adab2b",
+            "28bd5077f8af7155",
+            "3fa1505cc54c0a4a",
+            "6004623d39fd780d",
+            "60cdba59b6867a2c",
+            "882213638ae51376",
+            "8f1673c23cf67a9b",
+            "ae31619e220a07e2",
+            "b51e54b87cd8c281",
+            "db5ad7caf20f44e5",
+            "dbfdf715d2b6b0d5",
+            "f3685659add53893",
+            "21aa9d233920d3db",
+            "dcdb87d31c193475",
+            "dc42210872f30fd1",
+            "e21569bf7b9d08f6",
+            "51b478fd1f7bbfe9",
+            "da24d3cb7f933d8e",
+            "8a735409075bf432",
+            "9379fef014648636",
+            "4c78ee51560912b7",
+            "c634be35fddbb9e8",
+            "7a413720d3c10ba8",
+            "e2cf426558bd0b60",
+            "46f5b6984edcc88f",
+            "b4c41faf6220fb5d",
+            "dd07962707cadbc4",
+            "3be6b8c3d6485c46",
+            "ba77500cd9f7f6da",
+            "b7b008f170dcc07f"
+        ],
+        "x": 1215,
+        "y": 4260,
+        "wires": []
+    },
+    {
+        "id": "3738b065c50a0cac",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 4260,
+        "wires": [
+            [
+                "247945a0f503ac90"
+            ]
+        ]
+    },
+    {
+        "id": "1d8f71c67df6cec9",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "mqtt zwave gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 4320,
+        "wires": [
+            [
+                "3738b065c50a0cac"
+            ]
+        ]
+    },
+    {
+        "id": "341bc94dee8e9f96",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "50 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "50",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 4260,
+        "wires": [
+            [
+                "3738b065c50a0cac"
+            ]
+        ]
+    },
+    {
+        "id": "247945a0f503ac90",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "1e687cd4c0cc0ece",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 4260,
+        "wires": [
+            [
+                "ebdbee7baef678a6"
+            ]
+        ]
+    },
+    {
+        "id": "92d0d0a5798c06cf",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "b5e2408a7d09537d",
+        "name": "MQTT zwave",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0bd651126b27aac6",
+        "x": 1690,
+        "y": 4260,
+        "wires": []
+    },
+    {
+        "id": "62dd3e8d6c87a0f9",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "b5e2408a7d09537d",
+        "name": "mqtt zwave",
+        "links": [
+            "a28b7b24c0ae9f8c",
+            "a02f78ffaedc9739",
+            "bccc33b4c0db9760",
+            "1c422d2c16125ca4",
+            "a06f150e72b873f2",
+            "eb69b7f3d6f894e3",
+            "f887adfd6fa075c2",
+            "2be05ddfe63b7313",
+            "648fbe7936a6e771",
+            "db4fcb97194bacd4",
+            "5ff9bf33eef6edea",
+            "4af3a6003798549f",
+            "a4f551d4cf84d1fe",
+            "9155daed44745330",
+            "9678ea31a895d9f4",
+            "433ea1c0deda2243",
+            "e96ba8b040e58218",
+            "41eb5aee9b16405c",
+            "2dfc7db2679a7eca",
+            "4f46e6e1244003c5",
+            "87b36faadc498428",
+            "b8e5f320e0d5e119",
+            "8a93f83ac805403e",
+            "f531075e0ccd5d1d",
+            "89d2eebcaafb5013",
+            "5f9d0ad90e63e256"
+        ],
+        "x": 1335,
+        "y": 4260,
+        "wires": [
+            [
+                "a6b8c9c223ea5942"
+            ]
+        ]
+    },
+    {
+        "id": "82908fcfdf7f599a",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "b5e2408a7d09537d",
+        "name": "mqtt zwave output",
+        "mode": "link",
+        "links": [
+            "ca89a4baa1806e71",
+            "ab63acc660e32a18"
+        ],
+        "x": 1635,
+        "y": 4320,
+        "wires": []
+    },
+    {
+        "id": "a6b8c9c223ea5942",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "b5e2408a7d09537d",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^zwave",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 4260,
+        "wires": [
+            [
+                "92d0d0a5798c06cf",
+                "82908fcfdf7f599a"
+            ]
+        ]
+    },
+    {
+        "id": "81b03b89f507e5ce",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "mqtt rhasspy",
+        "mode": "link",
+        "links": [],
+        "x": 1215,
+        "y": 4500,
+        "wires": []
+    },
+    {
+        "id": "3eda424ef17379e9",
+        "type": "q-gate",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "",
+        "controlTopic": "gate",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "close",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "open",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "0",
+        "keepNewest": false,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "default",
+        "x": 590,
+        "y": 4500,
+        "wires": [
+            [
+                "6d6bcbb7ce10198f"
+            ]
+        ]
+    },
+    {
+        "id": "af3082ef59725979",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "mqtt rhasspy gate",
+        "links": [
+            "d68d686bbf684c95",
+            "8fdb5986494986cc"
+        ],
+        "x": 455,
+        "y": 4560,
+        "wires": [
+            [
+                "3eda424ef17379e9"
+            ]
+        ]
+    },
+    {
+        "id": "9518f42686aaf99c",
+        "type": "delay",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "50 msg / s",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "50",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 390,
+        "y": 4500,
+        "wires": [
+            [
+                "3eda424ef17379e9"
+            ]
+        ]
+    },
+    {
+        "id": "6d6bcbb7ce10198f",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "raz MQTT properties",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "qos",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "retain",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 4500,
+        "wires": [
+            [
+                "81b03b89f507e5ce"
+            ]
+        ]
+    },
+    {
+        "id": "da4da5b15f106b4a",
+        "type": "mqtt in",
+        "z": "ab51b1e8cad7b700",
+        "g": "a23c2aa7e24eb8f7",
+        "name": "MQTT rhasspy",
+        "topic": "hermes/intent/#",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "442ad702808e3c66",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 4500,
+        "wires": [
+            [
+                "9518f42686aaf99c"
+            ]
+        ]
+    },
+    {
+        "id": "d07502e0620ed3d9",
+        "type": "mqtt out",
+        "z": "ab51b1e8cad7b700",
+        "g": "234feecbe12db6fa",
+        "name": "MQTT rhasspy",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "442ad702808e3c66",
+        "x": 1700,
+        "y": 4500,
+        "wires": []
+    },
+    {
+        "id": "4cfd419f66b58eda",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "234feecbe12db6fa",
+        "name": "mqtt rhasspy",
+        "links": [
+            "10aafa2119bcdcac",
+            "2c561a436a935bc6"
+        ],
+        "x": 1335,
+        "y": 4500,
+        "wires": [
+            [
+                "d8b85eb94b57b81f"
+            ]
+        ]
+    },
+    {
+        "id": "4db395b3e8fa404f",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "234feecbe12db6fa",
+        "name": "mqtt rhasspy output",
+        "mode": "link",
+        "links": [
+            "833f9ea0770f6e5a"
+        ],
+        "x": 1635,
+        "y": 4560,
+        "wires": []
+    },
+    {
+        "id": "d8b85eb94b57b81f",
+        "type": "switch",
+        "z": "ab51b1e8cad7b700",
+        "g": "234feecbe12db6fa",
+        "name": "check topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "^(hermes|rhasspy)",
+                "vt": "str",
+                "case": false
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 1470,
+        "y": 4500,
+        "wires": [
+            [
+                "d07502e0620ed3d9",
+                "4db395b3e8fa404f"
+            ]
+        ]
+    },
+    {
+        "id": "caa3c5097468f133",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "cron minute",
+        "props": [],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 210,
+        "y": 2580,
+        "wires": [
+            [
+                "004bb30c27c94fb4"
+            ]
+        ]
+    },
+    {
+        "id": "722c773f6314dd40",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "cron hour",
+        "props": [],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 210,
+        "y": 2640,
+        "wires": [
+            [
+                "287d719de575c01f"
+            ]
+        ]
+    },
+    {
+        "id": "867a71b7dae9c844",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "cron day",
+        "props": [],
+        "repeat": "",
+        "crontab": "00 03 * * *",
+        "once": true,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 200,
+        "y": 2700,
+        "wires": [
+            [
+                "074a67bf0fcf09ad"
+            ]
+        ]
+    },
+    {
+        "id": "004bb30c27c94fb4",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "kernel - cron minute",
+        "mode": "link",
+        "links": [],
+        "x": 365,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "287d719de575c01f",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "kernel - cron hour",
+        "mode": "link",
+        "links": [],
+        "x": 365,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "074a67bf0fcf09ad",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "kernel - cron day",
+        "mode": "link",
+        "links": [],
+        "x": 365,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "d4146047c079ac62",
+        "type": "inject",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "cron midday",
+        "props": [],
+        "repeat": "",
+        "crontab": "00 12 * * *",
+        "once": false,
+        "onceDelay": "60",
+        "topic": "",
+        "x": 220,
+        "y": 2760,
+        "wires": [
+            [
+                "764da2d0527c1ef6"
+            ]
+        ]
+    },
+    {
+        "id": "764da2d0527c1ef6",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "kernel - cron midday",
+        "mode": "link",
+        "links": [],
+        "x": 365,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "7fa17301839c0fa6",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "60 s after boot and every day at 3am",
+        "info": "",
+        "x": 580,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "412878f8c488a0f4",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "60 s after boot and every hour",
+        "info": "",
+        "x": 560,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "c367834c9cccbe38",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "60 s after boot and every minute",
+        "info": "",
+        "x": 570,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "ca442e58e65b32f8",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "a762a7a552cb9f03",
+        "name": "every day at 12am",
+        "info": "",
+        "x": 530,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "33f7a250a7341c43",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "f67a857ae75d906f",
+        "name": "source - system kernel version",
+        "links": [
+            "94c79b8f52f0b6ba"
+        ],
+        "x": 695,
+        "y": 4800,
+        "wires": [
+            [
+                "1b98c37b3b7502e4"
+            ]
+        ]
+    },
+    {
+        "id": "1b98c37b3b7502e4",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "f67a857ae75d906f",
+        "name": "system / kernel / version",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bucket",
+                "pt": "msg",
+                "to": "system",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "measurement",
+                "pt": "msg",
+                "to": "kernel",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "field",
+                "pt": "msg",
+                "to": "version",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "about.version",
+                "tot": "global"
+            },
+            {
+                "t": "delete",
+                "p": "topic",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 4800,
+        "wires": [
+            [
+                "f02b4584af0d800c"
+            ]
+        ]
+    },
+    {
+        "id": "f02b4584af0d800c",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "f67a857ae75d906f",
+        "name": "source - system kernel version",
+        "mode": "link",
+        "links": [
+            "206c1fb4a48067df"
+        ],
+        "x": 1075,
+        "y": 4800,
+        "wires": []
+    },
+    {
+        "id": "840c05ce502e7fdd",
+        "type": "change",
+        "z": "ab51b1e8cad7b700",
+        "g": "a8dc4fab59fdefb4",
+        "name": "system / kernel / version / text / 0.0.1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bucket",
+                "pt": "msg",
+                "to": "system",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "measurement",
+                "pt": "msg",
+                "to": "kernel",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "field",
+                "pt": "msg",
+                "to": "version",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "default",
+                "pt": "msg",
+                "to": "0.0.1",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "format",
+                "pt": "msg",
+                "to": "text",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 4800,
+        "wires": [
+            [
+                "7f76434616f622dc"
+            ]
+        ]
+    },
+    {
+        "id": "eed8990163b1ca81",
+        "type": "link in",
+        "z": "ab51b1e8cad7b700",
+        "g": "a8dc4fab59fdefb4",
+        "name": "device - system kernel version",
+        "links": [
+            "25445f5a9b787a0a"
+        ],
+        "x": 115,
+        "y": 4800,
+        "wires": [
+            [
+                "840c05ce502e7fdd"
+            ]
+        ]
+    },
+    {
+        "id": "7f76434616f622dc",
+        "type": "link out",
+        "z": "ab51b1e8cad7b700",
+        "g": "a8dc4fab59fdefb4",
+        "name": "device - system kernel version",
+        "mode": "link",
+        "links": [
+            "bfa594bf1f876c92"
+        ],
+        "x": 575,
+        "y": 4800,
+        "wires": []
+    },
+    {
+        "id": "28b6c3fdb407e73b",
+        "type": "comment",
+        "z": "ab51b1e8cad7b700",
+        "g": "3e71b89d61df9fd3",
+        "name": "influxdb must have \"resume\", \"linky\", \"system\", \"home\", \"unifi\" buckets, and one bucket per room",
+        "info": "",
+        "x": 450,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "2623529da72f4fab",
+        "type": "catch",
+        "z": "bcb4426f5301b9f2",
+        "g": "a0496edd95de60f3",
+        "name": "catch error",
+        "scope": null,
+        "uncaught": false,
+        "x": 620,
+        "y": 60,
+        "wires": [
+            [
+                "73d23bc533cf4217"
+            ]
+        ]
+    },
+    {
+        "id": "73d23bc533cf4217",
+        "type": "debug",
+        "z": "bcb4426f5301b9f2",
+        "g": "a0496edd95de60f3",
+        "name": "routine - catch error",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "20617e4a877c8fc3",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "1f31199c6478bed6",
+        "name": "minute to HH:mm",
+        "links": [],
+        "x": 135,
+        "y": 240,
+        "wires": [
+            [
+                "0385dd3208b83d41"
+            ]
+        ]
+    },
+    {
+        "id": "2467c6c0b11061b2",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "1f31199c6478bed6",
+        "name": "minute to HH:mm",
+        "mode": "return",
+        "links": [],
+        "x": 455,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0385dd3208b83d41",
+        "type": "function",
+        "z": "bcb4426f5301b9f2",
+        "g": "1f31199c6478bed6",
+        "name": "minute to HH:mm",
+        "func": "var d = Number(msg.payload);\nvar h = Math.floor(d / 60);\nvar m = Math.floor(d % 60);\nif (h < 10) { h = h < 5 ? '00' : '0' + h; }\nif (m < 10) { m = m < 5 ? '00' : '0' + m; }\nmsg.payload = h + ':' + m;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 240,
+        "wires": [
+            [
+                "2467c6c0b11061b2"
+            ]
+        ]
+    },
+    {
+        "id": "a72b20551a3b1f8c",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "convert to boolean",
+        "links": [],
+        "x": 135,
+        "y": 360,
+        "wires": [
+            [
+                "b75da43db9ea9e7e"
+            ]
+        ]
+    },
+    {
+        "id": "b75da43db9ea9e7e",
+        "type": "json",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "convert payload to json",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "ef13c93a34fcab87"
+            ]
+        ]
+    },
+    {
+        "id": "ef13c93a34fcab87",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "format to boolean",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "false"
+            },
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 590,
+        "y": 360,
+        "wires": [
+            [
+                "45647475dad51f30"
+            ],
+            [
+                "825837a029db8ec5"
+            ],
+            [
+                "45647475dad51f30"
+            ],
+            [
+                "825837a029db8ec5"
+            ]
+        ]
+    },
+    {
+        "id": "45647475dad51f30",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 360,
+        "wires": [
+            [
+                "bd6f2717b2f30241"
+            ]
+        ]
+    },
+    {
+        "id": "825837a029db8ec5",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 420,
+        "wires": [
+            [
+                "bd6f2717b2f30241"
+            ]
+        ]
+    },
+    {
+        "id": "bd6f2717b2f30241",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "4c2fd374879bcc62",
+        "name": "convert to boolean",
+        "mode": "return",
+        "links": [],
+        "x": 915,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c213314798c4a9be",
+        "type": "json",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "convert payload to json",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "2e643b1746a93b44"
+            ]
+        ]
+    },
+    {
+        "id": "2e643b1746a93b44",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "format to number",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 590,
+        "y": 600,
+        "wires": [
+            [
+                "4b32e84f6c624568"
+            ],
+            [
+                "31b42964ff3deb4f"
+            ],
+            [
+                "c2532fc6bfffd154"
+            ]
+        ]
+    },
+    {
+        "id": "4b32e84f6c624568",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "nb",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "91841d3915124c8e"
+            ]
+        ]
+    },
+    {
+        "id": "31b42964ff3deb4f",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 600,
+        "wires": [
+            [
+                "91841d3915124c8e"
+            ]
+        ]
+    },
+    {
+        "id": "c2532fc6bfffd154",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 660,
+        "wires": [
+            [
+                "91841d3915124c8e"
+            ]
+        ]
+    },
+    {
+        "id": "e112327c4a55aa35",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "convert to number",
+        "links": [],
+        "x": 135,
+        "y": 600,
+        "wires": [
+            [
+                "c213314798c4a9be"
+            ]
+        ]
+    },
+    {
+        "id": "91841d3915124c8e",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "e9594aa2f7507ac5",
+        "name": "convert to number",
+        "mode": "return",
+        "links": [],
+        "x": 915,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "0414c3f0d95341ac",
+        "type": "json",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "convert payload to json",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 840,
+        "wires": [
+            [
+                "b6f0d1b534279a98"
+            ]
+        ]
+    },
+    {
+        "id": "b6f0d1b534279a98",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "format to percent",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "str"
+            },
+            {
+                "t": "lt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 590,
+        "y": 840,
+        "wires": [
+            [
+                "6ec40cadb83543dd"
+            ],
+            [
+                "73a136cc319902eb"
+            ],
+            [
+                "d84b5b147f5fa7a4"
+            ],
+            [
+                "6ec40cadb83543dd"
+            ],
+            [
+                "73a136cc319902eb"
+            ]
+        ]
+    },
+    {
+        "id": "6ec40cadb83543dd",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 780,
+        "wires": [
+            [
+                "f9f49c8d382ee23d"
+            ]
+        ]
+    },
+    {
+        "id": "d84b5b147f5fa7a4",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "nb",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 840,
+        "wires": [
+            [
+                "f9f49c8d382ee23d"
+            ]
+        ]
+    },
+    {
+        "id": "73a136cc319902eb",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 900,
+        "wires": [
+            [
+                "f9f49c8d382ee23d"
+            ]
+        ]
+    },
+    {
+        "id": "bc396dcc308c42ee",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "convert to percent",
+        "links": [],
+        "x": 135,
+        "y": 840,
+        "wires": [
+            [
+                "0414c3f0d95341ac"
+            ]
+        ]
+    },
+    {
+        "id": "f9f49c8d382ee23d",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "414cdce0186b98d1",
+        "name": "convert to percent",
+        "mode": "return",
+        "links": [],
+        "x": 915,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "5070cadd19aa3954",
+        "type": "json",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "convert payload to json",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 1080,
+        "wires": [
+            [
+                "d40b223a978b9a1e"
+            ]
+        ]
+    },
+    {
+        "id": "d40b223a978b9a1e",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "format to dimmer",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "99",
+                "vt": "str"
+            },
+            {
+                "t": "lt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 590,
+        "y": 1080,
+        "wires": [
+            [
+                "6f7e7a5d7ebd031d"
+            ],
+            [
+                "e7ac1f9f3c8ae78c"
+            ],
+            [
+                "ba9d70c1045cb088"
+            ],
+            [
+                "6f7e7a5d7ebd031d"
+            ],
+            [
+                "e7ac1f9f3c8ae78c"
+            ]
+        ]
+    },
+    {
+        "id": "6f7e7a5d7ebd031d",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "99",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "99",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 1020,
+        "wires": [
+            [
+                "99e1c9e8654a9f81"
+            ]
+        ]
+    },
+    {
+        "id": "ba9d70c1045cb088",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "nb",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$number(msg.payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 1080,
+        "wires": [
+            [
+                "99e1c9e8654a9f81"
+            ]
+        ]
+    },
+    {
+        "id": "e7ac1f9f3c8ae78c",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 1140,
+        "wires": [
+            [
+                "99e1c9e8654a9f81"
+            ]
+        ]
+    },
+    {
+        "id": "4f02d67d81a83e86",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "convert to dimmer",
+        "links": [],
+        "x": 135,
+        "y": 1080,
+        "wires": [
+            [
+                "5070cadd19aa3954"
+            ]
+        ]
+    },
+    {
+        "id": "99e1c9e8654a9f81",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "1efacea0cfc080e2",
+        "name": "convert to dimmer",
+        "mode": "return",
+        "links": [],
+        "x": 915,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "7662aba4a1cc9dd0",
+        "type": "link in",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "cleanup measurement",
+        "links": [],
+        "x": 135,
+        "y": 1560,
+        "wires": [
+            [
+                "0e0adba49a29f70f"
+            ]
+        ]
+    },
+    {
+        "id": "0e0adba49a29f70f",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "select measurement",
+        "property": "measurement",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "temperature",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "humidity",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "luminosity",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "power",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "current",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 6,
+        "x": 320,
+        "y": 1560,
+        "wires": [
+            [
+                "71e189afd8659a2d"
+            ],
+            [
+                "af147f11a3d4d652"
+            ],
+            [
+                "ce0256824b38971d"
+            ],
+            [
+                "e5ceb5335c3b0d43"
+            ],
+            [
+                "afcaa4289efc76f2"
+            ],
+            [
+                "b6d241198242a6e5"
+            ]
+        ]
+    },
+    {
+        "id": "b6d241198242a6e5",
+        "type": "link out",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "cleanup measurement",
+        "mode": "return",
+        "links": [],
+        "x": 815,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "71e189afd8659a2d",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.payload,1)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1320,
+        "wires": [
+            [
+                "f54479dc5f66620e"
+            ]
+        ]
+    },
+    {
+        "id": "f54479dc5f66620e",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "range",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "-20",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1320,
+        "wires": [
+            [
+                "b6d241198242a6e5"
+            ],
+            [
+                "6a5bccc5dc98def6"
+            ]
+        ]
+    },
+    {
+        "id": "6a5bccc5dc98def6",
+        "type": "debug",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "cleanup measurement - invalid",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "ce0256824b38971d",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "range",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "20000",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1440,
+        "wires": [
+            [
+                "b6d241198242a6e5"
+            ],
+            [
+                "6a5bccc5dc98def6"
+            ]
+        ]
+    },
+    {
+        "id": "e5ceb5335c3b0d43",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "range",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "-20000",
+                "vt": "num",
+                "v2": "20000",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1500,
+        "wires": [
+            [
+                "b6d241198242a6e5"
+            ],
+            [
+                "6a5bccc5dc98def6"
+            ]
+        ]
+    },
+    {
+        "id": "577298e83998f6d7",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "range",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "99",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1380,
+        "wires": [
+            [
+                "b6d241198242a6e5"
+            ],
+            [
+                "6a5bccc5dc98def6"
+            ]
+        ]
+    },
+    {
+        "id": "af147f11a3d4d652",
+        "type": "change",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "round",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$round(msg.payload,1)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1380,
+        "wires": [
+            [
+                "577298e83998f6d7"
+            ]
+        ]
+    },
+    {
+        "id": "afcaa4289efc76f2",
+        "type": "switch",
+        "z": "bcb4426f5301b9f2",
+        "g": "29b883f9654391c8",
+        "name": "range",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "-50",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 690,
+        "y": 1560,
+        "wires": [
+            [
+                "b6d241198242a6e5"
+            ],
+            [
+                "6a5bccc5dc98def6"
+            ]
+        ]
     }
 ]
