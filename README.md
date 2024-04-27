@@ -5,6 +5,18 @@ iotredloop v0.0.1
 This is a personnal project of home automation, it is highly limited to my needs.
 There are more explanation, in french, on [my blog](https://chez.jcdenis.fr/category/Domotique/NRDomV2)
 
+Main flows.json was cut into multiple files by tabs using node-red-contrib-flow-manager.
+
+## REQUIREMENTS
+
+Flows are written under Node-red v1.3.9 with following packages :
+
+* node-red-contrib-flow-manager 0.7.4
+* node-red-contrib-msg-speed 2.1.0
+* node-red-contrib-queue-gate 1.5.5
+* node-red-contrib-simple-gate 0.5.2
+* node-red-contrib-stackhero-influxdb-v2 1.0.4
+
 ## LICENSE
 
 GNU GENERAL PUBLIC LICENSE version 3 (GPL-3.0 license)
