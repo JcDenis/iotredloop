@@ -1296,7 +1296,7 @@
       },
       {
         "t": "delete",
-        "p": "stack[msg.bucket][msg.measurement][msg.field]",
+        "p": "metrics[msg.bucket][msg.measurement][msg.field]",
         "pt": "global"
       },
       {

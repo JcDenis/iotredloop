@@ -1,0 +1,8371 @@
+[
+  {
+    "id": "677f66663a198839",
+    "type": "tab",
+    "label": "R.System",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "19589484518b9c6d",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "da2f54e055f1d1ac",
+      "804c8129107645c1",
+      "ca7b372f821ad44a"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "3a961ed184f483d2",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "551c4937df0e862d",
+      "49e203b7c8c18169"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 452,
+    "h": 82
+  },
+  {
+    "id": "f2395f53893d1689",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - mode",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f8998acf5aadbdb9",
+      "fa7ddb9a4e76d4f4"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1914,
+    "h": 854
+  },
+  {
+    "id": "f8998acf5aadbdb9",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "f2395f53893d1689",
+    "name": "system - mode - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "aaee376ab741c976",
+      "11010cbbc6f9b2c8",
+      "e281bad48bd293b1",
+      "4dab258c1a09367d",
+      "35c1bab44d004988",
+      "de7d9964bf29e382",
+      "d41e4cebce2bca43",
+      "97dc196e81b7409d",
+      "0c700c804ad43278",
+      "0fd97492731debd9",
+      "ba0d99bb4b415430",
+      "6623e31afbcb8143",
+      "7639c6337690230d",
+      "928da51d7458e5c8",
+      "b517f0ddca2c408f"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 542,
+    "h": 802
+  },
+  {
+    "id": "fa7ddb9a4e76d4f4",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "f2395f53893d1689",
+    "name": "system - mode - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9115d56d55c93df5",
+      "349f3c40d1c1b12e",
+      "021f86a9f6ab04ae",
+      "34e6ce73275a532e",
+      "bf9261f8ae1151d3",
+      "24516baa1174ca38",
+      "ae364154f775506a",
+      "003aaac69cd1095e",
+      "04863aeaaaed38cf",
+      "ca06a9cb7106d9e8",
+      "97e27495865247db",
+      "587bde08ed6671de",
+      "c40ffe49c0a0ff99",
+      "8ff81811fc69c047",
+      "e7fce90947d78bb6",
+      "7162e871274ba773",
+      "9c410754eeed38a4",
+      "1d6431834655bebd",
+      "17ccab488210a553",
+      "0eaec60a9f3079c3",
+      "e5711a71b3892db1",
+      "f7f098848fd8f773"
+    ],
+    "x": 734,
+    "y": 199,
+    "w": 1222,
+    "h": 802
+  },
+  {
+    "id": "b797275a94ef83a0",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - clock",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "74e688fe3aca2cf8",
+      "ce95f1d44dfe8e41"
+    ],
+    "x": 68,
+    "y": 1073,
+    "w": 1994,
+    "h": 794
+  },
+  {
+    "id": "74e688fe3aca2cf8",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "b797275a94ef83a0",
+    "name": "system - clock - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5230d94fd1a50ee4",
+      "832cdc9413fa68e9",
+      "346449e7aa3acf06",
+      "bc5b2e9697867707",
+      "b1c1797c1d7105fc",
+      "d192a18518dbaddb",
+      "66fc117529d78f16",
+      "edeeccf645772a19",
+      "76299bb5b2511493",
+      "337719979ff14b9d"
+    ],
+    "x": 94,
+    "y": 1099,
+    "w": 582,
+    "h": 502
+  },
+  {
+    "id": "ce95f1d44dfe8e41",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "b797275a94ef83a0",
+    "name": "system - clock - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d7b772643055b543",
+      "bf58597579fa65ac",
+      "eb0e20481326e5c8",
+      "9dbdaedc889b5e55",
+      "8a2cc36fee115da2",
+      "3ee329a652898c8e",
+      "c43a832d72d5f53c",
+      "35b93554c4c3380f",
+      "3c3ee84183ecc882",
+      "18ca1e572ed1016e",
+      "b0ed6159a28316ed",
+      "e161c2ee367d789c",
+      "30c1212e2308599a",
+      "8393b1d9a9587d31",
+      "58eb4557bbe9720b",
+      "caf9f9d55230f2c7",
+      "04c0023c70785d63",
+      "1b40d5db9a25ad98",
+      "5e8e2d18d89e920c",
+      "ab6b3f6d38264d59",
+      "14fc27d24bd74772",
+      "8a25ef86b6027c7c",
+      "b8192e76c51fbbc4",
+      "61f16e58b8dd9743",
+      "45366ae388d08a21",
+      "3d531a0a7bd86cc6",
+      "cc201fa7c244f54c",
+      "54939b731493ac8e",
+      "04d9f9e663d23588"
+    ],
+    "x": 774,
+    "y": 1099,
+    "w": 1262,
+    "h": 742
+  },
+  {
+    "id": "ac8656880e79c64f",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - monitor",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3ac47f7c0d888114",
+      "869c12168d4f1eff",
+      "846c648ed9c9e2f4"
+    ],
+    "x": 68,
+    "y": 1913,
+    "w": 2094,
+    "h": 194
+  },
+  {
+    "id": "3ac47f7c0d888114",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "ac8656880e79c64f",
+    "name": "system - monitor - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c2f4ed65313c79e3",
+      "e6ea054f0c263d05",
+      "ea0a6bf7471569b8",
+      "7f27c671b36b7f0d"
+    ],
+    "x": 94,
+    "y": 1939,
+    "w": 502,
+    "h": 142
+  },
+  {
+    "id": "869c12168d4f1eff",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "ac8656880e79c64f",
+    "name": "system - monitor - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "105c061631062fa1",
+      "28451c24664fea72",
+      "a3dd1fa555510840",
+      "4746f7254a82e9bc"
+    ],
+    "x": 694,
+    "y": 1939,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "846c648ed9c9e2f4",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "ac8656880e79c64f",
+    "name": "system - monitor - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "836e500a2c7822c7",
+      "dfaedc0968b10c81",
+      "593c443b02b44445",
+      "a5ba2de38ffe6ea3",
+      "62056c26d5ec8e87",
+      "705b7aecc5fbd42d",
+      "bbbe0888e1da93c3",
+      "f2e7804129259d9e",
+      "5ba738211e0c4eac"
+    ],
+    "x": 1354,
+    "y": 1939,
+    "w": 782,
+    "h": 142
+  },
+  {
+    "id": "a36cc06f8dcbf00f",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - statistics",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f29264eda4a17c64",
+      "669888077b4dd178"
+    ],
+    "x": 68,
+    "y": 2153,
+    "w": 2364,
+    "h": 794
+  },
+  {
+    "id": "f29264eda4a17c64",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "a36cc06f8dcbf00f",
+    "name": "system - statistics - update",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b4dcaf3216134966",
+      "ff1a30fbddcaa9fd",
+      "38177fb0e91fdd3e",
+      "d4a3fdcacd1fd1b5",
+      "490e37ccfca71dba",
+      "f4bd51a249bc40ab",
+      "8f3269222142f0f4",
+      "30972c85a28530dc",
+      "0ed67256bb147e2b",
+      "824a1416d7a3cfe1",
+      "b2547f7ff4878848",
+      "dff88b670b073ad9",
+      "ef2234fa4551184f",
+      "66b91b737f90ea46",
+      "b5f125bb007480a0",
+      "3839ed033b24f53f",
+      "043c5221abd8d856",
+      "77c59c4ebafe42bf",
+      "77736ba628ab516c",
+      "dfeb8a18db2eaef3",
+      "673139e4d39c82c4",
+      "38b4444508aa953e",
+      "3aa89a8bd365e23f"
+    ],
+    "x": 94,
+    "y": 2179,
+    "w": 1062,
+    "h": 562
+  },
+  {
+    "id": "669888077b4dd178",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "a36cc06f8dcbf00f",
+    "name": "system - statistics - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b17e3350f9ba81ad",
+      "16111c5661efcc71",
+      "deb62bbcd93f939a",
+      "724cba04d6600bc8",
+      "85184cd9cd45e820",
+      "b105c14c0fdc8160",
+      "bd3ccecd7ffb358a",
+      "30ef8005a9e47bc3",
+      "24ac821b70937ab9",
+      "0b20ddd97c1ede52",
+      "5a3104504f4a3395",
+      "a0f5fe52e7f961cd",
+      "a8090bc0c14620a4",
+      "ae20c2d4314177d6",
+      "117fb09fe859797f",
+      "c44f928da06c7300",
+      "7f49756b83bfd4c2",
+      "2c98293fd7165f55",
+      "8a2831b7ca3f44bb",
+      "444cfa997924f2d1",
+      "df6025b5aae9e534",
+      "6d0a3f786ee1e6dc",
+      "219a160adad0a1f0",
+      "882afb599b11dfc2",
+      "3942f23acf0c46ef",
+      "7c26fd276e02a4e0",
+      "9514e7483e1fbf25",
+      "aa2c1cbac43ce23d",
+      "5b377209d189ce5f",
+      "44098478ecf1656f",
+      "57d699f1b6a32708",
+      "f6d83a5f32df320b"
+    ],
+    "x": 1254,
+    "y": 2179,
+    "w": 1152,
+    "h": 742
+  },
+  {
+    "id": "57bf8eefe70206c0",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - ui - timers",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3cc31621bae4b8f4",
+      "fad6ea5928c43d20",
+      "c44490a40f109a5c",
+      "14f915e43eee9cb9",
+      "3373b870924b043e",
+      "e26532940aaa52c6",
+      "b4802ba3090bfb72",
+      "b1aec9ed9eb8059e",
+      "da6f3da669e024d3",
+      "4f2f73098fe566cb",
+      "a7721a73d1926ce0",
+      "b5be1daf52eae0ec",
+      "8009a084ca3785ef",
+      "f53cc6991fe5640c",
+      "c0a84f51998336e3",
+      "da26fce301e2b672"
+    ],
+    "x": 94,
+    "y": 3019,
+    "w": 2072,
+    "h": 262
+  },
+  {
+    "id": "efb33694649f8cca",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - update - nycthemer",
+    "style": {
+      "label": true,
+      "fill": "#92d04f",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "5a6eb0e1ac869f15",
+      "abbb527592df8f13",
+      "4d3db92ea8a04423",
+      "e83b088826de7bae",
+      "42207b73be13eb88",
+      "3631362524ac76c2",
+      "3093560fba474989",
+      "699d2f8babf2c777",
+      "32f83da1742957b9",
+      "1b94e49c6892430e",
+      "486b70cea417c936",
+      "35d6c8c0ecd67d15",
+      "cefb48c3c6af8823",
+      "f508a3f31bab139f",
+      "77a6b5d427afc6c4",
+      "06143f7b0cf08d31",
+      "9a98ec99a05b6bd2",
+      "4bb0b7fdcfbac2ec",
+      "e25877a06b36a847"
+    ],
+    "x": 94,
+    "y": 3331.5,
+    "w": 2532,
+    "h": 209.5
+  },
+  {
+    "id": "c09962536325e13b",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - update - high/low",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "dc928aa9dc8584f9",
+      "ce836243f955dacc",
+      "0fd0eeb840396afe",
+      "4fc76f6c3f766c17",
+      "e5ffb0daf3640ce6",
+      "dfc1b5a5332179d3",
+      "3e79ac3541f286cc",
+      "5597c735c47c9f96",
+      "8e19b120dae4551b",
+      "1ce50655a8c2c3fa",
+      "5ea98e4de1007f8a",
+      "544325135170880d",
+      "cc09d013af2551be",
+      "5091c04ccb0ab761",
+      "cf471b8980158bc0",
+      "444b573a678eae86",
+      "5e20f1a216d065db",
+      "cd757066177ff887"
+    ],
+    "x": 94,
+    "y": 3579,
+    "w": 2312,
+    "h": 202
+  },
+  {
+    "id": "0164b91ce85885f1",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system -  update - morning/evening limit",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2a146094dde8c67c",
+      "61ec09a3e29e77c5",
+      "47f238a05f860cb8",
+      "c7abcfa95d057080",
+      "6938d471973bc8bc",
+      "9211d80f8af2ae48",
+      "222b3ef53e24b016",
+      "0c5f9cad2a1fc910",
+      "2adde777c1bbd4de",
+      "470dca557c06170b",
+      "294b6294066023f5",
+      "d825d08b9338b067",
+      "cbeae92b5052493c",
+      "4e99af88ffdba5db",
+      "efa356bb8b1556a7",
+      "04a79aac2088b2e7",
+      "6758f88a8d6ea407",
+      "8ecd0ebf784afdaf",
+      "c7751d4872064d44",
+      "c2dc31e0130a863a",
+      "e793ce4ebc5bfd58",
+      "9d1ff2ced120c248",
+      "cbb425cbf7f607de",
+      "cb76330540a412e2",
+      "4172bf899d0bf2ac"
+    ],
+    "x": 94,
+    "y": 3819,
+    "w": 3592,
+    "h": 262
+  },
+  {
+    "id": "1fb10d380183f0fb",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - update - mode fire",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "54bfe450e2c0b4c4",
+      "03dfda7ced4cff37",
+      "ce1d069be85a0c57",
+      "0a813fe1a03dd9d2",
+      "c9db5272d112461d",
+      "fa6ddb12553bf2a6",
+      "0e504e3987b7b54d",
+      "a45686b8b8fb6208",
+      "ec3963cba00585e6",
+      "a97dae7ab39393ae",
+      "a70dd192770618ae",
+      "8b9e4f8c047317ef",
+      "8ef54afe5d6ae844"
+    ],
+    "x": 94,
+    "y": 4119,
+    "w": 1872,
+    "h": 142
+  },
+  {
+    "id": "c761b34cfb83bf7b",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - scene - cpu usage",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "254e14629bc80024",
+      "d494bd28da0b3b4f",
+      "35870d5de45b5eca",
+      "2d1d8fa5d5acbce3",
+      "cc0d79a6d7d33ed8",
+      "a33484931cee65b0",
+      "4e15731a3c1a1e30",
+      "89feb0a79db2f26b",
+      "231b620ca0da576d",
+      "5e4d2999a1291797",
+      "75d8c07c0bbd922c",
+      "cc7d25ff439bf79d",
+      "2c7b8f31c26a0e08",
+      "4770c01b4d63433a"
+    ],
+    "x": 94,
+    "y": 4299,
+    "w": 2082,
+    "h": 202
+  },
+  {
+    "id": "da2f54e055f1d1ac",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "19589484518b9c6d",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "delete_stack_from_ui",
+        "pt": "flow",
+        "to": "{\"bucket\":\"\",\"measurement\":\"\",\"field\":\"\"}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "statistics",
+        "pt": "flow",
+        "to": "{\t    'counter':{\t        'stack':0,\t        'mqtt':0,\t        'influxdb':0,\t        'zigbee':0,\t        'zwave':0,\t        'rfxcom':0,\t        'bluetooth':0,\t        'loop':0,\t        'gate':0,\t        'offloading':0,\t        'reset':$millis()\t    }\t}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "ca7b372f821ad44a"
+      ]
+    ]
+  },
+  {
+    "id": "804c8129107645c1",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "19589484518b9c6d",
+    "name": "system - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "da2f54e055f1d1ac"
+      ]
+    ]
+  },
+  {
+    "id": "ca7b372f821ad44a",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "19589484518b9c6d",
+    "name": "system - bucket",
+    "mode": "link",
+    "links": [
+      "346449e7aa3acf06",
+      "e281bad48bd293b1",
+      "ea0a6bf7471569b8"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "551c4937df0e862d",
+    "type": "catch",
+    "z": "677f66663a198839",
+    "g": "3a961ed184f483d2",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "49e203b7c8c18169"
+      ]
+    ]
+  },
+  {
+    "id": "49e203b7c8c18169",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "3a961ed184f483d2",
+    "name": "system - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 840,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "aaee376ab741c976",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / assistant / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "assistant",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 240,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "11010cbbc6f9b2c8",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "system - mode - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 595,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "e281bad48bd293b1",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "system - mode - device",
+    "links": [
+      "ca7b372f821ad44a"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "aaee376ab741c976",
+        "4dab258c1a09367d",
+        "35c1bab44d004988",
+        "de7d9964bf29e382",
+        "d41e4cebce2bca43",
+        "97dc196e81b7409d",
+        "0c700c804ad43278",
+        "0fd97492731debd9",
+        "ba0d99bb4b415430",
+        "6623e31afbcb8143",
+        "7639c6337690230d",
+        "928da51d7458e5c8",
+        "b517f0ddca2c408f"
+      ]
+    ]
+  },
+  {
+    "id": "4dab258c1a09367d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / automate / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "automate",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 300,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "35c1bab44d004988",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / heating / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "heating",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 360,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "de7d9964bf29e382",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / cumulus / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 420,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "d41e4cebce2bca43",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / offloading / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 480,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "97dc196e81b7409d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / lighting / text / low",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 540,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "0c700c804ad43278",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / fire / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "fire",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 600,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "0fd97492731debd9",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / master / text / iotmodred",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "master",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "iotredloop",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 660,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "ba0d99bb4b415430",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / notification / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 720,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "6623e31afbcb8143",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / nycthemer / text / night",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "nycthemer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "night",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 780,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "7639c6337690230d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / presence / text / present",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "presence",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "present",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 840,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "928da51d7458e5c8",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / sound / text / low",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "sound",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 900,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "b517f0ddca2c408f",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f8998acf5aadbdb9",
+    "name": "mode / airflow / text / automatic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 960,
+    "wires": [
+      [
+        "11010cbbc6f9b2c8"
+      ]
+    ]
+  },
+  {
+    "id": "9115d56d55c93df5",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "system - mode - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 775,
+    "y": 300,
+    "wires": [
+      [
+        "021f86a9f6ab04ae"
+      ]
+    ]
+  },
+  {
+    "id": "349f3c40d1c1b12e",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "system - mode - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1915,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "021f86a9f6ab04ae",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "check bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 930,
+    "y": 300,
+    "wires": [
+      [
+        "04863aeaaaed38cf"
+      ]
+    ]
+  },
+  {
+    "id": "34e6ce73275a532e",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]mode",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 360,
+    "wires": [
+      [
+        "bf9261f8ae1151d3"
+      ]
+    ]
+  },
+  {
+    "id": "bf9261f8ae1151d3",
+    "type": "split",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "split measurement",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1150,
+    "y": 360,
+    "wires": [
+      [
+        "003aaac69cd1095e"
+      ]
+    ]
+  },
+  {
+    "id": "24516baa1174ca38",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1780,
+    "y": 240,
+    "wires": [
+      [
+        "349f3c40d1c1b12e"
+      ]
+    ]
+  },
+  {
+    "id": "ae364154f775506a",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "system - mode - ui - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 775,
+    "y": 360,
+    "wires": [
+      [
+        "34e6ce73275a532e"
+      ]
+    ]
+  },
+  {
+    "id": "003aaac69cd1095e",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "select field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "assistant",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "heating",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cumulus",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "offloading",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "lighting",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "fire",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "master",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "notification",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "nycthemer",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "presence",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "sound",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "airflow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 13,
+    "x": 1390,
+    "y": 360,
+    "wires": [
+      [
+        "ca06a9cb7106d9e8"
+      ],
+      [
+        "97e27495865247db"
+      ],
+      [
+        "587bde08ed6671de"
+      ],
+      [
+        "c40ffe49c0a0ff99"
+      ],
+      [
+        "8ff81811fc69c047"
+      ],
+      [
+        "e7fce90947d78bb6"
+      ],
+      [
+        "7162e871274ba773"
+      ],
+      [
+        "9c410754eeed38a4"
+      ],
+      [
+        "1d6431834655bebd"
+      ],
+      [
+        "17ccab488210a553"
+      ],
+      [
+        "0eaec60a9f3079c3"
+      ],
+      [
+        "e5711a71b3892db1"
+      ],
+      [
+        "f7f098848fd8f773"
+      ]
+    ]
+  },
+  {
+    "id": "04863aeaaaed38cf",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "name": "check measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1160,
+    "y": 300,
+    "wires": [
+      [
+        "003aaac69cd1095e"
+      ]
+    ]
+  },
+  {
+    "id": "ca06a9cb7106d9e8",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "assistant",
+    "label": "Assistant",
+    "tooltip": "",
+    "order": 11,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "assistant",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 240,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "97e27495865247db",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "automate",
+    "label": "Automate",
+    "tooltip": "",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Manuel",
+        "value": "manual",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "automate",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 300,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "587bde08ed6671de",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "heating",
+    "label": "Chauffage",
+    "tooltip": "",
+    "order": 7,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Manuel",
+        "value": "manual",
+        "type": "str"
+      },
+      {
+        "label": "Hors-Gel",
+        "value": "anti-freeze",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "heating",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 360,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "c40ffe49c0a0ff99",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "cumulus",
+    "label": "Cumulus",
+    "tooltip": "",
+    "order": 8,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Manuel",
+        "value": "manual",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "cumulus",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 420,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "8ff81811fc69c047",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "offloading",
+    "label": "Delestage",
+    "tooltip": "",
+    "order": 10,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Délesté",
+        "value": "offloaded",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "offloading",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 480,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "e7fce90947d78bb6",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "lighting",
+    "label": "Eclairage",
+    "tooltip": "",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Fort",
+        "value": "high",
+        "type": "str"
+      },
+      {
+        "label": "Faible",
+        "value": "low",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "lighting",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 540,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "7162e871274ba773",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "fire",
+    "label": "Incendie",
+    "tooltip": "",
+    "order": 12,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "fire",
+    "topicType": "str",
+    "className": "",
+    "x": 1570,
+    "y": 600,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "9c410754eeed38a4",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "master",
+    "label": "Maitre",
+    "tooltip": "",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "IotRedLoop",
+        "value": "iotredloop",
+        "type": "str"
+      },
+      {
+        "label": "IOT ModRED",
+        "value": "iotmodred",
+        "type": "str"
+      },
+      {
+        "label": "Jeedom",
+        "value": "Jeedom",
+        "type": "str"
+      },
+      {
+        "label": "Home Assistant",
+        "value": "hassio",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "master",
+    "topicType": "str",
+    "className": "",
+    "x": 1570,
+    "y": 660,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "1d6431834655bebd",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "notification",
+    "label": "Notification",
+    "tooltip": "",
+    "order": 6,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Ecrit",
+        "value": "text",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "notification",
+    "topicType": "str",
+    "className": "",
+    "x": 1590,
+    "y": 720,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "17ccab488210a553",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "nycthemer",
+    "label": "Nyctémère",
+    "tooltip": "",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Jour",
+        "value": "day",
+        "type": "str"
+      },
+      {
+        "label": "Nuit",
+        "value": "night",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "nycthemer",
+    "topicType": "str",
+    "className": "",
+    "x": 1590,
+    "y": 780,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "0eaec60a9f3079c3",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "presence",
+    "label": "Présence",
+    "tooltip": "",
+    "order": 13,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Présent",
+        "value": "present",
+        "type": "str"
+      },
+      {
+        "label": "Absent",
+        "value": "absent",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "presence",
+    "topicType": "str",
+    "className": "",
+    "x": 1580,
+    "y": 840,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "e5711a71b3892db1",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "sound",
+    "label": "Son",
+    "tooltip": "",
+    "order": 5,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Fort",
+        "value": "high",
+        "type": "str"
+      },
+      {
+        "label": "Faible",
+        "value": "low",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "sound",
+    "topicType": "str",
+    "className": "",
+    "x": 1570,
+    "y": 900,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "f7f098848fd8f773",
+    "type": "ui-dropdown",
+    "z": "677f66663a198839",
+    "g": "fa7ddb9a4e76d4f4",
+    "group": "d96c0844834ca9d7",
+    "name": "airflow",
+    "label": "Ventilation",
+    "tooltip": "",
+    "order": 9,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "Automatique",
+        "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Manuel",
+        "value": "manual",
+        "type": "str"
+      },
+      {
+        "label": "Arrêt",
+        "value": "off",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "airflow",
+    "topicType": "str",
+    "className": "",
+    "x": 1570,
+    "y": 960,
+    "wires": [
+      [
+        "24516baa1174ca38"
+      ]
+    ]
+  },
+  {
+    "id": "5230d94fd1a50ee4",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute dawn / number / 420",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute dawn",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "420",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 1140,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "832cdc9413fa68e9",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "system - clock - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 635,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "346449e7aa3acf06",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "system - clock - device",
+    "links": [
+      "ca7b372f821ad44a"
+    ],
+    "x": 135,
+    "y": 1140,
+    "wires": [
+      [
+        "5230d94fd1a50ee4",
+        "bc5b2e9697867707",
+        "66fc117529d78f16",
+        "edeeccf645772a19",
+        "337719979ff14b9d",
+        "76299bb5b2511493",
+        "b1c1797c1d7105fc",
+        "d192a18518dbaddb"
+      ]
+    ]
+  },
+  {
+    "id": "bc5b2e9697867707",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute dusk / number / 1200",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute dusk",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1200",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 1200,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "b1c1797c1d7105fc",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute morning limit / number / 420",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute morning limit",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "420",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 380,
+    "y": 1260,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "d192a18518dbaddb",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute evening limit / number / 1200",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute evening limit",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1200",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1320,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "66fc117529d78f16",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute morning work / number / 420",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute morning work",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "420",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1380,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "edeeccf645772a19",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute morning rest / number / 510",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute morning rest",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "510",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 380,
+    "y": 1440,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "76299bb5b2511493",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute evening rest / number / 1230",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute evening rest",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1230",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1560,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "337719979ff14b9d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "74e688fe3aca2cf8",
+    "name": "clock / minute evening work / number / 1200",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute evening work",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1200",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1500,
+    "wires": [
+      [
+        "832cdc9413fa68e9"
+      ]
+    ]
+  },
+  {
+    "id": "d7b772643055b543",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "system - clock - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 815,
+    "y": 1200,
+    "wires": [
+      [
+        "eb0e20481326e5c8"
+      ]
+    ]
+  },
+  {
+    "id": "bf58597579fa65ac",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "system - clock - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1995,
+    "y": 1620,
+    "wires": []
+  },
+  {
+    "id": "eb0e20481326e5c8",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "check bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 970,
+    "y": 1200,
+    "wires": [
+      [
+        "30c1212e2308599a"
+      ]
+    ]
+  },
+  {
+    "id": "9dbdaedc889b5e55",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]clock",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 1260,
+    "wires": [
+      [
+        "8a2cc36fee115da2"
+      ]
+    ]
+  },
+  {
+    "id": "8a2cc36fee115da2",
+    "type": "split",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "split measurement",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1190,
+    "y": 1260,
+    "wires": [
+      [
+        "c43a832d72d5f53c"
+      ]
+    ]
+  },
+  {
+    "id": "3ee329a652898c8e",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1860,
+    "y": 1620,
+    "wires": [
+      [
+        "bf58597579fa65ac"
+      ]
+    ]
+  },
+  {
+    "id": "c43a832d72d5f53c",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "select field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "minute dawn",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute dusk",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute morning limit",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute evening limit",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute morning work",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute evening work",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute morning rest",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "minute evening rest",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 8,
+    "x": 1430,
+    "y": 1260,
+    "wires": [
+      [
+        "3c3ee84183ecc882"
+      ],
+      [
+        "18ca1e572ed1016e"
+      ],
+      [
+        "b0ed6159a28316ed"
+      ],
+      [
+        "e161c2ee367d789c"
+      ],
+      [
+        "1b40d5db9a25ad98",
+        "8a25ef86b6027c7c"
+      ],
+      [
+        "5e8e2d18d89e920c",
+        "61f16e58b8dd9743"
+      ],
+      [
+        "ab6b3f6d38264d59",
+        "cc201fa7c244f54c"
+      ],
+      [
+        "14fc27d24bd74772",
+        "04d9f9e663d23588"
+      ]
+    ]
+  },
+  {
+    "id": "35b93554c4c3380f",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "system - clock - ui - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 815,
+    "y": 1260,
+    "wires": [
+      [
+        "9dbdaedc889b5e55"
+      ]
+    ]
+  },
+  {
+    "id": "3c3ee84183ecc882",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1140,
+    "wires": [
+      [
+        "8393b1d9a9587d31"
+      ]
+    ]
+  },
+  {
+    "id": "18ca1e572ed1016e",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1200,
+    "wires": [
+      [
+        "58eb4557bbe9720b"
+      ]
+    ]
+  },
+  {
+    "id": "b0ed6159a28316ed",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1260,
+    "wires": [
+      [
+        "caf9f9d55230f2c7"
+      ]
+    ]
+  },
+  {
+    "id": "e161c2ee367d789c",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1320,
+    "wires": [
+      [
+        "04c0023c70785d63"
+      ]
+    ]
+  },
+  {
+    "id": "30c1212e2308599a",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "cehck measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "clock",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1200,
+    "y": 1200,
+    "wires": [
+      [
+        "c43a832d72d5f53c"
+      ]
+    ]
+  },
+  {
+    "id": "8393b1d9a9587d31",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "dawn",
+    "label": "Lever du soleil",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1850,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "58eb4557bbe9720b",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "dusk",
+    "label": "Coucher du soleil",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1850,
+    "y": 1200,
+    "wires": []
+  },
+  {
+    "id": "caf9f9d55230f2c7",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "morning limit",
+    "label": "Limite au matin",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1870,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "04c0023c70785d63",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "evening limit",
+    "label": "Limite au soir",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1870,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "1b40d5db9a25ad98",
+    "type": "ui-slider",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "name": "minute matin travail",
+    "label": "",
+    "tooltip": "",
+    "order": 6,
+    "width": "3",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "minute matin travail",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "360",
+    "max": "720",
+    "step": "10",
+    "className": "",
+    "x": 1650,
+    "y": 1620,
+    "wires": [
+      [
+        "3ee329a652898c8e"
+      ]
+    ]
+  },
+  {
+    "id": "5e8e2d18d89e920c",
+    "type": "ui-slider",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "name": "minute soir travail",
+    "label": "",
+    "tooltip": "",
+    "order": 8,
+    "width": "3",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "minute soir travail",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "960",
+    "max": "1380",
+    "step": "10",
+    "className": "",
+    "x": 1650,
+    "y": 1680,
+    "wires": [
+      [
+        "3ee329a652898c8e"
+      ]
+    ]
+  },
+  {
+    "id": "ab6b3f6d38264d59",
+    "type": "ui-slider",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "name": "minute matin repos",
+    "label": "",
+    "tooltip": "",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "minute matin repos",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "360",
+    "max": "720",
+    "step": "10",
+    "className": "",
+    "x": 1650,
+    "y": 1740,
+    "wires": [
+      [
+        "3ee329a652898c8e"
+      ]
+    ]
+  },
+  {
+    "id": "14fc27d24bd74772",
+    "type": "ui-slider",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "name": "minute soir repos",
+    "label": "",
+    "tooltip": "",
+    "order": 12,
+    "width": "3",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "minute soir repos",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "960",
+    "max": "1380",
+    "step": "10",
+    "className": "",
+    "x": 1650,
+    "y": 1800,
+    "wires": [
+      [
+        "3ee329a652898c8e"
+      ]
+    ]
+  },
+  {
+    "id": "8a25ef86b6027c7c",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1380,
+    "wires": [
+      [
+        "b8192e76c51fbbc4"
+      ]
+    ]
+  },
+  {
+    "id": "b8192e76c51fbbc4",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 5,
+    "width": "3",
+    "height": "1",
+    "name": "morning work delay",
+    "label": "Décalage matin travail",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1890,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "61f16e58b8dd9743",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1440,
+    "wires": [
+      [
+        "45366ae388d08a21"
+      ]
+    ]
+  },
+  {
+    "id": "45366ae388d08a21",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 7,
+    "width": "3",
+    "height": "1",
+    "name": "evening wrok delay",
+    "label": "Décalage soir travail",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1890,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "3d531a0a7bd86cc6",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 9,
+    "width": "3",
+    "height": "1",
+    "name": "morning rest delay",
+    "label": "Décalage matin repos",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1890,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "cc201fa7c244f54c",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1500,
+    "wires": [
+      [
+        "3d531a0a7bd86cc6"
+      ]
+    ]
+  },
+  {
+    "id": "54939b731493ac8e",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "group": "5585a336703abb4e",
+    "order": 11,
+    "width": "3",
+    "height": "1",
+    "name": "evening rest delay",
+    "label": "Décalage soir repos",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1890,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "04d9f9e663d23588",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "ce95f1d44dfe8e41",
+    "name": "",
+    "links": [
+      "20617e4a877c8fc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1650,
+    "y": 1560,
+    "wires": [
+      [
+        "54939b731493ac8e"
+      ]
+    ]
+  },
+  {
+    "id": "c2f4ed65313c79e3",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "3ac47f7c0d888114",
+    "name": "monitor / cpu usage / text / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "monitor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cpu usage",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1980,
+    "wires": [
+      [
+        "e6ea054f0c263d05"
+      ]
+    ]
+  },
+  {
+    "id": "e6ea054f0c263d05",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "3ac47f7c0d888114",
+    "name": "system - monitor - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 1980,
+    "wires": []
+  },
+  {
+    "id": "ea0a6bf7471569b8",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "3ac47f7c0d888114",
+    "name": "system - monitor - device",
+    "links": [
+      "ca7b372f821ad44a"
+    ],
+    "x": 135,
+    "y": 1980,
+    "wires": [
+      [
+        "c2f4ed65313c79e3",
+        "7f27c671b36b7f0d"
+      ]
+    ]
+  },
+  {
+    "id": "7f27c671b36b7f0d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "3ac47f7c0d888114",
+    "name": "monitor / cpu limit / number / 95",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "monitor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cpu limit",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "95",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 2040,
+    "wires": [
+      [
+        "e6ea054f0c263d05"
+      ]
+    ]
+  },
+  {
+    "id": "105c061631062fa1",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "869c12168d4f1eff",
+    "name": "system - monitor - source",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 735,
+    "y": 1980,
+    "wires": [
+      [
+        "28451c24664fea72"
+      ]
+    ]
+  },
+  {
+    "id": "a3dd1fa555510840",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "869c12168d4f1eff",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "monitor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cpu usage",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1080,
+    "y": 1980,
+    "wires": [
+      [
+        "4746f7254a82e9bc"
+      ]
+    ]
+  },
+  {
+    "id": "4746f7254a82e9bc",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "869c12168d4f1eff",
+    "name": "system - monitor - source",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1215,
+    "y": 1980,
+    "wires": []
+  },
+  {
+    "id": "836e500a2c7822c7",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "system - monitor - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 1395,
+    "y": 1980,
+    "wires": [
+      [
+        "dfaedc0968b10c81"
+      ]
+    ]
+  },
+  {
+    "id": "dfaedc0968b10c81",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "check path",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/monitor/cpu usage",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/monitor/cpu limit",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1550,
+    "y": 1980,
+    "wires": [
+      [
+        "a5ba2de38ffe6ea3"
+      ],
+      [
+        "bbbe0888e1da93c3"
+      ]
+    ]
+  },
+  {
+    "id": "593c443b02b44445",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "group": "b0bbfaa0e2f5be4a",
+    "order": 0,
+    "width": 0,
+    "height": 0,
+    "name": "",
+    "label": "Utilisation CPU",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1980,
+    "y": 1980,
+    "wires": []
+  },
+  {
+    "id": "a5ba2de38ffe6ea3",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "format payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload&'%'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1760,
+    "y": 1980,
+    "wires": [
+      [
+        "593c443b02b44445"
+      ]
+    ]
+  },
+  {
+    "id": "62056c26d5ec8e87",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "system - monitor - ui - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 1395,
+    "y": 2040,
+    "wires": [
+      [
+        "705b7aecc5fbd42d"
+      ]
+    ]
+  },
+  {
+    "id": "705b7aecc5fbd42d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]monitor['cpu limit']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 2040,
+    "wires": [
+      [
+        "bbbe0888e1da93c3"
+      ]
+    ]
+  },
+  {
+    "id": "bbbe0888e1da93c3",
+    "type": "ui-slider",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "group": "b0bbfaa0e2f5be4a",
+    "name": "cpu usage limit",
+    "label": "Limite d'utilisation CPU",
+    "tooltip": "",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "cpu limit",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "99",
+    "step": 1,
+    "className": "",
+    "x": 1760,
+    "y": 2040,
+    "wires": [
+      [
+        "f2e7804129259d9e"
+      ]
+    ]
+  },
+  {
+    "id": "f2e7804129259d9e",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "monitor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1960,
+    "y": 2040,
+    "wires": [
+      [
+        "5ba738211e0c4eac"
+      ]
+    ]
+  },
+  {
+    "id": "5ba738211e0c4eac",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "846c648ed9c9e2f4",
+    "name": "system - monitor - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2095,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "b4dcaf3216134966",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - influxdb",
+    "links": [
+      "4163673982458b27"
+    ],
+    "x": 135,
+    "y": 2340,
+    "wires": [
+      [
+        "043c5221abd8d856"
+      ]
+    ]
+  },
+  {
+    "id": "ff1a30fbddcaa9fd",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - mqtt",
+    "links": [
+      "0f1e413815ecc824"
+    ],
+    "x": 135,
+    "y": 2280,
+    "wires": [
+      [
+        "3839ed033b24f53f"
+      ]
+    ]
+  },
+  {
+    "id": "38177fb0e91fdd3e",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "increment statistic counter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "statistics.counter[msg.topic]",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "statistics.counter[msg.topic]",
+        "pt": "flow",
+        "to": "$number(msg.payload)+1",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 2220,
+    "wires": [
+      [
+        "f4bd51a249bc40ab"
+      ]
+    ]
+  },
+  {
+    "id": "d4a3fdcacd1fd1b5",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 690,
+    "y": 2220,
+    "wires": [
+      [
+        "38177fb0e91fdd3e"
+      ]
+    ]
+  },
+  {
+    "id": "490e37ccfca71dba",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - kernel loop",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 2220,
+    "wires": [
+      [
+        "b5f125bb007480a0"
+      ]
+    ]
+  },
+  {
+    "id": "f4bd51a249bc40ab",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - update",
+    "mode": "link",
+    "links": [
+      "724cba04d6600bc8"
+    ],
+    "x": 1115,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "8f3269222142f0f4",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - gate",
+    "links": [
+      "8fdb5986494986cc"
+    ],
+    "x": 135,
+    "y": 2640,
+    "wires": [
+      [
+        "30972c85a28530dc"
+      ]
+    ]
+  },
+  {
+    "id": "30972c85a28530dc",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "check payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "close",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 300,
+    "y": 2640,
+    "wires": [
+      [
+        "38b4444508aa953e"
+      ]
+    ]
+  },
+  {
+    "id": "0ed67256bb147e2b",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - zwave",
+    "links": [
+      "82908fcfdf7f599a"
+    ],
+    "x": 135,
+    "y": 2400,
+    "wires": [
+      [
+        "77c59c4ebafe42bf"
+      ]
+    ]
+  },
+  {
+    "id": "824a1416d7a3cfe1",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - bluetooth",
+    "links": [
+      "a411175648a9f14e"
+    ],
+    "x": 135,
+    "y": 2580,
+    "wires": [
+      [
+        "673139e4d39c82c4"
+      ]
+    ]
+  },
+  {
+    "id": "b2547f7ff4878848",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - zigbee",
+    "links": [
+      "3398dde44269eb08"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "77736ba628ab516c"
+      ]
+    ]
+  },
+  {
+    "id": "dff88b670b073ad9",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - rfxcom",
+    "links": [
+      "f0991abcca9403bc"
+    ],
+    "x": 135,
+    "y": 2520,
+    "wires": [
+      [
+        "dfeb8a18db2eaef3"
+      ]
+    ]
+  },
+  {
+    "id": "ef2234fa4551184f",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "system - statistics - offloading",
+    "links": [],
+    "x": 135,
+    "y": 2700,
+    "wires": [
+      [
+        "66b91b737f90ea46"
+      ]
+    ]
+  },
+  {
+    "id": "66b91b737f90ea46",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "check payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 300,
+    "y": 2700,
+    "wires": [
+      [
+        "3aa89a8bd365e23f"
+      ]
+    ]
+  },
+  {
+    "id": "b5f125bb007480a0",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "loop",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2220,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "3839ed033b24f53f",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "mqtt",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2280,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "043c5221abd8d856",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "influxdb",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2340,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "77c59c4ebafe42bf",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2400,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "77736ba628ab516c",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2460,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "dfeb8a18db2eaef3",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2520,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "673139e4d39c82c4",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "bluetooth",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2580,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "38b4444508aa953e",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "gate",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2640,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "3aa89a8bd365e23f",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "f29264eda4a17c64",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2700,
+    "wires": [
+      [
+        "d4a3fdcacd1fd1b5"
+      ]
+    ]
+  },
+  {
+    "id": "b17e3350f9ba81ad",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "from flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "statistics.counter",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1860,
+    "y": 2220,
+    "wires": [
+      [
+        "16111c5661efcc71",
+        "a0f5fe52e7f961cd",
+        "a8090bc0c14620a4",
+        "ae20c2d4314177d6",
+        "8a2831b7ca3f44bb",
+        "9514e7483e1fbf25",
+        "219a160adad0a1f0",
+        "3942f23acf0c46ef",
+        "5b377209d189ce5f",
+        "f6d83a5f32df320b"
+      ]
+    ]
+  },
+  {
+    "id": "deb62bbcd93f939a",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "limit 1 msg / s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1460,
+    "y": 2220,
+    "wires": [
+      [
+        "44098478ecf1656f"
+      ]
+    ]
+  },
+  {
+    "id": "724cba04d6600bc8",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "system - statistics - ui",
+    "links": [
+      "f4bd51a249bc40ab"
+    ],
+    "x": 1295,
+    "y": 2220,
+    "wires": [
+      [
+        "deb62bbcd93f939a"
+      ]
+    ]
+  },
+  {
+    "id": "85184cd9cd45e820",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "limit 3 msg / s",
+    "pauseType": "rate",
+    "timeout": "500",
+    "timeoutUnits": "milliseconds",
+    "rate": "3",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1460,
+    "y": 2880,
+    "wires": [
+      [
+        "5a3104504f4a3395"
+      ]
+    ]
+  },
+  {
+    "id": "b105c14c0fdc8160",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "system - statistics - ui - journal",
+    "links": [
+      "592483f2183c6711"
+    ],
+    "x": 1295,
+    "y": 2880,
+    "wires": [
+      [
+        "85184cd9cd45e820"
+      ]
+    ]
+  },
+  {
+    "id": "bd3ccecd7ffb358a",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "last reset",
+    "label": "RAZ",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "30ef8005a9e47bc3",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 6,
+    "width": "6",
+    "height": "1",
+    "name": "to MQTT",
+    "label": "Vers MQTT",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2280,
+    "wires": []
+  },
+  {
+    "id": "24ac821b70937ab9",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 7,
+    "width": "6",
+    "height": "1",
+    "name": "to influxdb",
+    "label": "Vers Influxdb",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2310,
+    "y": 2340,
+    "wires": []
+  },
+  {
+    "id": "0b20ddd97c1ede52",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 5,
+    "width": "6",
+    "height": "1",
+    "name": "to loop",
+    "label": "Boucle noyau",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2290,
+    "y": 2640,
+    "wires": []
+  },
+  {
+    "id": "5a3104504f4a3395",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "journal",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2290,
+    "y": 2880,
+    "wires": []
+  },
+  {
+    "id": "a0f5fe52e7f961cd",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.mqtt",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2280,
+    "wires": [
+      [
+        "30ef8005a9e47bc3"
+      ]
+    ]
+  },
+  {
+    "id": "a8090bc0c14620a4",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.influxdb",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2340,
+    "wires": [
+      [
+        "24ac821b70937ab9"
+      ]
+    ]
+  },
+  {
+    "id": "ae20c2d4314177d6",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.loop",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2640,
+    "wires": [
+      [
+        "0b20ddd97c1ede52"
+      ]
+    ]
+  },
+  {
+    "id": "117fb09fe859797f",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "system - statistics - ui - rate",
+    "links": [
+      "c15d0c66ed5af79f"
+    ],
+    "x": 1295,
+    "y": 2820,
+    "wires": [
+      [
+        "df6025b5aae9e534"
+      ]
+    ]
+  },
+  {
+    "id": "c44f928da06c7300",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "limit 1 msg / s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1700,
+    "y": 2820,
+    "wires": [
+      [
+        "2c98293fd7165f55"
+      ]
+    ]
+  },
+  {
+    "id": "7f49756b83bfd4c2",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "rate",
+    "label": "Flux",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2290,
+    "y": 2820,
+    "wires": []
+  },
+  {
+    "id": "2c98293fd7165f55",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload&' msg / sec'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2820,
+    "wires": [
+      [
+        "7f49756b83bfd4c2"
+      ]
+    ]
+  },
+  {
+    "id": "8a2831b7ca3f44bb",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.gate",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2700,
+    "wires": [
+      [
+        "444cfa997924f2d1"
+      ]
+    ]
+  },
+  {
+    "id": "444cfa997924f2d1",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "gate",
+    "label": "Blocage",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2290,
+    "y": 2700,
+    "wires": []
+  },
+  {
+    "id": "df6025b5aae9e534",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "check payload type",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "number",
+        "vt": "number"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1470,
+    "y": 2820,
+    "wires": [
+      [
+        "c44f928da06c7300"
+      ]
+    ]
+  },
+  {
+    "id": "6d0a3f786ee1e6dc",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 9,
+    "width": "6",
+    "height": "1",
+    "name": "to Zigbee",
+    "label": "Vers Zigbee",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "219a160adad0a1f0",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.zigbee",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2460,
+    "wires": [
+      [
+        "6d0a3f786ee1e6dc"
+      ]
+    ]
+  },
+  {
+    "id": "882afb599b11dfc2",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 8,
+    "width": "6",
+    "height": "1",
+    "name": "to Zwave",
+    "label": "Vers Zwave",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2400,
+    "wires": []
+  },
+  {
+    "id": "3942f23acf0c46ef",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.zwave",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2400,
+    "wires": [
+      [
+        "882afb599b11dfc2"
+      ]
+    ]
+  },
+  {
+    "id": "7c26fd276e02a4e0",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 10,
+    "width": "6",
+    "height": "1",
+    "name": "to Rfxcom",
+    "label": "Vers Rfxcom",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2520,
+    "wires": []
+  },
+  {
+    "id": "9514e7483e1fbf25",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.rfxcom",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2520,
+    "wires": [
+      [
+        "7c26fd276e02a4e0"
+      ]
+    ]
+  },
+  {
+    "id": "aa2c1cbac43ce23d",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 11,
+    "width": "6",
+    "height": "1",
+    "name": "to Bluetooth",
+    "label": "Vers Bluetooth",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2310,
+    "y": 2580,
+    "wires": []
+  },
+  {
+    "id": "5b377209d189ce5f",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.bluetooth",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2580,
+    "wires": [
+      [
+        "aa2c1cbac43ce23d"
+      ]
+    ]
+  },
+  {
+    "id": "44098478ecf1656f",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1670,
+    "y": 2220,
+    "wires": [
+      [
+        "b17e3350f9ba81ad"
+      ]
+    ]
+  },
+  {
+    "id": "57d699f1b6a32708",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "group": "dc35508e5890fb69",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "offloading",
+    "label": "Délestage",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 2300,
+    "y": 2760,
+    "wires": []
+  },
+  {
+    "id": "f6d83a5f32df320b",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.offloading",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 2760,
+    "wires": [
+      [
+        "57d699f1b6a32708"
+      ]
+    ]
+  },
+  {
+    "id": "3cc31621bae4b8f4",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "system - ui - timers",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 3120,
+    "wires": [
+      [
+        "fad6ea5928c43d20"
+      ]
+    ]
+  },
+  {
+    "id": "fad6ea5928c43d20",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "timers",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "timers",
+        "pt": "msg",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "timers",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 830,
+    "y": 3120,
+    "wires": [
+      [
+        "da6f3da669e024d3"
+      ]
+    ]
+  },
+  {
+    "id": "c44490a40f109a5c",
+    "type": "split",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1210,
+    "y": 3060,
+    "wires": [
+      [
+        "b1aec9ed9eb8059e"
+      ]
+    ]
+  },
+  {
+    "id": "14f915e43eee9cb9",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "parts.key",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$split(msg.tmp,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "timers[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\t    \"Scène\":msg.tmp[0],\t    \"Pièce\":msg.tmp[1],\t    \"Equipement\":msg.tmp[3],\t    \"Champs\":msg.tmp[2],\t    \"Fin\":msg.payload\t    }",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1570,
+    "y": 3060,
+    "wires": [
+      [
+        "3373b870924b043e"
+      ]
+    ]
+  },
+  {
+    "id": "3373b870924b043e",
+    "type": "join",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1730,
+    "y": 3060,
+    "wires": [
+      [
+        "e26532940aaa52c6"
+      ]
+    ]
+  },
+  {
+    "id": "e26532940aaa52c6",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "set payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "timers",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1910,
+    "y": 3060,
+    "wires": [
+      [
+        "b4802ba3090bfb72"
+      ]
+    ]
+  },
+  {
+    "id": "b4802ba3090bfb72",
+    "type": "ui-table",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "group": "75b9549ee42d3246",
+    "name": "table",
+    "label": "text",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "maxrows": 0,
+    "autocols": true,
+    "columns": [],
+    "x": 2090,
+    "y": 3120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "da6f3da669e024d3",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "has timers",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 2,
+    "x": 1030,
+    "y": 3120,
+    "wires": [
+      [
+        "c44490a40f109a5c",
+        "8009a084ca3785ef"
+      ],
+      [
+        "b4802ba3090bfb72",
+        "b5be1daf52eae0ec"
+      ]
+    ]
+  },
+  {
+    "id": "4f2f73098fe566cb",
+    "type": "ui-text",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "group": "75b9549ee42d3246",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "none",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1570,
+    "y": 3180,
+    "wires": []
+  },
+  {
+    "id": "a7721a73d1926ce0",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "set payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucune minuterie en cours",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1390,
+    "y": 3180,
+    "wires": [
+      [
+        "4f2f73098fe566cb"
+      ]
+    ]
+  },
+  {
+    "id": "b5be1daf52eae0ec",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t    \"groups\": {\t        \"hide\": [\"Système:Minuteries\"]\t    }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 3180,
+    "wires": [
+      [
+        "a7721a73d1926ce0"
+      ]
+    ]
+  },
+  {
+    "id": "8009a084ca3785ef",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t    \"groups\": {\t        \"show\": [\"Système:Minuteries\"]\t    }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 3240,
+    "wires": [
+      [
+        "a7721a73d1926ce0"
+      ]
+    ]
+  },
+  {
+    "id": "f53cc6991fe5640c",
+    "type": "ui-button",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "group": "75b9549ee42d3246",
+    "name": "reset timers",
+    "label": "Supprimer les minuteries",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "{}",
+    "payloadType": "json",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 190,
+    "y": 3180,
+    "wires": [
+      [
+        "c0a84f51998336e3"
+      ]
+    ]
+  },
+  {
+    "id": "c0a84f51998336e3",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "reset global tmers",
+    "rules": [
+      {
+        "t": "set",
+        "p": "timers",
+        "pt": "global",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 410,
+    "y": 3180,
+    "wires": [
+      [
+        "da26fce301e2b672"
+      ]
+    ]
+  },
+  {
+    "id": "da26fce301e2b672",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "delay 250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 3180,
+    "wires": [
+      [
+        "fad6ea5928c43d20"
+      ]
+    ]
+  },
+  {
+    "id": "28451c24664fea72",
+    "type": "cpu",
+    "z": "677f66663a198839",
+    "g": "869c12168d4f1eff",
+    "name": "",
+    "msgCore": false,
+    "msgOverall": true,
+    "msgArray": false,
+    "msgTemp": false,
+    "x": 890,
+    "y": 1980,
+    "wires": [
+      [
+        "a3dd1fa555510840"
+      ]
+    ]
+  },
+  {
+    "id": "16111c5661efcc71",
+    "type": "moment",
+    "z": "677f66663a198839",
+    "g": "669888077b4dd178",
+    "name": "",
+    "topic": "",
+    "input": "payload.reset",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "DD/MM/YY HH:mm",
+    "locale": "fr",
+    "output": "payload",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 2080,
+    "y": 2220,
+    "wires": [
+      [
+        "bd3ccecd7ffb358a"
+      ]
+    ]
+  },
+  {
+    "id": "b1aec9ed9eb8059e",
+    "type": "moment",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "format date",
+    "topic": "",
+    "input": "payload",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "DD/MM/YYYY HH:mm:ss",
+    "locale": "fr-FR",
+    "output": "payload",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1390,
+    "y": 3060,
+    "wires": [
+      [
+        "14f915e43eee9cb9"
+      ]
+    ]
+  },
+  {
+    "id": "abbb527592df8f13",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1480,
+    "y": 3380,
+    "wires": [
+      [
+        "9a98ec99a05b6bd2",
+        "4bb0b7fdcfbac2ec"
+      ]
+    ]
+  },
+  {
+    "id": "4d3db92ea8a04423",
+    "type": "function",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "minute dawn",
+    "func": "var newMsg = {};\nnewMsg.payload = msg.dawn;\nnewMsg.topic = 'minute dawn';\nreturn newMsg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1290,
+    "y": 3380,
+    "wires": [
+      [
+        "abbb527592df8f13"
+      ]
+    ]
+  },
+  {
+    "id": "e83b088826de7bae",
+    "type": "function",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "minute dusk",
+    "func": "var newMsg = {};\nnewMsg.payload = msg.dusk;\nnewMsg.topic = 'minute dusk';\nreturn newMsg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1290,
+    "y": 3440,
+    "wires": [
+      [
+        "abbb527592df8f13"
+      ]
+    ]
+  },
+  {
+    "id": "42207b73be13eb88",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "mode nycthemer",
+    "property": "metrics.system.mode.nycthemer",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 850,
+    "y": 3380,
+    "wires": [
+      [
+        "77a6b5d427afc6c4",
+        "06143f7b0cf08d31"
+      ]
+    ]
+  },
+  {
+    "id": "3631362524ac76c2",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 620,
+    "y": 3380,
+    "wires": [
+      [
+        "42207b73be13eb88"
+      ]
+    ]
+  },
+  {
+    "id": "3093560fba474989",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 410,
+    "y": 3380,
+    "wires": [
+      [
+        "3631362524ac76c2"
+      ]
+    ]
+  },
+  {
+    "id": "699d2f8babf2c777",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "day",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "day",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1870,
+    "y": 3440,
+    "wires": [
+      [
+        "1b94e49c6892430e"
+      ]
+    ]
+  },
+  {
+    "id": "32f83da1742957b9",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "nycthemer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2220,
+    "y": 3500,
+    "wires": [
+      [
+        "9a98ec99a05b6bd2",
+        "4bb0b7fdcfbac2ec"
+      ]
+    ]
+  },
+  {
+    "id": "1b94e49c6892430e",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "new value",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "metrics.system.mode.nycthemer",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2040,
+    "y": 3500,
+    "wires": [
+      [
+        "32f83da1742957b9"
+      ]
+    ]
+  },
+  {
+    "id": "486b70cea417c936",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "night",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "night",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1870,
+    "y": 3500,
+    "wires": [
+      [
+        "1b94e49c6892430e"
+      ]
+    ]
+  },
+  {
+    "id": "35d6c8c0ecd67d15",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "evening",
+    "property": "evening",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "false"
+      },
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1700,
+    "y": 3440,
+    "wires": [
+      [
+        "699d2f8babf2c777"
+      ],
+      [
+        "486b70cea417c936"
+      ]
+    ]
+  },
+  {
+    "id": "cefb48c3c6af8823",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "morning",
+    "property": "morning",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "false"
+      },
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1520,
+    "y": 3500,
+    "wires": [
+      [
+        "35d6c8c0ecd67d15"
+      ],
+      [
+        "486b70cea417c936"
+      ]
+    ]
+  },
+  {
+    "id": "f508a3f31bab139f",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "compute nycthemer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "minute_morning_limit",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute morning limit']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "minute_evening_limit",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute evening limit']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "morning",
+        "pt": "msg",
+        "to": "msg.dawn > msg.minute_morning_limit ? msg.dawn : msg.minute_morning_limit",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "evening",
+        "pt": "msg",
+        "to": "msg.dusk < msg.minute_evening_limit ? msg.dusk : msg.minute_evening_limit",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "morning",
+        "pt": "msg",
+        "to": "msg.now < msg.morning",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "evening",
+        "pt": "msg",
+        "to": "msg.now > msg.evening",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1310,
+    "y": 3500,
+    "wires": [
+      [
+        "cefb48c3c6af8823"
+      ]
+    ]
+  },
+  {
+    "id": "77a6b5d427afc6c4",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "global exists",
+    "property": "metrics.system.clock['minute morning limit']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "nnull"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1070,
+    "y": 3500,
+    "wires": [
+      [
+        "f508a3f31bab139f"
+      ]
+    ]
+  },
+  {
+    "id": "06143f7b0cf08d31",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "limit 1 msg / 2 h",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "2",
+    "rateUnits": "hour",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1080,
+    "y": 3380,
+    "wires": [
+      [
+        "4d3db92ea8a04423",
+        "e83b088826de7bae"
+      ]
+    ]
+  },
+  {
+    "id": "9a98ec99a05b6bd2",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "system - update - nycthemer",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2355,
+    "y": 3440,
+    "wires": []
+  },
+  {
+    "id": "4bb0b7fdcfbac2ec",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "system - update - nycthemer",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2460,
+    "y": 3380,
+    "wires": []
+  },
+  {
+    "id": "dc928aa9dc8584f9",
+    "type": "moment",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "H",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "HH",
+    "locale": "Fr",
+    "output": "hour",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 690,
+    "y": 3620,
+    "wires": [
+      [
+        "ce836243f955dacc"
+      ]
+    ]
+  },
+  {
+    "id": "ce836243f955dacc",
+    "type": "moment",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "m",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "mm",
+    "locale": "Fr",
+    "output": "minute",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 850,
+    "y": 3620,
+    "wires": [
+      [
+        "0fd0eeb840396afe"
+      ]
+    ]
+  },
+  {
+    "id": "0fd0eeb840396afe",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "now",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.hour) * 60 + $number(msg.minute)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "morning",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute morning limit']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "evening",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute evening limit']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 3620,
+    "wires": [
+      [
+        "4fc76f6c3f766c17"
+      ]
+    ]
+  },
+  {
+    "id": "4fc76f6c3f766c17",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "between",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "btwn",
+        "v": "morning",
+        "vt": "msg",
+        "v2": "evening",
+        "v2t": "msg"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1180,
+    "y": 3620,
+    "wires": [
+      [
+        "dfc1b5a5332179d3"
+      ],
+      [
+        "e5ffb0daf3640ce6"
+      ]
+    ]
+  },
+  {
+    "id": "e5ffb0daf3640ce6",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1350,
+    "y": 3680,
+    "wires": [
+      [
+        "5ea98e4de1007f8a",
+        "8e19b120dae4551b",
+        "3e79ac3541f286cc"
+      ]
+    ]
+  },
+  {
+    "id": "dfc1b5a5332179d3",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1350,
+    "y": 3620,
+    "wires": [
+      [
+        "3e79ac3541f286cc",
+        "8e19b120dae4551b",
+        "5ea98e4de1007f8a"
+      ]
+    ]
+  },
+  {
+    "id": "3e79ac3541f286cc",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "mode lighting",
+    "property": "metrics.system.mode.lighting",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1530,
+    "y": 3620,
+    "wires": [
+      [
+        "5597c735c47c9f96"
+      ]
+    ]
+  },
+  {
+    "id": "5597c735c47c9f96",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "set metric lighting",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload?'high':'low'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1750,
+    "y": 3620,
+    "wires": [
+      [
+        "5e20f1a216d065db"
+      ]
+    ]
+  },
+  {
+    "id": "8e19b120dae4551b",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "mode sound",
+    "property": "metrics.system.mode.sound",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1530,
+    "y": 3680,
+    "wires": [
+      [
+        "1ce50655a8c2c3fa"
+      ]
+    ]
+  },
+  {
+    "id": "1ce50655a8c2c3fa",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "set metric sound",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "sound",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload?'high':'low'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1740,
+    "y": 3680,
+    "wires": [
+      [
+        "5e20f1a216d065db"
+      ]
+    ]
+  },
+  {
+    "id": "5ea98e4de1007f8a",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "mode notification",
+    "property": "metrics.system.mode.notification",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1550,
+    "y": 3740,
+    "wires": [
+      [
+        "544325135170880d"
+      ]
+    ]
+  },
+  {
+    "id": "544325135170880d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "set metric notification",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload?'automatic':'text'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1800,
+    "y": 3740,
+    "wires": [
+      [
+        "5e20f1a216d065db"
+      ]
+    ]
+  },
+  {
+    "id": "cc09d013af2551be",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 3620,
+    "wires": [
+      [
+        "dc928aa9dc8584f9"
+      ]
+    ]
+  },
+  {
+    "id": "5091c04ccb0ab761",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 3620,
+    "wires": [
+      [
+        "cc09d013af2551be"
+      ]
+    ]
+  },
+  {
+    "id": "cf471b8980158bc0",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "system - update - high/low",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2155,
+    "y": 3680,
+    "wires": []
+  },
+  {
+    "id": "444b573a678eae86",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "system - update - high/low",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 3620,
+    "wires": [
+      [
+        "5091c04ccb0ab761"
+      ]
+    ]
+  },
+  {
+    "id": "5e20f1a216d065db",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "set repeat",
+    "rules": [
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2020,
+    "y": 3680,
+    "wires": [
+      [
+        "cf471b8980158bc0",
+        "cd757066177ff887"
+      ]
+    ]
+  },
+  {
+    "id": "cd757066177ff887",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "c09962536325e13b",
+    "name": "system - update - high/low",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2250,
+    "y": 3620,
+    "wires": []
+  },
+  {
+    "id": "2a146094dde8c67c",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 490,
+    "y": 3920,
+    "wires": [
+      [
+        "61ec09a3e29e77c5"
+      ]
+    ]
+  },
+  {
+    "id": "61ec09a3e29e77c5",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 700,
+    "y": 3920,
+    "wires": [
+      [
+        "47f238a05f860cb8"
+      ]
+    ]
+  },
+  {
+    "id": "47f238a05f860cb8",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "day",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "eve",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 910,
+    "y": 3920,
+    "wires": [
+      [
+        "c7abcfa95d057080"
+      ]
+    ]
+  },
+  {
+    "id": "c7abcfa95d057080",
+    "type": "split",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "split",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1090,
+    "y": 3920,
+    "wires": [
+      [
+        "6938d471973bc8bc"
+      ]
+    ]
+  },
+  {
+    "id": "6938d471973bc8bc",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "clock",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "clock",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1250,
+    "y": 3980,
+    "wires": [
+      [
+        "9211d80f8af2ae48"
+      ],
+      [
+        "0c5f9cad2a1fc910"
+      ]
+    ]
+  },
+  {
+    "id": "9211d80f8af2ae48",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "work day",
+    "property": "payload.clock",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "work day",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1440,
+    "y": 3920,
+    "wires": [
+      [
+        "222b3ef53e24b016"
+      ],
+      [
+        "e793ce4ebc5bfd58"
+      ]
+    ]
+  },
+  {
+    "id": "222b3ef53e24b016",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "today",
+    "property": "payload.clock['work day']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1610,
+    "y": 3860,
+    "wires": [
+      [
+        "2adde777c1bbd4de"
+      ],
+      [
+        "e793ce4ebc5bfd58"
+      ]
+    ]
+  },
+  {
+    "id": "0c5f9cad2a1fc910",
+    "type": "join",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": true,
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "reduceExp": "",
+    "reduceInit": "",
+    "reduceInitType": "",
+    "reduceFixup": "",
+    "x": 2450,
+    "y": 3980,
+    "wires": [
+      [
+        "d825d08b9338b067",
+        "4e99af88ffdba5db"
+      ]
+    ]
+  },
+  {
+    "id": "2adde777c1bbd4de",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "day",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1770,
+    "y": 3860,
+    "wires": [
+      [
+        "e793ce4ebc5bfd58"
+      ]
+    ]
+  },
+  {
+    "id": "470dca557c06170b",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "tomorrow",
+    "property": "payload.clock['work eve']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2120,
+    "y": 3860,
+    "wires": [
+      [
+        "294b6294066023f5"
+      ],
+      [
+        "0c5f9cad2a1fc910"
+      ]
+    ]
+  },
+  {
+    "id": "294b6294066023f5",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "eve",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2290,
+    "y": 3860,
+    "wires": [
+      [
+        "0c5f9cad2a1fc910"
+      ]
+    ]
+  },
+  {
+    "id": "d825d08b9338b067",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "day",
+    "property": "day",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2610,
+    "y": 3860,
+    "wires": [
+      [
+        "cbeae92b5052493c"
+      ],
+      [
+        "efa356bb8b1556a7"
+      ]
+    ]
+  },
+  {
+    "id": "cbeae92b5052493c",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "morning work",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute morning work']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2800,
+    "y": 3860,
+    "wires": [
+      [
+        "8ecd0ebf784afdaf"
+      ]
+    ]
+  },
+  {
+    "id": "4e99af88ffdba5db",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "eve",
+    "property": "eve",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 2,
+    "x": 2610,
+    "y": 3980,
+    "wires": [
+      [
+        "04a79aac2088b2e7"
+      ],
+      [
+        "6758f88a8d6ea407"
+      ]
+    ]
+  },
+  {
+    "id": "efa356bb8b1556a7",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "morning rest",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute morning rest']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 3920,
+    "wires": [
+      [
+        "8ecd0ebf784afdaf"
+      ]
+    ]
+  },
+  {
+    "id": "04a79aac2088b2e7",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "evening work",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute evening work']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 3980,
+    "wires": [
+      [
+        "c7751d4872064d44"
+      ]
+    ]
+  },
+  {
+    "id": "6758f88a8d6ea407",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "evening rest",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.system.clock['minute evening rest']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 4040,
+    "wires": [
+      [
+        "c7751d4872064d44"
+      ]
+    ]
+  },
+  {
+    "id": "8ecd0ebf784afdaf",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "set metric morning",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute morning limit",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "day",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "eve",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3030,
+    "y": 3860,
+    "wires": [
+      [
+        "cb76330540a412e2"
+      ]
+    ]
+  },
+  {
+    "id": "c7751d4872064d44",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "set metric evening",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "minute evening limit",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "eve",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "day",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3030,
+    "y": 3980,
+    "wires": [
+      [
+        "cb76330540a412e2"
+      ]
+    ]
+  },
+  {
+    "id": "c2dc31e0130a863a",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "system - update - morning/evening limit",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 3375,
+    "y": 3920,
+    "wires": []
+  },
+  {
+    "id": "e793ce4ebc5bfd58",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "work eve",
+    "property": "payload.clock",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "work eve",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1940,
+    "y": 3920,
+    "wires": [
+      [
+        "470dca557c06170b"
+      ],
+      [
+        "0c5f9cad2a1fc910"
+      ]
+    ]
+  },
+  {
+    "id": "9d1ff2ced120c248",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "system - update - morning/evening limit",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 3920,
+    "wires": [
+      [
+        "4172bf899d0bf2ac"
+      ]
+    ]
+  },
+  {
+    "id": "cbb425cbf7f607de",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "system - update - morning/evening",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3500,
+    "y": 3860,
+    "wires": []
+  },
+  {
+    "id": "cb76330540a412e2",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "set repeat",
+    "rules": [
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3240,
+    "y": 3920,
+    "wires": [
+      [
+        "cbb425cbf7f607de",
+        "c2dc31e0130a863a"
+      ]
+    ]
+  },
+  {
+    "id": "4172bf899d0bf2ac",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "0164b91ce85885f1",
+    "name": "delay 150 ms",
+    "pauseType": "delay",
+    "timeout": "150",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 3920,
+    "wires": [
+      [
+        "2a146094dde8c67c"
+      ]
+    ]
+  },
+  {
+    "id": "54bfe450e2c0b4c4",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "update mode fire",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 4160,
+    "wires": [
+      [
+        "03dfda7ced4cff37",
+        "8b9e4f8c047317ef"
+      ]
+    ]
+  },
+  {
+    "id": "03dfda7ced4cff37",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "trigger",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "smoke",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "heat",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 4160,
+    "wires": [
+      [
+        "ce1d069be85a0c57"
+      ],
+      [
+        "ce1d069be85a0c57"
+      ]
+    ]
+  },
+  {
+    "id": "ce1d069be85a0c57",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "check payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 4160,
+    "wires": [
+      [
+        "0a813fe1a03dd9d2"
+      ]
+    ]
+  },
+  {
+    "id": "0a813fe1a03dd9d2",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 670,
+    "y": 4160,
+    "wires": [
+      [
+        "c9db5272d112461d"
+      ]
+    ]
+  },
+  {
+    "id": "c9db5272d112461d",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 880,
+    "y": 4160,
+    "wires": [
+      [
+        "fa6ddb12553bf2a6"
+      ]
+    ]
+  },
+  {
+    "id": "fa6ddb12553bf2a6",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "mode fire",
+    "property": "metrics.system.mode.fire",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1080,
+    "y": 4160,
+    "wires": [
+      [
+        "0e504e3987b7b54d"
+      ]
+    ]
+  },
+  {
+    "id": "0e504e3987b7b54d",
+    "type": "trigger",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "set fire then automatic",
+    "op1": "fire",
+    "op2": "automatic",
+    "op1type": "str",
+    "op2type": "str",
+    "duration": "5",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "min",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1300,
+    "y": 4220,
+    "wires": [
+      [
+        "a45686b8b8fb6208"
+      ]
+    ]
+  },
+  {
+    "id": "a45686b8b8fb6208",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "set metric fire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "scene/system/mode/fire",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1540,
+    "y": 4220,
+    "wires": [
+      [
+        "ec3963cba00585e6",
+        "8ef54afe5d6ae844"
+      ]
+    ]
+  },
+  {
+    "id": "ec3963cba00585e6",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "system - update - mode fire",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1685,
+    "y": 4220,
+    "wires": []
+  },
+  {
+    "id": "a97dae7ab39393ae",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "mode fire",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "fire",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 440,
+    "y": 4220,
+    "wires": [
+      [
+        "a70dd192770618ae"
+      ]
+    ]
+  },
+  {
+    "id": "a70dd192770618ae",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 4220,
+    "wires": [
+      [
+        "0e504e3987b7b54d"
+      ]
+    ]
+  },
+  {
+    "id": "8b9e4f8c047317ef",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/mode/fire",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 4220,
+    "wires": [
+      [
+        "a97dae7ab39393ae"
+      ]
+    ]
+  },
+  {
+    "id": "8ef54afe5d6ae844",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "1fb10d380183f0fb",
+    "name": "system - update - mode fire",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1800,
+    "y": 4160,
+    "wires": []
+  },
+  {
+    "id": "254e14629bc80024",
+    "type": "debug",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "system - scene - cpu usage",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1420,
+    "y": 4340,
+    "wires": []
+  },
+  {
+    "id": "d494bd28da0b3b4f",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "check limit",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gte",
+        "v": "metrics.system.monitor['cpu limit']",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1170,
+    "y": 4400,
+    "wires": [
+      [
+        "35870d5de45b5eca",
+        "cc7d25ff439bf79d",
+        "254e14629bc80024"
+      ]
+    ]
+  },
+  {
+    "id": "35870d5de45b5eca",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "telegram alert",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Alerte de surcharge CPU, passage automate en mdoe manuel",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1380,
+    "y": 4460,
+    "wires": [
+      [
+        "2d1d8fa5d5acbce3"
+      ]
+    ]
+  },
+  {
+    "id": "2d1d8fa5d5acbce3",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "system - scene-  cpu usage - telegram",
+    "mode": "link",
+    "links": [],
+    "x": 1535,
+    "y": 4460,
+    "wires": []
+  },
+  {
+    "id": "cc0d79a6d7d33ed8",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "set metric mode automate",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "scene/system/mode/automate",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1950,
+    "y": 4400,
+    "wires": [
+      [
+        "a33484931cee65b0"
+      ]
+    ]
+  },
+  {
+    "id": "a33484931cee65b0",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "system - scene - cpu usage",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2135,
+    "y": 4400,
+    "wires": []
+  },
+  {
+    "id": "4e15731a3c1a1e30",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "delay 5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1720,
+    "y": 4400,
+    "wires": [
+      [
+        "cc0d79a6d7d33ed8"
+      ]
+    ]
+  },
+  {
+    "id": "89feb0a79db2f26b",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "system - scene - cpu usage",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 4400,
+    "wires": [
+      [
+        "231b620ca0da576d"
+      ]
+    ]
+  },
+  {
+    "id": "231b620ca0da576d",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/monitor/cpu usage",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 4400,
+    "wires": [
+      [
+        "2c7b8f31c26a0e08"
+      ]
+    ]
+  },
+  {
+    "id": "5e4d2999a1291797",
+    "type": "gate",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 990,
+    "y": 4400,
+    "wires": [
+      [
+        "d494bd28da0b3b4f"
+      ]
+    ]
+  },
+  {
+    "id": "75d8c07c0bbd922c",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "set gate",
+    "rules": [
+      {
+        "t": "set",
+        "p": "limit",
+        "pt": "msg",
+        "to": "metrics.system.monitor['cpu limit']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "limit",
+        "pt": "msg",
+        "to": "$number(msg.limit)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "gate",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload>=msg.limit?'open':'close'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 820,
+    "y": 4460,
+    "wires": [
+      [
+        "5e4d2999a1291797"
+      ]
+    ]
+  },
+  {
+    "id": "cc7d25ff439bf79d",
+    "type": "trigger",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "set off then wait 90 s then automatic",
+    "op1": "off",
+    "op2": "automatic",
+    "op1type": "str",
+    "op2type": "str",
+    "duration": "90",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1450,
+    "y": 4400,
+    "wires": [
+      [
+        "4e15731a3c1a1e30"
+      ]
+    ]
+  },
+  {
+    "id": "2c7b8f31c26a0e08",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "to number",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 440,
+    "y": 4400,
+    "wires": [
+      [
+        "4770c01b4d63433a",
+        "5e4d2999a1291797"
+      ]
+    ]
+  },
+  {
+    "id": "4770c01b4d63433a",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "c761b34cfb83bf7b",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 4460,
+    "wires": [
+      [
+        "75d8c07c0bbd922c"
+      ]
+    ]
+  },
+  {
+    "id": "5a6eb0e1ac869f15",
+    "type": "bigtimer",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "outtopic": "soleil",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "Sun nycthemer",
+    "comment": "",
+    "lat": "45.938776",
+    "lon": "5.380814",
+    "starttime": "5000",
+    "endtime": "5001",
+    "starttime2": 0,
+    "endtime2": 0,
+    "startoff": "0",
+    "endoff": "-30",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 200,
+    "y": 3380,
+    "wires": [
+      [],
+      [
+        "3093560fba474989"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "e25877a06b36a847",
+    "type": "comment",
+    "z": "677f66663a198839",
+    "g": "efb33694649f8cca",
+    "name": "bigtimer latitude, longitude must be set according to location",
+    "info": "",
+    "x": 340,
+    "y": 3440,
+    "wires": []
+  }
+]
