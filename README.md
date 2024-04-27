@@ -17,6 +17,9 @@ Flows are written under Node-red v1.3.9 with following packages :
 * node-red-contrib-simple-gate 0.5.2
 * node-red-contrib-stackhero-influxdb-v2 1.0.4
 
+Flows also required a working MQTT broker and a InfluxDB database.
+It additionnaly uses some Unifi and Amazon Alexa stuff.
+
 ## LICENSE
 
 GNU GENERAL PUBLIC LICENSE version 3 (GPL-3.0 license)
