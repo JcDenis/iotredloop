@@ -50,6 +50,21 @@
         "file": "Kernel/set_gate_message2_finalizejs"
     },
     {
+        "id": "c3d88e1872a9789b",
+        "property": "func",
+        "file": "Kernel/check_device2.js"
+    },
+    {
+        "id": "c3d88e1872a9789b",
+        "property": "initialize",
+        "file": "Kernel/check_device2_initializejs"
+    },
+    {
+        "id": "c3d88e1872a9789b",
+        "property": "finalize",
+        "file": "Kernel/check_device2_finalizejs"
+    },
+    {
         "id": "0385dd3208b83d41",
         "property": "func",
         "file": "K_Routine/minute_to_HH_mm.js"
