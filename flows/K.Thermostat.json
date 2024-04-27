@@ -1,0 +1,5792 @@
+[
+  {
+    "id": "80f2ffd4953c67e9",
+    "type": "tab",
+    "label": "K.Thermostat",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "f12560e95cd346d2",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "f0bd4b1ffe5da318",
+      "5c64177e3bbfd337",
+      "4f0f1c286cdfedcd"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "6fe378cbf407ee45",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6a52e89b65262e56",
+      "a08a5b5fbf04f8d4"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 472,
+    "h": 82
+  },
+  {
+    "id": "9e18b65b8d6e5bc3",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - config",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "91157899ceb2151b",
+      "19bd3df3be006a24"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1454,
+    "h": 254
+  },
+  {
+    "id": "91157899ceb2151b",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "9e18b65b8d6e5bc3",
+    "name": "thermostat - config - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4aab252764e96897",
+      "2b5ebe5c93914bd9",
+      "ece815da9a3e1dab",
+      "f2fcc76292e4e686"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 542,
+    "h": 142
+  },
+  {
+    "id": "19bd3df3be006a24",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "9e18b65b8d6e5bc3",
+    "name": "thermostat - config - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "11cf1061a2c539a1",
+      "884976027c7e86a2",
+      "6fad4103dfdc045f",
+      "52e9e7f197ba916f",
+      "7a0cd3a41aafad17",
+      "75b5d1f31a8fa165",
+      "c13917bf46188642",
+      "4f450cad246d50cf",
+      "51c7f61e5f0e55fb"
+    ],
+    "x": 714,
+    "y": 199,
+    "w": 782,
+    "h": 202
+  },
+  {
+    "id": "dbf491fd689e7cd2",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ccc78d495cbd8f7d",
+      "e57e9c900c787424",
+      "8206912d2f9bab36",
+      "0af18fd6cc155518",
+      "c311204f22191fa2",
+      "868902cdeaa428fe",
+      "467ec12f292b2573",
+      "6c4b12585b58300e"
+    ],
+    "x": 78,
+    "y": 1973,
+    "w": 2204,
+    "h": 1874
+  },
+  {
+    "id": "ccc78d495cbd8f7d",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - update - pilot",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "cfeaa3a9e12b40eb",
+      "2b98ac8845853557",
+      "1b79850c96d3d208",
+      "014df3b24c891646",
+      "d67d4a70e837c744",
+      "b809a2344b2a162c",
+      "b5123d0e6886505f",
+      "2311d66d2d2f1a5a",
+      "d2ded0d940485aa7",
+      "80b02c9d206eb796",
+      "e50f34cde29f1023",
+      "502bf87b213069c7",
+      "4e6ed9498ff4530e",
+      "12cadcc5d1bee95b",
+      "b54dd8d3915e207f",
+      "06abf52a6249bd22",
+      "93d2b581d45d7631"
+    ],
+    "x": 104,
+    "y": 3379,
+    "w": 2152,
+    "h": 262
+  },
+  {
+    "id": "e57e9c900c787424",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - update - status",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "cd96635eddc7da1f",
+      "4fc3e55ddfdaa010",
+      "529ee15b89c1a59a",
+      "559221227a779f47",
+      "5473623028666410",
+      "61a83a7757b78adc",
+      "889157da2139e8ff",
+      "503a81673f2d7fb0",
+      "a4c6172c4c4737ac",
+      "4cdca41467e84399",
+      "6335a0ba7e4fd02e",
+      "ffdbc6f74f0bd44a",
+      "1ff0b0648a927b0f",
+      "f0e65595e5827e60",
+      "54a377fdde983cc9"
+    ],
+    "x": 104,
+    "y": 3019,
+    "w": 1952,
+    "h": 322
+  },
+  {
+    "id": "8206912d2f9bab36",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - update  - offloading",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "f3335edf661bfc8d",
+      "82489d3f8ae606cf",
+      "c91c042b412afd7f",
+      "8a7f5acb317722bc",
+      "aa80f7b58c825d6d",
+      "cbb6f339addc057f",
+      "772937ddeb3e1b72",
+      "1b11e45ef3e9f02f",
+      "3bc159f186c762cd",
+      "0ea437f46160f0e5"
+    ],
+    "x": 104,
+    "y": 2779,
+    "w": 1632,
+    "h": 202
+  },
+  {
+    "id": "0af18fd6cc155518",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - udpate - temperature setpoint",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "e7a80893daf9f5cd",
+      "85d6369076d887c9",
+      "1164fe72097e884c",
+      "0eb756ee244751a4",
+      "3a3af17d95ca520a",
+      "70c27df7cb0add1d",
+      "64754ad76b3561d6",
+      "f9fad454dec37bc7",
+      "55660ec49f882e13"
+    ],
+    "x": 104,
+    "y": 2539,
+    "w": 1412,
+    "h": 202
+  },
+  {
+    "id": "c311204f22191fa2",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - update - delayed aperture",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "f1240da189a60ba8",
+      "ecda411603ebcccf",
+      "f3eb2e8c09f67e89",
+      "f305bda7c25657e5",
+      "6a726c7db415e700",
+      "4658e2323b1a287a",
+      "37b31a14146e2a3f",
+      "92add418b3868c54",
+      "6893398018de38e9"
+    ],
+    "x": 104,
+    "y": 2359,
+    "w": 1592,
+    "h": 142
+  },
+  {
+    "id": "868902cdeaa428fe",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat  - metric - input",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "266e831763ed3b77",
+      "ed42e96a79df8e09",
+      "7b43ab1cda2d8f3f",
+      "ff4225d872a9a0d3",
+      "623975efd8e9bbcd",
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 104,
+    "y": 1999,
+    "w": 972,
+    "h": 142
+  },
+  {
+    "id": "467ec12f292b2573",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - update - heat request",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "1ed6b5ff63020d07",
+      "69fda60f897db5fd",
+      "d75bdce71118a56f",
+      "5f6fd378f40e4c81",
+      "0fb59058d3aa9663",
+      "0998eafda2346961"
+    ],
+    "x": 104,
+    "y": 2179,
+    "w": 1172,
+    "h": 157
+  },
+  {
+    "id": "6c4b12585b58300e",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "dbf491fd689e7cd2",
+    "name": "thermostat - metric - output",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "a091b2e84a4e89e6",
+      "34e6817c2f435667",
+      "9ba0a97276e93540",
+      "147aa94543fa77cb"
+    ],
+    "x": 104,
+    "y": 3679,
+    "w": 592,
+    "h": 142
+  },
+  {
+    "id": "7e9cff1699c061ec",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - compute heat request",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1452439e0c937126",
+      "15d8d0ba06961e4b",
+      "4b342483a51b0f93"
+    ],
+    "x": 94,
+    "y": 1819,
+    "w": 522,
+    "h": 82
+  },
+  {
+    "id": "81842bf5581a2a3f",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - device - partial (bucket must have other thermostat values)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "d8585174fdd6097c",
+      "a35aaf65004eeaac",
+      "f61fef9768da8558",
+      "5cbb323f0e362aed",
+      "3b8629192cde74db",
+      "82a9ec30d38dec10",
+      "9c5d6532a1c36bc4",
+      "804a2d1f3c05de7e",
+      "c170b43fcf7a5bc2",
+      "e1663eb05a273810",
+      "60a8b6c3b2e72ae2",
+      "d5cbc2f49e5bcf37",
+      "a0b0a47a4719edd4",
+      "11886766f827e1fd",
+      "9dc49d567806c040",
+      "db296997eb05a7e3",
+      "de88d060a6e9ab68",
+      "4209dce5b520e62e",
+      "2cda217228ab8a5f",
+      "7c192da441c0e46b",
+      "8d1ed0f3a77d2bb9",
+      "209e2b300932e1ce",
+      "c61e55af251c1588",
+      "c1d7285b5e0a4ef9",
+      "7f74332e39e8c3b6",
+      "ea4ed028bce71805",
+      "c22a1d18683ea7c0"
+    ],
+    "x": 94,
+    "y": 499,
+    "w": 922,
+    "h": 1282
+  },
+  {
+    "id": "93075511ad056e6d",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - outdoor temperature (customized to my needs)",
+    "style": {
+      "label": true,
+      "fill": "#92d04f",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "8bbf52c2a83e09ea",
+      "0a9cb3219b03ca53",
+      "de7ea9b615e052e6",
+      "37844601d21c6184",
+      "e3dc3f877be31d77",
+      "6fbdfc1ab44f9754",
+      "85f9e2ad24cb8a5a"
+    ],
+    "x": 94,
+    "y": 3919,
+    "w": 1102,
+    "h": 82
+  },
+  {
+    "id": "e653f3ec3dc88a8f",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - indoor temperature",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3099e4a17fd21410",
+      "a2b07c98d61de126",
+      "d09ad27d05d54698",
+      "4c169fc26f833802",
+      "a21c6a2db7aeab09",
+      "c7d315d762524494",
+      "e2c388ba43ec89f0",
+      "9eb8cf78caf3141d",
+      "313fbd5fc01985a5",
+      "b7ffd39578f29c8b"
+    ],
+    "x": 94,
+    "y": 4039,
+    "w": 1742,
+    "h": 82
+  },
+  {
+    "id": "6f1f772c23d57e24",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - offloading",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5cb2a229a6fec1aa",
+      "1c4fbd9e3d313b43",
+      "2aaf95392a970167",
+      "e78638ee35b8c069",
+      "2cb92368cb319c65",
+      "1dd82f8d7e2ccd52",
+      "4b2f0c80863bf5e7",
+      "91ee9f04019a9999",
+      "53f044d01f2d18b2",
+      "2df7aa160cbf3a71",
+      "db3681610a5d90d9",
+      "7869c56dce3123ed",
+      "ea0c6cadf1d594c3",
+      "285a0091abda1f58",
+      "96e92d4bad3792d3",
+      "3de9c88ac7ce9a77",
+      "6e120320180e5cfd",
+      "d237415ac7c1b47b",
+      "808426e9258cd024"
+    ],
+    "x": 94,
+    "y": 4159,
+    "w": 3582,
+    "h": 82
+  },
+  {
+    "id": "c3cbb2a2dd06d1bb",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - ui - test",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "659f9752db0967bc",
+      "9caafb8c1719d275",
+      "515b0c184c8a3628",
+      "13697bbd73295b46",
+      "c6fdc57a80266f04",
+      "b7bc73260cea8570",
+      "d60c017a8962d3f8",
+      "dc37631fe73fce2a",
+      "c932311ec07112b5",
+      "67e91e753d3708e2",
+      "a86e51fee3e3458d",
+      "f974a627497b4b7d",
+      "809635d5f2efc402",
+      "c9291360c0f0b490",
+      "f10733a435dc7390",
+      "f81152d8df61c845",
+      "bc4771242d5d3bd8",
+      "135b7546018ecfba",
+      "6bf593bd1612dbde",
+      "64405bce10cccde1",
+      "bf5b9cb6fe9e3550",
+      "6e4f87c323cc4659"
+    ],
+    "x": 94,
+    "y": 4279,
+    "w": 1752,
+    "h": 502
+  },
+  {
+    "id": "f0bd4b1ffe5da318",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f12560e95cd346d2",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "thermostats",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "offloading",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "sort",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "4f0f1c286cdfedcd"
+      ]
+    ]
+  },
+  {
+    "id": "5c64177e3bbfd337",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "f12560e95cd346d2",
+    "name": "thermostat - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "f0bd4b1ffe5da318"
+      ]
+    ]
+  },
+  {
+    "id": "4f0f1c286cdfedcd",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "f12560e95cd346d2",
+    "name": "thermostat - bucket",
+    "mode": "link",
+    "links": [
+      "4aab252764e96897"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "6a52e89b65262e56",
+    "type": "catch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6fe378cbf407ee45",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "a08a5b5fbf04f8d4"
+      ]
+    ]
+  },
+  {
+    "id": "a08a5b5fbf04f8d4",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "6fe378cbf407ee45",
+    "name": "thermostat - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 850,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "4aab252764e96897",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "91157899ceb2151b",
+    "name": "thermostat - config - device",
+    "links": [
+      "4f0f1c286cdfedcd"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "2b5ebe5c93914bd9",
+        "f2fcc76292e4e686"
+      ]
+    ]
+  },
+  {
+    "id": "2b5ebe5c93914bd9",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "91157899ceb2151b",
+    "name": "config / aperture delay / number / 5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture delay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "5",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 240,
+    "wires": [
+      [
+        "ece815da9a3e1dab"
+      ]
+    ]
+  },
+  {
+    "id": "ece815da9a3e1dab",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "91157899ceb2151b",
+    "name": "thermostat - config - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 595,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "f2fcc76292e4e686",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "91157899ceb2151b",
+    "name": "config / offloading delay / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading delay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 300,
+    "wires": [
+      [
+        "ece815da9a3e1dab"
+      ]
+    ]
+  },
+  {
+    "id": "11cf1061a2c539a1",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "thermostat - config - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 755,
+    "y": 240,
+    "wires": [
+      [
+        "6fad4103dfdc045f"
+      ]
+    ]
+  },
+  {
+    "id": "884976027c7e86a2",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "thermostat - config - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1455,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "6fad4103dfdc045f",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "check path",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "thermostat/config/aperture delay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "thermostat/config/offloading delay",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 910,
+    "y": 240,
+    "wires": [
+      [
+        "52e9e7f197ba916f"
+      ],
+      [
+        "7a0cd3a41aafad17"
+      ]
+    ]
+  },
+  {
+    "id": "52e9e7f197ba916f",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "group": "403aaeef14cd4c8f",
+    "name": "aperture delay",
+    "label": "Délai ouvrant",
+    "tooltip": "",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "aperture delay",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "30",
+    "step": 1,
+    "className": "",
+    "x": 1120,
+    "y": 300,
+    "wires": [
+      [
+        "75b5d1f31a8fa165"
+      ]
+    ]
+  },
+  {
+    "id": "7a0cd3a41aafad17",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "group": "403aaeef14cd4c8f",
+    "name": "offloading delay",
+    "label": "Temps de délestage",
+    "tooltip": "",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "offloading delay",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "60",
+    "step": 1,
+    "className": "",
+    "x": 1120,
+    "y": 360,
+    "wires": [
+      [
+        "75b5d1f31a8fa165"
+      ]
+    ]
+  },
+  {
+    "id": "75b5d1f31a8fa165",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1320,
+    "y": 300,
+    "wires": [
+      [
+        "884976027c7e86a2"
+      ]
+    ]
+  },
+  {
+    "id": "c13917bf46188642",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "thermostat - config - ui - load",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 755,
+    "y": 300,
+    "wires": [
+      [
+        "4f450cad246d50cf",
+        "51c7f61e5f0e55fb"
+      ]
+    ]
+  },
+  {
+    "id": "4f450cad246d50cf",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]config['aperture delay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 910,
+    "y": 300,
+    "wires": [
+      [
+        "52e9e7f197ba916f"
+      ]
+    ]
+  },
+  {
+    "id": "51c7f61e5f0e55fb",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "19bd3df3be006a24",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]config['offloading delay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 910,
+    "y": 360,
+    "wires": [
+      [
+        "7a0cd3a41aafad17"
+      ]
+    ]
+  },
+  {
+    "id": "cfeaa3a9e12b40eb",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat - update - pilot metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2065,
+    "y": 3540,
+    "wires": []
+  },
+  {
+    "id": "2b98ac8845853557",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "status",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 280,
+    "y": 3480,
+    "wires": [
+      [
+        "1b79850c96d3d208"
+      ]
+    ]
+  },
+  {
+    "id": "1b79850c96d3d208",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "status",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "powered",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "reached",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 440,
+    "y": 3480,
+    "wires": [
+      [
+        "b809a2344b2a162c"
+      ],
+      [
+        "d67d4a70e837c744"
+      ],
+      [
+        "d67d4a70e837c744"
+      ]
+    ]
+  },
+  {
+    "id": "014df3b24c891646",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "to true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 840,
+    "y": 3540,
+    "wires": [
+      [
+        "4e6ed9498ff4530e",
+        "12cadcc5d1bee95b",
+        "b5123d0e6886505f"
+      ]
+    ]
+  },
+  {
+    "id": "d67d4a70e837c744",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "to false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 3480,
+    "wires": [
+      [
+        "12cadcc5d1bee95b",
+        "4e6ed9498ff4530e",
+        "b5123d0e6886505f"
+      ]
+    ]
+  },
+  {
+    "id": "b809a2344b2a162c",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "system offloaded",
+    "property": "metrics.system.mode.offloading",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "offloaded",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 640,
+    "y": 3420,
+    "wires": [
+      [
+        "b54dd8d3915e207f"
+      ],
+      [
+        "014df3b24c891646"
+      ]
+    ]
+  },
+  {
+    "id": "b5123d0e6886505f",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "cycle time",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tc",
+        "pt": "msg",
+        "to": "th['cycle time']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "msg.tc * 60000",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tc",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1030,
+    "y": 3600,
+    "wires": [
+      [
+        "d2ded0d940485aa7"
+      ]
+    ]
+  },
+  {
+    "id": "2311d66d2d2f1a5a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat / offloading",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1070,
+    "y": 3420,
+    "wires": [
+      [
+        "502bf87b213069c7"
+      ]
+    ]
+  },
+  {
+    "id": "d2ded0d940485aa7",
+    "type": "trigger",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "wait delay then send false, reset on false",
+    "op1": "",
+    "op2": "false",
+    "op1type": "nul",
+    "op2type": "bool",
+    "duration": "30",
+    "extend": false,
+    "overrideDelay": true,
+    "units": "min",
+    "reset": "false",
+    "bytopic": "topic",
+    "topic": "th.bucket",
+    "outputs": 1,
+    "x": 1310,
+    "y": 3600,
+    "wires": [
+      [
+        "4e6ed9498ff4530e",
+        "12cadcc5d1bee95b"
+      ]
+    ]
+  },
+  {
+    "id": "80b02c9d206eb796",
+    "type": "trigger",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "wait 1 min then send last",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "payl",
+    "duration": "1",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "min",
+    "reset": "",
+    "bytopic": "topic",
+    "topic": "bucket",
+    "outputs": 1,
+    "x": 1880,
+    "y": 3600,
+    "wires": [
+      [
+        "cfeaa3a9e12b40eb",
+        "93d2b581d45d7631"
+      ]
+    ]
+  },
+  {
+    "id": "e50f34cde29f1023",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat - update - pilot",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 3480,
+    "wires": [
+      [
+        "2b98ac8845853557"
+      ]
+    ]
+  },
+  {
+    "id": "502bf87b213069c7",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat - update - pilot",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1805,
+    "y": 3420,
+    "wires": []
+  },
+  {
+    "id": "4e6ed9498ff4530e",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat / last pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "last pilot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "date"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1630,
+    "y": 3480,
+    "wires": [
+      [
+        "502bf87b213069c7",
+        "06abf52a6249bd22"
+      ]
+    ]
+  },
+  {
+    "id": "12cadcc5d1bee95b",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "metric cible / pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "th.bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cible",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pilot",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "th",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1620,
+    "y": 3540,
+    "wires": [
+      [
+        "80b02c9d206eb796",
+        "cfeaa3a9e12b40eb",
+        "93d2b581d45d7631"
+      ]
+    ]
+  },
+  {
+    "id": "b54dd8d3915e207f",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "to false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 3420,
+    "wires": [
+      [
+        "2311d66d2d2f1a5a",
+        "b5123d0e6886505f"
+      ]
+    ]
+  },
+  {
+    "id": "06abf52a6249bd22",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "thermostat / last pilot",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1890,
+    "y": 3480,
+    "wires": []
+  },
+  {
+    "id": "93d2b581d45d7631",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "ccc78d495cbd8f7d",
+    "name": "xxx / cible / pilot",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2130,
+    "y": 3600,
+    "wires": []
+  },
+  {
+    "id": "cd96635eddc7da1f",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "operating mode",
+    "property": "th['operating mode']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "off",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 470,
+    "y": 3060,
+    "wires": [
+      [
+        "5473623028666410"
+      ],
+      [
+        "4fc3e55ddfdaa010"
+      ]
+    ]
+  },
+  {
+    "id": "4fc3e55ddfdaa010",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "offloading",
+    "property": "th.offloading",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 670,
+    "y": 3120,
+    "wires": [
+      [
+        "61a83a7757b78adc"
+      ],
+      [
+        "529ee15b89c1a59a"
+      ]
+    ]
+  },
+  {
+    "id": "529ee15b89c1a59a",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "delayed aperture",
+    "property": "th['delayed aperture']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 880,
+    "y": 3180,
+    "wires": [
+      [
+        "889157da2139e8ff"
+      ],
+      [
+        "559221227a779f47"
+      ]
+    ]
+  },
+  {
+    "id": "559221227a779f47",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "heat request",
+    "property": "th['heat request']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1100,
+    "y": 3240,
+    "wires": [
+      [
+        "503a81673f2d7fb0"
+      ],
+      [
+        "54a377fdde983cc9"
+      ]
+    ]
+  },
+  {
+    "id": "5473623028666410",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "stopped",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stopped",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1470,
+    "y": 3060,
+    "wires": [
+      [
+        "4cdca41467e84399"
+      ]
+    ]
+  },
+  {
+    "id": "61a83a7757b78adc",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "offloaded",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "offloaded",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1470,
+    "y": 3120,
+    "wires": [
+      [
+        "4cdca41467e84399"
+      ]
+    ]
+  },
+  {
+    "id": "889157da2139e8ff",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "suspended",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "suspended",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1480,
+    "y": 3180,
+    "wires": [
+      [
+        "4cdca41467e84399"
+      ]
+    ]
+  },
+  {
+    "id": "503a81673f2d7fb0",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "powered",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "powered",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1470,
+    "y": 3240,
+    "wires": [
+      [
+        "4cdca41467e84399"
+      ]
+    ]
+  },
+  {
+    "id": "a4c6172c4c4737ac",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "reached",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "reached",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1470,
+    "y": 3300,
+    "wires": [
+      [
+        "4cdca41467e84399"
+      ]
+    ]
+  },
+  {
+    "id": "4cdca41467e84399",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "thermostat / status",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "status",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1680,
+    "y": 3120,
+    "wires": [
+      [
+        "1ff0b0648a927b0f",
+        "f0e65595e5827e60"
+      ]
+    ]
+  },
+  {
+    "id": "6335a0ba7e4fd02e",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "heat request",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "operating mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "offloading",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "delayed aperture",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 280,
+    "y": 3120,
+    "wires": [
+      [
+        "cd96635eddc7da1f"
+      ],
+      [
+        "cd96635eddc7da1f"
+      ],
+      [
+        "cd96635eddc7da1f"
+      ],
+      [
+        "cd96635eddc7da1f"
+      ]
+    ]
+  },
+  {
+    "id": "ffdbc6f74f0bd44a",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "thermostat - update - status",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 3120,
+    "wires": [
+      [
+        "6335a0ba7e4fd02e"
+      ]
+    ]
+  },
+  {
+    "id": "1ff0b0648a927b0f",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "thermostat - update - status",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1845,
+    "y": 3120,
+    "wires": []
+  },
+  {
+    "id": "f0e65595e5827e60",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "thermostat / status",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1920,
+    "y": 3060,
+    "wires": []
+  },
+  {
+    "id": "54a377fdde983cc9",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e57e9c900c787424",
+    "name": "cycle time",
+    "property": "th['last pilot']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "lt",
+        "v": "$millis() - ($number(msg.th.'cycle time') * 60000)",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1290,
+    "y": 3300,
+    "wires": [
+      [
+        "a4c6172c4c4737ac"
+      ]
+    ]
+  },
+  {
+    "id": "f3335edf661bfc8d",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "offloading",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 280,
+    "y": 2880,
+    "wires": [
+      [
+        "82489d3f8ae606cf"
+      ]
+    ]
+  },
+  {
+    "id": "82489d3f8ae606cf",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "is true",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 440,
+    "y": 2880,
+    "wires": [
+      [
+        "c91c042b412afd7f",
+        "cbb6f339addc057f",
+        "772937ddeb3e1b72"
+      ]
+    ]
+  },
+  {
+    "id": "c91c042b412afd7f",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "set delay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "metrics.thermostat.config['offloading delay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "$number(msg.delay) * 60000",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 2940,
+    "wires": [
+      [
+        "8a7f5acb317722bc"
+      ]
+    ]
+  },
+  {
+    "id": "8a7f5acb317722bc",
+    "type": "trigger",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "wait delay then false",
+    "op1": "",
+    "op2": "false",
+    "op1type": "nul",
+    "op2type": "bool",
+    "duration": "1",
+    "extend": true,
+    "overrideDelay": true,
+    "units": "min",
+    "reset": "",
+    "bytopic": "topic",
+    "topic": "th.bucket",
+    "outputs": 1,
+    "x": 830,
+    "y": 2940,
+    "wires": [
+      [
+        "aa80f7b58c825d6d"
+      ]
+    ]
+  },
+  {
+    "id": "aa80f7b58c825d6d",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "system offloaded",
+    "property": "metrics.system.mode.offloading",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "offloaded",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1080,
+    "y": 2940,
+    "wires": [
+      [
+        "c91c042b412afd7f"
+      ],
+      [
+        "cbb6f339addc057f"
+      ]
+    ]
+  },
+  {
+    "id": "cbb6f339addc057f",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "thermostat / offloading",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1330,
+    "y": 2880,
+    "wires": [
+      [
+        "3bc159f186c762cd",
+        "0ea437f46160f0e5"
+      ]
+    ]
+  },
+  {
+    "id": "772937ddeb3e1b72",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "thermostat / offloading count",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading count",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "th['offloading count']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload) + 1",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 2820,
+    "wires": [
+      [
+        "3bc159f186c762cd"
+      ]
+    ]
+  },
+  {
+    "id": "1b11e45ef3e9f02f",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "thermostat - update - offloading",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 2880,
+    "wires": [
+      [
+        "f3335edf661bfc8d"
+      ]
+    ]
+  },
+  {
+    "id": "3bc159f186c762cd",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "thermostat - update - offloading",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1505,
+    "y": 2820,
+    "wires": []
+  },
+  {
+    "id": "0ea437f46160f0e5",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "8206912d2f9bab36",
+    "name": "thermostat / offloading",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1590,
+    "y": 2880,
+    "wires": []
+  },
+  {
+    "id": "e7a80893daf9f5cd",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "operating mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "confort setpoint",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "eco setpoint",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 280,
+    "y": 2640,
+    "wires": [
+      [
+        "85d6369076d887c9"
+      ],
+      [
+        "85d6369076d887c9"
+      ],
+      [
+        "85d6369076d887c9"
+      ]
+    ]
+  },
+  {
+    "id": "85d6369076d887c9",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "check operating mode",
+    "property": "th['operating mode']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "confort",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "eco",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "anti-freeze",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 490,
+    "y": 2640,
+    "wires": [
+      [
+        "1164fe72097e884c"
+      ],
+      [
+        "0eb756ee244751a4"
+      ],
+      [
+        "3a3af17d95ca520a"
+      ]
+    ]
+  },
+  {
+    "id": "1164fe72097e884c",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "confort",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "th['confort setpoint']",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 700,
+    "y": 2580,
+    "wires": [
+      [
+        "70c27df7cb0add1d"
+      ]
+    ]
+  },
+  {
+    "id": "0eb756ee244751a4",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "eco",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "th['eco setpoint']",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 700,
+    "y": 2640,
+    "wires": [
+      [
+        "70c27df7cb0add1d"
+      ]
+    ]
+  },
+  {
+    "id": "3a3af17d95ca520a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "anti-freeze",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "7",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 720,
+    "y": 2700,
+    "wires": [
+      [
+        "70c27df7cb0add1d"
+      ]
+    ]
+  },
+  {
+    "id": "70c27df7cb0add1d",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "thermostat / temperature setpoint",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "temperature setpoint",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 990,
+    "y": 2640,
+    "wires": [
+      [
+        "f9fad454dec37bc7",
+        "55660ec49f882e13"
+      ]
+    ]
+  },
+  {
+    "id": "64754ad76b3561d6",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "temperature - update - temperature setpoint",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 2640,
+    "wires": [
+      [
+        "e7a80893daf9f5cd"
+      ]
+    ]
+  },
+  {
+    "id": "f9fad454dec37bc7",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "thermostat - update - tempearture setpoint",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1205,
+    "y": 2640,
+    "wires": []
+  },
+  {
+    "id": "55660ec49f882e13",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "0af18fd6cc155518",
+    "name": "thermostat / temperature setpoint",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1330,
+    "y": 2580,
+    "wires": []
+  },
+  {
+    "id": "f1240da189a60ba8",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "aperture opened",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 280,
+    "y": 2460,
+    "wires": [
+      [
+        "ecda411603ebcccf"
+      ]
+    ]
+  },
+  {
+    "id": "ecda411603ebcccf",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "delay 250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 2460,
+    "wires": [
+      [
+        "4658e2323b1a287a"
+      ]
+    ]
+  },
+  {
+    "id": "f3eb2e8c09f67e89",
+    "type": "trigger",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "wait delay then false, reset on true",
+    "op1": "",
+    "op2": "false",
+    "op1type": "nul",
+    "op2type": "bool",
+    "duration": "2",
+    "extend": false,
+    "overrideDelay": true,
+    "units": "min",
+    "reset": "true",
+    "bytopic": "topic",
+    "topic": "th.bucket",
+    "outputs": 1,
+    "x": 910,
+    "y": 2400,
+    "wires": [
+      [
+        "6a726c7db415e700"
+      ]
+    ]
+  },
+  {
+    "id": "f305bda7c25657e5",
+    "type": "trigger",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "wait delay then true, reset on false",
+    "op1": "",
+    "op2": "true",
+    "op1type": "nul",
+    "op2type": "bool",
+    "duration": "2",
+    "extend": false,
+    "overrideDelay": true,
+    "units": "min",
+    "reset": "false",
+    "bytopic": "topic",
+    "topic": "th.bucket",
+    "outputs": 1,
+    "x": 910,
+    "y": 2460,
+    "wires": [
+      [
+        "6a726c7db415e700"
+      ]
+    ]
+  },
+  {
+    "id": "6a726c7db415e700",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "thermostat / delayed aperture",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "delayed aperture",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1230,
+    "y": 2460,
+    "wires": [
+      [
+        "92add418b3868c54",
+        "6893398018de38e9"
+      ]
+    ]
+  },
+  {
+    "id": "4658e2323b1a287a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "set delay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.th.'aperture opened')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "stack.thermostat.config['aperture delay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "msg.delay * 60000",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 650,
+    "y": 2460,
+    "wires": [
+      [
+        "f3eb2e8c09f67e89",
+        "f305bda7c25657e5"
+      ]
+    ]
+  },
+  {
+    "id": "37b31a14146e2a3f",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "thermostat - update - delayed aperture",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 2460,
+    "wires": [
+      [
+        "f1240da189a60ba8"
+      ]
+    ]
+  },
+  {
+    "id": "92add418b3868c54",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "thermostat - update - delayed aperture",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1415,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "6893398018de38e9",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "c311204f22191fa2",
+    "name": "thermostat / delayed aperture",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1530,
+    "y": 2400,
+    "wires": []
+  },
+  {
+    "id": "266e831763ed3b77",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "thermostat - metric - input",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 145,
+    "y": 2100,
+    "wires": [
+      [
+        "ed42e96a79df8e09"
+      ]
+    ]
+  },
+  {
+    "id": "ed42e96a79df8e09",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "thermostat",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 310,
+    "y": 2100,
+    "wires": [
+      [
+        "7b43ab1cda2d8f3f"
+      ]
+    ]
+  },
+  {
+    "id": "7b43ab1cda2d8f3f",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "bucket",
+    "property": "thermostats",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "bucket",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 2100,
+    "wires": [
+      [
+        "ff4225d872a9a0d3"
+      ]
+    ]
+  },
+  {
+    "id": "ff4225d872a9a0d3",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "th",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]thermostat",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "th.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 680,
+    "y": 2100,
+    "wires": [
+      [
+        "623975efd8e9bbcd",
+        "be58e8ac1e1b6eb1"
+      ]
+    ]
+  },
+  {
+    "id": "623975efd8e9bbcd",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "thermostat - metric - input",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 920,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "be58e8ac1e1b6eb1",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "868902cdeaa428fe",
+    "name": "thermostat - update - metric",
+    "mode": "link",
+    "links": [
+      "0998eafda2346961",
+      "1b11e45ef3e9f02f",
+      "37b31a14146e2a3f",
+      "64754ad76b3561d6",
+      "e50f34cde29f1023",
+      "ffdbc6f74f0bd44a"
+    ],
+    "x": 825,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "1ed6b5ff63020d07",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "thermostat / heat request",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "heat request",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.th.compute>0",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 840,
+    "y": 2280,
+    "wires": [
+      [
+        "0fb59058d3aa9663",
+        "5f6fd378f40e4c81"
+      ]
+    ]
+  },
+  {
+    "id": "69fda60f897db5fd",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "trigger",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "temperature setpoint",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "indoor temperature",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "outdoor temperature",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "operating mode",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 280,
+    "y": 2280,
+    "wires": [
+      [
+        "d75bdce71118a56f"
+      ],
+      [
+        "d75bdce71118a56f"
+      ],
+      [
+        "d75bdce71118a56f"
+      ],
+      [
+        "d75bdce71118a56f"
+      ]
+    ]
+  },
+  {
+    "id": "d75bdce71118a56f",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "",
+    "links": [
+      "1452439e0c937126"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 530,
+    "y": 2280,
+    "wires": [
+      [
+        "1ed6b5ff63020d07"
+      ]
+    ]
+  },
+  {
+    "id": "5f6fd378f40e4c81",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "thermostat / heat request",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": true,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "th.compute",
+    "statusType": "msg",
+    "x": 1120,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "0fb59058d3aa9663",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "thermostat - update - heat request",
+    "mode": "link",
+    "links": [
+      "147aa94543fa77cb"
+    ],
+    "x": 1025,
+    "y": 2280,
+    "wires": []
+  },
+  {
+    "id": "0998eafda2346961",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "467ec12f292b2573",
+    "name": "thermostat - update - heat request",
+    "links": [
+      "be58e8ac1e1b6eb1"
+    ],
+    "x": 145,
+    "y": 2280,
+    "wires": [
+      [
+        "69fda60f897db5fd"
+      ]
+    ]
+  },
+  {
+    "id": "a091b2e84a4e89e6",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6c4b12585b58300e",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "th.bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "th",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 290,
+    "y": 3780,
+    "wires": [
+      [
+        "34e6817c2f435667",
+        "9ba0a97276e93540"
+      ]
+    ]
+  },
+  {
+    "id": "34e6817c2f435667",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "6c4b12585b58300e",
+    "name": "thermostat - metric - output",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 425,
+    "y": 3780,
+    "wires": []
+  },
+  {
+    "id": "9ba0a97276e93540",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "6c4b12585b58300e",
+    "name": "thermostat - metric - output",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 530,
+    "y": 3720,
+    "wires": []
+  },
+  {
+    "id": "147aa94543fa77cb",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "6c4b12585b58300e",
+    "name": "thermostat - update - metric",
+    "links": [
+      "0fb59058d3aa9663",
+      "1ff0b0648a927b0f",
+      "3bc159f186c762cd",
+      "502bf87b213069c7",
+      "92add418b3868c54",
+      "f9fad454dec37bc7"
+    ],
+    "x": 145,
+    "y": 3780,
+    "wires": [
+      [
+        "a091b2e84a4e89e6"
+      ]
+    ]
+  },
+  {
+    "id": "1452439e0c937126",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "7e9cff1699c061ec",
+    "name": "thermostat - compute heat request",
+    "links": [],
+    "x": 135,
+    "y": 1860,
+    "wires": [
+      [
+        "15d8d0ba06961e4b"
+      ]
+    ]
+  },
+  {
+    "id": "15d8d0ba06961e4b",
+    "type": "function",
+    "z": "80f2ffd4953c67e9",
+    "g": "7e9cff1699c061ec",
+    "name": "thermostat compute heat request",
+    "func": "var txt = '';\nvar souscalcul = ((msg.th['temperature setpoint'] - msg.th['indoor temperature']) * msg.th['indoor coefficient']) + ((msg.th['indoor temperature'] - msg.th['outdoor temperature']) * msg.th['outdoor coefficient']);\nvar calculb = (souscalcul / 100 * msg.th['cycle time']);\nvar calculc = (msg.th['cycle time'] * msg.th['preheat time'] / 100);\ncalculb = calculb.toFixed(1);\ncalculc = calculc.toFixed(1);\n\n// positive result for heat request\nmsg.th.compute = calculb - calculc;\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 360,
+    "y": 1860,
+    "wires": [
+      [
+        "4b342483a51b0f93"
+      ]
+    ]
+  },
+  {
+    "id": "4b342483a51b0f93",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "7e9cff1699c061ec",
+    "name": "thermostat - compute heat request",
+    "mode": "return",
+    "links": [],
+    "x": 575,
+    "y": 1860,
+    "wires": []
+  },
+  {
+    "id": "d8585174fdd6097c",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat - device",
+    "links": [],
+    "x": 135,
+    "y": 540,
+    "wires": [
+      [
+        "a35aaf65004eeaac"
+      ]
+    ]
+  },
+  {
+    "id": "a35aaf65004eeaac",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "7f74332e39e8c3b6",
+        "9c5d6532a1c36bc4",
+        "5cbb323f0e362aed",
+        "3b8629192cde74db",
+        "7c192da441c0e46b",
+        "82a9ec30d38dec10",
+        "804a2d1f3c05de7e",
+        "c170b43fcf7a5bc2",
+        "9dc49d567806c040",
+        "db296997eb05a7e3",
+        "de88d060a6e9ab68",
+        "4209dce5b520e62e",
+        "2cda217228ab8a5f",
+        "8d1ed0f3a77d2bb9",
+        "c1d7285b5e0a4ef9",
+        "60a8b6c3b2e72ae2",
+        "d5cbc2f49e5bcf37",
+        "a0b0a47a4719edd4",
+        "11886766f827e1fd",
+        "e1663eb05a273810",
+        "c22a1d18683ea7c0"
+      ]
+    ]
+  },
+  {
+    "id": "f61fef9768da8558",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "thermostats[msg.bucket]",
+        "pt": "flow",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 600,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5cbb323f0e362aed",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / confort setpoint / number / 21",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "confort setpoint",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "21",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 720,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "3b8629192cde74db",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / eco setpoint  / number / 19",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "eco setpoint",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "19",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 780,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "82a9ec30d38dec10",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / operating mode / text / eco",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "operating mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "eco",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 900,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "9c5d6532a1c36bc4",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 660,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "804a2d1f3c05de7e",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / aperture opened / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture opened",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 550,
+    "y": 960,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "c170b43fcf7a5bc2",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / delayed aperture / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "delayed aperture",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 1020,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "e1663eb05a273810",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "d": true,
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / offloading power / number / 500",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "500",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 550,
+    "y": 1740,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "60a8b6c3b2e72ae2",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "d": true,
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / indoor coefficient / number / 50",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "50",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 550,
+    "y": 1500,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "d5cbc2f49e5bcf37",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "d": true,
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / outdoor coefficient / number / 5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "5",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 550,
+    "y": 1560,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "a0b0a47a4719edd4",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "d": true,
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / cycle time / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cycle time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 1620,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "11886766f827e1fd",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "d": true,
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / preheat time / number / 15",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "preheat time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "15",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 1680,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "9dc49d567806c040",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / outdoor temperature / number / 20",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 1080,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "db296997eb05a7e3",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / indoor temperature / number / 21",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "21",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 550,
+    "y": 1140,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "de88d060a6e9ab68",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / heat request  / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "heat request",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 1200,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "4209dce5b520e62e",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / status / text / stopped",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "status",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "stopped",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1260,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "2cda217228ab8a5f",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / offloading / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 1320,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "7c192da441c0e46b",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / temperature setpoint / number / 19",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "temperature setpoint",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "19",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 840,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "8d1ed0f3a77d2bb9",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / last pilot / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "last pilot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1380,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "209e2b300932e1ce",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 975,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "c61e55af251c1588",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 840,
+    "y": 540,
+    "wires": [
+      [
+        "209e2b300932e1ce"
+      ]
+    ]
+  },
+  {
+    "id": "c1d7285b5e0a4ef9",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "thermostat / offloading count / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading count",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 1440,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "7f74332e39e8c3b6",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 600,
+    "wires": [
+      [
+        "f61fef9768da8558"
+      ]
+    ]
+  },
+  {
+    "id": "ea4ed028bce71805",
+    "type": "comment",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "manage by bucket",
+    "info": "",
+    "x": 210,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "c22a1d18683ea7c0",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "81842bf5581a2a3f",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "thermostat",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 540,
+    "wires": [
+      [
+        "c61e55af251c1588"
+      ]
+    ]
+  },
+  {
+    "id": "8bbf52c2a83e09ea",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "thermostat - update - outdoor temperature",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 3960,
+    "wires": [
+      [
+        "0a9cb3219b03ca53"
+      ]
+    ]
+  },
+  {
+    "id": "0a9cb3219b03ca53",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "parking/temperature/probe",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "jardin/temperature/probe",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 3960,
+    "wires": [
+      [
+        "85f9e2ad24cb8a5a"
+      ],
+      [
+        "85f9e2ad24cb8a5a"
+      ]
+    ]
+  },
+  {
+    "id": "de7ea9b615e052e6",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "buckets",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostats",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 680,
+    "y": 3960,
+    "wires": [
+      [
+        "37844601d21c6184"
+      ]
+    ]
+  },
+  {
+    "id": "37844601d21c6184",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "bucket",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 850,
+    "y": 3960,
+    "wires": [
+      [
+        "e3dc3f877be31d77"
+      ]
+    ]
+  },
+  {
+    "id": "e3dc3f877be31d77",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1020,
+    "y": 3960,
+    "wires": [
+      [
+        "6fbdfc1ab44f9754"
+      ]
+    ]
+  },
+  {
+    "id": "6fbdfc1ab44f9754",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "thermostat - update - outdoor temperature",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1155,
+    "y": 3960,
+    "wires": []
+  },
+  {
+    "id": "85f9e2ad24cb8a5a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "93075511ad056e6d",
+    "name": "ponderation",
+    "rules": [
+      {
+        "t": "set",
+        "p": "jardin",
+        "pt": "msg",
+        "to": "metrics.jardin.temperature.probe",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "parking",
+        "pt": "msg",
+        "to": "metrics.parking.temperature.probe",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$round(($number(msg.jardin)+$number(msg.parking)*2)/3, 1)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 3960,
+    "wires": [
+      [
+        "de7ea9b615e052e6"
+      ]
+    ]
+  },
+  {
+    "id": "3099e4a17fd21410",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "thermostat - update - indoor temperature",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 4080,
+    "wires": [
+      [
+        "4c169fc26f833802"
+      ]
+    ]
+  },
+  {
+    "id": "a2b07c98d61de126",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1660,
+    "y": 4080,
+    "wires": [
+      [
+        "d09ad27d05d54698"
+      ]
+    ]
+  },
+  {
+    "id": "d09ad27d05d54698",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "thermostat - update - indoor temperature",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1795,
+    "y": 4080,
+    "wires": []
+  },
+  {
+    "id": "4c169fc26f833802",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "temperature",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 300,
+    "y": 4080,
+    "wires": [
+      [
+        "a21c6a2db7aeab09"
+      ]
+    ]
+  },
+  {
+    "id": "a21c6a2db7aeab09",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "buckets",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostats",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 4080,
+    "wires": [
+      [
+        "e2c388ba43ec89f0"
+      ]
+    ]
+  },
+  {
+    "id": "c7d315d762524494",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "exists",
+    "property": "scene.bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 4080,
+    "wires": [
+      [
+        "9eb8cf78caf3141d"
+      ]
+    ]
+  },
+  {
+    "id": "e2c388ba43ec89f0",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "bucket",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 670,
+    "y": 4080,
+    "wires": [
+      [
+        "c7d315d762524494"
+      ]
+    ]
+  },
+  {
+    "id": "9eb8cf78caf3141d",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "",
+    "links": [
+      "ddd39f991efd9d31"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1030,
+    "y": 4080,
+    "wires": [
+      [
+        "313fbd5fc01985a5"
+      ]
+    ]
+  },
+  {
+    "id": "313fbd5fc01985a5",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "rsp",
+    "property": "search.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1230,
+    "y": 4080,
+    "wires": [
+      [
+        "b7ffd39578f29c8b"
+      ]
+    ]
+  },
+  {
+    "id": "b7ffd39578f29c8b",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "limit 1 msg / s / topic",
+    "pauseType": "queue",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1440,
+    "y": 4080,
+    "wires": [
+      [
+        "a2b07c98d61de126"
+      ]
+    ]
+  },
+  {
+    "id": "5cb2a229a6fec1aa",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "thermostat - update - offloading",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 4200,
+    "wires": [
+      [
+        "1c4fbd9e3d313b43"
+      ]
+    ]
+  },
+  {
+    "id": "1c4fbd9e3d313b43",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/mode/offloading",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 4200,
+    "wires": [
+      [
+        "e78638ee35b8c069"
+      ]
+    ]
+  },
+  {
+    "id": "2aaf95392a970167",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "mode offloading",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "offloaded",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 880,
+    "y": 4200,
+    "wires": [
+      [
+        "1dd82f8d7e2ccd52"
+      ]
+    ]
+  },
+  {
+    "id": "e78638ee35b8c069",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 4200,
+    "wires": [
+      [
+        "2cb92368cb319c65"
+      ]
+    ]
+  },
+  {
+    "id": "2cb92368cb319c65",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "mode automate",
+    "property": "metrics.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 660,
+    "y": 4200,
+    "wires": [
+      [
+        "2aaf95392a970167"
+      ]
+    ]
+  },
+  {
+    "id": "1dd82f8d7e2ccd52",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "thermostats",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostats",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "offloading",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "sort",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "json"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 4200,
+    "wires": [
+      [
+        "4b2f0c80863bf5e7"
+      ]
+    ]
+  },
+  {
+    "id": "4b2f0c80863bf5e7",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "split thermostats",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1300,
+    "y": 4200,
+    "wires": [
+      [
+        "d237415ac7c1b47b"
+      ]
+    ]
+  },
+  {
+    "id": "91ee9f04019a9999",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "load thermostat",
+    "rules": [
+      {
+        "t": "set",
+        "p": "th",
+        "pt": "msg",
+        "to": "metrics[msg.payload.bucket]thermostat",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "th.bucket",
+        "pt": "msg",
+        "to": "payload.bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2900,
+    "y": 4200,
+    "wires": [
+      [
+        "53f044d01f2d18b2"
+      ]
+    ]
+  },
+  {
+    "id": "53f044d01f2d18b2",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "state offloading",
+    "property": "th.offloading",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "false"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3120,
+    "y": 4200,
+    "wires": [
+      [
+        "db3681610a5d90d9"
+      ]
+    ]
+  },
+  {
+    "id": "2df7aa160cbf3a71",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "th.bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "offloading",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "offloading",
+        "pt": "flow",
+        "to": "$number(msg.tmp) + 1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "th",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3500,
+    "y": 4200,
+    "wires": [
+      [
+        "7869c56dce3123ed"
+      ]
+    ]
+  },
+  {
+    "id": "db3681610a5d90d9",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "state pilot",
+    "property": "th.pilot",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3320,
+    "y": 4200,
+    "wires": [
+      [
+        "2df7aa160cbf3a71"
+      ]
+    ]
+  },
+  {
+    "id": "7869c56dce3123ed",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "thermostat - update - offloading",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 3635,
+    "y": 4200,
+    "wires": []
+  },
+  {
+    "id": "ea0c6cadf1d594c3",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 2530,
+    "y": 4200,
+    "wires": [
+      [
+        "285a0091abda1f58"
+      ]
+    ]
+  },
+  {
+    "id": "285a0091abda1f58",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "limit",
+    "property": "offloading",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "lt",
+        "v": "2",
+        "vt": "num"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 2710,
+    "y": 4200,
+    "wires": [
+      [
+        "91ee9f04019a9999"
+      ]
+    ]
+  },
+  {
+    "id": "96e92d4bad3792d3",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 2350,
+    "y": 4200,
+    "wires": [
+      [
+        "ea0c6cadf1d594c3"
+      ]
+    ]
+  },
+  {
+    "id": "3de9c88ac7ce9a77",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "sort offloading count",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sort",
+        "pt": "msg",
+        "to": "sort",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$sort(msg.sort, function($l, $r) {\t  $l.nb > $r.nb\t})",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2140,
+    "y": 4200,
+    "wires": [
+      [
+        "96e92d4bad3792d3"
+      ]
+    ]
+  },
+  {
+    "id": "6e120320180e5cfd",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": true,
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "reduceExp": "",
+    "reduceInit": "",
+    "reduceInitType": "",
+    "reduceFixup": "",
+    "x": 1730,
+    "y": 4200,
+    "wires": [
+      [
+        "808426e9258cd024"
+      ]
+    ]
+  },
+  {
+    "id": "d237415ac7c1b47b",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "get offloading count",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]thermostat['offloading count']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "sort[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\t    \"bucket\":msg.bucket,\t    \"nb\":msg.tmp\t    }",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1530,
+    "y": 4200,
+    "wires": [
+      [
+        "6e120320180e5cfd"
+      ]
+    ]
+  },
+  {
+    "id": "808426e9258cd024",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "6f1f772c23d57e24",
+    "name": "delay 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1910,
+    "y": 4200,
+    "wires": [
+      [
+        "3de9c88ac7ce9a77"
+      ]
+    ]
+  },
+  {
+    "id": "659f9752db0967bc",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "indoor temperature",
+    "label": "Température intèrieur",
+    "tooltip": "",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "indoor temperature",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": 0,
+    "max": "30",
+    "step": 1,
+    "className": "",
+    "x": 870,
+    "y": 4440,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "9caafb8c1719d275",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "outdoor temperature",
+    "label": "Température extèrieur",
+    "tooltip": "",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "outdoor temperature",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": 0,
+    "max": "30",
+    "step": 1,
+    "className": "",
+    "x": 880,
+    "y": 4560,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "515b0c184c8a3628",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "temperature setpoint",
+    "label": "Température consigne",
+    "tooltip": "",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "temperature setpoint",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": 0,
+    "max": "30",
+    "step": 1,
+    "className": "",
+    "x": 880,
+    "y": 4380,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "13697bbd73295b46",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "indoor coefficient",
+    "label": "Coefficient intèrieur",
+    "tooltip": "",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "indoor coefficient",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "200",
+    "step": 1,
+    "className": "",
+    "x": 870,
+    "y": 4500,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "c6fdc57a80266f04",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "preheat time",
+    "label": "Temps de chauffe",
+    "tooltip": "",
+    "order": 7,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "preheat time",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "5",
+    "max": "60",
+    "step": "5",
+    "className": "",
+    "x": 850,
+    "y": 4740,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "b7bc73260cea8570",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "cycle time",
+    "label": "Temps de cycle",
+    "tooltip": "",
+    "order": 6,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "cycle time",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "5",
+    "max": "90",
+    "step": "5",
+    "className": "",
+    "x": 840,
+    "y": 4680,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "d60c017a8962d3f8",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "field",
+    "rules": [
+      {
+        "t": "set",
+        "p": "th",
+        "pt": "msg",
+        "to": "thermostattest",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "th[msg.topic]",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "thermostattest",
+        "pt": "flow",
+        "to": "th",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 4380,
+    "wires": [
+      [
+        "6e4f87c323cc4659"
+      ]
+    ]
+  },
+  {
+    "id": "dc37631fe73fce2a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "th",
+        "pt": "msg",
+        "to": "{\t   'indoor temperature':20,\t   'outdoor temperature':20,\t   'temperature setpoint':20,\t   'indoor coefficient':5,\t   'outdoor coefficient':5,\t   'preheat time':10,\t   'cycle time':30\t   }",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "thermostattest",
+        "pt": "flow",
+        "to": "th",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 4320,
+    "wires": [
+      [
+        "67e91e753d3708e2",
+        "6e4f87c323cc4659"
+      ]
+    ]
+  },
+  {
+    "id": "c932311ec07112b5",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['indoor temperature']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4440,
+    "wires": [
+      [
+        "659f9752db0967bc"
+      ]
+    ]
+  },
+  {
+    "id": "67e91e753d3708e2",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 4380,
+    "wires": [
+      [
+        "c932311ec07112b5",
+        "f974a627497b4b7d",
+        "f81152d8df61c845",
+        "bc4771242d5d3bd8",
+        "135b7546018ecfba",
+        "6bf593bd1612dbde",
+        "64405bce10cccde1"
+      ]
+    ]
+  },
+  {
+    "id": "a86e51fee3e3458d",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "thermostat - ui - test",
+    "links": [],
+    "x": 135,
+    "y": 4320,
+    "wires": [
+      [
+        "dc37631fe73fce2a"
+      ]
+    ]
+  },
+  {
+    "id": "f974a627497b4b7d",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['outdoor temperature']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4560,
+    "wires": [
+      [
+        "9caafb8c1719d275"
+      ]
+    ]
+  },
+  {
+    "id": "809635d5f2efc402",
+    "type": "ui-button",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "reset",
+    "label": "RAZ",
+    "order": 8,
+    "width": "6",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 170,
+    "y": 4380,
+    "wires": [
+      [
+        "dc37631fe73fce2a"
+      ]
+    ]
+  },
+  {
+    "id": "c9291360c0f0b490",
+    "type": "ui-text",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "order": 9,
+    "width": "6",
+    "height": "1",
+    "name": "calcul",
+    "label": "Résultat",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1770,
+    "y": 4320,
+    "wires": []
+  },
+  {
+    "id": "f10733a435dc7390",
+    "type": "ui-slider",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "group": "75a98516fdcdf832",
+    "name": "outdoor coefficient",
+    "label": "Coefficient extèrieur",
+    "tooltip": "",
+    "order": 5,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "outs": "end",
+    "topic": "outdoor coefficient",
+    "topicType": "str",
+    "thumbLabel": true,
+    "min": "1",
+    "max": "200",
+    "step": 1,
+    "className": "",
+    "x": 870,
+    "y": 4620,
+    "wires": [
+      [
+        "d60c017a8962d3f8"
+      ]
+    ]
+  },
+  {
+    "id": "f81152d8df61c845",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['temperature setpoint']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4380,
+    "wires": [
+      [
+        "515b0c184c8a3628"
+      ]
+    ]
+  },
+  {
+    "id": "bc4771242d5d3bd8",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['indoor coefficient']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4500,
+    "wires": [
+      [
+        "13697bbd73295b46"
+      ]
+    ]
+  },
+  {
+    "id": "135b7546018ecfba",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['outdoor coefficient']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4620,
+    "wires": [
+      [
+        "f10733a435dc7390"
+      ]
+    ]
+  },
+  {
+    "id": "6bf593bd1612dbde",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['preheat time']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4740,
+    "wires": [
+      [
+        "c6fdc57a80266f04"
+      ]
+    ]
+  },
+  {
+    "id": "64405bce10cccde1",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "thermostattest['cycle time']",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 4680,
+    "wires": [
+      [
+        "b7bc73260cea8570"
+      ]
+    ]
+  },
+  {
+    "id": "bf5b9cb6fe9e3550",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "th.compute",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1600,
+    "y": 4320,
+    "wires": [
+      [
+        "c9291360c0f0b490"
+      ]
+    ]
+  },
+  {
+    "id": "6e4f87c323cc4659",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "c3cbb2a2dd06d1bb",
+    "name": "",
+    "links": [
+      "1452439e0c937126"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1340,
+    "y": 4320,
+    "wires": [
+      [
+        "bf5b9cb6fe9e3550"
+      ]
+    ]
+  }
+]

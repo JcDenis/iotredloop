@@ -73,7 +73,8 @@
       "11f433c750eb1ef0",
       "6d85ed8e8c797a61",
       "882064c17728eabc",
-      "3c7edb67cf24ba2a"
+      "3c7edb67cf24ba2a",
+      "34adf50fcd75d48d"
     ],
     "x": 94,
     "y": 379,
@@ -362,7 +363,9 @@
       [
         "35482cea99bb8930"
       ],
-      [],
+      [
+        "34adf50fcd75d48d"
+      ],
       [
         "5a20016530ef7456"
       ],
@@ -1503,6 +1506,34 @@
     "wires": [
       [
         "0649e79192cac511"
+      ]
+    ]
+  },
+  {
+    "id": "34adf50fcd75d48d",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "g": "c25adeeb66986f83",
+    "name": "lamp",
+    "rules": [
+      {
+        "t": "set",
+        "p": "trans",
+        "pt": "msg",
+        "to": "lampe",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 620,
+    "wires": [
+      [
+        "71a537d09616f957"
       ]
     ]
   }
