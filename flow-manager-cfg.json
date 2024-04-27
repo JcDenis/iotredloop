@@ -1,7 +1,12 @@
 {
   "filter": [
+    "K.Room",
     "K.Routine",
-    "Kernel"
+    "K.Translate",
+    "Kernel",
+    "R.Config",
+    "R.Home",
+    "R.System"
   ],
   "fileFormat": "json"
 }
