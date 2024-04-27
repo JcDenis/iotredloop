@@ -6335,19 +6335,6 @@
         "wires": []
     },
     {
-        "id": "ff47fafeee1a758e",
-        "type": "flow2src",
-        "z": "ab51b1e8cad7b700",
-        "name": "",
-        "incFlows": "Kernel,K.Routine",
-        "incSubflows": "*",
-        "srcFolder": "src",
-        "chkAutoFlow2Src": true,
-        "x": 1220,
-        "y": 60,
-        "wires": []
-    },
-    {
         "id": "d85fe6335a6eae7b",
         "type": "link in",
         "z": "ab51b1e8cad7b700",

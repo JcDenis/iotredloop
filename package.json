@@ -6,8 +6,7 @@
         "node-red-contrib-msg-speed": "2.1.0",
         "node-red-contrib-queue-gate": "1.5.5",
         "node-red-contrib-simple-gate": "0.5.2",
-        "node-red-contrib-stackhero-influxdb-v2": "1.0.4",
-        "@steveorevo/node-red-flow2src": "1.1.0"
+        "node-red-contrib-stackhero-influxdb-v2": "1.0.4"
     },
     "node-red": {
         "settings": {
