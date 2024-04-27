@@ -15,11 +15,14 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 * [node-red-contrib-msg-speed](https://flows.nodered.org/node/node-red-contrib-msg-speed) 2.1.0
 * [node-red-contrib-queue-gate](https://flows.nodered.org/node/node-red-contrib-queue-gate) 1.5.5
 * [node-red-contrib-simple-gate](https://flows.nodered.org/node/node-red-contrib-simple-gate) 0.5.2
+* [node-red-contrib-stackhero-influxdb-v2](https://flows.nodered.org/node/node-red-contrib-stackhero-influxdb-v2) 1.0.4
+* [@flowfuse/node-red-dashboard](https://flows.nodered.org/node/@flowfuse/node-red-dashboard) 1.8.1 (nodered dashboard 2)
 * [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) 0.0.4
 * [node-red-contrib-moment](https://flows.nodered.org/node/node-red-contrib-moment) 5.0.0
 * [node-red-contrib-bigtimer](https://flows.nodered.org/node/node-red-contrib-bigtimer) 2.8.6
-* [node-red-contrib-stackhero-influxdb-v2](https://flows.nodered.org/node/node-red-contrib-stackhero-influxdb-v2) 1.0.4
-* [@flowfuse/node-red-dashboard](https://flows.nodered.org/node/@flowfuse/node-red-dashboard) 1.8.1 (nodered dashboard 2)
+* [node-red-contrib-cron-plus](https://flows.nodered.org/node/node-red-contrib-cron-plus) 2.1.0
+* [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) 0.7.0
+* [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) 0.2.3
 
 Flows also required a working MQTT broker and a InfluxDB database.
 It additionnaly uses some Unifi and Amazon Alexa stuff.
