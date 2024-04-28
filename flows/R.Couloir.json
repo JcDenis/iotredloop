@@ -1,0 +1,2335 @@
+[
+  {
+    "id": "854a244e296fdb4d",
+    "type": "tab",
+    "label": "R.Couloir",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "69a73b90c860b5bb",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "couloir - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "33ea1104d94debcf",
+      "de134f8b977ac772",
+      "65462b7ee4a5168d"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "663a5475d728c388",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "couloir - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b83fca00da300db4",
+      "b7bff626c5f6a240"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "7948e25906584158",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "couloir - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "5f57bad104da1bb5",
+      "05413d613ec94002",
+      "b9fe73e26911aaea",
+      "ba3a12bbfa7dbe86"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 582,
+    "h": 82
+  },
+  {
+    "id": "d4fb1239338706e6",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "121d8155ecdd4ac3"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 734,
+    "h": 314
+  },
+  {
+    "id": "121d8155ecdd4ac3",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "d4fb1239338706e6",
+    "name": "couloir - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "10e09aa988492867",
+      "093ecb27dc1884f1",
+      "bd808902c41bd7f4",
+      "8337dfc8754614c1",
+      "ee67c189281fdd25",
+      "6ec240c40fbd1cd7",
+      "67c7ac0b784e24ab",
+      "d59071cf2488a46e",
+      "9353e7617add3953",
+      "cc6af7bc87cb33ee"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 682,
+    "h": 262
+  },
+  {
+    "id": "6c2fa60b6c6bdfcb",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c8af7491aaad3384",
+      "bd89348c87a1c5ad"
+    ],
+    "x": 68,
+    "y": 653,
+    "w": 1314,
+    "h": 314
+  },
+  {
+    "id": "c8af7491aaad3384",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "6c2fa60b6c6bdfcb",
+    "name": "couloir - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ba9250c147aa9d48",
+      "9fa653a9386bb2e5",
+      "d1d0415b7d813382",
+      "1e3b8d99ed08adb7",
+      "642da2bcf6357c3c",
+      "423f24e6507e9b52"
+    ],
+    "x": 94,
+    "y": 679,
+    "w": 502,
+    "h": 262
+  },
+  {
+    "id": "bd89348c87a1c5ad",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "6c2fa60b6c6bdfcb",
+    "name": "couloir - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2b51f6d2b81ca6e1",
+      "50caf13d5ab98e42",
+      "20de5faab9823f0c",
+      "938e3b8f717989d7"
+    ],
+    "x": 694,
+    "y": 739,
+    "w": 662,
+    "h": 82
+  },
+  {
+    "id": "584ba08358e13ed4",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "65a983f3098b03d6",
+      "543119fcfc92825a",
+      "16b7cb956bc0326a"
+    ],
+    "x": 68,
+    "y": 1013,
+    "w": 1774,
+    "h": 374
+  },
+  {
+    "id": "65a983f3098b03d6",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "584ba08358e13ed4",
+    "name": "couloir - device - thermostat partial (see flow Thermostat)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0392facae287f1c1",
+      "c1de47361f28be60",
+      "14b341398068e50a",
+      "950c7e41be3b431f",
+      "c0e1011957abf44a",
+      "4b367a6794c1c02b",
+      "fa5497688eb8ee35"
+    ],
+    "x": 94,
+    "y": 1039,
+    "w": 582,
+    "h": 322
+  },
+  {
+    "id": "543119fcfc92825a",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "584ba08358e13ed4",
+    "name": "couloir - scene - thermostat operating mode",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c39d452224c976fc",
+      "f5924745dcabad19",
+      "db361792222e4bb7",
+      "33e547c06606c98d",
+      "a3905f1dcacd55e8",
+      "2df681beb21344f6",
+      "0d372b0e4b2f2360"
+    ],
+    "x": 774,
+    "y": 1071.5,
+    "w": 1042,
+    "h": 97
+  },
+  {
+    "id": "16b7cb956bc0326a",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "584ba08358e13ed4",
+    "name": "couloir - source - thermostat aperture",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8b5a0b89f12ce487",
+      "983accefa965ae3b",
+      "2fc967e63de4e547",
+      "a907c7cf0dc2321a",
+      "03917a36af4d68b4",
+      "2429a24772c36d60"
+    ],
+    "x": 774,
+    "y": 1196.5,
+    "w": 882,
+    "h": 127
+  },
+  {
+    "id": "0f7d999eb3b798e6",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "name": "couloir - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "38252693eb7888ce",
+      "ebd2f1b772702a16",
+      "3ed9ca854a0f3323"
+    ],
+    "x": 68,
+    "y": 1433,
+    "w": 1414,
+    "h": 374
+  },
+  {
+    "id": "38252693eb7888ce",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "0f7d999eb3b798e6",
+    "name": "couloir - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ed1ae61e8d69a9aa",
+      "34e70de8849460a5",
+      "4bf3c5a0bea3af8a",
+      "35e75fc4201d5603",
+      "0d3d1508f236270c",
+      "9bbbb26dc6afdcde",
+      "978e78059fb4414c"
+    ],
+    "x": 94,
+    "y": 1459,
+    "w": 1362,
+    "h": 82
+  },
+  {
+    "id": "ebd2f1b772702a16",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "0f7d999eb3b798e6",
+    "name": "couloir - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e667a270b77f91b0",
+      "57552e6a0714b66e",
+      "31055bcd80a97f51",
+      "d389394d4cb81acd",
+      "ab9ebc10154d36b5"
+    ],
+    "x": 94,
+    "y": 1579,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "3ed9ca854a0f3323",
+    "type": "group",
+    "z": "854a244e296fdb4d",
+    "g": "0f7d999eb3b798e6",
+    "name": "couloir - alexa - outlet",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "33aad6ca5d82c61a",
+      "fc7968c5df682e3e",
+      "97b86208fbe743ac",
+      "2f04adde7e34d56b",
+      "fb359b34c6ea6085",
+      "359a14f857843fd9",
+      "86042032f5f091f0"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 1342,
+    "h": 82
+  },
+  {
+    "id": "33ea1104d94debcf",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "69a73b90c860b5bb",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "couloir",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "65462b7ee4a5168d"
+      ]
+    ]
+  },
+  {
+    "id": "de134f8b977ac772",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "69a73b90c860b5bb",
+    "name": "couloir - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "33ea1104d94debcf"
+      ]
+    ]
+  },
+  {
+    "id": "65462b7ee4a5168d",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "69a73b90c860b5bb",
+    "name": "couloir - bucket",
+    "mode": "link",
+    "links": [
+      "10e09aa988492867",
+      "c0e1011957abf44a",
+      "c39d452224c976fc",
+      "d1d0415b7d813382"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "b83fca00da300db4",
+    "type": "catch",
+    "z": "854a244e296fdb4d",
+    "g": "663a5475d728c388",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "b7bff626c5f6a240"
+      ]
+    ]
+  },
+  {
+    "id": "b7bff626c5f6a240",
+    "type": "debug",
+    "z": "854a244e296fdb4d",
+    "g": "663a5475d728c388",
+    "name": "couloir - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "5f57bad104da1bb5",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "7948e25906584158",
+    "name": "couloir - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1595,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "05413d613ec94002",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "7948e25906584158",
+    "name": "couloir - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "b9fe73e26911aaea"
+      ]
+    ]
+  },
+  {
+    "id": "b9fe73e26911aaea",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "7948e25906584158",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "ba3a12bbfa7dbe86"
+      ]
+    ]
+  },
+  {
+    "id": "ba3a12bbfa7dbe86",
+    "type": "ui-button",
+    "z": "854a244e296fdb4d",
+    "g": "7948e25906584158",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Couloir",
+    "order": 7,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1460,
+    "y": 60,
+    "wires": [
+      [
+        "5f57bad104da1bb5"
+      ]
+    ]
+  },
+  {
+    "id": "10e09aa988492867",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "couloir - device - auto",
+    "links": [
+      "65462b7ee4a5168d"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "67c7ac0b784e24ab",
+        "d59071cf2488a46e",
+        "9353e7617add3953",
+        "cc6af7bc87cb33ee"
+      ]
+    ]
+  },
+  {
+    "id": "093ecb27dc1884f1",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "THG / xxx / temperature / probe",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "THG",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 360,
+    "wires": [
+      [
+        "bd808902c41bd7f4"
+      ]
+    ]
+  },
+  {
+    "id": "bd808902c41bd7f4",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "couloir - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 735,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "8337dfc8754614c1",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "FGD212 / xxx / light / ceiling",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGD212",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "bd808902c41bd7f4"
+      ]
+    ]
+  },
+  {
+    "id": "ee67c189281fdd25",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "ZMNHUD / xxx / thermostat / pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHUD",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 480,
+    "wires": [
+      [
+        "bd808902c41bd7f4"
+      ]
+    ]
+  },
+  {
+    "id": "6ec240c40fbd1cd7",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "S530559 / xxx / outlet  / socket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "S530559",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 540,
+    "wires": [
+      [
+        "bd808902c41bd7f4"
+      ]
+    ]
+  },
+  {
+    "id": "ba9250c147aa9d48",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 720,
+    "wires": [
+      [
+        "9fa653a9386bb2e5"
+      ]
+    ]
+  },
+  {
+    "id": "9fa653a9386bb2e5",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "couloir - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "d1d0415b7d813382",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "device lighting",
+    "links": [
+      "65462b7ee4a5168d"
+    ],
+    "x": 135,
+    "y": 720,
+    "wires": [
+      [
+        "ba9250c147aa9d48",
+        "1e3b8d99ed08adb7",
+        "642da2bcf6357c3c",
+        "423f24e6507e9b52"
+      ]
+    ]
+  },
+  {
+    "id": "1e3b8d99ed08adb7",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "lighting / high / dimmer / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 780,
+    "wires": [
+      [
+        "9fa653a9386bb2e5"
+      ]
+    ]
+  },
+  {
+    "id": "642da2bcf6357c3c",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "lighting / low / dimmer / 4",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 840,
+    "wires": [
+      [
+        "9fa653a9386bb2e5"
+      ]
+    ]
+  },
+  {
+    "id": "423f24e6507e9b52",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "c8af7491aaad3384",
+    "name": "lighting / timer / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 900,
+    "wires": [
+      [
+        "9fa653a9386bb2e5"
+      ]
+    ]
+  },
+  {
+    "id": "2b51f6d2b81ca6e1",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "bd89348c87a1c5ad",
+    "name": "scene lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 780,
+    "wires": [
+      [
+        "20de5faab9823f0c"
+      ]
+    ]
+  },
+  {
+    "id": "50caf13d5ab98e42",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "bd89348c87a1c5ad",
+    "name": "scene lighting / ceiling / dimmer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 780,
+    "wires": [
+      [
+        "938e3b8f717989d7"
+      ]
+    ]
+  },
+  {
+    "id": "20de5faab9823f0c",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "bd89348c87a1c5ad",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "couloir/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 870,
+    "y": 780,
+    "wires": [
+      [
+        "50caf13d5ab98e42"
+      ],
+      [
+        "50caf13d5ab98e42"
+      ]
+    ]
+  },
+  {
+    "id": "938e3b8f717989d7",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "bd89348c87a1c5ad",
+    "name": "couloir - scene - lighting ceiling",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "0392facae287f1c1",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat / cycle time / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cycle time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1200,
+    "wires": [
+      [
+        "4b367a6794c1c02b"
+      ]
+    ]
+  },
+  {
+    "id": "c1de47361f28be60",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat / outdoor coefficient/ number / 5.5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "5.5",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1140,
+    "wires": [
+      [
+        "4b367a6794c1c02b"
+      ]
+    ]
+  },
+  {
+    "id": "14b341398068e50a",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat / indoor coefficient / number / 162",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "162",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1080,
+    "wires": [
+      [
+        "4b367a6794c1c02b"
+      ]
+    ]
+  },
+  {
+    "id": "950c7e41be3b431f",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat / preheat time / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "preheat time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1260,
+    "wires": [
+      [
+        "4b367a6794c1c02b"
+      ]
+    ]
+  },
+  {
+    "id": "c0e1011957abf44a",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat device",
+    "links": [
+      "65462b7ee4a5168d"
+    ],
+    "x": 135,
+    "y": 1080,
+    "wires": [
+      [
+        "14b341398068e50a",
+        "c1de47361f28be60",
+        "0392facae287f1c1",
+        "950c7e41be3b431f",
+        "fa5497688eb8ee35"
+      ]
+    ]
+  },
+  {
+    "id": "4b367a6794c1c02b",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "couloir - device - thermostat",
+    "mode": "link",
+    "links": [
+      "d8585174fdd6097c"
+    ],
+    "x": 635,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "fa5497688eb8ee35",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "65a983f3098b03d6",
+    "name": "thermostat / offloading power / number / 1500",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1500",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1320,
+    "wires": [
+      [
+        "4b367a6794c1c02b"
+      ]
+    ]
+  },
+  {
+    "id": "c39d452224c976fc",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "couloir - scene - thermostat operating mode",
+    "links": [
+      "65462b7ee4a5168d"
+    ],
+    "x": 815,
+    "y": 1120,
+    "wires": [
+      [
+        "a3905f1dcacd55e8"
+      ]
+    ]
+  },
+  {
+    "id": "f5924745dcabad19",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1120,
+    "wires": [
+      [
+        "33e547c06606c98d"
+      ]
+    ]
+  },
+  {
+    "id": "db361792222e4bb7",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1650,
+    "y": 1120,
+    "wires": [
+      [
+        "2df681beb21344f6"
+      ]
+    ]
+  },
+  {
+    "id": "33e547c06606c98d",
+    "type": "bigtimer",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "270",
+    "endtime": "390",
+    "starttime2": "1020",
+    "endtime2": "1170",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1300,
+    "y": 1120,
+    "wires": [
+      [],
+      [
+        "0d372b0e4b2f2360"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "a3905f1dcacd55e8",
+    "type": "delay",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1120,
+    "wires": [
+      [
+        "f5924745dcabad19"
+      ]
+    ]
+  },
+  {
+    "id": "2df681beb21344f6",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "couloir - scene - thermostat operating mode",
+    "mode": "link",
+    "links": [
+      "d1c7f4810b12afe2"
+    ],
+    "x": 1775,
+    "y": 1120,
+    "wires": []
+  },
+  {
+    "id": "0d372b0e4b2f2360",
+    "type": "delay",
+    "z": "854a244e296fdb4d",
+    "g": "543119fcfc92825a",
+    "name": "1 s",
+    "pauseType": "delay",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1490,
+    "y": 1120,
+    "wires": [
+      [
+        "db361792222e4bb7"
+      ]
+    ]
+  },
+  {
+    "id": "8b5a0b89f12ce487",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cuisine/aperture/window",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "diner/aperture/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/right bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/left bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 950,
+    "y": 1260,
+    "wires": [
+      [
+        "983accefa965ae3b"
+      ],
+      [
+        "983accefa965ae3b"
+      ],
+      [
+        "983accefa965ae3b"
+      ],
+      [
+        "983accefa965ae3b"
+      ],
+      [
+        "983accefa965ae3b"
+      ]
+    ]
+  },
+  {
+    "id": "983accefa965ae3b",
+    "type": "trigger",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "wait 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "payl",
+    "duration": "5",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1120,
+    "y": 1260,
+    "wires": [
+      [
+        "2fc967e63de4e547"
+      ]
+    ]
+  },
+  {
+    "id": "2fc967e63de4e547",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "door",
+        "pt": "msg",
+        "to": "metrics.diner.aperture.door",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "window",
+        "pt": "msg",
+        "to": "metrics.salon.aperture.window",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "cuisine",
+        "pt": "msg",
+        "to": "metrics.cuisine.aperture.window",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "right",
+        "pt": "msg",
+        "to": "stmetricsck.salon.aperture['right bay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "gauche",
+        "pt": "msg",
+        "to": "metrics.salon.aperture['left bay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.door) or $boolean(msg.window) or $boolean(msg.cuisine) or $boolean(msg.right) or $boolean(msg.left)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1300,
+    "y": 1260,
+    "wires": [
+      [
+        "03917a36af4d68b4"
+      ]
+    ]
+  },
+  {
+    "id": "a907c7cf0dc2321a",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "couloir - soruce - thermostat aperture",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 815,
+    "y": 1260,
+    "wires": [
+      [
+        "8b5a0b89f12ce487"
+      ]
+    ]
+  },
+  {
+    "id": "03917a36af4d68b4",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture opened",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1480,
+    "y": 1260,
+    "wires": [
+      [
+        "2429a24772c36d60"
+      ]
+    ]
+  },
+  {
+    "id": "2429a24772c36d60",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "16b7cb956bc0326a",
+    "name": "couloir - soruce - thermostat aperture",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1615,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "ed1ae61e8d69a9aa",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "couloir - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1415,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "34e70de8849460a5",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "couloir - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 1500,
+    "wires": [
+      [
+        "35e75fc4201d5603"
+      ]
+    ]
+  },
+  {
+    "id": "4bf3c5a0bea3af8a",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1500,
+    "wires": [
+      [
+        "9bbbb26dc6afdcde"
+      ]
+    ]
+  },
+  {
+    "id": "35e75fc4201d5603",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1500,
+    "wires": [
+      [
+        "4bf3c5a0bea3af8a"
+      ]
+    ]
+  },
+  {
+    "id": "0d3d1508f236270c",
+    "type": "vsh-virtual-device",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "lumière du couloir",
+    "topic": "couloir/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 950,
+    "y": 1500,
+    "wires": [
+      [
+        "978e78059fb4414c"
+      ]
+    ]
+  },
+  {
+    "id": "9bbbb26dc6afdcde",
+    "type": "link call",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "",
+    "links": [
+      "75754d6ac1aaec7b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 680,
+    "y": 1500,
+    "wires": [
+      [
+        "0d3d1508f236270c"
+      ]
+    ]
+  },
+  {
+    "id": "978e78059fb4414c",
+    "type": "link call",
+    "z": "854a244e296fdb4d",
+    "g": "38252693eb7888ce",
+    "name": "",
+    "links": [
+      "71c9fb8b232fe499"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1220,
+    "y": 1500,
+    "wires": [
+      [
+        "ed1ae61e8d69a9aa"
+      ]
+    ]
+  },
+  {
+    "id": "e667a270b77f91b0",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "ebd2f1b772702a16",
+    "name": "couloir - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 1620,
+    "wires": [
+      [
+        "57552e6a0714b66e"
+      ]
+    ]
+  },
+  {
+    "id": "57552e6a0714b66e",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "ebd2f1b772702a16",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1620,
+    "wires": [
+      [
+        "d389394d4cb81acd"
+      ]
+    ]
+  },
+  {
+    "id": "31055bcd80a97f51",
+    "type": "link call",
+    "z": "854a244e296fdb4d",
+    "g": "ebd2f1b772702a16",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 1620,
+    "wires": [
+      [
+        "ab9ebc10154d36b5"
+      ]
+    ]
+  },
+  {
+    "id": "d389394d4cb81acd",
+    "type": "change",
+    "z": "854a244e296fdb4d",
+    "g": "ebd2f1b772702a16",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1620,
+    "wires": [
+      [
+        "31055bcd80a97f51"
+      ]
+    ]
+  },
+  {
+    "id": "ab9ebc10154d36b5",
+    "type": "vsh-virtual-device",
+    "z": "854a244e296fdb4d",
+    "g": "ebd2f1b772702a16",
+    "name": "température du couloir",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 920,
+    "y": 1620,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "33aad6ca5d82c61a",
+    "type": "link out",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "couloir - alexa - outlet",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1395,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "fc7968c5df682e3e",
+    "type": "link in",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "couloir - alexa - outlet",
+    "links": [
+      "fc80a58fdafa773a"
+    ],
+    "x": 135,
+    "y": 1740,
+    "wires": [
+      [
+        "2f04adde7e34d56b"
+      ]
+    ]
+  },
+  {
+    "id": "97b86208fbe743ac",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "socket",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1740,
+    "wires": [
+      [
+        "fb359b34c6ea6085"
+      ]
+    ]
+  },
+  {
+    "id": "2f04adde7e34d56b",
+    "type": "switch",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1740,
+    "wires": [
+      [
+        "97b86208fbe743ac"
+      ]
+    ]
+  },
+  {
+    "id": "fb359b34c6ea6085",
+    "type": "link call",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "",
+    "links": [
+      "bac2afafe6b36787"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 680,
+    "y": 1740,
+    "wires": [
+      [
+        "86042032f5f091f0"
+      ]
+    ]
+  },
+  {
+    "id": "359a14f857843fd9",
+    "type": "link call",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "",
+    "links": [
+      "d71667633c63d82c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1200,
+    "y": 1740,
+    "wires": [
+      [
+        "33aad6ca5d82c61a"
+      ]
+    ]
+  },
+  {
+    "id": "86042032f5f091f0",
+    "type": "vsh-virtual-device",
+    "z": "854a244e296fdb4d",
+    "g": "3ed9ca854a0f3323",
+    "name": "prise du couloir",
+    "topic": "couloir/cible/socket",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 940,
+    "y": 1740,
+    "wires": [
+      [
+        "359a14f857843fd9"
+      ]
+    ]
+  },
+  {
+    "id": "67c7ac0b784e24ab",
+    "type": "credentials",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "6ec240c40fbd1cd7"
+      ]
+    ]
+  },
+  {
+    "id": "d59071cf2488a46e",
+    "type": "credentials",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "ee67c189281fdd25"
+      ]
+    ]
+  },
+  {
+    "id": "9353e7617add3953",
+    "type": "credentials",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "8337dfc8754614c1"
+      ]
+    ]
+  },
+  {
+    "id": "cc6af7bc87cb33ee",
+    "type": "credentials",
+    "z": "854a244e296fdb4d",
+    "g": "121d8155ecdd4ac3",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "093ecb27dc1884f1"
+      ]
+    ]
+  }
+]

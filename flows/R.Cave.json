@@ -1,0 +1,2975 @@
+[
+  {
+    "id": "2b225e03b149417d",
+    "type": "tab",
+    "label": "R.Cave",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "364b9761d8088f04",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "cave - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "47b0bec6b79462ee",
+      "65725013d8d62c50",
+      "e035e232e2747fed"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "204e3d869050176f",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "cave - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3f7500ba6aaf6e1c",
+      "2b34aa86faf07f73"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "8ca43dfd53418157",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "cave - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "ddd7a64191f066e2",
+      "1ce42313fa49e65c",
+      "5dd35feb703da51b",
+      "1ccf084222189e6f"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "5b893e80c4d5d4dc",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e8fbf877572c810c"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 814,
+    "h": 494
+  },
+  {
+    "id": "e8fbf877572c810c",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "5b893e80c4d5d4dc",
+    "name": "cave - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "251128455c53d96c",
+      "bceefffb42f84f2d",
+      "d8d03fc024720f90",
+      "6c6aeae0d1cd2dec",
+      "3266e87bcd98deec",
+      "d063a776bac586a6",
+      "4c67090f1c608d32",
+      "1bea0b5deabc652b",
+      "d56ce72fe8ca303e",
+      "665497a5770702cc",
+      "7fe1a6c98410eb18",
+      "afd8f3a9262a6b2b",
+      "bd692339d274cb6d",
+      "aac903fa89536260",
+      "8c6a49f6bfc1489c",
+      "1abdcd583acf98b3"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 762,
+    "h": 442
+  },
+  {
+    "id": "0f0c98325e8cb3d1",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7a18a0b29c2d248d",
+      "5a0952c60ca71a4d"
+    ],
+    "x": 68,
+    "y": 833,
+    "w": 1694,
+    "h": 314
+  },
+  {
+    "id": "7a18a0b29c2d248d",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "0f0c98325e8cb3d1",
+    "name": "cave - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9f6e59d6bff54b3f",
+      "56833e1ff5565e6b",
+      "ba6b54792ca46359",
+      "6df1e17773517b72",
+      "aa7b6ce7671e2eec",
+      "3f6cb72502b1116f"
+    ],
+    "x": 94,
+    "y": 859,
+    "w": 522,
+    "h": 262
+  },
+  {
+    "id": "5a0952c60ca71a4d",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "0f0c98325e8cb3d1",
+    "name": "cave - scene - lighting door",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4335202ca878a5da",
+      "02c43596227a787d",
+      "588385f03a20298b",
+      "52b59fc8ef0553fe",
+      "dd44ff42bcd1e053",
+      "4891cf30f176c576"
+    ],
+    "x": 714,
+    "y": 896.5,
+    "w": 1022,
+    "h": 164.5
+  },
+  {
+    "id": "37624cd98b8ee2a4",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "729d745d2f78ab73",
+      "297b2d3fd56440f9"
+    ],
+    "x": 68,
+    "y": 1193,
+    "w": 4254,
+    "h": 374
+  },
+  {
+    "id": "729d745d2f78ab73",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "37624cd98b8ee2a4",
+    "name": "cave - scene - cumulus balloon",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "25db78b44991ca16",
+      "1dee4c1bfd86f78c",
+      "c11de5fcb0565144",
+      "d60df3cdcb5355ed",
+      "be216b98d4a251d4",
+      "5cb5353a377307b6",
+      "3862d53a6a9c1eeb",
+      "1335c4fa0517da59",
+      "44612a9ac4307b1f",
+      "3008c8cbd4ac7bb4",
+      "5fef774a053c6a26",
+      "7b451daa8a83fb13",
+      "b86088cdb0ed5bca",
+      "f65bdfdb25b0e1ab",
+      "6d91b12781dfbd49",
+      "0b41848d40392800",
+      "37459f9a709b065e",
+      "9d03255ab500479e",
+      "6959756bac0c2b7e",
+      "d93e314f6f15bc41",
+      "1a8d7b0e2e8acbb7",
+      "60f6e8f379f63441",
+      "c591bd9d447942fd",
+      "3787b20cc1a3783d",
+      "75fc0f35b064450b",
+      "4b654e283799e870",
+      "fc1158a0f8710da5",
+      "04d672acf9c45ac1"
+    ],
+    "x": 694,
+    "y": 1219,
+    "w": 3602,
+    "h": 322
+  },
+  {
+    "id": "297b2d3fd56440f9",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "37624cd98b8ee2a4",
+    "name": "cave - device - cumulus",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ab0e0267be067354",
+      "6d8b9ac84c8dc897",
+      "cf6474d8d06d0270",
+      "b986d701532491f9",
+      "d8f18951a98cd40c",
+      "216fcd9d7b66d1b0"
+    ],
+    "x": 94,
+    "y": 1219,
+    "w": 502,
+    "h": 262
+  },
+  {
+    "id": "f8d0942e587ff2f0",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "cave - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0fd00a5d28108c93",
+      "bf0c9db59b2649d8",
+      "5058bbe07bedfb71",
+      "1be2396c5ede7eef"
+    ],
+    "x": 68,
+    "y": 1613,
+    "w": 1394,
+    "h": 494
+  },
+  {
+    "id": "0fd00a5d28108c93",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "f8d0942e587ff2f0",
+    "name": "cave - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a72c1a80a1c23c90",
+      "fc33f164d4208460",
+      "3bb670b7c782d0fe",
+      "90c2212a5870ab4d",
+      "40a1233e15703902",
+      "7a48d3b28afb9335",
+      "89735cb301bdea99"
+    ],
+    "x": 94,
+    "y": 1639,
+    "w": 1342,
+    "h": 82
+  },
+  {
+    "id": "bf0c9db59b2649d8",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "f8d0942e587ff2f0",
+    "name": "cave - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e1f047b857bb87e9",
+      "0ff0fadc83ac38d1",
+      "cf514e4790cf30b2",
+      "c86c464bb9aa4ec7",
+      "3762437c4d4b168c"
+    ],
+    "x": 94,
+    "y": 1759,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "5058bbe07bedfb71",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "f8d0942e587ff2f0",
+    "name": "cave - alexa - motion",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "76fff1f1e6767cb1",
+      "f078c245986b329c",
+      "c952edfa67754b49",
+      "5bdae1b3b0632ad1",
+      "ac6b4421c7675b8f"
+    ],
+    "x": 94,
+    "y": 1879,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "1be2396c5ede7eef",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "g": "f8d0942e587ff2f0",
+    "name": "cave - alexa - aperture",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "079402876ffb0af4",
+      "151c6168bcca45e8",
+      "ce088fb02cc8d95e",
+      "b178cd11693d5684",
+      "938259965bdd9849"
+    ],
+    "x": 94,
+    "y": 1999,
+    "w": 892,
+    "h": 82
+  },
+  {
+    "id": "47b0bec6b79462ee",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "364b9761d8088f04",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "cave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "e035e232e2747fed"
+      ]
+    ]
+  },
+  {
+    "id": "65725013d8d62c50",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "364b9761d8088f04",
+    "name": "cave - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "47b0bec6b79462ee"
+      ]
+    ]
+  },
+  {
+    "id": "e035e232e2747fed",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "364b9761d8088f04",
+    "name": "cave - bucket",
+    "mode": "link",
+    "links": [
+      "aa7b6ce7671e2eec",
+      "cf6474d8d06d0270",
+      "d063a776bac586a6"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "3f7500ba6aaf6e1c",
+    "type": "catch",
+    "z": "2b225e03b149417d",
+    "g": "204e3d869050176f",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "2b34aa86faf07f73"
+      ]
+    ]
+  },
+  {
+    "id": "2b34aa86faf07f73",
+    "type": "debug",
+    "z": "2b225e03b149417d",
+    "g": "204e3d869050176f",
+    "name": "cave - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "ddd7a64191f066e2",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "8ca43dfd53418157",
+    "name": "cave - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1575,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "1ce42313fa49e65c",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "8ca43dfd53418157",
+    "name": "cave - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "5dd35feb703da51b"
+      ]
+    ]
+  },
+  {
+    "id": "5dd35feb703da51b",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "8ca43dfd53418157",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "1ccf084222189e6f"
+      ]
+    ]
+  },
+  {
+    "id": "1ccf084222189e6f",
+    "type": "ui-button",
+    "z": "2b225e03b149417d",
+    "g": "8ca43dfd53418157",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Cave",
+    "order": 5,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1450,
+    "y": 60,
+    "wires": [
+      [
+        "ddd7a64191f066e2"
+      ]
+    ]
+  },
+  {
+    "id": "251128455c53d96c",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "THG / xxx / temperature / probe",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "THG",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 540,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "bceefffb42f84f2d",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "FGMS001 / xxx / motion / detector",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGMS001",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 360,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "d8d03fc024720f90",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "ZMNHAD / xxx / light / door",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHAD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "6c6aeae0d1cd2dec",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "REOLINK / xxx / camera / url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "REOLINK",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 480,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "3266e87bcd98deec",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "412171 / xxx / cumulus / balloon",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "412171",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "balloon",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 600,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "d063a776bac586a6",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "cave - device - auto",
+    "links": [
+      "e035e232e2747fed"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "665497a5770702cc",
+        "7fe1a6c98410eb18",
+        "afd8f3a9262a6b2b",
+        "bd692339d274cb6d",
+        "aac903fa89536260",
+        "8c6a49f6bfc1489c",
+        "1abdcd583acf98b3"
+      ]
+    ]
+  },
+  {
+    "id": "4c67090f1c608d32",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "cave - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 815,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "1bea0b5deabc652b",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "412170 / xxx / outlet / rack / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "412170",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "rack",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 660,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "d56ce72fe8ca303e",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "FGSD002 / xxx / smoke / fire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGSD002",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 720,
+    "wires": [
+      [
+        "4c67090f1c608d32"
+      ]
+    ]
+  },
+  {
+    "id": "9f6e59d6bff54b3f",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 900,
+    "wires": [
+      [
+        "56833e1ff5565e6b"
+      ]
+    ]
+  },
+  {
+    "id": "56833e1ff5565e6b",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "cave - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 575,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "ba6b54792ca46359",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "lighting / timer / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 960,
+    "wires": [
+      [
+        "56833e1ff5565e6b"
+      ]
+    ]
+  },
+  {
+    "id": "6df1e17773517b72",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "lighting / motion / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1020,
+    "wires": [
+      [
+        "56833e1ff5565e6b"
+      ]
+    ]
+  },
+  {
+    "id": "aa7b6ce7671e2eec",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "cave - device - lighting",
+    "links": [
+      "e035e232e2747fed"
+    ],
+    "x": 135,
+    "y": 900,
+    "wires": [
+      [
+        "9f6e59d6bff54b3f",
+        "ba6b54792ca46359",
+        "6df1e17773517b72",
+        "3f6cb72502b1116f"
+      ]
+    ]
+  },
+  {
+    "id": "3f6cb72502b1116f",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "7a18a0b29c2d248d",
+    "name": "lighting / retention / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "retention",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 1080,
+    "wires": [
+      [
+        "56833e1ff5565e6b"
+      ]
+    ]
+  },
+  {
+    "id": "4335202ca878a5da",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "cave - scene - lighting door",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 755,
+    "y": 960,
+    "wires": [
+      [
+        "588385f03a20298b"
+      ]
+    ]
+  },
+  {
+    "id": "02c43596227a787d",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "scene lighting / door / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1490,
+    "y": 960,
+    "wires": [
+      [
+        "52b59fc8ef0553fe"
+      ]
+    ]
+  },
+  {
+    "id": "588385f03a20298b",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "cave/motion",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "eq",
+        "v": "cave/aperture/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cave/light/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "bureau/command/remote",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 890,
+    "y": 960,
+    "wires": [
+      [
+        "02c43596227a787d"
+      ],
+      [
+        "02c43596227a787d"
+      ],
+      [
+        "02c43596227a787d"
+      ],
+      [
+        "02c43596227a787d"
+      ],
+      [
+        "dd44ff42bcd1e053"
+      ]
+    ]
+  },
+  {
+    "id": "52b59fc8ef0553fe",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "cave - scene - lighting door",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1695,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "dd44ff42bcd1e053",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "remote",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "btwn",
+        "v": "30",
+        "vt": "num",
+        "v2": "31",
+        "v2t": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1060,
+    "y": 1020,
+    "wires": [
+      [
+        "4891cf30f176c576"
+      ]
+    ]
+  },
+  {
+    "id": "4891cf30f176c576",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "5a0952c60ca71a4d",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload=31",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1240,
+    "y": 1020,
+    "wires": [
+      [
+        "02c43596227a787d"
+      ]
+    ]
+  },
+  {
+    "id": "25db78b44991ca16",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "check scene path",
+    "property": "msg.scene.bucket & '/' & msg.scene.measurement & '/' & msg.scene.field",
+    "propertyType": "jsonata",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cave/cumulus/ballon",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3690,
+    "y": 1320,
+    "wires": [
+      [
+        "9d03255ab500479e",
+        "5fef774a053c6a26"
+      ]
+    ]
+  },
+  {
+    "id": "1dee4c1bfd86f78c",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "home/linky/tariff",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/nycthemer",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/cumulus",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cave/power/balloon",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 870,
+    "y": 1380,
+    "wires": [
+      [
+        "c11de5fcb0565144"
+      ],
+      [
+        "c11de5fcb0565144"
+      ],
+      [
+        "c11de5fcb0565144"
+      ],
+      [
+        "c11de5fcb0565144"
+      ]
+    ]
+  },
+  {
+    "id": "c11de5fcb0565144",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "scene cumulus / balloon / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "balloon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1120,
+    "y": 1380,
+    "wires": [
+      [
+        "be216b98d4a251d4"
+      ]
+    ]
+  },
+  {
+    "id": "d60df3cdcb5355ed",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "cave - scene - cumulus balloon",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 1380,
+    "wires": [
+      [
+        "1dee4c1bfd86f78c"
+      ]
+    ]
+  },
+  {
+    "id": "be216b98d4a251d4",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1390,
+    "y": 1380,
+    "wires": [
+      [
+        "5cb5353a377307b6"
+      ]
+    ]
+  },
+  {
+    "id": "5cb5353a377307b6",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1570,
+    "y": 1380,
+    "wires": [
+      [
+        "6d91b12781dfbd49"
+      ]
+    ]
+  },
+  {
+    "id": "3862d53a6a9c1eeb",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "",
+    "links": [
+      "c63c05889184c3bc"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2430,
+    "y": 1380,
+    "wires": [
+      [
+        "1335c4fa0517da59"
+      ]
+    ]
+  },
+  {
+    "id": "1335c4fa0517da59",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2610,
+    "y": 1380,
+    "wires": [
+      [
+        "37459f9a709b065e"
+      ]
+    ]
+  },
+  {
+    "id": "44612a9ac4307b1f",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "",
+    "links": [
+      "834ce9850cdb0a72"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 3310,
+    "y": 1320,
+    "wires": [
+      [
+        "3008c8cbd4ac7bb4"
+      ]
+    ]
+  },
+  {
+    "id": "3008c8cbd4ac7bb4",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3490,
+    "y": 1320,
+    "wires": [
+      [
+        "25db78b44991ca16"
+      ]
+    ]
+  },
+  {
+    "id": "5fef774a053c6a26",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "cave - scene - cumulus balloon",
+    "mode": "link",
+    "links": [
+      "fb4b4e2a3fb029df"
+    ],
+    "x": 3855,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "7b451daa8a83fb13",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "",
+    "links": [
+      "dfec2e7efb555d4d"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2070,
+    "y": 1440,
+    "wires": [
+      [
+        "60f6e8f379f63441"
+      ]
+    ]
+  },
+  {
+    "id": "b86088cdb0ed5bca",
+    "type": "trigger",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "wait 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "pay",
+    "duration": "5",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "false",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 2960,
+    "y": 1440,
+    "wires": [
+      [
+        "5fef774a053c6a26",
+        "c591bd9d447942fd"
+      ]
+    ]
+  },
+  {
+    "id": "f65bdfdb25b0e1ab",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "tariff",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "HP",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "HC",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1890,
+    "y": 1380,
+    "wires": [
+      [
+        "3787b20cc1a3783d"
+      ],
+      [
+        "7b451daa8a83fb13"
+      ]
+    ]
+  },
+  {
+    "id": "6d91b12781dfbd49",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "balloon",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "nycthemer",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "tariff",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cumulus",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 1730,
+    "y": 1380,
+    "wires": [
+      [
+        "4b654e283799e870"
+      ],
+      [
+        "75fc0f35b064450b"
+      ],
+      [
+        "f65bdfdb25b0e1ab"
+      ],
+      [
+        "0b41848d40392800"
+      ]
+    ]
+  },
+  {
+    "id": "0b41848d40392800",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "mode cumulus",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1920,
+    "y": 1500,
+    "wires": [
+      [
+        "37459f9a709b065e"
+      ]
+    ]
+  },
+  {
+    "id": "37459f9a709b065e",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "scene on",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "scene.on",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2780,
+    "y": 1440,
+    "wires": [
+      [
+        "b86088cdb0ed5bca"
+      ]
+    ]
+  },
+  {
+    "id": "9d03255ab500479e",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "mode cumulus",
+    "property": "metrics.system.mode.cumulus",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3920,
+    "y": 1320,
+    "wires": [
+      [
+        "6959756bac0c2b7e"
+      ]
+    ]
+  },
+  {
+    "id": "6959756bac0c2b7e",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4120,
+    "y": 1320,
+    "wires": [
+      [
+        "d93e314f6f15bc41"
+      ]
+    ]
+  },
+  {
+    "id": "d93e314f6f15bc41",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "cave - scene - cumulus balloon - auto",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 4255,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "1a8d7b0e2e8acbb7",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "scene off",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "scene.off",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2780,
+    "y": 1320,
+    "wires": [
+      [
+        "c591bd9d447942fd",
+        "5fef774a053c6a26",
+        "b86088cdb0ed5bca"
+      ]
+    ]
+  },
+  {
+    "id": "60f6e8f379f63441",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "-1",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2250,
+    "y": 1380,
+    "wires": [
+      [
+        "3787b20cc1a3783d"
+      ],
+      [
+        "3862d53a6a9c1eeb"
+      ]
+    ]
+  },
+  {
+    "id": "c591bd9d447942fd",
+    "type": "rbe",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": false,
+    "property": "payload",
+    "topi": "topic",
+    "x": 3130,
+    "y": 1320,
+    "wires": [
+      [
+        "44612a9ac4307b1f"
+      ]
+    ]
+  },
+  {
+    "id": "3787b20cc1a3783d",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "mode cumulus",
+    "property": "metrics.system.mode.cumulus",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2440,
+    "y": 1320,
+    "wires": [
+      [
+        "1a8d7b0e2e8acbb7"
+      ]
+    ]
+  },
+  {
+    "id": "75fc0f35b064450b",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "mode nycthemer",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "day",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1930,
+    "y": 1320,
+    "wires": [
+      [
+        "3787b20cc1a3783d"
+      ]
+    ]
+  },
+  {
+    "id": "4b654e283799e870",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "power",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1890,
+    "y": 1260,
+    "wires": [
+      [
+        "fc1158a0f8710da5"
+      ]
+    ]
+  },
+  {
+    "id": "fc1158a0f8710da5",
+    "type": "delay",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "1 s",
+    "pauseType": "delay",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 2050,
+    "y": 1260,
+    "wires": [
+      [
+        "04d672acf9c45ac1"
+      ]
+    ]
+  },
+  {
+    "id": "04d672acf9c45ac1",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "from global",
+    "property": "metrics[msg.scene.bucket]cumulus.ballon",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2230,
+    "y": 1260,
+    "wires": [
+      [
+        "1a8d7b0e2e8acbb7"
+      ]
+    ]
+  },
+  {
+    "id": "ab0e0267be067354",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "cumulus / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1260,
+    "wires": [
+      [
+        "6d8b9ac84c8dc897"
+      ]
+    ]
+  },
+  {
+    "id": "6d8b9ac84c8dc897",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "device cumulus",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "cf6474d8d06d0270",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "cave - device - cumulus",
+    "links": [
+      "e035e232e2747fed"
+    ],
+    "x": 135,
+    "y": 1260,
+    "wires": [
+      [
+        "ab0e0267be067354",
+        "b986d701532491f9",
+        "d8f18951a98cd40c",
+        "216fcd9d7b66d1b0"
+      ]
+    ]
+  },
+  {
+    "id": "b986d701532491f9",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "cumulus / timer / number / 180",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "180",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1320,
+    "wires": [
+      [
+        "6d8b9ac84c8dc897"
+      ]
+    ]
+  },
+  {
+    "id": "d8f18951a98cd40c",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "cumulus / daily / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "daily",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1380,
+    "wires": [
+      [
+        "6d8b9ac84c8dc897"
+      ]
+    ]
+  },
+  {
+    "id": "216fcd9d7b66d1b0",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "297b2d3fd56440f9",
+    "name": "cumulus / night / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "night",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1440,
+    "wires": [
+      [
+        "6d8b9ac84c8dc897"
+      ]
+    ]
+  },
+  {
+    "id": "a72c1a80a1c23c90",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "cave - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1395,
+    "y": 1680,
+    "wires": []
+  },
+  {
+    "id": "fc33f164d4208460",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "cave - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 1680,
+    "wires": [
+      [
+        "90c2212a5870ab4d"
+      ]
+    ]
+  },
+  {
+    "id": "3bb670b7c782d0fe",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1680,
+    "wires": [
+      [
+        "7a48d3b28afb9335"
+      ]
+    ]
+  },
+  {
+    "id": "90c2212a5870ab4d",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1680,
+    "wires": [
+      [
+        "3bb670b7c782d0fe"
+      ]
+    ]
+  },
+  {
+    "id": "40a1233e15703902",
+    "type": "vsh-virtual-device",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "lumière de la cave",
+    "topic": "cave/cible/door",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 1680,
+    "wires": [
+      [
+        "89735cb301bdea99"
+      ]
+    ]
+  },
+  {
+    "id": "7a48d3b28afb9335",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "",
+    "links": [
+      "bac2afafe6b36787"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 1680,
+    "wires": [
+      [
+        "40a1233e15703902"
+      ]
+    ]
+  },
+  {
+    "id": "89735cb301bdea99",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "0fd00a5d28108c93",
+    "name": "",
+    "links": [
+      "d71667633c63d82c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1200,
+    "y": 1680,
+    "wires": [
+      [
+        "a72c1a80a1c23c90"
+      ]
+    ]
+  },
+  {
+    "id": "e1f047b857bb87e9",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "bf0c9db59b2649d8",
+    "name": "cave - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 1800,
+    "wires": [
+      [
+        "0ff0fadc83ac38d1"
+      ]
+    ]
+  },
+  {
+    "id": "0ff0fadc83ac38d1",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "bf0c9db59b2649d8",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1800,
+    "wires": [
+      [
+        "c86c464bb9aa4ec7"
+      ]
+    ]
+  },
+  {
+    "id": "cf514e4790cf30b2",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "bf0c9db59b2649d8",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 1800,
+    "wires": [
+      [
+        "3762437c4d4b168c"
+      ]
+    ]
+  },
+  {
+    "id": "c86c464bb9aa4ec7",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "bf0c9db59b2649d8",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1800,
+    "wires": [
+      [
+        "cf514e4790cf30b2"
+      ]
+    ]
+  },
+  {
+    "id": "3762437c4d4b168c",
+    "type": "vsh-virtual-device",
+    "z": "2b225e03b149417d",
+    "g": "bf0c9db59b2649d8",
+    "name": "température de la cave",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 920,
+    "y": 1800,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "76fff1f1e6767cb1",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "5058bbe07bedfb71",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1920,
+    "wires": [
+      [
+        "c952edfa67754b49"
+      ]
+    ]
+  },
+  {
+    "id": "f078c245986b329c",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "5058bbe07bedfb71",
+    "name": "cave - alexa - motion",
+    "links": [
+      "8f6b9cabcee961b9"
+    ],
+    "x": 135,
+    "y": 1920,
+    "wires": [
+      [
+        "76fff1f1e6767cb1"
+      ]
+    ]
+  },
+  {
+    "id": "c952edfa67754b49",
+    "type": "change",
+    "z": "2b225e03b149417d",
+    "g": "5058bbe07bedfb71",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1920,
+    "wires": [
+      [
+        "5bdae1b3b0632ad1"
+      ]
+    ]
+  },
+  {
+    "id": "5bdae1b3b0632ad1",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "5058bbe07bedfb71",
+    "name": "",
+    "links": [
+      "4f63773f3c770aa4"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 1920,
+    "wires": [
+      [
+        "ac6b4421c7675b8f"
+      ]
+    ]
+  },
+  {
+    "id": "ac6b4421c7675b8f",
+    "type": "vsh-virtual-device",
+    "z": "2b225e03b149417d",
+    "g": "5058bbe07bedfb71",
+    "name": "mouvement de la cave",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "MOTION_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 920,
+    "y": 1920,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "079402876ffb0af4",
+    "type": "link in",
+    "z": "2b225e03b149417d",
+    "g": "1be2396c5ede7eef",
+    "name": "cave - alexa - aperture",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2040,
+    "wires": [
+      [
+        "151c6168bcca45e8"
+      ]
+    ]
+  },
+  {
+    "id": "151c6168bcca45e8",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "1be2396c5ede7eef",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2040,
+    "wires": [
+      [
+        "ce088fb02cc8d95e"
+      ]
+    ]
+  },
+  {
+    "id": "ce088fb02cc8d95e",
+    "type": "switch",
+    "z": "2b225e03b149417d",
+    "g": "1be2396c5ede7eef",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2040,
+    "wires": [
+      [
+        "938259965bdd9849"
+      ]
+    ]
+  },
+  {
+    "id": "b178cd11693d5684",
+    "type": "vsh-virtual-device",
+    "z": "2b225e03b149417d",
+    "g": "1be2396c5ede7eef",
+    "name": "porte de la cave",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 880,
+    "y": 2040,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "938259965bdd9849",
+    "type": "link call",
+    "z": "2b225e03b149417d",
+    "g": "1be2396c5ede7eef",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2040,
+    "wires": [
+      [
+        "b178cd11693d5684"
+      ]
+    ]
+  },
+  {
+    "id": "665497a5770702cc",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 720,
+    "wires": [
+      [
+        "d56ce72fe8ca303e"
+      ]
+    ]
+  },
+  {
+    "id": "7fe1a6c98410eb18",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 660,
+    "wires": [
+      [
+        "1bea0b5deabc652b"
+      ]
+    ]
+  },
+  {
+    "id": "afd8f3a9262a6b2b",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "3266e87bcd98deec"
+      ]
+    ]
+  },
+  {
+    "id": "bd692339d274cb6d",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "251128455c53d96c"
+      ]
+    ]
+  },
+  {
+    "id": "aac903fa89536260",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "6c6aeae0d1cd2dec"
+      ]
+    ]
+  },
+  {
+    "id": "8c6a49f6bfc1489c",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "d8d03fc024720f90"
+      ]
+    ]
+  },
+  {
+    "id": "1abdcd583acf98b3",
+    "type": "credentials",
+    "z": "2b225e03b149417d",
+    "g": "e8fbf877572c810c",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "bceefffb42f84f2d"
+      ]
+    ]
+  }
+]

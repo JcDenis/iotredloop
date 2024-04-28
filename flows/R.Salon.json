@@ -1,0 +1,4767 @@
+[
+  {
+    "id": "e067074d6510b7f8",
+    "type": "tab",
+    "label": "R.Salon",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "cae3ed70c3a19a30",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "salon - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "0a87d6e296fbe795",
+      "f77161cc0db67bcc",
+      "36ce7ba8c84903c3"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "1df0e6d172e9eacf",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "salon - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "cfefc9caf13b11b9",
+      "341da50fe4f649d1"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "5db3e6f241fe1fac",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "salon - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "019a3a8edd5faf37",
+      "0588224c71e286ea",
+      "d697151e2ef67c05",
+      "a9b99ed7c9b72669"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "2958de9035c9e436",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a50b1d34ca287645"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 774,
+    "h": 734
+  },
+  {
+    "id": "6d6f0afcba784d9e",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "141e7635970308b4",
+      "a48e05336cc1cc06"
+    ],
+    "x": 68,
+    "y": 1073,
+    "w": 1314,
+    "h": 314
+  },
+  {
+    "id": "2bf0c433eb19ed82",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "af4483b5eb251119",
+      "9133af06976af37d"
+    ],
+    "x": 68,
+    "y": 1433,
+    "w": 1534,
+    "h": 254
+  },
+  {
+    "id": "579677136736aa01",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "salon - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d8bfcc7fbad989a9",
+      "f36d13db48680f24",
+      "b57e31429d877e40",
+      "14a357cf31812953",
+      "fd183971af58106f",
+      "13f77e42b44837fc"
+    ],
+    "x": 68,
+    "y": 2673,
+    "w": 1394,
+    "h": 734
+  },
+  {
+    "id": "555137194aeca274",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ca6e5594c10b00d0",
+      "1ee72229287164ea",
+      "a42719f70bda2d30"
+    ],
+    "x": 68,
+    "y": 1733,
+    "w": 1854,
+    "h": 396.5
+  },
+  {
+    "id": "cb3c4ecc11e622c8",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "aa047eea162db86e",
+      "d2d3d56d19f17173"
+    ],
+    "x": 68,
+    "y": 2333,
+    "w": 1534,
+    "h": 261.5
+  },
+  {
+    "id": "ba23bc2d38d8f73d",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d79566aeb0899fc0",
+      "791417822934da42"
+    ],
+    "x": 68,
+    "y": 2153,
+    "w": 1194,
+    "h": 134
+  },
+  {
+    "id": "a50b1d34ca287645",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "2958de9035c9e436",
+    "name": "salon - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "cb12b88446500fd2",
+      "b99215e61f5b851a",
+      "c419381bd76bd68a",
+      "ec8fb8c9461f4d99",
+      "6346fe23c78b0d1c",
+      "91ec323b1984aa49",
+      "2c675f5f8c6d8a39",
+      "92440e6ee83211c8",
+      "ec9815806df67db9",
+      "b1dbc5994b9dd62a",
+      "2671ada0fb73c277",
+      "8f6648f63012f412",
+      "afacafb7749a482e",
+      "7c41ac450d21413a",
+      "3a4cf84ac08bedd8",
+      "90fee8bdfab977db",
+      "f5efc51bb8bbb188",
+      "d8e343f487801d25",
+      "88c7253e4f63f1f3",
+      "063015f83c8a6919",
+      "b058724ce5402b6d",
+      "4df88255d56ba061",
+      "8c4f18ac2f788dca",
+      "e57fb1b32793916a"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 722,
+    "h": 682
+  },
+  {
+    "id": "141e7635970308b4",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "6d6f0afcba784d9e",
+    "name": "salon - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "03f7e26d1b1288fc",
+      "78d84c1894326c39",
+      "20505ee695e362db",
+      "31d14fe33ea1b7b2"
+    ],
+    "x": 694,
+    "y": 1159,
+    "w": 662,
+    "h": 82
+  },
+  {
+    "id": "a48e05336cc1cc06",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "6d6f0afcba784d9e",
+    "name": "salon - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bd5525663470a457",
+      "d28f44d60a337af9",
+      "881ee38178f240b8",
+      "aec95b13f785534f",
+      "c47619a61a7f717c",
+      "9e57918218d94872"
+    ],
+    "x": 94,
+    "y": 1099,
+    "w": 502,
+    "h": 262
+  },
+  {
+    "id": "af4483b5eb251119",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "2bf0c433eb19ed82",
+    "name": "salon - device - shading",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "45ba97e1d323ea90",
+      "578976906b639a1f",
+      "92528dc3bdf6bca3",
+      "c43c58ceb78e8396",
+      "c64c9b003dc202fb"
+    ],
+    "x": 94,
+    "y": 1459,
+    "w": 522,
+    "h": 202
+  },
+  {
+    "id": "9133af06976af37d",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "2bf0c433eb19ed82",
+    "name": "salon - scene - shading shutter",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c3ece85a0f147597",
+      "88b4e25b46ebf594",
+      "bc11e38a9ca782cd",
+      "dba923df2e5ed1bf",
+      "7ba75393f3b506b5",
+      "f2a1727027fecf49",
+      "e128ce4fb84c14c9"
+    ],
+    "x": 714,
+    "y": 1459,
+    "w": 862,
+    "h": 202
+  },
+  {
+    "id": "d8bfcc7fbad989a9",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bc0564795bc5055b",
+      "a4a6ad066aafffab",
+      "2cf1c8b51221bbd5",
+      "175b8e4604b208a0",
+      "1b7fe8d3f6312441",
+      "6b9224991ba9932d",
+      "e553aecf4940374f"
+    ],
+    "x": 94,
+    "y": 2699,
+    "w": 1342,
+    "h": 82
+  },
+  {
+    "id": "f36d13db48680f24",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - aperture - left bay",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b22ad51c1e17a489",
+      "491cb8fe9bda19d7",
+      "d3cdfbcb73f0b397",
+      "32612f428f89f04b",
+      "2ebfdbe6c2797383"
+    ],
+    "x": 94,
+    "y": 2939,
+    "w": 932,
+    "h": 82
+  },
+  {
+    "id": "b57e31429d877e40",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - aperture - right bay",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "54dacc2fd5d0195e",
+      "e1f0f157800a0cf4",
+      "237bf8ce3c8e7ef6",
+      "80423adf085377db",
+      "fef5a211b5cca153"
+    ],
+    "x": 94,
+    "y": 3059,
+    "w": 912,
+    "h": 82
+  },
+  {
+    "id": "14a357cf31812953",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - shutter",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9cab12b971634428",
+      "c988ea54961f1403",
+      "4cd46b3578c8bae0",
+      "d8e97b2e6b69c796",
+      "44cdd18cc189cc13",
+      "77f75b7329f5305f",
+      "1af788b4074a5858"
+    ],
+    "x": 94,
+    "y": 3299,
+    "w": 1242,
+    "h": 82
+  },
+  {
+    "id": "fd183971af58106f",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - aperture - window",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c81a8c2eb50047e0",
+      "ec9549e3f799c682",
+      "f6b933588a05f15e",
+      "d99cc436ba4ac06c",
+      "94d6e6b681750c4c"
+    ],
+    "x": 94,
+    "y": 3179,
+    "w": 892,
+    "h": 82
+  },
+  {
+    "id": "13f77e42b44837fc",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "579677136736aa01",
+    "name": "salon - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5782587779b166d8",
+      "cd91dcb74480e2bb",
+      "05f6965eeca20da3",
+      "60d2ce80fb0685cb",
+      "2736c226d2a4e8a9"
+    ],
+    "x": 94,
+    "y": 2819,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "ca6e5594c10b00d0",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "555137194aeca274",
+    "name": "salon - scene - thermostat operating mode",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "628c2e8014a8c40c",
+      "a05d5930c2e71184",
+      "553643b4e18545ba",
+      "0d601d3e95908328",
+      "f8f9a6db99bb33e8",
+      "9b60d0fdfcda5257",
+      "f4ca06eee7fc7376",
+      "ad5d6657510d4e95",
+      "2c774c7cde335304",
+      "7f6d6bbaadea9039"
+    ],
+    "x": 774,
+    "y": 1791.5,
+    "w": 1122,
+    "h": 157
+  },
+  {
+    "id": "1ee72229287164ea",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "555137194aeca274",
+    "name": "salon - source - thermostat aperture",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "95543dbe851ec8d8",
+      "d7ee554ca1e12fbf",
+      "de0ec49c5344ce82",
+      "64efc8a9e8807f11",
+      "c56f905f0dc3a3fe",
+      "2dfb1d687d5296d6"
+    ],
+    "x": 774,
+    "y": 1976.5,
+    "w": 882,
+    "h": 127
+  },
+  {
+    "id": "a42719f70bda2d30",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "555137194aeca274",
+    "name": "salon - device - thermostat partial (see flow Thermostat)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5ed3e98ca4457785",
+      "908d2271a90c6e2a",
+      "a6c9620c84637393",
+      "c5837cb76a95373d",
+      "6d0ef0315dcfeea5",
+      "17e1e87a7ce7485f",
+      "3bab96694179fa3c"
+    ],
+    "x": 94,
+    "y": 1759,
+    "w": 582,
+    "h": 322
+  },
+  {
+    "id": "aa047eea162db86e",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "cb3c4ecc11e622c8",
+    "name": "salon - source - clock",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b0ec9dc39c0e4a04",
+      "6ccad4521acbf705",
+      "bbae4d26e41478ea",
+      "f1ddd31035db0cc4",
+      "31f89f6c208761ec",
+      "83cf796714185454",
+      "b2fc7377968a4425",
+      "3a7e10be0513fe02",
+      "ec16e55b9c303ae7"
+    ],
+    "x": 714,
+    "y": 2359,
+    "w": 862,
+    "h": 209.5
+  },
+  {
+    "id": "d2d3d56d19f17173",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "cb3c4ecc11e622c8",
+    "name": "salon - device - clock",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "84add143f23bfe25",
+      "ad43a0610ba77d34",
+      "41856b3f50fd450b",
+      "0a20a19873de330c"
+    ],
+    "x": 94,
+    "y": 2359,
+    "w": 522,
+    "h": 142
+  },
+  {
+    "id": "d79566aeb0899fc0",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "ba23bc2d38d8f73d",
+    "name": "salon - device - copy couloir tempearture to salon",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7cf763afc0515f46",
+      "82740b84eee274f7",
+      "17b39beef9bff4b1"
+    ],
+    "x": 94,
+    "y": 2179,
+    "w": 522,
+    "h": 82
+  },
+  {
+    "id": "791417822934da42",
+    "type": "group",
+    "z": "e067074d6510b7f8",
+    "g": "ba23bc2d38d8f73d",
+    "name": "salon - metric - copy couloir tempearture to salon",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.04",
+      "label": true
+    },
+    "nodes": [
+      "8f53b8eccaa53c4d",
+      "9f7ebdeaee2e4456",
+      "71e83823374dcddf",
+      "697e3a94eb990433"
+    ],
+    "x": 714,
+    "y": 2179,
+    "w": 522,
+    "h": 82
+  },
+  {
+    "id": "0a87d6e296fbe795",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "cae3ed70c3a19a30",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "salon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "36ce7ba8c84903c3"
+      ]
+    ]
+  },
+  {
+    "id": "f77161cc0db67bcc",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "cae3ed70c3a19a30",
+    "name": "salon - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "0a87d6e296fbe795"
+      ]
+    ]
+  },
+  {
+    "id": "36ce7ba8c84903c3",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "cae3ed70c3a19a30",
+    "name": "salon - bucket",
+    "mode": "link",
+    "links": [
+      "41856b3f50fd450b",
+      "628c2e8014a8c40c",
+      "6d0ef0315dcfeea5",
+      "7cf763afc0515f46",
+      "881ee38178f240b8",
+      "8f6648f63012f412",
+      "92528dc3bdf6bca3"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "cfefc9caf13b11b9",
+    "type": "catch",
+    "z": "e067074d6510b7f8",
+    "g": "1df0e6d172e9eacf",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "341da50fe4f649d1"
+      ]
+    ]
+  },
+  {
+    "id": "341da50fe4f649d1",
+    "type": "debug",
+    "z": "e067074d6510b7f8",
+    "g": "1df0e6d172e9eacf",
+    "name": "salon - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "019a3a8edd5faf37",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "5db3e6f241fe1fac",
+    "name": "salon - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1575,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "0588224c71e286ea",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "5db3e6f241fe1fac",
+    "name": "salon - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "d697151e2ef67c05"
+      ]
+    ]
+  },
+  {
+    "id": "d697151e2ef67c05",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "5db3e6f241fe1fac",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "a9b99ed7c9b72669"
+      ]
+    ]
+  },
+  {
+    "id": "a9b99ed7c9b72669",
+    "type": "ui-button",
+    "z": "e067074d6510b7f8",
+    "g": "5db3e6f241fe1fac",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Salon",
+    "order": 19,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1450,
+    "y": 60,
+    "wires": [
+      [
+        "019a3a8edd5faf37"
+      ]
+    ]
+  },
+  {
+    "id": "cb12b88446500fd2",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "REOLINK / xxx / camera / url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "REOLINK",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "b99215e61f5b851a",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "ZMNHSD / xxx / lgiht / ceiling",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHSD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 480,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "c419381bd76bd68a",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "FGR223 / xxx / aperture / shutter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGR223",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 540,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "ec8fb8c9461f4d99",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "ZMNHAD / xxx / outlet / bay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHAD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "bay",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 600,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "6346fe23c78b0d1c",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "FGS223 / xxx / outlet / socket 1",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGS223",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 660,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "91ec323b1984aa49",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "FGS223 / xxx / outlet / socket 2",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGS223",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 720,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "2c675f5f8c6d8a39",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "MCCGQ11LM / xxx / aperture / left bay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "left bay",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 900,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "92440e6ee83211c8",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "FGDW002 / xxx / aperture / right bay",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGDW002",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "right bay",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 780,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "ec9815806df67db9",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "MCCGQ11LM / xxx / aperture / window",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "window",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 840,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "b1dbc5994b9dd62a",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "FGSD002 / xxx / smoke / fire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGSD002",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 960,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "2671ada0fb73c277",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "salon - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 775,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "8f6648f63012f412",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "salon - device - auto",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "7c41ac450d21413a",
+        "3a4cf84ac08bedd8",
+        "90fee8bdfab977db",
+        "f5efc51bb8bbb188",
+        "d8e343f487801d25",
+        "88c7253e4f63f1f3",
+        "063015f83c8a6919",
+        "b058724ce5402b6d",
+        "4df88255d56ba061",
+        "8c4f18ac2f788dca",
+        "e57fb1b32793916a"
+      ]
+    ]
+  },
+  {
+    "id": "afacafb7749a482e",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "BRP069B45 / xxx / air conditioner / url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "BRP069B45",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 360,
+    "wires": [
+      [
+        "2671ada0fb73c277"
+      ]
+    ]
+  },
+  {
+    "id": "03f7e26d1b1288fc",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "141e7635970308b4",
+    "name": "salon - scene - lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 1200,
+    "wires": [
+      [
+        "20505ee695e362db"
+      ]
+    ]
+  },
+  {
+    "id": "78d84c1894326c39",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "141e7635970308b4",
+    "name": "scene lighting / ceiling / dimmer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1200,
+    "wires": [
+      [
+        "31d14fe33ea1b7b2"
+      ]
+    ]
+  },
+  {
+    "id": "20505ee695e362db",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "141e7635970308b4",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "salon/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 870,
+    "y": 1200,
+    "wires": [
+      [
+        "78d84c1894326c39"
+      ],
+      [
+        "78d84c1894326c39"
+      ]
+    ]
+  },
+  {
+    "id": "31d14fe33ea1b7b2",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "141e7635970308b4",
+    "name": "salon - scene - eclairage plafonnier",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 1200,
+    "wires": []
+  },
+  {
+    "id": "bd5525663470a457",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1140,
+    "wires": [
+      [
+        "d28f44d60a337af9"
+      ]
+    ]
+  },
+  {
+    "id": "d28f44d60a337af9",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "salon - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "881ee38178f240b8",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "salon - device - lighting",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 1140,
+    "wires": [
+      [
+        "bd5525663470a457",
+        "aec95b13f785534f",
+        "c47619a61a7f717c",
+        "9e57918218d94872"
+      ]
+    ]
+  },
+  {
+    "id": "aec95b13f785534f",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "lighting / high / dimmer / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1200,
+    "wires": [
+      [
+        "d28f44d60a337af9"
+      ]
+    ]
+  },
+  {
+    "id": "c47619a61a7f717c",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "lighting / low / dimmer / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 1260,
+    "wires": [
+      [
+        "d28f44d60a337af9"
+      ]
+    ]
+  },
+  {
+    "id": "9e57918218d94872",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a48e05336cc1cc06",
+    "name": "lighting / timer / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1320,
+    "wires": [
+      [
+        "d28f44d60a337af9"
+      ]
+    ]
+  },
+  {
+    "id": "45ba97e1d323ea90",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "af4483b5eb251119",
+    "name": "shading / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "shading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1500,
+    "wires": [
+      [
+        "578976906b639a1f"
+      ]
+    ]
+  },
+  {
+    "id": "578976906b639a1f",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "af4483b5eb251119",
+    "name": "salon - device - shading",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 575,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "92528dc3bdf6bca3",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "af4483b5eb251119",
+    "name": "salon - device - shading",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 1500,
+    "wires": [
+      [
+        "45ba97e1d323ea90",
+        "c43c58ceb78e8396",
+        "c64c9b003dc202fb"
+      ]
+    ]
+  },
+  {
+    "id": "c43c58ceb78e8396",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "af4483b5eb251119",
+    "name": "shading / openwork / dimmer / 14",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "shading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "openwork",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "14",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 1560,
+    "wires": [
+      [
+        "578976906b639a1f"
+      ]
+    ]
+  },
+  {
+    "id": "c64c9b003dc202fb",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "af4483b5eb251119",
+    "name": "shading  / daily / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "shading",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "daily",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1620,
+    "wires": [
+      [
+        "578976906b639a1f"
+      ]
+    ]
+  },
+  {
+    "id": "c3ece85a0f147597",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/mode/nycthemer",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/shutter",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/right bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/left bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cuisine/command/remote",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 890,
+    "y": 1560,
+    "wires": [
+      [
+        "7ba75393f3b506b5"
+      ],
+      [
+        "dba923df2e5ed1bf"
+      ],
+      [
+        "dba923df2e5ed1bf"
+      ],
+      [
+        "dba923df2e5ed1bf"
+      ],
+      [
+        "f2a1727027fecf49"
+      ]
+    ]
+  },
+  {
+    "id": "88b4e25b46ebf594",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "salon - scene - shading shutter",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 755,
+    "y": 1560,
+    "wires": [
+      [
+        "c3ece85a0f147597"
+      ]
+    ]
+  },
+  {
+    "id": "bc11e38a9ca782cd",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "salon - scene - shading shutter",
+    "mode": "link",
+    "links": [
+      "1850a1a4ce01b83a"
+    ],
+    "x": 1535,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "dba923df2e5ed1bf",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1410,
+    "y": 1560,
+    "wires": [
+      [
+        "bc11e38a9ca782cd"
+      ]
+    ]
+  },
+  {
+    "id": "7ba75393f3b506b5",
+    "type": "delay",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "45 s (bug vs jeux)",
+    "pauseType": "delay",
+    "timeout": "45",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1090,
+    "y": 1500,
+    "wires": [
+      [
+        "dba923df2e5ed1bf"
+      ]
+    ]
+  },
+  {
+    "id": "f2a1727027fecf49",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "remote",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "btwn",
+        "v": "40",
+        "vt": "num",
+        "v2": "41",
+        "v2t": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1060,
+    "y": 1620,
+    "wires": [
+      [
+        "e128ce4fb84c14c9"
+      ]
+    ]
+  },
+  {
+    "id": "e128ce4fb84c14c9",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "9133af06976af37d",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload=41",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1240,
+    "y": 1620,
+    "wires": [
+      [
+        "dba923df2e5ed1bf"
+      ]
+    ]
+  },
+  {
+    "id": "bc0564795bc5055b",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "salon - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1395,
+    "y": 2740,
+    "wires": []
+  },
+  {
+    "id": "a4a6ad066aafffab",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "salon - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 2740,
+    "wires": [
+      [
+        "2cf1c8b51221bbd5"
+      ]
+    ]
+  },
+  {
+    "id": "2cf1c8b51221bbd5",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2740,
+    "wires": [
+      [
+        "175b8e4604b208a0"
+      ]
+    ]
+  },
+  {
+    "id": "175b8e4604b208a0",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2740,
+    "wires": [
+      [
+        "6b9224991ba9932d"
+      ]
+    ]
+  },
+  {
+    "id": "1b7fe8d3f6312441",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "lumière du salon",
+    "topic": "salon/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 920,
+    "y": 2740,
+    "wires": [
+      [
+        "e553aecf4940374f"
+      ]
+    ]
+  },
+  {
+    "id": "6b9224991ba9932d",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "",
+    "links": [
+      "75754d6ac1aaec7b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 2740,
+    "wires": [
+      [
+        "1b7fe8d3f6312441"
+      ]
+    ]
+  },
+  {
+    "id": "e553aecf4940374f",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "d8bfcc7fbad989a9",
+    "name": "",
+    "links": [
+      "71c9fb8b232fe499"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1190,
+    "y": 2740,
+    "wires": [
+      [
+        "bc0564795bc5055b"
+      ]
+    ]
+  },
+  {
+    "id": "b22ad51c1e17a489",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "f36d13db48680f24",
+    "name": "salon - alexa - aperture - left bay",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2980,
+    "wires": [
+      [
+        "491cb8fe9bda19d7"
+      ]
+    ]
+  },
+  {
+    "id": "491cb8fe9bda19d7",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "f36d13db48680f24",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2980,
+    "wires": [
+      [
+        "d3cdfbcb73f0b397"
+      ]
+    ]
+  },
+  {
+    "id": "d3cdfbcb73f0b397",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "f36d13db48680f24",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "left bay",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2980,
+    "wires": [
+      [
+        "2ebfdbe6c2797383"
+      ]
+    ]
+  },
+  {
+    "id": "32612f428f89f04b",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "f36d13db48680f24",
+    "name": "baie gauche du salon",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 900,
+    "y": 2980,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "2ebfdbe6c2797383",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "f36d13db48680f24",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2980,
+    "wires": [
+      [
+        "32612f428f89f04b"
+      ]
+    ]
+  },
+  {
+    "id": "54dacc2fd5d0195e",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "b57e31429d877e40",
+    "name": "salon - alexa - aperture - right bay",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 3100,
+    "wires": [
+      [
+        "e1f0f157800a0cf4"
+      ]
+    ]
+  },
+  {
+    "id": "e1f0f157800a0cf4",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "b57e31429d877e40",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3100,
+    "wires": [
+      [
+        "237bf8ce3c8e7ef6"
+      ]
+    ]
+  },
+  {
+    "id": "237bf8ce3c8e7ef6",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "b57e31429d877e40",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "right bay",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 3100,
+    "wires": [
+      [
+        "fef5a211b5cca153"
+      ]
+    ]
+  },
+  {
+    "id": "80423adf085377db",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "b57e31429d877e40",
+    "name": "baie droite du salon",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 890,
+    "y": 3100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "fef5a211b5cca153",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "b57e31429d877e40",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 3100,
+    "wires": [
+      [
+        "80423adf085377db"
+      ]
+    ]
+  },
+  {
+    "id": "9cab12b971634428",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "salon - alexa - shutter",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1295,
+    "y": 3340,
+    "wires": []
+  },
+  {
+    "id": "c988ea54961f1403",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "salon - alexa - shutter",
+    "links": [
+      "340d0829b2817429"
+    ],
+    "x": 135,
+    "y": 3340,
+    "wires": [
+      [
+        "4cd46b3578c8bae0"
+      ]
+    ]
+  },
+  {
+    "id": "4cd46b3578c8bae0",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3340,
+    "wires": [
+      [
+        "d8e97b2e6b69c796"
+      ]
+    ]
+  },
+  {
+    "id": "d8e97b2e6b69c796",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "shutter",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 3340,
+    "wires": [
+      [
+        "77f75b7329f5305f"
+      ]
+    ]
+  },
+  {
+    "id": "44cdd18cc189cc13",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "volet du salon",
+    "topic": "salon/cible/shutter",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "BLINDS",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 880,
+    "y": 3340,
+    "wires": [
+      [
+        "1af788b4074a5858"
+      ]
+    ]
+  },
+  {
+    "id": "77f75b7329f5305f",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "",
+    "links": [
+      "86f02da7eff1e3ba"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 3340,
+    "wires": [
+      [
+        "44cdd18cc189cc13"
+      ]
+    ]
+  },
+  {
+    "id": "1af788b4074a5858",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "14a357cf31812953",
+    "name": "",
+    "links": [
+      "7af8e11321061713"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1120,
+    "y": 3340,
+    "wires": [
+      [
+        "9cab12b971634428"
+      ]
+    ]
+  },
+  {
+    "id": "c81a8c2eb50047e0",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "fd183971af58106f",
+    "name": "salon - alexa - aperture - window",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 3220,
+    "wires": [
+      [
+        "ec9549e3f799c682"
+      ]
+    ]
+  },
+  {
+    "id": "ec9549e3f799c682",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "fd183971af58106f",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3220,
+    "wires": [
+      [
+        "f6b933588a05f15e"
+      ]
+    ]
+  },
+  {
+    "id": "f6b933588a05f15e",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "fd183971af58106f",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 3220,
+    "wires": [
+      [
+        "94d6e6b681750c4c"
+      ]
+    ]
+  },
+  {
+    "id": "d99cc436ba4ac06c",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "fd183971af58106f",
+    "name": "fenêtre du salon",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 880,
+    "y": 3220,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "94d6e6b681750c4c",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "fd183971af58106f",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 3220,
+    "wires": [
+      [
+        "d99cc436ba4ac06c"
+      ]
+    ]
+  },
+  {
+    "id": "5782587779b166d8",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "13f77e42b44837fc",
+    "name": "salon - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 2860,
+    "wires": [
+      [
+        "cd91dcb74480e2bb"
+      ]
+    ]
+  },
+  {
+    "id": "cd91dcb74480e2bb",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "13f77e42b44837fc",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2860,
+    "wires": [
+      [
+        "60d2ce80fb0685cb"
+      ]
+    ]
+  },
+  {
+    "id": "05f6965eeca20da3",
+    "type": "link call",
+    "z": "e067074d6510b7f8",
+    "g": "13f77e42b44837fc",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 2860,
+    "wires": [
+      [
+        "2736c226d2a4e8a9"
+      ]
+    ]
+  },
+  {
+    "id": "60d2ce80fb0685cb",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "13f77e42b44837fc",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 2860,
+    "wires": [
+      [
+        "05f6965eeca20da3"
+      ]
+    ]
+  },
+  {
+    "id": "2736c226d2a4e8a9",
+    "type": "vsh-virtual-device",
+    "z": "e067074d6510b7f8",
+    "g": "13f77e42b44837fc",
+    "name": "température du salon",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 920,
+    "y": 2860,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "628c2e8014a8c40c",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "salon - scene - thermostat operating mode",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 815,
+    "y": 1840,
+    "wires": [
+      [
+        "0d601d3e95908328"
+      ]
+    ]
+  },
+  {
+    "id": "a05d5930c2e71184",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1840,
+    "wires": [
+      [
+        "553643b4e18545ba",
+        "9b60d0fdfcda5257"
+      ]
+    ]
+  },
+  {
+    "id": "553643b4e18545ba",
+    "type": "bigtimer",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (rest)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "480",
+    "endtime": "1380",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1320,
+    "y": 1900,
+    "wires": [
+      [],
+      [
+        "7f6d6bbaadea9039"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "0d601d3e95908328",
+    "type": "delay",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1840,
+    "wires": [
+      [
+        "a05d5930c2e71184"
+      ]
+    ]
+  },
+  {
+    "id": "f8f9a6db99bb33e8",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "salon - scene - thermostat operating mode",
+    "mode": "link",
+    "links": [
+      "d1c7f4810b12afe2"
+    ],
+    "x": 1855,
+    "y": 1840,
+    "wires": []
+  },
+  {
+    "id": "9b60d0fdfcda5257",
+    "type": "bigtimer",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (work)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "1020",
+    "endtime": "1320",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1330,
+    "y": 1840,
+    "wires": [
+      [],
+      [
+        "f4ca06eee7fc7376"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "f4ca06eee7fc7376",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "jour",
+        "pt": "msg",
+        "to": "metrics[msg.scene.bucket]horloge['jour de travail']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 1840,
+    "wires": [
+      [
+        "ad5d6657510d4e95"
+      ]
+    ]
+  },
+  {
+    "id": "ad5d6657510d4e95",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "work day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1720,
+    "y": 1840,
+    "wires": [
+      [
+        "f8f9a6db99bb33e8"
+      ]
+    ]
+  },
+  {
+    "id": "2c774c7cde335304",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "rest day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "false"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1700,
+    "y": 1900,
+    "wires": [
+      [
+        "f8f9a6db99bb33e8"
+      ]
+    ]
+  },
+  {
+    "id": "7f6d6bbaadea9039",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "ca6e5594c10b00d0",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1530,
+    "y": 1900,
+    "wires": [
+      [
+        "2c774c7cde335304"
+      ]
+    ]
+  },
+  {
+    "id": "95543dbe851ec8d8",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cuisine/aperture/window",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "diner/aperture/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/right bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/left bay",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/aperture/window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 950,
+    "y": 2040,
+    "wires": [
+      [
+        "d7ee554ca1e12fbf"
+      ],
+      [
+        "d7ee554ca1e12fbf"
+      ],
+      [
+        "d7ee554ca1e12fbf"
+      ],
+      [
+        "d7ee554ca1e12fbf"
+      ],
+      [
+        "d7ee554ca1e12fbf"
+      ]
+    ]
+  },
+  {
+    "id": "d7ee554ca1e12fbf",
+    "type": "trigger",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "wait 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "payl",
+    "duration": "5",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1120,
+    "y": 2040,
+    "wires": [
+      [
+        "de0ec49c5344ce82"
+      ]
+    ]
+  },
+  {
+    "id": "de0ec49c5344ce82",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "door",
+        "pt": "msg",
+        "to": "metrics.diner.aperture.door",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "window",
+        "pt": "msg",
+        "to": "metrics.salon.aperture.window",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "cuisine",
+        "pt": "msg",
+        "to": "metrics.cuisine.aperture.window",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "right",
+        "pt": "msg",
+        "to": "metrics.salon.aperture['right bay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "left",
+        "pt": "msg",
+        "to": "metrics.salon.aperture['left bay']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.door) or $boolean(msg.window) or $boolean(msg.cuisine) or $boolean(msg.right) or $boolean(msg.left)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1300,
+    "y": 2040,
+    "wires": [
+      [
+        "c56f905f0dc3a3fe"
+      ]
+    ]
+  },
+  {
+    "id": "64efc8a9e8807f11",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "salon - source - thermostat aperture",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 815,
+    "y": 2040,
+    "wires": [
+      [
+        "95543dbe851ec8d8"
+      ]
+    ]
+  },
+  {
+    "id": "c56f905f0dc3a3fe",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture opened",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1480,
+    "y": 2040,
+    "wires": [
+      [
+        "2dfb1d687d5296d6"
+      ]
+    ]
+  },
+  {
+    "id": "2dfb1d687d5296d6",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "1ee72229287164ea",
+    "name": "salon - source - thermostat aperture",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1615,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "5ed3e98ca4457785",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "thermostat / cycle time / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cycle time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1920,
+    "wires": [
+      [
+        "17e1e87a7ce7485f"
+      ]
+    ]
+  },
+  {
+    "id": "908d2271a90c6e2a",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "thermostat / outdoor coefficient / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1860,
+    "wires": [
+      [
+        "17e1e87a7ce7485f"
+      ]
+    ]
+  },
+  {
+    "id": "a6c9620c84637393",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "thermostat / indoor coefficient / number / 180",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "180",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1800,
+    "wires": [
+      [
+        "17e1e87a7ce7485f"
+      ]
+    ]
+  },
+  {
+    "id": "c5837cb76a95373d",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "chauffage / preheat time / number / 5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "preheat time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "5",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1980,
+    "wires": [
+      [
+        "17e1e87a7ce7485f"
+      ]
+    ]
+  },
+  {
+    "id": "6d0ef0315dcfeea5",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "salon - device - thermostat",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 1800,
+    "wires": [
+      [
+        "a6c9620c84637393",
+        "908d2271a90c6e2a",
+        "5ed3e98ca4457785",
+        "c5837cb76a95373d",
+        "3bab96694179fa3c"
+      ]
+    ]
+  },
+  {
+    "id": "17e1e87a7ce7485f",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "salon - device - thermostat",
+    "mode": "link",
+    "links": [
+      "d8585174fdd6097c"
+    ],
+    "x": 635,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "3bab96694179fa3c",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "a42719f70bda2d30",
+    "name": "thermostat / offloading power / number / 1000",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "1000",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 2040,
+    "wires": [
+      [
+        "17e1e87a7ce7485f"
+      ]
+    ]
+  },
+  {
+    "id": "b0ec9dc39c0e4a04",
+    "type": "bigtimer",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work day",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": false,
+    "mon": true,
+    "tue": true,
+    "wed": false,
+    "thu": true,
+    "fri": true,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1240,
+    "y": 2460,
+    "wires": [
+      [
+        "6ccad4521acbf705"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "6ccad4521acbf705",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1410,
+    "y": 2460,
+    "wires": [
+      [
+        "bbae4d26e41478ea"
+      ]
+    ]
+  },
+  {
+    "id": "bbae4d26e41478ea",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "salon - source - clock",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1535,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "f1ddd31035db0cc4",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "salon - source - clock",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 755,
+    "y": 2400,
+    "wires": [
+      [
+        "31f89f6c208761ec",
+        "83cf796714185454"
+      ]
+    ]
+  },
+  {
+    "id": "31f89f6c208761ec",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1250,
+    "y": 2400,
+    "wires": [
+      [
+        "6ccad4521acbf705",
+        "3a7e10be0513fe02"
+      ]
+    ]
+  },
+  {
+    "id": "83cf796714185454",
+    "type": "delay",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 900,
+    "y": 2460,
+    "wires": [
+      [
+        "ec16e55b9c303ae7"
+      ]
+    ]
+  },
+  {
+    "id": "b2fc7377968a4425",
+    "type": "bigtimer",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work eve",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": true,
+    "mon": true,
+    "tue": false,
+    "wed": true,
+    "thu": true,
+    "fri": false,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1240,
+    "y": 2520,
+    "wires": [
+      [
+        "3a7e10be0513fe02"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "3a7e10be0513fe02",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1410,
+    "y": 2520,
+    "wires": [
+      [
+        "bbae4d26e41478ea"
+      ]
+    ]
+  },
+  {
+    "id": "ec16e55b9c303ae7",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "aa047eea162db86e",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1070,
+    "y": 2460,
+    "wires": [
+      [
+        "b0ec9dc39c0e4a04",
+        "b2fc7377968a4425"
+      ]
+    ]
+  },
+  {
+    "id": "84add143f23bfe25",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "d2d3d56d19f17173",
+    "name": "clock / work day / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 2400,
+    "wires": [
+      [
+        "ad43a0610ba77d34"
+      ]
+    ]
+  },
+  {
+    "id": "ad43a0610ba77d34",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "d2d3d56d19f17173",
+    "name": "salon - device - clock",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 575,
+    "y": 2400,
+    "wires": []
+  },
+  {
+    "id": "41856b3f50fd450b",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "d2d3d56d19f17173",
+    "name": "salon - device - clock",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 2400,
+    "wires": [
+      [
+        "84add143f23bfe25",
+        "0a20a19873de330c"
+      ]
+    ]
+  },
+  {
+    "id": "0a20a19873de330c",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "d2d3d56d19f17173",
+    "name": "clock/ work eve / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 2460,
+    "wires": [
+      [
+        "ad43a0610ba77d34"
+      ]
+    ]
+  },
+  {
+    "id": "7cf763afc0515f46",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "d79566aeb0899fc0",
+    "name": "salon - device - copy couloir tempearture to salon",
+    "links": [
+      "36ce7ba8c84903c3"
+    ],
+    "x": 135,
+    "y": 2220,
+    "wires": [
+      [
+        "82740b84eee274f7"
+      ]
+    ]
+  },
+  {
+    "id": "82740b84eee274f7",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "d79566aeb0899fc0",
+    "name": "temperature / probe / number / 20",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 2220,
+    "wires": [
+      [
+        "17b39beef9bff4b1"
+      ]
+    ]
+  },
+  {
+    "id": "17b39beef9bff4b1",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "d79566aeb0899fc0",
+    "name": "salon - device - copy couloir tempearture to salon",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 575,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "8f53b8eccaa53c4d",
+    "type": "link in",
+    "z": "e067074d6510b7f8",
+    "g": "791417822934da42",
+    "name": "copy couloir temperature to salon",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 755,
+    "y": 2220,
+    "wires": [
+      [
+        "9f7ebdeaee2e4456"
+      ]
+    ]
+  },
+  {
+    "id": "9f7ebdeaee2e4456",
+    "type": "switch",
+    "z": "e067074d6510b7f8",
+    "g": "791417822934da42",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "couloir/temperature/probe",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 890,
+    "y": 2220,
+    "wires": [
+      [
+        "71e83823374dcddf"
+      ]
+    ]
+  },
+  {
+    "id": "71e83823374dcddf",
+    "type": "change",
+    "z": "e067074d6510b7f8",
+    "g": "791417822934da42",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1060,
+    "y": 2220,
+    "wires": [
+      [
+        "697e3a94eb990433"
+      ]
+    ]
+  },
+  {
+    "id": "697e3a94eb990433",
+    "type": "link out",
+    "z": "e067074d6510b7f8",
+    "g": "791417822934da42",
+    "name": "salon - metric - copy couloir temperature to salon",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1195,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "7c41ac450d21413a",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "afacafb7749a482e"
+      ]
+    ]
+  },
+  {
+    "id": "3a4cf84ac08bedd8",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "cb12b88446500fd2"
+      ]
+    ]
+  },
+  {
+    "id": "90fee8bdfab977db",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "b99215e61f5b851a"
+      ]
+    ]
+  },
+  {
+    "id": "f5efc51bb8bbb188",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 960,
+    "wires": [
+      [
+        "b1dbc5994b9dd62a"
+      ]
+    ]
+  },
+  {
+    "id": "d8e343f487801d25",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 900,
+    "wires": [
+      [
+        "2c675f5f8c6d8a39"
+      ]
+    ]
+  },
+  {
+    "id": "88c7253e4f63f1f3",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 840,
+    "wires": [
+      [
+        "ec9815806df67db9"
+      ]
+    ]
+  },
+  {
+    "id": "063015f83c8a6919",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 780,
+    "wires": [
+      [
+        "92440e6ee83211c8"
+      ]
+    ]
+  },
+  {
+    "id": "b058724ce5402b6d",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 720,
+    "wires": [
+      [
+        "91ec323b1984aa49"
+      ]
+    ]
+  },
+  {
+    "id": "4df88255d56ba061",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 660,
+    "wires": [
+      [
+        "6346fe23c78b0d1c"
+      ]
+    ]
+  },
+  {
+    "id": "8c4f18ac2f788dca",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "ec8fb8c9461f4d99"
+      ]
+    ]
+  },
+  {
+    "id": "e57fb1b32793916a",
+    "type": "credentials",
+    "z": "e067074d6510b7f8",
+    "g": "a50b1d34ca287645",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "c419381bd76bd68a"
+      ]
+    ]
+  }
+]

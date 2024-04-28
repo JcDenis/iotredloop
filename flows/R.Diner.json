@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "f92af28dd3f79491",
+    "type": "tab",
+    "label": "R.Diner",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "55baba5cc2be5e9e",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "diner - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c3765a7cfbce8ad1",
+      "916e9bbca9bcda1b"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "089cb093a1dd98b4",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "diner - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "cfa9b679a6b777b5",
+      "4d7778e0678c41e6",
+      "e6e1bdcedd4890e9"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "acc2b68df2e02c74",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "diner - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "bbf50f3943683db6",
+      "d6202f83353ef991",
+      "82bd3b8afaedc020",
+      "79d4649faa2ab9c9"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "52c7fa5b6c639641",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "diner - scene - telegram motion",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "1c1e708588c48cb5",
+      "e1b1ab94c02ca0f2",
+      "ce1d94991a7cd0dc",
+      "c801343f33b03868",
+      "159225c7783160d6",
+      "6deb0c2bd68abdcb",
+      "98175ba1131aa573",
+      "bbcc85437619ce15",
+      "c0b9b58c3264a04c"
+    ],
+    "x": 94,
+    "y": 1159,
+    "w": 1462,
+    "h": 82
+  },
+  {
+    "id": "cc5ae43626c3d65a",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7648b8bc73881420"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 754,
+    "h": 314
+  },
+  {
+    "id": "7648b8bc73881420",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "cc5ae43626c3d65a",
+    "name": "diner - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "61f467bded814c15",
+      "d04e824288daa16a",
+      "a620c7c7954ebe42",
+      "e2173712f7b8b21d",
+      "eae521ecfa4e75ee",
+      "9a3e3afe80b2b701",
+      "9aa48c5a5b2f8219",
+      "858f53169f187b6f",
+      "7eb3af450e7feb43",
+      "d9d911e71f46b498"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 702,
+    "h": 262
+  },
+  {
+    "id": "1d3e2764fb8f6756",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a0a7213d6a2474dc",
+      "c1608187ad55152b"
+    ],
+    "x": 68,
+    "y": 653,
+    "w": 1314,
+    "h": 374
+  },
+  {
+    "id": "a0a7213d6a2474dc",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "1d3e2764fb8f6756",
+    "name": "diner - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "bba3f0353d4702db",
+      "9d3a986866c3febc",
+      "94c9fb94b0b972e2",
+      "2b30160f07c7d626"
+    ],
+    "x": 694,
+    "y": 731.5,
+    "w": 662,
+    "h": 97
+  },
+  {
+    "id": "c1608187ad55152b",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "1d3e2764fb8f6756",
+    "name": "diner - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1c2cef0a488b0be5",
+      "ad5fb20957fedf7a",
+      "add6c1d206525445",
+      "a17226be170b1430",
+      "e8b4b03dac6d2c7e",
+      "40c44f05d6195e9c",
+      "52c65b4926c01dcf"
+    ],
+    "x": 94,
+    "y": 679,
+    "w": 502,
+    "h": 322
+  },
+  {
+    "id": "126a206e3b9f8d84",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "name": "diner - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e2bcd290d3182190",
+      "ed48b41a8d65c068",
+      "460739902e4300ec",
+      "9c5befdabe842906"
+    ],
+    "x": 68,
+    "y": 1313,
+    "w": 1454,
+    "h": 494
+  },
+  {
+    "id": "e2bcd290d3182190",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "126a206e3b9f8d84",
+    "name": "diner - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "af06cacb11fff5fe",
+      "42c6c2fa748e4af6",
+      "6c0c55fd0aa68012",
+      "80a47335698bad24",
+      "0c10e86097e8a88a",
+      "ea130ca46f50e095",
+      "75ca38de7d418b17"
+    ],
+    "x": 94,
+    "y": 1339,
+    "w": 1402,
+    "h": 82
+  },
+  {
+    "id": "ed48b41a8d65c068",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "126a206e3b9f8d84",
+    "name": "diner - alexa - motion",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2f05be15df782458",
+      "83dd74e85a3b5fd8",
+      "cddcfbc2907339b1",
+      "ef749476b5d2419f",
+      "cfa5810aefc53216"
+    ],
+    "x": 94,
+    "y": 1579,
+    "w": 992,
+    "h": 82
+  },
+  {
+    "id": "460739902e4300ec",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "126a206e3b9f8d84",
+    "name": "diner - alexa - aperture",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "eaab34a171566bb1",
+      "9e4ed658bd7288e2",
+      "14d6f28a5706817e",
+      "4f50879f03a7d340",
+      "4751aa206605fdd9"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 892,
+    "h": 82
+  },
+  {
+    "id": "9c5befdabe842906",
+    "type": "group",
+    "z": "f92af28dd3f79491",
+    "g": "126a206e3b9f8d84",
+    "name": "diner - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b203a0f8c491d028",
+      "f78d99bc5070f731",
+      "4afc1164fa9d0bc4",
+      "b89d513cb14aa267",
+      "21c371f9cb1f0be5"
+    ],
+    "x": 94,
+    "y": 1459,
+    "w": 1032,
+    "h": 82
+  },
+  {
+    "id": "c3765a7cfbce8ad1",
+    "type": "catch",
+    "z": "f92af28dd3f79491",
+    "g": "55baba5cc2be5e9e",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "916e9bbca9bcda1b"
+      ]
+    ]
+  },
+  {
+    "id": "916e9bbca9bcda1b",
+    "type": "debug",
+    "z": "f92af28dd3f79491",
+    "g": "55baba5cc2be5e9e",
+    "name": "diner - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "cfa9b679a6b777b5",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "089cb093a1dd98b4",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "diner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "e6e1bdcedd4890e9"
+      ]
+    ]
+  },
+  {
+    "id": "4d7778e0678c41e6",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "089cb093a1dd98b4",
+    "name": "diner - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "cfa9b679a6b777b5"
+      ]
+    ]
+  },
+  {
+    "id": "e6e1bdcedd4890e9",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "089cb093a1dd98b4",
+    "name": "diner - bucket",
+    "mode": "link",
+    "links": [
+      "add6c1d206525445",
+      "e2173712f7b8b21d"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "bbf50f3943683db6",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "acc2b68df2e02c74",
+    "name": "diner - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1575,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "d6202f83353ef991",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "acc2b68df2e02c74",
+    "name": "diner - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "82bd3b8afaedc020"
+      ]
+    ]
+  },
+  {
+    "id": "82bd3b8afaedc020",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "acc2b68df2e02c74",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "79d4649faa2ab9c9"
+      ]
+    ]
+  },
+  {
+    "id": "79d4649faa2ab9c9",
+    "type": "ui-button",
+    "z": "f92af28dd3f79491",
+    "g": "acc2b68df2e02c74",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Diner",
+    "order": 9,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1450,
+    "y": 60,
+    "wires": [
+      [
+        "bbf50f3943683db6"
+      ]
+    ]
+  },
+  {
+    "id": "1c1e708588c48cb5",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "diner - scene - telegram motion",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 1200,
+    "wires": [
+      [
+        "159225c7783160d6"
+      ]
+    ]
+  },
+  {
+    "id": "e1b1ab94c02ca0f2",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "message",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t    'type':'photo',\t    'caption':'détection mouvement entrée',\t    'content':msg.tmp\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1380,
+    "y": 1200,
+    "wires": [
+      [
+        "6deb0c2bd68abdcb"
+      ]
+    ]
+  },
+  {
+    "id": "ce1d94991a7cd0dc",
+    "type": "http request",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "get snapshot",
+    "method": "GET",
+    "ret": "bin",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 1190,
+    "y": 1200,
+    "wires": [
+      [
+        "e1b1ab94c02ca0f2"
+      ]
+    ]
+  },
+  {
+    "id": "c801343f33b03868",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "camera url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]camera.url",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 990,
+    "y": 1200,
+    "wires": [
+      [
+        "ce1d94991a7cd0dc"
+      ]
+    ]
+  },
+  {
+    "id": "159225c7783160d6",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "parking/motion/sensor 2",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "parking/motion/sensor",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 1200,
+    "wires": [
+      [
+        "98175ba1131aa573"
+      ],
+      [
+        "98175ba1131aa573"
+      ]
+    ]
+  },
+  {
+    "id": "6deb0c2bd68abdcb",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "diner - scene - telegram motion",
+    "mode": "link",
+    "links": [],
+    "x": 1515,
+    "y": 1200,
+    "wires": []
+  },
+  {
+    "id": "98175ba1131aa573",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "true",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1200,
+    "wires": [
+      [
+        "c0b9b58c3264a04c"
+      ]
+    ]
+  },
+  {
+    "id": "bbcc85437619ce15",
+    "type": "trigger",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "repeat 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "pay",
+    "op2type": "payl",
+    "duration": "5",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 800,
+    "y": 1200,
+    "wires": [
+      [
+        "c801343f33b03868"
+      ]
+    ]
+  },
+  {
+    "id": "c0b9b58c3264a04c",
+    "type": "delay",
+    "z": "f92af28dd3f79491",
+    "g": "52c7fa5b6c639641",
+    "name": "1 ms / miin",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "minute",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 610,
+    "y": 1200,
+    "wires": [
+      [
+        "bbcc85437619ce15"
+      ]
+    ]
+  },
+  {
+    "id": "61f467bded814c15",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "FGD212 / xxx / light / ceiling",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGD212",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 360,
+    "wires": [
+      [
+        "eae521ecfa4e75ee"
+      ]
+    ]
+  },
+  {
+    "id": "d04e824288daa16a",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "FGMS001 / xxx / motion / detector",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGMS001",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 420,
+    "wires": [
+      [
+        "eae521ecfa4e75ee"
+      ]
+    ]
+  },
+  {
+    "id": "a620c7c7954ebe42",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "REOLINK / xxx / camera / url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "REOLINK",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "id",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 480,
+    "wires": [
+      [
+        "eae521ecfa4e75ee"
+      ]
+    ]
+  },
+  {
+    "id": "e2173712f7b8b21d",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "diner - device - auto",
+    "links": [
+      "e6e1bdcedd4890e9"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "9aa48c5a5b2f8219",
+        "858f53169f187b6f",
+        "7eb3af450e7feb43",
+        "d9d911e71f46b498"
+      ]
+    ]
+  },
+  {
+    "id": "eae521ecfa4e75ee",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "diner - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 755,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "9a3e3afe80b2b701",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "MCCGQ11LM / xxx / aperture / door",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 540,
+    "wires": [
+      [
+        "eae521ecfa4e75ee"
+      ]
+    ]
+  },
+  {
+    "id": "bba3f0353d4702db",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "a0a7213d6a2474dc",
+    "name": "diner - scene - lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 780,
+    "wires": [
+      [
+        "94c9fb94b0b972e2"
+      ]
+    ]
+  },
+  {
+    "id": "9d3a986866c3febc",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "a0a7213d6a2474dc",
+    "name": "scene lighting / ceiling / dimmer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 780,
+    "wires": [
+      [
+        "2b30160f07c7d626"
+      ]
+    ]
+  },
+  {
+    "id": "94c9fb94b0b972e2",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "a0a7213d6a2474dc",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "diner/motion",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "eq",
+        "v": "diner/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 870,
+    "y": 780,
+    "wires": [
+      [
+        "9d3a986866c3febc"
+      ],
+      [
+        "9d3a986866c3febc"
+      ],
+      [
+        "9d3a986866c3febc"
+      ]
+    ]
+  },
+  {
+    "id": "2b30160f07c7d626",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "a0a7213d6a2474dc",
+    "name": "diner - scene - lighting ceiling",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "1c2cef0a488b0be5",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 720,
+    "wires": [
+      [
+        "ad5fb20957fedf7a"
+      ]
+    ]
+  },
+  {
+    "id": "ad5fb20957fedf7a",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "diner - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "add6c1d206525445",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "diner - device - lighting",
+    "links": [
+      "e6e1bdcedd4890e9"
+    ],
+    "x": 135,
+    "y": 720,
+    "wires": [
+      [
+        "1c2cef0a488b0be5",
+        "a17226be170b1430",
+        "e8b4b03dac6d2c7e",
+        "40c44f05d6195e9c",
+        "52c65b4926c01dcf"
+      ]
+    ]
+  },
+  {
+    "id": "a17226be170b1430",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "lighting / high / dimmer / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 780,
+    "wires": [
+      [
+        "ad5fb20957fedf7a"
+      ]
+    ]
+  },
+  {
+    "id": "e8b4b03dac6d2c7e",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "lighting / low / dimmer / 4",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 840,
+    "wires": [
+      [
+        "ad5fb20957fedf7a"
+      ]
+    ]
+  },
+  {
+    "id": "40c44f05d6195e9c",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "lighting / timer / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 900,
+    "wires": [
+      [
+        "ad5fb20957fedf7a"
+      ]
+    ]
+  },
+  {
+    "id": "52c65b4926c01dcf",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "c1608187ad55152b",
+    "name": "lighting / retention / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "retention",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 360,
+    "y": 960,
+    "wires": [
+      [
+        "ad5fb20957fedf7a"
+      ]
+    ]
+  },
+  {
+    "id": "af06cacb11fff5fe",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "diner - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1455,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "42c6c2fa748e4af6",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "diner - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 1380,
+    "wires": [
+      [
+        "80a47335698bad24"
+      ]
+    ]
+  },
+  {
+    "id": "6c0c55fd0aa68012",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1380,
+    "wires": [
+      [
+        "ea130ca46f50e095"
+      ]
+    ]
+  },
+  {
+    "id": "80a47335698bad24",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1380,
+    "wires": [
+      [
+        "6c0c55fd0aa68012"
+      ]
+    ]
+  },
+  {
+    "id": "0c10e86097e8a88a",
+    "type": "vsh-virtual-device",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "lumière de la salle à manger",
+    "topic": "diner/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 960,
+    "y": 1380,
+    "wires": [
+      [
+        "75ca38de7d418b17"
+      ]
+    ]
+  },
+  {
+    "id": "ea130ca46f50e095",
+    "type": "link call",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "",
+    "links": [
+      "75754d6ac1aaec7b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 1380,
+    "wires": [
+      [
+        "0c10e86097e8a88a"
+      ]
+    ]
+  },
+  {
+    "id": "75ca38de7d418b17",
+    "type": "link call",
+    "z": "f92af28dd3f79491",
+    "g": "e2bcd290d3182190",
+    "name": "",
+    "links": [
+      "71c9fb8b232fe499"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1260,
+    "y": 1380,
+    "wires": [
+      [
+        "af06cacb11fff5fe"
+      ]
+    ]
+  },
+  {
+    "id": "2f05be15df782458",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "ed48b41a8d65c068",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1620,
+    "wires": [
+      [
+        "cddcfbc2907339b1"
+      ]
+    ]
+  },
+  {
+    "id": "83dd74e85a3b5fd8",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "ed48b41a8d65c068",
+    "name": "diner - alexa - motion",
+    "links": [
+      "8f6b9cabcee961b9"
+    ],
+    "x": 135,
+    "y": 1620,
+    "wires": [
+      [
+        "2f05be15df782458"
+      ]
+    ]
+  },
+  {
+    "id": "cddcfbc2907339b1",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "ed48b41a8d65c068",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1620,
+    "wires": [
+      [
+        "ef749476b5d2419f"
+      ]
+    ]
+  },
+  {
+    "id": "ef749476b5d2419f",
+    "type": "link call",
+    "z": "f92af28dd3f79491",
+    "g": "ed48b41a8d65c068",
+    "name": "",
+    "links": [
+      "4f63773f3c770aa4"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 1620,
+    "wires": [
+      [
+        "cfa5810aefc53216"
+      ]
+    ]
+  },
+  {
+    "id": "cfa5810aefc53216",
+    "type": "vsh-virtual-device",
+    "z": "f92af28dd3f79491",
+    "g": "ed48b41a8d65c068",
+    "name": "mouvement de la salle à manger",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "MOTION_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 1620,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "eaab34a171566bb1",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "460739902e4300ec",
+    "name": "diner - alexa - aperture",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 1740,
+    "wires": [
+      [
+        "9e4ed658bd7288e2"
+      ]
+    ]
+  },
+  {
+    "id": "9e4ed658bd7288e2",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "460739902e4300ec",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1740,
+    "wires": [
+      [
+        "14d6f28a5706817e"
+      ]
+    ]
+  },
+  {
+    "id": "14d6f28a5706817e",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "460739902e4300ec",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1740,
+    "wires": [
+      [
+        "4751aa206605fdd9"
+      ]
+    ]
+  },
+  {
+    "id": "4f50879f03a7d340",
+    "type": "vsh-virtual-device",
+    "z": "f92af28dd3f79491",
+    "g": "460739902e4300ec",
+    "name": "porte d'entrée",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 880,
+    "y": 1740,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4751aa206605fdd9",
+    "type": "link call",
+    "z": "f92af28dd3f79491",
+    "g": "460739902e4300ec",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 1740,
+    "wires": [
+      [
+        "4f50879f03a7d340"
+      ]
+    ]
+  },
+  {
+    "id": "b203a0f8c491d028",
+    "type": "link in",
+    "z": "f92af28dd3f79491",
+    "g": "9c5befdabe842906",
+    "name": "diner - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 1500,
+    "wires": [
+      [
+        "f78d99bc5070f731"
+      ]
+    ]
+  },
+  {
+    "id": "f78d99bc5070f731",
+    "type": "switch",
+    "z": "f92af28dd3f79491",
+    "g": "9c5befdabe842906",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1500,
+    "wires": [
+      [
+        "b89d513cb14aa267"
+      ]
+    ]
+  },
+  {
+    "id": "4afc1164fa9d0bc4",
+    "type": "link call",
+    "z": "f92af28dd3f79491",
+    "g": "9c5befdabe842906",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 1500,
+    "wires": [
+      [
+        "21c371f9cb1f0be5"
+      ]
+    ]
+  },
+  {
+    "id": "b89d513cb14aa267",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "9c5befdabe842906",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1500,
+    "wires": [
+      [
+        "4afc1164fa9d0bc4"
+      ]
+    ]
+  },
+  {
+    "id": "21c371f9cb1f0be5",
+    "type": "vsh-virtual-device",
+    "z": "f92af28dd3f79491",
+    "g": "9c5befdabe842906",
+    "name": "température de la salle à manger",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 960,
+    "y": 1500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9aa48c5a5b2f8219",
+    "type": "credentials",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "9a3e3afe80b2b701"
+      ]
+    ]
+  },
+  {
+    "id": "858f53169f187b6f",
+    "type": "credentials",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "a620c7c7954ebe42"
+      ]
+    ]
+  },
+  {
+    "id": "7eb3af450e7feb43",
+    "type": "credentials",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "d04e824288daa16a"
+      ]
+    ]
+  },
+  {
+    "id": "d9d911e71f46b498",
+    "type": "credentials",
+    "z": "f92af28dd3f79491",
+    "g": "7648b8bc73881420",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "61f467bded814c15"
+      ]
+    ]
+  }
+]

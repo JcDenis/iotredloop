@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "5771bd732671238b",
+    "type": "tab",
+    "label": "R.Combles",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "193537e1be29b7bc",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "combles - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "18401f448b0bd35f",
+      "1961ac6e5cc5b6de",
+      "95b38fc6b2a4af14"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "238bb5d60d849f0c",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "combles - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "76372f8d48c270d4",
+      "13b2bbf632a2b7a1"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 452,
+    "h": 82
+  },
+  {
+    "id": "3531a5b2fe7f7472",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "combles - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "4526a823900a3869",
+      "337f1fd20587c947",
+      "f3292a2299ec19e0",
+      "e23aea66f45514ec"
+    ],
+    "x": 1074,
+    "y": 19,
+    "w": 582,
+    "h": 82
+  },
+  {
+    "id": "bb5966c01d1eaad0",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4621825537b5ee7f"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 694,
+    "h": 134
+  },
+  {
+    "id": "4621825537b5ee7f",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "g": "bb5966c01d1eaad0",
+    "name": "combles - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "96ad68746204ca2f",
+      "19a6166e5849a994",
+      "e7cfaeb61c083f59",
+      "d282578a332382dd"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 642,
+    "h": 82
+  },
+  {
+    "id": "08e20e01c191aebd",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "421c21bcc8c48ab9",
+      "86fcaceb70e78fec"
+    ],
+    "x": 68,
+    "y": 473,
+    "w": 3194,
+    "h": 254
+  },
+  {
+    "id": "421c21bcc8c48ab9",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "g": "08e20e01c191aebd",
+    "name": "combles - device - airflow",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7f90999f113cb458",
+      "20c8bf0069977a11",
+      "18bf3df549328c13",
+      "be6c15d2da17946f",
+      "69d1a5ab3f4c9fb1"
+    ],
+    "x": 94,
+    "y": 499,
+    "w": 502,
+    "h": 202
+  },
+  {
+    "id": "86fcaceb70e78fec",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "g": "08e20e01c191aebd",
+    "name": "combles - scene - airflow cmv",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b127f9b286dd8226",
+      "6776ac4a3f4a2d18",
+      "98f3ff1523b62349",
+      "6d7bcab05db6f6e7",
+      "955f1559f63a5ea2",
+      "f9d13a9a505a9648",
+      "f876e1a7dd73a530",
+      "06c1934cb35fe252",
+      "9d29eff077d698b2",
+      "3eccb96609ad2f01",
+      "6ba13cce12190f1e",
+      "36babb9676295b16",
+      "23b5e5e2f74cae2a",
+      "20302fb9fa3b37af",
+      "a15d4c93182b57f1",
+      "2b1cf4b8ad19efa8",
+      "3613ca3ffca7fe77",
+      "01a7df13372b4b78",
+      "08a2d770ee9e09c9"
+    ],
+    "x": 694,
+    "y": 499,
+    "w": 2542,
+    "h": 202
+  },
+  {
+    "id": "18401f448b0bd35f",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "193537e1be29b7bc",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "combles",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "95b38fc6b2a4af14"
+      ]
+    ]
+  },
+  {
+    "id": "1961ac6e5cc5b6de",
+    "type": "link in",
+    "z": "5771bd732671238b",
+    "g": "193537e1be29b7bc",
+    "name": "combles - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "18401f448b0bd35f"
+      ]
+    ]
+  },
+  {
+    "id": "95b38fc6b2a4af14",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "193537e1be29b7bc",
+    "name": "combles - bucket",
+    "mode": "link",
+    "links": [
+      "18bf3df549328c13",
+      "96ad68746204ca2f"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "76372f8d48c270d4",
+    "type": "catch",
+    "z": "5771bd732671238b",
+    "g": "238bb5d60d849f0c",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "13b2bbf632a2b7a1"
+      ]
+    ]
+  },
+  {
+    "id": "13b2bbf632a2b7a1",
+    "type": "debug",
+    "z": "5771bd732671238b",
+    "g": "238bb5d60d849f0c",
+    "name": "combles - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 840,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "4526a823900a3869",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "3531a5b2fe7f7472",
+    "name": "combles - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1615,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "337f1fd20587c947",
+    "type": "link in",
+    "z": "5771bd732671238b",
+    "g": "3531a5b2fe7f7472",
+    "name": "combles - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1115,
+    "y": 60,
+    "wires": [
+      [
+        "f3292a2299ec19e0"
+      ]
+    ]
+  },
+  {
+    "id": "f3292a2299ec19e0",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "3531a5b2fe7f7472",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1280,
+    "y": 60,
+    "wires": [
+      [
+        "e23aea66f45514ec"
+      ]
+    ]
+  },
+  {
+    "id": "e23aea66f45514ec",
+    "type": "ui-button",
+    "z": "5771bd732671238b",
+    "g": "3531a5b2fe7f7472",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Combles",
+    "order": 6,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1480,
+    "y": 60,
+    "wires": [
+      [
+        "4526a823900a3869"
+      ]
+    ]
+  },
+  {
+    "id": "96ad68746204ca2f",
+    "type": "link in",
+    "z": "5771bd732671238b",
+    "g": "4621825537b5ee7f",
+    "name": "combles - device - auto",
+    "links": [
+      "95b38fc6b2a4af14"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "d282578a332382dd"
+      ]
+    ]
+  },
+  {
+    "id": "19a6166e5849a994",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "4621825537b5ee7f",
+    "name": "combles - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 695,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "e7cfaeb61c083f59",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "4621825537b5ee7f",
+    "name": "ZMNHDA / xxx / airflow / cmv",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHDA",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cmv",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 360,
+    "wires": [
+      [
+        "19a6166e5849a994"
+      ]
+    ]
+  },
+  {
+    "id": "7f90999f113cb458",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "421c21bcc8c48ab9",
+    "name": "airflow / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 540,
+    "wires": [
+      [
+        "20c8bf0069977a11"
+      ]
+    ]
+  },
+  {
+    "id": "20c8bf0069977a11",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "421c21bcc8c48ab9",
+    "name": "combles - device - airflow",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "18bf3df549328c13",
+    "type": "link in",
+    "z": "5771bd732671238b",
+    "g": "421c21bcc8c48ab9",
+    "name": "combles - device - airflow",
+    "links": [
+      "95b38fc6b2a4af14"
+    ],
+    "x": 135,
+    "y": 540,
+    "wires": [
+      [
+        "7f90999f113cb458",
+        "be6c15d2da17946f",
+        "69d1a5ab3f4c9fb1"
+      ]
+    ]
+  },
+  {
+    "id": "be6c15d2da17946f",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "421c21bcc8c48ab9",
+    "name": "airflow  / timer / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 600,
+    "wires": [
+      [
+        "20c8bf0069977a11"
+      ]
+    ]
+  },
+  {
+    "id": "69d1a5ab3f4c9fb1",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "421c21bcc8c48ab9",
+    "name": "airflow / humidity / number / 55",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "55",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 660,
+    "wires": [
+      [
+        "20c8bf0069977a11"
+      ]
+    ]
+  },
+  {
+    "id": "b127f9b286dd8226",
+    "type": "link in",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "combles - scene - airflow cmv",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 600,
+    "wires": [
+      [
+        "98f3ff1523b62349"
+      ]
+    ]
+  },
+  {
+    "id": "6776ac4a3f4a2d18",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "scene airflow / vmc / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "cmv",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1100,
+    "y": 600,
+    "wires": [
+      [
+        "6d7bcab05db6f6e7"
+      ]
+    ]
+  },
+  {
+    "id": "98f3ff1523b62349",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "combles/airflow/cmv",
+        "vt": "str"
+      },
+      {
+        "t": "regex",
+        "v": "couloir/humidity",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "regex",
+        "v": "cuisine/humidity",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "regex",
+        "v": "bain/humidity",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/airflow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 870,
+    "y": 600,
+    "wires": [
+      [
+        "6776ac4a3f4a2d18"
+      ],
+      [
+        "6776ac4a3f4a2d18"
+      ],
+      [
+        "6776ac4a3f4a2d18"
+      ],
+      [
+        "6776ac4a3f4a2d18"
+      ],
+      [
+        "6776ac4a3f4a2d18"
+      ]
+    ]
+  },
+  {
+    "id": "6d7bcab05db6f6e7",
+    "type": "link call",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1350,
+    "y": 600,
+    "wires": [
+      [
+        "955f1559f63a5ea2"
+      ]
+    ]
+  },
+  {
+    "id": "955f1559f63a5ea2",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1530,
+    "y": 600,
+    "wires": [
+      [
+        "3eccb96609ad2f01"
+      ]
+    ]
+  },
+  {
+    "id": "f9d13a9a505a9648",
+    "type": "link call",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "",
+    "links": [
+      "834ce9850cdb0a72"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2290,
+    "y": 540,
+    "wires": [
+      [
+        "9d29eff077d698b2"
+      ]
+    ]
+  },
+  {
+    "id": "f876e1a7dd73a530",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "check scene path",
+    "property": "msg.scene.bucket & '/' & msg.scene.measurement & '/' & msg.scene.field",
+    "propertyType": "jsonata",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "combles/airflow/cmv",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2670,
+    "y": 540,
+    "wires": [
+      [
+        "23b5e5e2f74cae2a",
+        "06c1934cb35fe252",
+        "08a2d770ee9e09c9"
+      ]
+    ]
+  },
+  {
+    "id": "06c1934cb35fe252",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "combles - scene - airflow cmv",
+    "mode": "link",
+    "links": [
+      "fb4b4e2a3fb029df"
+    ],
+    "x": 2835,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "9d29eff077d698b2",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2470,
+    "y": 540,
+    "wires": [
+      [
+        "f876e1a7dd73a530"
+      ]
+    ]
+  },
+  {
+    "id": "3eccb96609ad2f01",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "humidity",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 1720,
+    "y": 600,
+    "wires": [
+      [
+        "6ba13cce12190f1e"
+      ],
+      [
+        "2b1cf4b8ad19efa8"
+      ],
+      [
+        "3613ca3ffca7fe77"
+      ]
+    ]
+  },
+  {
+    "id": "6ba13cce12190f1e",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "manual",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1920,
+    "y": 540,
+    "wires": [
+      [
+        "36babb9676295b16"
+      ]
+    ]
+  },
+  {
+    "id": "36babb9676295b16",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2110,
+    "y": 600,
+    "wires": [
+      [
+        "06c1934cb35fe252",
+        "f9d13a9a505a9648",
+        "08a2d770ee9e09c9"
+      ]
+    ]
+  },
+  {
+    "id": "23b5e5e2f74cae2a",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "mode",
+    "property": "metrics.system.mode.airflow",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2870,
+    "y": 540,
+    "wires": [
+      [
+        "20302fb9fa3b37af"
+      ]
+    ]
+  },
+  {
+    "id": "20302fb9fa3b37af",
+    "type": "change",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "metric auto",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3050,
+    "y": 540,
+    "wires": [
+      [
+        "a15d4c93182b57f1"
+      ]
+    ]
+  },
+  {
+    "id": "a15d4c93182b57f1",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "combles - scene - airflow cmv - auto",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 3195,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "2b1cf4b8ad19efa8",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "humidity",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "routine.humidity",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1920,
+    "y": 600,
+    "wires": [
+      [
+        "36babb9676295b16"
+      ]
+    ]
+  },
+  {
+    "id": "3613ca3ffca7fe77",
+    "type": "link call",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "",
+    "links": [
+      "587236e6160da46c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1930,
+    "y": 660,
+    "wires": [
+      [
+        "01a7df13372b4b78",
+        "f9d13a9a505a9648"
+      ]
+    ]
+  },
+  {
+    "id": "01a7df13372b4b78",
+    "type": "switch",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2110,
+    "y": 660,
+    "wires": [
+      [
+        "06c1934cb35fe252",
+        "08a2d770ee9e09c9"
+      ]
+    ]
+  },
+  {
+    "id": "08a2d770ee9e09c9",
+    "type": "debug",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "combles - scene - airflow cmv",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2950,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "d282578a332382dd",
+    "type": "credentials",
+    "z": "5771bd732671238b",
+    "g": "4621825537b5ee7f",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "e7cfaeb61c083f59"
+      ]
+    ]
+  }
+]

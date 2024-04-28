@@ -1,0 +1,1889 @@
+[
+  {
+    "id": "22d006e54a3d540e",
+    "type": "tab",
+    "label": "R.Bain",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "6d58e947dff110ee",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "bain - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "b730c8754d5fc2c3",
+      "a629c78a79a3ee17",
+      "6ba22e84394777c7"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "571d0ba088563aeb",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "bain - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "963809a45309059a",
+      "68b4ff4ea0fad7a3"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "19200e8e78557f65",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "bain - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "92e5847f6900c415",
+      "06a05a3b06eca91f",
+      "1ec1ddf8b0a9bcdf",
+      "0638fd5334b851ae"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "21097995b534a80b",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "46a08518c5bb9ce2"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 774,
+    "h": 374
+  },
+  {
+    "id": "46a08518c5bb9ce2",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "21097995b534a80b",
+    "name": "bain - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bc11ee4332f56481",
+      "7bf79299171b0038",
+      "703da3e421c584aa",
+      "6cd456ba34400a6a",
+      "e62e7b2d85b3997c",
+      "8db8818d7469cdac",
+      "d9050545c93458f2",
+      "20e7e61a48e6cb88",
+      "64bf3c38db50d4a0",
+      "88c9e1067f008d00",
+      "ff2bf968a219bd4a",
+      "c2adb3a0d11c327d"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 722,
+    "h": 322
+  },
+  {
+    "id": "9dd238c5169cf25c",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d4498f98e516542d",
+      "b3b1b4e2e2d75416",
+      "9fbe802ea1ae31a6"
+    ],
+    "x": 68,
+    "y": 713,
+    "w": 1314,
+    "h": 254
+  },
+  {
+    "id": "d4498f98e516542d",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "9dd238c5169cf25c",
+    "name": "bain - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "29dbd45ee8f262dd",
+      "42f17a35a7d311ab",
+      "e7d74944116148e1",
+      "2ff0940468e68dbc"
+    ],
+    "x": 94,
+    "y": 739,
+    "w": 502,
+    "h": 142
+  },
+  {
+    "id": "b3b1b4e2e2d75416",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "9dd238c5169cf25c",
+    "name": "bain - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b6335ea10e33770a",
+      "30092c240105f345",
+      "74517c27f24c0f32",
+      "912556577f30a22e"
+    ],
+    "x": 694,
+    "y": 739,
+    "w": 662,
+    "h": 82
+  },
+  {
+    "id": "9fbe802ea1ae31a6",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "9dd238c5169cf25c",
+    "name": "bain - scene - lighting spots",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "35f16b1c6d64b20e",
+      "96a581d46acd8867",
+      "22c593dda8fceaf6",
+      "846814ea1666f8b1"
+    ],
+    "x": 694,
+    "y": 859,
+    "w": 662,
+    "h": 82
+  },
+  {
+    "id": "881d596fdc82e61a",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "name": "bain - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9d5beb0f52651723",
+      "63a11f3d13d3fd58",
+      "d19d63c0e3e6568e",
+      "b1cfcae0fa7d5696",
+      "19feb7590c49fcca"
+    ],
+    "x": 68,
+    "y": 1073,
+    "w": 1434,
+    "h": 614
+  },
+  {
+    "id": "9d5beb0f52651723",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "881d596fdc82e61a",
+    "name": "bain - alexa - light ceiling",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b924cf12aceef8a9",
+      "afc2c10fc0e2820a",
+      "31871c4bdba68a2a",
+      "d09d369c82d6c731",
+      "b388903f5f5511a8",
+      "547b853f945e5abe",
+      "6775a3b43f86623d"
+    ],
+    "x": 94,
+    "y": 1099,
+    "w": 1382,
+    "h": 82
+  },
+  {
+    "id": "63a11f3d13d3fd58",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "881d596fdc82e61a",
+    "name": "bain - alexa - light spots",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b41c55b4d5f168ad",
+      "9bb27cb83a75d4ac",
+      "9133cb910fbe540d",
+      "3829ccb07ef39a34",
+      "3ac51af95fa58e22",
+      "41849f136ab59985",
+      "aa77bc3cbcc423f9"
+    ],
+    "x": 94,
+    "y": 1219,
+    "w": 1382,
+    "h": 82
+  },
+  {
+    "id": "d19d63c0e3e6568e",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "881d596fdc82e61a",
+    "name": "bain - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a89dbae39e9a3522",
+      "09d1c9d3cee4487c",
+      "773ef2907aeba7f5",
+      "9e0acd59780a5b7f",
+      "edf9bf83038418d2"
+    ],
+    "x": 94,
+    "y": 1339,
+    "w": 1012,
+    "h": 82
+  },
+  {
+    "id": "b1cfcae0fa7d5696",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "881d596fdc82e61a",
+    "name": "bain - alexa - aperture door",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8b43350290b32368",
+      "57dd994c663b6f01",
+      "e4a18f2fda66f01e",
+      "08fe0836aeba21fe",
+      "02b3d1fe54b763bf"
+    ],
+    "x": 94,
+    "y": 1459,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "19feb7590c49fcca",
+    "type": "group",
+    "z": "22d006e54a3d540e",
+    "g": "881d596fdc82e61a",
+    "name": "bain - alexa - aperture window",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "fd405f97a4afd11a",
+      "478a0f6fd1c7f151",
+      "1d84350961683c91",
+      "d0d2f50ee401dbca",
+      "2b91b319787bc0f2"
+    ],
+    "x": 94,
+    "y": 1579,
+    "w": 952,
+    "h": 82
+  },
+  {
+    "id": "b730c8754d5fc2c3",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "6d58e947dff110ee",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bain",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "6ba22e84394777c7"
+      ]
+    ]
+  },
+  {
+    "id": "a629c78a79a3ee17",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "6d58e947dff110ee",
+    "name": "bain - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "b730c8754d5fc2c3"
+      ]
+    ]
+  },
+  {
+    "id": "6ba22e84394777c7",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "6d58e947dff110ee",
+    "name": "bain - bucket",
+    "mode": "link",
+    "links": [
+      "2ff0940468e68dbc",
+      "bc11ee4332f56481"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "963809a45309059a",
+    "type": "catch",
+    "z": "22d006e54a3d540e",
+    "g": "571d0ba088563aeb",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "68b4ff4ea0fad7a3"
+      ]
+    ]
+  },
+  {
+    "id": "68b4ff4ea0fad7a3",
+    "type": "debug",
+    "z": "22d006e54a3d540e",
+    "g": "571d0ba088563aeb",
+    "name": "bain - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "92e5847f6900c415",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "19200e8e78557f65",
+    "name": "bain - room ui",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1575,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "06a05a3b06eca91f",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "19200e8e78557f65",
+    "name": "bain - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "1ec1ddf8b0a9bcdf"
+      ]
+    ]
+  },
+  {
+    "id": "1ec1ddf8b0a9bcdf",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "19200e8e78557f65",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "0638fd5334b851ae"
+      ]
+    ]
+  },
+  {
+    "id": "0638fd5334b851ae",
+    "type": "ui-button",
+    "z": "22d006e54a3d540e",
+    "g": "19200e8e78557f65",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Bain",
+    "order": 3,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1450,
+    "y": 60,
+    "wires": [
+      [
+        "92e5847f6900c415"
+      ]
+    ]
+  },
+  {
+    "id": "bc11ee4332f56481",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "bain - device - auto",
+    "links": [
+      "6ba22e84394777c7"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "20e7e61a48e6cb88",
+        "64bf3c38db50d4a0",
+        "88c9e1067f008d00",
+        "ff2bf968a219bd4a",
+        "c2adb3a0d11c327d"
+      ]
+    ]
+  },
+  {
+    "id": "7bf79299171b0038",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "THG / xxx / temperature / probe",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "THG",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 360,
+    "wires": [
+      [
+        "703da3e421c584aa"
+      ]
+    ]
+  },
+  {
+    "id": "703da3e421c584aa",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "bain - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 775,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "6cd456ba34400a6a",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "MCCGQ11LM / xxx / aperture / window",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "window",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 420,
+    "wires": [
+      [
+        "703da3e421c584aa"
+      ]
+    ]
+  },
+  {
+    "id": "e62e7b2d85b3997c",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "MCCGQ11LM / xxx / aperture / door",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 480,
+    "wires": [
+      [
+        "703da3e421c584aa"
+      ]
+    ]
+  },
+  {
+    "id": "8db8818d7469cdac",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "ZMNHBD / xxx / light / spots (option 1)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "spots",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 540,
+    "wires": [
+      [
+        "703da3e421c584aa"
+      ]
+    ]
+  },
+  {
+    "id": "d9050545c93458f2",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "ZMNHBD / xxx / light / ceiling (option 2)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 600,
+    "wires": [
+      [
+        "703da3e421c584aa"
+      ]
+    ]
+  },
+  {
+    "id": "29dbd45ee8f262dd",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "d4498f98e516542d",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 780,
+    "wires": [
+      [
+        "42f17a35a7d311ab"
+      ]
+    ]
+  },
+  {
+    "id": "42f17a35a7d311ab",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "d4498f98e516542d",
+    "name": "bain - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "e7d74944116148e1",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "d4498f98e516542d",
+    "name": "lighting / timer / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 840,
+    "wires": [
+      [
+        "42f17a35a7d311ab"
+      ]
+    ]
+  },
+  {
+    "id": "2ff0940468e68dbc",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "d4498f98e516542d",
+    "name": "bain - device - lighting",
+    "links": [
+      "6ba22e84394777c7"
+    ],
+    "x": 135,
+    "y": 780,
+    "wires": [
+      [
+        "29dbd45ee8f262dd",
+        "e7d74944116148e1"
+      ]
+    ]
+  },
+  {
+    "id": "b6335ea10e33770a",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "b3b1b4e2e2d75416",
+    "name": "bain - scene - lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 780,
+    "wires": [
+      [
+        "74517c27f24c0f32"
+      ]
+    ]
+  },
+  {
+    "id": "30092c240105f345",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "b3b1b4e2e2d75416",
+    "name": "scene lighting / ceiling / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 780,
+    "wires": [
+      [
+        "912556577f30a22e"
+      ]
+    ]
+  },
+  {
+    "id": "74517c27f24c0f32",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "b3b1b4e2e2d75416",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bain/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 870,
+    "y": 780,
+    "wires": [
+      [
+        "30092c240105f345"
+      ],
+      [
+        "30092c240105f345"
+      ]
+    ]
+  },
+  {
+    "id": "912556577f30a22e",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "b3b1b4e2e2d75416",
+    "name": "bain - scene - lighting ceiling",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "35f16b1c6d64b20e",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "9fbe802ea1ae31a6",
+    "name": "bain - scene - lighting spots",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 900,
+    "wires": [
+      [
+        "22c593dda8fceaf6"
+      ]
+    ]
+  },
+  {
+    "id": "96a581d46acd8867",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "9fbe802ea1ae31a6",
+    "name": "scene lighting / spots / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "spots",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 900,
+    "wires": [
+      [
+        "846814ea1666f8b1"
+      ]
+    ]
+  },
+  {
+    "id": "22c593dda8fceaf6",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "9fbe802ea1ae31a6",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bain/light/spots",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 870,
+    "y": 900,
+    "wires": [
+      [
+        "96a581d46acd8867"
+      ],
+      [
+        "96a581d46acd8867"
+      ]
+    ]
+  },
+  {
+    "id": "846814ea1666f8b1",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "9fbe802ea1ae31a6",
+    "name": "bain - scene - lighting spots",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "b924cf12aceef8a9",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "bain - alexa - light ceiling",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1435,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "afc2c10fc0e2820a",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "bain - alexa - light ceiling",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 1140,
+    "wires": [
+      [
+        "d09d369c82d6c731"
+      ]
+    ]
+  },
+  {
+    "id": "31871c4bdba68a2a",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1140,
+    "wires": [
+      [
+        "b388903f5f5511a8"
+      ]
+    ]
+  },
+  {
+    "id": "d09d369c82d6c731",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1140,
+    "wires": [
+      [
+        "31871c4bdba68a2a"
+      ]
+    ]
+  },
+  {
+    "id": "b388903f5f5511a8",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "",
+    "links": [
+      "bac2afafe6b36787"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 1140,
+    "wires": [
+      [
+        "547b853f945e5abe"
+      ]
+    ]
+  },
+  {
+    "id": "547b853f945e5abe",
+    "type": "vsh-virtual-device",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "lumière de la salle de bain",
+    "topic": "bain/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 950,
+    "y": 1140,
+    "wires": [
+      [
+        "6775a3b43f86623d"
+      ]
+    ]
+  },
+  {
+    "id": "6775a3b43f86623d",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "9d5beb0f52651723",
+    "name": "",
+    "links": [
+      "d71667633c63d82c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1240,
+    "y": 1140,
+    "wires": [
+      [
+        "b924cf12aceef8a9"
+      ]
+    ]
+  },
+  {
+    "id": "b41c55b4d5f168ad",
+    "type": "link out",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "bain - alexa - light spots",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1435,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "9bb27cb83a75d4ac",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "spots",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1260,
+    "wires": [
+      [
+        "3ac51af95fa58e22"
+      ]
+    ]
+  },
+  {
+    "id": "9133cb910fbe540d",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "bain - alexa - light spots",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 1260,
+    "wires": [
+      [
+        "3829ccb07ef39a34"
+      ]
+    ]
+  },
+  {
+    "id": "3829ccb07ef39a34",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1260,
+    "wires": [
+      [
+        "9bb27cb83a75d4ac"
+      ]
+    ]
+  },
+  {
+    "id": "3ac51af95fa58e22",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "",
+    "links": [
+      "bac2afafe6b36787"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 1260,
+    "wires": [
+      [
+        "aa77bc3cbcc423f9"
+      ]
+    ]
+  },
+  {
+    "id": "41849f136ab59985",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "",
+    "links": [
+      "d71667633c63d82c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1240,
+    "y": 1260,
+    "wires": [
+      [
+        "b41c55b4d5f168ad"
+      ]
+    ]
+  },
+  {
+    "id": "aa77bc3cbcc423f9",
+    "type": "vsh-virtual-device",
+    "z": "22d006e54a3d540e",
+    "g": "63a11f3d13d3fd58",
+    "name": "mirroir de la salle de bain",
+    "topic": "bain/cible/spots",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 950,
+    "y": 1260,
+    "wires": [
+      [
+        "41849f136ab59985"
+      ]
+    ]
+  },
+  {
+    "id": "a89dbae39e9a3522",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "d19d63c0e3e6568e",
+    "name": "bain - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 1380,
+    "wires": [
+      [
+        "09d1c9d3cee4487c"
+      ]
+    ]
+  },
+  {
+    "id": "09d1c9d3cee4487c",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "d19d63c0e3e6568e",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1380,
+    "wires": [
+      [
+        "9e0acd59780a5b7f"
+      ]
+    ]
+  },
+  {
+    "id": "773ef2907aeba7f5",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "d19d63c0e3e6568e",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 1380,
+    "wires": [
+      [
+        "edf9bf83038418d2"
+      ]
+    ]
+  },
+  {
+    "id": "9e0acd59780a5b7f",
+    "type": "change",
+    "z": "22d006e54a3d540e",
+    "g": "d19d63c0e3e6568e",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 1380,
+    "wires": [
+      [
+        "773ef2907aeba7f5"
+      ]
+    ]
+  },
+  {
+    "id": "edf9bf83038418d2",
+    "type": "vsh-virtual-device",
+    "z": "22d006e54a3d540e",
+    "g": "d19d63c0e3e6568e",
+    "name": "température de la salle de bain",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 950,
+    "y": 1380,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8b43350290b32368",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "b1cfcae0fa7d5696",
+    "name": "bain - alexa - aperture door",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 1500,
+    "wires": [
+      [
+        "57dd994c663b6f01"
+      ]
+    ]
+  },
+  {
+    "id": "57dd994c663b6f01",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "b1cfcae0fa7d5696",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1500,
+    "wires": [
+      [
+        "e4a18f2fda66f01e"
+      ]
+    ]
+  },
+  {
+    "id": "e4a18f2fda66f01e",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "b1cfcae0fa7d5696",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1500,
+    "wires": [
+      [
+        "02b3d1fe54b763bf"
+      ]
+    ]
+  },
+  {
+    "id": "08fe0836aeba21fe",
+    "type": "vsh-virtual-device",
+    "z": "22d006e54a3d540e",
+    "g": "b1cfcae0fa7d5696",
+    "name": "porte de la salle de bain",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 910,
+    "y": 1500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "02b3d1fe54b763bf",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "b1cfcae0fa7d5696",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 1500,
+    "wires": [
+      [
+        "08fe0836aeba21fe"
+      ]
+    ]
+  },
+  {
+    "id": "fd405f97a4afd11a",
+    "type": "link in",
+    "z": "22d006e54a3d540e",
+    "g": "19feb7590c49fcca",
+    "name": "bain - alexa - aperture window",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 1620,
+    "wires": [
+      [
+        "478a0f6fd1c7f151"
+      ]
+    ]
+  },
+  {
+    "id": "478a0f6fd1c7f151",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "19feb7590c49fcca",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1620,
+    "wires": [
+      [
+        "1d84350961683c91"
+      ]
+    ]
+  },
+  {
+    "id": "1d84350961683c91",
+    "type": "switch",
+    "z": "22d006e54a3d540e",
+    "g": "19feb7590c49fcca",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 1620,
+    "wires": [
+      [
+        "2b91b319787bc0f2"
+      ]
+    ]
+  },
+  {
+    "id": "d0d2f50ee401dbca",
+    "type": "vsh-virtual-device",
+    "z": "22d006e54a3d540e",
+    "g": "19feb7590c49fcca",
+    "name": "fenêtre de la salle de bain",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 910,
+    "y": 1620,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "2b91b319787bc0f2",
+    "type": "link call",
+    "z": "22d006e54a3d540e",
+    "g": "19feb7590c49fcca",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 1620,
+    "wires": [
+      [
+        "d0d2f50ee401dbca"
+      ]
+    ]
+  },
+  {
+    "id": "20e7e61a48e6cb88",
+    "type": "credentials",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "d9050545c93458f2"
+      ]
+    ]
+  },
+  {
+    "id": "64bf3c38db50d4a0",
+    "type": "credentials",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "8db8818d7469cdac"
+      ]
+    ]
+  },
+  {
+    "id": "88c9e1067f008d00",
+    "type": "credentials",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "e62e7b2d85b3997c"
+      ]
+    ]
+  },
+  {
+    "id": "ff2bf968a219bd4a",
+    "type": "credentials",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "6cd456ba34400a6a"
+      ]
+    ]
+  },
+  {
+    "id": "c2adb3a0d11c327d",
+    "type": "credentials",
+    "z": "22d006e54a3d540e",
+    "g": "46a08518c5bb9ce2",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "7bf79299171b0038"
+      ]
+    ]
+  }
+]
