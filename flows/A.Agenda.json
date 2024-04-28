@@ -70,6 +70,28 @@
     "h": 2054
   },
   {
+    "id": "97f32de0144908e5",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "agenda - trash",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2d16095457052f90",
+      "99b5327a504595cb",
+      "256d3616419c8f06",
+      "ae7e12b3bdb36104",
+      "ab67b3da085ffcc5"
+    ],
+    "x": 68,
+    "y": 2393,
+    "w": 2674,
+    "h": 1334
+  },
+  {
     "id": "31de927a663fcb1e",
     "type": "group",
     "z": "b66c229035856438",
@@ -246,28 +268,6 @@
     "y": 2179,
     "w": 752,
     "h": 142
-  },
-  {
-    "id": "97f32de0144908e5",
-    "type": "group",
-    "z": "b66c229035856438",
-    "name": "agenda - trash",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "2d16095457052f90",
-      "99b5327a504595cb",
-      "256d3616419c8f06",
-      "ae7e12b3bdb36104",
-      "ab67b3da085ffcc5"
-    ],
-    "x": 68,
-    "y": 2393,
-    "w": 2674,
-    "h": 1334
   },
   {
     "id": "2d16095457052f90",
@@ -1832,7 +1832,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"show\":[\"Anniversaires à venir\"]\t   }\t}",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Agenda:Anniversaires à venir\"]\t   }\t}",
         "tot": "jsonata"
       },
       {
@@ -1867,7 +1867,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"hide\":[\"Anniversaires à venir\"]\t   }\t}",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Agenda:Anniversaires à venir\"]\t   }\t}",
         "tot": "jsonata"
       },
       {
@@ -3848,7 +3848,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"show\":[\"Poubelles\"]\t   }\t}",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Agenda:Poubelles\"]\t   }\t}",
         "tot": "jsonata"
       },
       {
@@ -3883,7 +3883,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"hide\":[\"Poubelles\"]\t   }\t}",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Agenda:Poubelles\"]\t   }\t}",
         "tot": "jsonata"
       },
       {

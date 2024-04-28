@@ -28,6 +28,7 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 It additionnaly uses some Telegram, Proxmox, Unifi, Nextcloud (agenda) and Amazon Alexa stuff.
 
 * [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) 15.1.10
+* [node-red-contrib-proxmox](https://flows.nodered.org/node/node-red-contrib-proxmox) 0.0.2
 * [node-red-contrib-unifi](https://flows.nodered.org/node/node-red-contrib-unifi) 0.3.15
 * [@kuehnelbs/node-red-contrib-nextcloud](https://flows.nodered.org/node/@kuehnelbs/node-red-contrib-nextcloud) 0.1.3
 * [node-red-contrib-alexa-remote2-applestrudel](https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel) 5.0.50

@@ -1,0 +1,2542 @@
+[
+  {
+    "id": "422511c2793ff288",
+    "type": "tab",
+    "label": "A.Proxmox",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "084e99676c7d5cd2",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "name": "proxmox - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "38ad0afbe58797db",
+      "20d1445f64476706"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 452,
+    "h": 82
+  },
+  {
+    "id": "0c72531717a01ea2",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "name": "proxmox - ui - servers",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e66b05819afe5f9b",
+      "cf36484da72c0614",
+      "3e575131b157d58c",
+      "591d9584f2826895",
+      "ae506fba4bac5e81",
+      "9112bb2a8dc47460",
+      "b5afd4eb06f899a1",
+      "adb22cd4e76fd9eb",
+      "76323f6b74b3cf6e",
+      "a0264b96576e8fc6",
+      "42e6573c9c69f200",
+      "dbec9d8eafc144f8",
+      "308b8672ef449d0c",
+      "46e028f30bd1e4df",
+      "c6ac70f99bf92330",
+      "1de41c5ebf6163d6",
+      "60cbbe86ef1ca6c8",
+      "10fd8311c39ec414",
+      "fea797bca6360e73",
+      "3d380600a548966c",
+      "140844d72684e5fd",
+      "502e6e4ee5518983",
+      "a68c83cf64464a78",
+      "9a09e268a979f777",
+      "9971e6ae76308194",
+      "254c6a165d02d73c",
+      "ad774d4c0392a7fd",
+      "27bee2c35bd62e53",
+      "8db58c6858a53e3b",
+      "6411bcf28b7ffa6f",
+      "fcb805254a062bbc",
+      "24fe1694a71b23a0",
+      "b28e23d2535310a5",
+      "f04f1b08715e2da9",
+      "21e0a26a69851550"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 952,
+    "h": 862
+  },
+  {
+    "id": "7df081d38de8d887",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "name": "proxmox - list",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a3768ce65939db54",
+      "23929da1a8dc3ab1",
+      "1c774f316a83189f",
+      "0c26626f4e3adf41",
+      "5395e3432fb6a03a",
+      "7c482f95d5acd377",
+      "3be3338a465d07b4",
+      "73fc98b86fa09bd4",
+      "e463ecf298cb67dd",
+      "5a9bc4ec16bbbbdd",
+      "2c10659ba7fe0d2e",
+      "043c1679f6189be4",
+      "eba5563db4b6c071",
+      "e5a2a2539df70a6a",
+      "7ac6d616ebb5757c",
+      "e4bf0709d1045f3a",
+      "17e5368c34dd3491",
+      "7f8d43438348795d",
+      "1043788b4cd33ebf",
+      "643d93be5812d978",
+      "10eef034696319a1",
+      "70e4f4553c942c61",
+      "400c9b7813cf6d51",
+      "f675d1dd4067f84b",
+      "b1bb3606daf5a8eb",
+      "87c78a11cf031035",
+      "ee02a80588e4865e",
+      "939a9569896f434a",
+      "075ac2c97dc15b14",
+      "9b1c118db9a99b9e",
+      "148252a55589c509",
+      "b67ff7c8de31abd1",
+      "7757f127c3b4cace",
+      "be08cc3353798b38",
+      "7302166d0d52c751",
+      "be5d5fbef097ff89",
+      "b7808f0d1452b125",
+      "d3a356b2b25b55cc",
+      "23f8be1e8c0ed116",
+      "dbc00f1ad95d7531",
+      "e1768552a28f6516",
+      "c749dbb3c75164bd",
+      "486eab6cd67669f4",
+      "cd60eff79722f6a8",
+      "eddef41fac28be72",
+      "284f816c5e8bbfec",
+      "ed43589ee9e39cd5",
+      "6f3f8af06908f533",
+      "5def5c4c2f2f242a",
+      "f6aaeec4c6fdfabe",
+      "522b6c161afcb47e"
+    ],
+    "x": 94,
+    "y": 1099,
+    "w": 3072,
+    "h": 562
+  },
+  {
+    "id": "38ad0afbe58797db",
+    "type": "catch",
+    "z": "422511c2793ff288",
+    "g": "084e99676c7d5cd2",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "20d1445f64476706"
+      ]
+    ]
+  },
+  {
+    "id": "20d1445f64476706",
+    "type": "debug",
+    "z": "422511c2793ff288",
+    "g": "084e99676c7d5cd2",
+    "name": "proxmox - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 840,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "e66b05819afe5f9b",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "proxmox - ui - servers",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "46e028f30bd1e4df"
+      ]
+    ]
+  },
+  {
+    "id": "cf36484da72c0614",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 1,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": false,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "3e575131b157d58c",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 3,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "591d9584f2826895",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 4,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ae506fba4bac5e81",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 5,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9112bb2a8dc47460",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 6,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 540,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b5afd4eb06f899a1",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 7,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 600,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "adb22cd4e76fd9eb",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 8,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 660,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "76323f6b74b3cf6e",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 9,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 720,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a0264b96576e8fc6",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 780,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "42e6573c9c69f200",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 2,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": false,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 300,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "dbec9d8eafc144f8",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 840,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "308b8672ef449d0c",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 900,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "46e028f30bd1e4df",
+    "type": "delay",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "",
+    "pauseType": "delayv",
+    "timeout": "10",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 540,
+    "y": 240,
+    "wires": [
+      [
+        "502e6e4ee5518983",
+        "a68c83cf64464a78",
+        "9a09e268a979f777",
+        "9971e6ae76308194",
+        "254c6a165d02d73c",
+        "ad774d4c0392a7fd",
+        "27bee2c35bd62e53",
+        "8db58c6858a53e3b",
+        "6411bcf28b7ffa6f",
+        "fcb805254a062bbc",
+        "24fe1694a71b23a0",
+        "b28e23d2535310a5",
+        "f04f1b08715e2da9",
+        "21e0a26a69851550"
+      ]
+    ]
+  },
+  {
+    "id": "c6ac70f99bf92330",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "page name",
+    "property": "payload.page.name",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Serveur",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 350,
+    "y": 300,
+    "wires": [
+      [
+        "46e028f30bd1e4df"
+      ]
+    ]
+  },
+  {
+    "id": "1de41c5ebf6163d6",
+    "type": "comment",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "do not work for now",
+    "info": "",
+    "x": 210,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "60cbbe86ef1ca6c8",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "name": "",
+    "label": "Recharger",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 190,
+    "y": 420,
+    "wires": [
+      [
+        "10fd8311c39ec414"
+      ]
+    ]
+  },
+  {
+    "id": "10fd8311c39ec414",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "now",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delay",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 420,
+    "wires": [
+      [
+        "46e028f30bd1e4df"
+      ]
+    ]
+  },
+  {
+    "id": "fea797bca6360e73",
+    "type": "ui-event",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "ui": "2d75e4809d2a6fbf",
+    "name": "",
+    "x": 190,
+    "y": 300,
+    "wires": [
+      [
+        "c6ac70f99bf92330"
+      ]
+    ]
+  },
+  {
+    "id": "3d380600a548966c",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 960,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "140844d72684e5fd",
+    "type": "ui-template",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "group": "0e7c66df5c84175b",
+    "page": "",
+    "ui": "",
+    "name": "",
+    "order": 8,
+    "width": "3",
+    "height": "1",
+    "head": "",
+    "format": "<template>\n    <v-btn @click=\"gotoserver()\">{{ msg.payload }}</v-btn>\n</template>\n\n<script>\n    export default {\n  name: 'MyLink',\n  data() {\n    return {\n        my_link: ''\n    }\n  },\n  methods: {\n    gotoserver: function () {\n        window.open(`${this.my_link}`);\n    }\n  },\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        this.my_link = msg.topic\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
+    "storeOutMessages": true,
+    "passthru": true,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "className": "",
+    "x": 960,
+    "y": 1020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a3768ce65939db54",
+    "type": "proxmox-api",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "lxc",
+    "path": "nodes/proxmox-ve-02/lxc",
+    "method": "GET",
+    "payload": "",
+    "server": "b2b86208a514c8a7",
+    "x": 450,
+    "y": 1340,
+    "wires": [
+      [
+        "10eef034696319a1"
+      ]
+    ]
+  },
+  {
+    "id": "23929da1a8dc3ab1",
+    "type": "proxmox-api",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "qemu",
+    "path": "nodes/proxmox-ve-02/qemu",
+    "method": "GET",
+    "payload": "",
+    "server": "b2b86208a514c8a7",
+    "x": 450,
+    "y": 1400,
+    "wires": [
+      [
+        "0c26626f4e3adf41"
+      ]
+    ]
+  },
+  {
+    "id": "1c774f316a83189f",
+    "type": "split",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 770,
+    "y": 1400,
+    "wires": [
+      [
+        "5395e3432fb6a03a"
+      ]
+    ]
+  },
+  {
+    "id": "0c26626f4e3adf41",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "list",
+    "rules": [
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::list_qemu",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 1400,
+    "wires": [
+      [
+        "1c774f316a83189f"
+      ]
+    ]
+  },
+  {
+    "id": "5395e3432fb6a03a",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::list_qemu[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\"label\":msg.payload.name, \"value\":msg.payload.vmid}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 1400,
+    "wires": [
+      [
+        "7c482f95d5acd377"
+      ]
+    ]
+  },
+  {
+    "id": "7c482f95d5acd377",
+    "type": "join",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1090,
+    "y": 1400,
+    "wires": [
+      [
+        "3be3338a465d07b4"
+      ]
+    ]
+  },
+  {
+    "id": "3be3338a465d07b4",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "#:(memoryOnly)::list_qemu",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 1400,
+    "wires": [
+      [
+        "be08cc3353798b38"
+      ]
+    ]
+  },
+  {
+    "id": "73fc98b86fa09bd4",
+    "type": "proxmox-api",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "vm",
+    "path": "",
+    "method": "GET",
+    "payload": "",
+    "server": "b2b86208a514c8a7",
+    "x": 2210,
+    "y": 1500,
+    "wires": [
+      [
+        "5a9bc4ec16bbbbdd",
+        "643d93be5812d978",
+        "1043788b4cd33ebf",
+        "7f8d43438348795d",
+        "b67ff7c8de31abd1"
+      ]
+    ]
+  },
+  {
+    "id": "e463ecf298cb67dd",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/proxmox-ve-02/qemu/' & msg.payload & '/status/current'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::current_vmid",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::current_type",
+        "pt": "flow",
+        "to": "qemu",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "reset",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1630,
+    "y": 1400,
+    "wires": [
+      [
+        "5def5c4c2f2f242a"
+      ]
+    ]
+  },
+  {
+    "id": "5a9bc4ec16bbbbdd",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "status",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload.status='running'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 1380,
+    "wires": [
+      [
+        "ee02a80588e4865e",
+        "148252a55589c509"
+      ]
+    ]
+  },
+  {
+    "id": "2c10659ba7fe0d2e",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "cpu",
+    "rules": [
+      {
+        "t": "set",
+        "p": "cpus",
+        "pt": "msg",
+        "to": "payload.cpus",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$round(msg.payload.cpu,3)*100",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload & '% (' & msg.cpus & ')'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2530,
+    "y": 1500,
+    "wires": [
+      [
+        "c749dbb3c75164bd"
+      ]
+    ]
+  },
+  {
+    "id": "043c1679f6189be4",
+    "type": "function",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "convert",
+    "func": "var bytes = msg.payload;\nvar decimals = 2;\n\nconst k = 1024;\nconst dm = decimals < 0 ? 0 : decimals;\nconst sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];\n\nconst i = Math.floor(Math.log(bytes) / Math.log(k));\n\nmsg.payload = parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];\n\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2720,
+    "y": 1560,
+    "wires": [
+      [
+        "486eab6cd67669f4"
+      ]
+    ]
+  },
+  {
+    "id": "eba5563db4b6c071",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "memory",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.mem",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2540,
+    "y": 1560,
+    "wires": [
+      [
+        "043c1679f6189be4"
+      ]
+    ]
+  },
+  {
+    "id": "e5a2a2539df70a6a",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "uptime",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.uptime",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2530,
+    "y": 1440,
+    "wires": [
+      [
+        "7ac6d616ebb5757c"
+      ]
+    ]
+  },
+  {
+    "id": "7ac6d616ebb5757c",
+    "type": "humanizer",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "input": "",
+    "x": 2710,
+    "y": 1440,
+    "wires": [
+      [
+        "cd60eff79722f6a8"
+      ]
+    ]
+  },
+  {
+    "id": "e4bf0709d1045f3a",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1630,
+    "y": 1280,
+    "wires": [
+      [
+        "dbc00f1ad95d7531",
+        "e1768552a28f6516",
+        "c749dbb3c75164bd",
+        "486eab6cd67669f4"
+      ]
+    ]
+  },
+  {
+    "id": "17e5368c34dd3491",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1630,
+    "y": 1220,
+    "wires": [
+      [
+        "7757f127c3b4cace",
+        "be5d5fbef097ff89",
+        "b7808f0d1452b125",
+        "d3a356b2b25b55cc",
+        "23f8be1e8c0ed116"
+      ]
+    ]
+  },
+  {
+    "id": "7f8d43438348795d",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "0",
+    "property": "payload.uptime",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2370,
+    "y": 1440,
+    "wires": [
+      [
+        "e5a2a2539df70a6a"
+      ]
+    ]
+  },
+  {
+    "id": "1043788b4cd33ebf",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "0",
+    "property": "payload.mem",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2370,
+    "y": 1560,
+    "wires": [
+      [
+        "eba5563db4b6c071"
+      ]
+    ]
+  },
+  {
+    "id": "643d93be5812d978",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "0",
+    "property": "payload.cpu",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2370,
+    "y": 1500,
+    "wires": [
+      [
+        "2c10659ba7fe0d2e"
+      ]
+    ]
+  },
+  {
+    "id": "10eef034696319a1",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "list",
+    "rules": [
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::list_lxc",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 1340,
+    "wires": [
+      [
+        "70e4f4553c942c61"
+      ]
+    ]
+  },
+  {
+    "id": "70e4f4553c942c61",
+    "type": "split",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 770,
+    "y": 1340,
+    "wires": [
+      [
+        "400c9b7813cf6d51"
+      ]
+    ]
+  },
+  {
+    "id": "400c9b7813cf6d51",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::list_lxc[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\"label\":msg.payload.name, \"value\":msg.payload.vmid}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 1340,
+    "wires": [
+      [
+        "f675d1dd4067f84b"
+      ]
+    ]
+  },
+  {
+    "id": "f675d1dd4067f84b",
+    "type": "join",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1090,
+    "y": 1340,
+    "wires": [
+      [
+        "b1bb3606daf5a8eb"
+      ]
+    ]
+  },
+  {
+    "id": "b1bb3606daf5a8eb",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "#:(memoryOnly)::list_lxc",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 1340,
+    "wires": [
+      [
+        "7302166d0d52c751"
+      ]
+    ]
+  },
+  {
+    "id": "87c78a11cf031035",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/proxmox-ve-02/lxc/' & msg.payload & '/status/current'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::current_vmid",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::current_type",
+        "pt": "flow",
+        "to": "lxc",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "reset",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1630,
+    "y": 1340,
+    "wires": [
+      [
+        "5def5c4c2f2f242a"
+      ]
+    ]
+  },
+  {
+    "id": "ee02a80588e4865e",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "true",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      },
+      {
+        "t": "false"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2530,
+    "y": 1320,
+    "wires": [
+      [
+        "b7808f0d1452b125",
+        "d3a356b2b25b55cc",
+        "23f8be1e8c0ed116"
+      ],
+      [
+        "be5d5fbef097ff89"
+      ]
+    ]
+  },
+  {
+    "id": "939a9569896f434a",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "raz",
+    "rules": [
+      {
+        "t": "set",
+        "p": "#:(memoryOnly)::current_vmid",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "current_type",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 1280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "075ac2c97dc15b14",
+    "type": "proxmox-api",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "start/stop",
+    "path": "",
+    "method": "POST",
+    "payload": "",
+    "server": "b2b86208a514c8a7",
+    "x": 3040,
+    "y": 1140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9b1c118db9a99b9e",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "type",
+        "pt": "msg",
+        "to": "#:(memoryOnly)::current_type",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "vmid",
+        "pt": "msg",
+        "to": "#:(memoryOnly)::current_vmid",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/proxmox-ve-02/' & msg.type & '/' & msg.vmid & '/status/' & msg.payload",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2870,
+    "y": 1140,
+    "wires": [
+      [
+        "075ac2c97dc15b14"
+      ]
+    ]
+  },
+  {
+    "id": "148252a55589c509",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload?'Démarré':'Arrêté'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2530,
+    "y": 1380,
+    "wires": [
+      [
+        "e1768552a28f6516"
+      ]
+    ]
+  },
+  {
+    "id": "b67ff7c8de31abd1",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "loop",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "delete",
+        "p": "reset",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 1620,
+    "wires": [
+      [
+        "7757f127c3b4cace"
+      ]
+    ]
+  },
+  {
+    "id": "7757f127c3b4cace",
+    "type": "trigger",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "op1": "",
+    "op2": "",
+    "op1type": "pay",
+    "op2type": "payl",
+    "duration": "30",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 2020,
+    "y": 1500,
+    "wires": [
+      [
+        "73fc98b86fa09bd4"
+      ]
+    ]
+  },
+  {
+    "id": "be08cc3353798b38",
+    "type": "ui-dropdown",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "Liste VM",
+    "label": "Liste VM",
+    "tooltip": "",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [],
+    "payload": "",
+    "topic": "topic",
+    "topicType": "msg",
+    "className": "",
+    "x": 1440,
+    "y": 1400,
+    "wires": [
+      [
+        "17e5368c34dd3491",
+        "e4bf0709d1045f3a",
+        "e463ecf298cb67dd"
+      ]
+    ]
+  },
+  {
+    "id": "7302166d0d52c751",
+    "type": "ui-dropdown",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "Liste LXC",
+    "label": "Liste LXC",
+    "tooltip": "",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [],
+    "payload": "",
+    "topic": "topic",
+    "topicType": "msg",
+    "className": "",
+    "x": 1440,
+    "y": 1340,
+    "wires": [
+      [
+        "e4bf0709d1045f3a",
+        "17e5368c34dd3491",
+        "87c78a11cf031035"
+      ]
+    ]
+  },
+  {
+    "id": "be5d5fbef097ff89",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "start",
+    "label": "start",
+    "order": 4,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "start",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 2690,
+    "y": 1140,
+    "wires": [
+      [
+        "9b1c118db9a99b9e",
+        "f6aaeec4c6fdfabe"
+      ]
+    ]
+  },
+  {
+    "id": "b7808f0d1452b125",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "shutdown",
+    "label": "shutdown",
+    "order": 5,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "shutdown",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 2700,
+    "y": 1200,
+    "wires": [
+      [
+        "9b1c118db9a99b9e",
+        "f6aaeec4c6fdfabe"
+      ]
+    ]
+  },
+  {
+    "id": "d3a356b2b25b55cc",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "stop",
+    "label": "stop",
+    "order": 6,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "stop",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 2690,
+    "y": 1260,
+    "wires": [
+      [
+        "9b1c118db9a99b9e",
+        "f6aaeec4c6fdfabe"
+      ]
+    ]
+  },
+  {
+    "id": "23f8be1e8c0ed116",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "reboot",
+    "label": "reboot",
+    "order": 7,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "reboot",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 2690,
+    "y": 1320,
+    "wires": [
+      [
+        "9b1c118db9a99b9e",
+        "f6aaeec4c6fdfabe"
+      ]
+    ]
+  },
+  {
+    "id": "dbc00f1ad95d7531",
+    "type": "ui-text",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "order": 8,
+    "width": "3",
+    "height": "1",
+    "name": "uptime",
+    "label": "Disponibilité",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3070,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "e1768552a28f6516",
+    "type": "ui-text",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "order": 9,
+    "width": "3",
+    "height": "1",
+    "name": "state",
+    "label": "Status",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3070,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "c749dbb3c75164bd",
+    "type": "ui-text",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "order": 10,
+    "width": "3",
+    "height": "1",
+    "name": "cpu",
+    "label": "CPU",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3070,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "486eab6cd67669f4",
+    "type": "ui-text",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "order": 11,
+    "width": "3",
+    "height": "1",
+    "name": "memory",
+    "label": "Mémoire",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 3080,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "cd60eff79722f6a8",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.humanized",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2900,
+    "y": 1440,
+    "wires": [
+      [
+        "dbc00f1ad95d7531"
+      ]
+    ]
+  },
+  {
+    "id": "eddef41fac28be72",
+    "type": "delay",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "pauseType": "delay",
+    "timeout": "4",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 280,
+    "y": 1340,
+    "wires": [
+      [
+        "a3768ce65939db54",
+        "23929da1a8dc3ab1"
+      ]
+    ]
+  },
+  {
+    "id": "284f816c5e8bbfec",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "proxmox - list - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 1220,
+    "wires": [
+      [
+        "eddef41fac28be72",
+        "ed43589ee9e39cd5",
+        "17e5368c34dd3491",
+        "e4bf0709d1045f3a",
+        "939a9569896f434a"
+      ]
+    ]
+  },
+  {
+    "id": "ed43589ee9e39cd5",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "class",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 1180,
+    "wires": [
+      [
+        "be08cc3353798b38",
+        "7302166d0d52c751"
+      ]
+    ]
+  },
+  {
+    "id": "6f3f8af06908f533",
+    "type": "ui-button",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "name": "",
+    "label": "Recharger les listes",
+    "order": 3,
+    "width": "4",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "",
+    "topicType": "str",
+    "x": 250,
+    "y": 1400,
+    "wires": [
+      [
+        "939a9569896f434a",
+        "a3768ce65939db54",
+        "23929da1a8dc3ab1"
+      ]
+    ]
+  },
+  {
+    "id": "5def5c4c2f2f242a",
+    "type": "delay",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1810,
+    "y": 1500,
+    "wires": [
+      [
+        "7757f127c3b4cace"
+      ]
+    ]
+  },
+  {
+    "id": "f6aaeec4c6fdfabe",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "'Commande '&msg.payload&' envoyée'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2880,
+    "y": 1220,
+    "wires": [
+      [
+        "522b6c161afcb47e"
+      ]
+    ]
+  },
+  {
+    "id": "522b6c161afcb47e",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "proxmox - list - ui notification",
+    "mode": "link",
+    "links": [
+      "32eb12f106b8c786"
+    ],
+    "x": 3015,
+    "y": 1220,
+    "wires": []
+  },
+  {
+    "id": "502e6e4ee5518983",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Proxmox VE 2",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 740,
+    "y": 240,
+    "wires": [
+      [
+        "cf36484da72c0614"
+      ]
+    ]
+  },
+  {
+    "id": "a68c83cf64464a78",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Proxmox BS",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 730,
+    "y": 300,
+    "wires": [
+      [
+        "42e6573c9c69f200"
+      ]
+    ]
+  },
+  {
+    "id": "9a09e268a979f777",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Portainer",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 360,
+    "wires": [
+      [
+        "3e575131b157d58c"
+      ]
+    ]
+  },
+  {
+    "id": "9971e6ae76308194",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "MQTT Server",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 740,
+    "y": 420,
+    "wires": [
+      [
+        "591d9584f2826895"
+      ]
+    ]
+  },
+  {
+    "id": "254c6a165d02d73c",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "InfluxDB",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 480,
+    "wires": [
+      [
+        "ae506fba4bac5e81"
+      ]
+    ]
+  },
+  {
+    "id": "ad774d4c0392a7fd",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Grarfana",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 540,
+    "wires": [
+      [
+        "9112bb2a8dc47460"
+      ]
+    ]
+  },
+  {
+    "id": "27bee2c35bd62e53",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Zigbee",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 710,
+    "y": 600,
+    "wires": [
+      [
+        "b5afd4eb06f899a1"
+      ]
+    ]
+  },
+  {
+    "id": "8db58c6858a53e3b",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Nodered admin",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 740,
+    "y": 660,
+    "wires": [
+      [
+        "adb22cd4e76fd9eb"
+      ]
+    ]
+  },
+  {
+    "id": "6411bcf28b7ffa6f",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Telefino",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 720,
+    "wires": [
+      [
+        "76323f6b74b3cf6e"
+      ]
+    ]
+  },
+  {
+    "id": "fcb805254a062bbc",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Rhasspy",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 780,
+    "wires": [
+      [
+        "a0264b96576e8fc6"
+      ]
+    ]
+  },
+  {
+    "id": "24fe1694a71b23a0",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Baikal",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 710,
+    "y": 840,
+    "wires": [
+      [
+        "dbec9d8eafc144f8"
+      ]
+    ]
+  },
+  {
+    "id": "b28e23d2535310a5",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Nextcloud",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 720,
+    "y": 900,
+    "wires": [
+      [
+        "308b8672ef449d0c"
+      ]
+    ]
+  },
+  {
+    "id": "f04f1b08715e2da9",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Zwave",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 710,
+    "y": 960,
+    "wires": [
+      [
+        "3d380600a548966c"
+      ]
+    ]
+  },
+  {
+    "id": "21e0a26a69851550",
+    "type": "credentials",
+    "z": "422511c2793ff288",
+    "g": "0c72531717a01ea2",
+    "name": "Nodered 2 admin",
+    "props": [
+      {
+        "value": "topic",
+        "type": "msg"
+      },
+      {
+        "value": "payload",
+        "type": "msg"
+      }
+    ],
+    "x": 750,
+    "y": 1020,
+    "wires": [
+      [
+        "140844d72684e5fd"
+      ]
+    ]
+  }
+]
