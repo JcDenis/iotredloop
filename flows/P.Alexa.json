@@ -1,0 +1,2829 @@
+[
+  {
+    "id": "29b296e6cd0e71d4",
+    "type": "tab",
+    "label": "P.Alexa",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "ef7759af584f1554",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "alexa - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "cbbf8c62de0a42bf",
+      "30497b91559e19be",
+      "44f0ce21a685646d"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "c0d165c4444f33ea",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "alexa - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1dc05eeb856a3d67",
+      "4b26e0b104ec9b92"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "9244bfd4d05d9c3e",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "alexa - cookie",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1366f3887e6de0cb",
+      "8231cb6e85943b7c",
+      "55cbb5ab30240ed6",
+      "3b2c87205ae7f992"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 692,
+    "h": 82
+  },
+  {
+    "id": "bbefe025338a4088",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "14e0d85a9ac6e841",
+      "1c534b810e84e08e",
+      "e99dd4c84ec9e592",
+      "ecbb15d090609fc8",
+      "5c6dcdea30bb06c9",
+      "dd0cd2517e6feaf8",
+      "6780505ad50ac4e1",
+      "ae46386170328f5c",
+      "908ea7d905a2dad7",
+      "51ceee5c0be8de4a"
+    ],
+    "x": 68,
+    "y": 473,
+    "w": 1684,
+    "h": 1514
+  },
+  {
+    "id": "0cf81dc631df6bea",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "alexa - devices list (for test)",
+    "style": {
+      "label": true,
+      "fill": "#ffffff",
+      "fill-opacity": "0.5"
+    },
+    "nodes": [
+      "5de8989847f9f971",
+      "f2a5668521a88557",
+      "343850ed88d34457"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 672,
+    "h": 82
+  },
+  {
+    "id": "ba098df60748f1ec",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "Amazon - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO (Echo dot)",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a02b86cff33f1dca",
+      "0682776dd86300a3",
+      "87b8cfe55d906fd5"
+    ],
+    "x": 68,
+    "y": 2033,
+    "w": 3704,
+    "h": 374
+  },
+  {
+    "id": "d46561c0f240c1d9",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "name": "alexa - scene - alexa volume",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40fba6c8db067ba4",
+      "99e7f893cc8dae67",
+      "d57c1aa7c8da85f1",
+      "ec5f4de486b97abe",
+      "a8d85078f3957372",
+      "fc0e652128ecb25c",
+      "1e025ff7fc8568d1",
+      "7ff8d19e2e35e954",
+      "15f9ac6e39cd016d",
+      "648122455e4a957c",
+      "f97a07997323b23e",
+      "14eec5651b551dc4",
+      "76bd8af6b6128264",
+      "01452057616dc1a2",
+      "e444a1af33bee623",
+      "88df17dcb0946bf8",
+      "7b51138aecde4277"
+    ],
+    "x": 94,
+    "y": 2479,
+    "w": 2402,
+    "h": 142
+  },
+  {
+    "id": "14e0d85a9ac6e841",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bac2afafe6b36787",
+      "e4e7631c6fab2404",
+      "73a344f5aa76de1a"
+    ],
+    "x": 94,
+    "y": 919,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "1c534b810e84e08e",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0cb8b001d26ab0f6",
+      "75754d6ac1aaec7b",
+      "249fef17f8771773"
+    ],
+    "x": 94,
+    "y": 1159,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "e99dd4c84ec9e592",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6535229c2dd376c9",
+      "d71667633c63d82c",
+      "fb111aaebf0f258e"
+    ],
+    "x": 94,
+    "y": 1039,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "ecbb15d090609fc8",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "446a0cefda006859",
+      "71c9fb8b232fe499",
+      "11c222e5ea163fdc"
+    ],
+    "x": 94,
+    "y": 1279,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "5c6dcdea30bb06c9",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bffa617af6ce8c3d",
+      "50c950cddc1506ed",
+      "afa470c057243812",
+      "d112ec082c65d477"
+    ],
+    "x": 94,
+    "y": 1399,
+    "w": 682,
+    "h": 82
+  },
+  {
+    "id": "dd0cd2517e6feaf8",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "73c07a0bc5e5429b",
+      "57e31f09110f90bb",
+      "d36d0a56d64ac67f"
+    ],
+    "x": 94,
+    "y": 1639,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "6780505ad50ac4e1",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "47b11bbf1d3e7fcc",
+      "86f02da7eff1e3ba",
+      "5343778df9e41f37"
+    ],
+    "x": 94,
+    "y": 1759,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "ae46386170328f5c",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "fe6a5c2e3e4416b3",
+      "7af8e11321061713",
+      "57fe55dd66ce7430"
+    ],
+    "x": 94,
+    "y": 1879,
+    "w": 402,
+    "h": 82
+  },
+  {
+    "id": "908ea7d905a2dad7",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "",
+    "style": {
+      "stroke": "#92d04f",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f3671fca25729acb",
+      "5bbf3534937cb6fd",
+      "4f63773f3c770aa4",
+      "89f1bff02808524b"
+    ],
+    "x": 94,
+    "y": 1519,
+    "w": 622,
+    "h": 82
+  },
+  {
+    "id": "51ceee5c0be8de4a",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "bbefe025338a4088",
+    "name": "alexa - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "5b890ebe6c97c558",
+      "e5f05d2e50ad94c2",
+      "abd3bb3b24dd961a",
+      "87e913d97ffb7a61",
+      "df6a69e3a774eebc",
+      "4a684de1f0119272",
+      "e01b2ed76f5813e5",
+      "a66c6d1f8e271921",
+      "8f6b9cabcee961b9",
+      "e4b27a57cc6c68b2",
+      "c961c347fd2d14b5",
+      "0eb598bfeb13128a",
+      "6d91296005a60d65",
+      "340d0829b2817429",
+      "fc80a58fdafa773a"
+    ],
+    "x": 94,
+    "y": 499,
+    "w": 1632,
+    "h": 382
+  },
+  {
+    "id": "a02b86cff33f1dca",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "ba098df60748f1ec",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bea29679dc04c1e3",
+      "fdbf3fd639e2816d",
+      "8fe237c19ff04689",
+      "ef3d95058c83d22a",
+      "73d4e0dc30041c36",
+      "92d08f37b5ebd992",
+      "928a16e58e1d2df1",
+      "321b80c73e592b7d",
+      "3f703a1a32c3f909",
+      "d2c146eec286df08"
+    ],
+    "x": 94,
+    "y": 2059,
+    "w": 822,
+    "h": 322
+  },
+  {
+    "id": "0682776dd86300a3",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "ba098df60748f1ec",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - source volume",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f6b9b81c233ba8d7",
+      "21d4d7a5a388de06",
+      "c0355b3c98fed255",
+      "0e7d2769799909af",
+      "49c88081983abecf",
+      "981daf7e528f93a4"
+    ],
+    "x": 1014,
+    "y": 2059,
+    "w": 1002,
+    "h": 82
+  },
+  {
+    "id": "87b8cfe55d906fd5",
+    "type": "group",
+    "z": "29b296e6cd0e71d4",
+    "g": "ba098df60748f1ec",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - metric volume",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ba866ee153e8e14f",
+      "5e1f61b100dc5e9f",
+      "5298351c16bc5872",
+      "b5c60f5b6f67d36f",
+      "f4b27d3a31761870",
+      "9303aa5b0ee47dcf",
+      "dc7d7c5316cfb32d"
+    ],
+    "x": 2114,
+    "y": 2059,
+    "w": 1632,
+    "h": 82
+  },
+  {
+    "id": "ffaca9844c8ed35d",
+    "type": "comment",
+    "z": "29b296e6cd0e71d4",
+    "name": "Alexa - Amazon",
+    "info": "",
+    "x": 1100,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "cbbf8c62de0a42bf",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "ef7759af584f1554",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "44f0ce21a685646d"
+      ]
+    ]
+  },
+  {
+    "id": "30497b91559e19be",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "ef7759af584f1554",
+    "name": "bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "cbbf8c62de0a42bf"
+      ]
+    ]
+  },
+  {
+    "id": "44f0ce21a685646d",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "ef7759af584f1554",
+    "name": "bucket",
+    "mode": "link",
+    "links": [
+      "3b2c87205ae7f992"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "1dc05eeb856a3d67",
+    "type": "catch",
+    "z": "29b296e6cd0e71d4",
+    "d": true,
+    "g": "c0d165c4444f33ea",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "4b26e0b104ec9b92"
+      ]
+    ]
+  },
+  {
+    "id": "4b26e0b104ec9b92",
+    "type": "debug",
+    "z": "29b296e6cd0e71d4",
+    "d": true,
+    "g": "c0d165c4444f33ea",
+    "name": "alexa - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "1366f3887e6de0cb",
+    "type": "debug",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "alexa - cookie",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 660,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "8231cb6e85943b7c",
+    "type": "alexa-remote-init",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "",
+    "account": "b71b7e764b1feec5",
+    "option": "initialise",
+    "x": 460,
+    "y": 360,
+    "wires": [
+      [
+        "1366f3887e6de0cb"
+      ]
+    ]
+  },
+  {
+    "id": "55cbb5ab30240ed6",
+    "type": "delay",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "15 s",
+    "pauseType": "delay",
+    "timeout": "15",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "8231cb6e85943b7c"
+      ]
+    ]
+  },
+  {
+    "id": "3b2c87205ae7f992",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "alexa - cookie",
+    "links": [
+      "44f0ce21a685646d"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "55cbb5ab30240ed6"
+      ]
+    ]
+  },
+  {
+    "id": "bac2afafe6b36787",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "14e0d85a9ac6e841",
+    "name": "alexa - switch boolean to state",
+    "links": [],
+    "x": 135,
+    "y": 960,
+    "wires": [
+      [
+        "73a344f5aa76de1a"
+      ]
+    ]
+  },
+  {
+    "id": "e4e7631c6fab2404",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "14e0d85a9ac6e841",
+    "name": "alexa - switch boolean to state",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "73a344f5aa76de1a",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "14e0d85a9ac6e841",
+    "name": "boolean to state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.powerState",
+        "pt": "msg",
+        "to": "msg.tmp?'ON':'OFF'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 300,
+    "y": 960,
+    "wires": [
+      [
+        "e4e7631c6fab2404"
+      ]
+    ]
+  },
+  {
+    "id": "0cb8b001d26ab0f6",
+    "type": "function",
+    "z": "29b296e6cd0e71d4",
+    "g": "1c534b810e84e08e",
+    "name": "dimmer to state",
+    "func": "msg.payload=parseInt(msg.payload)\nif (msg.payload>0){\n    msg.payload={}\n    msg.payload.powerState=\"ON\";\n    return msg;\n}\n\nmsg.payload={}\nmsg.payload.powerState=\"OFF\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 300,
+    "y": 1200,
+    "wires": [
+      [
+        "249fef17f8771773"
+      ]
+    ]
+  },
+  {
+    "id": "75754d6ac1aaec7b",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "1c534b810e84e08e",
+    "name": "alexa - switch dimmer to sate",
+    "links": [],
+    "x": 135,
+    "y": 1200,
+    "wires": [
+      [
+        "0cb8b001d26ab0f6"
+      ]
+    ]
+  },
+  {
+    "id": "249fef17f8771773",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "1c534b810e84e08e",
+    "name": "alexa - switch dimmer to sate",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1200,
+    "wires": []
+  },
+  {
+    "id": "6535229c2dd376c9",
+    "type": "function",
+    "z": "29b296e6cd0e71d4",
+    "g": "e99dd4c84ec9e592",
+    "name": "state to boolean",
+    "func": "if (msg.payload.powerState==\"ON\"){\n    msg.payload=true;\n    return msg;\n}\n\nmsg.payload=false;\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 300,
+    "y": 1080,
+    "wires": [
+      [
+        "fb111aaebf0f258e"
+      ]
+    ]
+  },
+  {
+    "id": "d71667633c63d82c",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "e99dd4c84ec9e592",
+    "name": "alexa - switch state to boolean",
+    "links": [],
+    "x": 135,
+    "y": 1080,
+    "wires": [
+      [
+        "6535229c2dd376c9"
+      ]
+    ]
+  },
+  {
+    "id": "fb111aaebf0f258e",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "e99dd4c84ec9e592",
+    "name": "alexa - switch state to boolean",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "446a0cefda006859",
+    "type": "function",
+    "z": "29b296e6cd0e71d4",
+    "g": "ecbb15d090609fc8",
+    "name": "state to dimmer",
+    "func": "if (msg.payload.powerState==\"ON\"){\n    msg.payload=4;\n    return msg;\n}\n\nmsg.payload=0;\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 300,
+    "y": 1320,
+    "wires": [
+      [
+        "11c222e5ea163fdc"
+      ]
+    ]
+  },
+  {
+    "id": "71c9fb8b232fe499",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "ecbb15d090609fc8",
+    "name": "alexa - switch state to dimmer",
+    "links": [],
+    "x": 135,
+    "y": 1320,
+    "wires": [
+      [
+        "446a0cefda006859"
+      ]
+    ]
+  },
+  {
+    "id": "11c222e5ea163fdc",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "ecbb15d090609fc8",
+    "name": "alexa - switch state to dimmer",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "bffa617af6ce8c3d",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "5c6dcdea30bb06c9",
+    "name": "temperature to state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.temperature",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 1440,
+    "wires": [
+      [
+        "afa470c057243812"
+      ]
+    ]
+  },
+  {
+    "id": "50c950cddc1506ed",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "5c6dcdea30bb06c9",
+    "name": "alexa - temperature to state",
+    "links": [],
+    "x": 135,
+    "y": 1440,
+    "wires": [
+      [
+        "d112ec082c65d477"
+      ]
+    ]
+  },
+  {
+    "id": "afa470c057243812",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "5c6dcdea30bb06c9",
+    "name": "alexa - temperature to state",
+    "mode": "return",
+    "links": [],
+    "x": 735,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "d112ec082c65d477",
+    "type": "link call",
+    "z": "29b296e6cd0e71d4",
+    "g": "5c6dcdea30bb06c9",
+    "name": "",
+    "links": [
+      "ddd39f991efd9d31"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 310,
+    "y": 1440,
+    "wires": [
+      [
+        "bffa617af6ce8c3d"
+      ]
+    ]
+  },
+  {
+    "id": "73c07a0bc5e5429b",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "dd0cd2517e6feaf8",
+    "name": "alexa - contact to state",
+    "links": [],
+    "x": 135,
+    "y": 1680,
+    "wires": [
+      [
+        "57e31f09110f90bb"
+      ]
+    ]
+  },
+  {
+    "id": "57e31f09110f90bb",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "dd0cd2517e6feaf8",
+    "name": "contact to state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.detectionState",
+        "pt": "msg",
+        "to": "$number(msg.tmp)=1?'DETECTED':'NOT_DETECTED'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 300,
+    "y": 1680,
+    "wires": [
+      [
+        "d36d0a56d64ac67f"
+      ]
+    ]
+  },
+  {
+    "id": "d36d0a56d64ac67f",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "dd0cd2517e6feaf8",
+    "name": "alexa - contact to state",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1680,
+    "wires": []
+  },
+  {
+    "id": "47b11bbf1d3e7fcc",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "6780505ad50ac4e1",
+    "name": "shutter to state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{    'percentage':msg.tmp}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 300,
+    "y": 1800,
+    "wires": [
+      [
+        "5343778df9e41f37"
+      ]
+    ]
+  },
+  {
+    "id": "86f02da7eff1e3ba",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "6780505ad50ac4e1",
+    "name": "alexa - shutter to state",
+    "links": [],
+    "x": 135,
+    "y": 1800,
+    "wires": [
+      [
+        "47b11bbf1d3e7fcc"
+      ]
+    ]
+  },
+  {
+    "id": "5343778df9e41f37",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "6780505ad50ac4e1",
+    "name": "alexa - shutter to state",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "fe6a5c2e3e4416b3",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "ae46386170328f5c",
+    "name": "state to shutter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$number(msg.payload.percentage)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 300,
+    "y": 1920,
+    "wires": [
+      [
+        "57fe55dd66ce7430"
+      ]
+    ]
+  },
+  {
+    "id": "7af8e11321061713",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "ae46386170328f5c",
+    "name": "alexa - state to shutter",
+    "links": [],
+    "x": 135,
+    "y": 1920,
+    "wires": [
+      [
+        "fe6a5c2e3e4416b3"
+      ]
+    ]
+  },
+  {
+    "id": "57fe55dd66ce7430",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "ae46386170328f5c",
+    "name": "alexa - state to shutter",
+    "mode": "return",
+    "links": [],
+    "x": 455,
+    "y": 1920,
+    "wires": []
+  },
+  {
+    "id": "f3671fca25729acb",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "908ea7d905a2dad7",
+    "name": "motion to state",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.detectionState",
+        "pt": "msg",
+        "to": "$number(msg.tmp)=1?'DETECTED':'NOT_DETECTED'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1560,
+    "wires": [
+      [
+        "89f1bff02808524b"
+      ]
+    ]
+  },
+  {
+    "id": "5bbf3534937cb6fd",
+    "type": "link call",
+    "z": "29b296e6cd0e71d4",
+    "g": "908ea7d905a2dad7",
+    "name": "",
+    "links": [
+      "12b1109de2f09cfc"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 290,
+    "y": 1560,
+    "wires": [
+      [
+        "f3671fca25729acb"
+      ]
+    ]
+  },
+  {
+    "id": "4f63773f3c770aa4",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "908ea7d905a2dad7",
+    "name": "alexa - motion to state",
+    "links": [],
+    "x": 135,
+    "y": 1560,
+    "wires": [
+      [
+        "5bbf3534937cb6fd"
+      ]
+    ]
+  },
+  {
+    "id": "89f1bff02808524b",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "908ea7d905a2dad7",
+    "name": "alexa - motion to state",
+    "mode": "return",
+    "links": [],
+    "x": 675,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "5b890ebe6c97c558",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 720,
+    "wires": [
+      [
+        "e5f05d2e50ad94c2"
+      ]
+    ]
+  },
+  {
+    "id": "e5f05d2e50ad94c2",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "mode assistant",
+    "property": "metrics.system.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 300,
+    "y": 720,
+    "wires": [
+      [
+        "87e913d97ffb7a61"
+      ]
+    ]
+  },
+  {
+    "id": "abd3bb3b24dd961a",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - light",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "87e913d97ffb7a61",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "select measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "light",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "outlet",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "temperature",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "motion",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "aperture",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 540,
+    "y": 720,
+    "wires": [
+      [
+        "abd3bb3b24dd961a"
+      ],
+      [
+        "fc80a58fdafa773a"
+      ],
+      [
+        "a66c6d1f8e271921"
+      ],
+      [
+        "8f6b9cabcee961b9"
+      ],
+      [
+        "e4b27a57cc6c68b2"
+      ]
+    ]
+  },
+  {
+    "id": "df6a69e3a774eebc",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement",
+    "links": [],
+    "x": 1055,
+    "y": 720,
+    "wires": [
+      [
+        "4a684de1f0119272"
+      ]
+    ]
+  },
+  {
+    "id": "4a684de1f0119272",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "mode assistant",
+    "property": "metrics.system.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1220,
+    "y": 720,
+    "wires": [
+      [
+        "6d91296005a60d65"
+      ]
+    ]
+  },
+  {
+    "id": "e01b2ed76f5813e5",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1555,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "a66c6d1f8e271921",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - temperature",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "8f6b9cabcee961b9",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - motion",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "e4b27a57cc6c68b2",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "volet",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 750,
+    "y": 780,
+    "wires": [
+      [
+        "340d0829b2817429"
+      ],
+      [
+        "c961c347fd2d14b5"
+      ]
+    ]
+  },
+  {
+    "id": "c961c347fd2d14b5",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - aperture",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "0eb598bfeb13128a",
+    "type": "debug",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa metric",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1610,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "6d91296005a60d65",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "set topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'loop/'&msg.topic",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1420,
+    "y": 720,
+    "wires": [
+      [
+        "e01b2ed76f5813e5",
+        "0eb598bfeb13128a"
+      ]
+    ]
+  },
+  {
+    "id": "340d0829b2817429",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - shutter",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "fc80a58fdafa773a",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "51ceee5c0be8de4a",
+    "name": "alexa - measurement - socket",
+    "mode": "link",
+    "links": [],
+    "x": 885,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "5de8989847f9f971",
+    "type": "alexa-remote-echo",
+    "z": "29b296e6cd0e71d4",
+    "g": "0cf81dc631df6bea",
+    "name": "",
+    "account": "b71b7e764b1feec5",
+    "config": {
+      "option": "get",
+      "value": {
+        "what": "device",
+        "device": {
+          "type": "str",
+          "value": "ALEXA_ALL_DSN"
+        }
+      }
+    },
+    "x": 390,
+    "y": 240,
+    "wires": [
+      [
+        "343850ed88d34457"
+      ]
+    ]
+  },
+  {
+    "id": "f2a5668521a88557",
+    "type": "inject",
+    "z": "29b296e6cd0e71d4",
+    "g": "0cf81dc631df6bea",
+    "name": "",
+    "props": [],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "x": 190,
+    "y": 240,
+    "wires": [
+      [
+        "5de8989847f9f971"
+      ]
+    ]
+  },
+  {
+    "id": "343850ed88d34457",
+    "type": "debug",
+    "z": "29b296e6cd0e71d4",
+    "g": "0cf81dc631df6bea",
+    "name": "alexa - devices list",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 630,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "bea29679dc04c1e3",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2160,
+    "wires": [
+      [
+        "ef3d95058c83d22a"
+      ]
+    ]
+  },
+  {
+    "id": "fdbf3fd639e2816d",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 2100,
+    "wires": [
+      [
+        "8fe237c19ff04689"
+      ]
+    ]
+  },
+  {
+    "id": "8fe237c19ff04689",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "A32DOYMUN6DTXA",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "A4ZP7ZC4PI6TO",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 2100,
+    "wires": [
+      [
+        "bea29679dc04c1e3",
+        "92d08f37b5ebd992",
+        "321b80c73e592b7d",
+        "3f703a1a32c3f909",
+        "d2c146eec286df08"
+      ],
+      [
+        "92d08f37b5ebd992",
+        "321b80c73e592b7d",
+        "3f703a1a32c3f909",
+        "d2c146eec286df08"
+      ]
+    ]
+  },
+  {
+    "id": "ef3d95058c83d22a",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 740,
+    "y": 2100,
+    "wires": [
+      [
+        "73d4e0dc30041c36"
+      ]
+    ]
+  },
+  {
+    "id": "73d4e0dc30041c36",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 875,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "92d08f37b5ebd992",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "d": true,
+    "g": "a02b86cff33f1dca",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "amazon",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 2100,
+    "wires": [
+      [
+        "ef3d95058c83d22a"
+      ]
+    ]
+  },
+  {
+    "id": "928a16e58e1d2df1",
+    "type": "comment",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa / actif",
+    "info": "",
+    "x": 190,
+    "y": 2160,
+    "wires": []
+  },
+  {
+    "id": "321b80c73e592b7d",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa / high / number / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 2220,
+    "wires": [
+      [
+        "ef3d95058c83d22a"
+      ]
+    ]
+  },
+  {
+    "id": "3f703a1a32c3f909",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa / low / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 2280,
+    "wires": [
+      [
+        "ef3d95058c83d22a"
+      ]
+    ]
+  },
+  {
+    "id": "d2c146eec286df08",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "a02b86cff33f1dca",
+    "name": "alexa / volume / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "volume",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 2340,
+    "wires": [
+      [
+        "ef3d95058c83d22a"
+      ]
+    ]
+  },
+  {
+    "id": "f6b9b81c233ba8d7",
+    "type": "alexa-remote-event",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "",
+    "account": "b71b7e764b1feec5",
+    "event": "ws-volume-change",
+    "x": 1130,
+    "y": 2100,
+    "wires": [
+      [
+        "21d4d7a5a388de06"
+      ]
+    ]
+  },
+  {
+    "id": "21d4d7a5a388de06",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "device",
+        "pt": "msg",
+        "to": "payload.deviceSerialNumber",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "volume",
+        "pt": "msg",
+        "to": "payload.volume",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "devices",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1340,
+    "y": 2100,
+    "wires": [
+      [
+        "c0355b3c98fed255"
+      ]
+    ]
+  },
+  {
+    "id": "c0355b3c98fed255",
+    "type": "split",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1510,
+    "y": 2100,
+    "wires": [
+      [
+        "0e7d2769799909af"
+      ]
+    ]
+  },
+  {
+    "id": "0e7d2769799909af",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "device",
+    "property": "payload.alexa.volume.id",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "device",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1670,
+    "y": 2100,
+    "wires": [
+      [
+        "49c88081983abecf"
+      ]
+    ]
+  },
+  {
+    "id": "49c88081983abecf",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "volume",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "volume",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1840,
+    "y": 2100,
+    "wires": [
+      [
+        "981daf7e528f93a4"
+      ]
+    ]
+  },
+  {
+    "id": "981daf7e528f93a4",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "0682776dd86300a3",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - source volume",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1975,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "ba866ee153e8e14f",
+    "type": "alexa-remote-echo",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "",
+    "account": "b71b7e764b1feec5",
+    "config": {
+      "option": "command",
+      "value": {
+        "device": {
+          "type": "msg",
+          "value": "device"
+        },
+        "what": "volume",
+        "value": {
+          "type": "msg",
+          "value": "volume"
+        }
+      }
+    },
+    "x": 3110,
+    "y": 2100,
+    "wires": [
+      [
+        "9303aa5b0ee47dcf"
+      ]
+    ]
+  },
+  {
+    "id": "5e1f61b100dc5e9f",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - metric volume",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 2155,
+    "y": 2100,
+    "wires": [
+      [
+        "5298351c16bc5872"
+      ]
+    ]
+  },
+  {
+    "id": "5298351c16bc5872",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "alexa",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2320,
+    "y": 2100,
+    "wires": [
+      [
+        "b5c60f5b6f67d36f"
+      ]
+    ]
+  },
+  {
+    "id": "b5c60f5b6f67d36f",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "volume",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2510,
+    "y": 2100,
+    "wires": [
+      [
+        "f4b27d3a31761870"
+      ]
+    ]
+  },
+  {
+    "id": "f4b27d3a31761870",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "from devices",
+    "rules": [
+      {
+        "t": "set",
+        "p": "device",
+        "pt": "msg",
+        "to": "devices[msg.bucket]alexa.volume.id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "volume",
+        "pt": "msg",
+        "to": "$number(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2690,
+    "y": 2100,
+    "wires": [
+      [
+        "dc7d7c5316cfb32d"
+      ]
+    ]
+  },
+  {
+    "id": "9303aa5b0ee47dcf",
+    "type": "debug",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "alexa - A32DOYMUN6DTXA, A4ZP7ZC4PI6TO - metric volume",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3470,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "dc7d7c5316cfb32d",
+    "type": "trigger",
+    "z": "29b296e6cd0e71d4",
+    "g": "87b8cfe55d906fd5",
+    "name": "",
+    "op1": "",
+    "op2": "",
+    "op1type": "pay",
+    "op2type": "nul",
+    "duration": "2",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "topic",
+    "topic": "device",
+    "outputs": 1,
+    "x": 2900,
+    "y": 2100,
+    "wires": [
+      [
+        "ba866ee153e8e14f"
+      ]
+    ]
+  },
+  {
+    "id": "40fba6c8db067ba4",
+    "type": "link in",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "alexa - scene - alexa volume",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 2520,
+    "wires": [
+      [
+        "e444a1af33bee623"
+      ]
+    ]
+  },
+  {
+    "id": "99e7f893cc8dae67",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "alexa",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 720,
+    "y": 2520,
+    "wires": [
+      [
+        "d57c1aa7c8da85f1"
+      ],
+      [
+        "fc0e652128ecb25c"
+      ]
+    ]
+  },
+  {
+    "id": "d57c1aa7c8da85f1",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "high",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "low",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 910,
+    "y": 2520,
+    "wires": [
+      [
+        "ec5f4de486b97abe"
+      ],
+      [
+        "ec5f4de486b97abe"
+      ]
+    ]
+  },
+  {
+    "id": "ec5f4de486b97abe",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "from devices",
+    "rules": [
+      {
+        "t": "set",
+        "p": "device",
+        "pt": "msg",
+        "to": "devices[msg.bucket]alexa.volume.id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "volume",
+        "pt": "msg",
+        "to": "$number(msg.payload)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "sound",
+        "pt": "msg",
+        "to": "metrics.system.mode.sound",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "actif",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]alexa.actif",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 2520,
+    "wires": [
+      [
+        "a8d85078f3957372"
+      ]
+    ]
+  },
+  {
+    "id": "a8d85078f3957372",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "mode sound",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "sound",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1290,
+    "y": 2520,
+    "wires": [
+      [
+        "15f9ac6e39cd016d"
+      ]
+    ]
+  },
+  {
+    "id": "fc0e652128ecb25c",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "sound",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 910,
+    "y": 2580,
+    "wires": [
+      [
+        "7b51138aecde4277"
+      ]
+    ]
+  },
+  {
+    "id": "1e025ff7fc8568d1",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1260,
+    "y": 2580,
+    "wires": [
+      [
+        "648122455e4a957c"
+      ]
+    ]
+  },
+  {
+    "id": "7ff8d19e2e35e954",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "from devices",
+    "rules": [
+      {
+        "t": "set",
+        "p": "device",
+        "pt": "msg",
+        "to": "devices[msg.bucket]alexa.volume.id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "volume",
+        "pt": "msg",
+        "to": "payload.alexa[msg.volume]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "actif",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]alexa.actif",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1950,
+    "y": 2580,
+    "wires": [
+      [
+        "15f9ac6e39cd016d"
+      ]
+    ]
+  },
+  {
+    "id": "15f9ac6e39cd016d",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "alexa actif",
+    "property": "actif",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2140,
+    "y": 2520,
+    "wires": [
+      [
+        "01452057616dc1a2"
+      ]
+    ]
+  },
+  {
+    "id": "648122455e4a957c",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "buckets",
+    "rules": [
+      {
+        "t": "set",
+        "p": "volume",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg",
+        "dc": true
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1440,
+    "y": 2580,
+    "wires": [
+      [
+        "f97a07997323b23e"
+      ]
+    ]
+  },
+  {
+    "id": "f97a07997323b23e",
+    "type": "split",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1610,
+    "y": 2580,
+    "wires": [
+      [
+        "14eec5651b551dc4"
+      ]
+    ]
+  },
+  {
+    "id": "14eec5651b551dc4",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "alexa",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "alexa",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1770,
+    "y": 2580,
+    "wires": [
+      [
+        "7ff8d19e2e35e954"
+      ]
+    ]
+  },
+  {
+    "id": "76bd8af6b6128264",
+    "type": "link out",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "alexa - scene - alexa volume",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2455,
+    "y": 2520,
+    "wires": []
+  },
+  {
+    "id": "01452057616dc1a2",
+    "type": "change",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "alexa",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "volume",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "volume",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2320,
+    "y": 2520,
+    "wires": [
+      [
+        "76bd8af6b6128264"
+      ]
+    ]
+  },
+  {
+    "id": "e444a1af33bee623",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "mode master",
+    "property": "metrics.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "about.automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 2520,
+    "wires": [
+      [
+        "88df17dcb0946bf8"
+      ]
+    ]
+  },
+  {
+    "id": "88df17dcb0946bf8",
+    "type": "switch",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "mode assistant",
+    "property": "metrics.system.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 2520,
+    "wires": [
+      [
+        "99e7f893cc8dae67"
+      ]
+    ]
+  },
+  {
+    "id": "7b51138aecde4277",
+    "type": "rbe",
+    "z": "29b296e6cd0e71d4",
+    "g": "d46561c0f240c1d9",
+    "name": "no repeat",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": false,
+    "property": "payload",
+    "topi": "topic",
+    "x": 1080,
+    "y": 2580,
+    "wires": [
+      [
+        "1e025ff7fc8568d1"
+      ]
+    ]
+  }
+]

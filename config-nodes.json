@@ -752,5 +752,23 @@
     "className": "",
     "visible": "true",
     "disabled": "false"
+  },
+  {
+    "id": "b71b7e764b1feec5",
+    "type": "alexa-remote-account",
+    "name": "alexa",
+    "authMethod": "proxy",
+    "proxyOwnIp": "10.40.0.115",
+    "proxyPort": "3456",
+    "cookieFile": "alexaauth",
+    "refreshInterval": "3",
+    "alexaServiceHost": "alexa.amazon.fr",
+    "pushDispatchHost": "",
+    "amazonPage": "amazon.fr",
+    "acceptLanguage": "fr-FR",
+    "onKeywordInLanguage": "",
+    "userAgent": "",
+    "usePushConnection": "on",
+    "autoInit": "on"
   }
 ]
