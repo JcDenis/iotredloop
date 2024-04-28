@@ -949,5 +949,15 @@
     "className": "",
     "visible": "true",
     "disabled": "false"
+  },
+  {
+    "id": "b156e6eff1bfadd1",
+    "type": "vsh-connection",
+    "name": "alexa",
+    "port": "8883",
+    "accessTokenExpiry": "1714319347116",
+    "debug": false,
+    "backendUrl": "https://kfd5m4a21f.execute-api.eu-west-1.amazonaws.com/dev",
+    "lwaClientId": "amzn1.application-oa2-client.3f1bb07133854b078261ad43f2484c18"
   }
 ]

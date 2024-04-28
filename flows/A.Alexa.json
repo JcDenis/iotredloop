@@ -1330,7 +1330,24 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - light",
     "mode": "link",
-    "links": [],
+    "links": [
+      "a4a6ad066aafffab",
+      "3f54da8de46b11fd",
+      "34e70de8849460a5",
+      "42c6c2fa748e4af6",
+      "17193d3c2edc0a1b",
+      "dd483df0d2980560",
+      "53b0704ceac188a8",
+      "5516293bd614b2f0",
+      "a54a3aabac3983d2",
+      "afc2c10fc0e2820a",
+      "9133cb910fbe540d",
+      "fc33f164d4208460",
+      "3a55ad6cad68cacf",
+      "ad10a81066f01ab7",
+      "a05d52024af694a6",
+      "ecdbc3a31c49a7d2"
+    ],
     "x": 885,
     "y": 540,
     "wires": []
@@ -1399,7 +1416,27 @@
     "z": "29b296e6cd0e71d4",
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement",
-    "links": [],
+    "links": [
+      "bc0564795bc5055b",
+      "9cab12b971634428",
+      "408a51c88533e506",
+      "ed1ae61e8d69a9aa",
+      "33aad6ca5d82c61a",
+      "af06cacb11fff5fe",
+      "e9a0591d654a5d18",
+      "339b74120cebdaf7",
+      "64e0af5ac57be506",
+      "2a2936eed1173930",
+      "48fb85cf9fc816df",
+      "b924cf12aceef8a9",
+      "b41c55b4d5f168ad",
+      "a72c1a80a1c23c90",
+      "a4c75626ec98b096",
+      "a602b1bcbf8c1b85",
+      "13a93bd3f7a3672f",
+      "3637aa2caa12cece",
+      "1eb47e24551d2f4a"
+    ],
     "x": 1055,
     "y": 720,
     "wires": [
@@ -1455,7 +1492,20 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - temperature",
     "mode": "link",
-    "links": [],
+    "links": [
+      "5782587779b166d8",
+      "302510abb50cfea2",
+      "e667a270b77f91b0",
+      "b203a0f8c491d028",
+      "25bf9e91d9fd1134",
+      "7d119b2f7b8ce528",
+      "02ef117d816fc098",
+      "fda87b491f013484",
+      "a89dbae39e9a3522",
+      "e1f047b857bb87e9",
+      "88f4876b7fca2d49",
+      "9eb98db9c6e96276"
+    ],
     "x": 885,
     "y": 660,
     "wires": []
@@ -1467,7 +1517,16 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - motion",
     "mode": "link",
-    "links": [],
+    "links": [
+      "b6a2940bd526bdc5",
+      "83dd74e85a3b5fd8",
+      "957e4911e1e7bcfd",
+      "0a1b36abacf7869b",
+      "bf5283284d6841db",
+      "f078c245986b329c",
+      "965caf1c42f05bc8",
+      "2278390b570ae980"
+    ],
     "x": 885,
     "y": 720,
     "wires": []
@@ -1511,7 +1570,23 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - aperture",
     "mode": "link",
-    "links": [],
+    "links": [
+      "b22ad51c1e17a489",
+      "54dacc2fd5d0195e",
+      "c81a8c2eb50047e0",
+      "27a69d45ec54d88e",
+      "eaab34a171566bb1",
+      "b762bc046e1118b6",
+      "946ab6f15c353f7c",
+      "ab4ea3a7f94bbae5",
+      "8b43350290b32368",
+      "fd405f97a4afd11a",
+      "079402876ffb0af4",
+      "5542118edd118b1b",
+      "53f36bbe7d518779",
+      "2d70ad7ef6ca22f1",
+      "ae1418a3a4a9fe5e"
+    ],
     "x": 885,
     "y": 840,
     "wires": []
@@ -1570,7 +1645,10 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - shutter",
     "mode": "link",
-    "links": [],
+    "links": [
+      "c988ea54961f1403",
+      "ceb7b3fb0ab08696"
+    ],
     "x": 885,
     "y": 780,
     "wires": []
@@ -1582,7 +1660,9 @@
     "g": "51ceee5c0be8de4a",
     "name": "alexa - measurement - socket",
     "mode": "link",
-    "links": [],
+    "links": [
+      "fc7968c5df682e3e"
+    ],
     "x": 885,
     "y": 600,
     "wires": []

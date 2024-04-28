@@ -1477,6 +1477,13 @@
         "t": "delete",
         "p": "th",
         "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -2442,7 +2449,7 @@
     "type": "link in",
     "z": "80f2ffd4953c67e9",
     "g": "0af18fd6cc155518",
-    "name": "temperature - update - temperature setpoint",
+    "name": "thermostat - update - temperature setpoint",
     "links": [
       "be58e8ac1e1b6eb1"
     ],
@@ -3156,7 +3163,13 @@
     "z": "80f2ffd4953c67e9",
     "g": "81842bf5581a2a3f",
     "name": "thermostat - device",
-    "links": [],
+    "links": [
+      "17e1e87a7ce7485f",
+      "3f8eedb7511f6d4b",
+      "4b367a6794c1c02b",
+      "8f95239c80a9e5c0",
+      "5bb391e01c291936"
+    ],
     "x": 135,
     "y": 540,
     "wires": [

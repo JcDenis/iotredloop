@@ -546,7 +546,10 @@
       "7fcd9ac436f62e8a",
       "c6a33fe34a5837ef",
       "cf3ba5e22164d0c7",
-      "e3db60d3d55e1a82"
+      "e3db60d3d55e1a82",
+      "d508dae06ba6ea5f",
+      "5fef774a053c6a26",
+      "06c1934cb35fe252"
     ],
     "x": 135,
     "y": 420,
@@ -1535,7 +1538,10 @@
     "z": "68ee181e9defa139",
     "g": "a7b40f415a368a7f",
     "name": "scene - shutter shading",
-    "links": [],
+    "links": [
+      "bc11e38a9ca782cd",
+      "1f1c36211d6c6e3e"
+    ],
     "x": 135,
     "y": 720,
     "wires": [
@@ -2087,7 +2093,13 @@
     "z": "68ee181e9defa139",
     "g": "b3bc1717c16dc7dc",
     "name": "scene - thermostat operating mode",
-    "links": [],
+    "links": [
+      "f8f9a6db99bb33e8",
+      "0857f7c3fc012063",
+      "2df681beb21344f6",
+      "9820c6e109f25a2a",
+      "2ced5243fb4aa8a7"
+    ],
     "x": 135,
     "y": 960,
     "wires": [
@@ -2134,7 +2146,23 @@
     "z": "68ee181e9defa139",
     "g": "796ef41c1dd2380c",
     "name": "scene - lighting",
-    "links": [],
+    "links": [
+      "31d14fe33ea1b7b2",
+      "82f016c6bec5fe59",
+      "938e3b8f717989d7",
+      "2b30160f07c7d626",
+      "d95f2ca72214b098",
+      "0fa2ffecb9982cf5",
+      "f08fe7b4b871821b",
+      "41c0a6ba4a34abdc",
+      "61afa8c6a05d66c5",
+      "912556577f30a22e",
+      "846814ea1666f8b1",
+      "52b59fc8ef0553fe",
+      "c7cf50bce96c5614",
+      "5bc5a072069c9a6f",
+      "d5e508f404ff4666"
+    ],
     "x": 135,
     "y": 1260,
     "wires": [
@@ -2708,7 +2736,9 @@
     "z": "68ee181e9defa139",
     "g": "5bbc579c9b6b5a17",
     "name": "scene - nightlight",
-    "links": [],
+    "links": [
+      "1e2cb1f46a96c406"
+    ],
     "x": 135,
     "y": 1500,
     "wires": [
