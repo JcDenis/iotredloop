@@ -7947,7 +7947,9 @@
     "g": "c761b34cfb83bf7b",
     "name": "system - scene-  cpu usage - telegram",
     "mode": "link",
-    "links": [],
+    "links": [
+      "923d4072d9fd4b7f"
+    ],
     "x": 1535,
     "y": 4460,
     "wires": []

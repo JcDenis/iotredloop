@@ -1,0 +1,3847 @@
+[
+  {
+    "id": "52347795767acd3f",
+    "type": "tab",
+    "label": "A.Telegram",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "665068c11f8d7cd2",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "9fc669530c1959c1",
+    "name": "telegram - message",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40e6a86b00b7f03b",
+      "923d4072d9fd4b7f",
+      "ec75e169566e28bc"
+    ],
+    "x": 94,
+    "y": 439,
+    "w": 362,
+    "h": 82
+  },
+  {
+    "id": "42beec20ca262e48",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "9fc669530c1959c1",
+    "name": "telegram - send",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1a23e86f0af13941",
+      "ba0f26a893bbaac2",
+      "06c6cff5dce7df93",
+      "f2d668f16abedaa0",
+      "4246a0f36f41bb93",
+      "c4a74cb0a40f9fb9",
+      "0b5138afb86e300d",
+      "466151db96704e81",
+      "9a6195ed88aca633"
+    ],
+    "x": 94,
+    "y": 559,
+    "w": 1732,
+    "h": 82
+  },
+  {
+    "id": "0aff5d7f470c281b",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "1423657927f0381b",
+      "88c0a82bdddf789a",
+      "dd23d0e2ece16df7"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "aeaa0d5a43c01c09",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "547a504958fb9ca4",
+      "a4828a6983f17b34"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 452,
+    "h": 82
+  },
+  {
+    "id": "da84242d05e225da",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - config",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "63db7d59d8bc4113",
+      "a08eb2b13b5fcdcd"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1854,
+    "h": 194
+  },
+  {
+    "id": "63db7d59d8bc4113",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "da84242d05e225da",
+    "name": "telegram - config - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8fd6b4ae0318fb3e",
+      "54fdbae28789e192",
+      "1d8bf8108e8ed2cc",
+      "cbffc01deca8e9c7"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 622,
+    "h": 82
+  },
+  {
+    "id": "a08eb2b13b5fcdcd",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "da84242d05e225da",
+    "name": "telegram - config - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9d534295bf79c9ea",
+      "ec965b4258cf0125",
+      "887df8406e11177c",
+      "e01ddf8801881936",
+      "d301485b0e0dced0",
+      "6024873c0bc16876",
+      "52bd7dcb8c5e2c20",
+      "89e622fd6cf9b8c4",
+      "5fa9296b73865c51"
+    ],
+    "x": 814,
+    "y": 199,
+    "w": 1082,
+    "h": 142
+  },
+  {
+    "id": "e490f8c59b658000",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - report",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e755c88a5f0874e2",
+      "daeb6d8e80121dec",
+      "e19bc19284321a71",
+      "4f8dc94e1c9e516b",
+      "428b3b06c9904159",
+      "a31103363afca9e4",
+      "71832497d54a070c",
+      "3fd86c625fb7620a",
+      "9eccb6737df9fcca",
+      "10da0ff11a25c2d8",
+      "09bf19e19a1b0d96",
+      "b72965685dc24330",
+      "e5c35f9ca6211841",
+      "34a350a168b2e745",
+      "316ed209c87c228e",
+      "57e447541bcb2ade",
+      "067e200b2cf487af",
+      "250601c91d2ef5f9",
+      "61ad4fe0258e29ed",
+      "eb279f1c73e8707f",
+      "bfc85601d754a7b2",
+      "2b625f50e36b43ac"
+    ],
+    "x": 94,
+    "y": 1879,
+    "w": 2142,
+    "h": 262
+  },
+  {
+    "id": "6a1e1fb203c6236a",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "9fc669530c1959c1",
+    "name": "telegram - conversation",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "35ddaf63494d655b",
+      "e5af41b779d62608",
+      "94517b52fbc7c222",
+      "90e4840756b8a410",
+      "8c27c7e68eca1a64",
+      "6697649d1c9b6c0e",
+      "5ec32bd48911e852",
+      "7dc93121ae6674e5",
+      "534311e383278b30",
+      "d69deeaa7e9d8299",
+      "cf9ce352e1e22189",
+      "51ac68fb3896f3c5",
+      "03eee1773e4b2310",
+      "e8ce95675101e8af",
+      "c991e97927420e81",
+      "d59ba3289c9140f5",
+      "294f1ce97f6089bd",
+      "01e78849a643e8a5",
+      "2f22451fdc194049",
+      "b03d810847d86c13",
+      "930ec55bdd15ae80",
+      "c98c8e1dd186a9e6",
+      "a6c40e0c7109ccfc",
+      "9ac1e60d77200847",
+      "72129b12981918d3",
+      "d14d8323f4b64b21",
+      "bd19832c18d23672",
+      "9d1cc9c17c4a70de",
+      "c8bc6bc3f69bd415",
+      "da845243f83992e3",
+      "e73144651291e1f3",
+      "e1cfda2f4b7b203d",
+      "15ae149127236493",
+      "7f180cad8bf1f211",
+      "a99440b2cd2f03bf",
+      "11628a7a4db100fe",
+      "30946c7743bfbcc8",
+      "0e7de263432880b9",
+      "7d4b7dd3f0f26094",
+      "5f97554e959fb27f",
+      "91714762765d1df4",
+      "f7c53c245cb82dbb",
+      "2b9f5994b30122d2",
+      "882c784fa50c695e",
+      "cccf7ae8e3728235",
+      "dc85e9205b9bc40a",
+      "558e2007055f9c38",
+      "3be41a89fb1c71f4",
+      "cdf962c271de3805",
+      "87eb4084ab2b6c4f",
+      "4e3c3057b42e2a2a",
+      "ce4d1a4c8f39d6ad",
+      "55aa1e8e4e61d51f",
+      "d9a8d6a331678098",
+      "56a01bb3a1823ca6",
+      "0c7e8c2914e9141c",
+      "7c990a9e25fd7abf",
+      "2eab37ce4e1d38c7",
+      "5c38dd887299ff9c",
+      "d0658792bccca939",
+      "a4572ddd98280be9",
+      "de28e8e397badc0d"
+    ],
+    "x": 94,
+    "y": 679,
+    "w": 2552,
+    "h": 922
+  },
+  {
+    "id": "31c43960a49c7f75",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - ui - home",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "62a0c42c707fd2cf",
+      "e78466517f08bf1b",
+      "2585c1751940ee0f",
+      "344f652167848723",
+      "8cdd0ff94c11d7d4",
+      "45159e869e60fef7",
+      "c7690118febd88ba",
+      "63286bf6d40b9ecd",
+      "c112e5483b53e573",
+      "057cd27350be1d0e"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "9fc669530c1959c1",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "665068c11f8d7cd2",
+      "42beec20ca262e48",
+      "6a1e1fb203c6236a"
+    ],
+    "x": 68,
+    "y": 413,
+    "w": 2604,
+    "h": 1214
+  },
+  {
+    "id": "c28cd86afb368a68",
+    "type": "comment",
+    "z": "52347795767acd3f",
+    "name": "Nestor - Telegram",
+    "info": "chatid = 777414971",
+    "x": 1110,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "40e6a86b00b7f03b",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "665068c11f8d7cd2",
+    "name": "message",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 280,
+    "y": 480,
+    "wires": [
+      [
+        "ec75e169566e28bc"
+      ]
+    ]
+  },
+  {
+    "id": "923d4072d9fd4b7f",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "665068c11f8d7cd2",
+    "name": "telegram - message",
+    "links": [
+      "2d1d8fa5d5acbce3",
+      "3fd86c625fb7620a",
+      "c7690118febd88ba"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "40e6a86b00b7f03b"
+      ]
+    ]
+  },
+  {
+    "id": "ec75e169566e28bc",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "665068c11f8d7cd2",
+    "name": "telegram - message",
+    "mode": "link",
+    "links": [
+      "ba0f26a893bbaac2"
+    ],
+    "x": 415,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "1a23e86f0af13941",
+    "type": "telegram sender",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "",
+    "bot": "8c93df4a796cf540",
+    "haserroroutput": false,
+    "outputs": 1,
+    "x": 1470,
+    "y": 600,
+    "wires": [
+      [
+        "0b5138afb86e300d"
+      ]
+    ]
+  },
+  {
+    "id": "ba0f26a893bbaac2",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "telegram - send",
+    "links": [
+      "8fdb5986494986cc",
+      "94517b52fbc7c222",
+      "ec75e169566e28bc"
+    ],
+    "x": 135,
+    "y": 600,
+    "wires": [
+      [
+        "9a6195ed88aca633"
+      ]
+    ]
+  },
+  {
+    "id": "06c6cff5dce7df93",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "mode notification",
+    "property": "stack.system.mode.notification",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 890,
+    "y": 600,
+    "wires": [
+      [
+        "466151db96704e81"
+      ]
+    ]
+  },
+  {
+    "id": "f2d668f16abedaa0",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "mode automate",
+    "property": "stack.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 660,
+    "y": 600,
+    "wires": [
+      [
+        "06c6cff5dce7df93"
+      ]
+    ]
+  },
+  {
+    "id": "4246a0f36f41bb93",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "mode master",
+    "property": "stack.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 600,
+    "wires": [
+      [
+        "f2d668f16abedaa0"
+      ]
+    ]
+  },
+  {
+    "id": "c4a74cb0a40f9fb9",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "chatid",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.chatId",
+        "pt": "msg",
+        "to": "stack.telegram.config['chat id']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 600,
+    "wires": [
+      [
+        "1a23e86f0af13941"
+      ]
+    ]
+  },
+  {
+    "id": "0b5138afb86e300d",
+    "type": "debug",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "telegram - send",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1700,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "466151db96704e81",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "not empty",
+    "property": "payload.content",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nnull"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1100,
+    "y": 600,
+    "wires": [
+      [
+        "c4a74cb0a40f9fb9"
+      ]
+    ]
+  },
+  {
+    "id": "9a6195ed88aca633",
+    "type": "gate",
+    "z": "52347795767acd3f",
+    "g": "42beec20ca262e48",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "4246a0f36f41bb93"
+      ]
+    ]
+  },
+  {
+    "id": "1423657927f0381b",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "0aff5d7f470c281b",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "telegram",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "dd23d0e2ece16df7"
+      ]
+    ]
+  },
+  {
+    "id": "88c0a82bdddf789a",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "0aff5d7f470c281b",
+    "name": "telegram - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "1423657927f0381b"
+      ]
+    ]
+  },
+  {
+    "id": "dd23d0e2ece16df7",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "0aff5d7f470c281b",
+    "name": "telegram - bucket",
+    "mode": "link",
+    "links": [
+      "8fd6b4ae0318fb3e"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "547a504958fb9ca4",
+    "type": "catch",
+    "z": "52347795767acd3f",
+    "g": "aeaa0d5a43c01c09",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "a4828a6983f17b34"
+      ]
+    ]
+  },
+  {
+    "id": "a4828a6983f17b34",
+    "type": "debug",
+    "z": "52347795767acd3f",
+    "g": "aeaa0d5a43c01c09",
+    "name": "telegram - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 840,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "8fd6b4ae0318fb3e",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "63db7d59d8bc4113",
+    "name": "telegram - config - device",
+    "links": [
+      "dd23d0e2ece16df7"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "cbffc01deca8e9c7"
+      ]
+    ]
+  },
+  {
+    "id": "54fdbae28789e192",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "63db7d59d8bc4113",
+    "name": "config / chat id / number",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "chat id",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 240,
+    "wires": [
+      [
+        "1d8bf8108e8ed2cc"
+      ]
+    ]
+  },
+  {
+    "id": "1d8bf8108e8ed2cc",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "63db7d59d8bc4113",
+    "name": "telegram - config - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 675,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "9d534295bf79c9ea",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "telegram - config - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 855,
+    "y": 240,
+    "wires": [
+      [
+        "887df8406e11177c"
+      ]
+    ]
+  },
+  {
+    "id": "ec965b4258cf0125",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "telegram - config - ui - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1855,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "887df8406e11177c",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "check path",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "telegram/config/chat id",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1010,
+    "y": 240,
+    "wires": [
+      [
+        "52bd7dcb8c5e2c20"
+      ]
+    ]
+  },
+  {
+    "id": "e01ddf8801881936",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1720,
+    "y": 300,
+    "wires": [
+      [
+        "ec965b4258cf0125"
+      ]
+    ]
+  },
+  {
+    "id": "d301485b0e0dced0",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "telegram - config - ui - load",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 855,
+    "y": 300,
+    "wires": [
+      [
+        "6024873c0bc16876"
+      ]
+    ]
+  },
+  {
+    "id": "6024873c0bc16876",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]config['chat id']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 300,
+    "wires": [
+      [
+        "52bd7dcb8c5e2c20"
+      ]
+    ]
+  },
+  {
+    "id": "52bd7dcb8c5e2c20",
+    "type": "ui-text-input",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "group": "2f12363310c6c976",
+    "name": "chact id",
+    "label": "Chat ID",
+    "order": 0,
+    "width": 0,
+    "height": 0,
+    "topic": "chat id",
+    "topicType": "str",
+    "mode": "text",
+    "delay": 300,
+    "passthru": false,
+    "sendOnDelay": false,
+    "sendOnBlur": true,
+    "sendOnEnter": true,
+    "className": "",
+    "x": 1200,
+    "y": 300,
+    "wires": [
+      [
+        "5fa9296b73865c51"
+      ]
+    ]
+  },
+  {
+    "id": "89e622fd6cf9b8c4",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "type",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "0",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1550,
+    "y": 300,
+    "wires": [
+      [
+        "e01ddf8801881936"
+      ],
+      [
+        "6024873c0bc16876"
+      ]
+    ]
+  },
+  {
+    "id": "5fa9296b73865c51",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "a08eb2b13b5fcdcd",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1380,
+    "y": 300,
+    "wires": [
+      [
+        "89e622fd6cf9b8c4"
+      ]
+    ]
+  },
+  {
+    "id": "e755c88a5f0874e2",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "buckets",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 380,
+    "y": 1920,
+    "wires": [
+      [
+        "daeb6d8e80121dec",
+        "57e447541bcb2ade",
+        "61ad4fe0258e29ed"
+      ]
+    ]
+  },
+  {
+    "id": "daeb6d8e80121dec",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 550,
+    "y": 1920,
+    "wires": [
+      [
+        "e19bc19284321a71"
+      ]
+    ]
+  },
+  {
+    "id": "e19bc19284321a71",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "seen",
+        "vt": "str"
+      },
+      {
+        "t": "hask",
+        "v": "battery",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 720,
+    "y": 1920,
+    "wires": [
+      [
+        "428b3b06c9904159"
+      ],
+      [
+        "09bf19e19a1b0d96"
+      ]
+    ]
+  },
+  {
+    "id": "4f8dc94e1c9e516b",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1050,
+    "y": 1920,
+    "wires": [
+      [
+        "9eccb6737df9fcca"
+      ]
+    ]
+  },
+  {
+    "id": "428b3b06c9904159",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "seen",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.seen",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 890,
+    "y": 1920,
+    "wires": [
+      [
+        "4f8dc94e1c9e516b"
+      ]
+    ]
+  },
+  {
+    "id": "a31103363afca9e4",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "> 24h",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "lte",
+        "v": "$millis() - 86400000",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1370,
+    "y": 1920,
+    "wires": [
+      [
+        "2b625f50e36b43ac"
+      ]
+    ]
+  },
+  {
+    "id": "71832497d54a070c",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "message",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.trans & ' ' & msg.bucket & ' ne répond pas depuis plus de 24h.'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1720,
+    "y": 1920,
+    "wires": [
+      [
+        "250601c91d2ef5f9"
+      ]
+    ]
+  },
+  {
+    "id": "3fd86c625fb7620a",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "telegram - report",
+    "mode": "link",
+    "links": [
+      "923d4072d9fd4b7f"
+    ],
+    "x": 2195,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "9eccb6737df9fcca",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "!field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "^(remote|button)",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1210,
+    "y": 1920,
+    "wires": [
+      [],
+      [
+        "a31103363afca9e4"
+      ]
+    ]
+  },
+  {
+    "id": "10da0ff11a25c2d8",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1070,
+    "y": 1980,
+    "wires": [
+      [
+        "b72965685dc24330"
+      ]
+    ]
+  },
+  {
+    "id": "09bf19e19a1b0d96",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "battery",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.battery",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 890,
+    "y": 1980,
+    "wires": [
+      [
+        "10da0ff11a25c2d8"
+      ]
+    ]
+  },
+  {
+    "id": "b72965685dc24330",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "< 30%",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "lte",
+        "v": "30",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1230,
+    "y": 1980,
+    "wires": [
+      [
+        "e5c35f9ca6211841"
+      ]
+    ]
+  },
+  {
+    "id": "e5c35f9ca6211841",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "message",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "'batterie ' & msg.field & ' ' & msg.bucket & ' inferieur à 30%.'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1400,
+    "y": 1980,
+    "wires": [
+      [
+        "250601c91d2ef5f9"
+      ]
+    ]
+  },
+  {
+    "id": "34a350a168b2e745",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "telegram - report",
+    "links": [
+      "764da2d0527c1ef6"
+    ],
+    "x": 135,
+    "y": 1920,
+    "wires": [
+      [
+        "e755c88a5f0874e2"
+      ]
+    ]
+  },
+  {
+    "id": "316ed209c87c228e",
+    "type": "telegram command",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "command": "Rapport",
+    "description": "",
+    "registercommand": false,
+    "language": "",
+    "scope": "default",
+    "bot": "8c93df4a796cf540",
+    "strict": false,
+    "hasresponse": false,
+    "useregex": false,
+    "removeregexcommand": false,
+    "outputs": 1,
+    "x": 170,
+    "y": 1980,
+    "wires": [
+      [
+        "e755c88a5f0874e2"
+      ]
+    ]
+  },
+  {
+    "id": "57e447541bcb2ade",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "nothing",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Il n'y a rien de spécial.",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 2100,
+    "wires": [
+      [
+        "067e200b2cf487af"
+      ]
+    ]
+  },
+  {
+    "id": "067e200b2cf487af",
+    "type": "trigger",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "wait 1 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "pay",
+    "duration": "1",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 2060,
+    "y": 2100,
+    "wires": [
+      [
+        "3fd86c625fb7620a"
+      ]
+    ]
+  },
+  {
+    "id": "250601c91d2ef5f9",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1890,
+    "y": 2040,
+    "wires": [
+      [
+        "067e200b2cf487af",
+        "3fd86c625fb7620a"
+      ]
+    ]
+  },
+  {
+    "id": "61ad4fe0258e29ed",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "telegram - report - addon",
+    "mode": "link",
+    "links": [],
+    "x": 515,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "eb279f1c73e8707f",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "telegram - report - addon",
+    "links": [],
+    "x": 675,
+    "y": 2040,
+    "wires": [
+      [
+        "250601c91d2ef5f9"
+      ]
+    ]
+  },
+  {
+    "id": "bfc85601d754a7b2",
+    "type": "comment",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "report addon",
+    "info": "",
+    "x": 370,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "2b625f50e36b43ac",
+    "type": "link call",
+    "z": "52347795767acd3f",
+    "g": "e490f8c59b658000",
+    "name": "",
+    "links": [
+      "df0e4ab2e1efc286"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1540,
+    "y": 1920,
+    "wires": [
+      [
+        "71832497d54a070c"
+      ]
+    ]
+  },
+  {
+    "id": "35ddaf63494d655b",
+    "type": "telegram command",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "command": "Nestor",
+    "description": "",
+    "registercommand": false,
+    "language": "",
+    "scope": "default",
+    "bot": "8c93df4a796cf540",
+    "strict": false,
+    "hasresponse": true,
+    "useregex": false,
+    "removeregexcommand": false,
+    "outputs": 2,
+    "x": 170,
+    "y": 720,
+    "wires": [
+      [
+        "c8bc6bc3f69bd415"
+      ],
+      [
+        "6697649d1c9b6c0e"
+      ]
+    ]
+  },
+  {
+    "id": "e5af41b779d62608",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "start conversation",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "Monsieur.",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 590,
+    "y": 720,
+    "wires": [
+      [
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "94517b52fbc7c222",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "telegram - conversation",
+    "mode": "link",
+    "links": [
+      "ba0f26a893bbaac2"
+    ],
+    "x": 2355,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "90e4840756b8a410",
+    "type": "trigger",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "wait 10 s",
+    "op1": "",
+    "op2": "false",
+    "op1type": "nul",
+    "op2type": "bool",
+    "duration": "10",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 2400,
+    "y": 840,
+    "wires": [
+      [
+        "8c27c7e68eca1a64"
+      ]
+    ]
+  },
+  {
+    "id": "8c27c7e68eca1a64",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "not ok",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "Je n'ai pas réussi.",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "bot",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2570,
+    "y": 840,
+    "wires": [
+      [
+        "94517b52fbc7c222",
+        "90e4840756b8a410"
+      ]
+    ]
+  },
+  {
+    "id": "6697649d1c9b6c0e",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "bucket",
+    "property": "metrics",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "$lowercase(msg.payload.content)",
+        "vt": "jsonata"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 330,
+    "y": 840,
+    "wires": [
+      [
+        "cf9ce352e1e22189"
+      ],
+      [
+        "5ec32bd48911e852"
+      ]
+    ]
+  },
+  {
+    "id": "5ec32bd48911e852",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "inconnu",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "Je ne connais pas cette pièce.",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "bot",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 840,
+    "wires": [
+      [
+        "90e4840756b8a410",
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "7dc93121ae6674e5",
+    "type": "function",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "intention",
+    "func": "var opts = [[]];\nvar i = 0;\nif (msg.payload.light==true) {\n    opts[0][i++] = {\n                    \"text\": \"lumière\",\n                    \"callback_data\": \"light\"            \n                }\n}\nif (msg.payload.shutter==true) {\n    opts[0][i++] = {\n                    \"text\": \"volet\",\n                    \"callback_data\": \"shutter\"            \n                }\n}\nif (msg.payload.temperature==true) {\n    opts[0][i++] = {\n                    \"text\": \"temperature\",\n                    \"callback_data\": \"temperature\"            \n                }\n}\nif (msg.payload.camera==true) {\n    opts[0][i++] = {\n                    \"text\": \"photo\",\n                    \"callback_data\": \"camera\"            \n                }\n}\n\nmsg.payload.content = \"Que dois-je gérer ?\";\nmsg.payload.options = {reply_markup: JSON.stringify({\"inline_keyboard\":opts})};\nmsg.payload.messageId = 99;\nmsg.payload.sentMessageId = 99;\nmsg.payload.type = \"message\";\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2220,
+    "y": 960,
+    "wires": [
+      [
+        "90e4840756b8a410",
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "534311e383278b30",
+    "type": "telegram event",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "bot": "8c93df4a796cf540",
+    "event": "callback_query",
+    "autoanswer": false,
+    "x": 200,
+    "y": 1140,
+    "wires": [
+      [
+        "03eee1773e4b2310"
+      ]
+    ]
+  },
+  {
+    "id": "d69deeaa7e9d8299",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has light",
+    "property": "stack_bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "light",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 700,
+    "y": 960,
+    "wires": [
+      [
+        "51ac68fb3896f3c5"
+      ],
+      [
+        "c991e97927420e81"
+      ]
+    ]
+  },
+  {
+    "id": "cf9ce352e1e22189",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "reset payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "$lowercase(msg.payload.content)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "query.bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "stack_bucket",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 960,
+    "wires": [
+      [
+        "d69deeaa7e9d8299"
+      ]
+    ]
+  },
+  {
+    "id": "51ac68fb3896f3c5",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "light",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.light",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 890,
+    "y": 900,
+    "wires": [
+      [
+        "c991e97927420e81"
+      ]
+    ]
+  },
+  {
+    "id": "03eee1773e4b2310",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "select action",
+    "property": "payload.content",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "light",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "temperature",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "shutter",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "camera",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "switch on",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "switch off",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "open",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "openwork",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "close",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 10,
+    "x": 410,
+    "y": 1140,
+    "wires": [
+      [
+        "294f1ce97f6089bd"
+      ],
+      [
+        "a4572ddd98280be9"
+      ],
+      [
+        "0e7de263432880b9"
+      ],
+      [
+        "a99440b2cd2f03bf"
+      ],
+      [
+        "2f22451fdc194049"
+      ],
+      [
+        "72129b12981918d3"
+      ],
+      [
+        "5f97554e959fb27f"
+      ],
+      [
+        "91714762765d1df4"
+      ],
+      [
+        "f7c53c245cb82dbb"
+      ],
+      [
+        "01e78849a643e8a5"
+      ]
+    ]
+  },
+  {
+    "id": "e8ce95675101e8af",
+    "type": "function",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "light",
+    "func": "var opts = {\n  reply_markup: JSON.stringify({\n    \"inline_keyboard\": [[\n                {\n                    \"text\": \"éteindre\",\n                    \"callback_data\": \"switch off\"            \n                }, \n                {\n                    \"text\": \"allumer\",\n                    \"callback_data\": \"switch on\"            \n                }]\n            ]\n  })\n};\n\nmsg.payload.content = \"Dois-je éteindre ou allumer la lumière ?\";\nmsg.payload.options = opts;\nmsg.payload.messageId = 99;\nmsg.payload.sentMessageId = 99;\nmsg.payload.type = \"message\";\n\nreturn [ msg ];\n",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2230,
+    "y": 1020,
+    "wires": [
+      [
+        "94517b52fbc7c222",
+        "90e4840756b8a410"
+      ]
+    ]
+  },
+  {
+    "id": "c991e97927420e81",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has temperature",
+    "property": "stack_bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "temperature",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1100,
+    "y": 960,
+    "wires": [
+      [
+        "d59ba3289c9140f5"
+      ],
+      [
+        "e1cfda2f4b7b203d"
+      ]
+    ]
+  },
+  {
+    "id": "d59ba3289c9140f5",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "temperature",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.temperature",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1310,
+    "y": 900,
+    "wires": [
+      [
+        "e1cfda2f4b7b203d"
+      ]
+    ]
+  },
+  {
+    "id": "294f1ce97f6089bd",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "set measurement",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query.measurement",
+        "pt": "flow",
+        "to": "payload.content",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 1020,
+    "wires": [
+      [
+        "e8ce95675101e8af"
+      ]
+    ]
+  },
+  {
+    "id": "01e78849a643e8a5",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "unset measurement",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "query.measurement",
+        "pt": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 640,
+    "y": 1560,
+    "wires": [
+      [
+        "30946c7743bfbcc8"
+      ]
+    ]
+  },
+  {
+    "id": "2f22451fdc194049",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has measurement",
+    "property": "query.measurement",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 1260,
+    "wires": [
+      [
+        "a6c40e0c7109ccfc"
+      ]
+    ]
+  },
+  {
+    "id": "b03d810847d86c13",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'telegram/' & msg.bucket & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 1260,
+    "wires": [
+      [
+        "0c7e8c2914e9141c",
+        "d0658792bccca939"
+      ]
+    ]
+  },
+  {
+    "id": "930ec55bdd15ae80",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "telegram - conversation - metric",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1975,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "c98c8e1dd186a9e6",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "ok",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "Bien monsieur",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "bot",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2230,
+    "y": 1260,
+    "wires": [
+      [
+        "90e4840756b8a410",
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "a6c40e0c7109ccfc",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 1260,
+    "wires": [
+      [
+        "9ac1e60d77200847"
+      ]
+    ]
+  },
+  {
+    "id": "9ac1e60d77200847",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1030,
+    "y": 1260,
+    "wires": [
+      [
+        "b03d810847d86c13"
+      ]
+    ]
+  },
+  {
+    "id": "72129b12981918d3",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has measurement",
+    "property": "query.measurement",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 1320,
+    "wires": [
+      [
+        "bd19832c18d23672"
+      ]
+    ]
+  },
+  {
+    "id": "d14d8323f4b64b21",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'telegram/' & msg.bucket & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 1320,
+    "wires": [
+      [
+        "0c7e8c2914e9141c",
+        "d0658792bccca939"
+      ]
+    ]
+  },
+  {
+    "id": "bd19832c18d23672",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 1320,
+    "wires": [
+      [
+        "9d1cc9c17c4a70de"
+      ]
+    ]
+  },
+  {
+    "id": "9d1cc9c17c4a70de",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1030,
+    "y": 1320,
+    "wires": [
+      [
+        "d14d8323f4b64b21"
+      ]
+    ]
+  },
+  {
+    "id": "c8bc6bc3f69bd415",
+    "type": "trigger",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "send then 1 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "pay",
+    "op2type": "pay",
+    "duration": "1",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 2,
+    "x": 360,
+    "y": 720,
+    "wires": [
+      [
+        "e5af41b779d62608"
+      ],
+      [
+        "da845243f83992e3"
+      ]
+    ]
+  },
+  {
+    "id": "da845243f83992e3",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "start conversation",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "De quelle pièce dois-je m'occuper ?",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 590,
+    "y": 780,
+    "wires": [
+      [
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "e73144651291e1f3",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "temperature",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "'Il fait actuellement ' & msg.tmp & '°C monsieur'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "bot",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2210,
+    "y": 1080,
+    "wires": [
+      [
+        "90e4840756b8a410",
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "e1cfda2f4b7b203d",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has camera",
+    "property": "stack_bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "camera",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1510,
+    "y": 960,
+    "wires": [
+      [
+        "15ae149127236493"
+      ],
+      [
+        "d9a8d6a331678098"
+      ]
+    ]
+  },
+  {
+    "id": "15ae149127236493",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "camera",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.camera",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1700,
+    "y": 900,
+    "wires": [
+      [
+        "d9a8d6a331678098"
+      ]
+    ]
+  },
+  {
+    "id": "7f180cad8bf1f211",
+    "type": "http request",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "get snapshot",
+    "method": "GET",
+    "ret": "bin",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 810,
+    "y": 1200,
+    "wires": [
+      [
+        "11628a7a4db100fe"
+      ]
+    ]
+  },
+  {
+    "id": "a99440b2cd2f03bf",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "camera url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "metrics[msg.tmp]camera.url",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 1200,
+    "wires": [
+      [
+        "7f180cad8bf1f211"
+      ]
+    ]
+  },
+  {
+    "id": "11628a7a4db100fe",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "photo",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "photo",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.caption",
+        "pt": "msg",
+        "to": "\"snapshot \" & flow.query.bucket",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2230,
+    "y": 1200,
+    "wires": [
+      [
+        "94517b52fbc7c222",
+        "90e4840756b8a410"
+      ]
+    ]
+  },
+  {
+    "id": "30946c7743bfbcc8",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "message pas ok",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.type",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.content",
+        "pt": "msg",
+        "to": "Désole, je n'ai pas compris.",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "bot",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "reset",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2200,
+    "y": 1560,
+    "wires": [
+      [
+        "90e4840756b8a410",
+        "94517b52fbc7c222"
+      ]
+    ]
+  },
+  {
+    "id": "0e7de263432880b9",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "set measurement",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query.measurement",
+        "pt": "flow",
+        "to": "payload.content",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 1120,
+    "wires": [
+      [
+        "7d4b7dd3f0f26094"
+      ]
+    ]
+  },
+  {
+    "id": "7d4b7dd3f0f26094",
+    "type": "function",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "shutter",
+    "func": "var opts = {\n  reply_markup: JSON.stringify({\n    \"inline_keyboard\": [[\n                {\n                    \"text\": \"ouvrir\",\n                    \"callback_data\": \"open\"            \n                }, \n                {\n                    \"text\": \"ajourer\",\n                    \"callback_data\": \"openwork\"            \n                }, \n                {\n                    \"text\": \"fermer\",\n                    \"callback_data\": \"close\"            \n                }]\n            ]\n  })\n};\n\nmsg.payload.content = \"Dans quelle position dois-je mettre les volets ?\";\nmsg.payload.options = opts;\nmsg.payload.messageId = 99;\nmsg.payload.sentMessageId = 99;\nmsg.payload.type = \"message\";\n\nreturn [ msg ];\n",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2230,
+    "y": 1140,
+    "wires": [
+      [
+        "94517b52fbc7c222",
+        "90e4840756b8a410"
+      ]
+    ]
+  },
+  {
+    "id": "5f97554e959fb27f",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has measurement",
+    "property": "query.measurement",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 1380,
+    "wires": [
+      [
+        "87eb4084ab2b6c4f"
+      ]
+    ]
+  },
+  {
+    "id": "91714762765d1df4",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has measurement",
+    "property": "query.measurement",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 1440,
+    "wires": [
+      [
+        "3be41a89fb1c71f4"
+      ]
+    ]
+  },
+  {
+    "id": "f7c53c245cb82dbb",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has measurement",
+    "property": "query.measurement",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 630,
+    "y": 1500,
+    "wires": [
+      [
+        "5c38dd887299ff9c"
+      ]
+    ]
+  },
+  {
+    "id": "2b9f5994b30122d2",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'telegram/' & msg.bucket & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "openwork",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 1440,
+    "wires": [
+      [
+        "0c7e8c2914e9141c",
+        "d0658792bccca939"
+      ]
+    ]
+  },
+  {
+    "id": "882c784fa50c695e",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "shutter",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "shutter",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1190,
+    "y": 1440,
+    "wires": [
+      [
+        "cccf7ae8e3728235"
+      ]
+    ]
+  },
+  {
+    "id": "cccf7ae8e3728235",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "openwork",
+    "rules": [
+      {
+        "t": "set",
+        "p": "openwork",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]shading.openwork",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1360,
+    "y": 1440,
+    "wires": [
+      [
+        "dc85e9205b9bc40a"
+      ]
+    ]
+  },
+  {
+    "id": "dc85e9205b9bc40a",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "exists",
+    "property": "openwork",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1530,
+    "y": 1440,
+    "wires": [
+      [
+        "2b9f5994b30122d2"
+      ]
+    ]
+  },
+  {
+    "id": "558e2007055f9c38",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1030,
+    "y": 1440,
+    "wires": [
+      [
+        "882c784fa50c695e"
+      ]
+    ]
+  },
+  {
+    "id": "3be41a89fb1c71f4",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]aperture",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 1440,
+    "wires": [
+      [
+        "558e2007055f9c38"
+      ]
+    ]
+  },
+  {
+    "id": "cdf962c271de3805",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'telegram/' & msg.bucket & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "99",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 1380,
+    "wires": [
+      [
+        "0c7e8c2914e9141c",
+        "d0658792bccca939"
+      ]
+    ]
+  },
+  {
+    "id": "87eb4084ab2b6c4f",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]aperture",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 1380,
+    "wires": [
+      [
+        "4e3c3057b42e2a2a"
+      ]
+    ]
+  },
+  {
+    "id": "4e3c3057b42e2a2a",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1030,
+    "y": 1380,
+    "wires": [
+      [
+        "ce4d1a4c8f39d6ad"
+      ]
+    ]
+  },
+  {
+    "id": "ce4d1a4c8f39d6ad",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "shutter",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "shutter",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1190,
+    "y": 1380,
+    "wires": [
+      [
+        "cdf962c271de3805"
+      ]
+    ]
+  },
+  {
+    "id": "55aa1e8e4e61d51f",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'telegram/' & msg.bucket & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 1500,
+    "wires": [
+      [
+        "0c7e8c2914e9141c",
+        "d0658792bccca939"
+      ]
+    ]
+  },
+  {
+    "id": "d9a8d6a331678098",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "has shutter",
+    "property": "stack_bucket.aperture",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "shutter",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1890,
+    "y": 960,
+    "wires": [
+      [
+        "56a01bb3a1823ca6"
+      ],
+      [
+        "7dc93121ae6674e5"
+      ]
+    ]
+  },
+  {
+    "id": "56a01bb3a1823ca6",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "shutter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.shutter",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2050,
+    "y": 900,
+    "wires": [
+      [
+        "7dc93121ae6674e5"
+      ]
+    ]
+  },
+  {
+    "id": "0c7e8c2914e9141c",
+    "type": "trigger",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "send, wait 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "pay",
+    "op2type": "nul",
+    "duration": "5",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1880,
+    "y": 1260,
+    "wires": [
+      [
+        "c98c8e1dd186a9e6"
+      ]
+    ]
+  },
+  {
+    "id": "7c990a9e25fd7abf",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "shutter",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "shutter",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1190,
+    "y": 1500,
+    "wires": [
+      [
+        "55aa1e8e4e61d51f"
+      ]
+    ]
+  },
+  {
+    "id": "2eab37ce4e1d38c7",
+    "type": "split",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 1030,
+    "y": 1500,
+    "wires": [
+      [
+        "7c990a9e25fd7abf"
+      ]
+    ]
+  },
+  {
+    "id": "5c38dd887299ff9c",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]aperture",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 850,
+    "y": 1500,
+    "wires": [
+      [
+        "2eab37ce4e1d38c7"
+      ]
+    ]
+  },
+  {
+    "id": "d0658792bccca939",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "clean",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "bucket",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "measurement",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "field",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1850,
+    "y": 1320,
+    "wires": [
+      [
+        "930ec55bdd15ae80"
+      ]
+    ]
+  },
+  {
+    "id": "a4572ddd98280be9",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "query.bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 1080,
+    "wires": [
+      [
+        "de28e8e397badc0d"
+      ]
+    ]
+  },
+  {
+    "id": "de28e8e397badc0d",
+    "type": "link call",
+    "z": "52347795767acd3f",
+    "g": "6a1e1fb203c6236a",
+    "name": "",
+    "links": [
+      "ddd39f991efd9d31"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1750,
+    "y": 1080,
+    "wires": [
+      [
+        "e73144651291e1f3"
+      ]
+    ]
+  },
+  {
+    "id": "62a0c42c707fd2cf",
+    "type": "ui-text-input",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "group": "cc1a5079eaac4639",
+    "name": "",
+    "label": "Message",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "topic": "topic",
+    "topicType": "msg",
+    "mode": "text",
+    "delay": 300,
+    "passthru": true,
+    "sendOnDelay": false,
+    "sendOnBlur": true,
+    "sendOnEnter": true,
+    "className": "",
+    "x": 440,
+    "y": 1740,
+    "wires": [
+      [
+        "2585c1751940ee0f"
+      ]
+    ]
+  },
+  {
+    "id": "e78466517f08bf1b",
+    "type": "ui-button",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "group": "cc1a5079eaac4639",
+    "name": "",
+    "label": "Envoyer",
+    "order": 0,
+    "width": "6",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 280,
+    "y": 1800,
+    "wires": [
+      [
+        "344f652167848723"
+      ]
+    ]
+  },
+  {
+    "id": "2585c1751940ee0f",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "telegram_message",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 610,
+    "y": 1740,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "344f652167848723",
+    "type": "switch",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "flow",
+    "property": "telegram_message",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 1800,
+    "wires": [
+      [
+        "45159e869e60fef7"
+      ]
+    ]
+  },
+  {
+    "id": "8cdd0ff94c11d7d4",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "empty",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1740,
+    "wires": [
+      [
+        "62a0c42c707fd2cf"
+      ]
+    ]
+  },
+  {
+    "id": "45159e869e60fef7",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "telegram_message",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 620,
+    "y": 1800,
+    "wires": [
+      [
+        "c7690118febd88ba",
+        "c112e5483b53e573"
+      ]
+    ]
+  },
+  {
+    "id": "c7690118febd88ba",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "telegram - ui - home",
+    "mode": "link",
+    "links": [
+      "63286bf6d40b9ecd",
+      "923d4072d9fd4b7f"
+    ],
+    "x": 755,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "63286bf6d40b9ecd",
+    "type": "link in",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "telegram - ui - home",
+    "links": [
+      "c7690118febd88ba"
+    ],
+    "x": 135,
+    "y": 1740,
+    "wires": [
+      [
+        "8cdd0ff94c11d7d4"
+      ]
+    ]
+  },
+  {
+    "id": "c112e5483b53e573",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Message envoyé",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 800,
+    "y": 1740,
+    "wires": [
+      [
+        "057cd27350be1d0e"
+      ]
+    ]
+  },
+  {
+    "id": "057cd27350be1d0e",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "31c43960a49c7f75",
+    "name": "telegram - ui - notification",
+    "mode": "link",
+    "links": [
+      "32eb12f106b8c786"
+    ],
+    "x": 935,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "cbffc01deca8e9c7",
+    "type": "credentials",
+    "z": "52347795767acd3f",
+    "g": "63db7d59d8bc4113",
+    "name": "chat id",
+    "props": [
+      {
+        "value": "default",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "54fdbae28789e192"
+      ]
+    ]
+  }
+]

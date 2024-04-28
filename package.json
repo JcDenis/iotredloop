@@ -17,7 +17,8 @@
         "node-red-contrib-credentials": "0.2.3",
         "node-red-node-base64": "0.3.0",
         "node-red-contrib-alexa-remote2-applestrudel": "5.0.50",
-        "node-red-contrib-unifi": "0.3.15"
+        "node-red-contrib-unifi": "0.3.15",
+        "node-red-contrib-telegrambot": "15.1.10"
     },
     "node-red": {
         "settings": {

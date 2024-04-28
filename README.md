@@ -25,8 +25,9 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 * [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) 0.2.3
 * [node-red-node-base64](https://flows.nodered.org/node/node-red-node-base64) 0.3.0
 
-It additionnaly uses some Unifi and Amazon Alexa stuff.
+It additionnaly uses some Telegram, Proxmox, Unifi and Amazon Alexa stuff.
 
+* [node-red-contrib-telegrambot](https://flows.nodered.org/node/node-red-contrib-telegrambot) 15.1.10
 * [node-red-contrib-unifi](https://flows.nodered.org/node/node-red-contrib-unifi) 0.3.15
 * [node-red-contrib-alexa-remote2-applestrudel](https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel) 5.0.50
 * [node-red-contrib-virtual-smart-home](https://flows.nodered.org/node/node-red-contrib-virtual-smart-home) 4.4.0

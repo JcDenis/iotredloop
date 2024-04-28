@@ -89,6 +89,26 @@
     "h": 494
   },
   {
+    "id": "df46e2504e16fc3e",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - ui - chart (customized to my needs)",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "04de52a5f5237233",
+      "84416ebc7a349dd4",
+      "638b6d92fcb75ad5"
+    ],
+    "x": 68,
+    "y": 713,
+    "w": 644,
+    "h": 374
+  },
+  {
     "id": "f36ad9add0dea84a",
     "type": "group",
     "z": "e19f53e3dc7ab928",
@@ -188,26 +208,6 @@
     "y": 199,
     "w": 1372,
     "h": 322
-  },
-  {
-    "id": "df46e2504e16fc3e",
-    "type": "group",
-    "z": "e19f53e3dc7ab928",
-    "name": "home - ui - chart (customized to my needs)",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "04de52a5f5237233",
-      "84416ebc7a349dd4",
-      "638b6d92fcb75ad5"
-    ],
-    "x": 68,
-    "y": 713,
-    "w": 644,
-    "h": 374
   },
   {
     "id": "04de52a5f5237233",
@@ -433,7 +433,8 @@
     "g": "c76679b82b664526",
     "name": "home - ui - notification",
     "links": [
-      "1ff5fd68e1799ae5"
+      "1ff5fd68e1799ae5",
+      "057cd27350be1d0e"
     ],
     "x": 1095,
     "y": 60,
