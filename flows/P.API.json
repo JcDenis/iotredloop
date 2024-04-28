@@ -1,0 +1,3076 @@
+[
+  {
+    "id": "f125f568d4e332ee",
+    "type": "tab",
+    "label": "P.API",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "9a5f8bbe3eabf5fb",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "name": "REOLINK - camera",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "636790a6de6bdeca"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 814,
+    "h": 194
+  },
+  {
+    "id": "7582d30c302794cb",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "name": "catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1d269c0145ad9a2d",
+      "d37bee6cc18d8f64"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 392,
+    "h": 82
+  },
+  {
+    "id": "571cfd384a015b88",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "name": "Daikin - BRP069B45",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9cdc88788fe441f1",
+      "360ce5f1d0de3811",
+      "e7dd5536e7ec485b",
+      "c845a1c03f4d92c1",
+      "00798774fd655f5e"
+    ],
+    "x": 68,
+    "y": 413,
+    "w": 7634,
+    "h": 794
+  },
+  {
+    "id": "636790a6de6bdeca",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "9a5f8bbe3eabf5fb",
+    "name": "api - camera - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "99fe787fc1aa2efe",
+      "a54905c20392b984",
+      "cd58e411fe4d34cd",
+      "61651b0ee41123b7",
+      "7c230d4cdca2bfea",
+      "4e3f5c09468d189b",
+      "4408e79a921abde7"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 762,
+    "h": 142
+  },
+  {
+    "id": "9cdc88788fe441f1",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - device",
+    "style": {
+      "label": true,
+      "fill": "#ffC000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "9405d14c97dba7e5",
+      "61e245f74e07b10d",
+      "e3c4ae3ddd50eec2",
+      "011ade793e7bc445",
+      "fe303e4021a5b4be",
+      "038b2def0f9a28ae",
+      "2a9e3b488590c435",
+      "fa538e7bec527b6f",
+      "51b51889079ebf6c",
+      "ddd2fdbcdb9c86c1",
+      "584d6b722534c912",
+      "8aac22b29281bbb2",
+      "f0caf0d00683cab6",
+      "2ea0e31ea4bcc4e0",
+      "5075e1b00bd279ed",
+      "ed78d57addcfaed4",
+      "48d093a809c863d7"
+    ],
+    "x": 94,
+    "y": 439,
+    "w": 942,
+    "h": 742
+  },
+  {
+    "id": "360ce5f1d0de3811",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f71143d4a1e865c3",
+      "8608637b5a26bca7",
+      "5e888e23163ac3bf",
+      "6943689df4884df3",
+      "7634941bff66a6dd",
+      "af1d46d32e7d572e",
+      "1717b4b42c3de1df",
+      "28b4c85488f128d5",
+      "bffe192d318c5b7b",
+      "4a0ee4c3c569cf57",
+      "bc238f831322f260",
+      "5c02d7293ada883c",
+      "873fffb1d263db71",
+      "8156394d9b7d6e42",
+      "1ce065ee95e4bc96",
+      "da2926c9f2b6bf96",
+      "30827d65144b688f",
+      "c578d346dcc9f38e",
+      "6c341edbdc85864c",
+      "05632f2f980cdf7b",
+      "9ef2d8276441403e",
+      "0fb952b271143df6",
+      "99ba27f17405021f"
+    ],
+    "x": 1134,
+    "y": 439,
+    "w": 2052,
+    "h": 262
+  },
+  {
+    "id": "e7dd5536e7ec485b",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7efac7e387d141ec",
+      "ba235aab7dfb1657",
+      "cfe63595d3b8995f",
+      "876b1f20d9cf3e10",
+      "8148c9d62d0a05ab",
+      "f202d1365abe395c",
+      "9d79f271f0274c74",
+      "ed0961c2ec67452b",
+      "8fa6a7c7df79344c",
+      "d5788e29f1e344be",
+      "efec7c8362bd6496",
+      "2c35832edfa0d2fc",
+      "1a5051a42ca6c504",
+      "bc4daaee49052e86"
+    ],
+    "x": 3254,
+    "y": 439,
+    "w": 2042,
+    "h": 142
+  },
+  {
+    "id": "c845a1c03f4d92c1",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - call",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "786bfd43841bb244",
+      "f721ca03be8ff260",
+      "f2a95a5b30167059",
+      "5d1d77696340830c",
+      "983cd159a0b40113",
+      "37d6df803145f6b3",
+      "0f9815dd4369b44e",
+      "dedd7481c1232f2b",
+      "221ee97bfed13f5d",
+      "f8b304d5bd41013d",
+      "ced32d247bfe4ecd",
+      "37b01079e497bc64",
+      "a4813736579f6a19",
+      "54880878ed729b66",
+      "aa72fc0611d255ca",
+      "1af45cb185475ea3",
+      "2aca27cd78517955",
+      "78056d2e854d07b8",
+      "8919c8979775e43c",
+      "bbfde2c30bb24f53",
+      "2efdb634d6eff450",
+      "d1e219d53c99be45",
+      "17db5a87405dc4cb",
+      "8f81968d65ec739b",
+      "c63d0c615d60abc8",
+      "68aeddd9bd26aa5b"
+    ],
+    "x": 5374,
+    "y": 439,
+    "w": 2302,
+    "h": 442
+  },
+  {
+    "id": "00798774fd655f5e",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - update thermostat to air conditioner",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "16f4d5aef15c6bdd",
+      "08048d875b38ceb8",
+      "d5cdd8f60040d125",
+      "1d16f018c9c5ace2",
+      "a76580bfbb24a34e",
+      "e314d68876ac9938",
+      "192d06a39b1a1f66",
+      "517ffa31c1e561c3",
+      "8296521e661aabf6"
+    ],
+    "x": 1134,
+    "y": 919,
+    "w": 782,
+    "h": 262
+  },
+  {
+    "id": "99fe787fc1aa2efe",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "camera / url / text",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "camera",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "id",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 470,
+    "y": 300,
+    "wires": [
+      [
+        "61651b0ee41123b7"
+      ]
+    ]
+  },
+  {
+    "id": "a54905c20392b984",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "api - camera - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "cd58e411fe4d34cd"
+      ]
+    ]
+  },
+  {
+    "id": "cd58e411fe4d34cd",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "REOLINK",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "99fe787fc1aa2efe",
+        "4e3f5c09468d189b"
+      ]
+    ]
+  },
+  {
+    "id": "61651b0ee41123b7",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 680,
+    "y": 240,
+    "wires": [
+      [
+        "7c230d4cdca2bfea"
+      ]
+    ]
+  },
+  {
+    "id": "7c230d4cdca2bfea",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "api - camera - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 815,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "4e3f5c09468d189b",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "d": true,
+    "g": "636790a6de6bdeca",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "camera'",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "reolink",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 240,
+    "wires": [
+      [
+        "61651b0ee41123b7"
+      ]
+    ]
+  },
+  {
+    "id": "4408e79a921abde7",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "636790a6de6bdeca",
+    "name": "camera / url",
+    "info": "",
+    "x": 190,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "1d269c0145ad9a2d",
+    "type": "catch",
+    "z": "f125f568d4e332ee",
+    "g": "7582d30c302794cb",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": true,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "d37bee6cc18d8f64"
+      ]
+    ]
+  },
+  {
+    "id": "d37bee6cc18d8f64",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "7582d30c302794cb",
+    "name": "catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 810,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "9405d14c97dba7e5",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "api - BRP069B45 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "584d6b722534c912"
+      ]
+    ]
+  },
+  {
+    "id": "61e245f74e07b10d",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 600,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "e3c4ae3ddd50eec2",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / mode / text / A",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "A",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 660,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "011ade793e7bc445",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / fan rate / text / A",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "fan rate",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "A",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 720,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "fe303e4021a5b4be",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / fan direction / text / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "fan direction",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 780,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "038b2def0f9a28ae",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / temperature setpoint / text / 21",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "temperature setpoint",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "21",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 560,
+    "y": 900,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "2a9e3b488590c435",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "api - BRP069B45 - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 995,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "fa538e7bec527b6f",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / url / text / *",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "id",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 540,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "51b51889079ebf6c",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "d": true,
+    "g": "9cdc88788fe441f1",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "daikin",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 480,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "ddd2fdbcdb9c86c1",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 860,
+    "y": 480,
+    "wires": [
+      [
+        "2a9e3b488590c435"
+      ]
+    ]
+  },
+  {
+    "id": "584d6b722534c912",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "BRP069B45",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "51b51889079ebf6c",
+        "fa538e7bec527b6f",
+        "61e245f74e07b10d",
+        "e3c4ae3ddd50eec2",
+        "011ade793e7bc445",
+        "fe303e4021a5b4be",
+        "038b2def0f9a28ae",
+        "f0caf0d00683cab6",
+        "2ea0e31ea4bcc4e0",
+        "5075e1b00bd279ed",
+        "ed78d57addcfaed4",
+        "48d093a809c863d7"
+      ]
+    ]
+  },
+  {
+    "id": "8aac22b29281bbb2",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / url",
+    "info": "",
+    "x": 210,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "f0caf0d00683cab6",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "cible / pilot / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cible",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pilot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 960,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "2ea0e31ea4bcc4e0",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "thermostat / pilot / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pilot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1020,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "5075e1b00bd279ed",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "temperature / air conditioner / number / 20",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 1080,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "ed78d57addcfaed4",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "power / air conditioner / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1140,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "48d093a809c863d7",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "9cdc88788fe441f1",
+    "name": "air conditioner / advanced / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "advanced",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 840,
+    "wires": [
+      [
+        "ddd2fdbcdb9c86c1"
+      ]
+    ]
+  },
+  {
+    "id": "f71143d4a1e865c3",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "api - BRP069B45 - source",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 1175,
+    "y": 540,
+    "wires": [
+      [
+        "8608637b5a26bca7"
+      ]
+    ]
+  },
+  {
+    "id": "8608637b5a26bca7",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stack",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1330,
+    "y": 540,
+    "wires": [
+      [
+        "5e888e23163ac3bf"
+      ]
+    ]
+  },
+  {
+    "id": "5e888e23163ac3bf",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1510,
+    "y": 540,
+    "wires": [
+      [
+        "6943689df4884df3"
+      ]
+    ]
+  },
+  {
+    "id": "6943689df4884df3",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "measurement",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "air conditioner",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1700,
+    "y": 540,
+    "wires": [
+      [
+        "bffe192d318c5b7b"
+      ]
+    ]
+  },
+  {
+    "id": "7634941bff66a6dd",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "api - BRP069B45 - source",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3030,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "af1d46d32e7d572e",
+    "type": "delay",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 2050,
+    "y": 540,
+    "wires": [
+      [
+        "4a0ee4c3c569cf57"
+      ]
+    ]
+  },
+  {
+    "id": "1717b4b42c3de1df",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "api - BRP069B45 - source",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2935,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "28b4c85488f128d5",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "scan rooms to find air conditioner and to query it to update values",
+    "info": "",
+    "x": 1390,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "bffe192d318c5b7b",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "device",
+    "property": "devices[msg.bucket]['air conditioner']url.model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "BRP069B45",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1890,
+    "y": 540,
+    "wires": [
+      [
+        "af1d46d32e7d572e"
+      ]
+    ]
+  },
+  {
+    "id": "4a0ee4c3c569cf57",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "get url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "payload['air conditioner']url",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2210,
+    "y": 540,
+    "wires": [
+      [
+        "bc238f831322f260",
+        "1ce065ee95e4bc96"
+      ]
+    ]
+  },
+  {
+    "id": "bc238f831322f260",
+    "type": "link call",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "",
+    "links": [
+      "a4813736579f6a19"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2420,
+    "y": 540,
+    "wires": [
+      [
+        "5c02d7293ada883c"
+      ]
+    ]
+  },
+  {
+    "id": "5c02d7293ada883c",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 2630,
+    "y": 540,
+    "wires": [
+      [
+        "873fffb1d263db71"
+      ]
+    ]
+  },
+  {
+    "id": "873fffb1d263db71",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2800,
+    "y": 540,
+    "wires": [
+      [
+        "7634941bff66a6dd",
+        "1717b4b42c3de1df"
+      ]
+    ]
+  },
+  {
+    "id": "8156394d9b7d6e42",
+    "type": "catch",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "catch query timeout (see query)",
+    "scope": "group",
+    "uncaught": false,
+    "x": 2450,
+    "y": 480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "1ce065ee95e4bc96",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "sensor url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "'http://'&msg.url&'/aircon/get_sensor_info'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1580,
+    "y": 660,
+    "wires": [
+      [
+        "da2926c9f2b6bf96"
+      ]
+    ]
+  },
+  {
+    "id": "da2926c9f2b6bf96",
+    "type": "http request",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "",
+    "method": "GET",
+    "ret": "txt",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 1770,
+    "y": 660,
+    "wires": [
+      [
+        "30827d65144b688f"
+      ]
+    ]
+  },
+  {
+    "id": "30827d65144b688f",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "status",
+    "property": "statusCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "200",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1950,
+    "y": 660,
+    "wires": [
+      [
+        "c578d346dcc9f38e"
+      ]
+    ]
+  },
+  {
+    "id": "c578d346dcc9f38e",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "decode",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$decodeUrl(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2120,
+    "y": 660,
+    "wires": [
+      [
+        "6c341edbdc85864c"
+      ]
+    ]
+  },
+  {
+    "id": "6c341edbdc85864c",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "pair",
+    "splt": ",",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 2290,
+    "y": 660,
+    "wires": [
+      [
+        "05632f2f980cdf7b"
+      ]
+    ]
+  },
+  {
+    "id": "05632f2f980cdf7b",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "split",
+    "rules": [
+      {
+        "t": "set",
+        "p": "pair",
+        "pt": "msg",
+        "to": "$split(msg.payload,'=')",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2450,
+    "y": 660,
+    "wires": [
+      [
+        "9ef2d8276441403e"
+      ]
+    ]
+  },
+  {
+    "id": "9ef2d8276441403e",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "key",
+    "property": "pair[0]",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "mompow",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "htemp",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2610,
+    "y": 660,
+    "wires": [
+      [
+        "99ba27f17405021f"
+      ],
+      [
+        "0fb952b271143df6"
+      ]
+    ]
+  },
+  {
+    "id": "0fb952b271143df6",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "temperature",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.pair[1])-1",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 660,
+    "wires": [
+      [
+        "1717b4b42c3de1df"
+      ]
+    ]
+  },
+  {
+    "id": "99ba27f17405021f",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "360ce5f1d0de3811",
+    "name": "power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$number(msg.pair[1])",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2770,
+    "y": 600,
+    "wires": [
+      [
+        "1717b4b42c3de1df"
+      ]
+    ]
+  },
+  {
+    "id": "7efac7e387d141ec",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "api - BRP069B45 - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 3295,
+    "y": 540,
+    "wires": [
+      [
+        "876b1f20d9cf3e10"
+      ]
+    ]
+  },
+  {
+    "id": "ba235aab7dfb1657",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "api - BRP069B45 - metric error",
+    "mode": "link",
+    "links": [],
+    "x": 4995,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "cfe63595d3b8995f",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "query",
+    "rules": [
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "stack[msg.bucket]['air conditioner']url",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "updated_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3810,
+    "y": 540,
+    "wires": [
+      [
+        "d5788e29f1e344be"
+      ]
+    ]
+  },
+  {
+    "id": "876b1f20d9cf3e10",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "air conditioner",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3460,
+    "y": 540,
+    "wires": [
+      [
+        "8148c9d62d0a05ab"
+      ]
+    ]
+  },
+  {
+    "id": "8148c9d62d0a05ab",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "device",
+    "property": "devices[msg.bucket]['air conditioner']url.model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "BRP069B45",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3650,
+    "y": 540,
+    "wires": [
+      [
+        "cfe63595d3b8995f"
+      ]
+    ]
+  },
+  {
+    "id": "f202d1365abe395c",
+    "type": "http request",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "",
+    "method": "GET",
+    "ret": "txt",
+    "paytoqs": false,
+    "url": "",
+    "persist": false,
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 4690,
+    "y": 540,
+    "wires": [
+      [
+        "9d79f271f0274c74"
+      ]
+    ]
+  },
+  {
+    "id": "9d79f271f0274c74",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "status",
+    "property": "statusCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "200",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 4870,
+    "y": 540,
+    "wires": [
+      [
+        "ed0961c2ec67452b",
+        "ba235aab7dfb1657"
+      ]
+    ]
+  },
+  {
+    "id": "ed0961c2ec67452b",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "api - BRP069B45 - metric error",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 5120,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "8fa6a7c7df79344c",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "check changes",
+    "property": "payload[msg.field]",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "updated_payload",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 4260,
+    "y": 540,
+    "wires": [
+      [
+        "efec7c8362bd6496"
+      ]
+    ]
+  },
+  {
+    "id": "d5788e29f1e344be",
+    "type": "link call",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "",
+    "links": [
+      "a4813736579f6a19"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 4020,
+    "y": 540,
+    "wires": [
+      [
+        "8fa6a7c7df79344c"
+      ]
+    ]
+  },
+  {
+    "id": "efec7c8362bd6496",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "prepare query",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload[msg.field]",
+        "pt": "msg",
+        "to": "updated_payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "'pow='&(msg.payload.actif?1:0)&\t'&mode='&msg.payload.mode&\t'&adv='&msg.payload.advanced&\t'&stemp='&msg.payload.\"temperature setpoint\"&\t'&shum=0'&\t'&f_rate='&msg.payload.\"fan rate\"&\t'&f_dir='&msg.payload.\"fan direction\"",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "'http://'&msg.url&'/aircon/set_control_info?'&msg.payload",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "old",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "new",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "updated_payload",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "headsers",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "statusCode",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4480,
+    "y": 540,
+    "wires": [
+      [
+        "f202d1365abe395c",
+        "bc4daaee49052e86"
+      ]
+    ]
+  },
+  {
+    "id": "2c35832edfa0d2fc",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "query ac before sending order to see if there'are changes",
+    "info": "",
+    "x": 3650,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "1a5051a42ca6c504",
+    "type": "catch",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "catch query timeout (see query)",
+    "scope": "group",
+    "uncaught": false,
+    "x": 4050,
+    "y": 480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "bc4daaee49052e86",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "e7dd5536e7ec485b",
+    "name": "api - BRP069B45 - metric",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 4730,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "786bfd43841bb244",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "control url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_url",
+        "pt": "msg",
+        "to": "url",
+        "tot": "msg",
+        "dc": true
+      },
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "'http://'&msg.url&'/aircon/get_control_info'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5720,
+    "y": 540,
+    "wires": [
+      [
+        "f721ca03be8ff260"
+      ]
+    ]
+  },
+  {
+    "id": "f721ca03be8ff260",
+    "type": "http request",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "",
+    "method": "GET",
+    "ret": "txt",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 5910,
+    "y": 540,
+    "wires": [
+      [
+        "0f9815dd4369b44e"
+      ]
+    ]
+  },
+  {
+    "id": "f2a95a5b30167059",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "decode",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$decodeUrl(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6260,
+    "y": 540,
+    "wires": [
+      [
+        "5d1d77696340830c",
+        "8f81968d65ec739b"
+      ]
+    ]
+  },
+  {
+    "id": "5d1d77696340830c",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "pair",
+    "splt": ",",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 6430,
+    "y": 540,
+    "wires": [
+      [
+        "983cd159a0b40113"
+      ]
+    ]
+  },
+  {
+    "id": "983cd159a0b40113",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "split",
+    "rules": [
+      {
+        "t": "set",
+        "p": "pair",
+        "pt": "msg",
+        "to": "$split(msg.payload,'=')",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6590,
+    "y": 540,
+    "wires": [
+      [
+        "37d6df803145f6b3"
+      ]
+    ]
+  },
+  {
+    "id": "37d6df803145f6b3",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "key",
+    "property": "pair[0]",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "stemp",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "f_rate",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "f_dir",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "pow",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "adv",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 7,
+    "x": 6750,
+    "y": 540,
+    "wires": [
+      [
+        "dedd7481c1232f2b"
+      ],
+      [
+        "221ee97bfed13f5d"
+      ],
+      [
+        "f8b304d5bd41013d"
+      ],
+      [
+        "ced32d247bfe4ecd"
+      ],
+      [
+        "37b01079e497bc64"
+      ],
+      [
+        "c63d0c615d60abc8"
+      ],
+      [
+        "1af45cb185475ea3"
+      ]
+    ]
+  },
+  {
+    "id": "0f9815dd4369b44e",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "status",
+    "property": "statusCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "200",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 6090,
+    "y": 540,
+    "wires": [
+      [
+        "f2a95a5b30167059"
+      ]
+    ]
+  },
+  {
+    "id": "dedd7481c1232f2b",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "temperature setpoint",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['temperature setpoint']",
+        "pt": "flow",
+        "to": "$number(msg.pair[1])",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6960,
+    "y": 480,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "221ee97bfed13f5d",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "fan rate",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['fan rate']",
+        "pt": "flow",
+        "to": "pair[1]",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6920,
+    "y": 540,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "f8b304d5bd41013d",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "fan direction",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['fan direction']",
+        "pt": "flow",
+        "to": "pair[1]",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6930,
+    "y": 600,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "ced32d247bfe4ecd",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "mode",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['mode']",
+        "pt": "flow",
+        "to": "pair[1]",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6910,
+    "y": 660,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "37b01079e497bc64",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "actif",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['actif']",
+        "pt": "flow",
+        "to": "msg.pair[1]=\"1\"",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6910,
+    "y": 720,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "a4813736579f6a19",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "api - BRP069B45 - call",
+    "links": [],
+    "x": 5415,
+    "y": 540,
+    "wires": [
+      [
+        "54880878ed729b66"
+      ]
+    ]
+  },
+  {
+    "id": "54880878ed729b66",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "has url",
+    "property": "url",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nnull"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 5550,
+    "y": 540,
+    "wires": [
+      [
+        "786bfd43841bb244"
+      ]
+    ]
+  },
+  {
+    "id": "aa72fc0611d255ca",
+    "type": "join",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 7170,
+    "y": 540,
+    "wires": [
+      [
+        "2aca27cd78517955"
+      ]
+    ]
+  },
+  {
+    "id": "1af45cb185475ea3",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "null",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "null",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6910,
+    "y": 840,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "2aca27cd78517955",
+    "type": "delay",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 7340,
+    "y": 540,
+    "wires": [
+      [
+        "78056d2e854d07b8"
+      ]
+    ]
+  },
+  {
+    "id": "78056d2e854d07b8",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "from flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "ac[msg.bucket]",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "old_url",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "headers",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "responseUrl",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "redirectList",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "retry",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "pair",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 7500,
+    "y": 540,
+    "wires": [
+      [
+        "8919c8979775e43c"
+      ]
+    ]
+  },
+  {
+    "id": "8919c8979775e43c",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "api - BRP069B45 - call",
+    "mode": "return",
+    "links": [],
+    "x": 7635,
+    "y": 540,
+    "wires": []
+  },
+  {
+    "id": "bbfde2c30bb24f53",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "use flow.ac to memorise values during split",
+    "info": "",
+    "x": 6540,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "2efdb634d6eff450",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "See : https://github.com/ehjortberg/daikin-control",
+    "info": "",
+    "x": 5580,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "d1e219d53c99be45",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "timeout air conditioner",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 6180,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "17db5a87405dc4cb",
+    "type": "catch",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "catch query timeout",
+    "scope": "group",
+    "uncaught": false,
+    "x": 5930,
+    "y": 480,
+    "wires": [
+      [
+        "d1e219d53c99be45"
+      ]
+    ]
+  },
+  {
+    "id": "8f81968d65ec739b",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "query url BRP069B45 response",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 6510,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "c63d0c615d60abc8",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "advanced",
+    "rules": [
+      {
+        "t": "set",
+        "p": "ac[msg.bucket]['advanced']",
+        "pt": "flow",
+        "to": "$string(msg.pair[1])",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6920,
+    "y": 780,
+    "wires": [
+      [
+        "aa72fc0611d255ca"
+      ]
+    ]
+  },
+  {
+    "id": "68aeddd9bd26aa5b",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "c845a1c03f4d92c1",
+    "name": "not working",
+    "info": "",
+    "x": 7130,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "16f4d5aef15c6bdd",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "api - BRP069B45 - update thermostat to air conditioner",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 1175,
+    "y": 1080,
+    "wires": [
+      [
+        "08048d875b38ceb8"
+      ]
+    ]
+  },
+  {
+    "id": "08048d875b38ceb8",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "salon/cible/pilot",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/air conditioner/actif",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "salon/thermostat/temperature setpoint",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 1310,
+    "y": 1080,
+    "wires": [
+      [
+        "a76580bfbb24a34e",
+        "8296521e661aabf6"
+      ],
+      [
+        "e314d68876ac9938"
+      ],
+      [
+        "1d16f018c9c5ace2"
+      ]
+    ]
+  },
+  {
+    "id": "d5cdd8f60040d125",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "api - BRP069B45 - update thermostat to air conditioner",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1875,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "1d16f018c9c5ace2",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "air conditioner / temperature setpoint",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "temperature setpoint",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stack[msg.bucket]thermostat['temperature setpoint']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1570,
+    "y": 1140,
+    "wires": [
+      [
+        "d5cdd8f60040d125"
+      ]
+    ]
+  },
+  {
+    "id": "a76580bfbb24a34e",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "ait conditioner / actif",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1520,
+    "y": 1020,
+    "wires": [
+      [
+        "517ffa31c1e561c3"
+      ]
+    ]
+  },
+  {
+    "id": "e314d68876ac9938",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "thermostat / pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pilot",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1510,
+    "y": 1080,
+    "wires": [
+      [
+        "d5cdd8f60040d125"
+      ]
+    ]
+  },
+  {
+    "id": "192d06a39b1a1f66",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "if true",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1730,
+    "y": 960,
+    "wires": [
+      [
+        "d5cdd8f60040d125"
+      ]
+    ]
+  },
+  {
+    "id": "517ffa31c1e561c3",
+    "type": "delay",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "150 ms",
+    "pauseType": "delay",
+    "timeout": "150",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1740,
+    "y": 1020,
+    "wires": [
+      [
+        "d5cdd8f60040d125"
+      ]
+    ]
+  },
+  {
+    "id": "8296521e661aabf6",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "air conditioner / mode",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "4",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1520,
+    "y": 960,
+    "wires": [
+      [
+        "192d06a39b1a1f66"
+      ]
+    ]
+  }
+]
