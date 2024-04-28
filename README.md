@@ -44,6 +44,12 @@ The better way is to :
  3. pull this repository,
  4. select only flow tabs you want in flow manager. (top right button)
 
+Tabs starting with:
+* K. Kernel tabs, required
+* P. Protocols tabs, required
+* U. Dashboard tabs,required
+* R. Rooms tabs, not required, some exemples of rooms taken from my house
+
 ## LICENSE
 
 GNU GENERAL PUBLIC LICENSE version 3 (GPL-3.0 license)
