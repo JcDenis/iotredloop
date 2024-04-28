@@ -14,7 +14,8 @@
         "node-red-contrib-bigtimer": "2.8.6",
         "node-red-contrib-cron-plus": "2.1.0",
         "node-red-contrib-influxdb": "0.7.0",
-        "node-red-contrib-credentials": "0.2.3"
+        "node-red-contrib-credentials": "0.2.3",
+        "node-red-node-base64": "0.3.0"
     },
     "node-red": {
         "settings": {

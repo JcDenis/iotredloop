@@ -23,6 +23,7 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 * [node-red-contrib-cron-plus](https://flows.nodered.org/node/node-red-contrib-cron-plus) 2.1.0
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) 0.7.0
 * [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) 0.2.3
+* [node-red-node-base64](https://flows.nodered.org/node/node-red-node-base64) 0.3.0
 
 Flows also required a working MQTT broker and a InfluxDB database.
 It additionnaly uses some Unifi and Amazon Alexa stuff.
