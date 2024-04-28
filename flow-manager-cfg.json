@@ -6,6 +6,10 @@
     "K.Translate",
     "K.linky",
     "Kernel",
+    "P.API",
+    "P.Rfxcom",
+    "P.Zigbee",
+    "P.Zwave",
     "R.Config",
     "R.Home",
     "R.System"
