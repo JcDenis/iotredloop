@@ -36,6 +36,14 @@ It additionnaly uses some Telegram, Proxmox, Unifi, Nextcloud (agenda) and Amazo
 
 **Flows also required a working MQTT broker and a InfluxDB database.**
 
+## INSTALLATION
+
+The better way is to :
+ 1. install nodered in [nodered project](https://nodered.org/docs/user-guide/projects/) mode with git,
+ 2. add nodered node-red-contrib-flow-manager palette,
+ 3. pull this repository,
+ 4. select only flow tabs you want in flow manager. (top right button)
+
 ## LICENSE
 
 GNU GENERAL PUBLIC LICENSE version 3 (GPL-3.0 license)
