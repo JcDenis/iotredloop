@@ -9,6 +9,7 @@
     "P.API",
     "P.Alexa",
     "P.Rfxcom",
+    "P.Unifi",
     "P.Zigbee",
     "P.Zwave",
     "R.Config",
