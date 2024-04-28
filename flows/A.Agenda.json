@@ -1,0 +1,4631 @@
+[
+  {
+    "id": "b66c229035856438",
+    "type": "tab",
+    "label": "A.Agenda",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "e59bed66f12534a0",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "agenda - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "5aa8eef8bc4e35d7",
+      "3520d6c943a27bd7",
+      "e928798f23941942"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "898375cf932cf6f4",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "agenda - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b0357b8e7d34a597",
+      "8e95d98d7dad67ad"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 452,
+    "h": 82
+  },
+  {
+    "id": "b6b56adff82012bd",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "agenda - birthday",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "31de927a663fcb1e",
+      "fb524b1a6da7faeb",
+      "5f7de2cef4af9bc6",
+      "d241362d80c610fa",
+      "1bacdb8e148b7ef2"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 2694,
+    "h": 2054
+  },
+  {
+    "id": "31de927a663fcb1e",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "b6b56adff82012bd",
+    "name": "agenda - birthday - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "060ca3dab7e4b080",
+      "51101010f440af18",
+      "72120a886fd31b2a",
+      "e4d7334aa6d35ebe",
+      "16c8ef5f39faedc8",
+      "2864163617b6dd6c"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 642,
+    "h": 202
+  },
+  {
+    "id": "fb524b1a6da7faeb",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "b6b56adff82012bd",
+    "name": "agenda - birthday - source",
+    "style": {
+      "stroke": "#bfbfbf",
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "color": "#7f7f7f"
+    },
+    "nodes": [
+      "56ceab158d68c63a",
+      "dba1fa5fbd2cfd9e",
+      "fdd481dbe4894850",
+      "e8f8bee92fde2e82",
+      "7630626c6be5570e",
+      "2178ab91615ab3c6",
+      "c1a9521d5c2df984",
+      "6933d070cb7edf0e",
+      "eb1d0f0e28c325e8",
+      "c46541e909051c68",
+      "39365494a23248b2",
+      "6f451f4ebeed8e97",
+      "ccb41a43aef262a4",
+      "d6d9f791250c41bb",
+      "3d8e4b20d731f744",
+      "e124ac3152daad4a",
+      "ecc903c459815c83",
+      "670aae3ad8057633",
+      "6668f87e92327f92",
+      "5e387209f4a1be63",
+      "faf3920e9b3b1478",
+      "437fa0c2d577fbc9",
+      "eb425da6f1b7889e",
+      "c0d50a1fb8d0f1e5",
+      "d063a1bacde5130a",
+      "4864c9af19e177c3",
+      "8fa6109ac6223210",
+      "1083f4f54bc42f5e",
+      "f037e2fb157a8b25",
+      "be43246d75af3c79",
+      "533fd9d852fab1e6",
+      "ee1c1f01b4ee6a18",
+      "5d3b655e7f244210"
+    ],
+    "x": 94,
+    "y": 559,
+    "w": 2642,
+    "h": 322
+  },
+  {
+    "id": "5f7de2cef4af9bc6",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "b6b56adff82012bd",
+    "name": "agenda - birthday - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "dc9f6147e95dfe12",
+      "f1d9b13e80b9da4c",
+      "a9620e892125509b",
+      "ea3596dc48c3ec0e",
+      "57a237179c63497b",
+      "21f3480ffd65a848",
+      "1e34caf8d58ccede",
+      "05f393bfd0e3e70a",
+      "25c52cd2a239764e",
+      "69a1e24e9ac476ce",
+      "de65664d8796084b",
+      "5d3cdc5678dffea3",
+      "f2cf9e463da48932",
+      "24c526789337c352",
+      "8501411864bb36f8",
+      "be619ebc2c7d2666",
+      "cb192f56408a8ff3",
+      "3e3adc36a85dd1b9",
+      "2e0345c8f0d03772",
+      "9b620936fdda027e",
+      "b969e76be824791f",
+      "fc06f906d9f837a5",
+      "fb4beab75b638852",
+      "901ab24afa4f1b8d",
+      "9c0306707722883d",
+      "1f168564661be280",
+      "e1ee7e8589f52914"
+    ],
+    "x": 94,
+    "y": 919,
+    "w": 1312,
+    "h": 922
+  },
+  {
+    "id": "d241362d80c610fa",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "b6b56adff82012bd",
+    "name": "agenda - birthday - ui - home",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "478f53010b92ba99",
+      "8ce706fd6d4bd4d5",
+      "9e139cf6623e6acc",
+      "4f058fbe85475a4d",
+      "91836ce167f9dd36",
+      "675ca802b93b6f93",
+      "1c148e0bd7c295b9",
+      "0ccf37e7e252a91a",
+      "6f6b271339633822",
+      "b73d50059c10103d",
+      "4b88f1437eef0992",
+      "f33d7419f0933e00",
+      "06330e136aa9e321",
+      "13f363b0eb629d75",
+      "f307fcb894d1057b"
+    ],
+    "x": 94,
+    "y": 1879,
+    "w": 1172,
+    "h": 262
+  },
+  {
+    "id": "1bacdb8e148b7ef2",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "b6b56adff82012bd",
+    "name": "agenda - birthday - telegram report addon",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "62ac2376970d879c",
+      "65bebbc369c0e232",
+      "3feb59f890b63a71",
+      "daa2c7d2ba201c95",
+      "ea3455f4e7282a62"
+    ],
+    "x": 94,
+    "y": 2179,
+    "w": 752,
+    "h": 142
+  },
+  {
+    "id": "97f32de0144908e5",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "agenda - trash",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2d16095457052f90",
+      "99b5327a504595cb",
+      "256d3616419c8f06",
+      "ae7e12b3bdb36104",
+      "ab67b3da085ffcc5"
+    ],
+    "x": 68,
+    "y": 2393,
+    "w": 2674,
+    "h": 1334
+  },
+  {
+    "id": "2d16095457052f90",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "97f32de0144908e5",
+    "name": "agenda - trash - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a471c698f7538a54",
+      "83efec5c7865bc6b",
+      "e7f86112802a7c6b",
+      "831eab530fc4d597",
+      "817e42ff3aa821fb"
+    ],
+    "x": 94,
+    "y": 2419,
+    "w": 622,
+    "h": 142
+  },
+  {
+    "id": "99b5327a504595cb",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "97f32de0144908e5",
+    "name": "agenda - trash - source",
+    "style": {
+      "stroke": "#bfbfbf",
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "color": "#7f7f7f"
+    },
+    "nodes": [
+      "bbe172322c90608b",
+      "0e5ef46feda30def",
+      "2aa8a5b390abc180",
+      "14430fee4fec0da3",
+      "530387d722f39ba5",
+      "7f1f580cf68e57e1",
+      "ea50a440c88f8aea",
+      "67a277f90d7a0e1c",
+      "adc82daca86caf28",
+      "4d54bedff8837fa5",
+      "023fda95b7f38dac",
+      "c06288dac4891fd8",
+      "9c9fde57b61d7940",
+      "60cb67857c3df377",
+      "954579d4fb332d8c",
+      "7bd9fbd39d993b3b",
+      "0786bffad6b8fdf7",
+      "fe5ebdb4fc80af70",
+      "15b6568b0518c820",
+      "80cfcd4556e438dd",
+      "b1f1dbc3704216fb",
+      "69355695eba968c3"
+    ],
+    "x": 94,
+    "y": 2599,
+    "w": 2622,
+    "h": 202
+  },
+  {
+    "id": "256d3616419c8f06",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "97f32de0144908e5",
+    "name": "agenda - trash - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c626b38e996a84be",
+      "bf4f0e66f58b0244",
+      "f9c15b253d5cfe9e",
+      "eef5c76e1a875345",
+      "d2aa3c73e026ad21",
+      "dd21d8fe1aeb07cd",
+      "7adfd54792d5665e",
+      "10b0969f29554010",
+      "b9b4c51137ad7ec6",
+      "b3938cce2f3a2aa8",
+      "8bef1efda4bc84f8",
+      "56fb5ba6a12f4ee3",
+      "e655ef48edc2aab7",
+      "f9b35a7af604e2f4",
+      "0a5c4cda57c3d977",
+      "b8b499b9d37701f8",
+      "2d2e2407d8284f10",
+      "aac29449049140d7",
+      "9db6049a029acb14"
+    ],
+    "x": 94,
+    "y": 2839,
+    "w": 1332,
+    "h": 502
+  },
+  {
+    "id": "ae7e12b3bdb36104",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "97f32de0144908e5",
+    "name": "agenda - trash - ui - home",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1d10bb53fca97cd8",
+      "ddf72c47cd5f8a9c",
+      "a305e77188345b92",
+      "0a53f27ca3a07d20",
+      "1ebe28f2d643100a",
+      "f1368a26b36b490a",
+      "19e1233262d33eae",
+      "c9f8f3d06381d3b2",
+      "10ffdb0a0239caed",
+      "d85a30d3c5d03339"
+    ],
+    "x": 94,
+    "y": 3379,
+    "w": 1192,
+    "h": 142
+  },
+  {
+    "id": "ab67b3da085ffcc5",
+    "type": "group",
+    "z": "b66c229035856438",
+    "g": "97f32de0144908e5",
+    "name": "agenda - trash - telegram report addon",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8ba30d16ad4c4e3d",
+      "b57d452ff1e8d06f",
+      "6bba536727ceb249",
+      "e1b3491d3edd75e0",
+      "1a18fcff73447981"
+    ],
+    "x": 94,
+    "y": 3559,
+    "w": 752,
+    "h": 142
+  },
+  {
+    "id": "8d4b985ec87645f6",
+    "type": "comment",
+    "z": "b66c229035856438",
+    "name": "Agenda - Nextcloud caldav",
+    "info": "",
+    "x": 1130,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "5aa8eef8bc4e35d7",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "e59bed66f12534a0",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "agenda",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "e928798f23941942"
+      ]
+    ]
+  },
+  {
+    "id": "3520d6c943a27bd7",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "e59bed66f12534a0",
+    "name": "agenda - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "5aa8eef8bc4e35d7"
+      ]
+    ]
+  },
+  {
+    "id": "e928798f23941942",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "e59bed66f12534a0",
+    "name": "agenda - bucket",
+    "mode": "link",
+    "links": [
+      "060ca3dab7e4b080",
+      "a471c698f7538a54"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "b0357b8e7d34a597",
+    "type": "catch",
+    "z": "b66c229035856438",
+    "g": "898375cf932cf6f4",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "8e95d98d7dad67ad"
+      ]
+    ]
+  },
+  {
+    "id": "8e95d98d7dad67ad",
+    "type": "debug",
+    "z": "b66c229035856438",
+    "g": "898375cf932cf6f4",
+    "name": "agenda - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 840,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "060ca3dab7e4b080",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "agenda - birthday - device",
+    "links": [
+      "e928798f23941942"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "72120a886fd31b2a",
+        "2864163617b6dd6c",
+        "16c8ef5f39faedc8"
+      ]
+    ]
+  },
+  {
+    "id": "51101010f440af18",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "agenda - bithday - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 695,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "72120a886fd31b2a",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "birthday / today / text / _",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "birthday",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "today",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 360,
+    "wires": [
+      [
+        "51101010f440af18"
+      ]
+    ]
+  },
+  {
+    "id": "e4d7334aa6d35ebe",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "birthday / event* / text / _",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "birthday",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 480,
+    "wires": [
+      [
+        "51101010f440af18"
+      ]
+    ]
+  },
+  {
+    "id": "16c8ef5f39faedc8",
+    "type": "function",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "field",
+    "func": "\nfor(let i=0; i < 10; i++) {\n    \n    msg.field = 'event' + i;\n    node.send(msg);\n}\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "e4d7334aa6d35ebe"
+      ]
+    ]
+  },
+  {
+    "id": "2864163617b6dd6c",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "birthday / tomorrow / text / _",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "birthday",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "51101010f440af18"
+      ]
+    ]
+  },
+  {
+    "id": "56ceab158d68c63a",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "list",
+    "rules": [
+      {
+        "t": "set",
+        "p": "list_today",
+        "pt": "msg",
+        "to": "list_today",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "list_today",
+        "pt": "msg",
+        "to": "$append(msg.list_today,msg.payload.summary)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "list_today",
+        "pt": "flow",
+        "to": "list_today",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1750,
+    "y": 660,
+    "wires": [
+      [
+        "fdd481dbe4894850"
+      ]
+    ]
+  },
+  {
+    "id": "dba1fa5fbd2cfd9e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "list_today",
+        "pt": "msg",
+        "to": "list_today",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "today",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "\"Aujourd'hui c'est l'anniversaire de \" & $join(msg.list_today,\", \")",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2390,
+    "y": 660,
+    "wires": [
+      [
+        "eb425da6f1b7889e"
+      ]
+    ]
+  },
+  {
+    "id": "fdd481dbe4894850",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "exists",
+    "property": "list_today",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1910,
+    "y": 660,
+    "wires": [
+      [
+        "dba1fa5fbd2cfd9e"
+      ],
+      [
+        "ee1c1f01b4ee6a18"
+      ]
+    ]
+  },
+  {
+    "id": "e8f8bee92fde2e82",
+    "type": "nextcloud-caldav",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "nname": "birthday",
+    "server": "fe0449063daf1386",
+    "calendar": "Anniversaires des contacts",
+    "pastWeeks": 0,
+    "futureWeeks": "26",
+    "x": 440,
+    "y": 720,
+    "wires": [
+      [
+        "faf3920e9b3b1478",
+        "ee1c1f01b4ee6a18",
+        "533fd9d852fab1e6"
+      ]
+    ]
+  },
+  {
+    "id": "7630626c6be5570e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "data",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload.data",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "list_today",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "list_tomorrow",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter.birthday",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 600,
+    "wires": [
+      [
+        "2178ab91615ab3c6"
+      ]
+    ]
+  },
+  {
+    "id": "2178ab91615ab3c6",
+    "type": "split",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "cp",
+    "x": 950,
+    "y": 600,
+    "wires": [
+      [
+        "c1a9521d5c2df984",
+        "e124ac3152daad4a",
+        "c0d50a1fb8d0f1e5"
+      ]
+    ]
+  },
+  {
+    "id": "c1a9521d5c2df984",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "date",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "X",
+    "locale": "en-US",
+    "output": "payload.ts",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1110,
+    "y": 600,
+    "wires": [
+      [
+        "6933d070cb7edf0e"
+      ]
+    ]
+  },
+  {
+    "id": "6933d070cb7edf0e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "ts",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.ts",
+        "pt": "msg",
+        "to": "$number(msg.payload.ts)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 600,
+    "wires": [
+      [
+        "eb1d0f0e28c325e8"
+      ]
+    ]
+  },
+  {
+    "id": "eb1d0f0e28c325e8",
+    "type": "join",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "",
+    "mode": "auto",
+    "build": "string",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1430,
+    "y": 600,
+    "wires": [
+      [
+        "c46541e909051c68"
+      ]
+    ]
+  },
+  {
+    "id": "c46541e909051c68",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "sort",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$sort(msg.payload, function($l, $r) {\t  $l.ts > $r.ts\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter.birthday",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1590,
+    "y": 600,
+    "wires": [
+      [
+        "39365494a23248b2"
+      ]
+    ]
+  },
+  {
+    "id": "39365494a23248b2",
+    "type": "split",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1750,
+    "y": 600,
+    "wires": [
+      [
+        "3d8e4b20d731f744"
+      ]
+    ]
+  },
+  {
+    "id": "6f451f4ebeed8e97",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "dm",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "dddd D MMMM",
+    "locale": "fr_FR",
+    "output": "payload.formatdate",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 2230,
+    "y": 600,
+    "wires": [
+      [
+        "ccb41a43aef262a4"
+      ]
+    ]
+  },
+  {
+    "id": "ccb41a43aef262a4",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "counter",
+        "pt": "msg",
+        "to": "counter.birthday",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "'event'&msg.counter",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload.formatdate&' - '&msg.payload.summary",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter",
+        "pt": "msg",
+        "to": "$number(msg.counter) + 1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter.birthday",
+        "pt": "flow",
+        "to": "counter",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "counter",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2390,
+    "y": 600,
+    "wires": [
+      [
+        "eb425da6f1b7889e"
+      ]
+    ]
+  },
+  {
+    "id": "d6d9f791250c41bb",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "nb",
+    "property": "counter.birthday",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "lt",
+        "v": "10",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2070,
+    "y": 600,
+    "wires": [
+      [
+        "6f451f4ebeed8e97"
+      ]
+    ]
+  },
+  {
+    "id": "3d8e4b20d731f744",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "rate",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "5",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1910,
+    "y": 600,
+    "wires": [
+      [
+        "d6d9f791250c41bb"
+      ]
+    ]
+  },
+  {
+    "id": "e124ac3152daad4a",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "today",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": "0",
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "today",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1110,
+    "y": 660,
+    "wires": [
+      [
+        "ecc903c459815c83"
+      ]
+    ]
+  },
+  {
+    "id": "ecc903c459815c83",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "event",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "date",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1270,
+    "y": 660,
+    "wires": [
+      [
+        "670aae3ad8057633"
+      ]
+    ]
+  },
+  {
+    "id": "670aae3ad8057633",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "exists",
+    "property": "today",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "date",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1430,
+    "y": 660,
+    "wires": [
+      [
+        "6668f87e92327f92"
+      ]
+    ]
+  },
+  {
+    "id": "6668f87e92327f92",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "rate",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "2",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "outputs": 1,
+    "x": 1590,
+    "y": 660,
+    "wires": [
+      [
+        "56ceab158d68c63a"
+      ]
+    ]
+  },
+  {
+    "id": "5e387209f4a1be63",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "agenda - birthday - source",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 720,
+    "wires": [
+      [
+        "5d3b655e7f244210"
+      ]
+    ]
+  },
+  {
+    "id": "faf3920e9b3b1478",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 620,
+    "y": 600,
+    "wires": [
+      [
+        "7630626c6be5570e"
+      ]
+    ]
+  },
+  {
+    "id": "437fa0c2d577fbc9",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "agenda - birthday - source",
+    "mode": "link",
+    "links": [
+      "1c148e0bd7c295b9",
+      "206c1fb4a48067df",
+      "a9620e892125509b"
+    ],
+    "x": 2695,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "eb425da6f1b7889e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "birthday",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2560,
+    "y": 660,
+    "wires": [
+      [
+        "437fa0c2d577fbc9"
+      ]
+    ]
+  },
+  {
+    "id": "c0d50a1fb8d0f1e5",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "tomorrow",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": "1",
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "tomorrow",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1120,
+    "y": 820,
+    "wires": [
+      [
+        "d063a1bacde5130a"
+      ]
+    ]
+  },
+  {
+    "id": "d063a1bacde5130a",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "event",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "date",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1270,
+    "y": 820,
+    "wires": [
+      [
+        "4864c9af19e177c3"
+      ]
+    ]
+  },
+  {
+    "id": "4864c9af19e177c3",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "exists",
+    "property": "tomorrow",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "date",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 1430,
+    "y": 820,
+    "wires": [
+      [
+        "8fa6109ac6223210"
+      ]
+    ]
+  },
+  {
+    "id": "8fa6109ac6223210",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "rate",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "2",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "outputs": 1,
+    "x": 1590,
+    "y": 820,
+    "wires": [
+      [
+        "1083f4f54bc42f5e"
+      ]
+    ]
+  },
+  {
+    "id": "1083f4f54bc42f5e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "list",
+    "rules": [
+      {
+        "t": "set",
+        "p": "list_tomorrow",
+        "pt": "msg",
+        "to": "list_tomorrow",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "list_tomorrow",
+        "pt": "msg",
+        "to": "$append(msg.list_tomorrow,msg.payload.summary)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "list_tomorrow",
+        "pt": "flow",
+        "to": "list_tomorrow",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1750,
+    "y": 820,
+    "wires": [
+      [
+        "f037e2fb157a8b25"
+      ]
+    ]
+  },
+  {
+    "id": "f037e2fb157a8b25",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "exists",
+    "property": "list_tomorrow",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "empty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1910,
+    "y": 820,
+    "wires": [
+      [
+        "533fd9d852fab1e6"
+      ],
+      [
+        "be43246d75af3c79"
+      ]
+    ]
+  },
+  {
+    "id": "be43246d75af3c79",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "list_tomorrow",
+        "pt": "msg",
+        "to": "list_tomorrow",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "\"Demain c'est l'anniversaire de \" & $join(msg.list_tomorrow,\", \")",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2390,
+    "y": 840,
+    "wires": [
+      [
+        "eb425da6f1b7889e"
+      ]
+    ]
+  },
+  {
+    "id": "533fd9d852fab1e6",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2390,
+    "y": 780,
+    "wires": [
+      [
+        "eb425da6f1b7889e"
+      ]
+    ]
+  },
+  {
+    "id": "ee1c1f01b4ee6a18",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "today",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2390,
+    "y": 720,
+    "wires": [
+      [
+        "eb425da6f1b7889e"
+      ]
+    ]
+  },
+  {
+    "id": "5d3b655e7f244210",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "fb524b1a6da7faeb",
+    "name": "2 s",
+    "pauseType": "delay",
+    "timeout": "2",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 720,
+    "wires": [
+      [
+        "e8f8bee92fde2e82"
+      ]
+    ]
+  },
+  {
+    "id": "dc9f6147e95dfe12",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 1260,
+    "wires": [
+      [
+        "69a1e24e9ac476ce",
+        "f2cf9e463da48932",
+        "24c526789337c352",
+        "8501411864bb36f8",
+        "be619ebc2c7d2666",
+        "cb192f56408a8ff3",
+        "3e3adc36a85dd1b9",
+        "9b620936fdda027e",
+        "b969e76be824791f",
+        "2e0345c8f0d03772"
+      ]
+    ]
+  },
+  {
+    "id": "f1d9b13e80b9da4c",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "agenda - birthday - ui - load",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 960,
+    "wires": [
+      [
+        "dc9f6147e95dfe12",
+        "57a237179c63497b"
+      ]
+    ]
+  },
+  {
+    "id": "a9620e892125509b",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "agenda - birthday - ui - metric",
+    "links": [
+      "031a6afd8300356a",
+      "437fa0c2d577fbc9"
+    ],
+    "x": 135,
+    "y": 1380,
+    "wires": [
+      [
+        "e1ee7e8589f52914"
+      ]
+    ]
+  },
+  {
+    "id": "ea3596dc48c3ec0e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Anniversaires à venir\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 1200,
+    "wires": [
+      [
+        "25c52cd2a239764e"
+      ]
+    ]
+  },
+  {
+    "id": "57a237179c63497b",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Anniversaires à venir\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 960,
+    "wires": [
+      [
+        "25c52cd2a239764e",
+        "de65664d8796084b",
+        "1f168564661be280"
+      ]
+    ]
+  },
+  {
+    "id": "21f3480ffd65a848",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 810,
+    "y": 1380,
+    "wires": [
+      [
+        "1e34caf8d58ccede"
+      ]
+    ]
+  },
+  {
+    "id": "1e34caf8d58ccede",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "index",
+    "property": "index",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "2",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "3",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "4",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "5",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "6",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "7",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "8",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "9",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 10,
+    "x": 970,
+    "y": 1380,
+    "wires": [
+      [
+        "b969e76be824791f"
+      ],
+      [
+        "69a1e24e9ac476ce"
+      ],
+      [
+        "f2cf9e463da48932"
+      ],
+      [
+        "24c526789337c352"
+      ],
+      [
+        "8501411864bb36f8"
+      ],
+      [
+        "be619ebc2c7d2666"
+      ],
+      [
+        "cb192f56408a8ff3"
+      ],
+      [
+        "3e3adc36a85dd1b9"
+      ],
+      [
+        "2e0345c8f0d03772"
+      ],
+      [
+        "9b620936fdda027e"
+      ]
+    ]
+  },
+  {
+    "id": "05f393bfd0e3e70a",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "birthday",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 1380,
+    "wires": [
+      [
+        "ea3596dc48c3ec0e",
+        "fc06f906d9f837a5"
+      ]
+    ]
+  },
+  {
+    "id": "25c52cd2a239764e",
+    "type": "ui-control",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 1140,
+    "y": 1200,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "69a1e24e9ac476ce",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "ev1",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "de65664d8796084b",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 960,
+    "wires": [
+      [
+        "5d3cdc5678dffea3"
+      ]
+    ]
+  },
+  {
+    "id": "5d3cdc5678dffea3",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "today",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1310,
+    "y": 1020,
+    "wires": []
+  },
+  {
+    "id": "f2cf9e463da48932",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "ev2",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "24c526789337c352",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 5,
+    "width": "6",
+    "height": "1",
+    "name": "ev3",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "8501411864bb36f8",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 6,
+    "width": "6",
+    "height": "1",
+    "name": "ev4",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "be619ebc2c7d2666",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 7,
+    "width": "6",
+    "height": "1",
+    "name": "ev5",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "cb192f56408a8ff3",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 8,
+    "width": "6",
+    "height": "1",
+    "name": "ev6",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1620,
+    "wires": []
+  },
+  {
+    "id": "3e3adc36a85dd1b9",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 9,
+    "width": "6",
+    "height": "1",
+    "name": "ev7",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1680,
+    "wires": []
+  },
+  {
+    "id": "2e0345c8f0d03772",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 10,
+    "width": "6",
+    "height": "1",
+    "name": "ev8",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "9b620936fdda027e",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 11,
+    "width": "6",
+    "height": "1",
+    "name": "ev9",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "b969e76be824791f",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "ev0",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1130,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "fc06f906d9f837a5",
+    "type": "function",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "index",
+    "func": "\nfor(let i=0; i < 10; i++) {\n    let ev = 'event' + i;\n    if (msg.field==ev) {\n        msg.index = i;\n        msg.class = '';\n    }\n}\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 650,
+    "y": 1380,
+    "wires": [
+      [
+        "21f3480ffd65a848",
+        "fb4beab75b638852",
+        "901ab24afa4f1b8d"
+      ]
+    ]
+  },
+  {
+    "id": "fb4beab75b638852",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "today",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 970,
+    "y": 1020,
+    "wires": [
+      [
+        "5d3cdc5678dffea3"
+      ]
+    ]
+  },
+  {
+    "id": "901ab24afa4f1b8d",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "tomorrow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 970,
+    "y": 1140,
+    "wires": [
+      [
+        "9c0306707722883d"
+      ]
+    ]
+  },
+  {
+    "id": "9c0306707722883d",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "group": "b526fa97ad265f91",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "tomorrow",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1320,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "1f168564661be280",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 1080,
+    "wires": [
+      [
+        "9c0306707722883d"
+      ]
+    ]
+  },
+  {
+    "id": "e1ee7e8589f52914",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "5f7de2cef4af9bc6",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1380,
+    "wires": [
+      [
+        "05f393bfd0e3e70a"
+      ]
+    ]
+  },
+  {
+    "id": "478f53010b92ba99",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1000,
+    "y": 1980,
+    "wires": [
+      [
+        "8ce706fd6d4bd4d5"
+      ]
+    ]
+  },
+  {
+    "id": "8ce706fd6d4bd4d5",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "group": "1745449446f285ef",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "today",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 1920,
+    "wires": []
+  },
+  {
+    "id": "9e139cf6623e6acc",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "today",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 650,
+    "y": 1920,
+    "wires": [
+      [
+        "b73d50059c10103d"
+      ]
+    ]
+  },
+  {
+    "id": "4f058fbe85475a4d",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "tomorrow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 650,
+    "y": 2100,
+    "wires": [
+      [
+        "4b88f1437eef0992"
+      ]
+    ]
+  },
+  {
+    "id": "91836ce167f9dd36",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "group": "1745449446f285ef",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "tomorrow",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1180,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "675ca802b93b6f93",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1000,
+    "y": 2040,
+    "wires": [
+      [
+        "91836ce167f9dd36"
+      ]
+    ]
+  },
+  {
+    "id": "1c148e0bd7c295b9",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "agenda - birthday - ui - home - metric",
+    "links": [
+      "031a6afd8300356a",
+      "437fa0c2d577fbc9"
+    ],
+    "x": 135,
+    "y": 1920,
+    "wires": [
+      [
+        "0ccf37e7e252a91a"
+      ]
+    ]
+  },
+  {
+    "id": "0ccf37e7e252a91a",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "agenda",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1920,
+    "wires": [
+      [
+        "6f6b271339633822"
+      ]
+    ]
+  },
+  {
+    "id": "6f6b271339633822",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "birthday",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 1920,
+    "wires": [
+      [
+        "9e139cf6623e6acc",
+        "4f058fbe85475a4d"
+      ]
+    ]
+  },
+  {
+    "id": "b73d50059c10103d",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 820,
+    "y": 1920,
+    "wires": [
+      [
+        "8ce706fd6d4bd4d5"
+      ],
+      [
+        "478f53010b92ba99"
+      ]
+    ]
+  },
+  {
+    "id": "4b88f1437eef0992",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "empty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 820,
+    "y": 2100,
+    "wires": [
+      [
+        "675ca802b93b6f93"
+      ],
+      [
+        "91836ce167f9dd36"
+      ]
+    ]
+  },
+  {
+    "id": "f33d7419f0933e00",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "agenda - birthday - ui - home - load",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 1980,
+    "wires": [
+      [
+        "06330e136aa9e321"
+      ]
+    ]
+  },
+  {
+    "id": "06330e136aa9e321",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "1 min",
+    "pauseType": "delay",
+    "timeout": "1",
+    "timeoutUnits": "minutes",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1980,
+    "wires": [
+      [
+        "13f363b0eb629d75",
+        "f307fcb894d1057b"
+      ]
+    ]
+  },
+  {
+    "id": "13f363b0eb629d75",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.birthday.today",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 1980,
+    "wires": [
+      [
+        "b73d50059c10103d"
+      ]
+    ]
+  },
+  {
+    "id": "f307fcb894d1057b",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "d241362d80c610fa",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.birthday.tomorrow",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 2040,
+    "wires": [
+      [
+        "4b88f1437eef0992"
+      ]
+    ]
+  },
+  {
+    "id": "62ac2376970d879c",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "1bacdb8e148b7ef2",
+    "name": "agenda - birthday - telegram report addon",
+    "links": [],
+    "x": 135,
+    "y": 2220,
+    "wires": [
+      [
+        "3feb59f890b63a71"
+      ]
+    ]
+  },
+  {
+    "id": "65bebbc369c0e232",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "1bacdb8e148b7ef2",
+    "name": "agenda - birthday - telegram report addon",
+    "mode": "link",
+    "links": [],
+    "x": 805,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "3feb59f890b63a71",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "1bacdb8e148b7ef2",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.birthday.today",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 290,
+    "y": 2220,
+    "wires": [
+      [
+        "daa2c7d2ba201c95"
+      ]
+    ]
+  },
+  {
+    "id": "daa2c7d2ba201c95",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "1bacdb8e148b7ef2",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 480,
+    "y": 2220,
+    "wires": [
+      [
+        "65bebbc369c0e232"
+      ],
+      [
+        "ea3455f4e7282a62"
+      ]
+    ]
+  },
+  {
+    "id": "ea3455f4e7282a62",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "1bacdb8e148b7ef2",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 660,
+    "y": 2280,
+    "wires": [
+      [
+        "65bebbc369c0e232"
+      ]
+    ]
+  },
+  {
+    "id": "a471c698f7538a54",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "agenda - trash - device",
+    "links": [
+      "e928798f23941942"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "e7f86112802a7c6b",
+        "817e42ff3aa821fb"
+      ]
+    ]
+  },
+  {
+    "id": "83efec5c7865bc6b",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "agenda - trash - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 675,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "e7f86112802a7c6b",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "trash / tomorrow / text / _",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "trash",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 2460,
+    "wires": [
+      [
+        "83efec5c7865bc6b"
+      ]
+    ]
+  },
+  {
+    "id": "831eab530fc4d597",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "trash / event* / text / _",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "trash",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 480,
+    "y": 2520,
+    "wires": [
+      [
+        "83efec5c7865bc6b"
+      ]
+    ]
+  },
+  {
+    "id": "817e42ff3aa821fb",
+    "type": "function",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "field",
+    "func": "\nfor(let i=0; i < 5; i++) {\n    \n    msg.field = 'event' + i;\n    node.send(msg);\n}\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 270,
+    "y": 2520,
+    "wires": [
+      [
+        "831eab530fc4d597"
+      ]
+    ]
+  },
+  {
+    "id": "bbe172322c90608b",
+    "type": "nextcloud-caldav",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "nname": "trash",
+    "server": "fe0449063daf1386",
+    "calendar": "Poubelles",
+    "pastWeeks": 0,
+    "futureWeeks": "5",
+    "x": 430,
+    "y": 2760,
+    "wires": [
+      [
+        "60cb67857c3df377",
+        "b1f1dbc3704216fb"
+      ]
+    ]
+  },
+  {
+    "id": "0e5ef46feda30def",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "data",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload.data",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "counter.trash",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 770,
+    "y": 2640,
+    "wires": [
+      [
+        "2aa8a5b390abc180"
+      ]
+    ]
+  },
+  {
+    "id": "2aa8a5b390abc180",
+    "type": "split",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "cp",
+    "x": 930,
+    "y": 2640,
+    "wires": [
+      [
+        "14430fee4fec0da3",
+        "0786bffad6b8fdf7"
+      ]
+    ]
+  },
+  {
+    "id": "14430fee4fec0da3",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "date",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "X",
+    "locale": "en-US",
+    "output": "payload.ts",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1090,
+    "y": 2640,
+    "wires": [
+      [
+        "530387d722f39ba5"
+      ]
+    ]
+  },
+  {
+    "id": "530387d722f39ba5",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "ts",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload.ts",
+        "pt": "msg",
+        "to": "$number(msg.payload.ts)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1250,
+    "y": 2640,
+    "wires": [
+      [
+        "7f1f580cf68e57e1"
+      ]
+    ]
+  },
+  {
+    "id": "7f1f580cf68e57e1",
+    "type": "join",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "",
+    "mode": "auto",
+    "build": "string",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1410,
+    "y": 2640,
+    "wires": [
+      [
+        "ea50a440c88f8aea"
+      ]
+    ]
+  },
+  {
+    "id": "ea50a440c88f8aea",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "sort",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$sort(msg.payload, function($l, $r) {\t  $l.ts > $r.ts\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter.trash",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1570,
+    "y": 2640,
+    "wires": [
+      [
+        "67a277f90d7a0e1c"
+      ]
+    ]
+  },
+  {
+    "id": "67a277f90d7a0e1c",
+    "type": "split",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1730,
+    "y": 2640,
+    "wires": [
+      [
+        "c06288dac4891fd8"
+      ]
+    ]
+  },
+  {
+    "id": "adc82daca86caf28",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "dm",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "dddd D MMMM",
+    "locale": "fr_FR",
+    "output": "payload.formatdate",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 2210,
+    "y": 2640,
+    "wires": [
+      [
+        "4d54bedff8837fa5"
+      ]
+    ]
+  },
+  {
+    "id": "4d54bedff8837fa5",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "counter",
+        "pt": "msg",
+        "to": "counter.trash",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "'event'&msg.counter",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload.formatdate&' - '&msg.payload.summary",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter",
+        "pt": "msg",
+        "to": "$number(msg.counter) + 1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "counter.trash",
+        "pt": "flow",
+        "to": "counter",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "counter",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 2640,
+    "wires": [
+      [
+        "7bd9fbd39d993b3b"
+      ]
+    ]
+  },
+  {
+    "id": "023fda95b7f38dac",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "nb",
+    "property": "counter.trash",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "lt",
+        "v": "5",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2050,
+    "y": 2640,
+    "wires": [
+      [
+        "adc82daca86caf28"
+      ]
+    ]
+  },
+  {
+    "id": "c06288dac4891fd8",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "rate",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "5",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1890,
+    "y": 2640,
+    "wires": [
+      [
+        "023fda95b7f38dac"
+      ]
+    ]
+  },
+  {
+    "id": "9c9fde57b61d7940",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "agenda - trash - source",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 2760,
+    "wires": [
+      [
+        "69355695eba968c3"
+      ]
+    ]
+  },
+  {
+    "id": "60cb67857c3df377",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 600,
+    "y": 2640,
+    "wires": [
+      [
+        "0e5ef46feda30def"
+      ]
+    ]
+  },
+  {
+    "id": "954579d4fb332d8c",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "agenda - trash - source",
+    "mode": "link",
+    "links": [
+      "0a53f27ca3a07d20",
+      "206c1fb4a48067df",
+      "f9c15b253d5cfe9e"
+    ],
+    "x": 2675,
+    "y": 2700,
+    "wires": []
+  },
+  {
+    "id": "7bd9fbd39d993b3b",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "trash",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2540,
+    "y": 2700,
+    "wires": [
+      [
+        "954579d4fb332d8c"
+      ]
+    ]
+  },
+  {
+    "id": "0786bffad6b8fdf7",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "tomorrow",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": "1",
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "tomorrow",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1100,
+    "y": 2700,
+    "wires": [
+      [
+        "fe5ebdb4fc80af70"
+      ]
+    ]
+  },
+  {
+    "id": "fe5ebdb4fc80af70",
+    "type": "moment",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "event",
+    "topic": "",
+    "input": "payload.startDate",
+    "inputType": "msg",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "YYYYMMDD",
+    "locale": "fr_FR",
+    "output": "date",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 1250,
+    "y": 2700,
+    "wires": [
+      [
+        "15b6568b0518c820"
+      ]
+    ]
+  },
+  {
+    "id": "15b6568b0518c820",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "exists",
+    "property": "tomorrow",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "date",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 1410,
+    "y": 2700,
+    "wires": [
+      [
+        "80cfcd4556e438dd"
+      ]
+    ]
+  },
+  {
+    "id": "80cfcd4556e438dd",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "\"Ce soir il faut sortir les \" & msg.payload.summary",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 2700,
+    "wires": [
+      [
+        "7bd9fbd39d993b3b"
+      ]
+    ]
+  },
+  {
+    "id": "b1f1dbc3704216fb",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "texte",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "tomorrow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucune poubelle demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2370,
+    "y": 2760,
+    "wires": [
+      [
+        "7bd9fbd39d993b3b"
+      ]
+    ]
+  },
+  {
+    "id": "69355695eba968c3",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "99b5327a504595cb",
+    "name": "2 s",
+    "pauseType": "delay",
+    "timeout": "2",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2760,
+    "wires": [
+      [
+        "bbe172322c90608b"
+      ]
+    ]
+  },
+  {
+    "id": "c626b38e996a84be",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 3060,
+    "wires": [
+      [
+        "b3938cce2f3a2aa8",
+        "e655ef48edc2aab7",
+        "f9b35a7af604e2f4",
+        "0a5c4cda57c3d977",
+        "b8b499b9d37701f8"
+      ]
+    ]
+  },
+  {
+    "id": "bf4f0e66f58b0244",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "agenda - trash - ui - load",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 2880,
+    "wires": [
+      [
+        "c626b38e996a84be",
+        "d2aa3c73e026ad21"
+      ]
+    ]
+  },
+  {
+    "id": "f9c15b253d5cfe9e",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "agenda - trash - ui - metric",
+    "links": [
+      "031a6afd8300356a",
+      "954579d4fb332d8c"
+    ],
+    "x": 135,
+    "y": 3180,
+    "wires": [
+      [
+        "9db6049a029acb14"
+      ]
+    ]
+  },
+  {
+    "id": "eef5c76e1a875345",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Poubelles\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 3000,
+    "wires": [
+      [
+        "b9b4c51137ad7ec6"
+      ]
+    ]
+  },
+  {
+    "id": "d2aa3c73e026ad21",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Poubelles\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 2880,
+    "wires": [
+      [
+        "b9b4c51137ad7ec6",
+        "8bef1efda4bc84f8"
+      ]
+    ]
+  },
+  {
+    "id": "dd21d8fe1aeb07cd",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 3180,
+    "wires": [
+      [
+        "7adfd54792d5665e"
+      ]
+    ]
+  },
+  {
+    "id": "7adfd54792d5665e",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "index",
+    "property": "index",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "2",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "3",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "4",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 5,
+    "x": 1010,
+    "y": 3180,
+    "wires": [
+      [
+        "b8b499b9d37701f8"
+      ],
+      [
+        "b3938cce2f3a2aa8"
+      ],
+      [
+        "e655ef48edc2aab7"
+      ],
+      [
+        "f9b35a7af604e2f4"
+      ],
+      [
+        "0a5c4cda57c3d977"
+      ]
+    ]
+  },
+  {
+    "id": "10b0969f29554010",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "trash",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 3180,
+    "wires": [
+      [
+        "eef5c76e1a875345",
+        "2d2e2407d8284f10"
+      ]
+    ]
+  },
+  {
+    "id": "b9b4c51137ad7ec6",
+    "type": "ui-control",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 1180,
+    "y": 3000,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b3938cce2f3a2aa8",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "ev1",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 3120,
+    "wires": []
+  },
+  {
+    "id": "8bef1efda4bc84f8",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucune poubelle demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1180,
+    "y": 2880,
+    "wires": [
+      [
+        "56fb5ba6a12f4ee3"
+      ]
+    ]
+  },
+  {
+    "id": "56fb5ba6a12f4ee3",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "today",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1350,
+    "y": 2940,
+    "wires": []
+  },
+  {
+    "id": "e655ef48edc2aab7",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "ev2",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 3180,
+    "wires": []
+  },
+  {
+    "id": "f9b35a7af604e2f4",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 5,
+    "width": "6",
+    "height": "1",
+    "name": "ev3",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 3240,
+    "wires": []
+  },
+  {
+    "id": "0a5c4cda57c3d977",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 6,
+    "width": "6",
+    "height": "1",
+    "name": "ev4",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 3300,
+    "wires": []
+  },
+  {
+    "id": "b8b499b9d37701f8",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "group": "6b152cf9e173ee4f",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "ev0",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1170,
+    "y": 3060,
+    "wires": []
+  },
+  {
+    "id": "2d2e2407d8284f10",
+    "type": "function",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "index",
+    "func": "\nfor(let i=0; i < 5; i++) {\n    let ev = 'event' + i;\n    if (msg.field==ev) {\n        msg.index = i;\n        msg.class = '';\n    }\n}\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 650,
+    "y": 3180,
+    "wires": [
+      [
+        "dd21d8fe1aeb07cd",
+        "aac29449049140d7"
+      ]
+    ]
+  },
+  {
+    "id": "aac29449049140d7",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "tomorrow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1010,
+    "y": 2940,
+    "wires": [
+      [
+        "56fb5ba6a12f4ee3"
+      ]
+    ]
+  },
+  {
+    "id": "9db6049a029acb14",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "256d3616419c8f06",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3180,
+    "wires": [
+      [
+        "10b0969f29554010"
+      ]
+    ]
+  },
+  {
+    "id": "1d10bb53fca97cd8",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucune poubelle demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1000,
+    "y": 3480,
+    "wires": [
+      [
+        "ddf72c47cd5f8a9c"
+      ]
+    ]
+  },
+  {
+    "id": "ddf72c47cd5f8a9c",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "group": "55e6ecdf43b1e380",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "tomorrow pb",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1190,
+    "y": 3420,
+    "wires": []
+  },
+  {
+    "id": "a305e77188345b92",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "tomorrow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 650,
+    "y": 3420,
+    "wires": [
+      [
+        "19e1233262d33eae"
+      ]
+    ]
+  },
+  {
+    "id": "0a53f27ca3a07d20",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "agenda - trash - ui - home - metric",
+    "links": [
+      "031a6afd8300356a",
+      "954579d4fb332d8c"
+    ],
+    "x": 135,
+    "y": 3420,
+    "wires": [
+      [
+        "1ebe28f2d643100a"
+      ]
+    ]
+  },
+  {
+    "id": "1ebe28f2d643100a",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "agenda",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3420,
+    "wires": [
+      [
+        "f1368a26b36b490a"
+      ]
+    ]
+  },
+  {
+    "id": "f1368a26b36b490a",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "trash",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 3420,
+    "wires": [
+      [
+        "a305e77188345b92"
+      ]
+    ]
+  },
+  {
+    "id": "19e1233262d33eae",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 820,
+    "y": 3420,
+    "wires": [
+      [
+        "ddf72c47cd5f8a9c"
+      ],
+      [
+        "1d10bb53fca97cd8"
+      ]
+    ]
+  },
+  {
+    "id": "c9f8f3d06381d3b2",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "agenda - trash - ui - home - load",
+    "links": [
+      "074a67bf0fcf09ad",
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 135,
+    "y": 3480,
+    "wires": [
+      [
+        "10ffdb0a0239caed"
+      ]
+    ]
+  },
+  {
+    "id": "10ffdb0a0239caed",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "1 min",
+    "pauseType": "delay",
+    "timeout": "1",
+    "timeoutUnits": "minutes",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3480,
+    "wires": [
+      [
+        "d85a30d3c5d03339"
+      ]
+    ]
+  },
+  {
+    "id": "d85a30d3c5d03339",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "ae7e12b3bdb36104",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.trash.tomorrow",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 3480,
+    "wires": [
+      [
+        "19e1233262d33eae"
+      ]
+    ]
+  },
+  {
+    "id": "8ba30d16ad4c4e3d",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "ab67b3da085ffcc5",
+    "name": "agenda - trash - telegram report addon",
+    "links": [],
+    "x": 135,
+    "y": 3600,
+    "wires": [
+      [
+        "6bba536727ceb249"
+      ]
+    ]
+  },
+  {
+    "id": "b57d452ff1e8d06f",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "ab67b3da085ffcc5",
+    "name": "agenda - trash - telegram report addon",
+    "mode": "link",
+    "links": [],
+    "x": 805,
+    "y": 3600,
+    "wires": []
+  },
+  {
+    "id": "6bba536727ceb249",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "ab67b3da085ffcc5",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.trash.tomorrow",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 290,
+    "y": 3600,
+    "wires": [
+      [
+        "e1b3491d3edd75e0"
+      ]
+    ]
+  },
+  {
+    "id": "e1b3491d3edd75e0",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "ab67b3da085ffcc5",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 480,
+    "y": 3600,
+    "wires": [
+      [
+        "b57d452ff1e8d06f"
+      ],
+      [
+        "1a18fcff73447981"
+      ]
+    ]
+  },
+  {
+    "id": "1a18fcff73447981",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "ab67b3da085ffcc5",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 660,
+    "y": 3660,
+    "wires": [
+      [
+        "b57d452ff1e8d06f"
+      ]
+    ]
+  }
+]

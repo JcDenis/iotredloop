@@ -8,54 +8,6 @@
     "env": []
   },
   {
-    "id": "665068c11f8d7cd2",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "g": "9fc669530c1959c1",
-    "name": "telegram - message",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "40e6a86b00b7f03b",
-      "923d4072d9fd4b7f",
-      "ec75e169566e28bc"
-    ],
-    "x": 94,
-    "y": 439,
-    "w": 362,
-    "h": 82
-  },
-  {
-    "id": "42beec20ca262e48",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "g": "9fc669530c1959c1",
-    "name": "telegram - send",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1a23e86f0af13941",
-      "ba0f26a893bbaac2",
-      "06c6cff5dce7df93",
-      "f2d668f16abedaa0",
-      "4246a0f36f41bb93",
-      "c4a74cb0a40f9fb9",
-      "0b5138afb86e300d",
-      "466151db96704e81",
-      "9a6195ed88aca633"
-    ],
-    "x": 94,
-    "y": 559,
-    "w": 1732,
-    "h": 82
-  },
-  {
     "id": "0aff5d7f470c281b",
     "type": "group",
     "z": "52347795767acd3f",
@@ -115,6 +67,140 @@
     "h": 194
   },
   {
+    "id": "e490f8c59b658000",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - report",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e755c88a5f0874e2",
+      "daeb6d8e80121dec",
+      "e19bc19284321a71",
+      "4f8dc94e1c9e516b",
+      "428b3b06c9904159",
+      "a31103363afca9e4",
+      "71832497d54a070c",
+      "3fd86c625fb7620a",
+      "9eccb6737df9fcca",
+      "10da0ff11a25c2d8",
+      "09bf19e19a1b0d96",
+      "b72965685dc24330",
+      "e5c35f9ca6211841",
+      "34a350a168b2e745",
+      "316ed209c87c228e",
+      "57e447541bcb2ade",
+      "067e200b2cf487af",
+      "250601c91d2ef5f9",
+      "61ad4fe0258e29ed",
+      "eb279f1c73e8707f",
+      "bfc85601d754a7b2",
+      "2b625f50e36b43ac"
+    ],
+    "x": 94,
+    "y": 1879,
+    "w": 2142,
+    "h": 262
+  },
+  {
+    "id": "31c43960a49c7f75",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - ui - home",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "62a0c42c707fd2cf",
+      "e78466517f08bf1b",
+      "2585c1751940ee0f",
+      "344f652167848723",
+      "8cdd0ff94c11d7d4",
+      "45159e869e60fef7",
+      "c7690118febd88ba",
+      "63286bf6d40b9ecd",
+      "c112e5483b53e573",
+      "057cd27350be1d0e"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "9fc669530c1959c1",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "665068c11f8d7cd2",
+      "42beec20ca262e48",
+      "6a1e1fb203c6236a"
+    ],
+    "x": 68,
+    "y": 413,
+    "w": 2604,
+    "h": 1214
+  },
+  {
+    "id": "665068c11f8d7cd2",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "9fc669530c1959c1",
+    "name": "telegram - message",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40e6a86b00b7f03b",
+      "923d4072d9fd4b7f",
+      "ec75e169566e28bc"
+    ],
+    "x": 94,
+    "y": 439,
+    "w": 362,
+    "h": 82
+  },
+  {
+    "id": "42beec20ca262e48",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "g": "9fc669530c1959c1",
+    "name": "telegram - send",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1a23e86f0af13941",
+      "ba0f26a893bbaac2",
+      "06c6cff5dce7df93",
+      "f2d668f16abedaa0",
+      "4246a0f36f41bb93",
+      "c4a74cb0a40f9fb9",
+      "0b5138afb86e300d",
+      "466151db96704e81",
+      "9a6195ed88aca633"
+    ],
+    "x": 94,
+    "y": 559,
+    "w": 1732,
+    "h": 82
+  },
+  {
     "id": "63db7d59d8bc4113",
     "type": "group",
     "z": "52347795767acd3f",
@@ -162,45 +248,6 @@
     "y": 199,
     "w": 1082,
     "h": 142
-  },
-  {
-    "id": "e490f8c59b658000",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "telegram - report",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "e755c88a5f0874e2",
-      "daeb6d8e80121dec",
-      "e19bc19284321a71",
-      "4f8dc94e1c9e516b",
-      "428b3b06c9904159",
-      "a31103363afca9e4",
-      "71832497d54a070c",
-      "3fd86c625fb7620a",
-      "9eccb6737df9fcca",
-      "10da0ff11a25c2d8",
-      "09bf19e19a1b0d96",
-      "b72965685dc24330",
-      "e5c35f9ca6211841",
-      "34a350a168b2e745",
-      "316ed209c87c228e",
-      "57e447541bcb2ade",
-      "067e200b2cf487af",
-      "250601c91d2ef5f9",
-      "61ad4fe0258e29ed",
-      "eb279f1c73e8707f",
-      "bfc85601d754a7b2",
-      "2b625f50e36b43ac"
-    ],
-    "x": 94,
-    "y": 1879,
-    "w": 2142,
-    "h": 262
   },
   {
     "id": "6a1e1fb203c6236a",
@@ -281,53 +328,6 @@
     "y": 679,
     "w": 2552,
     "h": 922
-  },
-  {
-    "id": "31c43960a49c7f75",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "telegram - ui - home",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "62a0c42c707fd2cf",
-      "e78466517f08bf1b",
-      "2585c1751940ee0f",
-      "344f652167848723",
-      "8cdd0ff94c11d7d4",
-      "45159e869e60fef7",
-      "c7690118febd88ba",
-      "63286bf6d40b9ecd",
-      "c112e5483b53e573",
-      "057cd27350be1d0e"
-    ],
-    "x": 94,
-    "y": 1699,
-    "w": 882,
-    "h": 142
-  },
-  {
-    "id": "9fc669530c1959c1",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "665068c11f8d7cd2",
-      "42beec20ca262e48",
-      "6a1e1fb203c6236a"
-    ],
-    "x": 68,
-    "y": 413,
-    "w": 2604,
-    "h": 1214
   },
   {
     "id": "c28cd86afb368a68",
@@ -463,7 +463,7 @@
     "z": "52347795767acd3f",
     "g": "42beec20ca262e48",
     "name": "mode notification",
-    "property": "stack.system.mode.notification",
+    "property": "metrics.system.mode.notification",
     "propertyType": "global",
     "rules": [
       {
@@ -489,7 +489,7 @@
     "z": "52347795767acd3f",
     "g": "42beec20ca262e48",
     "name": "mode automate",
-    "property": "stack.system.mode.automate",
+    "property": "metrics.system.mode.automate",
     "propertyType": "global",
     "rules": [
       {
@@ -515,12 +515,12 @@
     "z": "52347795767acd3f",
     "g": "42beec20ca262e48",
     "name": "mode master",
-    "property": "stack.system.mode.master",
+    "property": "metrics.system.mode.master",
     "propertyType": "global",
     "rules": [
       {
         "t": "eq",
-        "v": "automate",
+        "v": "about.automate",
         "vt": "global"
       }
     ],
@@ -546,7 +546,7 @@
         "t": "set",
         "p": "payload.chatId",
         "pt": "msg",
-        "to": "stack.telegram.config['chat id']",
+        "to": "metrics.telegram.config['chat id']",
         "tot": "global"
       }
     ],

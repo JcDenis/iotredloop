@@ -289,12 +289,12 @@
     "z": "bcb1eeac454a68aa",
     "g": "431e858f4040dc8b",
     "name": "mode master",
-    "property": "stack.system.mode.master",
+    "property": "metrics.system.mode.master",
     "propertyType": "global",
     "rules": [
       {
         "t": "eq",
-        "v": "automate",
+        "v": "about.automate",
         "vt": "global"
       }
     ],
@@ -315,7 +315,7 @@
     "z": "bcb1eeac454a68aa",
     "g": "431e858f4040dc8b",
     "name": "mode automate",
-    "property": "stack.system.mode.automate",
+    "property": "metrics.system.mode.automate",
     "propertyType": "global",
     "rules": [
       {
