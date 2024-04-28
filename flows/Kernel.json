@@ -1748,7 +1748,12 @@
     "z": "ab51b1e8cad7b700",
     "g": "266f4436dc45ce89",
     "name": "auto - source - out",
-    "links": [],
+    "links": [
+      "0a2fa3c2042de32b",
+      "1ed7593011ad6d9d",
+      "8a80d7d04901125e",
+      "6d3f4589b84a4ae0"
+    ],
     "x": 3435,
     "y": 4860,
     "wires": [
@@ -2026,7 +2031,12 @@
     "g": "3be00f677c6457bd",
     "name": "auto - source - in",
     "mode": "link",
-    "links": [],
+    "links": [
+      "40abdc0a6d9a02e0",
+      "e75839a08fe8026b",
+      "fbf9779ea5af2111",
+      "db5251d07949a8c0"
+    ],
     "x": 3255,
     "y": 4920,
     "wires": []
@@ -2350,7 +2360,12 @@
     "z": "ab51b1e8cad7b700",
     "g": "4937527cddd45b61",
     "name": "auto - device - out",
-    "links": [],
+    "links": [
+      "919ec72b0122125e",
+      "64209e9b32b3069e",
+      "76e4299fa08ddb99",
+      "76c617de3fe57a72"
+    ],
     "x": 775,
     "y": 4980,
     "wires": [
@@ -2366,7 +2381,12 @@
     "g": "bd21a8b1786d3ed2",
     "name": "auto - device - in",
     "mode": "link",
-    "links": [],
+    "links": [
+      "277f13fc211becf2",
+      "14a19cafbce9493f",
+      "9386d8f8dd219a71",
+      "20255790fade5c76"
+    ],
     "x": 435,
     "y": 4920,
     "wires": []
@@ -6603,7 +6623,9 @@
       "3cc31621bae4b8f4",
       "9fffdbd918ac2457",
       "7a340e512e7cec9a",
-      "775013411d26e549"
+      "775013411d26e549",
+      "12ee535e8df383e4",
+      "baa85c145ba7e3cd"
     ],
     "x": 1315,
     "y": 780,

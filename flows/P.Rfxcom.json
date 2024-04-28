@@ -1,0 +1,2445 @@
+[
+  {
+    "id": "b984eb4415408ed9",
+    "type": "tab",
+    "label": "P.Rfxcom",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "d0ca9f7d1e57dd4c",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "rfxcom - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "925b37eb1b49e295",
+      "7757c717ba0bf64c"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "8ff8200fb98a6c9f",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c9bfd06d94c778b0",
+      "964bf809761a572e"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1814,
+    "h": 314
+  },
+  {
+    "id": "d6b920b99b611bdf",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f203be2131a6857b",
+      "648c017fa768efff"
+    ],
+    "x": 68,
+    "y": 533,
+    "w": 2414,
+    "h": 194
+  },
+  {
+    "id": "9764355bf8f8caf8",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ac4875632c3c08e1",
+      "315a7d88b33ec298"
+    ],
+    "x": 68,
+    "y": 773,
+    "w": 2434,
+    "h": 194
+  },
+  {
+    "id": "068fb3ac81317e59",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "32b0e7dfab2726d5",
+      "f3fbbcf1b5165983"
+    ],
+    "x": 68,
+    "y": 1013,
+    "w": 2714,
+    "h": 314
+  },
+  {
+    "id": "c9bfd06d94c778b0",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "8ff8200fb98a6c9f",
+    "name": "rfxcom - THG - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c7c9dbd511ce3178",
+      "aa27feeb7f465ede",
+      "bd90c8853bb23bbc",
+      "1868c54d6625f422",
+      "277f13fc211becf2",
+      "a05655d2da0205bf",
+      "05b9c831fcbc4327",
+      "919ec72b0122125e",
+      "f86e15a9805df2eb"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "964bf809761a572e",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "8ff8200fb98a6c9f",
+    "name": "rfxcom - THG - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "05b01da832e8dc8e",
+      "4b250474eef9ebf9",
+      "3f67497a06c6790b",
+      "40abdc0a6d9a02e0",
+      "ba66e66c54a87e85",
+      "bc5e8eb38502426b",
+      "0a2fa3c2042de32b"
+    ],
+    "x": 1054,
+    "y": 199,
+    "w": 802,
+    "h": 202
+  },
+  {
+    "id": "f203be2131a6857b",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "d6b920b99b611bdf",
+    "name": "rfxcom - SH4-90157 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d1282e8de47bdf60",
+      "14a19cafbce9493f",
+      "3f944b3a650ccb02",
+      "2069657998805215",
+      "58a1beac4e88a457",
+      "64209e9b32b3069e",
+      "0c79eda0b1819a61"
+    ],
+    "x": 94,
+    "y": 559,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "648c017fa768efff",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "d6b920b99b611bdf",
+    "name": "rfxcom - SH4-90157 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e9e3a2077a1fb722",
+      "582fd41fd3f9077e",
+      "cb0926c497a333b7",
+      "846e71a382cb0e4a",
+      "e75839a08fe8026b",
+      "18d6239a83c542f6",
+      "b1b7d0d0ebcf09f8",
+      "1ed7593011ad6d9d",
+      "559501a6882a7e03"
+    ],
+    "x": 1074,
+    "y": 559,
+    "w": 1382,
+    "h": 142
+  },
+  {
+    "id": "ac4875632c3c08e1",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "9764355bf8f8caf8",
+    "name": "rfxcom - DIO-54791 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4d6edf0867a50f9d",
+      "c54311f816c57545",
+      "cfd7f4d7cb8008c2",
+      "625e790911e89ba5",
+      "396a3bfdb0718a53",
+      "daf0d80c53e0db5f",
+      "12ee535e8df383e4",
+      "ada8e99555ab016e",
+      "e6c56ae4bc5df5d8",
+      "fbf9779ea5af2111",
+      "c04bcd7a0e7a788c",
+      "8a80d7d04901125e"
+    ],
+    "x": 1074,
+    "y": 799,
+    "w": 1402,
+    "h": 142
+  },
+  {
+    "id": "315a7d88b33ec298",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "9764355bf8f8caf8",
+    "name": "rfxcom - DIO-54791 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4b701431b4a2a6cf",
+      "9386d8f8dd219a71",
+      "31b02672ea156965",
+      "9648a5fa00b709ec",
+      "76e4299fa08ddb99",
+      "fc4300b4cbfc7dac",
+      "5b20e4596518419e"
+    ],
+    "x": 94,
+    "y": 799,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "32b0e7dfab2726d5",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "068fb3ac81317e59",
+    "name": "rfxcom - DIO-54760 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bd94efd3c0d41ec1",
+      "77f89a4e117cdb43",
+      "977fce374c045aa2",
+      "64e62d9c80ee281f",
+      "1f51d9ea8a1bf1de",
+      "2b13cb6248d2f638",
+      "aeefd326e0d79eb2",
+      "cdb2ddeafa644131",
+      "246fe56fe7852fb7",
+      "1c45f45498655577",
+      "df6ef3b58ab095da",
+      "5de16c90c3283bc0",
+      "40b53bd7b2dd3fda",
+      "baa85c145ba7e3cd",
+      "7c7b0c1ef742761b",
+      "fd7c381284fe78b5",
+      "db5251d07949a8c0",
+      "67a3679a821559e1",
+      "6d3f4589b84a4ae0"
+    ],
+    "x": 1054,
+    "y": 1039,
+    "w": 1702,
+    "h": 262
+  },
+  {
+    "id": "f3fbbcf1b5165983",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "068fb3ac81317e59",
+    "name": "rfxcom - DIO-54760 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "cea82d4e74329977",
+      "20255790fade5c76",
+      "2c174532d49b2fa7",
+      "78c44721aa7e96ba",
+      "76c617de3fe57a72",
+      "72d6fffa4dada8c2",
+      "a08fafe0b15e2f0d",
+      "802a3e81458149bc"
+    ],
+    "x": 94,
+    "y": 1039,
+    "w": 862,
+    "h": 202
+  },
+  {
+    "id": "925b37eb1b49e295",
+    "type": "catch",
+    "z": "b984eb4415408ed9",
+    "g": "d0ca9f7d1e57dd4c",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "7757c717ba0bf64c"
+      ]
+    ]
+  },
+  {
+    "id": "7757c717ba0bf64c",
+    "type": "debug",
+    "z": "b984eb4415408ed9",
+    "g": "d0ca9f7d1e57dd4c",
+    "name": "rfxcom - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "c7c9dbd511ce3178",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "temperature / probe / number / 20",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 300,
+    "wires": [
+      [
+        "05b9c831fcbc4327"
+      ]
+    ]
+  },
+  {
+    "id": "aa27feeb7f465ede",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "humidity / probe / number / 50",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "humidity",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "percent",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "50",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 360,
+    "wires": [
+      [
+        "05b9c831fcbc4327"
+      ]
+    ]
+  },
+  {
+    "id": "bd90c8853bb23bbc",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "battery / probe / percent / 99",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "battery",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "percent",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "99",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "05b9c831fcbc4327"
+      ]
+    ]
+  },
+  {
+    "id": "1868c54d6625f422",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "THG",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "c7c9dbd511ce3178",
+        "aa27feeb7f465ede",
+        "bd90c8853bb23bbc",
+        "a05655d2da0205bf"
+      ]
+    ]
+  },
+  {
+    "id": "277f13fc211becf2",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "rfxcom - THG - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "1868c54d6625f422"
+      ]
+    ]
+  },
+  {
+    "id": "a05655d2da0205bf",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "brand: oregon / temperature / probe",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "oregon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 240,
+    "wires": [
+      [
+        "05b9c831fcbc4327"
+      ]
+    ]
+  },
+  {
+    "id": "05b9c831fcbc4327",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 240,
+    "wires": [
+      [
+        "919ec72b0122125e"
+      ]
+    ]
+  },
+  {
+    "id": "919ec72b0122125e",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "rfxcom - THG - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 915,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "f86e15a9805df2eb",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "c9bfd06d94c778b0",
+    "name": "temperature / probe",
+    "info": "",
+    "x": 210,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "05b01da832e8dc8e",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "temperature / probe / number",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.temperature",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1620,
+    "y": 240,
+    "wires": [
+      [
+        "0a2fa3c2042de32b"
+      ]
+    ]
+  },
+  {
+    "id": "4b250474eef9ebf9",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "humidity / probe / number",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "humidity",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.humidity",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1610,
+    "y": 300,
+    "wires": [
+      [
+        "0a2fa3c2042de32b"
+      ]
+    ]
+  },
+  {
+    "id": "3f67497a06c6790b",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "battery / probe / percent",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "battery",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.batteryLevel",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload*10",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1610,
+    "y": 360,
+    "wires": [
+      [
+        "0a2fa3c2042de32b"
+      ]
+    ]
+  },
+  {
+    "id": "40abdc0a6d9a02e0",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "rfxcom - THG - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1095,
+    "y": 240,
+    "wires": [
+      [
+        "ba66e66c54a87e85"
+      ]
+    ]
+  },
+  {
+    "id": "ba66e66c54a87e85",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "THG",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1230,
+    "y": 240,
+    "wires": [
+      [
+        "bc5e8eb38502426b"
+      ]
+    ]
+  },
+  {
+    "id": "bc5e8eb38502426b",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "prefix",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1390,
+    "y": 240,
+    "wires": [
+      [
+        "05b01da832e8dc8e",
+        "4b250474eef9ebf9",
+        "3f67497a06c6790b"
+      ]
+    ]
+  },
+  {
+    "id": "0a2fa3c2042de32b",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "964bf809761a572e",
+    "name": "rfxcom - THG - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 1815,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "d1282e8de47bdf60",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "motion / sensor* / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'sensor'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 660,
+    "wires": [
+      [
+        "58a1beac4e88a457"
+      ]
+    ]
+  },
+  {
+    "id": "14a19cafbce9493f",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "rfxcom - SH4-90157 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 600,
+    "wires": [
+      [
+        "3f944b3a650ccb02"
+      ]
+    ]
+  },
+  {
+    "id": "3f944b3a650ccb02",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "SH4-90157",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "2069657998805215",
+        "d1282e8de47bdf60"
+      ]
+    ]
+  },
+  {
+    "id": "2069657998805215",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "brand: smartwaves / motion / sensor*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "smartwaves",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'sensor'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 600,
+    "wires": [
+      [
+        "58a1beac4e88a457"
+      ]
+    ]
+  },
+  {
+    "id": "58a1beac4e88a457",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 800,
+    "y": 600,
+    "wires": [
+      [
+        "64209e9b32b3069e"
+      ]
+    ]
+  },
+  {
+    "id": "64209e9b32b3069e",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "rfxcom - SH4-90157 - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 935,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "0c79eda0b1819a61",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "f203be2131a6857b",
+    "name": "motion / sensor",
+    "info": "",
+    "x": 200,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "e9e3a2077a1fb722",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "xxx / xxx / boolean",
+    "rules": [],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2250,
+    "y": 600,
+    "wires": [
+      [
+        "1ed7593011ad6d9d"
+      ]
+    ]
+  },
+  {
+    "id": "582fd41fd3f9077e",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "command",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$string(msg.payload.command)='On'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1580,
+    "y": 600,
+    "wires": [
+      [
+        "846e71a382cb0e4a",
+        "cb0926c497a333b7"
+      ]
+    ]
+  },
+  {
+    "id": "cb0926c497a333b7",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "true",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 1750,
+    "y": 600,
+    "wires": [
+      [
+        "e9e3a2077a1fb722"
+      ]
+    ]
+  },
+  {
+    "id": "846e71a382cb0e4a",
+    "type": "trigger",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "wait 30 s then send first msg",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "pay",
+    "duration": "30",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "topic",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1820,
+    "y": 660,
+    "wires": [
+      [
+        "559501a6882a7e03"
+      ]
+    ]
+  },
+  {
+    "id": "e75839a08fe8026b",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "rfxcom - SH4-90157 - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1115,
+    "y": 600,
+    "wires": [
+      [
+        "18d6239a83c542f6"
+      ]
+    ]
+  },
+  {
+    "id": "18d6239a83c542f6",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "SH4-90157",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1250,
+    "y": 600,
+    "wires": [
+      [
+        "b1b7d0d0ebcf09f8"
+      ]
+    ]
+  },
+  {
+    "id": "b1b7d0d0ebcf09f8",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "msg.prefix&'/10'",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1410,
+    "y": 600,
+    "wires": [
+      [
+        "582fd41fd3f9077e"
+      ]
+    ]
+  },
+  {
+    "id": "1ed7593011ad6d9d",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "rfxcom - SH4-00157 - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2415,
+    "y": 600,
+    "wires": []
+  },
+  {
+    "id": "559501a6882a7e03",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "648c017fa768efff",
+    "name": "false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2050,
+    "y": 660,
+    "wires": [
+      [
+        "e9e3a2077a1fb722"
+      ]
+    ]
+  },
+  {
+    "id": "4d6edf0867a50f9d",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "command / xxx",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2280,
+    "y": 900,
+    "wires": [
+      [
+        "8a80d7d04901125e"
+      ]
+    ]
+  },
+  {
+    "id": "c54311f816c57545",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "group",
+    "property": "payload.command",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "On",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "Off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1910,
+    "y": 900,
+    "wires": [
+      [
+        "cfd7f4d7cb8008c2"
+      ],
+      [
+        "cfd7f4d7cb8008c2"
+      ]
+    ]
+  },
+  {
+    "id": "cfd7f4d7cb8008c2",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$string(msg.payload.command)='On'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2080,
+    "y": 900,
+    "wires": [
+      [
+        "4d6edf0867a50f9d"
+      ]
+    ]
+  },
+  {
+    "id": "625e790911e89ba5",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "unit",
+    "property": "payload.unitCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1750,
+    "y": 900,
+    "wires": [
+      [
+        "c54311f816c57545"
+      ]
+    ]
+  },
+  {
+    "id": "396a3bfdb0718a53",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "id",
+    "property": "payload.id",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "id",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1590,
+    "y": 900,
+    "wires": [
+      [
+        "625e790911e89ba5"
+      ]
+    ]
+  },
+  {
+    "id": "daf0d80c53e0db5f",
+    "type": "gate",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 1430,
+    "y": 900,
+    "wires": [
+      [
+        "396a3bfdb0718a53"
+      ]
+    ]
+  },
+  {
+    "id": "12ee535e8df383e4",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "rfxcom - DIO-54791 - source gate",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 1115,
+    "y": 840,
+    "wires": [
+      [
+        "ada8e99555ab016e"
+      ]
+    ]
+  },
+  {
+    "id": "ada8e99555ab016e",
+    "type": "trigger",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "wait 10 s",
+    "op1": "",
+    "op2": "open",
+    "op1type": "nul",
+    "op2type": "str",
+    "duration": "10",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1260,
+    "y": 840,
+    "wires": [
+      [
+        "daf0d80c53e0db5f"
+      ]
+    ]
+  },
+  {
+    "id": "e6c56ae4bc5df5d8",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "Do not replay command from mqtt on startup",
+    "info": "",
+    "x": 1550,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "fbf9779ea5af2111",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "rfxcom - DIO-54791 - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1115,
+    "y": 900,
+    "wires": [
+      [
+        "c04bcd7a0e7a788c"
+      ]
+    ]
+  },
+  {
+    "id": "c04bcd7a0e7a788c",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "DIO-54791",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1250,
+    "y": 900,
+    "wires": [
+      [
+        "daf0d80c53e0db5f"
+      ]
+    ]
+  },
+  {
+    "id": "8a80d7d04901125e",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "ac4875632c3c08e1",
+    "name": "rfxcom - DIO-54791 - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2435,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "4b701431b4a2a6cf",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "command / remote* / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'remote'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 900,
+    "wires": [
+      [
+        "9648a5fa00b709ec"
+      ]
+    ]
+  },
+  {
+    "id": "9386d8f8dd219a71",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "rfxcom - DIO-54791 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 840,
+    "wires": [
+      [
+        "31b02672ea156965"
+      ]
+    ]
+  },
+  {
+    "id": "31b02672ea156965",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "DIO-54791",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 840,
+    "wires": [
+      [
+        "4b701431b4a2a6cf",
+        "5b20e4596518419e"
+      ]
+    ]
+  },
+  {
+    "id": "9648a5fa00b709ec",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 800,
+    "y": 840,
+    "wires": [
+      [
+        "76e4299fa08ddb99"
+      ]
+    ]
+  },
+  {
+    "id": "76e4299fa08ddb99",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "rfxcom - DIO-54791 - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 935,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "fc4300b4cbfc7dac",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "command / remote",
+    "info": "",
+    "x": 210,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "5b20e4596518419e",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "315a7d88b33ec298",
+    "name": "brand: chacon / command / remote*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "chacon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.filed?msg.field:'remote'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 840,
+    "wires": [
+      [
+        "9648a5fa00b709ec"
+      ]
+    ]
+  },
+  {
+    "id": "bd94efd3c0d41ec1",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "prefix 1",
+    "rules": [
+      {
+        "t": "set",
+        "p": "prefix",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2080,
+    "y": 1200,
+    "wires": [
+      [
+        "977fce374c045aa2"
+      ]
+    ]
+  },
+  {
+    "id": "77f89a4e117cdb43",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "command",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.prefix+msg.payload",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2580,
+    "y": 1200,
+    "wires": [
+      [
+        "6d3f4589b84a4ae0"
+      ]
+    ]
+  },
+  {
+    "id": "977fce374c045aa2",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "group",
+    "property": "payload.command",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "On",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "Off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2230,
+    "y": 1200,
+    "wires": [
+      [
+        "64e62d9c80ee281f"
+      ],
+      [
+        "64e62d9c80ee281f"
+      ]
+    ]
+  },
+  {
+    "id": "64e62d9c80ee281f",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$string(msg.payload.command)='On'?1:0",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2400,
+    "y": 1200,
+    "wires": [
+      [
+        "77f89a4e117cdb43"
+      ]
+    ]
+  },
+  {
+    "id": "1f51d9ea8a1bf1de",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "prefix 2",
+    "rules": [
+      {
+        "t": "set",
+        "p": "prefix",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2080,
+    "y": 1080,
+    "wires": [
+      [
+        "977fce374c045aa2"
+      ]
+    ]
+  },
+  {
+    "id": "2b13cb6248d2f638",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "prefix 3",
+    "rules": [
+      {
+        "t": "set",
+        "p": "prefix",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2080,
+    "y": 1140,
+    "wires": [
+      [
+        "977fce374c045aa2"
+      ]
+    ]
+  },
+  {
+    "id": "aeefd326e0d79eb2",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "prefix 4",
+    "rules": [
+      {
+        "t": "set",
+        "p": "prefix",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2080,
+    "y": 1260,
+    "wires": [
+      [
+        "cdb2ddeafa644131"
+      ]
+    ]
+  },
+  {
+    "id": "cdb2ddeafa644131",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "group",
+    "property": "payload.command",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Group On",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "Group off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2230,
+    "y": 1260,
+    "wires": [
+      [
+        "246fe56fe7852fb7"
+      ],
+      [
+        "246fe56fe7852fb7"
+      ]
+    ]
+  },
+  {
+    "id": "246fe56fe7852fb7",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$string(msg.payload.command)='Group On'?1:0",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2400,
+    "y": 1260,
+    "wires": [
+      [
+        "77f89a4e117cdb43"
+      ]
+    ]
+  },
+  {
+    "id": "1c45f45498655577",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "unit",
+    "property": "payload.unitCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "2",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "3",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 1730,
+    "y": 1200,
+    "wires": [
+      [
+        "1f51d9ea8a1bf1de"
+      ],
+      [
+        "2b13cb6248d2f638"
+      ],
+      [
+        "5de16c90c3283bc0"
+      ]
+    ]
+  },
+  {
+    "id": "df6ef3b58ab095da",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "id",
+    "property": "payload.id",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "id",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1570,
+    "y": 1200,
+    "wires": [
+      [
+        "1c45f45498655577"
+      ]
+    ]
+  },
+  {
+    "id": "5de16c90c3283bc0",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "number",
+    "property": "payload.commandNumber",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "lt",
+        "v": "3",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1900,
+    "y": 1260,
+    "wires": [
+      [
+        "bd94efd3c0d41ec1"
+      ],
+      [
+        "aeefd326e0d79eb2"
+      ]
+    ]
+  },
+  {
+    "id": "40b53bd7b2dd3fda",
+    "type": "gate",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 1410,
+    "y": 1200,
+    "wires": [
+      [
+        "df6ef3b58ab095da"
+      ]
+    ]
+  },
+  {
+    "id": "baa85c145ba7e3cd",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "rfxcom - DIO-54760 - source gate",
+    "links": [
+      "94c79b8f52f0b6ba"
+    ],
+    "x": 1095,
+    "y": 1140,
+    "wires": [
+      [
+        "7c7b0c1ef742761b"
+      ]
+    ]
+  },
+  {
+    "id": "7c7b0c1ef742761b",
+    "type": "trigger",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "wait 10 s",
+    "op1": "",
+    "op2": "open",
+    "op1type": "nul",
+    "op2type": "str",
+    "duration": "10",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1240,
+    "y": 1140,
+    "wires": [
+      [
+        "40b53bd7b2dd3fda"
+      ]
+    ]
+  },
+  {
+    "id": "fd7c381284fe78b5",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "Do not replay command from mqtt on startup",
+    "info": "",
+    "x": 1530,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "db5251d07949a8c0",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "rfxcom - DIO-54760 - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1095,
+    "y": 1200,
+    "wires": [
+      [
+        "67a3679a821559e1"
+      ]
+    ]
+  },
+  {
+    "id": "67a3679a821559e1",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "DIO-54760",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1230,
+    "y": 1200,
+    "wires": [
+      [
+        "40b53bd7b2dd3fda"
+      ]
+    ]
+  },
+  {
+    "id": "6d3f4589b84a4ae0",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "32b0e7dfab2726d5",
+    "name": "rfxcom - DIO-54760 - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2715,
+    "y": 1200,
+    "wires": []
+  },
+  {
+    "id": "cea82d4e74329977",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "command / remote* / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'remote'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 1140,
+    "wires": [
+      [
+        "78c44721aa7e96ba"
+      ]
+    ]
+  },
+  {
+    "id": "20255790fade5c76",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "rfxcom - DIO-54760 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 135,
+    "y": 1080,
+    "wires": [
+      [
+        "2c174532d49b2fa7"
+      ]
+    ]
+  },
+  {
+    "id": "2c174532d49b2fa7",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "DIO-54760",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 1080,
+    "wires": [
+      [
+        "cea82d4e74329977",
+        "a08fafe0b15e2f0d"
+      ]
+    ]
+  },
+  {
+    "id": "78c44721aa7e96ba",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 780,
+    "y": 1080,
+    "wires": [
+      [
+        "76c617de3fe57a72"
+      ]
+    ]
+  },
+  {
+    "id": "76c617de3fe57a72",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "rfxcom - DIO-54760 - source",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 915,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "72d6fffa4dada8c2",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "command / remote x",
+    "info": "",
+    "x": 210,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "a08fafe0b15e2f0d",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "brand: chacon / command / remote*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "chacon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'remote'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 1080,
+    "wires": [
+      [
+        "78c44721aa7e96ba"
+      ]
+    ]
+  },
+  {
+    "id": "802a3e81458149bc",
+    "type": "comment",
+    "z": "b984eb4415408ed9",
+    "g": "f3fbbcf1b5165983",
+    "name": "payload: button 1 off = 10, button 1 on = 11, button 2 off = 20, button 2 on = 21, ...",
+    "info": "",
+    "x": 400,
+    "y": 1200,
+    "wires": []
+  }
+]
