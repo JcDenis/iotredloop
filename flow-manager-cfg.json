@@ -1,24 +1,4 @@
 {
-  "filter": [
-    "A.Agenda",
-    "A.Alexa",
-    "A.Proxmox",
-    "A.Telegram",
-    "A.Unifi",
-    "K.Room",
-    "K.Routine",
-    "K.Scene",
-    "K.Thermostat",
-    "K.Translate",
-    "K.linky",
-    "Kernel",
-    "P.API",
-    "P.Rfxcom",
-    "P.Zigbee",
-    "P.Zwave",
-    "R.Config",
-    "R.Home",
-    "R.System"
-  ],
+  "filter": [],
   "fileFormat": "json"
 }
