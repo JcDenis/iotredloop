@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "bcb1eeac454a68aa",
+    "type": "tab",
+    "label": "P.Unifi",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "b33003f4ee6d59f9",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "name": "unifi - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "681d24aa3ea31b5b",
+      "4308546dd6e22b10"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "ef46b000b033db2d",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "name": "unifi - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "ae85504297599271",
+      "d3b50627581cb177",
+      "f0ed6e5d36cbe523"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "431e858f4040dc8b",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "name": "unifi - scene - unifi site led",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "c05215ab11c67472",
+      "ff67e3a2734a57e6",
+      "cc7f40c27b45b5f8",
+      "13a2d7fb2604e394",
+      "dcb86b8e023a9ff4",
+      "e5af9cdb8ad1782f",
+      "a04df5d6f5a664c9",
+      "aecf9a82cca1010b",
+      "8662a6d8d5df3801",
+      "bd2e646697352643"
+    ],
+    "x": 94,
+    "y": 859,
+    "w": 2012,
+    "h": 142
+  },
+  {
+    "id": "d05973f2f05e6933",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "name": "unifi - statistics to Influxdb",
+    "style": {
+      "stroke": "#bfbfbf",
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "color": "#7f7f7f"
+    },
+    "nodes": [
+      "8553e21d99113958",
+      "649b628a9a4b5a76",
+      "c460eff7ee934acc",
+      "7f55efeecc6ec73e",
+      "a7443028dc8c4bcd",
+      "2177d6f5082386d2",
+      "8582c1a640e03d41",
+      "9932a3c5f71ec579",
+      "224c5d499abe0df3",
+      "b7cba9eee3f6e94e",
+      "2acf6f79f1b77e0f",
+      "258cd89a7735d78b",
+      "0ff6626531ef6198",
+      "a3f3004529ef18a2",
+      "d4c2cc2a91f5b2b9",
+      "e8d7f19acb5063f9",
+      "62950c83974ee5b3",
+      "c589887266c69450",
+      "b681fea6485e08de",
+      "372ede1593292145",
+      "6ff24a7e230722a8",
+      "b11dbfb8e7b04adc",
+      "c712b913351f15c2",
+      "1d7fdb59cd34b66c",
+      "bfa0e5df451fe2e9",
+      "cbd683a854a44b2e",
+      "b50546f63ce1639b",
+      "e0507a6e8e927e19",
+      "085b08d355309601",
+      "39408c8ef2fd9677",
+      "15d5032c9ec85d29",
+      "8e650ebd7375f518",
+      "86ab0804781ac276"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 2232,
+    "h": 622
+  },
+  {
+    "id": "681d24aa3ea31b5b",
+    "type": "catch",
+    "z": "bcb1eeac454a68aa",
+    "g": "b33003f4ee6d59f9",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "4308546dd6e22b10"
+      ]
+    ]
+  },
+  {
+    "id": "4308546dd6e22b10",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "b33003f4ee6d59f9",
+    "name": "unifi - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "ae85504297599271",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "ef46b000b033db2d",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "unifi",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "f0ed6e5d36cbe523"
+      ]
+    ]
+  },
+  {
+    "id": "d3b50627581cb177",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "ef46b000b033db2d",
+    "name": "unifi - bucket",
+    "links": [],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "ae85504297599271"
+      ]
+    ]
+  },
+  {
+    "id": "f0ed6e5d36cbe523",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "ef46b000b033db2d",
+    "name": "unifi - bucket",
+    "mode": "link",
+    "links": [],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "c05215ab11c67472",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "command",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)=true",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "json"
+      },
+      {
+        "t": "set",
+        "p": "payload.mode",
+        "pt": "msg",
+        "to": "tmp",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload.command",
+        "pt": "msg",
+        "to": "setsiteled",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.site",
+        "pt": "msg",
+        "to": "default",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1460,
+    "y": 960,
+    "wires": [
+      [
+        "aecf9a82cca1010b"
+      ]
+    ]
+  },
+  {
+    "id": "ff67e3a2734a57e6",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "mode master",
+    "property": "stack.system.mode.master",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 960,
+    "wires": [
+      [
+        "cc7f40c27b45b5f8"
+      ]
+    ]
+  },
+  {
+    "id": "cc7f40c27b45b5f8",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "mode automate",
+    "property": "stack.system.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 660,
+    "y": 960,
+    "wires": [
+      [
+        "dcb86b8e023a9ff4"
+      ]
+    ]
+  },
+  {
+    "id": "13a2d7fb2604e394",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload='Jour'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1100,
+    "y": 960,
+    "wires": [
+      [
+        "c05215ab11c67472",
+        "bd2e646697352643"
+      ]
+    ]
+  },
+  {
+    "id": "dcb86b8e023a9ff4",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "mode nycthemer",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 890,
+    "y": 960,
+    "wires": [
+      [
+        "13a2d7fb2604e394"
+      ]
+    ]
+  },
+  {
+    "id": "e5af9cdb8ad1782f",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "unifi - scene - unifi site led",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 135,
+    "y": 960,
+    "wires": [
+      [
+        "a04df5d6f5a664c9"
+      ]
+    ]
+  },
+  {
+    "id": "a04df5d6f5a664c9",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "system/mode/nycthemer",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 960,
+    "wires": [
+      [
+        "ff67e3a2734a57e6"
+      ]
+    ]
+  },
+  {
+    "id": "aecf9a82cca1010b",
+    "type": "Unifi",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "",
+    "server": "535a857c71583573",
+    "command": "20",
+    "debug": false,
+    "x": 1680,
+    "y": 960,
+    "wires": [
+      [
+        "8662a6d8d5df3801"
+      ]
+    ]
+  },
+  {
+    "id": "8662a6d8d5df3801",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "unifi - scene - unifi site led",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1950,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "bd2e646697352643",
+    "type": "ui-switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "431e858f4040dc8b",
+    "name": "",
+    "label": "Led Unifi",
+    "group": "3cfaa12a351bab8e",
+    "order": 0,
+    "width": 0,
+    "height": 0,
+    "passthru": false,
+    "topic": "topic",
+    "topicType": "msg",
+    "style": "",
+    "className": "",
+    "onvalue": "true",
+    "onvalueType": "bool",
+    "onicon": "",
+    "oncolor": "",
+    "offvalue": "false",
+    "offvalueType": "bool",
+    "officon": "",
+    "offcolor": "",
+    "x": 1280,
+    "y": 900,
+    "wires": [
+      [
+        "c05215ab11c67472"
+      ]
+    ]
+  },
+  {
+    "id": "8553e21d99113958",
+    "type": "influxdb out",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "sensor unifi",
+    "measurement": "",
+    "precision": "",
+    "retentionPolicy": "",
+    "database": "database",
+    "precisionV18FluxV20": "s",
+    "retentionPolicyV18Flux": "",
+    "org": "iotredloop",
+    "bucket": "unifi",
+    "x": 2190,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "649b628a9a4b5a76",
+    "type": "Unifi",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "AccessDevices",
+    "server": "535a857c71583573",
+    "command": "70",
+    "debug": false,
+    "x": 460,
+    "y": 240,
+    "wires": [
+      [
+        "e0507a6e8e927e19",
+        "b50546f63ce1639b"
+      ]
+    ]
+  },
+  {
+    "id": "c460eff7ee934acc",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "fan",
+    "property": "payload.has_fan",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 810,
+    "y": 360,
+    "wires": [
+      [
+        "7f55efeecc6ec73e"
+      ]
+    ]
+  },
+  {
+    "id": "7f55efeecc6ec73e",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "fan",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "fan",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.fan_level",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 360,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "a7443028dc8c4bcd",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "temperature",
+    "property": "payload.has_temperature",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 300,
+    "wires": [
+      [
+        "8582c1a640e03d41"
+      ]
+    ]
+  },
+  {
+    "id": "2177d6f5082386d2",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "format",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "payload",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "sensor",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{msg.module:$number(msg.etat)}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1690,
+    "y": 240,
+    "wires": [
+      [
+        "39408c8ef2fd9677"
+      ]
+    ]
+  },
+  {
+    "id": "8582c1a640e03d41",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "temperature",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.general_temperature",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1030,
+    "y": 300,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "9932a3c5f71ec579",
+    "type": "delay",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "15/s",
+    "pauseType": "rate",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "15",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "outputs": 1,
+    "x": 2010,
+    "y": 240,
+    "wires": [
+      [
+        "8553e21d99113958",
+        "cbd683a854a44b2e",
+        "8e650ebd7375f518"
+      ]
+    ]
+  },
+  {
+    "id": "224c5d499abe0df3",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "temperatures",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "temperatures",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 240,
+    "wires": [
+      [
+        "b7cba9eee3f6e94e"
+      ]
+    ]
+  },
+  {
+    "id": "b7cba9eee3f6e94e",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "move",
+    "rules": [
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.temperatures",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 240,
+    "wires": [
+      [
+        "2acf6f79f1b77e0f"
+      ]
+    ]
+  },
+  {
+    "id": "2acf6f79f1b77e0f",
+    "type": "split",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "sub_id",
+    "x": 1170,
+    "y": 240,
+    "wires": [
+      [
+        "085b08d355309601"
+      ]
+    ]
+  },
+  {
+    "id": "258cd89a7735d78b",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "temperature",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "msg.module & \" \" & msg.payload.name",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.value",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1510,
+    "y": 240,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "0ff6626531ef6198",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_stats",
+    "property": "payload.sys_stats",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "object",
+        "vt": "object"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 820,
+    "y": 420,
+    "wires": [
+      [
+        "a3f3004529ef18a2",
+        "d4c2cc2a91f5b2b9",
+        "e8d7f19acb5063f9",
+        "62950c83974ee5b3"
+      ]
+    ]
+  },
+  {
+    "id": "a3f3004529ef18a2",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_loadavg_1",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "sys_loadavg_1",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.sys_stats.loadavg_1",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 420,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "d4c2cc2a91f5b2b9",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_loadavg_5",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "sys_loadavg_5",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.sys_stats.loadavg_5",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 480,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "e8d7f19acb5063f9",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_loadavg_15",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "sys_loadavg_15",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.sys_stats.loadavg_15",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 540,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "62950c83974ee5b3",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_mem_used",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "sys_mem_used",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.sys_stats.mem_used",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 600,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "c589887266c69450",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_cpu",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "cpu",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload['system-stats'].cpu",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1020,
+    "y": 660,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "b681fea6485e08de",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "sys_mem",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "memory",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload['system-stats'].mem",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1020,
+    "y": 720,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "372ede1593292145",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "system-stats",
+    "property": "payload['system-stats']",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "object",
+        "vt": "object"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 660,
+    "wires": [
+      [
+        "c589887266c69450",
+        "b681fea6485e08de"
+      ]
+    ]
+  },
+  {
+    "id": "6ff24a7e230722a8",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "port_table",
+    "property": "payload.port_table",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "array",
+        "vt": "array"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 820,
+    "y": 780,
+    "wires": [
+      [
+        "b11dbfb8e7b04adc"
+      ]
+    ]
+  },
+  {
+    "id": "b11dbfb8e7b04adc",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "move",
+    "rules": [
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "payload.name",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.port_table",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 780,
+    "wires": [
+      [
+        "c712b913351f15c2"
+      ]
+    ]
+  },
+  {
+    "id": "c712b913351f15c2",
+    "type": "split",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1170,
+    "y": 780,
+    "wires": [
+      [
+        "1d7fdb59cd34b66c",
+        "bfa0e5df451fe2e9"
+      ]
+    ]
+  },
+  {
+    "id": "1d7fdb59cd34b66c",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "poe_power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "poe_power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "msg.module & \" \" & msg.payload.name",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.poe_power",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1350,
+    "y": 720,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "bfa0e5df451fe2e9",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "poe_voltage",
+    "rules": [
+      {
+        "t": "set",
+        "p": "sensor",
+        "pt": "msg",
+        "to": "poe_voltage",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "module",
+        "pt": "msg",
+        "to": "msg.module & \" \" & msg.payload.name",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "etat",
+        "pt": "msg",
+        "to": "payload.poe_voltage",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1350,
+    "y": 780,
+    "wires": [
+      [
+        "2177d6f5082386d2"
+      ]
+    ]
+  },
+  {
+    "id": "cbd683a854a44b2e",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "unifi - statistics",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2200,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "b50546f63ce1639b",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "unifi sensor query",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 470,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "e0507a6e8e927e19",
+    "type": "split",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "eq_id",
+    "x": 650,
+    "y": 240,
+    "wires": [
+      [
+        "224c5d499abe0df3",
+        "a7443028dc8c4bcd",
+        "c460eff7ee934acc",
+        "0ff6626531ef6198",
+        "372ede1593292145",
+        "6ff24a7e230722a8"
+      ]
+    ]
+  },
+  {
+    "id": "085b08d355309601",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "exists",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "name",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1330,
+    "y": 240,
+    "wires": [
+      [
+        "258cd89a7735d78b"
+      ]
+    ]
+  },
+  {
+    "id": "39408c8ef2fd9677",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "empty",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1850,
+    "y": 240,
+    "wires": [
+      [
+        "9932a3c5f71ec579"
+      ]
+    ]
+  },
+  {
+    "id": "15d5032c9ec85d29",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "unifi - statistics",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "86ab0804781ac276"
+      ]
+    ]
+  },
+  {
+    "id": "8e650ebd7375f518",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "unifi - statistics",
+    "mode": "link",
+    "links": [],
+    "x": 2135,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "86ab0804781ac276",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "time",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "date"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "649b628a9a4b5a76"
+      ]
+    ]
+  }
+]

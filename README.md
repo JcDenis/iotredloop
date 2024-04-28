@@ -27,6 +27,7 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 
 It additionnaly uses some Unifi and Amazon Alexa stuff.
 
+* [node-red-contrib-unifi](https://flows.nodered.org/node/node-red-contrib-unifi) 0.3.15
 * [node-red-contrib-alexa-remote2-applestrudel](https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel) 5.0.50
 * [node-red-contrib-virtual-smart-home](https://flows.nodered.org/node/node-red-contrib-virtual-smart-home) 4.4.0
 

@@ -529,7 +529,7 @@
     "type": "link in",
     "z": "29b296e6cd0e71d4",
     "g": "ef7759af584f1554",
-    "name": "bucket",
+    "name": "alexa - bucket",
     "links": [
       "25445f5a9b787a0a"
     ],
@@ -546,7 +546,7 @@
     "type": "link out",
     "z": "29b296e6cd0e71d4",
     "g": "ef7759af584f1554",
-    "name": "bucket",
+    "name": "alexa - bucket",
     "mode": "link",
     "links": [
       "3b2c87205ae7f992"
