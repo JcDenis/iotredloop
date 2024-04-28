@@ -1,5 +1,8 @@
 {
   "filter": [
+    "A.Alexa",
+    "A.Telegram",
+    "A.Unifi",
     "K.Room",
     "K.Routine",
     "K.Thermostat",
@@ -7,9 +10,7 @@
     "K.linky",
     "Kernel",
     "P.API",
-    "P.Alexa",
     "P.Rfxcom",
-    "P.Unifi",
     "P.Zigbee",
     "P.Zwave",
     "R.Config",
