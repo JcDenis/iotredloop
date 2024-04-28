@@ -1,5 +1,6 @@
 {
   "filter": [
+    "A.Agenda",
     "A.Alexa",
     "A.Telegram",
     "A.Unifi",
