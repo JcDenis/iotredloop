@@ -2,6 +2,7 @@
   "filter": [
     "A.Agenda",
     "A.Alexa",
+    "A.Proxmox",
     "A.Telegram",
     "A.Unifi",
     "K.Room",
