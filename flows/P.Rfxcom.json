@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "d0ca9f7d1e57dd4c",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "name": "rfxcom - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "925b37eb1b49e295",
-      "7757c717ba0bf64c"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "8ff8200fb98a6c9f",
     "type": "group",
     "z": "b984eb4415408ed9",
@@ -325,38 +306,25 @@
     "h": 202
   },
   {
-    "id": "925b37eb1b49e295",
-    "type": "catch",
+    "id": "e1a08515c0ecf6e6",
+    "type": "group",
     "z": "b984eb4415408ed9",
-    "g": "d0ca9f7d1e57dd4c",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "7757c717ba0bf64c"
-      ]
-    ]
-  },
-  {
-    "id": "7757c717ba0bf64c",
-    "type": "debug",
-    "z": "b984eb4415408ed9",
-    "g": "d0ca9f7d1e57dd4c",
-    "name": "rfxcom - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "bd97281f3442270a",
+      "931bfb7a154e1d13",
+      "2475f7b012c187fb"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "c7c9dbd511ce3178",
@@ -2440,6 +2408,64 @@
     "info": "",
     "x": 2840,
     "y": 600,
+    "wires": []
+  },
+  {
+    "id": "bd97281f3442270a",
+    "type": "catch",
+    "z": "b984eb4415408ed9",
+    "g": "e1a08515c0ecf6e6",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "931bfb7a154e1d13"
+      ]
+    ]
+  },
+  {
+    "id": "931bfb7a154e1d13",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "e1a08515c0ecf6e6",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "2475f7b012c187fb"
+      ]
+    ]
+  },
+  {
+    "id": "2475f7b012c187fb",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "e1a08515c0ecf6e6",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
     "wires": []
   }
 ]

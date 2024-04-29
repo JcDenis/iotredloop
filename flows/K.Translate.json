@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "5465922c8e3555e3",
-    "type": "group",
-    "z": "bac2b08cd7c2e421",
-    "name": "translate - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "57308f5a0cd3a19c",
-      "1193f5bfb9ed605e"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 452,
-    "h": 82
-  },
-  {
     "id": "c25adeeb66986f83",
     "type": "group",
     "z": "bac2b08cd7c2e421",
@@ -105,38 +86,25 @@
     "h": 142
   },
   {
-    "id": "57308f5a0cd3a19c",
-    "type": "catch",
+    "id": "59e25ae2b1717262",
+    "type": "group",
     "z": "bac2b08cd7c2e421",
-    "g": "5465922c8e3555e3",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "1193f5bfb9ed605e"
-      ]
-    ]
-  },
-  {
-    "id": "1193f5bfb9ed605e",
-    "type": "debug",
-    "z": "bac2b08cd7c2e421",
-    "g": "5465922c8e3555e3",
-    "name": "translate - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 840,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "d1074c913f8ce2e9",
+      "6c02b601fadbf658",
+      "6fd2028d522ac563"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "0649e79192cac511",
@@ -1536,5 +1504,63 @@
         "71a537d09616f957"
       ]
     ]
+  },
+  {
+    "id": "d1074c913f8ce2e9",
+    "type": "catch",
+    "z": "bac2b08cd7c2e421",
+    "g": "59e25ae2b1717262",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "6c02b601fadbf658"
+      ]
+    ]
+  },
+  {
+    "id": "6c02b601fadbf658",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "g": "59e25ae2b1717262",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "translate",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "6fd2028d522ac563"
+      ]
+    ]
+  },
+  {
+    "id": "6fd2028d522ac563",
+    "type": "link out",
+    "z": "bac2b08cd7c2e421",
+    "g": "59e25ae2b1717262",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

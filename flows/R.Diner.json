@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "55baba5cc2be5e9e",
-    "type": "group",
-    "z": "f92af28dd3f79491",
-    "name": "diner - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c3765a7cfbce8ad1",
-      "916e9bbca9bcda1b"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "089cb093a1dd98b4",
     "type": "group",
     "z": "f92af28dd3f79491",
@@ -323,38 +304,25 @@
     "h": 82
   },
   {
-    "id": "c3765a7cfbce8ad1",
-    "type": "catch",
+    "id": "40eb94cad73ff69b",
+    "type": "group",
     "z": "f92af28dd3f79491",
-    "g": "55baba5cc2be5e9e",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "916e9bbca9bcda1b"
-      ]
-    ]
-  },
-  {
-    "id": "916e9bbca9bcda1b",
-    "type": "debug",
-    "z": "f92af28dd3f79491",
-    "g": "55baba5cc2be5e9e",
-    "name": "diner - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "656bc46cc7b25d65",
+      "969c901f6f98bc4b",
+      "5f003111067c7d2b"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "cfa9b679a6b777b5",
@@ -1892,5 +1860,63 @@
         "61f467bded814c15"
       ]
     ]
+  },
+  {
+    "id": "656bc46cc7b25d65",
+    "type": "catch",
+    "z": "f92af28dd3f79491",
+    "g": "40eb94cad73ff69b",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "969c901f6f98bc4b"
+      ]
+    ]
+  },
+  {
+    "id": "969c901f6f98bc4b",
+    "type": "change",
+    "z": "f92af28dd3f79491",
+    "g": "40eb94cad73ff69b",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "diner",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "5f003111067c7d2b"
+      ]
+    ]
+  },
+  {
+    "id": "5f003111067c7d2b",
+    "type": "link out",
+    "z": "f92af28dd3f79491",
+    "g": "40eb94cad73ff69b",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

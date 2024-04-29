@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "a186f218f8f3d2b0",
-    "type": "group",
-    "z": "03220402a282530b",
-    "name": "zwave - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "34039fe626f148c8",
-      "7dd241f670b3f754"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "a80fd3f576f680d2",
     "type": "group",
     "z": "03220402a282530b",
@@ -1186,38 +1167,25 @@
     "h": 262
   },
   {
-    "id": "34039fe626f148c8",
-    "type": "catch",
+    "id": "835c4830d89d6f6a",
+    "type": "group",
     "z": "03220402a282530b",
-    "g": "a186f218f8f3d2b0",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "7dd241f670b3f754"
-      ]
-    ]
-  },
-  {
-    "id": "7dd241f670b3f754",
-    "type": "debug",
-    "z": "03220402a282530b",
-    "g": "a186f218f8f3d2b0",
-    "name": "zwave - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "27d5cfe560a97c94",
+      "0bd4017b28560194",
+      "1ee8ceb3125ebd76"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "35e090f8c7faf406",
@@ -9135,6 +9103,64 @@
     "info": "",
     "x": 3450,
     "y": 2640,
+    "wires": []
+  },
+  {
+    "id": "27d5cfe560a97c94",
+    "type": "catch",
+    "z": "03220402a282530b",
+    "g": "835c4830d89d6f6a",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "0bd4017b28560194"
+      ]
+    ]
+  },
+  {
+    "id": "0bd4017b28560194",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "835c4830d89d6f6a",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "1ee8ceb3125ebd76"
+      ]
+    ]
+  },
+  {
+    "id": "1ee8ceb3125ebd76",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "835c4830d89d6f6a",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
     "wires": []
   }
 ]

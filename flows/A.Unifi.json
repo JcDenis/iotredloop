@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "b33003f4ee6d59f9",
-    "type": "group",
-    "z": "bcb1eeac454a68aa",
-    "name": "unifi - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "681d24aa3ea31b5b",
-      "4308546dd6e22b10"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "ef46b000b033db2d",
     "type": "group",
     "z": "bcb1eeac454a68aa",
@@ -127,38 +108,25 @@
     "h": 622
   },
   {
-    "id": "681d24aa3ea31b5b",
-    "type": "catch",
+    "id": "da6392b84b06972c",
+    "type": "group",
     "z": "bcb1eeac454a68aa",
-    "g": "b33003f4ee6d59f9",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "4308546dd6e22b10"
-      ]
-    ]
-  },
-  {
-    "id": "4308546dd6e22b10",
-    "type": "debug",
-    "z": "bcb1eeac454a68aa",
-    "g": "b33003f4ee6d59f9",
-    "name": "unifi - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "9607eb8becc34592",
+      "b1d4a2a532f6cb19",
+      "e7fabccd7044ccb6"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "ae85504297599271",
@@ -1505,5 +1473,63 @@
         "649b628a9a4b5a76"
       ]
     ]
+  },
+  {
+    "id": "9607eb8becc34592",
+    "type": "catch",
+    "z": "bcb1eeac454a68aa",
+    "g": "da6392b84b06972c",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "b1d4a2a532f6cb19"
+      ]
+    ]
+  },
+  {
+    "id": "b1d4a2a532f6cb19",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "da6392b84b06972c",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "unifi",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "e7fabccd7044ccb6"
+      ]
+    ]
+  },
+  {
+    "id": "e7fabccd7044ccb6",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "da6392b84b06972c",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

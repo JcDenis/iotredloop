@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "c364de8ca2e6d75a",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "cuisine - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "bfa7a6df5f9b95ee",
-      "1ee40f2e7c9674d3"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "fe89a08f23620c96",
     "type": "group",
     "z": "83779166f14173f8",
@@ -440,6 +421,27 @@
     "h": 202
   },
   {
+    "id": "f43720911c7d606b",
+    "type": "group",
+    "z": "83779166f14173f8",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "483a5fade5592d4c",
+      "d14cd6b52b330cdf",
+      "4b285e7f94d3b8eb"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "5ef3cfc4ecb15968",
     "type": "change",
     "z": "83779166f14173f8",
@@ -506,40 +508,6 @@
       "ecdb89989bc6cfda"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "bfa7a6df5f9b95ee",
-    "type": "catch",
-    "z": "83779166f14173f8",
-    "g": "c364de8ca2e6d75a",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "1ee40f2e7c9674d3"
-      ]
-    ]
-  },
-  {
-    "id": "1ee40f2e7c9674d3",
-    "type": "debug",
-    "z": "83779166f14173f8",
-    "g": "c364de8ca2e6d75a",
-    "name": "cuisine - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
     "y": 60,
     "wires": []
   },
@@ -2876,5 +2844,63 @@
         "bf730ed10a3c0f1d"
       ]
     ]
+  },
+  {
+    "id": "483a5fade5592d4c",
+    "type": "catch",
+    "z": "83779166f14173f8",
+    "g": "f43720911c7d606b",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "d14cd6b52b330cdf"
+      ]
+    ]
+  },
+  {
+    "id": "d14cd6b52b330cdf",
+    "type": "change",
+    "z": "83779166f14173f8",
+    "g": "f43720911c7d606b",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "cuisine",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "4b285e7f94d3b8eb"
+      ]
+    ]
+  },
+  {
+    "id": "4b285e7f94d3b8eb",
+    "type": "link out",
+    "z": "83779166f14173f8",
+    "g": "f43720911c7d606b",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

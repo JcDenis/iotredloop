@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "9cf25e6d10d31aa8",
-    "type": "group",
-    "z": "7dd036f831a5ca6e",
-    "name": "toilettes - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "926f1bcff9181ceb",
-      "ba8b4aa3e43e98d1"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 452,
-    "h": 82
-  },
-  {
     "id": "3585fd11d948a35a",
     "type": "group",
     "z": "7dd036f831a5ca6e",
@@ -64,7 +45,7 @@
       "aecf378340209352",
       "860baaacdaa8d80a"
     ],
-    "x": 1074,
+    "x": 1054,
     "y": 19,
     "w": 582,
     "h": 82
@@ -85,8 +66,48 @@
     ],
     "x": 68,
     "y": 653,
-    "w": 1474,
+    "w": 1634,
     "h": 434
+  },
+  {
+    "id": "59cd14e36804ea36",
+    "type": "group",
+    "z": "7dd036f831a5ca6e",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "55af9abdd8c722e9"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 754,
+    "h": 314
+  },
+  {
+    "id": "9b0476b848cb48b7",
+    "type": "group",
+    "z": "7dd036f831a5ca6e",
+    "name": "toilettes - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "61e21fea0f35b657",
+      "37136f65e1f50cc9",
+      "02860064ff27f25f",
+      "f987f63e4046653b",
+      "60d916216398ec01"
+    ],
+    "x": 68,
+    "y": 1133,
+    "w": 1434,
+    "h": 614
   },
   {
     "id": "dc8c7c2aeeae4259",
@@ -130,30 +151,13 @@
       "1411c6ca5cae8fcc",
       "7d7b81b4f6fdbfe0",
       "61afa8c6a05d66c5",
-      "89b53294d8fbd82e"
+      "89b53294d8fbd82e",
+      "762a244679952087"
     ],
     "x": 694,
     "y": 679,
-    "w": 822,
+    "w": 982,
     "h": 157
-  },
-  {
-    "id": "59cd14e36804ea36",
-    "type": "group",
-    "z": "7dd036f831a5ca6e",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "55af9abdd8c722e9"
-    ],
-    "x": 68,
-    "y": 293,
-    "w": 754,
-    "h": 314
   },
   {
     "id": "55af9abdd8c722e9",
@@ -184,28 +188,6 @@
     "h": 262
   },
   {
-    "id": "9b0476b848cb48b7",
-    "type": "group",
-    "z": "7dd036f831a5ca6e",
-    "name": "toilettes - alexa",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "61e21fea0f35b657",
-      "37136f65e1f50cc9",
-      "02860064ff27f25f",
-      "f987f63e4046653b",
-      "60d916216398ec01"
-    ],
-    "x": 68,
-    "y": 1133,
-    "w": 1414,
-    "h": 614
-  },
-  {
     "id": "61e21fea0f35b657",
     "type": "group",
     "z": "7dd036f831a5ca6e",
@@ -227,7 +209,7 @@
     ],
     "x": 94,
     "y": 1159,
-    "w": 1362,
+    "w": 1382,
     "h": 82
   },
   {
@@ -323,6 +305,27 @@
     "h": 82
   },
   {
+    "id": "5766f83f3d113663",
+    "type": "group",
+    "z": "7dd036f831a5ca6e",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "b9f3c3bb40a8aac4",
+      "06ff43449dd81c02",
+      "d69c9016584d1fd3"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "18e1932e46a71274",
     "type": "change",
     "z": "7dd036f831a5ca6e",
@@ -390,40 +393,6 @@
     "wires": []
   },
   {
-    "id": "926f1bcff9181ceb",
-    "type": "catch",
-    "z": "7dd036f831a5ca6e",
-    "g": "9cf25e6d10d31aa8",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "ba8b4aa3e43e98d1"
-      ]
-    ]
-  },
-  {
-    "id": "ba8b4aa3e43e98d1",
-    "type": "debug",
-    "z": "7dd036f831a5ca6e",
-    "g": "9cf25e6d10d31aa8",
-    "name": "toilettes - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 840,
-    "y": 60,
-    "wires": []
-  },
-  {
     "id": "44bf80d373658b2d",
     "type": "link out",
     "z": "7dd036f831a5ca6e",
@@ -433,7 +402,7 @@
     "links": [
       "1be6ca3c2b8615a2"
     ],
-    "x": 1615,
+    "x": 1595,
     "y": 60,
     "wires": []
   },
@@ -446,7 +415,7 @@
     "links": [
       "74172837e07ab80d"
     ],
-    "x": 1115,
+    "x": 1095,
     "y": 60,
     "wires": [
       [
@@ -481,7 +450,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1280,
+    "x": 1260,
     "y": 60,
     "wires": [
       [
@@ -510,7 +479,7 @@
     "payloadType": "flow",
     "topic": "topic",
     "topicType": "msg",
-    "x": 1480,
+    "x": 1460,
     "y": 60,
     "wires": [
       [
@@ -861,7 +830,7 @@
     "y": 780,
     "wires": [
       [
-        "7d7b81b4f6fdbfe0"
+        "762a244679952087"
       ]
     ]
   },
@@ -927,7 +896,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1270,
+    "x": 1430,
     "y": 780,
     "wires": [
       [
@@ -946,19 +915,19 @@
     "rules": [
       {
         "t": "eq",
-        "v": "toilettes/aperture/door",
-        "vt": "str"
+        "v": "msg.bucket&'/aperture/door'",
+        "vt": "jsonata"
       },
       {
         "t": "regex",
-        "v": "toilettes/motion",
-        "vt": "str",
+        "v": "msg.bucket&'/motion'",
+        "vt": "jsonata",
         "case": false
       },
       {
         "t": "eq",
-        "v": "toilettes/light/ceiling",
-        "vt": "str"
+        "v": "msg.bucket&'/light/ceiling'",
+        "vt": "jsonata"
       },
       {
         "t": "eq",
@@ -969,7 +938,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 870,
+    "x": 1030,
     "y": 780,
     "wires": [
       [
@@ -996,7 +965,7 @@
     "links": [
       "abdf34b12a5dd88d"
     ],
-    "x": 1475,
+    "x": 1635,
     "y": 780,
     "wires": []
   },
@@ -1016,7 +985,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1030,
+    "x": 1190,
     "y": 720,
     "wires": [
       [
@@ -1187,7 +1156,7 @@
     "links": [
       "df6a69e3a774eebc"
     ],
-    "x": 1415,
+    "x": 1435,
     "y": 1200,
     "wires": []
   },
@@ -1314,7 +1283,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 1220,
+    "x": 1230,
     "y": 1200,
     "wires": [
       [
@@ -1845,5 +1814,91 @@
         "db43162d657a70b2"
       ]
     ]
+  },
+  {
+    "id": "762a244679952087",
+    "type": "change",
+    "z": "7dd036f831a5ca6e",
+    "g": "1271496473181909",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 870,
+    "y": 780,
+    "wires": [
+      [
+        "7d7b81b4f6fdbfe0"
+      ]
+    ]
+  },
+  {
+    "id": "b9f3c3bb40a8aac4",
+    "type": "catch",
+    "z": "7dd036f831a5ca6e",
+    "g": "5766f83f3d113663",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "06ff43449dd81c02"
+      ]
+    ]
+  },
+  {
+    "id": "06ff43449dd81c02",
+    "type": "change",
+    "z": "7dd036f831a5ca6e",
+    "g": "5766f83f3d113663",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "toilettes",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "d69c9016584d1fd3"
+      ]
+    ]
+  },
+  {
+    "id": "d69c9016584d1fd3",
+    "type": "link out",
+    "z": "7dd036f831a5ca6e",
+    "g": "5766f83f3d113663",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

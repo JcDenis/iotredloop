@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "76782942a819b942",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "name": "zigbee - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "6e53c8030c7fd466",
-      "633f0a44836ee1d8"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "f147598b1853465c",
     "type": "group",
     "z": "0cd436e03cba5cb6",
@@ -595,38 +576,25 @@
     "h": 202
   },
   {
-    "id": "6e53c8030c7fd466",
-    "type": "catch",
+    "id": "2247172d871e19b2",
+    "type": "group",
     "z": "0cd436e03cba5cb6",
-    "g": "76782942a819b942",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "633f0a44836ee1d8"
-      ]
-    ]
-  },
-  {
-    "id": "633f0a44836ee1d8",
-    "type": "debug",
-    "z": "0cd436e03cba5cb6",
-    "g": "76782942a819b942",
-    "name": "zigbee - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "9c334872c8322cb1",
+      "0eb24d3273642740",
+      "fd4ec723ef30dfd8"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "19b13887fb6925d7",
@@ -4193,6 +4161,64 @@
     "info": "",
     "x": 2820,
     "y": 960,
+    "wires": []
+  },
+  {
+    "id": "9c334872c8322cb1",
+    "type": "catch",
+    "z": "0cd436e03cba5cb6",
+    "g": "2247172d871e19b2",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "0eb24d3273642740"
+      ]
+    ]
+  },
+  {
+    "id": "0eb24d3273642740",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "2247172d871e19b2",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "fd4ec723ef30dfd8"
+      ]
+    ]
+  },
+  {
+    "id": "fd4ec723ef30dfd8",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "2247172d871e19b2",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
     "wires": []
   }
 ]

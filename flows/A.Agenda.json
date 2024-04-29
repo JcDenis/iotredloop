@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "898375cf932cf6f4",
-    "type": "group",
-    "z": "b66c229035856438",
-    "name": "agenda - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "b0357b8e7d34a597",
-      "8e95d98d7dad67ad"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 452,
-    "h": 82
-  },
-  {
     "id": "b6b56adff82012bd",
     "type": "group",
     "z": "b66c229035856438",
@@ -423,12 +404,33 @@
     "h": 142
   },
   {
+    "id": "b0534c6abe4baf15",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "51014181b4cbf1c9",
+      "62b15123b62762ae",
+      "a6e7e3de32ef63ca"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "8d4b985ec87645f6",
     "type": "comment",
     "z": "b66c229035856438",
     "name": "Agenda - Nextcloud caldav",
     "info": "",
-    "x": 1130,
+    "x": 1170,
     "y": 60,
     "wires": []
   },
@@ -496,40 +498,6 @@
       "a471c698f7538a54"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "b0357b8e7d34a597",
-    "type": "catch",
-    "z": "b66c229035856438",
-    "g": "898375cf932cf6f4",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "8e95d98d7dad67ad"
-      ]
-    ]
-  },
-  {
-    "id": "8e95d98d7dad67ad",
-    "type": "debug",
-    "z": "b66c229035856438",
-    "g": "898375cf932cf6f4",
-    "name": "agenda - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 840,
     "y": 60,
     "wires": []
   },
@@ -4627,5 +4595,63 @@
         "b57d452ff1e8d06f"
       ]
     ]
+  },
+  {
+    "id": "51014181b4cbf1c9",
+    "type": "catch",
+    "z": "b66c229035856438",
+    "g": "b0534c6abe4baf15",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "62b15123b62762ae"
+      ]
+    ]
+  },
+  {
+    "id": "62b15123b62762ae",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "b0534c6abe4baf15",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "agenda",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "a6e7e3de32ef63ca"
+      ]
+    ]
+  },
+  {
+    "id": "a6e7e3de32ef63ca",
+    "type": "link out",
+    "z": "b66c229035856438",
+    "g": "b0534c6abe4baf15",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

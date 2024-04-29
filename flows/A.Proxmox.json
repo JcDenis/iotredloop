@@ -8,25 +8,6 @@
     "env": []
   },
   {
-    "id": "084e99676c7d5cd2",
-    "type": "group",
-    "z": "422511c2793ff288",
-    "name": "proxmox - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "38ad0afbe58797db",
-      "20d1445f64476706"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 452,
-    "h": 82
-  },
-  {
     "id": "0c72531717a01ea2",
     "type": "group",
     "z": "422511c2793ff288",
@@ -147,38 +128,25 @@
     "h": 562
   },
   {
-    "id": "38ad0afbe58797db",
-    "type": "catch",
+    "id": "b2743c80684b0c5b",
+    "type": "group",
     "z": "422511c2793ff288",
-    "g": "084e99676c7d5cd2",
     "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "20d1445f64476706"
-      ]
-    ]
-  },
-  {
-    "id": "20d1445f64476706",
-    "type": "debug",
-    "z": "422511c2793ff288",
-    "g": "084e99676c7d5cd2",
-    "name": "proxmox - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 840,
-    "y": 60,
-    "wires": []
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "eff9d80049182cee",
+      "c48efb433e1bac8b",
+      "f21a1bff030f3d3d"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "e66b05819afe5f9b",
@@ -2538,5 +2506,63 @@
         "140844d72684e5fd"
       ]
     ]
+  },
+  {
+    "id": "eff9d80049182cee",
+    "type": "catch",
+    "z": "422511c2793ff288",
+    "g": "b2743c80684b0c5b",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "c48efb433e1bac8b"
+      ]
+    ]
+  },
+  {
+    "id": "c48efb433e1bac8b",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "b2743c80684b0c5b",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "proxmox",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "f21a1bff030f3d3d"
+      ]
+    ]
+  },
+  {
+    "id": "f21a1bff030f3d3d",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "b2743c80684b0c5b",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

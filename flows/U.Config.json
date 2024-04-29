@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "507cfaf8503b2019",
-    "type": "group",
-    "z": "c2bfa0fea66ef080",
-    "name": "config - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "0c2ac00fd2259ffd",
-      "0e565e95e63c3654"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "a0476b1a7ec53d40",
     "type": "group",
     "z": "c2bfa0fea66ef080",
@@ -141,6 +122,27 @@
     "h": 322
   },
   {
+    "id": "5e1930143bbdc035",
+    "type": "group",
+    "z": "c2bfa0fea66ef080",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "64b5b7635347827c",
+      "c9b9040f42eb915b",
+      "60a8e2bc9a992202"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "68823f1adeca7d61",
     "type": "change",
     "z": "c2bfa0fea66ef080",
@@ -203,40 +205,6 @@
       "34f9df4fdd3bd8df"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "0c2ac00fd2259ffd",
-    "type": "catch",
-    "z": "c2bfa0fea66ef080",
-    "g": "507cfaf8503b2019",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "0e565e95e63c3654"
-      ]
-    ]
-  },
-  {
-    "id": "0e565e95e63c3654",
-    "type": "debug",
-    "z": "c2bfa0fea66ef080",
-    "g": "507cfaf8503b2019",
-    "name": "config - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
     "y": 60,
     "wires": []
   },
@@ -1451,6 +1419,64 @@
     ],
     "x": 415,
     "y": 480,
+    "wires": []
+  },
+  {
+    "id": "64b5b7635347827c",
+    "type": "catch",
+    "z": "c2bfa0fea66ef080",
+    "g": "5e1930143bbdc035",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "c9b9040f42eb915b"
+      ]
+    ]
+  },
+  {
+    "id": "c9b9040f42eb915b",
+    "type": "change",
+    "z": "c2bfa0fea66ef080",
+    "g": "5e1930143bbdc035",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "config",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "60a8e2bc9a992202"
+      ]
+    ]
+  },
+  {
+    "id": "60a8e2bc9a992202",
+    "type": "link out",
+    "z": "c2bfa0fea66ef080",
+    "g": "5e1930143bbdc035",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
     "wires": []
   }
 ]

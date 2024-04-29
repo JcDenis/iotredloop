@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "8e10979a9d4df3e5",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "linky - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d81e30fc75183164",
-      "4ae579561784bac0"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 432,
-    "h": 82
-  },
-  {
     "id": "f7b8f0b4a2f0c6c9",
     "type": "group",
     "z": "a1e22fa468f03c15",
@@ -68,6 +49,54 @@
     "y": 173,
     "w": 1244,
     "h": 2174
+  },
+  {
+    "id": "9817cea0e8546fbb",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - config",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9cd020968fe2a19d",
+      "2cdbc171bc86cb06"
+    ],
+    "x": 68,
+    "y": 2385.5,
+    "w": 1714,
+    "h": 321.5
+  },
+  {
+    "id": "14bfb846eebf04b4",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "linky - scene - current to offloading",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "8a93715d93e96ec9",
+      "ab2015a7036a8a2d",
+      "d5fc9c7840e287c6",
+      "4d9eef91906c3f6b",
+      "5ac5e9a27184058b",
+      "71d2809882564006",
+      "b497d6eeef074cdf",
+      "a97c1309cdf39d94",
+      "c34352d41e16989c",
+      "4638c42f2e097580",
+      "bcab76bcab7be22c",
+      "2aaa6917be59ea44"
+    ],
+    "x": 94,
+    "y": 2779,
+    "w": 1822,
+    "h": 142
   },
   {
     "id": "f65dfdda10900ffc",
@@ -223,25 +252,6 @@
     "h": 562
   },
   {
-    "id": "9817cea0e8546fbb",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "linky - config",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "9cd020968fe2a19d",
-      "2cdbc171bc86cb06"
-    ],
-    "x": 68,
-    "y": 2385.5,
-    "w": 1714,
-    "h": 321.5
-  },
-  {
     "id": "9cd020968fe2a19d",
     "type": "group",
     "z": "a1e22fa468f03c15",
@@ -296,33 +306,25 @@
     "h": 269.5
   },
   {
-    "id": "14bfb846eebf04b4",
+    "id": "8a97ad21fb974dbd",
     "type": "group",
     "z": "a1e22fa468f03c15",
-    "name": "linky - scene - current to offloading",
+    "name": "catch error",
     "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.1",
-      "label": true
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
     },
     "nodes": [
-      "8a93715d93e96ec9",
-      "ab2015a7036a8a2d",
-      "d5fc9c7840e287c6",
-      "4d9eef91906c3f6b",
-      "5ac5e9a27184058b",
-      "71d2809882564006",
-      "b497d6eeef074cdf",
-      "a97c1309cdf39d94",
-      "c34352d41e16989c",
-      "4638c42f2e097580",
-      "bcab76bcab7be22c",
-      "2aaa6917be59ea44"
+      "6f11b20b69a42029",
+      "31fc5fdc93b7363d",
+      "d7b616f51fec6d9a"
     ],
-    "x": 94,
-    "y": 2779,
-    "w": 1822,
-    "h": 142
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "3325e4593048135a",
@@ -387,40 +389,6 @@
       "60a457c83fc5f610"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "d81e30fc75183164",
-    "type": "catch",
-    "z": "a1e22fa468f03c15",
-    "g": "8e10979a9d4df3e5",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "4ae579561784bac0"
-      ]
-    ]
-  },
-  {
-    "id": "4ae579561784bac0",
-    "type": "debug",
-    "z": "a1e22fa468f03c15",
-    "g": "8e10979a9d4df3e5",
-    "name": "linky - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 830,
     "y": 60,
     "wires": []
   },
@@ -3192,9 +3160,10 @@
     "name": "start periods",
     "outputField": "payload",
     "timeZone": "",
-    "persistDynamic": false,
     "storeName": "",
     "commandResponseMsgOutput": "output2",
+    "defaultLocation": "",
+    "defaultLocationType": "default",
     "outputs": 2,
     "options": [
       {
@@ -3360,5 +3329,63 @@
         "5f80823cb39801f0"
       ]
     ]
+  },
+  {
+    "id": "6f11b20b69a42029",
+    "type": "catch",
+    "z": "a1e22fa468f03c15",
+    "g": "8a97ad21fb974dbd",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "31fc5fdc93b7363d"
+      ]
+    ]
+  },
+  {
+    "id": "31fc5fdc93b7363d",
+    "type": "change",
+    "z": "a1e22fa468f03c15",
+    "g": "8a97ad21fb974dbd",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "linky",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "d7b616f51fec6d9a"
+      ]
+    ]
+  },
+  {
+    "id": "d7b616f51fec6d9a",
+    "type": "link out",
+    "z": "a1e22fa468f03c15",
+    "g": "8a97ad21fb974dbd",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

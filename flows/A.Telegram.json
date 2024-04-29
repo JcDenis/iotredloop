@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "aeaa0d5a43c01c09",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "telegram - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "547a504958fb9ca4",
-      "a4828a6983f17b34"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 452,
-    "h": 82
-  },
-  {
     "id": "da84242d05e225da",
     "type": "group",
     "z": "52347795767acd3f",
@@ -330,12 +311,33 @@
     "h": 922
   },
   {
+    "id": "ab32af53a59cbfa9",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "cb4b8e74cf76ad20",
+      "1493b3ec590211ef",
+      "56268dd3950d582f"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "c28cd86afb368a68",
     "type": "comment",
     "z": "52347795767acd3f",
     "name": "Nestor - Telegram",
     "info": "chatid = 777414971",
-    "x": 1110,
+    "x": 1150,
     "y": 60,
     "wires": []
   },
@@ -691,40 +693,6 @@
       "8fd6b4ae0318fb3e"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "547a504958fb9ca4",
-    "type": "catch",
-    "z": "52347795767acd3f",
-    "g": "aeaa0d5a43c01c09",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "a4828a6983f17b34"
-      ]
-    ]
-  },
-  {
-    "id": "a4828a6983f17b34",
-    "type": "debug",
-    "z": "52347795767acd3f",
-    "g": "aeaa0d5a43c01c09",
-    "name": "telegram - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 840,
     "y": 60,
     "wires": []
   },
@@ -3843,5 +3811,63 @@
         "54fdbae28789e192"
       ]
     ]
+  },
+  {
+    "id": "cb4b8e74cf76ad20",
+    "type": "catch",
+    "z": "52347795767acd3f",
+    "g": "ab32af53a59cbfa9",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "1493b3ec590211ef"
+      ]
+    ]
+  },
+  {
+    "id": "1493b3ec590211ef",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "ab32af53a59cbfa9",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "telegram",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "56268dd3950d582f"
+      ]
+    ]
+  },
+  {
+    "id": "56268dd3950d582f",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "ab32af53a59cbfa9",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]

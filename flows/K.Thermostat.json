@@ -29,25 +29,6 @@
     "h": 82
   },
   {
-    "id": "6fe378cbf407ee45",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "name": "thermostat - catch",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "6a52e89b65262e56",
-      "a08a5b5fbf04f8d4"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 472,
-    "h": 82
-  },
-  {
     "id": "9e18b65b8d6e5bc3",
     "type": "group",
     "z": "80f2ffd4953c67e9",
@@ -553,6 +534,27 @@
     "h": 142
   },
   {
+    "id": "1338205554153fa8",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "104783a075f279a3",
+      "225fbec54fe689f8",
+      "efdfaa2b7173a43a"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "f0bd4b1ffe5da318",
     "type": "change",
     "z": "80f2ffd4953c67e9",
@@ -636,40 +638,6 @@
       "4aab252764e96897"
     ],
     "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "6a52e89b65262e56",
-    "type": "catch",
-    "z": "80f2ffd4953c67e9",
-    "g": "6fe378cbf407ee45",
-    "name": "catch error",
-    "scope": null,
-    "uncaught": false,
-    "x": 620,
-    "y": 60,
-    "wires": [
-      [
-        "a08a5b5fbf04f8d4"
-      ]
-    ]
-  },
-  {
-    "id": "a08a5b5fbf04f8d4",
-    "type": "debug",
-    "z": "80f2ffd4953c67e9",
-    "g": "6fe378cbf407ee45",
-    "name": "thermostat - catch error",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 850,
     "y": 60,
     "wires": []
   },
@@ -5806,5 +5774,63 @@
         "bf5b9cb6fe9e3550"
       ]
     ]
+  },
+  {
+    "id": "104783a075f279a3",
+    "type": "catch",
+    "z": "80f2ffd4953c67e9",
+    "g": "1338205554153fa8",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "225fbec54fe689f8"
+      ]
+    ]
+  },
+  {
+    "id": "225fbec54fe689f8",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "1338205554153fa8",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "efdfaa2b7173a43a"
+      ]
+    ]
+  },
+  {
+    "id": "efdfaa2b7173a43a",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "1338205554153fa8",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
   }
 ]
