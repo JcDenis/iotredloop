@@ -310,22 +310,22 @@
       },
       {
         "t": "eq",
-        "v": "bedside jc",
+        "v": "left bedside",
         "vt": "str"
       },
       {
         "t": "eq",
-        "v": "bedside flo",
+        "v": "right bedside",
         "vt": "str"
       },
       {
         "t": "eq",
-        "v": "remote jc",
+        "v": "left remote",
         "vt": "str"
       },
       {
         "t": "eq",
-        "v": "remote flo",
+        "v": "right remote",
         "vt": "str"
       },
       {
@@ -1141,13 +1141,13 @@
     "type": "change",
     "z": "bac2b08cd7c2e421",
     "g": "c25adeeb66986f83",
-    "name": "bedside jc",
+    "name": "left bedside",
     "rules": [
       {
         "t": "set",
         "p": "trans",
         "pt": "msg",
-        "to": "chevet jc",
+        "to": "chevet gauche",
         "tot": "str"
       }
     ],
@@ -1156,7 +1156,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 690,
     "y": 1500,
     "wires": [
       [
@@ -1169,13 +1169,13 @@
     "type": "change",
     "z": "bac2b08cd7c2e421",
     "g": "c25adeeb66986f83",
-    "name": "bedside flo",
+    "name": "right bedside",
     "rules": [
       {
         "t": "set",
         "p": "trans",
         "pt": "msg",
-        "to": "chevet flo",
+        "to": "chevet droite",
         "tot": "str"
       }
     ],
@@ -1197,13 +1197,13 @@
     "type": "change",
     "z": "bac2b08cd7c2e421",
     "g": "c25adeeb66986f83",
-    "name": "remote jc",
+    "name": "left remote",
     "rules": [
       {
         "t": "set",
         "p": "trans",
         "pt": "msg",
-        "to": "telecommande jc",
+        "to": "telecommande gauche",
         "tot": "str"
       }
     ],
@@ -1212,7 +1212,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 690,
     "y": 1580,
     "wires": [
       [
@@ -1225,13 +1225,13 @@
     "type": "change",
     "z": "bac2b08cd7c2e421",
     "g": "c25adeeb66986f83",
-    "name": "remote flo",
+    "name": "right remote",
     "rules": [
       {
         "t": "set",
         "p": "trans",
         "pt": "msg",
-        "to": "telecommande flo",
+        "to": "telecommande droite",
         "tot": "str"
       }
     ],
@@ -1240,7 +1240,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 690,
     "y": 1620,
     "wires": [
       [

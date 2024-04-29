@@ -1,0 +1,3483 @@
+[
+  {
+    "id": "7b8b61c2b3de438c",
+    "type": "tab",
+    "label": "R.Ambre",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "c64ed6bbd72acaf8",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "ambre - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "3f99221db2a977d1",
+      "a7ec84c30a5b9423",
+      "5a8db78f84b2088e"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "4f833c0a61b8a547",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "ambre - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "65398cdfc694a3b3",
+      "9f926959b1318b2d"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "28d8fc706f2774de",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "ambre - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "d6a7e2cef723dc90",
+      "49f81da257fd1bd5",
+      "7ff98ad5230b737a",
+      "240c90223cbaf8f6"
+    ],
+    "x": 1014,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "72e9a43d46599cb7",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "21bccbf56993b294",
+      "ede3bf8bba2dc2fc"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 1378,
+    "h": 554
+  },
+  {
+    "id": "ede3bf8bba2dc2fc",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "72e9a43d46599cb7",
+    "name": "ambre - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "41bfea5f19dee5bc",
+      "112b58b0d1bddfa7",
+      "c23dbacdf69f7903",
+      "3e7e82f5949c02b7",
+      "90e893281187cbd7",
+      "7df3b728c45ae895",
+      "6ef8c960ce0c783d",
+      "69a6821590b9af4e",
+      "2b9a31e32b37d0b2",
+      "8d981dbcb03a77ba",
+      "3ae64c90c8fa5ac1",
+      "047b73ed2eaa4786",
+      "9ca587e88e68491a",
+      "79c6e7f9f2a9ba7f",
+      "3e90b816e874b630",
+      "5d8b2b366bd26383",
+      "671c1c7d6e2be7dc",
+      "9cc69dc05e868c7c"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 722,
+    "h": 502
+  },
+  {
+    "id": "e27905de62c05348",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0f9e76651ff1aed0",
+      "5e25e92162acb08b"
+    ],
+    "x": 68,
+    "y": 893,
+    "w": 1314,
+    "h": 314
+  },
+  {
+    "id": "0f9e76651ff1aed0",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e27905de62c05348",
+    "name": "ambre - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3ee0a4f45b33ed48",
+      "ed98374ec783034a",
+      "56c276c8a4ae111c",
+      "c2f640d18dc94adc",
+      "0659b767ec4e012c",
+      "b5ed74e350f06160"
+    ],
+    "x": 94,
+    "y": 919,
+    "w": 502,
+    "h": 262
+  },
+  {
+    "id": "5e25e92162acb08b",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e27905de62c05348",
+    "name": "ambre - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7ab6751fb11b15ea",
+      "d4229cd1226cf5d7",
+      "0d0769513efd3793",
+      "df53fc8e041f623d"
+    ],
+    "x": 694,
+    "y": 971.5,
+    "w": 662,
+    "h": 97
+  },
+  {
+    "id": "39b272c7a895bc52",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a9f89b5f63dc5b30",
+      "0bcc12317f704d00"
+    ],
+    "x": 68,
+    "y": 1673,
+    "w": 1534,
+    "h": 261.5
+  },
+  {
+    "id": "a9f89b5f63dc5b30",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "39b272c7a895bc52",
+    "name": "ambre - source - clock",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3c821a2ed1fb5b4b",
+      "ce1a4efb5352db26",
+      "0341dba34c381ced",
+      "beaa3fccedefbf80",
+      "1d012568a67e2708",
+      "5d99d091abcaa81f",
+      "2f9a992ca1d139aa",
+      "111a586617b6e513",
+      "7f0b17be16628023"
+    ],
+    "x": 714,
+    "y": 1699,
+    "w": 862,
+    "h": 209.5
+  },
+  {
+    "id": "0bcc12317f704d00",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "39b272c7a895bc52",
+    "name": "ambre - device - clock",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4cdc594a062b6204",
+      "d47a5d29139aca1c",
+      "540ed3f299c779d4",
+      "d39bf4e7d227b64a"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 522,
+    "h": 142
+  },
+  {
+    "id": "f5227a609c5c5182",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7588dc8563233dd0",
+      "35b625755a3e0460",
+      "dc97d115c73345bc"
+    ],
+    "x": 68,
+    "y": 1253,
+    "w": 1854,
+    "h": 374
+  },
+  {
+    "id": "7588dc8563233dd0",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "f5227a609c5c5182",
+    "name": "ambre - scene - thermostat operating mode",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "64765643b13c207f",
+      "5aa1466e5d029218",
+      "438b7d7c7b096219",
+      "e56fe4b2ada641c9",
+      "f58f803cd183fe23",
+      "a695670fa9127502",
+      "2376f33d0687b642",
+      "02c07a0cc8b4cceb",
+      "0d69fef38ca34a4c",
+      "a2a8a9a71afb5ea7"
+    ],
+    "x": 774,
+    "y": 1331.5,
+    "w": 1122,
+    "h": 157
+  },
+  {
+    "id": "35b625755a3e0460",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "f5227a609c5c5182",
+    "name": "ambre - source - thermostat aperture",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0b2a82c8c72139f4",
+      "8fdc0ab2b7fadb49",
+      "173e0da8e8278c08",
+      "7993168529c40611"
+    ],
+    "x": 774,
+    "y": 1519,
+    "w": 502,
+    "h": 82
+  },
+  {
+    "id": "dc97d115c73345bc",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "f5227a609c5c5182",
+    "name": "ambre - device - thermostat partial (see flow Thermostat)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2c593aa5c3cc64ad",
+      "f31baa24aeac69bd",
+      "eb178403b0453389",
+      "e54e9dfdc3b312ec",
+      "9fc89d4f93b076e1",
+      "a57dadebc90cb6a7",
+      "71f88edd928fa13a"
+    ],
+    "x": 94,
+    "y": 1279,
+    "w": 582,
+    "h": 322
+  },
+  {
+    "id": "e8f4a92ebb6cf506",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "name": "ambre - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7952d4c5ec3d3baf",
+      "24a0b470cbec207f",
+      "a3b588bc5a5fcff6",
+      "4ae8609056fc3234"
+    ],
+    "x": 68,
+    "y": 2033,
+    "w": 1494,
+    "h": 494
+  },
+  {
+    "id": "7952d4c5ec3d3baf",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e8f4a92ebb6cf506",
+    "name": "ambre - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e909099a38791a7c",
+      "6b360e1d934c11cc",
+      "2d60bdc66ca76fc9",
+      "c191b52abbb3cc42",
+      "c93078a74a653a7a",
+      "989253ae6d34a634",
+      "be3ec6995065eeca"
+    ],
+    "x": 94,
+    "y": 2059,
+    "w": 1442,
+    "h": 82
+  },
+  {
+    "id": "24a0b470cbec207f",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e8f4a92ebb6cf506",
+    "name": "ambre - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c8d1453e98c3f5e3",
+      "dded4c6dc3976c7a",
+      "b7be61ae48f2be69",
+      "972b344656fc59c2",
+      "25d2a91ae6a7bf32"
+    ],
+    "x": 94,
+    "y": 2179,
+    "w": 1052,
+    "h": 82
+  },
+  {
+    "id": "a3b588bc5a5fcff6",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e8f4a92ebb6cf506",
+    "name": "ambre - alexa - aperture door",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9c29e34475ca460c",
+      "923d447e577e2169",
+      "3b207d904a7a2908",
+      "51cb46c26d90cd1c",
+      "f59050d2f607d356"
+    ],
+    "x": 94,
+    "y": 2299,
+    "w": 992,
+    "h": 82
+  },
+  {
+    "id": "4ae8609056fc3234",
+    "type": "group",
+    "z": "7b8b61c2b3de438c",
+    "g": "e8f4a92ebb6cf506",
+    "name": "ambre - alexa -aperture window",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "422c17888a527a84",
+      "0b1a1d86ddb09f65",
+      "b4fc6e264531f8dc",
+      "f154c49fde9e478d",
+      "a66f6aafa52fa41c"
+    ],
+    "x": 94,
+    "y": 2419,
+    "w": 992,
+    "h": 82
+  },
+  {
+    "id": "3f99221db2a977d1",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "c64ed6bbd72acaf8",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "ambre",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "5a8db78f84b2088e"
+      ]
+    ]
+  },
+  {
+    "id": "a7ec84c30a5b9423",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "c64ed6bbd72acaf8",
+    "name": "ambre - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "3f99221db2a977d1"
+      ]
+    ]
+  },
+  {
+    "id": "5a8db78f84b2088e",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "c64ed6bbd72acaf8",
+    "name": "ambre - bucket",
+    "mode": "link",
+    "links": [
+      "41bfea5f19dee5bc",
+      "540ed3f299c779d4",
+      "56c276c8a4ae111c",
+      "64765643b13c207f",
+      "9fc89d4f93b076e1"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "65398cdfc694a3b3",
+    "type": "catch",
+    "z": "7b8b61c2b3de438c",
+    "g": "4f833c0a61b8a547",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "9f926959b1318b2d"
+      ]
+    ]
+  },
+  {
+    "id": "9f926959b1318b2d",
+    "type": "debug",
+    "z": "7b8b61c2b3de438c",
+    "g": "4f833c0a61b8a547",
+    "name": "ambre - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "d6a7e2cef723dc90",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "28d8fc706f2774de",
+    "name": "ambre - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1535,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "49f81da257fd1bd5",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "28d8fc706f2774de",
+    "name": "ambre - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1055,
+    "y": 60,
+    "wires": [
+      [
+        "7ff98ad5230b737a"
+      ]
+    ]
+  },
+  {
+    "id": "7ff98ad5230b737a",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "28d8fc706f2774de",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1220,
+    "y": 60,
+    "wires": [
+      [
+        "240c90223cbaf8f6"
+      ]
+    ]
+  },
+  {
+    "id": "240c90223cbaf8f6",
+    "type": "ui-button",
+    "z": "7b8b61c2b3de438c",
+    "g": "28d8fc706f2774de",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Ambre",
+    "order": 2,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1410,
+    "y": 60,
+    "wires": [
+      [
+        "d6a7e2cef723dc90"
+      ]
+    ]
+  },
+  {
+    "id": "21bccbf56993b294",
+    "type": "comment",
+    "z": "7b8b61c2b3de438c",
+    "g": "72e9a43d46599cb7",
+    "name": "ambre / command / remote : scene lighting ceiling / ambre / light / ceiling",
+    "info": "",
+    "x": 1170,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "41bfea5f19dee5bc",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ambre - device-  auto",
+    "links": [
+      "5a8db78f84b2088e"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "3ae64c90c8fa5ac1",
+        "047b73ed2eaa4786",
+        "9ca587e88e68491a",
+        "79c6e7f9f2a9ba7f",
+        "3e90b816e874b630",
+        "5d8b2b366bd26383",
+        "671c1c7d6e2be7dc",
+        "9cc69dc05e868c7c"
+      ]
+    ]
+  },
+  {
+    "id": "112b58b0d1bddfa7",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ambre - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 775,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "c23dbacdf69f7903",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "DIO-54791 / xxx / command / remote",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "DIO-54791",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 720,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "3e7e82f5949c02b7",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "FGD212 / xxx / light / ceiling",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGD212",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 360,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "90e893281187cbd7",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ZMNHAD / xxx / outlet / door",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHAD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "3",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 420,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "7df3b728c45ae895",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ZMNHBD / xxx / outlet / socket (option 1)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 480,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "6ef8c960ce0c783d",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ZMNHBD / xxx / outlet / socket (option 2)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 540,
+    "y": 540,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "69a6821590b9af4e",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "ZMNHJD / xxx / thermostat / pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHJD",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 600,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "2b9a31e32b37d0b2",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "MCCGQ11LM / xxx / aperture / window",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "window",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 660,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "8d981dbcb03a77ba",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "FGSD002 / xxx / smoke / fire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGSD002",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 780,
+    "wires": [
+      [
+        "112b58b0d1bddfa7"
+      ]
+    ]
+  },
+  {
+    "id": "3ee0a4f45b33ed48",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 960,
+    "wires": [
+      [
+        "ed98374ec783034a"
+      ]
+    ]
+  },
+  {
+    "id": "ed98374ec783034a",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "ambre - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "56c276c8a4ae111c",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "ambre - device - lighting",
+    "links": [
+      "5a8db78f84b2088e"
+    ],
+    "x": 135,
+    "y": 960,
+    "wires": [
+      [
+        "3ee0a4f45b33ed48",
+        "c2f640d18dc94adc",
+        "0659b767ec4e012c",
+        "b5ed74e350f06160"
+      ]
+    ]
+  },
+  {
+    "id": "c2f640d18dc94adc",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "lighting / high / dimmer / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1020,
+    "wires": [
+      [
+        "ed98374ec783034a"
+      ]
+    ]
+  },
+  {
+    "id": "0659b767ec4e012c",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "lighting / low / dimmer / 4",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 1080,
+    "wires": [
+      [
+        "ed98374ec783034a"
+      ]
+    ]
+  },
+  {
+    "id": "b5ed74e350f06160",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0f9e76651ff1aed0",
+    "name": "lighting / timer / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1140,
+    "wires": [
+      [
+        "ed98374ec783034a"
+      ]
+    ]
+  },
+  {
+    "id": "7ab6751fb11b15ea",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "5e25e92162acb08b",
+    "name": "ambre - scene - lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 1020,
+    "wires": [
+      [
+        "0d0769513efd3793"
+      ]
+    ]
+  },
+  {
+    "id": "d4229cd1226cf5d7",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "5e25e92162acb08b",
+    "name": "scene lighting / ceiling / dimmer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1020,
+    "wires": [
+      [
+        "df53fc8e041f623d"
+      ]
+    ]
+  },
+  {
+    "id": "0d0769513efd3793",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "5e25e92162acb08b",
+    "name": "trigger ",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ambre/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "ambre/command/remote",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 870,
+    "y": 1020,
+    "wires": [
+      [
+        "d4229cd1226cf5d7"
+      ],
+      [
+        "d4229cd1226cf5d7"
+      ],
+      [
+        "d4229cd1226cf5d7"
+      ]
+    ]
+  },
+  {
+    "id": "df53fc8e041f623d",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "5e25e92162acb08b",
+    "name": "ambre - scene - lighting ceiling",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1315,
+    "y": 1020,
+    "wires": []
+  },
+  {
+    "id": "3c821a2ed1fb5b4b",
+    "type": "bigtimer",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work day",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": false,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1240,
+    "y": 1800,
+    "wires": [
+      [
+        "ce1a4efb5352db26"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "ce1a4efb5352db26",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1410,
+    "y": 1800,
+    "wires": [
+      [
+        "0341dba34c381ced"
+      ]
+    ]
+  },
+  {
+    "id": "0341dba34c381ced",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "ambre - source - clock",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1535,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "beaa3fccedefbf80",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "ambre - source - clock",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 755,
+    "y": 1740,
+    "wires": [
+      [
+        "1d012568a67e2708",
+        "5d99d091abcaa81f"
+      ]
+    ]
+  },
+  {
+    "id": "1d012568a67e2708",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1250,
+    "y": 1740,
+    "wires": [
+      [
+        "ce1a4efb5352db26",
+        "111a586617b6e513"
+      ]
+    ]
+  },
+  {
+    "id": "5d99d091abcaa81f",
+    "type": "delay",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 900,
+    "y": 1800,
+    "wires": [
+      [
+        "7f0b17be16628023"
+      ]
+    ]
+  },
+  {
+    "id": "2f9a992ca1d139aa",
+    "type": "bigtimer",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work eve",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": false,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1240,
+    "y": 1860,
+    "wires": [
+      [
+        "111a586617b6e513"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "111a586617b6e513",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1410,
+    "y": 1860,
+    "wires": [
+      [
+        "0341dba34c381ced"
+      ]
+    ]
+  },
+  {
+    "id": "7f0b17be16628023",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "a9f89b5f63dc5b30",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1070,
+    "y": 1800,
+    "wires": [
+      [
+        "3c821a2ed1fb5b4b",
+        "2f9a992ca1d139aa"
+      ]
+    ]
+  },
+  {
+    "id": "4cdc594a062b6204",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0bcc12317f704d00",
+    "name": "clock / work day / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1740,
+    "wires": [
+      [
+        "d47a5d29139aca1c"
+      ]
+    ]
+  },
+  {
+    "id": "d47a5d29139aca1c",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "0bcc12317f704d00",
+    "name": "ambre - device - clock",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 575,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "540ed3f299c779d4",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "0bcc12317f704d00",
+    "name": "ambre - device - clock",
+    "links": [
+      "5a8db78f84b2088e"
+    ],
+    "x": 135,
+    "y": 1740,
+    "wires": [
+      [
+        "4cdc594a062b6204",
+        "d39bf4e7d227b64a"
+      ]
+    ]
+  },
+  {
+    "id": "d39bf4e7d227b64a",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "0bcc12317f704d00",
+    "name": "clock/ work eve / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1800,
+    "wires": [
+      [
+        "d47a5d29139aca1c"
+      ]
+    ]
+  },
+  {
+    "id": "64765643b13c207f",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "ambre - scene - thermostat operating mode",
+    "links": [
+      "5a8db78f84b2088e"
+    ],
+    "x": 815,
+    "y": 1380,
+    "wires": [
+      [
+        "f58f803cd183fe23"
+      ]
+    ]
+  },
+  {
+    "id": "5aa1466e5d029218",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1380,
+    "wires": [
+      [
+        "a695670fa9127502",
+        "2376f33d0687b642"
+      ]
+    ]
+  },
+  {
+    "id": "438b7d7c7b096219",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "ambre - scene - thermostat operating mode",
+    "mode": "link",
+    "links": [
+      "d1c7f4810b12afe2"
+    ],
+    "x": 1855,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "e56fe4b2ada641c9",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "jour",
+        "pt": "msg",
+        "to": "metrics[msg.scene.bucket]horloge['jour de travail']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 1380,
+    "wires": [
+      [
+        "02c07a0cc8b4cceb"
+      ]
+    ]
+  },
+  {
+    "id": "f58f803cd183fe23",
+    "type": "delay",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1380,
+    "wires": [
+      [
+        "5aa1466e5d029218"
+      ]
+    ]
+  },
+  {
+    "id": "a695670fa9127502",
+    "type": "bigtimer",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (work)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "300",
+    "endtime": "390",
+    "starttime2": "1050",
+    "endtime2": "1140",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1330,
+    "y": 1380,
+    "wires": [
+      [],
+      [
+        "e56fe4b2ada641c9"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "2376f33d0687b642",
+    "type": "bigtimer",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (rest)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "300",
+    "endtime": "390",
+    "starttime2": "780",
+    "endtime2": "990",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1320,
+    "y": 1440,
+    "wires": [
+      [],
+      [
+        "a2a8a9a71afb5ea7"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "02c07a0cc8b4cceb",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "work day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1720,
+    "y": 1380,
+    "wires": [
+      [
+        "438b7d7c7b096219"
+      ]
+    ]
+  },
+  {
+    "id": "0d69fef38ca34a4c",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "rest day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "false"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1700,
+    "y": 1440,
+    "wires": [
+      [
+        "438b7d7c7b096219"
+      ]
+    ]
+  },
+  {
+    "id": "a2a8a9a71afb5ea7",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "7588dc8563233dd0",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1530,
+    "y": 1440,
+    "wires": [
+      [
+        "0d69fef38ca34a4c"
+      ]
+    ]
+  },
+  {
+    "id": "0b2a82c8c72139f4",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "35b625755a3e0460",
+    "name": "ambre - source - thermostat aperture",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 815,
+    "y": 1560,
+    "wires": [
+      [
+        "7993168529c40611"
+      ]
+    ]
+  },
+  {
+    "id": "8fdc0ab2b7fadb49",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "35b625755a3e0460",
+    "name": "ambre - source - thermostat aperture",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1235,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "173e0da8e8278c08",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "35b625755a3e0460",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture opened",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1560,
+    "wires": [
+      [
+        "8fdc0ab2b7fadb49"
+      ]
+    ]
+  },
+  {
+    "id": "7993168529c40611",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "35b625755a3e0460",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ambre/aperture/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "ambre/aperture/window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 950,
+    "y": 1560,
+    "wires": [
+      [
+        "173e0da8e8278c08"
+      ],
+      [
+        "173e0da8e8278c08"
+      ]
+    ]
+  },
+  {
+    "id": "2c593aa5c3cc64ad",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "thermostat / cycle time / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cycle time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1440,
+    "wires": [
+      [
+        "a57dadebc90cb6a7"
+      ]
+    ]
+  },
+  {
+    "id": "f31baa24aeac69bd",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "thermostat / oudoor coefficient/ number / 12",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "12",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1380,
+    "wires": [
+      [
+        "a57dadebc90cb6a7"
+      ]
+    ]
+  },
+  {
+    "id": "eb178403b0453389",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "thermostat / indoor coefficient / number / 103",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "103",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1320,
+    "wires": [
+      [
+        "a57dadebc90cb6a7"
+      ]
+    ]
+  },
+  {
+    "id": "e54e9dfdc3b312ec",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "chauffage / preheat time / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "preheat time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1500,
+    "wires": [
+      [
+        "a57dadebc90cb6a7"
+      ]
+    ]
+  },
+  {
+    "id": "9fc89d4f93b076e1",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "ambre - device - thermostat",
+    "links": [
+      "5a8db78f84b2088e"
+    ],
+    "x": 135,
+    "y": 1320,
+    "wires": [
+      [
+        "eb178403b0453389",
+        "f31baa24aeac69bd",
+        "2c593aa5c3cc64ad",
+        "e54e9dfdc3b312ec",
+        "71f88edd928fa13a"
+      ]
+    ]
+  },
+  {
+    "id": "a57dadebc90cb6a7",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "ambre - device - thermostat",
+    "mode": "link",
+    "links": [
+      "d8585174fdd6097c"
+    ],
+    "x": 635,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "71f88edd928fa13a",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "dc97d115c73345bc",
+    "name": "thermostat / offloading power / number / 500",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "500",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1560,
+    "wires": [
+      [
+        "a57dadebc90cb6a7"
+      ]
+    ]
+  },
+  {
+    "id": "e909099a38791a7c",
+    "type": "link out",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "ambre - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1495,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "6b360e1d934c11cc",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "ambre - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 2100,
+    "wires": [
+      [
+        "2d60bdc66ca76fc9"
+      ]
+    ]
+  },
+  {
+    "id": "2d60bdc66ca76fc9",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2100,
+    "wires": [
+      [
+        "c191b52abbb3cc42"
+      ]
+    ]
+  },
+  {
+    "id": "c191b52abbb3cc42",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2100,
+    "wires": [
+      [
+        "989253ae6d34a634"
+      ]
+    ]
+  },
+  {
+    "id": "c93078a74a653a7a",
+    "type": "vsh-virtual-device",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "lumière de la chambre de ambre",
+    "topic": "ambre/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 970,
+    "y": 2100,
+    "wires": [
+      [
+        "be3ec6995065eeca"
+      ]
+    ]
+  },
+  {
+    "id": "989253ae6d34a634",
+    "type": "link call",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "",
+    "links": [
+      "75754d6ac1aaec7b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 2100,
+    "wires": [
+      [
+        "c93078a74a653a7a"
+      ]
+    ]
+  },
+  {
+    "id": "be3ec6995065eeca",
+    "type": "link call",
+    "z": "7b8b61c2b3de438c",
+    "g": "7952d4c5ec3d3baf",
+    "name": "",
+    "links": [
+      "71c9fb8b232fe499"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1290,
+    "y": 2100,
+    "wires": [
+      [
+        "e909099a38791a7c"
+      ]
+    ]
+  },
+  {
+    "id": "c8d1453e98c3f5e3",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "24a0b470cbec207f",
+    "name": "ambre - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 2220,
+    "wires": [
+      [
+        "dded4c6dc3976c7a"
+      ]
+    ]
+  },
+  {
+    "id": "dded4c6dc3976c7a",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "24a0b470cbec207f",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2220,
+    "wires": [
+      [
+        "972b344656fc59c2"
+      ]
+    ]
+  },
+  {
+    "id": "b7be61ae48f2be69",
+    "type": "link call",
+    "z": "7b8b61c2b3de438c",
+    "g": "24a0b470cbec207f",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 2220,
+    "wires": [
+      [
+        "25d2a91ae6a7bf32"
+      ]
+    ]
+  },
+  {
+    "id": "972b344656fc59c2",
+    "type": "change",
+    "z": "7b8b61c2b3de438c",
+    "g": "24a0b470cbec207f",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 2220,
+    "wires": [
+      [
+        "b7be61ae48f2be69"
+      ]
+    ]
+  },
+  {
+    "id": "25d2a91ae6a7bf32",
+    "type": "vsh-virtual-device",
+    "z": "7b8b61c2b3de438c",
+    "g": "24a0b470cbec207f",
+    "name": "température de la chambre de ambre",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 970,
+    "y": 2220,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9c29e34475ca460c",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "a3b588bc5a5fcff6",
+    "name": "ambre - alexa - aperture door",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2340,
+    "wires": [
+      [
+        "923d447e577e2169"
+      ]
+    ]
+  },
+  {
+    "id": "923d447e577e2169",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "a3b588bc5a5fcff6",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2340,
+    "wires": [
+      [
+        "3b207d904a7a2908"
+      ]
+    ]
+  },
+  {
+    "id": "3b207d904a7a2908",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "a3b588bc5a5fcff6",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2340,
+    "wires": [
+      [
+        "f59050d2f607d356"
+      ]
+    ]
+  },
+  {
+    "id": "51cb46c26d90cd1c",
+    "type": "vsh-virtual-device",
+    "z": "7b8b61c2b3de438c",
+    "g": "a3b588bc5a5fcff6",
+    "name": "porte de la chambre de ambre",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 2340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f59050d2f607d356",
+    "type": "link call",
+    "z": "7b8b61c2b3de438c",
+    "g": "a3b588bc5a5fcff6",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2340,
+    "wires": [
+      [
+        "51cb46c26d90cd1c"
+      ]
+    ]
+  },
+  {
+    "id": "422c17888a527a84",
+    "type": "link in",
+    "z": "7b8b61c2b3de438c",
+    "g": "4ae8609056fc3234",
+    "name": "ambre - alexa - aperture window",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "0b1a1d86ddb09f65"
+      ]
+    ]
+  },
+  {
+    "id": "0b1a1d86ddb09f65",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "4ae8609056fc3234",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2460,
+    "wires": [
+      [
+        "b4fc6e264531f8dc"
+      ]
+    ]
+  },
+  {
+    "id": "b4fc6e264531f8dc",
+    "type": "switch",
+    "z": "7b8b61c2b3de438c",
+    "g": "4ae8609056fc3234",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2460,
+    "wires": [
+      [
+        "a66f6aafa52fa41c"
+      ]
+    ]
+  },
+  {
+    "id": "f154c49fde9e478d",
+    "type": "vsh-virtual-device",
+    "z": "7b8b61c2b3de438c",
+    "g": "4ae8609056fc3234",
+    "name": "fenêtre de la chambre de ambre",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 2460,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a66f6aafa52fa41c",
+    "type": "link call",
+    "z": "7b8b61c2b3de438c",
+    "g": "4ae8609056fc3234",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2460,
+    "wires": [
+      [
+        "f154c49fde9e478d"
+      ]
+    ]
+  },
+  {
+    "id": "3ae64c90c8fa5ac1",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 780,
+    "wires": [
+      [
+        "8d981dbcb03a77ba"
+      ]
+    ]
+  },
+  {
+    "id": "047b73ed2eaa4786",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 720,
+    "wires": [
+      [
+        "c23dbacdf69f7903"
+      ]
+    ]
+  },
+  {
+    "id": "9ca587e88e68491a",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 660,
+    "wires": [
+      [
+        "2b9a31e32b37d0b2"
+      ]
+    ]
+  },
+  {
+    "id": "79c6e7f9f2a9ba7f",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 600,
+    "wires": [
+      [
+        "69a6821590b9af4e"
+      ]
+    ]
+  },
+  {
+    "id": "3e90b816e874b630",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 540,
+    "wires": [
+      [
+        "6ef8c960ce0c783d"
+      ]
+    ]
+  },
+  {
+    "id": "5d8b2b366bd26383",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "7df3b728c45ae895"
+      ]
+    ]
+  },
+  {
+    "id": "671c1c7d6e2be7dc",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 420,
+    "wires": [
+      [
+        "90e893281187cbd7"
+      ]
+    ]
+  },
+  {
+    "id": "9cc69dc05e868c7c",
+    "type": "credentials",
+    "z": "7b8b61c2b3de438c",
+    "g": "ede3bf8bba2dc2fc",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "3e7e82f5949c02b7"
+      ]
+    ]
+  }
+]

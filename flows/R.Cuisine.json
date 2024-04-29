@@ -88,8 +88,86 @@
     ],
     "x": 68,
     "y": 293,
-    "w": 1358,
+    "w": 1378,
     "h": 434
+  },
+  {
+    "id": "1dff1743cac3569e",
+    "type": "group",
+    "z": "83779166f14173f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ff6f186606d23a8e",
+      "68795225cdaa1056"
+    ],
+    "x": 68,
+    "y": 773,
+    "w": 1314,
+    "h": 374
+  },
+  {
+    "id": "9e0ecda168e420f6",
+    "type": "group",
+    "z": "83779166f14173f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bc2f5f0fdf3a95b1",
+      "1aae9b0388d3b77d",
+      "56f91a15dd1455d7"
+    ],
+    "x": 68,
+    "y": 1193,
+    "w": 1774,
+    "h": 374
+  },
+  {
+    "id": "1e26da4be4f8adc8",
+    "type": "group",
+    "z": "83779166f14173f8",
+    "name": "cuisine - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4e85de651f8c65da",
+      "749ecc064675afd3",
+      "0c4b2ec7a86c7aa4",
+      "e4db17dafa209b9a"
+    ],
+    "x": 68,
+    "y": 1913,
+    "w": 1434,
+    "h": 494
+  },
+  {
+    "id": "8468b8d824c08276",
+    "type": "group",
+    "z": "83779166f14173f8",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b4cb12ca795ea8b2"
+    ],
+    "x": 68,
+    "y": 1613,
+    "w": 534,
+    "h": 254
   },
   {
     "id": "062924d415d00ec7",
@@ -122,25 +200,6 @@
     "y": 319,
     "w": 722,
     "h": 382
-  },
-  {
-    "id": "1dff1743cac3569e",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "ff6f186606d23a8e",
-      "68795225cdaa1056"
-    ],
-    "x": 68,
-    "y": 773,
-    "w": 1314,
-    "h": 374
   },
   {
     "id": "ff6f186606d23a8e",
@@ -188,26 +247,6 @@
     "y": 799,
     "w": 502,
     "h": 322
-  },
-  {
-    "id": "9e0ecda168e420f6",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "bc2f5f0fdf3a95b1",
-      "1aae9b0388d3b77d",
-      "56f91a15dd1455d7"
-    ],
-    "x": 68,
-    "y": 1193,
-    "w": 1774,
-    "h": 374
   },
   {
     "id": "bc2f5f0fdf3a95b1",
@@ -282,27 +321,6 @@
     "y": 1219,
     "w": 582,
     "h": 322
-  },
-  {
-    "id": "1e26da4be4f8adc8",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "cuisine - alexa",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4e85de651f8c65da",
-      "749ecc064675afd3",
-      "0c4b2ec7a86c7aa4",
-      "e4db17dafa209b9a"
-    ],
-    "x": 68,
-    "y": 1913,
-    "w": 1434,
-    "h": 494
   },
   {
     "id": "4e85de651f8c65da",
@@ -397,24 +415,6 @@
     "y": 2299,
     "w": 932,
     "h": 82
-  },
-  {
-    "id": "8468b8d824c08276",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "b4cb12ca795ea8b2"
-    ],
-    "x": 68,
-    "y": 1613,
-    "w": 534,
-    "h": 254
   },
   {
     "id": "b4cb12ca795ea8b2",
@@ -645,7 +645,7 @@
     "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 2 : scene lighting / jardin / light / spots",
     "info": "",
-    "x": 1130,
+    "x": 1150,
     "y": 400,
     "wires": []
   },
@@ -656,7 +656,7 @@
     "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 3 : scene lighting / jardin / light / lamp",
     "info": "",
-    "x": 1130,
+    "x": 1150,
     "y": 440,
     "wires": []
   },
@@ -667,7 +667,7 @@
     "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 1 : scene lighting / parking / light / spots",
     "info": "",
-    "x": 1140,
+    "x": 1160,
     "y": 360,
     "wires": []
   },
@@ -678,7 +678,7 @@
     "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 4 : scene shading / salon / aperture / shutter",
     "info": "",
-    "x": 1150,
+    "x": 1170,
     "y": 480,
     "wires": []
   },

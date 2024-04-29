@@ -1,0 +1,3520 @@
+[
+  {
+    "id": "82d1583d2c5dfc80",
+    "type": "tab",
+    "label": "R.Oriane",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "ef404d0f691f3bf3",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "oriane - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "fb7e243e68514e99",
+      "7544f23d7669ef75",
+      "8407471b62e3c9e6"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "cb2c30bcc04061a9",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "oriane - catch",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a426fc0445c2ae31",
+      "97dc8f47813b94c2"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 432,
+    "h": 82
+  },
+  {
+    "id": "f9e76a2bd231cd44",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "oriane - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "167294a666df090a",
+      "7bfbfd723b885933",
+      "e2aa02ff47ac881e",
+      "54c70f89850cfc1d"
+    ],
+    "x": 1064,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
+    "id": "1e2d9699104e4507",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "304c4a4a8af6dd27",
+      "4266b9a7527b5cab"
+    ],
+    "x": 68,
+    "y": 293,
+    "w": 1378,
+    "h": 614
+  },
+  {
+    "id": "4266b9a7527b5cab",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "1e2d9699104e4507",
+    "name": "oriane - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0193c4f2510b8f3f",
+      "f3afc9e6821ad3a2",
+      "5e48b10a50ebd294",
+      "5b158a24f12a5717",
+      "fecafcb029cf39b5",
+      "50d3b95ba403e02c",
+      "ab24c0e7ae3c0d34",
+      "c6dadb1961abce64",
+      "6891edca23725f22",
+      "bea00a0f918feafb",
+      "03549bad1b5b3fe7",
+      "20829f223b884cd3",
+      "0d1a2421eec3b23c",
+      "60793e600fa2b3b8",
+      "435558c8cdbc400c",
+      "6c539dcc2fb5384f",
+      "8beecff5558378ba",
+      "227ee77a028152c1",
+      "e0b4dab350d58779",
+      "0312a5d4734230cb"
+    ],
+    "x": 94,
+    "y": 319,
+    "w": 722,
+    "h": 562
+  },
+  {
+    "id": "dcc2e8dea806a816",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b251175372f34ecd",
+      "600d9f10a798b096"
+    ],
+    "x": 68,
+    "y": 953,
+    "w": 1294,
+    "h": 314
+  },
+  {
+    "id": "b251175372f34ecd",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "dcc2e8dea806a816",
+    "name": "oriane - device - lighting",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c6b8bc158aeebac2",
+      "ccd530a40dec79f3",
+      "be213fcd6188de9f",
+      "8a580a5036e63408",
+      "e5ab3823d8dc5843",
+      "47adcf7a30e0e1af"
+    ],
+    "x": 94,
+    "y": 979,
+    "w": 482,
+    "h": 262
+  },
+  {
+    "id": "600d9f10a798b096",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "dcc2e8dea806a816",
+    "name": "oriane - scene - lighting ceiling",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7a8026935b002ae6",
+      "f64adf998668ae97",
+      "ddba90fd486d839d",
+      "37b076f40502ae57"
+    ],
+    "x": 674,
+    "y": 1031.5,
+    "w": 662,
+    "h": 97
+  },
+  {
+    "id": "21de2f6b8276705d",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6a0383dcf1a806c2",
+      "aa0810b6b2b387aa",
+      "236196c013460cd6"
+    ],
+    "x": 68,
+    "y": 1313,
+    "w": 1854,
+    "h": 374
+  },
+  {
+    "id": "6a0383dcf1a806c2",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "21de2f6b8276705d",
+    "name": "oriane - scene - thermostat operating mode",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3dc0abb4933cf52c",
+      "1c655633eb533a22",
+      "4a2c85990a2b061e",
+      "1be8c140c1dd5d7a",
+      "4a4601fc68652bd4",
+      "2250bd89d8d43c5d",
+      "4f3656338050c097",
+      "0d802f81bc344203",
+      "8a002e685540bdff",
+      "ea402d03b6273db8"
+    ],
+    "x": 774,
+    "y": 1391.5,
+    "w": 1122,
+    "h": 157
+  },
+  {
+    "id": "aa0810b6b2b387aa",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "21de2f6b8276705d",
+    "name": "oriane - sousrce - thermostat aperture",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7237fd47764d31cf",
+      "352ea3978e6f1b59",
+      "0b5962b210d1a6fc",
+      "ca44b774d9e89aba"
+    ],
+    "x": 774,
+    "y": 1579,
+    "w": 502,
+    "h": 82
+  },
+  {
+    "id": "236196c013460cd6",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "21de2f6b8276705d",
+    "name": "oriane - device - thermostat partial (see flow Thermostat)",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bb0963914ef620fa",
+      "c2c9a78b237f4d38",
+      "419d975a116f259f",
+      "35a561a02c7394cd",
+      "48350e3084957111",
+      "ab8491370b4f3838",
+      "cc50048d622c3510"
+    ],
+    "x": 94,
+    "y": 1339,
+    "w": 582,
+    "h": 322
+  },
+  {
+    "id": "b2b12ab5c8e153c9",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6426cf468533a94a",
+      "2881c2862153c497"
+    ],
+    "x": 68,
+    "y": 1733,
+    "w": 1514,
+    "h": 261.5
+  },
+  {
+    "id": "6426cf468533a94a",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "b2b12ab5c8e153c9",
+    "name": "oriane - source - clock",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b3f12c566ff3d0eb",
+      "4be887eea8fda77b",
+      "e0395c593211c049",
+      "3db710d8b9023738",
+      "5d21d54e34a502e0",
+      "d16996f856feb47f",
+      "da3237aaf9d3372a",
+      "dbeb8c9d35d9e43c",
+      "eb043e4efb3b1c52"
+    ],
+    "x": 694,
+    "y": 1759,
+    "w": 862,
+    "h": 209.5
+  },
+  {
+    "id": "2881c2862153c497",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "b2b12ab5c8e153c9",
+    "name": "oriane - device - clock",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "284778f82ecffc1f",
+      "021ed4766414be0d",
+      "7faf686a74225948",
+      "3443dfbd6f1f63b4"
+    ],
+    "x": 94,
+    "y": 1759,
+    "w": 502,
+    "h": 142
+  },
+  {
+    "id": "0e5ad5285239671a",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "name": "oriane - alexa",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "078cb3994f4b5c71",
+      "2c42045e959e8efd",
+      "c009d3778e2d5d99",
+      "a9636a0d832e40c3"
+    ],
+    "x": 68,
+    "y": 2053,
+    "w": 1494,
+    "h": 494
+  },
+  {
+    "id": "078cb3994f4b5c71",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "0e5ad5285239671a",
+    "name": "oriane - alexa - light",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "7c6a878c6b2dc981",
+      "f82f77715b307e5e",
+      "5b42722f1d104fcd",
+      "6dac5ce5889dafe5",
+      "6b680c2c78d03f83",
+      "95c744aad95da9bb",
+      "e901d9b380ddcf56"
+    ],
+    "x": 94,
+    "y": 2079,
+    "w": 1442,
+    "h": 82
+  },
+  {
+    "id": "2c42045e959e8efd",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "0e5ad5285239671a",
+    "name": "oriane - alexa - temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "25b95ce76db7282c",
+      "ea68b84984bcd5e6",
+      "333614e4585c61ca",
+      "09a089f9de8ff5f4",
+      "38e4cb80ea1e3fa8"
+    ],
+    "x": 94,
+    "y": 2199,
+    "w": 1052,
+    "h": 82
+  },
+  {
+    "id": "c009d3778e2d5d99",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "0e5ad5285239671a",
+    "name": "oriane - alexa - aperture door",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "46f7c514e74a6238",
+      "98f1142bc59070ee",
+      "6b48c8a8f6cf2b74",
+      "29cd5a25950cd39a",
+      "f060f376b8b95641"
+    ],
+    "x": 94,
+    "y": 2319,
+    "w": 992,
+    "h": 82
+  },
+  {
+    "id": "a9636a0d832e40c3",
+    "type": "group",
+    "z": "82d1583d2c5dfc80",
+    "g": "0e5ad5285239671a",
+    "name": "oriane - alexa - window",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "641b763f8c402bb1",
+      "2db3a0fe91cdca2c",
+      "a85d3c59019c3f55",
+      "9f856d08973bdbd2",
+      "c1d2607422d1182d"
+    ],
+    "x": 94,
+    "y": 2439,
+    "w": 992,
+    "h": 82
+  },
+  {
+    "id": "fb7e243e68514e99",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "ef404d0f691f3bf3",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "oriane",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "8407471b62e3c9e6"
+      ]
+    ]
+  },
+  {
+    "id": "7544f23d7669ef75",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "ef404d0f691f3bf3",
+    "name": "oriane - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "fb7e243e68514e99"
+      ]
+    ]
+  },
+  {
+    "id": "8407471b62e3c9e6",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "ef404d0f691f3bf3",
+    "name": "oriane - bucket",
+    "mode": "link",
+    "links": [
+      "0193c4f2510b8f3f",
+      "3dc0abb4933cf52c",
+      "48350e3084957111",
+      "7faf686a74225948",
+      "be213fcd6188de9f"
+    ],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "a426fc0445c2ae31",
+    "type": "catch",
+    "z": "82d1583d2c5dfc80",
+    "g": "cb2c30bcc04061a9",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "97dc8f47813b94c2"
+      ]
+    ]
+  },
+  {
+    "id": "97dc8f47813b94c2",
+    "type": "debug",
+    "z": "82d1583d2c5dfc80",
+    "g": "cb2c30bcc04061a9",
+    "name": "oriane - catch error",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 830,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "167294a666df090a",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "f9e76a2bd231cd44",
+    "name": "oriane - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1585,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "7bfbfd723b885933",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "f9e76a2bd231cd44",
+    "name": "oriane - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1105,
+    "y": 60,
+    "wires": [
+      [
+        "e2aa02ff47ac881e"
+      ]
+    ]
+  },
+  {
+    "id": "e2aa02ff47ac881e",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "f9e76a2bd231cd44",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 60,
+    "wires": [
+      [
+        "54c70f89850cfc1d"
+      ]
+    ]
+  },
+  {
+    "id": "54c70f89850cfc1d",
+    "type": "ui-button",
+    "z": "82d1583d2c5dfc80",
+    "g": "f9e76a2bd231cd44",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Oriane",
+    "order": 16,
+    "width": "2",
+    "height": "1",
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1460,
+    "y": 60,
+    "wires": [
+      [
+        "167294a666df090a"
+      ]
+    ]
+  },
+  {
+    "id": "304c4a4a8af6dd27",
+    "type": "comment",
+    "z": "82d1583d2c5dfc80",
+    "g": "1e2d9699104e4507",
+    "name": "oriane / command / remote : scene lighting ceiling / oriane / light / ceiling",
+    "info": "",
+    "x": 1170,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "0193c4f2510b8f3f",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "oriane - device - auto",
+    "links": [
+      "8407471b62e3c9e6"
+    ],
+    "x": 135,
+    "y": 360,
+    "wires": [
+      [
+        "20829f223b884cd3",
+        "0d1a2421eec3b23c",
+        "60793e600fa2b3b8",
+        "435558c8cdbc400c",
+        "6c539dcc2fb5384f",
+        "8beecff5558378ba",
+        "227ee77a028152c1",
+        "e0b4dab350d58779",
+        "0312a5d4734230cb"
+      ]
+    ]
+  },
+  {
+    "id": "f3afc9e6821ad3a2",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "oriane - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 775,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "5e48b10a50ebd294",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "DIO-54791 / xxx / command / remote",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "DIO-54791",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 720,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "5b158a24f12a5717",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "FGD212 / xxx / light / ceiling",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGD212",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 480,
+    "y": 360,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "fecafcb029cf39b5",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "ZMNHAD / xxx / outlet / door",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHAD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "3",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 480,
+    "y": 420,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "50d3b95ba403e02c",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "ZMNHBD / xxx / outlet / socket 1 (option 1)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 480,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "ab24c0e7ae3c0d34",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "ZMNHBD / xxx / outlet / socket 2 (option 2)",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "option",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 530,
+    "y": 540,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "c6dadb1961abce64",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "ZMNHJD / xxx / thermostat / pilot",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHJD",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 600,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "6891edca23725f22",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "MCCGQ11LM / xxx / aperture / window",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "window",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 510,
+    "y": 660,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "bea00a0f918feafb",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "FGSD002 / xxx / smoke / fire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGSD002",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 480,
+    "y": 780,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "03549bad1b5b3fe7",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "A32DOYMUN6DTXA / xxx / alexa / actif",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "A32DOYMUN6DTXA",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 520,
+    "y": 840,
+    "wires": [
+      [
+        "f3afc9e6821ad3a2"
+      ]
+    ]
+  },
+  {
+    "id": "c6b8bc158aeebac2",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "lighting / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1020,
+    "wires": [
+      [
+        "ccd530a40dec79f3"
+      ]
+    ]
+  },
+  {
+    "id": "ccd530a40dec79f3",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "oriane - device - lighting",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 535,
+    "y": 1020,
+    "wires": []
+  },
+  {
+    "id": "be213fcd6188de9f",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "oriane - device - lighting",
+    "links": [
+      "8407471b62e3c9e6"
+    ],
+    "x": 135,
+    "y": 1020,
+    "wires": [
+      [
+        "c6b8bc158aeebac2",
+        "8a580a5036e63408",
+        "e5ab3823d8dc5843",
+        "47adcf7a30e0e1af"
+      ]
+    ]
+  },
+  {
+    "id": "8a580a5036e63408",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "lighting / high / dimmer / 40",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "high",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "40",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1080,
+    "wires": [
+      [
+        "ccd530a40dec79f3"
+      ]
+    ]
+  },
+  {
+    "id": "e5ab3823d8dc5843",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "lighting / low / dimmer / 4",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "low",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 1140,
+    "wires": [
+      [
+        "ccd530a40dec79f3"
+      ]
+    ]
+  },
+  {
+    "id": "47adcf7a30e0e1af",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "b251175372f34ecd",
+    "name": "lighting / timer / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 340,
+    "y": 1200,
+    "wires": [
+      [
+        "ccd530a40dec79f3"
+      ]
+    ]
+  },
+  {
+    "id": "7a8026935b002ae6",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "600d9f10a798b096",
+    "name": "oriane - scene - lighting ceiling",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 715,
+    "y": 1080,
+    "wires": [
+      [
+        "ddba90fd486d839d"
+      ]
+    ]
+  },
+  {
+    "id": "f64adf998668ae97",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "600d9f10a798b096",
+    "name": "scene lighting /  ceiling / dimmer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "dimmer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "4",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1090,
+    "y": 1080,
+    "wires": [
+      [
+        "37b076f40502ae57"
+      ]
+    ]
+  },
+  {
+    "id": "ddba90fd486d839d",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "600d9f10a798b096",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "oriane/light/ceiling",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "oriane/command/remote",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/lighting",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 850,
+    "y": 1080,
+    "wires": [
+      [
+        "f64adf998668ae97"
+      ],
+      [
+        "f64adf998668ae97"
+      ],
+      [
+        "f64adf998668ae97"
+      ]
+    ]
+  },
+  {
+    "id": "37b076f40502ae57",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "600d9f10a798b096",
+    "name": "oriane - scene - lighting ceiling",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1295,
+    "y": 1080,
+    "wires": []
+  },
+  {
+    "id": "3dc0abb4933cf52c",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "oriane - scene - thermostat operating mode",
+    "links": [
+      "8407471b62e3c9e6"
+    ],
+    "x": 815,
+    "y": 1440,
+    "wires": [
+      [
+        "4a4601fc68652bd4"
+      ]
+    ]
+  },
+  {
+    "id": "1c655633eb533a22",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1440,
+    "wires": [
+      [
+        "2250bd89d8d43c5d",
+        "4f3656338050c097"
+      ]
+    ]
+  },
+  {
+    "id": "4a2c85990a2b061e",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "oriane - scene - thermostat operating mode",
+    "mode": "link",
+    "links": [
+      "d1c7f4810b12afe2"
+    ],
+    "x": 1855,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "1be8c140c1dd5d7a",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "jour",
+        "pt": "msg",
+        "to": "metrics[msg.scene.bucket]horloge['jour de travail']",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 1440,
+    "wires": [
+      [
+        "0d802f81bc344203"
+      ]
+    ]
+  },
+  {
+    "id": "4a4601fc68652bd4",
+    "type": "delay",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1440,
+    "wires": [
+      [
+        "1c655633eb533a22"
+      ]
+    ]
+  },
+  {
+    "id": "2250bd89d8d43c5d",
+    "type": "bigtimer",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (work)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "300",
+    "endtime": "390",
+    "starttime2": "1050",
+    "endtime2": "1140",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1330,
+    "y": 1440,
+    "wires": [
+      [],
+      [
+        "1be8c140c1dd5d7a"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "4f3656338050c097",
+    "type": "bigtimer",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "outtopic": "",
+    "outpayload1": "",
+    "outpayload2": "",
+    "name": "confort schedule (rest)",
+    "comment": "",
+    "lat": 0,
+    "lon": 0,
+    "starttime": "300",
+    "endtime": "390",
+    "starttime2": "780",
+    "endtime2": "990",
+    "startoff": 0,
+    "endoff": 0,
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": 0,
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": 1440,
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": true,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": true,
+    "atstart": false,
+    "odd": false,
+    "even": false,
+    "x": 1320,
+    "y": 1500,
+    "wires": [
+      [],
+      [
+        "ea402d03b6273db8"
+      ],
+      []
+    ]
+  },
+  {
+    "id": "0d802f81bc344203",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "work day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1720,
+    "y": 1440,
+    "wires": [
+      [
+        "4a2c85990a2b061e"
+      ]
+    ]
+  },
+  {
+    "id": "8a002e685540bdff",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "rest day",
+    "property": "metrics[msg.scene.bucket]clock['work day']",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "false"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1700,
+    "y": 1500,
+    "wires": [
+      [
+        "4a2c85990a2b061e"
+      ]
+    ]
+  },
+  {
+    "id": "ea402d03b6273db8",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6a0383dcf1a806c2",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1530,
+    "y": 1500,
+    "wires": [
+      [
+        "8a002e685540bdff"
+      ]
+    ]
+  },
+  {
+    "id": "7237fd47764d31cf",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "aa0810b6b2b387aa",
+    "name": "oriane - source- thermostat aperture",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 815,
+    "y": 1620,
+    "wires": [
+      [
+        "ca44b774d9e89aba"
+      ]
+    ]
+  },
+  {
+    "id": "352ea3978e6f1b59",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "aa0810b6b2b387aa",
+    "name": "oriane - source - thermostat aperture",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1235,
+    "y": 1620,
+    "wires": []
+  },
+  {
+    "id": "0b5962b210d1a6fc",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "aa0810b6b2b387aa",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "aperture opened",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1620,
+    "wires": [
+      [
+        "352ea3978e6f1b59"
+      ]
+    ]
+  },
+  {
+    "id": "ca44b774d9e89aba",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "aa0810b6b2b387aa",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "oriane/aperture/door",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "oriane/aperture/window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 950,
+    "y": 1620,
+    "wires": [
+      [
+        "0b5962b210d1a6fc"
+      ],
+      [
+        "0b5962b210d1a6fc"
+      ]
+    ]
+  },
+  {
+    "id": "bb0963914ef620fa",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "thermostat / cycle time / number / 60",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cycle time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "60",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1500,
+    "wires": [
+      [
+        "ab8491370b4f3838"
+      ]
+    ]
+  },
+  {
+    "id": "c2c9a78b237f4d38",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "thermostat / outdoor coefficient / number / 2",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "2",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1440,
+    "wires": [
+      [
+        "ab8491370b4f3838"
+      ]
+    ]
+  },
+  {
+    "id": "419d975a116f259f",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "thermostat / indoor coefficient / number / 18",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "indoor coefficient",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "18",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1380,
+    "wires": [
+      [
+        "ab8491370b4f3838"
+      ]
+    ]
+  },
+  {
+    "id": "35a561a02c7394cd",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "thermostat / preheat time / number / 10",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "preheat time",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "10",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 370,
+    "y": 1560,
+    "wires": [
+      [
+        "ab8491370b4f3838"
+      ]
+    ]
+  },
+  {
+    "id": "48350e3084957111",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "oriane - device - thermostat",
+    "links": [
+      "8407471b62e3c9e6"
+    ],
+    "x": 135,
+    "y": 1380,
+    "wires": [
+      [
+        "419d975a116f259f",
+        "c2c9a78b237f4d38",
+        "bb0963914ef620fa",
+        "35a561a02c7394cd",
+        "cc50048d622c3510"
+      ]
+    ]
+  },
+  {
+    "id": "ab8491370b4f3838",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "oriane - device - thermostat",
+    "mode": "link",
+    "links": [
+      "d8585174fdd6097c"
+    ],
+    "x": 635,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "cc50048d622c3510",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "236196c013460cd6",
+    "name": "thermostat / offloading power / number / 500",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "offloading power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "500",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 390,
+    "y": 1620,
+    "wires": [
+      [
+        "ab8491370b4f3838"
+      ]
+    ]
+  },
+  {
+    "id": "b3f12c566ff3d0eb",
+    "type": "bigtimer",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work day",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": false,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": true,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1220,
+    "y": 1860,
+    "wires": [
+      [
+        "4be887eea8fda77b"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "4be887eea8fda77b",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1390,
+    "y": 1860,
+    "wires": [
+      [
+        "e0395c593211c049"
+      ]
+    ]
+  },
+  {
+    "id": "e0395c593211c049",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "oriane - source - clock",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1515,
+    "y": 1860,
+    "wires": []
+  },
+  {
+    "id": "3db710d8b9023738",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "oriane - source - clock",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 735,
+    "y": 1800,
+    "wires": [
+      [
+        "5d21d54e34a502e0",
+        "d16996f856feb47f"
+      ]
+    ]
+  },
+  {
+    "id": "5d21d54e34a502e0",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1230,
+    "y": 1800,
+    "wires": [
+      [
+        "4be887eea8fda77b",
+        "dbeb8c9d35d9e43c"
+      ]
+    ]
+  },
+  {
+    "id": "d16996f856feb47f",
+    "type": "delay",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 880,
+    "y": 1860,
+    "wires": [
+      [
+        "eb043e4efb3b1c52"
+      ]
+    ]
+  },
+  {
+    "id": "da3237aaf9d3372a",
+    "type": "bigtimer",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "outtopic": "",
+    "outpayload1": "1",
+    "outpayload2": "0",
+    "name": "work eve",
+    "comment": "",
+    "lat": "45.9388",
+    "lon": "5.3808",
+    "starttime": "0",
+    "endtime": "1439",
+    "starttime2": "0",
+    "endtime2": "0",
+    "startoff": "0",
+    "endoff": "0",
+    "startoff2": 0,
+    "endoff2": 0,
+    "offs": "0",
+    "outtext1": "",
+    "outtext2": "",
+    "timeout": "1440",
+    "sun": true,
+    "mon": true,
+    "tue": true,
+    "wed": true,
+    "thu": true,
+    "fri": false,
+    "sat": false,
+    "jan": true,
+    "feb": true,
+    "mar": true,
+    "apr": true,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": true,
+    "oct": true,
+    "nov": true,
+    "dec": true,
+    "day1": 0,
+    "month1": 0,
+    "day2": 0,
+    "month2": 0,
+    "day3": 0,
+    "month3": 0,
+    "day4": 0,
+    "month4": 0,
+    "day5": 0,
+    "month5": 0,
+    "day6": 0,
+    "month6": 0,
+    "day7": 0,
+    "month7": 0,
+    "day8": 0,
+    "month8": 0,
+    "day9": 0,
+    "month9": 0,
+    "day10": 0,
+    "month10": 0,
+    "day11": 0,
+    "month11": 0,
+    "day12": 0,
+    "month12": 0,
+    "d1": 0,
+    "w1": 0,
+    "d2": 0,
+    "w2": 0,
+    "d3": 0,
+    "w3": 0,
+    "d4": 0,
+    "w4": 0,
+    "d5": 0,
+    "w5": 0,
+    "d6": 0,
+    "w6": 0,
+    "xday1": 0,
+    "xmonth1": 0,
+    "xday2": 0,
+    "xmonth2": 0,
+    "xday3": 0,
+    "xmonth3": 0,
+    "xday4": 0,
+    "xmonth4": 0,
+    "xday5": 0,
+    "xmonth5": 0,
+    "xday6": 0,
+    "xmonth6": 0,
+    "xday7": 0,
+    "xmonth7": 0,
+    "xday8": 0,
+    "xmonth8": 0,
+    "xday9": 0,
+    "xmonth9": 0,
+    "xday10": 0,
+    "xmonth10": 0,
+    "xday11": 0,
+    "xmonth11": 0,
+    "xday12": 0,
+    "xmonth12": 0,
+    "xd1": 0,
+    "xw1": 0,
+    "xd2": 0,
+    "xw2": 0,
+    "xd3": 0,
+    "xw3": 0,
+    "xd4": 0,
+    "xw4": 0,
+    "xd5": 0,
+    "xw5": 0,
+    "xd6": 0,
+    "xw6": 0,
+    "suspend": false,
+    "random": false,
+    "randon1": false,
+    "randoff1": false,
+    "randon2": false,
+    "randoff2": false,
+    "repeat": false,
+    "atstart": true,
+    "odd": false,
+    "even": false,
+    "x": 1220,
+    "y": 1920,
+    "wires": [
+      [
+        "dbeb8c9d35d9e43c"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "dbeb8c9d35d9e43c",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1390,
+    "y": 1920,
+    "wires": [
+      [
+        "e0395c593211c049"
+      ]
+    ]
+  },
+  {
+    "id": "eb043e4efb3b1c52",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "6426cf468533a94a",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1050,
+    "y": 1860,
+    "wires": [
+      [
+        "b3f12c566ff3d0eb",
+        "da3237aaf9d3372a"
+      ]
+    ]
+  },
+  {
+    "id": "284778f82ecffc1f",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "2881c2862153c497",
+    "name": "clock / work day / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1800,
+    "wires": [
+      [
+        "021ed4766414be0d"
+      ]
+    ]
+  },
+  {
+    "id": "021ed4766414be0d",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "2881c2862153c497",
+    "name": "oriane - device - clock",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 555,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "7faf686a74225948",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "2881c2862153c497",
+    "name": "oriane - device - clock",
+    "links": [
+      "8407471b62e3c9e6"
+    ],
+    "x": 135,
+    "y": 1800,
+    "wires": [
+      [
+        "284778f82ecffc1f",
+        "3443dfbd6f1f63b4"
+      ]
+    ]
+  },
+  {
+    "id": "3443dfbd6f1f63b4",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "2881c2862153c497",
+    "name": "clock / work eve / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 350,
+    "y": 1860,
+    "wires": [
+      [
+        "021ed4766414be0d"
+      ]
+    ]
+  },
+  {
+    "id": "7c6a878c6b2dc981",
+    "type": "link out",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "oriane - alexa - light",
+    "mode": "link",
+    "links": [
+      "df6a69e3a774eebc"
+    ],
+    "x": 1495,
+    "y": 2120,
+    "wires": []
+  },
+  {
+    "id": "f82f77715b307e5e",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "oriane - alexa - light",
+    "links": [
+      "abd3bb3b24dd961a"
+    ],
+    "x": 135,
+    "y": 2120,
+    "wires": [
+      [
+        "6dac5ce5889dafe5"
+      ]
+    ]
+  },
+  {
+    "id": "5b42722f1d104fcd",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ceiling",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2120,
+    "wires": [
+      [
+        "6b680c2c78d03f83"
+      ]
+    ]
+  },
+  {
+    "id": "6dac5ce5889dafe5",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2120,
+    "wires": [
+      [
+        "5b42722f1d104fcd"
+      ]
+    ]
+  },
+  {
+    "id": "6b680c2c78d03f83",
+    "type": "link call",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "",
+    "links": [
+      "75754d6ac1aaec7b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 660,
+    "y": 2120,
+    "wires": [
+      [
+        "95c744aad95da9bb"
+      ]
+    ]
+  },
+  {
+    "id": "95c744aad95da9bb",
+    "type": "vsh-virtual-device",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "lumière de la chambre de oriane",
+    "topic": "oriane/cible/ceiling",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "SWITCH",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 970,
+    "y": 2120,
+    "wires": [
+      [
+        "e901d9b380ddcf56"
+      ]
+    ]
+  },
+  {
+    "id": "e901d9b380ddcf56",
+    "type": "link call",
+    "z": "82d1583d2c5dfc80",
+    "g": "078cb3994f4b5c71",
+    "name": "",
+    "links": [
+      "71c9fb8b232fe499"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1290,
+    "y": 2120,
+    "wires": [
+      [
+        "7c6a878c6b2dc981"
+      ]
+    ]
+  },
+  {
+    "id": "25b95ce76db7282c",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "2c42045e959e8efd",
+    "name": "oriane - alexa - temperature",
+    "links": [
+      "a66c6d1f8e271921"
+    ],
+    "x": 135,
+    "y": 2240,
+    "wires": [
+      [
+        "ea68b84984bcd5e6"
+      ]
+    ]
+  },
+  {
+    "id": "ea68b84984bcd5e6",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "2c42045e959e8efd",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2240,
+    "wires": [
+      [
+        "09a089f9de8ff5f4"
+      ]
+    ]
+  },
+  {
+    "id": "333614e4585c61ca",
+    "type": "link call",
+    "z": "82d1583d2c5dfc80",
+    "g": "2c42045e959e8efd",
+    "name": "",
+    "links": [
+      "50c950cddc1506ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 650,
+    "y": 2240,
+    "wires": [
+      [
+        "38e4cb80ea1e3fa8"
+      ]
+    ]
+  },
+  {
+    "id": "09a089f9de8ff5f4",
+    "type": "change",
+    "z": "82d1583d2c5dfc80",
+    "g": "2c42045e959e8efd",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 2240,
+    "wires": [
+      [
+        "333614e4585c61ca"
+      ]
+    ]
+  },
+  {
+    "id": "38e4cb80ea1e3fa8",
+    "type": "vsh-virtual-device",
+    "z": "82d1583d2c5dfc80",
+    "g": "2c42045e959e8efd",
+    "name": "température de la chambre de oriane",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "TEMPERATURE_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 970,
+    "y": 2240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "46f7c514e74a6238",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "c009d3778e2d5d99",
+    "name": "oriane - alexa - aperture door",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2360,
+    "wires": [
+      [
+        "98f1142bc59070ee"
+      ]
+    ]
+  },
+  {
+    "id": "98f1142bc59070ee",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "c009d3778e2d5d99",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2360,
+    "wires": [
+      [
+        "6b48c8a8f6cf2b74"
+      ]
+    ]
+  },
+  {
+    "id": "6b48c8a8f6cf2b74",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "c009d3778e2d5d99",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "door",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2360,
+    "wires": [
+      [
+        "f060f376b8b95641"
+      ]
+    ]
+  },
+  {
+    "id": "29cd5a25950cd39a",
+    "type": "vsh-virtual-device",
+    "z": "82d1583d2c5dfc80",
+    "g": "c009d3778e2d5d99",
+    "name": "porte de la chambre de oriane",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 2360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f060f376b8b95641",
+    "type": "link call",
+    "z": "82d1583d2c5dfc80",
+    "g": "c009d3778e2d5d99",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2360,
+    "wires": [
+      [
+        "29cd5a25950cd39a"
+      ]
+    ]
+  },
+  {
+    "id": "641b763f8c402bb1",
+    "type": "link in",
+    "z": "82d1583d2c5dfc80",
+    "g": "a9636a0d832e40c3",
+    "name": "oriane - alexa - aperture window",
+    "links": [
+      "c961c347fd2d14b5"
+    ],
+    "x": 135,
+    "y": 2480,
+    "wires": [
+      [
+        "2db3a0fe91cdca2c"
+      ]
+    ]
+  },
+  {
+    "id": "2db3a0fe91cdca2c",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "a9636a0d832e40c3",
+    "name": "bucket",
+    "property": "bucket",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2480,
+    "wires": [
+      [
+        "a85d3c59019c3f55"
+      ]
+    ]
+  },
+  {
+    "id": "a85d3c59019c3f55",
+    "type": "switch",
+    "z": "82d1583d2c5dfc80",
+    "g": "a9636a0d832e40c3",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "window",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 2480,
+    "wires": [
+      [
+        "c1d2607422d1182d"
+      ]
+    ]
+  },
+  {
+    "id": "9f856d08973bdbd2",
+    "type": "vsh-virtual-device",
+    "z": "82d1583d2c5dfc80",
+    "g": "a9636a0d832e40c3",
+    "name": "fenêtre de la chambre de oriane",
+    "topic": "",
+    "metadata": "{}",
+    "connection": "b156e6eff1bfadd1",
+    "template": "CONTACT_SENSOR",
+    "retrievable": true,
+    "passthrough": false,
+    "diff": false,
+    "filter": false,
+    "filterTopic": false,
+    "plan": "free",
+    "x": 930,
+    "y": 2480,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c1d2607422d1182d",
+    "type": "link call",
+    "z": "82d1583d2c5dfc80",
+    "g": "a9636a0d832e40c3",
+    "name": "",
+    "links": [
+      "73c07a0bc5e5429b"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 640,
+    "y": 2480,
+    "wires": [
+      [
+        "9f856d08973bdbd2"
+      ]
+    ]
+  },
+  {
+    "id": "20829f223b884cd3",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 840,
+    "wires": [
+      [
+        "03549bad1b5b3fe7"
+      ]
+    ]
+  },
+  {
+    "id": "0d1a2421eec3b23c",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 780,
+    "wires": [
+      [
+        "bea00a0f918feafb"
+      ]
+    ]
+  },
+  {
+    "id": "60793e600fa2b3b8",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 720,
+    "wires": [
+      [
+        "5e48b10a50ebd294"
+      ]
+    ]
+  },
+  {
+    "id": "435558c8cdbc400c",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 660,
+    "wires": [
+      [
+        "6891edca23725f22"
+      ]
+    ]
+  },
+  {
+    "id": "6c539dcc2fb5384f",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 600,
+    "wires": [
+      [
+        "c6dadb1961abce64"
+      ]
+    ]
+  },
+  {
+    "id": "8beecff5558378ba",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 540,
+    "wires": [
+      [
+        "ab24c0e7ae3c0d34"
+      ]
+    ]
+  },
+  {
+    "id": "227ee77a028152c1",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 480,
+    "wires": [
+      [
+        "50d3b95ba403e02c"
+      ]
+    ]
+  },
+  {
+    "id": "e0b4dab350d58779",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 420,
+    "wires": [
+      [
+        "fecafcb029cf39b5"
+      ]
+    ]
+  },
+  {
+    "id": "0312a5d4734230cb",
+    "type": "credentials",
+    "z": "82d1583d2c5dfc80",
+    "g": "4266b9a7527b5cab",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 250,
+    "y": 360,
+    "wires": [
+      [
+        "5b158a24f12a5717"
+      ]
+    ]
+  }
+]
