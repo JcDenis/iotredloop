@@ -3841,8 +3841,8 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
+        "to": "home",
+        "tot": "str"
       },
       {
         "t": "set",
@@ -4671,8 +4671,8 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
+        "to": "home",
+        "tot": "str"
       }
     ],
     "action": "",
@@ -4842,8 +4842,8 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
+        "to": "home",
+        "tot": "str"
       },
       {
         "t": "set",
