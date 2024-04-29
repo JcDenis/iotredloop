@@ -1,6 +1,6 @@
 ## ABOUT
 iotredloop v0.0.1
-> Simple nodered home automation manager
+> Simple nodered home automation kernel
 
 This is a personnal project of home automation, it is highly limited to my needs.
 There are more explanation, in french, on [my blog](https://chez.jcdenis.fr/category/Domotique/NRDomV2)
@@ -46,7 +46,7 @@ The better way is to :
 
 Tabs starting with:
 * K. Kernel tabs, required
-* P. Protocols tabs, required
+* P. Protocols tabs, depending of your devices
 * U. Dashboard tabs,required
 * R. Rooms tabs, not required, some exemples of rooms taken from my house
 
