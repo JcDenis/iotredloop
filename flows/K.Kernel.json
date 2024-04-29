@@ -23,7 +23,7 @@
       "5a56612ef35c5fd3"
     ],
     "x": 42,
-    "y": 4827,
+    "y": 3387,
     "w": 6886,
     "h": 366
   },
@@ -41,8 +41,8 @@
       "f67a857ae75d906f",
       "a8dc4fab59fdefb4"
     ],
-    "x": 68,
-    "y": 5273,
+    "x": 88,
+    "y": 3833,
     "w": 1094,
     "h": 134,
     "info": "this is a fake device for kernel boot (ensure that one device is registered)"
@@ -74,30 +74,6 @@
     "y": 173,
     "w": 5194,
     "h": 2834
-  },
-  {
-    "id": "656a3398842092de",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "name": "mqtt",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "93fb3d4a50d16da0",
-      "6c3162f93343ce7e",
-      "c7f0e1480df909e9",
-      "b9a706d9e4980c1e",
-      "72988ccecf802b11",
-      "a3c29b70c82234cc",
-      "17a8ab0a21c7790b"
-    ],
-    "x": 42,
-    "y": 3087,
-    "w": 1816,
-    "h": 1686
   },
   {
     "id": "648d078d534a93be",
@@ -157,7 +133,7 @@
       "d9548e9b1a2e6f36"
     ],
     "x": 5108,
-    "y": 4913,
+    "y": 3473,
     "w": 1794,
     "h": 254
   },
@@ -178,7 +154,7 @@
       "266f4436dc45ce89"
     ],
     "x": 1768,
-    "y": 4913,
+    "y": 3473,
     "w": 3294,
     "h": 254
   },
@@ -199,7 +175,7 @@
       "4937527cddd45b61"
     ],
     "x": 68,
-    "y": 4853,
+    "y": 3413,
     "w": 1664,
     "h": 314
   },
@@ -219,8 +195,8 @@
       "eed8990163b1ca81",
       "7f76434616f622dc"
     ],
-    "x": 94,
-    "y": 5299,
+    "x": 114,
+    "y": 3859,
     "w": 542,
     "h": 82
   },
@@ -240,8 +216,8 @@
       "1b98c37b3b7502e4",
       "f02b4584af0d800c"
     ],
-    "x": 674,
-    "y": 5299,
+    "x": 694,
+    "y": 3859,
     "w": 462,
     "h": 82
   },
@@ -277,136 +253,9 @@
     "info": "cron minute = every minutes from flow start\r\ncron hour = every hours from flow start\r\ncron day = every day at 3 am"
   },
   {
-    "id": "17a8ab0a21c7790b",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for rhasspy",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "a23c2aa7e24eb8f7",
-      "234feecbe12db6fa"
-    ],
-    "x": 68,
-    "y": 4553,
-    "w": 1764,
-    "h": 194
-  },
-  {
-    "id": "a3c29b70c82234cc",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for zwave",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "1e687cd4c0cc0ece",
-      "b5e2408a7d09537d"
-    ],
-    "x": 68,
-    "y": 4313,
-    "w": 1744,
-    "h": 194
-  },
-  {
-    "id": "72988ccecf802b11",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for bluetooth",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "cf382d5398b6de43",
-      "24eae452ebf32be6"
-    ],
-    "x": 68,
-    "y": 4073,
-    "w": 1764,
-    "h": 194
-  },
-  {
-    "id": "b9a706d9e4980c1e",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for teleinfo",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "fee31a77e542b203",
-      "0bf16a20b9656c59"
-    ],
-    "x": 68,
-    "y": 3833,
-    "w": 1764,
-    "h": 194
-  },
-  {
-    "id": "c7f0e1480df909e9",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for zigbee",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "518b634fa908a4aa",
-      "b40a3b0d2d310907"
-    ],
-    "x": 68,
-    "y": 3593,
-    "w": 1764,
-    "h": 194
-  },
-  {
-    "id": "6c3162f93343ce7e",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
-    "name": "mqtt server for rfxcom",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "3ab6bcaac666ddc4",
-      "ae4487a0bf7f922f"
-    ],
-    "x": 68,
-    "y": 3353,
-    "w": 1764,
-    "h": 194
-  },
-  {
     "id": "93fb3d4a50d16da0",
     "type": "group",
     "z": "ab51b1e8cad7b700",
-    "g": "656a3398842092de",
     "name": "mqtt server for nodered",
     "style": {
       "label": true,
@@ -719,7 +568,7 @@
       "69041daa92bc0a8b"
     ],
     "x": 6114,
-    "y": 4939,
+    "y": 3499,
     "w": 762,
     "h": 202
   },
@@ -743,7 +592,7 @@
       "f61f5fe80ddf6ff1"
     ],
     "x": 5134,
-    "y": 4939,
+    "y": 3499,
     "w": 882,
     "h": 82
   },
@@ -770,7 +619,7 @@
       "70ae9d85820c14fb"
     ],
     "x": 3394,
-    "y": 4939,
+    "y": 3499,
     "w": 1642,
     "h": 202
   },
@@ -799,7 +648,7 @@
       "411b13dfb3e989f0"
     ],
     "x": 1794,
-    "y": 4939,
+    "y": 3499,
     "w": 1502,
     "h": 202
   },
@@ -824,7 +673,7 @@
       "b08802b0dbd9a58b"
     ],
     "x": 734,
-    "y": 4879,
+    "y": 3439,
     "w": 972,
     "h": 262
   },
@@ -846,285 +695,8 @@
       "546f190f3ec0c90d"
     ],
     "x": 94,
-    "y": 4939,
+    "y": 3499,
     "w": 612,
-    "h": 142
-  },
-  {
-    "id": "234feecbe12db6fa",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "17a8ab0a21c7790b",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d07502e0620ed3d9",
-      "4cfd419f66b58eda",
-      "4db395b3e8fa404f",
-      "d8b85eb94b57b81f"
-    ],
-    "x": 1294,
-    "y": 4579,
-    "w": 512,
-    "h": 142
-  },
-  {
-    "id": "a23c2aa7e24eb8f7",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "17a8ab0a21c7790b",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "81b03b89f507e5ce",
-      "3eda424ef17379e9",
-      "af3082ef59725979",
-      "9518f42686aaf99c",
-      "6d6bcbb7ce10198f",
-      "da4da5b15f106b4a"
-    ],
-    "x": 94,
-    "y": 4579,
-    "w": 1162,
-    "h": 142
-  },
-  {
-    "id": "b5e2408a7d09537d",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "a3c29b70c82234cc",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "92d0d0a5798c06cf",
-      "62dd3e8d6c87a0f9",
-      "82908fcfdf7f599a",
-      "a6b8c9c223ea5942"
-    ],
-    "x": 1294,
-    "y": 4339,
-    "w": 492,
-    "h": 142
-  },
-  {
-    "id": "1e687cd4c0cc0ece",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "a3c29b70c82234cc",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "3eb59215b6fb19e2",
-      "ebdbee7baef678a6",
-      "3738b065c50a0cac",
-      "1d8f71c67df6cec9",
-      "341bc94dee8e9f96",
-      "247945a0f503ac90"
-    ],
-    "x": 94,
-    "y": 4339,
-    "w": 1162,
-    "h": 142
-  },
-  {
-    "id": "24eae452ebf32be6",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "72988ccecf802b11",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d4252f4120129d32",
-      "55db3023ac9ae3c1",
-      "a411175648a9f14e",
-      "1052950934d566bf"
-    ],
-    "x": 1294,
-    "y": 4099,
-    "w": 512,
-    "h": 142
-  },
-  {
-    "id": "cf382d5398b6de43",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "72988ccecf802b11",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c73c3b488741b764",
-      "85c0a8032c692a9a",
-      "c8d1b777a117ee56",
-      "be2acafce4c2c74d",
-      "11a6de1c96795b4d",
-      "e60cbfea876d91e7"
-    ],
-    "x": 94,
-    "y": 4099,
-    "w": 1162,
-    "h": 142
-  },
-  {
-    "id": "0bf16a20b9656c59",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "b9a706d9e4980c1e",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "b0b2d9829230be99",
-      "5d53068f8b9e6936",
-      "a7e18f888c96ad05",
-      "7a6db5a28141b284"
-    ],
-    "x": 1294,
-    "y": 3859,
-    "w": 512,
-    "h": 142
-  },
-  {
-    "id": "fee31a77e542b203",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "b9a706d9e4980c1e",
-    "name": "devices teleinfo",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c16f1ae420f44fb5",
-      "b491f7eb02575108",
-      "ca7f0d58c55a1358",
-      "3423fd727184042c",
-      "fa2acb5ac9bb8c8c",
-      "a34aeb4c51bcf655"
-    ],
-    "x": 94,
-    "y": 3859,
-    "w": 1162,
-    "h": 142
-  },
-  {
-    "id": "b40a3b0d2d310907",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "c7f0e1480df909e9",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "ac5c011465193c4e",
-      "6c324b24ca028984",
-      "3398dde44269eb08",
-      "08f26275ef69e598"
-    ],
-    "x": 1294,
-    "y": 3619,
-    "w": 512,
-    "h": 142
-  },
-  {
-    "id": "518b634fa908a4aa",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "c7f0e1480df909e9",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "5d0abf7735e4d38c",
-      "a3594a90f69fe537",
-      "0c032c944567a64d",
-      "fb76731a2064ad65",
-      "529f7e707934e514",
-      "7b89e1d6b81feb1d",
-      "57bd505da426547c"
-    ],
-    "x": 94,
-    "y": 3619,
-    "w": 1162,
-    "h": 142
-  },
-  {
-    "id": "ae4487a0bf7f922f",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "6c3162f93343ce7e",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "a4f8287c851b1796",
-      "de0c34e8104574b0",
-      "f0991abcca9403bc",
-      "a39cfa7867f1affb"
-    ],
-    "x": 1294,
-    "y": 3379,
-    "w": 512,
-    "h": 142
-  },
-  {
-    "id": "3ab6bcaac666ddc4",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "6c3162f93343ce7e",
-    "name": "",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "24a3e98a92c0d57d",
-      "ed6bcbd32e72afe1",
-      "be945e0c2c2208b0",
-      "735774bdb56f6be4",
-      "014d8a5287538444",
-      "03eacf7a446d906c"
-    ],
-    "x": 94,
-    "y": 3379,
-    "w": 1162,
     "h": 142
   },
   {
@@ -1217,7 +789,7 @@
     "to": "",
     "reg": false,
     "x": 6520,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "b2ccb6a2a248015d"
@@ -1245,7 +817,7 @@
     "to": "",
     "reg": false,
     "x": 6520,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "b2ccb6a2a248015d"
@@ -1273,7 +845,7 @@
     "to": "",
     "reg": false,
     "x": 6520,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "b2ccb6a2a248015d"
@@ -1301,7 +873,7 @@
     "to": "",
     "reg": false,
     "x": 6700,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "89d2eebcaafb5013"
@@ -1337,7 +909,7 @@
     "repair": false,
     "outputs": 3,
     "x": 6320,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "d318afa2a81e4ff9"
@@ -1363,7 +935,7 @@
       "de0c34e8104574b0"
     ],
     "x": 6835,
-    "y": 5040,
+    "y": 3600,
     "wires": []
   },
   {
@@ -1387,7 +959,7 @@
       "8e7510f792d7e993"
     ],
     "x": 6155,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "9c89a41128573752"
@@ -1411,7 +983,7 @@
     "repair": false,
     "outputs": 1,
     "x": 5520,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "a2d25db2ace537ae"
@@ -1440,7 +1012,7 @@
       "366f7377fd513760"
     ],
     "x": 5975,
-    "y": 4980,
+    "y": 3540,
     "wires": []
   },
   {
@@ -1460,7 +1032,7 @@
     "repair": false,
     "outputs": 1,
     "x": 5850,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "637b84024e725f38"
@@ -1484,7 +1056,7 @@
     "repair": false,
     "outputs": 1,
     "x": 5690,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "282bb73eb4892ab9"
@@ -1533,7 +1105,7 @@
     "to": "",
     "reg": false,
     "x": 5330,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "f61f5fe80ddf6ff1"
@@ -1550,7 +1122,7 @@
       "031a6afd8300356a"
     ],
     "x": 5175,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "a4e3db9cc35fc9eb"
@@ -1578,7 +1150,7 @@
     "to": "",
     "reg": false,
     "x": 3740,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "5e3cb9bb3266089b"
@@ -1607,7 +1179,7 @@
     "repair": false,
     "outputs": 2,
     "x": 3570,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "70ae9d85820c14fb"
@@ -1636,7 +1208,7 @@
     "topic": "path",
     "outputs": 1,
     "x": 4180,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "83e8a9fa324dd4b9"
@@ -1664,7 +1236,7 @@
     "to": "",
     "reg": false,
     "x": 4400,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "0b32686fe74c253f"
@@ -1697,7 +1269,7 @@
     "to": "",
     "reg": false,
     "x": 4840,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "06581753b7673f83"
@@ -1726,7 +1298,7 @@
     "repair": false,
     "outputs": 2,
     "x": 4620,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "51b002c497ad57cd"
@@ -1771,7 +1343,7 @@
     "to": "",
     "reg": false,
     "x": 3950,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "bb1e8e34559c5a7f"
@@ -1789,7 +1361,7 @@
       "206c1fb4a48067df"
     ],
     "x": 4995,
-    "y": 4980,
+    "y": 3540,
     "wires": []
   },
   {
@@ -1825,7 +1397,7 @@
       "5d76905ae805599d"
     ],
     "x": 3435,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "06581753b7673f83",
@@ -1854,7 +1426,7 @@
     "to": "",
     "reg": false,
     "x": 2970,
-    "y": 5080,
+    "y": 3640,
     "wires": [
       [
         "d34f38f155583ff7"
@@ -1883,7 +1455,7 @@
     "repair": false,
     "outputs": 2,
     "x": 2810,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "d34f38f155583ff7"
@@ -1921,7 +1493,7 @@
     "to": "",
     "reg": false,
     "x": 2640,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "4908c2284e498338"
@@ -1970,7 +1542,7 @@
     "to": "",
     "reg": false,
     "x": 2420,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "5891781e4a61525a"
@@ -2038,7 +1610,7 @@
     "to": "",
     "reg": false,
     "x": 3130,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "24058eec92534b27"
@@ -2087,7 +1659,7 @@
     "to": "",
     "reg": false,
     "x": 2420,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "5891781e4a61525a"
@@ -2128,7 +1700,7 @@
       "2095d2a63909780c"
     ],
     "x": 3255,
-    "y": 5040,
+    "y": 3600,
     "wires": []
   },
   {
@@ -2173,7 +1745,7 @@
     "to": "",
     "reg": false,
     "x": 2420,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "5891781e4a61525a"
@@ -2209,7 +1781,7 @@
     "repair": false,
     "outputs": 3,
     "x": 2180,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "1ceced58d0c32e85"
@@ -2243,7 +1815,7 @@
     "to": "",
     "reg": false,
     "x": 1980,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "ac4653be6ea01477"
@@ -2262,7 +1834,7 @@
       "ed6bcbd32e72afe1"
     ],
     "x": 1835,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "30220f4fe07e35a4"
@@ -2290,7 +1862,7 @@
     "to": "",
     "reg": false,
     "x": 1340,
-    "y": 4920,
+    "y": 3480,
     "wires": [
       [
         "e6d11d0438e20b80"
@@ -2319,7 +1891,7 @@
     "repair": false,
     "outputs": 2,
     "x": 1130,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       [
         "b08802b0dbd9a58b"
@@ -2364,7 +1936,7 @@
     "to": "",
     "reg": false,
     "x": 1150,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "80459ca7317cce90"
@@ -2393,7 +1965,7 @@
     "repair": false,
     "outputs": 2,
     "x": 930,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "561aaceffe076a5d",
@@ -2425,7 +1997,7 @@
     "to": "",
     "reg": false,
     "x": 1580,
-    "y": 4980,
+    "y": 3540,
     "wires": [
       []
     ]
@@ -2441,7 +2013,7 @@
       "bfa594bf1f876c92"
     ],
     "x": 1315,
-    "y": 5100,
+    "y": 3660,
     "wires": []
   },
   {
@@ -2480,7 +2052,7 @@
       "73d4e0dc30041c36"
     ],
     "x": 775,
-    "y": 5100,
+    "y": 3660,
     "wires": [
       [
         "0ff47b07b863d0ae"
@@ -2524,7 +2096,7 @@
       "fdbf3fd639e2816d"
     ],
     "x": 435,
-    "y": 5040,
+    "y": 3600,
     "wires": []
   },
   {
@@ -2542,7 +2114,7 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 540,
-    "y": 4980,
+    "y": 3540,
     "wires": []
   },
   {
@@ -2559,7 +2131,7 @@
     "finalize": "\n",
     "libs": [],
     "x": 290,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "7f1a03ba2d4eb5d1"
@@ -2597,7 +2169,7 @@
       "f3afc9e6821ad3a2"
     ],
     "x": 135,
-    "y": 5040,
+    "y": 3600,
     "wires": [
       [
         "c3d88e1872a9789b"
@@ -2636,8 +2208,8 @@
     "links": [
       "bfa594bf1f876c92"
     ],
-    "x": 595,
-    "y": 5340,
+    "x": 615,
+    "y": 3900,
     "wires": []
   },
   {
@@ -2649,8 +2221,8 @@
     "links": [
       "25445f5a9b787a0a"
     ],
-    "x": 135,
-    "y": 5340,
+    "x": 155,
+    "y": 3900,
     "wires": [
       [
         "840c05ce502e7fdd"
@@ -2705,8 +2277,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 370,
-    "y": 5340,
+    "x": 390,
+    "y": 3900,
     "wires": [
       [
         "7f76434616f622dc"
@@ -2723,8 +2295,8 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 1095,
-    "y": 5340,
+    "x": 1115,
+    "y": 3900,
     "wires": []
   },
   {
@@ -2773,8 +2345,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 910,
-    "y": 5340,
+    "x": 930,
+    "y": 3900,
     "wires": [
       [
         "f02b4584af0d800c"
@@ -2790,8 +2362,8 @@
     "links": [
       "94c79b8f52f0b6ba"
     ],
-    "x": 715,
-    "y": 5340,
+    "x": 735,
+    "y": 3900,
     "wires": [
       [
         "1b98c37b3b7502e4"
@@ -2991,1450 +2563,6 @@
     "wires": [
       [
         "004bb30c27c94fb4"
-      ]
-    ]
-  },
-  {
-    "id": "d8b85eb94b57b81f",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "234feecbe12db6fa",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^(hermes|rhasspy)",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1470,
-    "y": 4620,
-    "wires": [
-      [
-        "d07502e0620ed3d9",
-        "4db395b3e8fa404f"
-      ]
-    ]
-  },
-  {
-    "id": "4db395b3e8fa404f",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "234feecbe12db6fa",
-    "name": "mqtt rhasspy output",
-    "mode": "link",
-    "links": [
-      "833f9ea0770f6e5a"
-    ],
-    "x": 1635,
-    "y": 4680,
-    "wires": []
-  },
-  {
-    "id": "4cfd419f66b58eda",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "234feecbe12db6fa",
-    "name": "mqtt rhasspy",
-    "links": [
-      "10aafa2119bcdcac",
-      "2c561a436a935bc6"
-    ],
-    "x": 1335,
-    "y": 4620,
-    "wires": [
-      [
-        "d8b85eb94b57b81f"
-      ]
-    ]
-  },
-  {
-    "id": "d07502e0620ed3d9",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "234feecbe12db6fa",
-    "name": "MQTT rhasspy",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "442ad702808e3c66",
-    "x": 1700,
-    "y": 4620,
-    "wires": []
-  },
-  {
-    "id": "da4da5b15f106b4a",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "MQTT rhasspy",
-    "topic": "hermes/intent/#",
-    "qos": "2",
-    "datatype": "json",
-    "broker": "442ad702808e3c66",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 200,
-    "y": 4620,
-    "wires": [
-      [
-        "9518f42686aaf99c"
-      ]
-    ]
-  },
-  {
-    "id": "6d6bcbb7ce10198f",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 4620,
-    "wires": [
-      [
-        "81b03b89f507e5ce"
-      ]
-    ]
-  },
-  {
-    "id": "9518f42686aaf99c",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "50 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "50",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 390,
-    "y": 4620,
-    "wires": [
-      [
-        "3eda424ef17379e9"
-      ]
-    ]
-  },
-  {
-    "id": "af3082ef59725979",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "mqtt rhasspy gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 4680,
-    "wires": [
-      [
-        "3eda424ef17379e9"
-      ]
-    ]
-  },
-  {
-    "id": "3eda424ef17379e9",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 4620,
-    "wires": [
-      [
-        "6d6bcbb7ce10198f"
-      ]
-    ]
-  },
-  {
-    "id": "81b03b89f507e5ce",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "a23c2aa7e24eb8f7",
-    "name": "mqtt rhasspy",
-    "mode": "link",
-    "links": [],
-    "x": 1215,
-    "y": 4620,
-    "wires": []
-  },
-  {
-    "id": "a6b8c9c223ea5942",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "b5e2408a7d09537d",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^zwave",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1490,
-    "y": 4380,
-    "wires": [
-      [
-        "92d0d0a5798c06cf",
-        "82908fcfdf7f599a"
-      ]
-    ]
-  },
-  {
-    "id": "82908fcfdf7f599a",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "b5e2408a7d09537d",
-    "name": "mqtt zwave output",
-    "mode": "link",
-    "links": [
-      "ca89a4baa1806e71",
-      "ab63acc660e32a18",
-      "0ed67256bb147e2b"
-    ],
-    "x": 1635,
-    "y": 4440,
-    "wires": []
-  },
-  {
-    "id": "62dd3e8d6c87a0f9",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "b5e2408a7d09537d",
-    "name": "mqtt zwave",
-    "links": [
-      "a28b7b24c0ae9f8c",
-      "a02f78ffaedc9739",
-      "bccc33b4c0db9760",
-      "1c422d2c16125ca4",
-      "a06f150e72b873f2",
-      "eb69b7f3d6f894e3",
-      "f887adfd6fa075c2",
-      "2be05ddfe63b7313",
-      "648fbe7936a6e771",
-      "db4fcb97194bacd4",
-      "5ff9bf33eef6edea",
-      "4af3a6003798549f",
-      "a4f551d4cf84d1fe",
-      "9155daed44745330",
-      "9678ea31a895d9f4",
-      "433ea1c0deda2243",
-      "e96ba8b040e58218",
-      "41eb5aee9b16405c",
-      "2dfc7db2679a7eca",
-      "4f46e6e1244003c5",
-      "87b36faadc498428",
-      "b8e5f320e0d5e119",
-      "8a93f83ac805403e",
-      "f531075e0ccd5d1d",
-      "89d2eebcaafb5013",
-      "5f9d0ad90e63e256"
-    ],
-    "x": 1335,
-    "y": 4380,
-    "wires": [
-      [
-        "a6b8c9c223ea5942"
-      ]
-    ]
-  },
-  {
-    "id": "92d0d0a5798c06cf",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "b5e2408a7d09537d",
-    "name": "MQTT zwave",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "0bd651126b27aac6",
-    "x": 1690,
-    "y": 4380,
-    "wires": []
-  },
-  {
-    "id": "247945a0f503ac90",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 4380,
-    "wires": [
-      [
-        "ebdbee7baef678a6"
-      ]
-    ]
-  },
-  {
-    "id": "341bc94dee8e9f96",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "50 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "50",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 390,
-    "y": 4380,
-    "wires": [
-      [
-        "3738b065c50a0cac"
-      ]
-    ]
-  },
-  {
-    "id": "1d8f71c67df6cec9",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "mqtt zwave gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 4440,
-    "wires": [
-      [
-        "3738b065c50a0cac"
-      ]
-    ]
-  },
-  {
-    "id": "3738b065c50a0cac",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 4380,
-    "wires": [
-      [
-        "247945a0f503ac90"
-      ]
-    ]
-  },
-  {
-    "id": "ebdbee7baef678a6",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "mqtt zwave",
-    "mode": "link",
-    "links": [
-      "0c42605d4e17f7c0",
-      "13d4b6546b6078c4",
-      "1674f27502adab2b",
-      "28bd5077f8af7155",
-      "3fa1505cc54c0a4a",
-      "6004623d39fd780d",
-      "60cdba59b6867a2c",
-      "882213638ae51376",
-      "8f1673c23cf67a9b",
-      "ae31619e220a07e2",
-      "b51e54b87cd8c281",
-      "db5ad7caf20f44e5",
-      "dbfdf715d2b6b0d5",
-      "f3685659add53893",
-      "21aa9d233920d3db",
-      "dcdb87d31c193475",
-      "dc42210872f30fd1",
-      "e21569bf7b9d08f6",
-      "51b478fd1f7bbfe9",
-      "da24d3cb7f933d8e",
-      "8a735409075bf432",
-      "9379fef014648636",
-      "4c78ee51560912b7",
-      "c634be35fddbb9e8",
-      "7a413720d3c10ba8",
-      "e2cf426558bd0b60",
-      "46f5b6984edcc88f",
-      "b4c41faf6220fb5d",
-      "dd07962707cadbc4",
-      "3be6b8c3d6485c46",
-      "ba77500cd9f7f6da",
-      "b7b008f170dcc07f"
-    ],
-    "x": 1215,
-    "y": 4380,
-    "wires": []
-  },
-  {
-    "id": "3eb59215b6fb19e2",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "1e687cd4c0cc0ece",
-    "name": "MQTT zwave",
-    "topic": "zwave/#",
-    "qos": "2",
-    "datatype": "auto-detect",
-    "broker": "0bd651126b27aac6",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 190,
-    "y": 4380,
-    "wires": [
-      [
-        "341bc94dee8e9f96"
-      ]
-    ]
-  },
-  {
-    "id": "1052950934d566bf",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "24eae452ebf32be6",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^ble",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1490,
-    "y": 4140,
-    "wires": [
-      [
-        "d4252f4120129d32",
-        "a411175648a9f14e"
-      ]
-    ]
-  },
-  {
-    "id": "a411175648a9f14e",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "24eae452ebf32be6",
-    "name": "mqtt bluetooth output",
-    "mode": "link",
-    "links": [
-      "3ce812bf89416c2e",
-      "b5e020af24b6c81a",
-      "824a1416d7a3cfe1"
-    ],
-    "x": 1635,
-    "y": 4200,
-    "wires": []
-  },
-  {
-    "id": "55db3023ac9ae3c1",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "d": true,
-    "g": "24eae452ebf32be6",
-    "name": "mqtt bluetooth",
-    "links": [],
-    "x": 1335,
-    "y": 4140,
-    "wires": [
-      [
-        "1052950934d566bf"
-      ]
-    ]
-  },
-  {
-    "id": "d4252f4120129d32",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "24eae452ebf32be6",
-    "name": "MQTT bluetooth",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "ef0a4a5a649e056f",
-    "x": 1700,
-    "y": 4140,
-    "wires": []
-  },
-  {
-    "id": "e60cbfea876d91e7",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 4140,
-    "wires": [
-      [
-        "85c0a8032c692a9a"
-      ]
-    ]
-  },
-  {
-    "id": "11a6de1c96795b4d",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "100 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "100",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 390,
-    "y": 4140,
-    "wires": [
-      [
-        "c8d1b777a117ee56"
-      ]
-    ]
-  },
-  {
-    "id": "be2acafce4c2c74d",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "mqtt bluetooth gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 4200,
-    "wires": [
-      [
-        "c8d1b777a117ee56"
-      ]
-    ]
-  },
-  {
-    "id": "c8d1b777a117ee56",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 4140,
-    "wires": [
-      [
-        "e60cbfea876d91e7"
-      ]
-    ]
-  },
-  {
-    "id": "85c0a8032c692a9a",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "mqtt bluetooth",
-    "mode": "link",
-    "links": [
-      "60e7ca843ea8f2e0"
-    ],
-    "x": 1215,
-    "y": 4140,
-    "wires": []
-  },
-  {
-    "id": "c73c3b488741b764",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "cf382d5398b6de43",
-    "name": "MQTT bluetooth",
-    "topic": "ble/+/#",
-    "qos": "2",
-    "datatype": "auto-detect",
-    "broker": "ef0a4a5a649e056f",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 200,
-    "y": 4140,
-    "wires": [
-      [
-        "11a6de1c96795b4d"
-      ]
-    ]
-  },
-  {
-    "id": "7a6db5a28141b284",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "0bf16a20b9656c59",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^teleinfo",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1490,
-    "y": 3900,
-    "wires": [
-      [
-        "b0b2d9829230be99",
-        "a7e18f888c96ad05"
-      ]
-    ]
-  },
-  {
-    "id": "a7e18f888c96ad05",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "0bf16a20b9656c59",
-    "name": "mqtt teleinfo output",
-    "mode": "link",
-    "links": [],
-    "x": 1635,
-    "y": 3960,
-    "wires": []
-  },
-  {
-    "id": "5d53068f8b9e6936",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "d": true,
-    "g": "0bf16a20b9656c59",
-    "name": "mqtt teleinfo",
-    "links": [],
-    "x": 1335,
-    "y": 3900,
-    "wires": [
-      [
-        "7a6db5a28141b284"
-      ]
-    ]
-  },
-  {
-    "id": "b0b2d9829230be99",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "0bf16a20b9656c59",
-    "name": "MQTT teleinfo",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "d6ba6007b1901314",
-    "x": 1700,
-    "y": 3900,
-    "wires": []
-  },
-  {
-    "id": "a34aeb4c51bcf655",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 3900,
-    "wires": [
-      [
-        "b491f7eb02575108"
-      ]
-    ]
-  },
-  {
-    "id": "fa2acb5ac9bb8c8c",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "20 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "20",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 390,
-    "y": 3900,
-    "wires": [
-      [
-        "ca7f0d58c55a1358"
-      ]
-    ]
-  },
-  {
-    "id": "3423fd727184042c",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "mqtt teleinfo gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 3960,
-    "wires": [
-      [
-        "ca7f0d58c55a1358"
-      ]
-    ]
-  },
-  {
-    "id": "ca7f0d58c55a1358",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 3900,
-    "wires": [
-      [
-        "a34aeb4c51bcf655"
-      ]
-    ]
-  },
-  {
-    "id": "b491f7eb02575108",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "mqtt teleinfo",
-    "mode": "link",
-    "links": [
-      "112f15815d373541",
-      "44a6b39d960c738d",
-      "acc79920bf40652d"
-    ],
-    "x": 1215,
-    "y": 3900,
-    "wires": []
-  },
-  {
-    "id": "c16f1ae420f44fb5",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "fee31a77e542b203",
-    "name": "MQTT teleinfo",
-    "topic": "teleinfo/#",
-    "qos": "2",
-    "datatype": "auto-detect",
-    "broker": "d6ba6007b1901314",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 190,
-    "y": 3900,
-    "wires": [
-      [
-        "fa2acb5ac9bb8c8c"
-      ]
-    ]
-  },
-  {
-    "id": "08f26275ef69e598",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "b40a3b0d2d310907",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^zigbee",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1490,
-    "y": 3660,
-    "wires": [
-      [
-        "ac5c011465193c4e",
-        "3398dde44269eb08"
-      ]
-    ]
-  },
-  {
-    "id": "3398dde44269eb08",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "b40a3b0d2d310907",
-    "name": "mqtt zigbee output",
-    "mode": "link",
-    "links": [
-      "c4571e81ac381f3e",
-      "76a866f04ab291ef",
-      "b2547f7ff4878848"
-    ],
-    "x": 1625,
-    "y": 3720,
-    "wires": []
-  },
-  {
-    "id": "6c324b24ca028984",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "b40a3b0d2d310907",
-    "name": "mqtt zigbee",
-    "links": [
-      "89d2eebcaafb5013"
-    ],
-    "x": 1335,
-    "y": 3660,
-    "wires": [
-      [
-        "08f26275ef69e598"
-      ]
-    ]
-  },
-  {
-    "id": "ac5c011465193c4e",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "b40a3b0d2d310907",
-    "name": "MQTT zigbee",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "8b2a4e4f622431e7",
-    "x": 1700,
-    "y": 3660,
-    "wires": []
-  },
-  {
-    "id": "57bd505da426547c",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "ignore \"bridge\" path",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^zigbee/bridge",
-        "vt": "str",
-        "case": false
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 790,
-    "y": 3660,
-    "wires": [
-      [],
-      [
-        "7b89e1d6b81feb1d"
-      ]
-    ]
-  },
-  {
-    "id": "7b89e1d6b81feb1d",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 3660,
-    "wires": [
-      [
-        "a3594a90f69fe537"
-      ]
-    ]
-  },
-  {
-    "id": "529f7e707934e514",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "50 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "50",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 390,
-    "y": 3660,
-    "wires": [
-      [
-        "0c032c944567a64d"
-      ]
-    ]
-  },
-  {
-    "id": "fb76731a2064ad65",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "mqtt zigbee gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 3720,
-    "wires": [
-      [
-        "0c032c944567a64d"
-      ]
-    ]
-  },
-  {
-    "id": "0c032c944567a64d",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 3660,
-    "wires": [
-      [
-        "57bd505da426547c"
-      ]
-    ]
-  },
-  {
-    "id": "a3594a90f69fe537",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "mqtt zigbee",
-    "mode": "link",
-    "links": [
-      "85491b834d936a64",
-      "688beab146efae13",
-      "b07f193a0642cf53",
-      "a06c81c7dbe18d43",
-      "3be6b8c3d6485c46",
-      "ba77500cd9f7f6da"
-    ],
-    "x": 1215,
-    "y": 3660,
-    "wires": []
-  },
-  {
-    "id": "5d0abf7735e4d38c",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "518b634fa908a4aa",
-    "name": "MQTT zigbee",
-    "topic": "zigbee/#",
-    "qos": "2",
-    "datatype": "auto-detect",
-    "broker": "8b2a4e4f622431e7",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 190,
-    "y": 3660,
-    "wires": [
-      [
-        "529f7e707934e514"
-      ]
-    ]
-  },
-  {
-    "id": "a39cfa7867f1affb",
-    "type": "switch",
-    "z": "ab51b1e8cad7b700",
-    "g": "ae4487a0bf7f922f",
-    "name": "check topic",
-    "property": "topic",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "regex",
-        "v": "^rfxcom2mqtt",
-        "vt": "str",
-        "case": false
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1490,
-    "y": 3420,
-    "wires": [
-      [
-        "a4f8287c851b1796",
-        "f0991abcca9403bc"
-      ]
-    ]
-  },
-  {
-    "id": "f0991abcca9403bc",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "ae4487a0bf7f922f",
-    "name": "mqtt rfxcom output",
-    "mode": "link",
-    "links": [
-      "881b1ed942ae2f5d",
-      "e1bd888198e8ad2b",
-      "4c77acdbe9fb09c9",
-      "dff88b670b073ad9"
-    ],
-    "x": 1635,
-    "y": 3480,
-    "wires": []
-  },
-  {
-    "id": "de0c34e8104574b0",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "ae4487a0bf7f922f",
-    "name": "mqtt rfxcom",
-    "links": [
-      "89d2eebcaafb5013"
-    ],
-    "x": 1335,
-    "y": 3420,
-    "wires": [
-      [
-        "a39cfa7867f1affb"
-      ]
-    ]
-  },
-  {
-    "id": "a4f8287c851b1796",
-    "type": "mqtt out",
-    "z": "ab51b1e8cad7b700",
-    "g": "ae4487a0bf7f922f",
-    "name": "MQTT rfxcom",
-    "topic": "",
-    "qos": "",
-    "retain": "",
-    "respTopic": "",
-    "contentType": "",
-    "userProps": "",
-    "correl": "",
-    "expiry": "",
-    "broker": "cdd708cca8782382",
-    "x": 1700,
-    "y": 3420,
-    "wires": []
-  },
-  {
-    "id": "03eacf7a446d906c",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "raz MQTT properties",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "qos",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "retain",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 3420,
-    "wires": [
-      [
-        "ed6bcbd32e72afe1"
-      ]
-    ]
-  },
-  {
-    "id": "014d8a5287538444",
-    "type": "delay",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "100 msg / s",
-    "pauseType": "rate",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "100",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 410,
-    "y": 3420,
-    "wires": [
-      [
-        "be945e0c2c2208b0"
-      ]
-    ]
-  },
-  {
-    "id": "735774bdb56f6be4",
-    "type": "link in",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "mqtt rfxcom gate",
-    "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
-    ],
-    "x": 455,
-    "y": 3480,
-    "wires": [
-      [
-        "be945e0c2c2208b0"
-      ]
-    ]
-  },
-  {
-    "id": "be945e0c2c2208b0",
-    "type": "q-gate",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 3420,
-    "wires": [
-      [
-        "03eacf7a446d906c"
-      ]
-    ]
-  },
-  {
-    "id": "ed6bcbd32e72afe1",
-    "type": "link out",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "mqtt rfxcom",
-    "mode": "link",
-    "links": [
-      "2dba8c9110e069a7",
-      "35e7aab1f0314355",
-      "5d58266f86a39f1a",
-      "617755f6bb1e2972",
-      "6390818317da9a22",
-      "8a3a49343040e9dd",
-      "92c37a3c88284082",
-      "aeec616505632135",
-      "beb26a3a88ba29ec",
-      "c55d2fbe9a6e0312",
-      "ca854a261959d5e3",
-      "cd0b7dc3cdbb9e58",
-      "dac6324a7409b4c0",
-      "dfe710104e247c4c",
-      "e6048bb9f2a4ecee",
-      "3256d8e9e4075f1f",
-      "d53118042e7346dc",
-      "3be6b8c3d6485c46",
-      "ba77500cd9f7f6da",
-      "bd614b03c17a2dcd",
-      "0e9fc0eb536659f8"
-    ],
-    "x": 1215,
-    "y": 3420,
-    "wires": []
-  },
-  {
-    "id": "24a3e98a92c0d57d",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "3ab6bcaac666ddc4",
-    "name": "MQTT rfxcom",
-    "topic": "rfxcom2mqtt/devices/#",
-    "qos": "2",
-    "datatype": "auto-detect",
-    "broker": "cdd708cca8782382",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 190,
-    "y": 3420,
-    "wires": [
-      [
-        "014d8a5287538444"
       ]
     ]
   },
@@ -7339,7 +5467,12 @@
       "1f0752e42a5e6a86",
       "a7ec84c30a5b9423",
       "cf9ef266c6a8ce02",
-      "7544f23d7669ef75"
+      "7544f23d7669ef75",
+      "06a2c66e1e278b6a",
+      "c0f802fd747208b3",
+      "d129c40c48c09bac",
+      "87bee795cb96b8ec",
+      "2260fb9363658a31"
     ],
     "x": 2075,
     "y": 600,
@@ -7608,7 +5741,9 @@
       "3859758a7fa85959",
       "869dcd5abf4c9bb5",
       "af6e09cdd2199095",
-      "d69c9016584d1fd3"
+      "d69c9016584d1fd3",
+      "f91e7a1c2c512a0e",
+      "8257f8177d899a49"
     ],
     "x": 135,
     "y": 2880,

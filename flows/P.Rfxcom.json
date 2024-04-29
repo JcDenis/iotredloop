@@ -22,7 +22,7 @@
       "964bf809761a572e"
     ],
     "x": 68,
-    "y": 173,
+    "y": 413,
     "w": 1714,
     "h": 314
   },
@@ -41,7 +41,7 @@
       "648c017fa768efff"
     ],
     "x": 68,
-    "y": 533,
+    "y": 773,
     "w": 2354,
     "h": 194
   },
@@ -60,7 +60,7 @@
       "315a7d88b33ec298"
     ],
     "x": 2508,
-    "y": 173,
+    "y": 413,
     "w": 2394,
     "h": 194
   },
@@ -79,7 +79,7 @@
       "f3fbbcf1b5165983"
     ],
     "x": 2508,
-    "y": 413,
+    "y": 653,
     "w": 2714,
     "h": 314
   },
@@ -106,7 +106,7 @@
       "f86e15a9805df2eb"
     ],
     "x": 94,
-    "y": 199,
+    "y": 439,
     "w": 862,
     "h": 262
   },
@@ -131,7 +131,7 @@
       "0a2fa3c2042de32b"
     ],
     "x": 1054,
-    "y": 199,
+    "y": 439,
     "w": 702,
     "h": 202
   },
@@ -156,7 +156,7 @@
       "0c79eda0b1819a61"
     ],
     "x": 94,
-    "y": 559,
+    "y": 799,
     "w": 882,
     "h": 142
   },
@@ -183,7 +183,7 @@
       "559501a6882a7e03"
     ],
     "x": 1074,
-    "y": 559,
+    "y": 799,
     "w": 1322,
     "h": 142
   },
@@ -213,7 +213,7 @@
       "8a80d7d04901125e"
     ],
     "x": 3514,
-    "y": 199,
+    "y": 439,
     "w": 1362,
     "h": 142
   },
@@ -238,7 +238,7 @@
       "5b20e4596518419e"
     ],
     "x": 2534,
-    "y": 199,
+    "y": 439,
     "w": 882,
     "h": 142
   },
@@ -275,7 +275,7 @@
       "6d3f4589b84a4ae0"
     ],
     "x": 3494,
-    "y": 439,
+    "y": 679,
     "w": 1702,
     "h": 262
   },
@@ -301,7 +301,7 @@
       "802a3e81458149bc"
     ],
     "x": 2534,
-    "y": 439,
+    "y": 679,
     "w": 862,
     "h": 202
   },
@@ -324,6 +324,93 @@
     "x": 534,
     "y": 19,
     "w": 422,
+    "h": 82
+  },
+  {
+    "id": "6c3162f93343ce7e",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "mqtt server for rfxcom",
+    "style": {
+      "fill": "#ffffff",
+      "fill-opacity": "0.5",
+      "label": true,
+      "stroke": "#0070c0"
+    },
+    "nodes": [
+      "3ab6bcaac666ddc4",
+      "ae4487a0bf7f922f"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1764,
+    "h": 194
+  },
+  {
+    "id": "3ab6bcaac666ddc4",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "6c3162f93343ce7e",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "24a3e98a92c0d57d",
+      "ed6bcbd32e72afe1",
+      "be945e0c2c2208b0",
+      "735774bdb56f6be4",
+      "014d8a5287538444",
+      "03eacf7a446d906c"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 1162,
+    "h": 142
+  },
+  {
+    "id": "ae4487a0bf7f922f",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "6c3162f93343ce7e",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a4f8287c851b1796",
+      "de0c34e8104574b0",
+      "f0991abcca9403bc",
+      "a39cfa7867f1affb"
+    ],
+    "x": 1294,
+    "y": 199,
+    "w": 512,
+    "h": 142
+  },
+  {
+    "id": "f391c9146d7bbd74",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "rfxcom - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "21ece2cf0225f84c",
+      "c0f802fd747208b3",
+      "957e5c162598e005"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
     "h": 82
   },
   {
@@ -368,7 +455,7 @@
     "to": "",
     "reg": false,
     "x": 520,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "05b9c831fcbc4327"
@@ -417,7 +504,7 @@
     "to": "",
     "reg": false,
     "x": 510,
-    "y": 360,
+    "y": 600,
     "wires": [
       [
         "05b9c831fcbc4327"
@@ -466,7 +553,7 @@
     "to": "",
     "reg": false,
     "x": 500,
-    "y": 420,
+    "y": 660,
     "wires": [
       [
         "05b9c831fcbc4327"
@@ -492,7 +579,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "c7c9dbd511ce3178",
@@ -512,7 +599,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 135,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "1868c54d6625f422"
@@ -554,7 +641,7 @@
     "to": "",
     "reg": false,
     "x": 520,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "05b9c831fcbc4327"
@@ -582,7 +669,7 @@
     "to": "",
     "reg": false,
     "x": 780,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "919ec72b0122125e"
@@ -600,7 +687,7 @@
       "3e1b4213132404be"
     ],
     "x": 915,
-    "y": 240,
+    "y": 480,
     "wires": []
   },
   {
@@ -611,7 +698,7 @@
     "name": "temperature / probe",
     "info": "",
     "x": 210,
-    "y": 300,
+    "y": 540,
     "wires": []
   },
   {
@@ -649,7 +736,7 @@
     "to": "",
     "reg": false,
     "x": 1570,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "0a2fa3c2042de32b"
@@ -691,7 +778,7 @@
     "to": "",
     "reg": false,
     "x": 1560,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "0a2fa3c2042de32b"
@@ -740,7 +827,7 @@
     "to": "",
     "reg": false,
     "x": 1550,
-    "y": 360,
+    "y": 600,
     "wires": [
       [
         "0a2fa3c2042de32b"
@@ -757,7 +844,7 @@
       "24058eec92534b27"
     ],
     "x": 1095,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "ba66e66c54a87e85"
@@ -783,7 +870,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1230,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "bc5e8eb38502426b"
@@ -809,7 +896,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1390,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "05b01da832e8dc8e",
@@ -829,7 +916,7 @@
       "14a0a0839924964f"
     ],
     "x": 1715,
-    "y": 240,
+    "y": 480,
     "wires": []
   },
   {
@@ -874,7 +961,7 @@
     "to": "",
     "reg": false,
     "x": 520,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "58a1beac4e88a457"
@@ -891,7 +978,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 135,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "3f944b3a650ccb02"
@@ -917,7 +1004,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "2069657998805215",
@@ -960,7 +1047,7 @@
     "to": "",
     "reg": false,
     "x": 530,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "58a1beac4e88a457"
@@ -988,7 +1075,7 @@
     "to": "",
     "reg": false,
     "x": 800,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "64209e9b32b3069e"
@@ -1006,7 +1093,7 @@
       "3e1b4213132404be"
     ],
     "x": 935,
-    "y": 600,
+    "y": 840,
     "wires": []
   },
   {
@@ -1017,7 +1104,7 @@
     "name": "motion / sensor",
     "info": "",
     "x": 200,
-    "y": 660,
+    "y": 900,
     "wires": []
   },
   {
@@ -1033,7 +1120,7 @@
     "to": "",
     "reg": false,
     "x": 2220,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "1ed7593011ad6d9d"
@@ -1061,7 +1148,7 @@
     "to": "",
     "reg": false,
     "x": 1580,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "846e71a382cb0e4a",
@@ -1086,7 +1173,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1750,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "e9e3a2077a1fb722"
@@ -1112,7 +1199,7 @@
     "topic": "topic",
     "outputs": 1,
     "x": 1820,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "559501a6882a7e03"
@@ -1129,7 +1216,7 @@
       "24058eec92534b27"
     ],
     "x": 1115,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "18d6239a83c542f6"
@@ -1155,7 +1242,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1250,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "b1b7d0d0ebcf09f8"
@@ -1181,7 +1268,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1410,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "582fd41fd3f9077e"
@@ -1199,7 +1286,7 @@
       "14a0a0839924964f"
     ],
     "x": 2355,
-    "y": 600,
+    "y": 840,
     "wires": []
   },
   {
@@ -1223,7 +1310,7 @@
     "to": "",
     "reg": false,
     "x": 2050,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "e9e3a2077a1fb722"
@@ -1258,7 +1345,7 @@
     "to": "",
     "reg": false,
     "x": 4700,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "8a80d7d04901125e"
@@ -1289,7 +1376,7 @@
     "repair": false,
     "outputs": 2,
     "x": 4350,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "cfd7f4d7cb8008c2"
@@ -1320,7 +1407,7 @@
     "to": "",
     "reg": false,
     "x": 4520,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "4d6edf0867a50f9d"
@@ -1346,7 +1433,7 @@
     "repair": false,
     "outputs": 1,
     "x": 4190,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "c54311f816c57545"
@@ -1372,7 +1459,7 @@
     "repair": false,
     "outputs": 1,
     "x": 4030,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "625e790911e89ba5"
@@ -1395,7 +1482,7 @@
     "persist": false,
     "storeName": "default",
     "x": 3870,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "396a3bfdb0718a53"
@@ -1412,7 +1499,7 @@
       "94c79b8f52f0b6ba"
     ],
     "x": 3555,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "ada8e99555ab016e"
@@ -1438,7 +1525,7 @@
     "topic": "topic",
     "outputs": 1,
     "x": 3700,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "daf0d80c53e0db5f"
@@ -1453,7 +1540,7 @@
     "name": "Do not replay command from mqtt on startup",
     "info": "",
     "x": 3990,
-    "y": 240,
+    "y": 480,
     "wires": []
   },
   {
@@ -1466,7 +1553,7 @@
       "24058eec92534b27"
     ],
     "x": 3555,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "c04bcd7a0e7a788c"
@@ -1492,7 +1579,7 @@
     "repair": false,
     "outputs": 1,
     "x": 3690,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "daf0d80c53e0db5f"
@@ -1510,7 +1597,7 @@
       "14a0a0839924964f"
     ],
     "x": 4835,
-    "y": 300,
+    "y": 540,
     "wires": []
   },
   {
@@ -1555,7 +1642,7 @@
     "to": "",
     "reg": false,
     "x": 2970,
-    "y": 300,
+    "y": 540,
     "wires": [
       [
         "9648a5fa00b709ec"
@@ -1572,7 +1659,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 2575,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "31b02672ea156965"
@@ -1598,7 +1685,7 @@
     "repair": false,
     "outputs": 1,
     "x": 2710,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "4b701431b4a2a6cf",
@@ -1627,7 +1714,7 @@
     "to": "",
     "reg": false,
     "x": 3240,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "76e4299fa08ddb99"
@@ -1645,7 +1732,7 @@
       "3e1b4213132404be"
     ],
     "x": 3375,
-    "y": 240,
+    "y": 480,
     "wires": []
   },
   {
@@ -1656,7 +1743,7 @@
     "name": "command / remote",
     "info": "",
     "x": 2650,
-    "y": 300,
+    "y": 540,
     "wires": []
   },
   {
@@ -1694,7 +1781,7 @@
     "to": "",
     "reg": false,
     "x": 2960,
-    "y": 240,
+    "y": 480,
     "wires": [
       [
         "9648a5fa00b709ec"
@@ -1722,7 +1809,7 @@
     "to": "",
     "reg": false,
     "x": 4520,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "977fce374c045aa2"
@@ -1764,7 +1851,7 @@
     "to": "",
     "reg": false,
     "x": 5020,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "6d3f4589b84a4ae0"
@@ -1795,7 +1882,7 @@
     "repair": false,
     "outputs": 2,
     "x": 4670,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "64e62d9c80ee281f"
@@ -1826,7 +1913,7 @@
     "to": "",
     "reg": false,
     "x": 4840,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "77f89a4e117cdb43"
@@ -1854,7 +1941,7 @@
     "to": "",
     "reg": false,
     "x": 4520,
-    "y": 480,
+    "y": 720,
     "wires": [
       [
         "977fce374c045aa2"
@@ -1882,7 +1969,7 @@
     "to": "",
     "reg": false,
     "x": 4520,
-    "y": 540,
+    "y": 780,
     "wires": [
       [
         "977fce374c045aa2"
@@ -1910,7 +1997,7 @@
     "to": "",
     "reg": false,
     "x": 4520,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "cdb2ddeafa644131"
@@ -1941,7 +2028,7 @@
     "repair": false,
     "outputs": 2,
     "x": 4670,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "246fe56fe7852fb7"
@@ -1972,7 +2059,7 @@
     "to": "",
     "reg": false,
     "x": 4840,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "77f89a4e117cdb43"
@@ -2006,7 +2093,7 @@
     "repair": false,
     "outputs": 3,
     "x": 4170,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "1f51d9ea8a1bf1de"
@@ -2038,7 +2125,7 @@
     "repair": false,
     "outputs": 1,
     "x": 4010,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "1c45f45498655577"
@@ -2067,7 +2154,7 @@
     "repair": false,
     "outputs": 2,
     "x": 4340,
-    "y": 660,
+    "y": 900,
     "wires": [
       [
         "bd94efd3c0d41ec1"
@@ -2093,7 +2180,7 @@
     "persist": false,
     "storeName": "default",
     "x": 3850,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "df6ef3b58ab095da"
@@ -2110,7 +2197,7 @@
       "94c79b8f52f0b6ba"
     ],
     "x": 3535,
-    "y": 540,
+    "y": 780,
     "wires": [
       [
         "7c7b0c1ef742761b"
@@ -2136,7 +2223,7 @@
     "topic": "topic",
     "outputs": 1,
     "x": 3680,
-    "y": 540,
+    "y": 780,
     "wires": [
       [
         "40b53bd7b2dd3fda"
@@ -2151,7 +2238,7 @@
     "name": "Do not replay command from mqtt on startup",
     "info": "",
     "x": 3970,
-    "y": 540,
+    "y": 780,
     "wires": []
   },
   {
@@ -2164,7 +2251,7 @@
       "24058eec92534b27"
     ],
     "x": 3535,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "67a3679a821559e1"
@@ -2190,7 +2277,7 @@
     "repair": false,
     "outputs": 1,
     "x": 3670,
-    "y": 600,
+    "y": 840,
     "wires": [
       [
         "40b53bd7b2dd3fda"
@@ -2208,7 +2295,7 @@
       "14a0a0839924964f"
     ],
     "x": 5155,
-    "y": 600,
+    "y": 840,
     "wires": []
   },
   {
@@ -2253,7 +2340,7 @@
     "to": "",
     "reg": false,
     "x": 2950,
-    "y": 540,
+    "y": 780,
     "wires": [
       [
         "78c44721aa7e96ba"
@@ -2270,7 +2357,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 2575,
-    "y": 480,
+    "y": 720,
     "wires": [
       [
         "2c174532d49b2fa7"
@@ -2296,7 +2383,7 @@
     "repair": false,
     "outputs": 1,
     "x": 2710,
-    "y": 480,
+    "y": 720,
     "wires": [
       [
         "cea82d4e74329977",
@@ -2325,7 +2412,7 @@
     "to": "",
     "reg": false,
     "x": 3220,
-    "y": 480,
+    "y": 720,
     "wires": [
       [
         "76c617de3fe57a72"
@@ -2343,7 +2430,7 @@
       "3e1b4213132404be"
     ],
     "x": 3355,
-    "y": 480,
+    "y": 720,
     "wires": []
   },
   {
@@ -2354,7 +2441,7 @@
     "name": "command / remote x",
     "info": "",
     "x": 2650,
-    "y": 540,
+    "y": 780,
     "wires": []
   },
   {
@@ -2392,7 +2479,7 @@
     "to": "",
     "reg": false,
     "x": 2960,
-    "y": 480,
+    "y": 720,
     "wires": [
       [
         "78c44721aa7e96ba"
@@ -2407,7 +2494,7 @@
     "name": "payload: button 1 off = 10, button 1 on = 11, button 2 off = 20, button 2 on = 21, ...",
     "info": "",
     "x": 2840,
-    "y": 600,
+    "y": 840,
     "wires": []
   },
   {
@@ -2465,6 +2552,314 @@
       "a52f0e788cd4dca3"
     ],
     "x": 915,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "24a3e98a92c0d57d",
+    "type": "mqtt in",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "MQTT rfxcom",
+    "topic": "rfxcom2mqtt/devices/#",
+    "qos": "2",
+    "datatype": "auto-detect",
+    "broker": "cdd708cca8782382",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 190,
+    "y": 240,
+    "wires": [
+      [
+        "014d8a5287538444"
+      ]
+    ]
+  },
+  {
+    "id": "ed6bcbd32e72afe1",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "mqtt rfxcom",
+    "mode": "link",
+    "links": [
+      "2dba8c9110e069a7",
+      "35e7aab1f0314355",
+      "5d58266f86a39f1a",
+      "617755f6bb1e2972",
+      "6390818317da9a22",
+      "8a3a49343040e9dd",
+      "92c37a3c88284082",
+      "aeec616505632135",
+      "beb26a3a88ba29ec",
+      "c55d2fbe9a6e0312",
+      "ca854a261959d5e3",
+      "cd0b7dc3cdbb9e58",
+      "dac6324a7409b4c0",
+      "dfe710104e247c4c",
+      "e6048bb9f2a4ecee",
+      "3256d8e9e4075f1f",
+      "d53118042e7346dc",
+      "3be6b8c3d6485c46",
+      "ba77500cd9f7f6da",
+      "bd614b03c17a2dcd",
+      "0e9fc0eb536659f8"
+    ],
+    "x": 1215,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "be945e0c2c2208b0",
+    "type": "q-gate",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "queueing",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "queueCmd": "close",
+    "defaultCmd": "default",
+    "triggerCmd": "trigger",
+    "flushCmd": "open",
+    "resetCmd": "reset",
+    "peekCmd": "peek",
+    "dropCmd": "drop",
+    "statusCmd": "status",
+    "maxQueueLength": "0",
+    "keepNewest": false,
+    "qToggle": false,
+    "persist": false,
+    "storeName": "default",
+    "x": 590,
+    "y": 240,
+    "wires": [
+      [
+        "03eacf7a446d906c"
+      ]
+    ]
+  },
+  {
+    "id": "735774bdb56f6be4",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "mqtt rfxcom gate",
+    "links": [
+      "d68d686bbf684c95",
+      "8fdb5986494986cc"
+    ],
+    "x": 455,
+    "y": 300,
+    "wires": [
+      [
+        "be945e0c2c2208b0"
+      ]
+    ]
+  },
+  {
+    "id": "014d8a5287538444",
+    "type": "delay",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "100 msg / s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "100",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 410,
+    "y": 240,
+    "wires": [
+      [
+        "be945e0c2c2208b0"
+      ]
+    ]
+  },
+  {
+    "id": "03eacf7a446d906c",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "3ab6bcaac666ddc4",
+    "name": "raz MQTT properties",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "qos",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "retain",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 240,
+    "wires": [
+      [
+        "ed6bcbd32e72afe1"
+      ]
+    ]
+  },
+  {
+    "id": "a4f8287c851b1796",
+    "type": "mqtt out",
+    "z": "b984eb4415408ed9",
+    "g": "ae4487a0bf7f922f",
+    "name": "MQTT rfxcom",
+    "topic": "",
+    "qos": "",
+    "retain": "",
+    "respTopic": "",
+    "contentType": "",
+    "userProps": "",
+    "correl": "",
+    "expiry": "",
+    "broker": "cdd708cca8782382",
+    "x": 1700,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "de0c34e8104574b0",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "ae4487a0bf7f922f",
+    "name": "mqtt rfxcom",
+    "links": [
+      "89d2eebcaafb5013"
+    ],
+    "x": 1335,
+    "y": 240,
+    "wires": [
+      [
+        "a39cfa7867f1affb"
+      ]
+    ]
+  },
+  {
+    "id": "f0991abcca9403bc",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "ae4487a0bf7f922f",
+    "name": "mqtt rfxcom output",
+    "mode": "link",
+    "links": [
+      "881b1ed942ae2f5d",
+      "e1bd888198e8ad2b",
+      "4c77acdbe9fb09c9",
+      "dff88b670b073ad9"
+    ],
+    "x": 1635,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "a39cfa7867f1affb",
+    "type": "switch",
+    "z": "b984eb4415408ed9",
+    "g": "ae4487a0bf7f922f",
+    "name": "check topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "^rfxcom2mqtt",
+        "vt": "str",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1490,
+    "y": 240,
+    "wires": [
+      [
+        "a4f8287c851b1796",
+        "f0991abcca9403bc"
+      ]
+    ]
+  },
+  {
+    "id": "21ece2cf0225f84c",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "f391c9146d7bbd74",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "957e5c162598e005"
+      ]
+    ]
+  },
+  {
+    "id": "c0f802fd747208b3",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "f391c9146d7bbd74",
+    "name": "rfxcom - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "21ece2cf0225f84c"
+      ]
+    ]
+  },
+  {
+    "id": "957e5c162598e005",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "f391c9146d7bbd74",
+    "name": "rfxcom - bucket",
+    "mode": "link",
+    "links": [],
+    "x": 395,
     "y": 60,
     "wires": []
   }

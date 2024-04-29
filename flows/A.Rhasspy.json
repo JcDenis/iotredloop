@@ -1,0 +1,460 @@
+[
+  {
+    "id": "0e52966a98143270",
+    "type": "tab",
+    "label": "A.Rhasspy",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "0bcf11e13c87f1de",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "rhasspy - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "c227fdb52429c5c6",
+      "2260fb9363658a31",
+      "4d50622a83e8e8c2"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "aaf2565e899722f4",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "1f6c0e47b1931294",
+      "4e181f8e271b0ba1",
+      "8257f8177d899a49"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
+    "id": "17a8ab0a21c7790b",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "mqtt server for rhasspy",
+    "style": {
+      "fill": "#ffffff",
+      "fill-opacity": "0.5",
+      "label": true,
+      "stroke": "#0070c0"
+    },
+    "nodes": [
+      "a23c2aa7e24eb8f7",
+      "234feecbe12db6fa"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1764,
+    "h": 194
+  },
+  {
+    "id": "a23c2aa7e24eb8f7",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "g": "17a8ab0a21c7790b",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "81b03b89f507e5ce",
+      "3eda424ef17379e9",
+      "af3082ef59725979",
+      "9518f42686aaf99c",
+      "6d6bcbb7ce10198f",
+      "da4da5b15f106b4a"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 1162,
+    "h": 142
+  },
+  {
+    "id": "234feecbe12db6fa",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "g": "17a8ab0a21c7790b",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d07502e0620ed3d9",
+      "4cfd419f66b58eda",
+      "4db395b3e8fa404f",
+      "d8b85eb94b57b81f"
+    ],
+    "x": 1294,
+    "y": 199,
+    "w": 512,
+    "h": 142
+  },
+  {
+    "id": "c227fdb52429c5c6",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "0bcf11e13c87f1de",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "rhasspy",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "4d50622a83e8e8c2"
+      ]
+    ]
+  },
+  {
+    "id": "2260fb9363658a31",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "0bcf11e13c87f1de",
+    "name": "rhasspy - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "c227fdb52429c5c6"
+      ]
+    ]
+  },
+  {
+    "id": "4d50622a83e8e8c2",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "0bcf11e13c87f1de",
+    "name": "rhasspy - bucket",
+    "mode": "link",
+    "links": [],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "1f6c0e47b1931294",
+    "type": "catch",
+    "z": "0e52966a98143270",
+    "g": "aaf2565e899722f4",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "4e181f8e271b0ba1"
+      ]
+    ]
+  },
+  {
+    "id": "4e181f8e271b0ba1",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "aaf2565e899722f4",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "rhasspy",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "8257f8177d899a49"
+      ]
+    ]
+  },
+  {
+    "id": "8257f8177d899a49",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "aaf2565e899722f4",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "81b03b89f507e5ce",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "mqtt rhasspy",
+    "mode": "link",
+    "links": [],
+    "x": 1215,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "3eda424ef17379e9",
+    "type": "q-gate",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "queueing",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "queueCmd": "close",
+    "defaultCmd": "default",
+    "triggerCmd": "trigger",
+    "flushCmd": "open",
+    "resetCmd": "reset",
+    "peekCmd": "peek",
+    "dropCmd": "drop",
+    "statusCmd": "status",
+    "maxQueueLength": "0",
+    "keepNewest": false,
+    "qToggle": false,
+    "persist": false,
+    "storeName": "default",
+    "x": 590,
+    "y": 240,
+    "wires": [
+      [
+        "6d6bcbb7ce10198f"
+      ]
+    ]
+  },
+  {
+    "id": "af3082ef59725979",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "mqtt rhasspy gate",
+    "links": [
+      "d68d686bbf684c95",
+      "8fdb5986494986cc"
+    ],
+    "x": 455,
+    "y": 300,
+    "wires": [
+      [
+        "3eda424ef17379e9"
+      ]
+    ]
+  },
+  {
+    "id": "9518f42686aaf99c",
+    "type": "delay",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "50 msg / s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "50",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 390,
+    "y": 240,
+    "wires": [
+      [
+        "3eda424ef17379e9"
+      ]
+    ]
+  },
+  {
+    "id": "6d6bcbb7ce10198f",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "raz MQTT properties",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "qos",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "retain",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 240,
+    "wires": [
+      [
+        "81b03b89f507e5ce"
+      ]
+    ]
+  },
+  {
+    "id": "da4da5b15f106b4a",
+    "type": "mqtt in",
+    "z": "0e52966a98143270",
+    "g": "a23c2aa7e24eb8f7",
+    "name": "MQTT rhasspy",
+    "topic": "hermes/intent/#",
+    "qos": "2",
+    "datatype": "json",
+    "broker": "442ad702808e3c66",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 200,
+    "y": 240,
+    "wires": [
+      [
+        "9518f42686aaf99c"
+      ]
+    ]
+  },
+  {
+    "id": "d07502e0620ed3d9",
+    "type": "mqtt out",
+    "z": "0e52966a98143270",
+    "g": "234feecbe12db6fa",
+    "name": "MQTT rhasspy",
+    "topic": "",
+    "qos": "",
+    "retain": "",
+    "respTopic": "",
+    "contentType": "",
+    "userProps": "",
+    "correl": "",
+    "expiry": "",
+    "broker": "442ad702808e3c66",
+    "x": 1700,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "4cfd419f66b58eda",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "234feecbe12db6fa",
+    "name": "mqtt rhasspy",
+    "links": [
+      "10aafa2119bcdcac",
+      "2c561a436a935bc6"
+    ],
+    "x": 1335,
+    "y": 240,
+    "wires": [
+      [
+        "d8b85eb94b57b81f"
+      ]
+    ]
+  },
+  {
+    "id": "4db395b3e8fa404f",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "234feecbe12db6fa",
+    "name": "mqtt rhasspy output",
+    "mode": "link",
+    "links": [
+      "833f9ea0770f6e5a"
+    ],
+    "x": 1635,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "d8b85eb94b57b81f",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "234feecbe12db6fa",
+    "name": "check topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "^(hermes|rhasspy)",
+        "vt": "str",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1470,
+    "y": 240,
+    "wires": [
+      [
+        "d07502e0620ed3d9",
+        "4db395b3e8fa404f"
+      ]
+    ]
+  }
+]

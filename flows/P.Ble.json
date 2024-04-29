@@ -1,0 +1,462 @@
+[
+  {
+    "id": "f641ea2d0fb81a6f",
+    "type": "tab",
+    "label": "P.Ble",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "537aac555c684ae3",
+    "type": "group",
+    "z": "f641ea2d0fb81a6f",
+    "name": "ble - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "93d12516213391e9",
+      "87bee795cb96b8ec",
+      "aa01a391bf2e3f28"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "9ebb276838bea666",
+    "type": "group",
+    "z": "f641ea2d0fb81a6f",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "fe51c69eebe4478d",
+      "4eae669ccbda7532",
+      "f91e7a1c2c512a0e"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
+    "id": "72988ccecf802b11",
+    "type": "group",
+    "z": "f641ea2d0fb81a6f",
+    "name": "mqtt server for bluetooth",
+    "style": {
+      "fill": "#ffffff",
+      "fill-opacity": "0.5",
+      "label": true,
+      "stroke": "#0070c0"
+    },
+    "nodes": [
+      "cf382d5398b6de43",
+      "24eae452ebf32be6"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1764,
+    "h": 194
+  },
+  {
+    "id": "cf382d5398b6de43",
+    "type": "group",
+    "z": "f641ea2d0fb81a6f",
+    "g": "72988ccecf802b11",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c73c3b488741b764",
+      "85c0a8032c692a9a",
+      "c8d1b777a117ee56",
+      "be2acafce4c2c74d",
+      "11a6de1c96795b4d",
+      "e60cbfea876d91e7"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 1162,
+    "h": 142
+  },
+  {
+    "id": "24eae452ebf32be6",
+    "type": "group",
+    "z": "f641ea2d0fb81a6f",
+    "g": "72988ccecf802b11",
+    "name": "",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d4252f4120129d32",
+      "55db3023ac9ae3c1",
+      "a411175648a9f14e",
+      "1052950934d566bf"
+    ],
+    "x": 1294,
+    "y": 199,
+    "w": 512,
+    "h": 142
+  },
+  {
+    "id": "93d12516213391e9",
+    "type": "change",
+    "z": "f641ea2d0fb81a6f",
+    "g": "537aac555c684ae3",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "ble",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "flow",
+        "to": "bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 60,
+    "wires": [
+      [
+        "aa01a391bf2e3f28"
+      ]
+    ]
+  },
+  {
+    "id": "87bee795cb96b8ec",
+    "type": "link in",
+    "z": "f641ea2d0fb81a6f",
+    "g": "537aac555c684ae3",
+    "name": "ble - bucket",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 60,
+    "wires": [
+      [
+        "93d12516213391e9"
+      ]
+    ]
+  },
+  {
+    "id": "aa01a391bf2e3f28",
+    "type": "link out",
+    "z": "f641ea2d0fb81a6f",
+    "g": "537aac555c684ae3",
+    "name": "ble - bucket",
+    "mode": "link",
+    "links": [],
+    "x": 395,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "fe51c69eebe4478d",
+    "type": "catch",
+    "z": "f641ea2d0fb81a6f",
+    "g": "9ebb276838bea666",
+    "name": "catch error",
+    "scope": null,
+    "uncaught": false,
+    "x": 620,
+    "y": 60,
+    "wires": [
+      [
+        "4eae669ccbda7532"
+      ]
+    ]
+  },
+  {
+    "id": "4eae669ccbda7532",
+    "type": "change",
+    "z": "f641ea2d0fb81a6f",
+    "g": "9ebb276838bea666",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "ble",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 790,
+    "y": 60,
+    "wires": [
+      [
+        "f91e7a1c2c512a0e"
+      ]
+    ]
+  },
+  {
+    "id": "f91e7a1c2c512a0e",
+    "type": "link out",
+    "z": "f641ea2d0fb81a6f",
+    "g": "9ebb276838bea666",
+    "name": "catch error",
+    "mode": "link",
+    "links": [
+      "a52f0e788cd4dca3"
+    ],
+    "x": 915,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "c73c3b488741b764",
+    "type": "mqtt in",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "MQTT bluetooth",
+    "topic": "ble/+/#",
+    "qos": "2",
+    "datatype": "auto-detect",
+    "broker": "ef0a4a5a649e056f",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 200,
+    "y": 240,
+    "wires": [
+      [
+        "11a6de1c96795b4d"
+      ]
+    ]
+  },
+  {
+    "id": "85c0a8032c692a9a",
+    "type": "link out",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "mqtt bluetooth",
+    "mode": "link",
+    "links": [
+      "60e7ca843ea8f2e0"
+    ],
+    "x": 1215,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "c8d1b777a117ee56",
+    "type": "q-gate",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "",
+    "controlTopic": "gate",
+    "defaultState": "queueing",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "queueCmd": "close",
+    "defaultCmd": "default",
+    "triggerCmd": "trigger",
+    "flushCmd": "open",
+    "resetCmd": "reset",
+    "peekCmd": "peek",
+    "dropCmd": "drop",
+    "statusCmd": "status",
+    "maxQueueLength": "0",
+    "keepNewest": false,
+    "qToggle": false,
+    "persist": false,
+    "storeName": "default",
+    "x": 590,
+    "y": 240,
+    "wires": [
+      [
+        "e60cbfea876d91e7"
+      ]
+    ]
+  },
+  {
+    "id": "be2acafce4c2c74d",
+    "type": "link in",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "mqtt bluetooth gate",
+    "links": [
+      "d68d686bbf684c95",
+      "8fdb5986494986cc"
+    ],
+    "x": 455,
+    "y": 300,
+    "wires": [
+      [
+        "c8d1b777a117ee56"
+      ]
+    ]
+  },
+  {
+    "id": "11a6de1c96795b4d",
+    "type": "delay",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "100 msg / s",
+    "pauseType": "rate",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "100",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 390,
+    "y": 240,
+    "wires": [
+      [
+        "c8d1b777a117ee56"
+      ]
+    ]
+  },
+  {
+    "id": "e60cbfea876d91e7",
+    "type": "change",
+    "z": "f641ea2d0fb81a6f",
+    "g": "cf382d5398b6de43",
+    "name": "raz MQTT properties",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "qos",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "retain",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1040,
+    "y": 240,
+    "wires": [
+      [
+        "85c0a8032c692a9a"
+      ]
+    ]
+  },
+  {
+    "id": "d4252f4120129d32",
+    "type": "mqtt out",
+    "z": "f641ea2d0fb81a6f",
+    "g": "24eae452ebf32be6",
+    "name": "MQTT bluetooth",
+    "topic": "",
+    "qos": "",
+    "retain": "",
+    "respTopic": "",
+    "contentType": "",
+    "userProps": "",
+    "correl": "",
+    "expiry": "",
+    "broker": "ef0a4a5a649e056f",
+    "x": 1700,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "55db3023ac9ae3c1",
+    "type": "link in",
+    "z": "f641ea2d0fb81a6f",
+    "d": true,
+    "g": "24eae452ebf32be6",
+    "name": "mqtt bluetooth",
+    "links": [],
+    "x": 1335,
+    "y": 240,
+    "wires": [
+      [
+        "1052950934d566bf"
+      ]
+    ]
+  },
+  {
+    "id": "a411175648a9f14e",
+    "type": "link out",
+    "z": "f641ea2d0fb81a6f",
+    "g": "24eae452ebf32be6",
+    "name": "mqtt bluetooth output",
+    "mode": "link",
+    "links": [
+      "3ce812bf89416c2e",
+      "b5e020af24b6c81a",
+      "824a1416d7a3cfe1"
+    ],
+    "x": 1635,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "1052950934d566bf",
+    "type": "switch",
+    "z": "f641ea2d0fb81a6f",
+    "g": "24eae452ebf32be6",
+    "name": "check topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "^ble",
+        "vt": "str",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1490,
+    "y": 240,
+    "wires": [
+      [
+        "d4252f4120129d32",
+        "a411175648a9f14e"
+      ]
+    ]
+  }
+]
