@@ -175,6 +175,27 @@
     "h": 5554
   },
   {
+    "id": "f68e8c6415aca870",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "a2a26d3c15589044",
+      "fcaaaca3a27426b7",
+      "69fc7c7c14fa81f3"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "0bdefb56ee5ef918",
     "type": "group",
     "z": "aab0c030de7df5cc",
@@ -955,25 +976,62 @@
     "h": 382
   },
   {
-    "id": "f68e8c6415aca870",
+    "id": "a3df49e3ec177d8d",
     "type": "group",
     "z": "aab0c030de7df5cc",
-    "name": "catch error",
+    "name": "room - ui - chart temperature",
     "style": {
-      "fill": "#ff0000",
+      "fill": "#6f2fa0",
       "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
+      "label": true
     },
     "nodes": [
-      "a2a26d3c15589044",
-      "fcaaaca3a27426b7",
-      "69fc7c7c14fa81f3"
+      "ec99f621f7253cd7",
+      "023b97f731941ec8",
+      "d83b592e2491dcb6",
+      "e44987d599f2b366",
+      "b6d352f0739c9c5d",
+      "e01a8d98754f1f85",
+      "c1d200de7bed7d83",
+      "3918bb15caaf1ec5",
+      "4a56f9148bd23d8e",
+      "fc6afa9a094180d3",
+      "44d4e7ddd6c2f416",
+      "20c48f73de388537"
     ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
+    "x": 94,
+    "y": 1999,
+    "w": 1292,
+    "h": 202
+  },
+  {
+    "id": "80f986da1d02c67c",
+    "type": "group",
+    "z": "aab0c030de7df5cc",
+    "name": "room - ui - chart humidity",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1f143110084f2d12",
+      "c95545cb575e900a",
+      "a521b0c77c8e1b96",
+      "057bd2913e07a3dc",
+      "588f7e8cf7861975",
+      "feae7dc17ccbe84b",
+      "40fb52f0b9b6d6f8",
+      "5943f812794763bb",
+      "280a3b24aff09fd6",
+      "13bb4993d29c190f",
+      "4fac1159c7fb1196",
+      "238894bac5405d86"
+    ],
+    "x": 94,
+    "y": 2239,
+    "w": 1292,
+    "h": 202
   },
   {
     "id": "606f3caa9058900f",
@@ -1744,7 +1802,9 @@
       "511350d9f34ce767",
       "a06fcd9bc49dd111",
       "97aa2e016643bfbd",
-      "5f5234be5bf42b3a"
+      "5f5234be5bf42b3a",
+      "e01a8d98754f1f85",
+      "feae7dc17ccbe84b"
     ],
     "x": 1435,
     "y": 660,
@@ -1926,7 +1986,9 @@
       "7aaae6f81accc54b",
       "b1825677cbba4273",
       "383c38e98cd05755",
-      "c72c85a05c057eb6"
+      "c72c85a05c057eb6",
+      "e44987d599f2b366",
+      "057bd2913e07a3dc"
     ],
     "x": 1415,
     "y": 840,
@@ -14303,5 +14365,641 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "ec99f621f7253cd7",
+    "type": "ui-chart",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "group": "1a2635629b812ca3",
+    "name": "chart temperature",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 1170,
+    "y": 2160,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "023b97f731941ec8",
+    "type": "influxdb in",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 780,
+    "y": 2160,
+    "wires": [
+      [
+        "20c48f73de388537",
+        "c1d200de7bed7d83"
+      ]
+    ]
+  },
+  {
+    "id": "d83b592e2491dcb6",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "query",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query",
+        "pt": "msg",
+        "to": "'from(bucket: \"'&msg.bucket&'\")\t  |> range(start: -1d, stop:now())\t  |> aggregateWindow(every: 60s, fn: last, createEmpty: false)\t  |> filter(fn: (r) =>\t    r._measurement == \"temperature\"\t  )'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 590,
+    "y": 2160,
+    "wires": [
+      [
+        "023b97f731941ec8"
+      ]
+    ]
+  },
+  {
+    "id": "e44987d599f2b366",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "room - ui - chart temperature - metric",
+    "links": [
+      "b6323e1460f6f50c"
+    ],
+    "x": 135,
+    "y": 2160,
+    "wires": [
+      [
+        "b6d352f0739c9c5d"
+      ]
+    ]
+  },
+  {
+    "id": "b6d352f0739c9c5d",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "check if measurement exists",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "temperature",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 360,
+    "y": 2160,
+    "wires": [
+      [
+        "d83b592e2491dcb6"
+      ]
+    ]
+  },
+  {
+    "id": "e01a8d98754f1f85",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "room - ui - chart temperature - load",
+    "links": [
+      "9e4bfee0db3051d4"
+    ],
+    "x": 135,
+    "y": 2040,
+    "wires": [
+      [
+        "fc6afa9a094180d3"
+      ]
+    ]
+  },
+  {
+    "id": "3918bb15caaf1ec5",
+    "type": "ui-text",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "group": "1a2635629b812ca3",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "none",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1310,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "4a56f9148bd23d8e",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun relevé de température",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 2040,
+    "wires": [
+      [
+        "3918bb15caaf1ec5"
+      ]
+    ]
+  },
+  {
+    "id": "fc6afa9a094180d3",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Pièces:Température\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2040,
+    "wires": [
+      [
+        "44d4e7ddd6c2f416",
+        "4a56f9148bd23d8e"
+      ]
+    ]
+  },
+  {
+    "id": "c1d200de7bed7d83",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Pièces:Température\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2100,
+    "wires": [
+      [
+        "44d4e7ddd6c2f416",
+        "4a56f9148bd23d8e"
+      ]
+    ]
+  },
+  {
+    "id": "44d4e7ddd6c2f416",
+    "type": "ui-control",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 1140,
+    "y": 2100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "20c48f73de388537",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "a3df49e3ec177d8d",
+    "name": "class",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2160,
+    "wires": [
+      [
+        "ec99f621f7253cd7"
+      ]
+    ]
+  },
+  {
+    "id": "1f143110084f2d12",
+    "type": "ui-chart",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "group": "e41130e3f4e3f1fe",
+    "name": "chart humidity",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 1160,
+    "y": 2400,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c95545cb575e900a",
+    "type": "influxdb in",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 780,
+    "y": 2400,
+    "wires": [
+      [
+        "238894bac5405d86",
+        "40fb52f0b9b6d6f8"
+      ]
+    ]
+  },
+  {
+    "id": "a521b0c77c8e1b96",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "query",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query",
+        "pt": "msg",
+        "to": "'from(bucket: \"'&msg.bucket&'\")\t  |> range(start: -1d, stop:now())\t  |> aggregateWindow(every: 60s, fn: last, createEmpty: false)\t  |> filter(fn: (r) =>\t    r._measurement == \"humidity\"\t  )'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 590,
+    "y": 2400,
+    "wires": [
+      [
+        "c95545cb575e900a"
+      ]
+    ]
+  },
+  {
+    "id": "057bd2913e07a3dc",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "room - ui - chart humidity - metric",
+    "links": [
+      "b6323e1460f6f50c"
+    ],
+    "x": 135,
+    "y": 2400,
+    "wires": [
+      [
+        "588f7e8cf7861975"
+      ]
+    ]
+  },
+  {
+    "id": "588f7e8cf7861975",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "check if measurement exists",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "humidity",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 360,
+    "y": 2400,
+    "wires": [
+      [
+        "a521b0c77c8e1b96"
+      ]
+    ]
+  },
+  {
+    "id": "feae7dc17ccbe84b",
+    "type": "link in",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "room - ui - chart humidity - load",
+    "links": [
+      "9e4bfee0db3051d4"
+    ],
+    "x": 135,
+    "y": 2280,
+    "wires": [
+      [
+        "13bb4993d29c190f"
+      ]
+    ]
+  },
+  {
+    "id": "40fb52f0b9b6d6f8",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Pièces:Humidité\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2340,
+    "wires": [
+      [
+        "4fac1159c7fb1196",
+        "280a3b24aff09fd6"
+      ]
+    ]
+  },
+  {
+    "id": "5943f812794763bb",
+    "type": "ui-text",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "group": "e41130e3f4e3f1fe",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "none",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1310,
+    "y": 2280,
+    "wires": []
+  },
+  {
+    "id": "280a3b24aff09fd6",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun relevé d'humidité",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 2280,
+    "wires": [
+      [
+        "5943f812794763bb"
+      ]
+    ]
+  },
+  {
+    "id": "13bb4993d29c190f",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Pièces:Humidité\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2280,
+    "wires": [
+      [
+        "4fac1159c7fb1196",
+        "280a3b24aff09fd6"
+      ]
+    ]
+  },
+  {
+    "id": "4fac1159c7fb1196",
+    "type": "ui-control",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 1140,
+    "y": 2340,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "238894bac5405d86",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "80f986da1d02c67c",
+    "name": "class",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 2400,
+    "wires": [
+      [
+        "1f143110084f2d12"
+      ]
+    ]
   }
 ]

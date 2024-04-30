@@ -109,6 +109,27 @@
     "h": 374
   },
   {
+    "id": "0cbf03566bba035b",
+    "type": "group",
+    "z": "daa0be2fa53aaf46",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "2010a9b4e058170d",
+      "86744397a30aaac2",
+      "56ddaec6b46fba54"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "f55346abaea26094",
     "type": "group",
     "z": "daa0be2fa53aaf46",
@@ -279,27 +300,6 @@
     "x": 94,
     "y": 1479,
     "w": 952,
-    "h": 82
-  },
-  {
-    "id": "0cbf03566bba035b",
-    "type": "group",
-    "z": "daa0be2fa53aaf46",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "2010a9b4e058170d",
-      "86744397a30aaac2",
-      "56ddaec6b46fba54"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
     "h": 82
   },
   {
@@ -953,7 +953,7 @@
     "type": "switch",
     "z": "daa0be2fa53aaf46",
     "g": "bdd7df89f79ee5b0",
-    "name": "fermé",
+    "name": "closed",
     "property": "payload",
     "propertyType": "msg",
     "rules": [
