@@ -110,6 +110,27 @@
     "h": 614
   },
   {
+    "id": "5766f83f3d113663",
+    "type": "group",
+    "z": "7dd036f831a5ca6e",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "b9f3c3bb40a8aac4",
+      "06ff43449dd81c02",
+      "d69c9016584d1fd3"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "dc8c7c2aeeae4259",
     "type": "group",
     "z": "7dd036f831a5ca6e",
@@ -152,7 +173,7 @@
       "7d7b81b4f6fdbfe0",
       "61afa8c6a05d66c5",
       "89b53294d8fbd82e",
-      "762a244679952087"
+      "a1daebcc0d70b88c"
     ],
     "x": 694,
     "y": 679,
@@ -302,27 +323,6 @@
     "x": 94,
     "y": 1399,
     "w": 972,
-    "h": 82
-  },
-  {
-    "id": "5766f83f3d113663",
-    "type": "group",
-    "z": "7dd036f831a5ca6e",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "b9f3c3bb40a8aac4",
-      "06ff43449dd81c02",
-      "d69c9016584d1fd3"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
     "h": 82
   },
   {
@@ -830,7 +830,7 @@
     "y": 780,
     "wires": [
       [
-        "762a244679952087"
+        "a1daebcc0d70b88c"
       ]
     ]
   },
@@ -841,13 +841,6 @@
     "g": "1271496473181909",
     "name": "scene lighting / ceiling / dimmer",
     "rules": [
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
       {
         "t": "set",
         "p": "scene.measurement",
@@ -915,18 +908,18 @@
     "rules": [
       {
         "t": "eq",
-        "v": "msg.bucket&'/aperture/door'",
+        "v": "msg.scene.bucket&'/aperture/door'",
         "vt": "jsonata"
       },
       {
         "t": "regex",
-        "v": "msg.bucket&'/motion'",
+        "v": "msg.scene.bucket&'/motion'",
         "vt": "jsonata",
         "case": false
       },
       {
         "t": "eq",
-        "v": "msg.bucket&'/light/ceiling'",
+        "v": "msg.scene.bucket&'/light/ceiling'",
         "vt": "jsonata"
       },
       {
@@ -1816,34 +1809,6 @@
     ]
   },
   {
-    "id": "762a244679952087",
-    "type": "change",
-    "z": "7dd036f831a5ca6e",
-    "g": "1271496473181909",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 870,
-    "y": 780,
-    "wires": [
-      [
-        "7d7b81b4f6fdbfe0"
-      ]
-    ]
-  },
-  {
     "id": "b9f3c3bb40a8aac4",
     "type": "catch",
     "z": "7dd036f831a5ca6e",
@@ -1900,5 +1865,33 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "a1daebcc0d70b88c",
+    "type": "change",
+    "z": "7dd036f831a5ca6e",
+    "g": "1271496473181909",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 870,
+    "y": 780,
+    "wires": [
+      [
+        "7d7b81b4f6fdbfe0"
+      ]
+    ]
   }
 ]

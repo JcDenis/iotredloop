@@ -313,6 +313,27 @@
     "h": 202
   },
   {
+    "id": "8661cca3effea007",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "64318333e0c24a2e",
+      "ccb5ea956a7da538",
+      "cff2ab3b56cd2174"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "f8998acf5aadbdb9",
     "type": "group",
     "z": "677f66663a198839",
@@ -621,27 +642,6 @@
     "y": 2179,
     "w": 1152,
     "h": 742
-  },
-  {
-    "id": "8661cca3effea007",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "64318333e0c24a2e",
-      "ccb5ea956a7da538",
-      "cff2ab3b56cd2174"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
   },
   {
     "id": "da2f54e055f1d1ac",
@@ -5205,6 +5205,7 @@
     "g": "57bf8eefe70206c0",
     "name": "system - ui - timers",
     "links": [
+      "23ef9aaffb31c21d",
       "94c79b8f52f0b6ba"
     ],
     "x": 135,
@@ -5339,10 +5340,14 @@
     "key": "topic",
     "joiner": "\\n",
     "joinerType": "str",
-    "accumulate": "false",
+    "accumulate": true,
     "timeout": "",
     "count": "",
     "reduceRight": false,
+    "reduceExp": "",
+    "reduceInit": "",
+    "reduceInitType": "",
+    "reduceFixup": "",
     "x": 1730,
     "y": 3060,
     "wires": [
