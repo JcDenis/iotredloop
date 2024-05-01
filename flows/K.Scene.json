@@ -2385,8 +2385,8 @@
     "propertyType": "msg",
     "rules": [
       {
-        "t": "eq",
-        "v": "1",
+        "t": "neq",
+        "v": "0",
         "vt": "num"
       }
     ],

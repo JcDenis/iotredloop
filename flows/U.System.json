@@ -5296,21 +5296,14 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "parts.key",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "tmp",
-        "pt": "msg",
-        "to": "$split(msg.tmp,'/')",
+        "to": "$split(payload.timer.path,'/')",
         "tot": "jsonata"
       },
       {
         "t": "set",
         "p": "timers[msg.parts.index]",
         "pt": "flow",
-        "to": "{\t    \"Scène\":msg.tmp[0],\t    \"Pièce\":msg.tmp[1],\t    \"Equipement\":msg.tmp[3],\t    \"Champs\":msg.tmp[2],\t    \"Fin\":msg.payload\t    }",
+        "to": "{\t    \"Scène\":msg.tmp[0],\t    \"Pièce\":msg.tmp[1],\t    \"Equipement\":msg.tmp[3],\t    \"Champs\":msg.tmp[2],\t    \"Fin\":msg.date\t    }",
         "tot": "jsonata"
       }
     ],
@@ -5697,7 +5690,7 @@
     "g": "57bf8eefe70206c0",
     "name": "format date",
     "topic": "",
-    "input": "payload",
+    "input": "payload.timer.time",
     "inputType": "msg",
     "inTz": "Europe/Paris",
     "adjAmount": 0,
@@ -5705,7 +5698,7 @@
     "adjDir": "add",
     "format": "DD/MM/YYYY HH:mm:ss",
     "locale": "fr-FR",
-    "output": "payload",
+    "output": "date",
     "outputType": "msg",
     "outTz": "Europe/Paris",
     "x": 1390,

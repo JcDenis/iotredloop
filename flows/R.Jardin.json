@@ -1154,6 +1154,13 @@
         "pt": "msg",
         "to": "lamp",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
       }
     ],
     "action": "",

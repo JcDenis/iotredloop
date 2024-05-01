@@ -135,6 +135,27 @@
     "h": 374
   },
   {
+    "id": "8d1d52ddb56c2263",
+    "type": "group",
+    "z": "66555f1b8174a7f6",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "6a3fba78aca99579",
+      "2c13ccc1f39d9c03",
+      "869dcd5abf4c9bb5"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
     "id": "a4212c37abb32920",
     "type": "group",
     "z": "66555f1b8174a7f6",
@@ -310,27 +331,6 @@
     "x": 94,
     "y": 1499,
     "w": 972,
-    "h": 82
-  },
-  {
-    "id": "8d1d52ddb56c2263",
-    "type": "group",
-    "z": "66555f1b8174a7f6",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "6a3fba78aca99579",
-      "2c13ccc1f39d9c03",
-      "869dcd5abf4c9bb5"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
     "h": 82
   },
   {
@@ -994,6 +994,13 @@
         "pt": "msg",
         "to": "lamp",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
       }
     ],
     "action": "",
