@@ -84,8 +84,29 @@
     ],
     "x": 68,
     "y": 473,
-    "w": 3194,
+    "w": 1294,
     "h": 254
+  },
+  {
+    "id": "3ccaa4a7f8feaec3",
+    "type": "group",
+    "z": "5771bd732671238b",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "df117909ca6f83c1",
+      "5dbdc36616507f47",
+      "73cb90b1dfb06aa9"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "4621825537b5ee7f",
@@ -147,48 +168,12 @@
       "b127f9b286dd8226",
       "6776ac4a3f4a2d18",
       "98f3ff1523b62349",
-      "6d7bcab05db6f6e7",
-      "955f1559f63a5ea2",
-      "f9d13a9a505a9648",
-      "f876e1a7dd73a530",
-      "06c1934cb35fe252",
-      "9d29eff077d698b2",
-      "3eccb96609ad2f01",
-      "6ba13cce12190f1e",
-      "36babb9676295b16",
-      "23b5e5e2f74cae2a",
-      "20302fb9fa3b37af",
-      "a15d4c93182b57f1",
-      "2b1cf4b8ad19efa8",
-      "3613ca3ffca7fe77",
-      "01a7df13372b4b78",
-      "08a2d770ee9e09c9"
+      "ce2b0a43f5487a52"
     ],
     "x": 694,
-    "y": 499,
-    "w": 2542,
-    "h": 202
-  },
-  {
-    "id": "3ccaa4a7f8feaec3",
-    "type": "group",
-    "z": "5771bd732671238b",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "df117909ca6f83c1",
-      "5dbdc36616507f47",
-      "73cb90b1dfb06aa9"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
+    "y": 536.5,
+    "w": 642,
+    "h": 127
   },
   {
     "id": "18401f448b0bd35f",
@@ -688,7 +673,7 @@
     "y": 600,
     "wires": [
       [
-        "6d7bcab05db6f6e7"
+        "ce2b0a43f5487a52"
       ]
     ]
   },
@@ -752,414 +737,6 @@
         "6776ac4a3f4a2d18"
       ]
     ]
-  },
-  {
-    "id": "6d7bcab05db6f6e7",
-    "type": "link call",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "",
-    "links": [
-      "c1a22098f4c6b607"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 1350,
-    "y": 600,
-    "wires": [
-      [
-        "955f1559f63a5ea2"
-      ]
-    ]
-  },
-  {
-    "id": "955f1559f63a5ea2",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1530,
-    "y": 600,
-    "wires": [
-      [
-        "3eccb96609ad2f01"
-      ]
-    ]
-  },
-  {
-    "id": "f9d13a9a505a9648",
-    "type": "link call",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "",
-    "links": [
-      "834ce9850cdb0a72"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 2290,
-    "y": 540,
-    "wires": [
-      [
-        "9d29eff077d698b2"
-      ]
-    ]
-  },
-  {
-    "id": "f876e1a7dd73a530",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "check scene path",
-    "property": "msg.scene.bucket & '/' & msg.scene.measurement & '/' & msg.scene.field",
-    "propertyType": "jsonata",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "combles/airflow/cmv",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2670,
-    "y": 540,
-    "wires": [
-      [
-        "23b5e5e2f74cae2a",
-        "06c1934cb35fe252",
-        "08a2d770ee9e09c9"
-      ]
-    ]
-  },
-  {
-    "id": "06c1934cb35fe252",
-    "type": "link out",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "combles - scene - airflow cmv",
-    "mode": "link",
-    "links": [
-      "fb4b4e2a3fb029df"
-    ],
-    "x": 2835,
-    "y": 660,
-    "wires": []
-  },
-  {
-    "id": "9d29eff077d698b2",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2470,
-    "y": 540,
-    "wires": [
-      [
-        "f876e1a7dd73a530"
-      ]
-    ]
-  },
-  {
-    "id": "3eccb96609ad2f01",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "measurement",
-    "property": "measurement",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "mode",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "humidity",
-        "vt": "str"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 3,
-    "x": 1720,
-    "y": 600,
-    "wires": [
-      [
-        "6ba13cce12190f1e"
-      ],
-      [
-        "2b1cf4b8ad19efa8"
-      ],
-      [
-        "3613ca3ffca7fe77"
-      ]
-    ]
-  },
-  {
-    "id": "6ba13cce12190f1e",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "manual",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1920,
-    "y": 540,
-    "wires": [
-      [
-        "36babb9676295b16"
-      ]
-    ]
-  },
-  {
-    "id": "36babb9676295b16",
-    "type": "change",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "true",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2110,
-    "y": 600,
-    "wires": [
-      [
-        "06c1934cb35fe252",
-        "f9d13a9a505a9648",
-        "08a2d770ee9e09c9"
-      ]
-    ]
-  },
-  {
-    "id": "23b5e5e2f74cae2a",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "mode",
-    "property": "metrics.system.mode.airflow",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2870,
-    "y": 540,
-    "wires": [
-      [
-        "20302fb9fa3b37af"
-      ]
-    ]
-  },
-  {
-    "id": "20302fb9fa3b37af",
-    "type": "change",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "metric auto",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "automatic",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "system",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "mode",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "airflow",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 3050,
-    "y": 540,
-    "wires": [
-      [
-        "a15d4c93182b57f1"
-      ]
-    ]
-  },
-  {
-    "id": "a15d4c93182b57f1",
-    "type": "link out",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "combles - scene - airflow cmv - auto",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 3195,
-    "y": 540,
-    "wires": []
-  },
-  {
-    "id": "2b1cf4b8ad19efa8",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "humidity",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "gt",
-        "v": "routine.humidity",
-        "vt": "msg"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1920,
-    "y": 600,
-    "wires": [
-      [
-        "36babb9676295b16"
-      ]
-    ]
-  },
-  {
-    "id": "3613ca3ffca7fe77",
-    "type": "link call",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "",
-    "links": [
-      "587236e6160da46c"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 1930,
-    "y": 660,
-    "wires": [
-      [
-        "01a7df13372b4b78",
-        "f9d13a9a505a9648"
-      ]
-    ]
-  },
-  {
-    "id": "01a7df13372b4b78",
-    "type": "switch",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2110,
-    "y": 660,
-    "wires": [
-      [
-        "06c1934cb35fe252",
-        "08a2d770ee9e09c9"
-      ]
-    ]
-  },
-  {
-    "id": "08a2d770ee9e09c9",
-    "type": "debug",
-    "z": "5771bd732671238b",
-    "g": "86fcaceb70e78fec",
-    "name": "combles - scene - airflow cmv",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 2950,
-    "y": 600,
-    "wires": []
   },
   {
     "id": "d282578a332382dd",
@@ -1237,6 +814,20 @@
     ],
     "x": 915,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "ce2b0a43f5487a52",
+    "type": "link out",
+    "z": "5771bd732671238b",
+    "g": "86fcaceb70e78fec",
+    "name": "combles - scene - airflow cmv",
+    "mode": "link",
+    "links": [
+      "a5e91e12f7ecfedc"
+    ],
+    "x": 1295,
+    "y": 600,
     "wires": []
   }
 ]

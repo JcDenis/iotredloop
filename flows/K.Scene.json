@@ -303,6 +303,39 @@
     "h": 322
   },
   {
+    "id": "daf0cda4c7b1bea9",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "name": "scene - airflow",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5f43398278d755b7",
+      "110c42bacf7a84eb",
+      "75e1b24c5aaa1167",
+      "7110eb15cfddfcf3",
+      "c1cfc09f7c596d30",
+      "cdfca4745c436b9b",
+      "fb0064cdad40050d",
+      "9d44b3d59e20d35e",
+      "a9df5f12ddfa6c7e",
+      "9f45e18e4edbe2b1",
+      "75e409ff7d8f6f73",
+      "4e9f8b6ae5dc5a9a",
+      "fa344f3b42836488",
+      "01bdaee277401c15",
+      "15ff0a0169806055",
+      "a5e91e12f7ecfedc"
+    ],
+    "x": 94,
+    "y": 2059,
+    "w": 1822,
+    "h": 202
+  },
+  {
     "id": "2f88f0a1be78ca59",
     "type": "link in",
     "z": "68ee181e9defa139",
@@ -576,7 +609,8 @@
       "d508dae06ba6ea5f",
       "5fef774a053c6a26",
       "06c1934cb35fe252",
-      "9379409dd3374a57"
+      "9379409dd3374a57",
+      "7110eb15cfddfcf3"
     ],
     "x": 135,
     "y": 420,
@@ -3909,6 +3943,405 @@
     "wires": [
       [
         "79afd202ec008f23"
+      ]
+    ]
+  },
+  {
+    "id": "5f43398278d755b7",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 290,
+    "y": 2160,
+    "wires": [
+      [
+        "110c42bacf7a84eb"
+      ]
+    ]
+  },
+  {
+    "id": "110c42bacf7a84eb",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 470,
+    "y": 2160,
+    "wires": [
+      [
+        "cdfca4745c436b9b"
+      ]
+    ]
+  },
+  {
+    "id": "75e1b24c5aaa1167",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "",
+    "links": [
+      "834ce9850cdb0a72"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1230,
+    "y": 2100,
+    "wires": [
+      [
+        "c1cfc09f7c596d30"
+      ]
+    ]
+  },
+  {
+    "id": "7110eb15cfddfcf3",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "scene - airflow",
+    "mode": "link",
+    "links": [
+      "fb4b4e2a3fb029df"
+    ],
+    "x": 1535,
+    "y": 2220,
+    "wires": []
+  },
+  {
+    "id": "c1cfc09f7c596d30",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1410,
+    "y": 2100,
+    "wires": [
+      [
+        "7110eb15cfddfcf3",
+        "a9df5f12ddfa6c7e",
+        "15ff0a0169806055"
+      ]
+    ]
+  },
+  {
+    "id": "cdfca4745c436b9b",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "humidity",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 660,
+    "y": 2160,
+    "wires": [
+      [
+        "fb0064cdad40050d"
+      ],
+      [
+        "4e9f8b6ae5dc5a9a"
+      ],
+      [
+        "fa344f3b42836488"
+      ]
+    ]
+  },
+  {
+    "id": "fb0064cdad40050d",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "manual",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 860,
+    "y": 2100,
+    "wires": [
+      [
+        "9d44b3d59e20d35e"
+      ]
+    ]
+  },
+  {
+    "id": "9d44b3d59e20d35e",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1050,
+    "y": 2160,
+    "wires": [
+      [
+        "7110eb15cfddfcf3",
+        "75e1b24c5aaa1167",
+        "15ff0a0169806055"
+      ]
+    ]
+  },
+  {
+    "id": "a9df5f12ddfa6c7e",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "mode",
+    "property": "metrics.system.mode.airflow",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1570,
+    "y": 2100,
+    "wires": [
+      [
+        "9f45e18e4edbe2b1"
+      ]
+    ]
+  },
+  {
+    "id": "9f45e18e4edbe2b1",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1740,
+    "y": 2100,
+    "wires": [
+      [
+        "75e409ff7d8f6f73"
+      ]
+    ]
+  },
+  {
+    "id": "75e409ff7d8f6f73",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "scene - airflow - auto",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1875,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "4e9f8b6ae5dc5a9a",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "humidity",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "routine.humidity",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 860,
+    "y": 2160,
+    "wires": [
+      [
+        "9d44b3d59e20d35e"
+      ]
+    ]
+  },
+  {
+    "id": "fa344f3b42836488",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "",
+    "links": [
+      "587236e6160da46c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 870,
+    "y": 2220,
+    "wires": [
+      [
+        "01bdaee277401c15",
+        "75e1b24c5aaa1167"
+      ]
+    ]
+  },
+  {
+    "id": "01bdaee277401c15",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1050,
+    "y": 2220,
+    "wires": [
+      [
+        "7110eb15cfddfcf3",
+        "15ff0a0169806055"
+      ]
+    ]
+  },
+  {
+    "id": "15ff0a0169806055",
+    "type": "debug",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "scene - airflow",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1600,
+    "y": 2160,
+    "wires": []
+  },
+  {
+    "id": "a5e91e12f7ecfedc",
+    "type": "link in",
+    "z": "68ee181e9defa139",
+    "g": "daf0cda4c7b1bea9",
+    "name": "scene - airflow",
+    "links": [
+      "ce2b0a43f5487a52"
+    ],
+    "x": 135,
+    "y": 2160,
+    "wires": [
+      [
+        "5f43398278d755b7"
       ]
     ]
   }
