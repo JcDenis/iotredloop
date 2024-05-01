@@ -261,6 +261,48 @@
     "h": 82
   },
   {
+    "id": "48278b1e56c6d7ab",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "name": "scene - cumulus",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "79afd202ec008f23",
+      "91c703633597c793",
+      "de290a244c6eeb68",
+      "226531a3a5fbeaf5",
+      "ca97b99d897803ba",
+      "165a73ca453fb514",
+      "9379409dd3374a57",
+      "1b8a2673193d20c8",
+      "a7e9c8667e809203",
+      "f223833693840d74",
+      "622714c53aea49c8",
+      "cadd4b3e31abda90",
+      "d9c7b7e7036acb50",
+      "26da09d4d93fdb54",
+      "9a411efd8d782784",
+      "a0900ecba7483912",
+      "b0615a8b925c2a1e",
+      "57da444ff6a08761",
+      "7ec590a29c9644e9",
+      "777caf84fbc17ac4",
+      "627447b0ec972fad",
+      "de0a0d586916ab0a",
+      "70900b24b581bb03",
+      "ed10eaa200be8111",
+      "97c76b46acec597a"
+    ],
+    "x": 94,
+    "y": 1699,
+    "w": 2862,
+    "h": 322
+  },
+  {
     "id": "2f88f0a1be78ca59",
     "type": "link in",
     "z": "68ee181e9defa139",
@@ -533,7 +575,8 @@
       "e3db60d3d55e1a82",
       "d508dae06ba6ea5f",
       "5fef774a053c6a26",
-      "06c1934cb35fe252"
+      "06c1934cb35fe252",
+      "9379409dd3374a57"
     ],
     "x": 135,
     "y": 420,
@@ -3215,5 +3258,658 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "79afd202ec008f23",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 290,
+    "y": 1860,
+    "wires": [
+      [
+        "91c703633597c793"
+      ]
+    ]
+  },
+  {
+    "id": "91c703633597c793",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 470,
+    "y": 1860,
+    "wires": [
+      [
+        "622714c53aea49c8"
+      ]
+    ]
+  },
+  {
+    "id": "de290a244c6eeb68",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "",
+    "links": [
+      "c63c05889184c3bc"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1330,
+    "y": 1860,
+    "wires": [
+      [
+        "226531a3a5fbeaf5"
+      ]
+    ]
+  },
+  {
+    "id": "226531a3a5fbeaf5",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1510,
+    "y": 1860,
+    "wires": [
+      [
+        "d9c7b7e7036acb50"
+      ]
+    ]
+  },
+  {
+    "id": "ca97b99d897803ba",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "",
+    "links": [
+      "834ce9850cdb0a72"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2210,
+    "y": 1740,
+    "wires": [
+      [
+        "165a73ca453fb514"
+      ]
+    ]
+  },
+  {
+    "id": "165a73ca453fb514",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2390,
+    "y": 1740,
+    "wires": [
+      [
+        "9379409dd3374a57",
+        "26da09d4d93fdb54"
+      ]
+    ]
+  },
+  {
+    "id": "9379409dd3374a57",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "scene - cumulus",
+    "mode": "link",
+    "links": [
+      "fb4b4e2a3fb029df"
+    ],
+    "x": 2515,
+    "y": 1920,
+    "wires": []
+  },
+  {
+    "id": "1b8a2673193d20c8",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "",
+    "links": [
+      "dfec2e7efb555d4d"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 970,
+    "y": 1920,
+    "wires": [
+      [
+        "57da444ff6a08761"
+      ]
+    ]
+  },
+  {
+    "id": "a7e9c8667e809203",
+    "type": "trigger",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "wait 5 s",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "pay",
+    "duration": "5",
+    "extend": false,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "false",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1860,
+    "y": 1920,
+    "wires": [
+      [
+        "9379409dd3374a57",
+        "7ec590a29c9644e9"
+      ]
+    ]
+  },
+  {
+    "id": "f223833693840d74",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "tariff",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "HP",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "HC",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 790,
+    "y": 1860,
+    "wires": [
+      [
+        "777caf84fbc17ac4"
+      ],
+      [
+        "1b8a2673193d20c8"
+      ]
+    ]
+  },
+  {
+    "id": "622714c53aea49c8",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "scene.field",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "nycthemer",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "tariff",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "cumulus",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 630,
+    "y": 1860,
+    "wires": [
+      [
+        "de0a0d586916ab0a"
+      ],
+      [
+        "627447b0ec972fad"
+      ],
+      [
+        "f223833693840d74"
+      ],
+      [
+        "cadd4b3e31abda90"
+      ]
+    ]
+  },
+  {
+    "id": "cadd4b3e31abda90",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "mode cumulus",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 820,
+    "y": 1980,
+    "wires": [
+      [
+        "d9c7b7e7036acb50"
+      ]
+    ]
+  },
+  {
+    "id": "d9c7b7e7036acb50",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "scene on",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "scene.on",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1680,
+    "y": 1920,
+    "wires": [
+      [
+        "a7e9c8667e809203"
+      ]
+    ]
+  },
+  {
+    "id": "26da09d4d93fdb54",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "mode cumulus",
+    "property": "metrics.system.mode.cumulus",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2580,
+    "y": 1740,
+    "wires": [
+      [
+        "9a411efd8d782784"
+      ]
+    ]
+  },
+  {
+    "id": "9a411efd8d782784",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cumulus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2780,
+    "y": 1740,
+    "wires": [
+      [
+        "a0900ecba7483912"
+      ]
+    ]
+  },
+  {
+    "id": "a0900ecba7483912",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "scene - cumulus - automatic",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2915,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "b0615a8b925c2a1e",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "scene off",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "scene.off",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1540,
+    "y": 1740,
+    "wires": [
+      [
+        "7ec590a29c9644e9",
+        "9379409dd3374a57",
+        "a7e9c8667e809203"
+      ]
+    ]
+  },
+  {
+    "id": "57da444ff6a08761",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "-1",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1150,
+    "y": 1860,
+    "wires": [
+      [
+        "777caf84fbc17ac4"
+      ],
+      [
+        "de290a244c6eeb68"
+      ]
+    ]
+  },
+  {
+    "id": "7ec590a29c9644e9",
+    "type": "rbe",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": false,
+    "property": "payload",
+    "topi": "topic",
+    "x": 2030,
+    "y": 1740,
+    "wires": [
+      [
+        "ca97b99d897803ba"
+      ]
+    ]
+  },
+  {
+    "id": "777caf84fbc17ac4",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "mode cumulus",
+    "property": "metrics.system.mode.cumulus",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1340,
+    "y": 1800,
+    "wires": [
+      [
+        "b0615a8b925c2a1e"
+      ]
+    ]
+  },
+  {
+    "id": "627447b0ec972fad",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "mode nycthemer",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "day",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 830,
+    "y": 1800,
+    "wires": [
+      [
+        "777caf84fbc17ac4"
+      ]
+    ]
+  },
+  {
+    "id": "de0a0d586916ab0a",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "power",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 790,
+    "y": 1740,
+    "wires": [
+      [
+        "70900b24b581bb03"
+      ]
+    ]
+  },
+  {
+    "id": "70900b24b581bb03",
+    "type": "delay",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "1 s",
+    "pauseType": "delay",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1740,
+    "wires": [
+      [
+        "ed10eaa200be8111"
+      ]
+    ]
+  },
+  {
+    "id": "ed10eaa200be8111",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "from global",
+    "property": "metrics[msg.scene.bucket][msg.scene.measurement][msg.scene.field]",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1130,
+    "y": 1740,
+    "wires": [
+      [
+        "b0615a8b925c2a1e"
+      ]
+    ]
+  },
+  {
+    "id": "97c76b46acec597a",
+    "type": "link in",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "scene - cumulus",
+    "links": [
+      "a5610da475c5e78e"
+    ],
+    "x": 135,
+    "y": 1860,
+    "wires": [
+      [
+        "79afd202ec008f23"
+      ]
+    ]
   }
 ]

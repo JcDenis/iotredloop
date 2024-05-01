@@ -103,8 +103,8 @@
     ],
     "x": 68,
     "y": 1193,
-    "w": 4254,
-    "h": 374
+    "w": 1334,
+    "h": 314
   },
   {
     "id": "f8d0942e587ff2f0",
@@ -126,6 +126,27 @@
     "y": 1613,
     "w": 1394,
     "h": 494
+  },
+  {
+    "id": "49832240a78ee7ed",
+    "type": "group",
+    "z": "2b225e03b149417d",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "12407f33e3e39829",
+      "f0f6469a83e81a42",
+      "4a57670feb22dd22"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
   },
   {
     "id": "e8fbf877572c810c",
@@ -221,39 +242,15 @@
       "label": true
     },
     "nodes": [
-      "25db78b44991ca16",
       "1dee4c1bfd86f78c",
       "c11de5fcb0565144",
       "d60df3cdcb5355ed",
-      "be216b98d4a251d4",
-      "5cb5353a377307b6",
-      "3862d53a6a9c1eeb",
-      "1335c4fa0517da59",
-      "44612a9ac4307b1f",
-      "3008c8cbd4ac7bb4",
-      "5fef774a053c6a26",
-      "7b451daa8a83fb13",
-      "b86088cdb0ed5bca",
-      "f65bdfdb25b0e1ab",
-      "6d91b12781dfbd49",
-      "0b41848d40392800",
-      "37459f9a709b065e",
-      "9d03255ab500479e",
-      "6959756bac0c2b7e",
-      "d93e314f6f15bc41",
-      "1a8d7b0e2e8acbb7",
-      "60f6e8f379f63441",
-      "c591bd9d447942fd",
-      "3787b20cc1a3783d",
-      "75fc0f35b064450b",
-      "4b654e283799e870",
-      "fc1158a0f8710da5",
-      "04d672acf9c45ac1"
+      "a5610da475c5e78e"
     ],
     "x": 694,
-    "y": 1219,
-    "w": 3602,
-    "h": 322
+    "y": 1324,
+    "w": 682,
+    "h": 112
   },
   {
     "id": "297b2d3fd56440f9",
@@ -371,27 +368,6 @@
     "x": 94,
     "y": 1999,
     "w": 892,
-    "h": 82
-  },
-  {
-    "id": "49832240a78ee7ed",
-    "type": "group",
-    "z": "2b225e03b149417d",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "12407f33e3e39829",
-      "f0f6469a83e81a42",
-      "4a57670feb22dd22"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
     "h": 82
   },
   {
@@ -1293,33 +1269,6 @@
     ]
   },
   {
-    "id": "25db78b44991ca16",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "check scene path",
-    "property": "msg.scene.bucket & '/' & msg.scene.measurement & '/' & msg.scene.field",
-    "propertyType": "jsonata",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "cave/cumulus/ballon",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 3690,
-    "y": 1320,
-    "wires": [
-      [
-        "9d03255ab500479e",
-        "5fef774a053c6a26"
-      ]
-    ]
-  },
-  {
     "id": "1dee4c1bfd86f78c",
     "type": "switch",
     "z": "2b225e03b149417d",
@@ -1435,7 +1384,7 @@
     "y": 1380,
     "wires": [
       [
-        "be216b98d4a251d4"
+        "a5610da475c5e78e"
       ]
     ]
   },
@@ -1453,641 +1402,6 @@
     "wires": [
       [
         "1dee4c1bfd86f78c"
-      ]
-    ]
-  },
-  {
-    "id": "be216b98d4a251d4",
-    "type": "link call",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "",
-    "links": [
-      "c1a22098f4c6b607"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 1390,
-    "y": 1380,
-    "wires": [
-      [
-        "5cb5353a377307b6"
-      ]
-    ]
-  },
-  {
-    "id": "5cb5353a377307b6",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1570,
-    "y": 1380,
-    "wires": [
-      [
-        "6d91b12781dfbd49"
-      ]
-    ]
-  },
-  {
-    "id": "3862d53a6a9c1eeb",
-    "type": "link call",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "",
-    "links": [
-      "c63c05889184c3bc"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 2430,
-    "y": 1380,
-    "wires": [
-      [
-        "1335c4fa0517da59"
-      ]
-    ]
-  },
-  {
-    "id": "1335c4fa0517da59",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2610,
-    "y": 1380,
-    "wires": [
-      [
-        "37459f9a709b065e"
-      ]
-    ]
-  },
-  {
-    "id": "44612a9ac4307b1f",
-    "type": "link call",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "",
-    "links": [
-      "834ce9850cdb0a72"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 3310,
-    "y": 1320,
-    "wires": [
-      [
-        "3008c8cbd4ac7bb4"
-      ]
-    ]
-  },
-  {
-    "id": "3008c8cbd4ac7bb4",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 3490,
-    "y": 1320,
-    "wires": [
-      [
-        "25db78b44991ca16"
-      ]
-    ]
-  },
-  {
-    "id": "5fef774a053c6a26",
-    "type": "link out",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "cave - scene - cumulus balloon",
-    "mode": "link",
-    "links": [
-      "fb4b4e2a3fb029df"
-    ],
-    "x": 3855,
-    "y": 1440,
-    "wires": []
-  },
-  {
-    "id": "7b451daa8a83fb13",
-    "type": "link call",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "",
-    "links": [
-      "dfec2e7efb555d4d"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 2070,
-    "y": 1440,
-    "wires": [
-      [
-        "60f6e8f379f63441"
-      ]
-    ]
-  },
-  {
-    "id": "b86088cdb0ed5bca",
-    "type": "trigger",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "wait 5 s",
-    "op1": "",
-    "op2": "",
-    "op1type": "nul",
-    "op2type": "pay",
-    "duration": "5",
-    "extend": false,
-    "overrideDelay": false,
-    "units": "s",
-    "reset": "false",
-    "bytopic": "all",
-    "topic": "topic",
-    "outputs": 1,
-    "x": 2960,
-    "y": 1440,
-    "wires": [
-      [
-        "5fef774a053c6a26",
-        "c591bd9d447942fd"
-      ]
-    ]
-  },
-  {
-    "id": "f65bdfdb25b0e1ab",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "tariff",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "HP",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "HC",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 1890,
-    "y": 1380,
-    "wires": [
-      [
-        "3787b20cc1a3783d"
-      ],
-      [
-        "7b451daa8a83fb13"
-      ]
-    ]
-  },
-  {
-    "id": "6d91b12781dfbd49",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "field",
-    "property": "field",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "balloon",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "nycthemer",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "tariff",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "cumulus",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 4,
-    "x": 1730,
-    "y": 1380,
-    "wires": [
-      [
-        "4b654e283799e870"
-      ],
-      [
-        "75fc0f35b064450b"
-      ],
-      [
-        "f65bdfdb25b0e1ab"
-      ],
-      [
-        "0b41848d40392800"
-      ]
-    ]
-  },
-  {
-    "id": "0b41848d40392800",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "mode cumulus",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1920,
-    "y": 1500,
-    "wires": [
-      [
-        "37459f9a709b065e"
-      ]
-    ]
-  },
-  {
-    "id": "37459f9a709b065e",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "scene on",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "scene.on",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2780,
-    "y": 1440,
-    "wires": [
-      [
-        "b86088cdb0ed5bca"
-      ]
-    ]
-  },
-  {
-    "id": "9d03255ab500479e",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "mode cumulus",
-    "property": "metrics.system.mode.cumulus",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 3920,
-    "y": 1320,
-    "wires": [
-      [
-        "6959756bac0c2b7e"
-      ]
-    ]
-  },
-  {
-    "id": "6959756bac0c2b7e",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "system",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "mode",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "automatic",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 4120,
-    "y": 1320,
-    "wires": [
-      [
-        "d93e314f6f15bc41"
-      ]
-    ]
-  },
-  {
-    "id": "d93e314f6f15bc41",
-    "type": "link out",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "cave - scene - cumulus balloon - auto",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 4255,
-    "y": 1320,
-    "wires": []
-  },
-  {
-    "id": "1a8d7b0e2e8acbb7",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "scene off",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "scene.off",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2780,
-    "y": 1320,
-    "wires": [
-      [
-        "c591bd9d447942fd",
-        "5fef774a053c6a26",
-        "b86088cdb0ed5bca"
-      ]
-    ]
-  },
-  {
-    "id": "60f6e8f379f63441",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "-1",
-        "vt": "num"
-      },
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 2250,
-    "y": 1380,
-    "wires": [
-      [
-        "3787b20cc1a3783d"
-      ],
-      [
-        "3862d53a6a9c1eeb"
-      ]
-    ]
-  },
-  {
-    "id": "c591bd9d447942fd",
-    "type": "rbe",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "",
-    "func": "rbe",
-    "gap": "",
-    "start": "",
-    "inout": "out",
-    "septopics": false,
-    "property": "payload",
-    "topi": "topic",
-    "x": 3130,
-    "y": 1320,
-    "wires": [
-      [
-        "44612a9ac4307b1f"
-      ]
-    ]
-  },
-  {
-    "id": "3787b20cc1a3783d",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "mode cumulus",
-    "property": "metrics.system.mode.cumulus",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "neq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2440,
-    "y": 1320,
-    "wires": [
-      [
-        "1a8d7b0e2e8acbb7"
-      ]
-    ]
-  },
-  {
-    "id": "75fc0f35b064450b",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "mode nycthemer",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "day",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1930,
-    "y": 1320,
-    "wires": [
-      [
-        "3787b20cc1a3783d"
-      ]
-    ]
-  },
-  {
-    "id": "4b654e283799e870",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "power",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "0",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1890,
-    "y": 1260,
-    "wires": [
-      [
-        "fc1158a0f8710da5"
-      ]
-    ]
-  },
-  {
-    "id": "fc1158a0f8710da5",
-    "type": "delay",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "1 s",
-    "pauseType": "delay",
-    "timeout": "1",
-    "timeoutUnits": "seconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 2050,
-    "y": 1260,
-    "wires": [
-      [
-        "04d672acf9c45ac1"
-      ]
-    ]
-  },
-  {
-    "id": "04d672acf9c45ac1",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "from global",
-    "property": "metrics[msg.scene.bucket]cumulus.ballon",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "true"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2230,
-    "y": 1260,
-    "wires": [
-      [
-        "1a8d7b0e2e8acbb7"
       ]
     ]
   },
@@ -2996,6 +2310,20 @@
     ],
     "x": 915,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "a5610da475c5e78e",
+    "type": "link out",
+    "z": "2b225e03b149417d",
+    "g": "729d745d2f78ab73",
+    "name": "cave - scene - cumulus balloon",
+    "mode": "link",
+    "links": [
+      "97c76b46acec597a"
+    ],
+    "x": 1335,
+    "y": 1380,
     "wires": []
   }
 ]
