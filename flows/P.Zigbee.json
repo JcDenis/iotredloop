@@ -20,11 +20,13 @@
     "nodes": [
       "66948514053cd7ef",
       "8bb6e6e526809dfc",
-      "ba0439c1fa954d4d"
+      "ba0439c1fa954d4d",
+      "3fb79d89a2bd41ff",
+      "3f468d9127dbefd1"
     ],
     "x": 68,
     "y": 413,
-    "w": 2534,
+    "w": 2974,
     "h": 314
   },
   {
@@ -39,11 +41,13 @@
     },
     "nodes": [
       "e47b49408799776a",
-      "ee13e249bc8f7cb8"
+      "ee13e249bc8f7cb8",
+      "26ebc7d97f06c117",
+      "573db46bbc14f6e9"
     ],
     "x": 68,
     "y": 773,
-    "w": 1674,
+    "w": 2114,
     "h": 254
   },
   {
@@ -58,11 +62,13 @@
     },
     "nodes": [
       "4139f126d180c24e",
-      "697a44ba65900e43"
+      "697a44ba65900e43",
+      "3fd562a0e54bacd1",
+      "b1443ec31cf4651d"
     ],
-    "x": 2688,
+    "x": 3128,
     "y": 1373,
-    "w": 1714,
+    "w": 2154,
     "h": 314
   },
   {
@@ -78,11 +84,13 @@
     "nodes": [
       "b8071baa204e8be9",
       "2e0d545ca1f1f751",
-      "bbbe67eb0c6352bc"
+      "bbbe67eb0c6352bc",
+      "5967c186d2f9ebf3",
+      "a96ce0d1796adb63"
     ],
     "x": 68,
     "y": 1073,
-    "w": 2474,
+    "w": 2914,
     "h": 314
   },
   {
@@ -98,11 +106,13 @@
     "nodes": [
       "5a940d986fd98e4f",
       "7ec205f137c6c32f",
-      "432680d564c1569e"
+      "432680d564c1569e",
+      "fb310bb48b3ab02d",
+      "72d58a85b9a4aa52"
     ],
-    "x": 2688,
+    "x": 3128,
     "y": 413,
-    "w": 2474,
+    "w": 2914,
     "h": 254
   },
   {
@@ -117,11 +127,13 @@
     },
     "nodes": [
       "19df7e1ced610978",
-      "46f335e4a5e2f58f"
+      "46f335e4a5e2f58f",
+      "37baa76cfd48b2fc",
+      "6e2340865ef4c2ba"
     ],
-    "x": 2688,
+    "x": 3128,
     "y": 713,
-    "w": 2614,
+    "w": 3054,
     "h": 314
   },
   {
@@ -136,444 +148,14 @@
     },
     "nodes": [
       "19780ef67d75fab4",
-      "95639b2299991877"
-    ],
-    "x": 2688,
-    "y": 1073,
-    "w": 1674,
-    "h": 254
-  },
-  {
-    "id": "66948514053cd7ef",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "f147598b1853465c",
-    "name": "zigbee - S530559 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "19b13887fb6925d7",
-      "6874cf6f062fb04a",
-      "33d5e527d6182be4",
-      "4260ec8334e317f2",
-      "de6506a93e799ba9",
-      "f2c9d7a95dbaeb38",
-      "d16b37d2939388d4",
-      "dbc8bb25a9189ad0",
-      "3f468d9127dbefd1"
-    ],
-    "x": 94,
-    "y": 439,
-    "w": 902,
-    "h": 262
-  },
-  {
-    "id": "8bb6e6e526809dfc",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "f147598b1853465c",
-    "name": "zigbee - S530559 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "22ae28cd02b2ac40",
-      "f2a5994dd44a5161",
-      "e357d03ad7d6882e",
-      "ed6122dd6848d885",
-      "cc0ff5feddc37308",
-      "61d409cdd6107520"
-    ],
-    "x": 1094,
-    "y": 439,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "ba0439c1fa954d4d",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "f147598b1853465c",
-    "name": "zigbee - S530559 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "8f9164d97bb54bdc",
-      "0f053409eacfc57b",
-      "826e10a356b21321",
-      "1547b4b71e27b11b",
-      "3a56ad77ed759c12"
-    ],
-    "x": 1854,
-    "y": 439,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "e47b49408799776a",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "610900e2bc688c66",
-    "name": "zigbee - MCCGQ11LM - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "0d54b77d8c9e9c2e",
-      "eb2dea648ab3cbf3",
-      "0dc72fc23588671b",
-      "6a57d40dff357bfa",
-      "8f6759a268add92e",
-      "da66f64898772e28"
-    ],
-    "x": 1034,
-    "y": 799,
-    "w": 682,
-    "h": 142
-  },
-  {
-    "id": "ee13e249bc8f7cb8",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "610900e2bc688c66",
-    "name": "zigbee - MCCGQ11LM - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "2743e40bf657513e",
-      "3ceac0cbe91463c5",
-      "2d105ceea6392f18",
-      "f2af422ed8da0c9f",
-      "4f9f216ecca80280",
-      "0cdcc7d5d4b9c579",
-      "cff5883034f77cb0",
-      "573db46bbc14f6e9"
-    ],
-    "x": 94,
-    "y": 799,
-    "w": 842,
-    "h": 202
-  },
-  {
-    "id": "4139f126d180c24e",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "1a4c91d77f5e3f12",
-    "name": "source zigbee SNZB-02",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "eba7097bf16acf67",
-      "b5e907f3ee711b07",
-      "372f04c4a067844d",
-      "ada7d594f73cc361",
-      "134fcbb851958c16",
-      "43cac53e0a0d9eee",
-      "f11a044ad0e20908"
-    ],
-    "x": 3674,
-    "y": 1399,
-    "w": 702,
-    "h": 202
-  },
-  {
-    "id": "697a44ba65900e43",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "1a4c91d77f5e3f12",
-    "name": "zigbee - SNZB-02 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "14186618daa0777a",
-      "3ecc82d3284673db",
-      "dc1da9165183247d",
-      "db246d9296a823b2",
-      "d29d128c44cded92",
-      "5ea3980a5d978b17",
-      "40de05671513ae04",
-      "42d5c8c10cedb468",
-      "b1443ec31cf4651d"
-    ],
-    "x": 2714,
-    "y": 1399,
-    "w": 862,
-    "h": 262
-  },
-  {
-    "id": "b8071baa204e8be9",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "a8afdde5118f03bd",
-    "name": "zigbee - 412171, 412170 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "8cac6d3317d16d9b",
-      "de7e38615805f3a5",
-      "14cb219896489fb7",
-      "93766a4847594832",
-      "c2e44a76c98cd7ae",
-      "3a8223f94768eb4c",
-      "d982fc8e308c3260",
-      "8237bbc2fead9706",
-      "a96ce0d1796adb63"
-    ],
-    "x": 94,
-    "y": 1099,
-    "w": 842,
-    "h": 262
-  },
-  {
-    "id": "2e0d545ca1f1f751",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "a8afdde5118f03bd",
-    "name": "zigbee - 412171, 412170 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "93febb4421f30d87",
-      "f21af5e954aec1df",
-      "3b6e494f3b2508cf",
-      "1163d4337dbcccf6",
-      "2ec8ca0d27d00fed",
-      "4385665e61ddeef1"
-    ],
-    "x": 1034,
-    "y": 1099,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "bbbe67eb0c6352bc",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "a8afdde5118f03bd",
-    "name": "zigbee - 412171, 412170 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "de48ab70a838d67e",
-      "c7ca4f7a643b3a2c",
-      "c7da23fa87be228d",
-      "f2fda89b10cab1fe",
-      "dc8432cb11ffb0d6"
-    ],
-    "x": 1794,
-    "y": 1099,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "5a940d986fd98e4f",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "7ca9480926549d67",
-    "name": "zigbee - ZBMINIL2 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "99a4e5dc5644cb4f",
-      "f75e69724e356e1c",
-      "5e07eabb2b7d8ce2",
-      "c491dadde798f841",
-      "1d31e1f4842e9321",
-      "00384275810d4079",
-      "97bc7bfd63052866",
-      "72d58a85b9a4aa52"
-    ],
-    "x": 2714,
-    "y": 439,
-    "w": 842,
-    "h": 202
-  },
-  {
-    "id": "7ec205f137c6c32f",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "7ca9480926549d67",
-    "name": "zigbee - ZBMINIL2 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "39ac0b2fb3f505c0",
-      "e93a07a5851a14f2",
-      "7b6cf0c3453cf17b",
-      "a6ae8f35d17b3622",
-      "162055ff0b298da7"
-    ],
-    "x": 3654,
-    "y": 439,
-    "w": 662,
-    "h": 82
-  },
-  {
-    "id": "432680d564c1569e",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "7ca9480926549d67",
-    "name": "zigbee - ZBMINIL2 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d051e2ecad8a4c91",
-      "25b1ac0e4bf27db0",
-      "0be54ddf68a672a5",
-      "bbeb040050524c9a",
-      "7906a1e6360e1d26"
-    ],
-    "x": 4414,
-    "y": 439,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "19df7e1ced610978",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "85cf36fc3802a3fe",
-    "name": "zigbee - SNZB-01P - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "670e7395d0752414",
-      "0552a0e8ad4f3621",
-      "0454a289f1920bdf",
-      "9d5b5ecf823f3e06",
-      "42c7380d496e1a14",
-      "d6691e769350c0ac",
-      "1e1a6a213e5bed71",
-      "6a4924e86bc8630f",
-      "19b7b50be9592a5c",
-      "c892e02505855e89",
-      "1e457934d5466768",
-      "589c37cd53161a2b",
-      "f2a3784904b9112d",
-      "6b6b43283b748b66",
-      "19732dc56de56ff4",
-      "2f670c5c2a24ce20",
-      "64168fa4c56dcecc"
-    ],
-    "x": 3674,
-    "y": 739,
-    "w": 1602,
-    "h": 262
-  },
-  {
-    "id": "46f335e4a5e2f58f",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "85cf36fc3802a3fe",
-    "name": "zigbee - SNZB-01P - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "341f5047f4a4fe5d",
-      "65f6a02b5d2c092d",
-      "fe5cbe149f478b8f",
-      "cb01f17b4f6d897a",
-      "74b35458f02dda86",
-      "6e2340865ef4c2ba",
-      "29f7aa56b6e32d61"
-    ],
-    "x": 2714,
-    "y": 739,
-    "w": 862,
-    "h": 142
-  },
-  {
-    "id": "19780ef67d75fab4",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "b475a609b6f58891",
-    "name": "zigbee - SNZB-03 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "746e7afab8f321b5",
-      "8fb070b26cad8e8c",
-      "3a92525692be8c0a",
-      "40746311949be945",
-      "b2f041d50556adbe",
-      "eec5f8a1287b092c"
-    ],
-    "x": 3674,
-    "y": 1099,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "95639b2299991877",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "g": "b475a609b6f58891",
-    "name": "zigbee - SNZB-03 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "dcb1d3c98c1c8c60",
-      "9bce06553cc1164f",
-      "b4da65c019049b2e",
-      "c0e646f0c8352181",
-      "8480858c89a6eed5",
-      "dab0ca52a89d269d",
-      "bc2f27d32087dd9a",
+      "95639b2299991877",
+      "2c8e632985722562",
       "5cb5d81fb0a8ee1e"
     ],
-    "x": 2714,
-    "y": 1099,
-    "w": 862,
-    "h": 202
+    "x": 3128,
+    "y": 1073,
+    "w": 2114,
+    "h": 254
   },
   {
     "id": "2247172d871e19b2",
@@ -615,6 +197,452 @@
     "y": 173,
     "w": 1764,
     "h": 194
+  },
+  {
+    "id": "0bf7882d384bbe3e",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "name": "zigbee - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "818474999b1f4359",
+      "06a2c66e1e278b6a",
+      "966a83047616987a"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "66948514053cd7ef",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "f147598b1853465c",
+    "name": "zigbee - S530559 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "19b13887fb6925d7",
+      "6874cf6f062fb04a",
+      "33d5e527d6182be4",
+      "4260ec8334e317f2",
+      "de6506a93e799ba9",
+      "f2c9d7a95dbaeb38",
+      "d16b37d2939388d4",
+      "dbc8bb25a9189ad0"
+    ],
+    "x": 534,
+    "y": 439,
+    "w": 902,
+    "h": 262
+  },
+  {
+    "id": "8bb6e6e526809dfc",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "f147598b1853465c",
+    "name": "zigbee - S530559 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "22ae28cd02b2ac40",
+      "f2a5994dd44a5161",
+      "e357d03ad7d6882e",
+      "ed6122dd6848d885",
+      "cc0ff5feddc37308",
+      "61d409cdd6107520"
+    ],
+    "x": 1534,
+    "y": 439,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "ba0439c1fa954d4d",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "f147598b1853465c",
+    "name": "zigbee - S530559 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8f9164d97bb54bdc",
+      "0f053409eacfc57b",
+      "826e10a356b21321",
+      "1547b4b71e27b11b",
+      "3a56ad77ed759c12"
+    ],
+    "x": 2294,
+    "y": 439,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "e47b49408799776a",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "610900e2bc688c66",
+    "name": "zigbee - MCCGQ11LM - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0d54b77d8c9e9c2e",
+      "eb2dea648ab3cbf3",
+      "0dc72fc23588671b",
+      "6a57d40dff357bfa",
+      "8f6759a268add92e",
+      "da66f64898772e28"
+    ],
+    "x": 1474,
+    "y": 799,
+    "w": 682,
+    "h": 142
+  },
+  {
+    "id": "ee13e249bc8f7cb8",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "610900e2bc688c66",
+    "name": "zigbee - MCCGQ11LM - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2743e40bf657513e",
+      "3ceac0cbe91463c5",
+      "2d105ceea6392f18",
+      "f2af422ed8da0c9f",
+      "4f9f216ecca80280",
+      "0cdcc7d5d4b9c579",
+      "cff5883034f77cb0"
+    ],
+    "x": 534,
+    "y": 799,
+    "w": 842,
+    "h": 202
+  },
+  {
+    "id": "4139f126d180c24e",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "1a4c91d77f5e3f12",
+    "name": "source zigbee SNZB-02",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "eba7097bf16acf67",
+      "b5e907f3ee711b07",
+      "372f04c4a067844d",
+      "ada7d594f73cc361",
+      "134fcbb851958c16",
+      "43cac53e0a0d9eee",
+      "f11a044ad0e20908"
+    ],
+    "x": 4554,
+    "y": 1399,
+    "w": 702,
+    "h": 202
+  },
+  {
+    "id": "697a44ba65900e43",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "1a4c91d77f5e3f12",
+    "name": "zigbee - SNZB-02 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "14186618daa0777a",
+      "3ecc82d3284673db",
+      "dc1da9165183247d",
+      "db246d9296a823b2",
+      "d29d128c44cded92",
+      "5ea3980a5d978b17",
+      "40de05671513ae04",
+      "42d5c8c10cedb468"
+    ],
+    "x": 3594,
+    "y": 1399,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "b8071baa204e8be9",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "a8afdde5118f03bd",
+    "name": "zigbee - 412171, 412170 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8cac6d3317d16d9b",
+      "de7e38615805f3a5",
+      "14cb219896489fb7",
+      "93766a4847594832",
+      "c2e44a76c98cd7ae",
+      "3a8223f94768eb4c",
+      "d982fc8e308c3260",
+      "8237bbc2fead9706"
+    ],
+    "x": 534,
+    "y": 1099,
+    "w": 842,
+    "h": 262
+  },
+  {
+    "id": "2e0d545ca1f1f751",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "a8afdde5118f03bd",
+    "name": "zigbee - 412171, 412170 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "93febb4421f30d87",
+      "f21af5e954aec1df",
+      "3b6e494f3b2508cf",
+      "1163d4337dbcccf6",
+      "2ec8ca0d27d00fed",
+      "4385665e61ddeef1"
+    ],
+    "x": 1474,
+    "y": 1099,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "bbbe67eb0c6352bc",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "a8afdde5118f03bd",
+    "name": "zigbee - 412171, 412170 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "de48ab70a838d67e",
+      "c7ca4f7a643b3a2c",
+      "c7da23fa87be228d",
+      "f2fda89b10cab1fe",
+      "dc8432cb11ffb0d6"
+    ],
+    "x": 2234,
+    "y": 1099,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "5a940d986fd98e4f",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "7ca9480926549d67",
+    "name": "zigbee - ZBMINIL2 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "99a4e5dc5644cb4f",
+      "f75e69724e356e1c",
+      "5e07eabb2b7d8ce2",
+      "c491dadde798f841",
+      "1d31e1f4842e9321",
+      "00384275810d4079",
+      "97bc7bfd63052866"
+    ],
+    "x": 3594,
+    "y": 439,
+    "w": 842,
+    "h": 202
+  },
+  {
+    "id": "7ec205f137c6c32f",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "7ca9480926549d67",
+    "name": "zigbee - ZBMINIL2 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "39ac0b2fb3f505c0",
+      "e93a07a5851a14f2",
+      "7b6cf0c3453cf17b",
+      "a6ae8f35d17b3622",
+      "162055ff0b298da7"
+    ],
+    "x": 4534,
+    "y": 439,
+    "w": 662,
+    "h": 82
+  },
+  {
+    "id": "432680d564c1569e",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "7ca9480926549d67",
+    "name": "zigbee - ZBMINIL2 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d051e2ecad8a4c91",
+      "25b1ac0e4bf27db0",
+      "0be54ddf68a672a5",
+      "bbeb040050524c9a",
+      "7906a1e6360e1d26"
+    ],
+    "x": 5294,
+    "y": 439,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "19df7e1ced610978",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "85cf36fc3802a3fe",
+    "name": "zigbee - SNZB-01P - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "670e7395d0752414",
+      "0552a0e8ad4f3621",
+      "0454a289f1920bdf",
+      "9d5b5ecf823f3e06",
+      "42c7380d496e1a14",
+      "d6691e769350c0ac",
+      "1e1a6a213e5bed71",
+      "6a4924e86bc8630f",
+      "19b7b50be9592a5c",
+      "c892e02505855e89",
+      "1e457934d5466768",
+      "589c37cd53161a2b",
+      "f2a3784904b9112d",
+      "6b6b43283b748b66",
+      "19732dc56de56ff4",
+      "2f670c5c2a24ce20",
+      "64168fa4c56dcecc"
+    ],
+    "x": 4554,
+    "y": 739,
+    "w": 1602,
+    "h": 262
+  },
+  {
+    "id": "46f335e4a5e2f58f",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "85cf36fc3802a3fe",
+    "name": "zigbee - SNZB-01P - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "341f5047f4a4fe5d",
+      "65f6a02b5d2c092d",
+      "fe5cbe149f478b8f",
+      "cb01f17b4f6d897a",
+      "74b35458f02dda86",
+      "29f7aa56b6e32d61"
+    ],
+    "x": 3594,
+    "y": 739,
+    "w": 862,
+    "h": 142
+  },
+  {
+    "id": "19780ef67d75fab4",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b475a609b6f58891",
+    "name": "zigbee - SNZB-03 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "746e7afab8f321b5",
+      "8fb070b26cad8e8c",
+      "3a92525692be8c0a",
+      "40746311949be945",
+      "b2f041d50556adbe",
+      "eec5f8a1287b092c"
+    ],
+    "x": 4554,
+    "y": 1099,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "95639b2299991877",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b475a609b6f58891",
+    "name": "zigbee - SNZB-03 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "dcb1d3c98c1c8c60",
+      "9bce06553cc1164f",
+      "b4da65c019049b2e",
+      "c0e646f0c8352181",
+      "8480858c89a6eed5",
+      "dab0ca52a89d269d",
+      "bc2f27d32087dd9a"
+    ],
+    "x": 3594,
+    "y": 1099,
+    "w": 862,
+    "h": 202
   },
   {
     "id": "518b634fa908a4aa",
@@ -664,23 +692,241 @@
     "h": 142
   },
   {
-    "id": "0bf7882d384bbe3e",
+    "id": "c77a914a05a8229b",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "zigbee - bucket",
+    "name": "Tuya - PJ-MGW1203",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "71fe9ef70302b7fe",
+      "f617e52e297c8ad2",
+      "874510c9886ca66e",
+      "4d1cd88e584eca79"
+    ],
+    "x": 68,
+    "y": 1433,
+    "w": 2094,
+    "h": 254
+  },
+  {
+    "id": "71fe9ef70302b7fe",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "c77a914a05a8229b",
+    "name": "zigbee - PJ-MGW1203 - device",
     "style": {
       "fill": "#ffC000",
       "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
+      "label": true
     },
     "nodes": [
-      "818474999b1f4359",
-      "06a2c66e1e278b6a",
-      "966a83047616987a"
+      "dfbbe93ed61d87b2",
+      "ac0a600ca52f9c3e",
+      "6f6d7d45f826f275",
+      "db531fac813c8e66",
+      "f739db440f3d79b1",
+      "22ef5d09e03d19e0",
+      "13199e203383201a"
+    ],
+    "x": 534,
+    "y": 1459,
+    "w": 822,
+    "h": 202
+  },
+  {
+    "id": "f617e52e297c8ad2",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "c77a914a05a8229b",
+    "name": "zigbee - PJ-MGW1203 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6bf24cfdfefb1bb7",
+      "bb997600e486d015",
+      "ddda7783f50a0db4",
+      "a26d34138e9e5ac9",
+      "f60ae365fb4e2024",
+      "81d1299edeeec856"
+    ],
+    "x": 1454,
+    "y": 1459,
+    "w": 682,
+    "h": 142
+  },
+  {
+    "id": "fb310bb48b3ab02d",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "7ca9480926549d67",
+    "name": "zigbee - ZBMINIL2 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4fa1971ba6183d55",
+      "a0a58b0b53c68d3d",
+      "1b2b173864b5b18f"
+    ],
+    "x": 3154,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "37baa76cfd48b2fc",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "85cf36fc3802a3fe",
+    "name": "zigbee - ZBMINIL2 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "9d33432184b532c8",
+      "3fce7a45dd3670a4",
+      "68937215c80c0f7c"
+    ],
+    "x": 3154,
+    "y": 739,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "2c8e632985722562",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b475a609b6f58891",
+    "name": "zigbee - SNZB-03 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2b16e085b48c0440",
+      "34f9d3e13a7a926c",
+      "23cde9c0dc38671b"
+    ],
+    "x": 3154,
+    "y": 1099,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "3fd562a0e54bacd1",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "1a4c91d77f5e3f12",
+    "name": "zigbee - SNZB-02 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "fad484a3f123ac37",
+      "96513a0fecdf10d8",
+      "b9beacf10a894eba"
+    ],
+    "x": 3154,
+    "y": 1399,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "3fb79d89a2bd41ff",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "f147598b1853465c",
+    "name": "zigbee - S530559 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "370a85c93a8d561d",
+      "fb8a232abeb978b3",
+      "96dc3b51e121f1c9"
     ],
     "x": 94,
-    "y": 19,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "26ebc7d97f06c117",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "610900e2bc688c66",
+    "name": "zigbee - MCCGQ11LM - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b463c81b1b187246",
+      "df0e7a06d243f473",
+      "4eb7f83fca4bcb34"
+    ],
+    "x": 94,
+    "y": 799,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "5967c186d2f9ebf3",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "a8afdde5118f03bd",
+    "name": "zigbee - 412171, 412170 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "06e81a86a3217a48",
+      "c6c8fa25720fcc15",
+      "79409b5134de7f76",
+      "c5b9d91c720d7091"
+    ],
+    "x": 94,
+    "y": 1099,
+    "w": 342,
+    "h": 142
+  },
+  {
+    "id": "874510c9886ca66e",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "c77a914a05a8229b",
+    "name": "zigbee - PJ-MGW1203 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a6900d3b869e3d1e",
+      "9ea62fd7b38d5c2a",
+      "f26c156abc555775"
+    ],
+    "x": 94,
+    "y": 1459,
     "w": 342,
     "h": 82
   },
@@ -702,7 +948,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 480,
     "wires": [
       [
@@ -754,7 +1000,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 540,
     "wires": [
       [
@@ -803,7 +1049,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 600,
     "wires": [
       [
@@ -852,7 +1098,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 660,
     "wires": [
       [
@@ -869,7 +1115,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 480,
     "wires": [
       [
@@ -911,7 +1157,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 540,
+    "x": 980,
     "y": 480,
     "wires": [
       [
@@ -939,7 +1185,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 820,
+    "x": 1260,
     "y": 480,
     "wires": [
       [
@@ -957,7 +1203,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 955,
+    "x": 1395,
     "y": 480,
     "wires": []
   },
@@ -965,11 +1211,11 @@
     "id": "3f468d9127dbefd1",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "66948514053cd7ef",
+    "g": "f147598b1853465c",
     "name": "outlet / socket",
     "info": "",
     "x": 190,
-    "y": 540,
+    "y": 560,
     "wires": []
   },
   {
@@ -999,7 +1245,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1590,
+    "x": 2030,
     "y": 480,
     "wires": [
       [
@@ -1034,7 +1280,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1590,
+    "x": 2030,
     "y": 540,
     "wires": [
       [
@@ -1051,7 +1297,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1135,
+    "x": 1575,
     "y": 480,
     "wires": [
       [
@@ -1077,7 +1323,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1270,
+    "x": 1710,
     "y": 480,
     "wires": [
       [
@@ -1103,7 +1349,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1430,
+    "x": 1870,
     "y": 480,
     "wires": [
       [
@@ -1122,7 +1368,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1715,
+    "x": 2155,
     "y": 480,
     "wires": []
   },
@@ -1165,7 +1411,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2410,
+    "x": 2850,
     "y": 480,
     "wires": [
       [
@@ -1182,7 +1428,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 1895,
+    "x": 2335,
     "y": 480,
     "wires": [
       [
@@ -1208,7 +1454,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2030,
+    "x": 2470,
     "y": 480,
     "wires": [
       [
@@ -1234,7 +1480,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2220,
+    "x": 2660,
     "y": 480,
     "wires": [
       [
@@ -1252,7 +1498,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2535,
+    "x": 2975,
     "y": 480,
     "wires": []
   },
@@ -1290,7 +1536,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1970,
     "y": 900,
     "wires": [
       [
@@ -1339,7 +1585,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1540,
+    "x": 1980,
     "y": 840,
     "wires": [
       [
@@ -1356,7 +1602,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1075,
+    "x": 1515,
     "y": 840,
     "wires": [
       [
@@ -1382,7 +1628,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1210,
+    "x": 1650,
     "y": 840,
     "wires": [
       [
@@ -1400,7 +1646,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1675,
+    "x": 2115,
     "y": 840,
     "wires": []
   },
@@ -1422,7 +1668,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1370,
+    "x": 1810,
     "y": 840,
     "wires": [
       [
@@ -1449,7 +1695,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 840,
     "wires": [
       [
@@ -1500,7 +1746,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 900,
     "wires": [
       [
@@ -1549,7 +1795,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 960,
     "wires": [
       [
@@ -1566,7 +1812,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 840,
     "wires": [
       [
@@ -1584,7 +1830,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 895,
+    "x": 1335,
     "y": 840,
     "wires": []
   },
@@ -1608,7 +1854,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 760,
+    "x": 1200,
     "y": 840,
     "wires": [
       [
@@ -1627,7 +1873,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "sonoff",
+        "to": "aqara",
         "tot": "str"
       },
       {
@@ -1650,7 +1896,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 840,
     "wires": [
       [
@@ -1662,11 +1908,11 @@
     "id": "573db46bbc14f6e9",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "ee13e249bc8f7cb8",
+    "g": "610900e2bc688c66",
     "name": "aperture / door",
     "info": "",
     "x": 200,
-    "y": 900,
+    "y": 920,
     "wires": []
   },
   {
@@ -1703,7 +1949,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4190,
+    "x": 5070,
     "y": 1440,
     "wires": [
       [
@@ -1745,7 +1991,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4180,
+    "x": 5060,
     "y": 1500,
     "wires": [
       [
@@ -1787,7 +2033,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4170,
+    "x": 5050,
     "y": 1560,
     "wires": [
       [
@@ -1804,7 +2050,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3715,
+    "x": 4595,
     "y": 1440,
     "wires": [
       [
@@ -1830,7 +2076,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3850,
+    "x": 4730,
     "y": 1440,
     "wires": [
       [
@@ -1856,7 +2102,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4010,
+    "x": 4890,
     "y": 1440,
     "wires": [
       [
@@ -1876,7 +2122,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4335,
+    "x": 5215,
     "y": 1440,
     "wires": []
   },
@@ -1898,7 +2144,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2890,
+    "x": 3770,
     "y": 1440,
     "wires": [
       [
@@ -1950,7 +2196,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3140,
+    "x": 4020,
     "y": 1500,
     "wires": [
       [
@@ -1999,7 +2245,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 1560,
     "wires": [
       [
@@ -2048,7 +2294,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3120,
+    "x": 4000,
     "y": 1620,
     "wires": [
       [
@@ -2065,7 +2311,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2755,
+    "x": 3635,
     "y": 1440,
     "wires": [
       [
@@ -2083,7 +2329,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3535,
+    "x": 4415,
     "y": 1440,
     "wires": []
   },
@@ -2107,7 +2353,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3400,
+    "x": 4280,
     "y": 1440,
     "wires": [
       [
@@ -2149,7 +2395,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3140,
+    "x": 4020,
     "y": 1440,
     "wires": [
       [
@@ -2161,11 +2407,11 @@
     "id": "b1443ec31cf4651d",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "697a44ba65900e43",
+    "g": "1a4c91d77f5e3f12",
     "name": "temperature / probe",
     "info": "",
-    "x": 2830,
-    "y": 1500,
+    "x": 3270,
+    "y": 1520,
     "wires": []
   },
   {
@@ -2191,7 +2437,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 270,
+    "x": 710,
     "y": 1140,
     "wires": [
       [
@@ -2249,7 +2495,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 1200,
     "wires": [
       [
@@ -2298,7 +2544,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 1260,
     "wires": [
       [
@@ -2347,7 +2593,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 1320,
     "wires": [
       [
@@ -2364,7 +2610,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 1140,
     "wires": [
       [
@@ -2406,7 +2652,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 1140,
     "wires": [
       [
@@ -2434,7 +2680,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 760,
+    "x": 1200,
     "y": 1140,
     "wires": [
       [
@@ -2452,7 +2698,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 895,
+    "x": 1335,
     "y": 1140,
     "wires": []
   },
@@ -2460,11 +2706,11 @@
     "id": "a96ce0d1796adb63",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "b8071baa204e8be9",
+    "g": "a8afdde5118f03bd",
     "name": "light / relay",
     "info": "",
     "x": 180,
-    "y": 1200,
+    "y": 1280,
     "wires": []
   },
   {
@@ -2494,7 +2740,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1970,
     "y": 1140,
     "wires": [
       [
@@ -2529,7 +2775,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1970,
     "y": 1200,
     "wires": [
       [
@@ -2546,7 +2792,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1075,
+    "x": 1515,
     "y": 1140,
     "wires": [
       [
@@ -2577,7 +2823,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1210,
+    "x": 1650,
     "y": 1140,
     "wires": [
       [
@@ -2606,7 +2852,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1370,
+    "x": 1810,
     "y": 1140,
     "wires": [
       [
@@ -2625,7 +2871,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1655,
+    "x": 2095,
     "y": 1140,
     "wires": []
   },
@@ -2668,7 +2914,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2350,
+    "x": 2790,
     "y": 1140,
     "wires": [
       [
@@ -2685,7 +2931,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 1835,
+    "x": 2275,
     "y": 1140,
     "wires": [
       [
@@ -2716,7 +2962,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1970,
+    "x": 2410,
     "y": 1140,
     "wires": [
       [
@@ -2745,7 +2991,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2160,
+    "x": 2600,
     "y": 1140,
     "wires": [
       [
@@ -2763,7 +3009,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2475,
+    "x": 2915,
     "y": 1140,
     "wires": []
   },
@@ -2785,7 +3031,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2890,
+    "x": 3770,
     "y": 480,
     "wires": [
       [
@@ -2836,7 +3082,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 540,
     "wires": [
       [
@@ -2885,7 +3131,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 600,
     "wires": [
       [
@@ -2902,7 +3148,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2755,
+    "x": 3635,
     "y": 480,
     "wires": [
       [
@@ -2944,7 +3190,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3120,
+    "x": 4000,
     "y": 480,
     "wires": [
       [
@@ -2972,7 +3218,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3380,
+    "x": 4260,
     "y": 480,
     "wires": [
       [
@@ -2990,7 +3236,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3515,
+    "x": 4395,
     "y": 480,
     "wires": []
   },
@@ -2998,11 +3244,11 @@
     "id": "72d58a85b9a4aa52",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "5a940d986fd98e4f",
+    "g": "7ca9480926549d67",
     "name": "light / ceiling",
     "info": "",
-    "x": 2810,
-    "y": 540,
+    "x": 3250,
+    "y": 560,
     "wires": []
   },
   {
@@ -3032,7 +3278,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4150,
+    "x": 5030,
     "y": 480,
     "wires": [
       [
@@ -3049,7 +3295,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3695,
+    "x": 4575,
     "y": 480,
     "wires": [
       [
@@ -3075,7 +3321,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3830,
+    "x": 4710,
     "y": 480,
     "wires": [
       [
@@ -3101,7 +3347,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3990,
+    "x": 4870,
     "y": 480,
     "wires": [
       [
@@ -3119,7 +3365,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4275,
+    "x": 5155,
     "y": 480,
     "wires": []
   },
@@ -3162,7 +3408,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4970,
+    "x": 5850,
     "y": 480,
     "wires": [
       [
@@ -3179,7 +3425,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 4455,
+    "x": 5335,
     "y": 480,
     "wires": [
       [
@@ -3205,7 +3451,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4590,
+    "x": 5470,
     "y": 480,
     "wires": [
       [
@@ -3231,7 +3477,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4780,
+    "x": 5660,
     "y": 480,
     "wires": [
       [
@@ -3249,7 +3495,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 5095,
+    "x": 5975,
     "y": 480,
     "wires": []
   },
@@ -3268,7 +3514,7 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 4070,
+    "x": 4950,
     "y": 840,
     "wires": [
       [
@@ -3283,7 +3529,7 @@
     "g": "19df7e1ced610978",
     "name": "zigbee - SNZB-01P - source gate",
     "links": [],
-    "x": 3715,
+    "x": 4595,
     "y": 780,
     "wires": [
       [
@@ -3309,7 +3555,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 3880,
+    "x": 4760,
     "y": 780,
     "wires": [
       [
@@ -3324,7 +3570,7 @@
     "g": "19df7e1ced610978",
     "name": "Do not replay command from mqtt on startup",
     "info": "",
-    "x": 4190,
+    "x": 5070,
     "y": 780,
     "wires": []
   },
@@ -3337,7 +3583,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3715,
+    "x": 4595,
     "y": 840,
     "wires": [
       [
@@ -3363,7 +3609,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3850,
+    "x": 4730,
     "y": 840,
     "wires": [
       [
@@ -3381,7 +3627,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 5235,
+    "x": 6115,
     "y": 840,
     "wires": []
   },
@@ -3403,7 +3649,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4230,
+    "x": 5110,
     "y": 840,
     "wires": [
       [
@@ -3423,7 +3669,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4720,
+    "x": 5600,
     "y": 840,
     "wires": [
       [
@@ -3463,7 +3709,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 4390,
+    "x": 5270,
     "y": 840,
     "wires": [
       [
@@ -3500,7 +3746,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4550,
+    "x": 5430,
     "y": 780,
     "wires": [
       [
@@ -3528,7 +3774,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4550,
+    "x": 5430,
     "y": 840,
     "wires": [
       [
@@ -3556,7 +3802,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4550,
+    "x": 5430,
     "y": 900,
     "wires": [
       [
@@ -3584,7 +3830,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4550,
+    "x": 5430,
     "y": 960,
     "wires": [
       [
@@ -3610,7 +3856,7 @@
     "bytopic": "topic",
     "topic": "topic",
     "outputs": 1,
-    "x": 4920,
+    "x": 5800,
     "y": 920,
     "wires": [
       [
@@ -3638,7 +3884,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5110,
+    "x": 5990,
     "y": 920,
     "wires": [
       [
@@ -3653,7 +3899,7 @@
     "g": "19df7e1ced610978",
     "name": "payload = 1 for single, 2 for double, 3 for long, then 0 to reset to default value",
     "info": "",
-    "x": 3970,
+    "x": 4850,
     "y": 900,
     "wires": []
   },
@@ -3698,7 +3944,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 840,
     "wires": [
       [
@@ -3715,7 +3961,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2755,
+    "x": 3635,
     "y": 780,
     "wires": [
       [
@@ -3741,7 +3987,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2890,
+    "x": 3770,
     "y": 780,
     "wires": [
       [
@@ -3770,7 +4016,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3400,
+    "x": 4280,
     "y": 780,
     "wires": [
       [
@@ -3788,7 +4034,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3535,
+    "x": 4415,
     "y": 780,
     "wires": []
   },
@@ -3796,11 +4042,11 @@
     "id": "6e2340865ef4c2ba",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "46f335e4a5e2f58f",
+    "g": "85cf36fc3802a3fe",
     "name": "command / button",
     "info": "",
-    "x": 2830,
-    "y": 840,
+    "x": 3270,
+    "y": 860,
     "wires": []
   },
   {
@@ -3837,7 +4083,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3140,
+    "x": 4020,
     "y": 780,
     "wires": [
       [
@@ -3879,7 +4125,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4170,
+    "x": 5050,
     "y": 1200,
     "wires": [
       [
@@ -3921,7 +4167,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4170,
+    "x": 5050,
     "y": 1140,
     "wires": [
       [
@@ -3938,7 +4184,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3715,
+    "x": 4595,
     "y": 1140,
     "wires": [
       [
@@ -3964,7 +4210,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3850,
+    "x": 4730,
     "y": 1140,
     "wires": [
       [
@@ -3982,7 +4228,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4295,
+    "x": 5175,
     "y": 1140,
     "wires": []
   },
@@ -4004,7 +4250,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4010,
+    "x": 4890,
     "y": 1140,
     "wires": [
       [
@@ -4031,7 +4277,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2890,
+    "x": 3770,
     "y": 1140,
     "wires": [
       [
@@ -4082,7 +4328,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3140,
+    "x": 4020,
     "y": 1200,
     "wires": [
       [
@@ -4131,7 +4377,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 1260,
     "wires": [
       [
@@ -4148,7 +4394,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2755,
+    "x": 3635,
     "y": 1140,
     "wires": [
       [
@@ -4166,7 +4412,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3535,
+    "x": 4415,
     "y": 1140,
     "wires": []
   },
@@ -4190,7 +4436,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3400,
+    "x": 4280,
     "y": 1140,
     "wires": [
       [
@@ -4232,7 +4478,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3130,
+    "x": 4010,
     "y": 1140,
     "wires": [
       [
@@ -4244,11 +4490,11 @@
     "id": "5cb5d81fb0a8ee1e",
     "type": "comment",
     "z": "0cd436e03cba5cb6",
-    "g": "95639b2299991877",
+    "g": "b475a609b6f58891",
     "name": "motion / sensor",
     "info": "",
-    "x": 2820,
-    "y": 1200,
+    "x": 3260,
+    "y": 1220,
     "wires": []
   },
   {
@@ -4630,6 +4876,1277 @@
     "links": [],
     "x": 395,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "dfbbe93ed61d87b2",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "PJ-MGW1203",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 1500,
+    "wires": [
+      [
+        "ac0a600ca52f9c3e",
+        "db531fac813c8e66",
+        "13199e203383201a"
+      ]
+    ]
+  },
+  {
+    "id": "ac0a600ca52f9c3e",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "power / torus* / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'torus'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 1560,
+    "wires": [
+      [
+        "f739db440f3d79b1"
+      ]
+    ]
+  },
+  {
+    "id": "6f6d7d45f826f275",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "zigbee -  PJ-MGW1203 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 1500,
+    "wires": [
+      [
+        "dfbbe93ed61d87b2"
+      ]
+    ]
+  },
+  {
+    "id": "db531fac813c8e66",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "brand: tuya /. power / torus*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "tuya",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'torus'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 1500,
+    "wires": [
+      [
+        "f739db440f3d79b1"
+      ]
+    ]
+  },
+  {
+    "id": "f739db440f3d79b1",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1180,
+    "y": 1500,
+    "wires": [
+      [
+        "22ef5d09e03d19e0"
+      ]
+    ]
+  },
+  {
+    "id": "22ef5d09e03d19e0",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "zigbee -  PJ-MGW1203 - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1315,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "4d1cd88e584eca79",
+    "type": "comment",
+    "z": "0cd436e03cba5cb6",
+    "g": "c77a914a05a8229b",
+    "name": "power / torus",
+    "info": "",
+    "x": 190,
+    "y": 1580,
+    "wires": []
+  },
+  {
+    "id": "6bf24cfdfefb1bb7",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.power",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1950,
+    "y": 1500,
+    "wires": [
+      [
+        "81d1299edeeec856"
+      ]
+    ]
+  },
+  {
+    "id": "bb997600e486d015",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "current",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "current",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.current",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1960,
+    "y": 1560,
+    "wires": [
+      [
+        "81d1299edeeec856"
+      ]
+    ]
+  },
+  {
+    "id": "ddda7783f50a0db4",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "zigbee - PJ-MGW1203 - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1495,
+    "y": 1500,
+    "wires": [
+      [
+        "a26d34138e9e5ac9"
+      ]
+    ]
+  },
+  {
+    "id": "a26d34138e9e5ac9",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "PJ-MGW1203",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1630,
+    "y": 1500,
+    "wires": [
+      [
+        "f60ae365fb4e2024"
+      ]
+    ]
+  },
+  {
+    "id": "f60ae365fb4e2024",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "prefix",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1790,
+    "y": 1500,
+    "wires": [
+      [
+        "6bf24cfdfefb1bb7",
+        "bb997600e486d015"
+      ]
+    ]
+  },
+  {
+    "id": "81d1299edeeec856",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "f617e52e297c8ad2",
+    "name": "zigbee -  PJ-MGW1203 - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2095,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "13199e203383201a",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "71fe9ef70302b7fe",
+    "name": "current / torus* / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "current",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'torus'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 1620,
+    "wires": [
+      [
+        "f739db440f3d79b1"
+      ]
+    ]
+  },
+  {
+    "id": "4fa1971ba6183d55",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "fb310bb48b3ab02d",
+    "name": "zigbee - ZBMINIL2 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3195,
+    "y": 480,
+    "wires": [
+      [
+        "a0a58b0b53c68d3d"
+      ]
+    ]
+  },
+  {
+    "id": "a0a58b0b53c68d3d",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "fb310bb48b3ab02d",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "sonoff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZBMINIL2",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3330,
+    "y": 480,
+    "wires": [
+      [
+        "1b2b173864b5b18f"
+      ]
+    ]
+  },
+  {
+    "id": "1b2b173864b5b18f",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "fb310bb48b3ab02d",
+    "name": "zigbee - ZBMINIL2 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3455,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "9d33432184b532c8",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "37baa76cfd48b2fc",
+    "name": "Sonoff - SNZB-01P - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3195,
+    "y": 780,
+    "wires": [
+      [
+        "3fce7a45dd3670a4"
+      ]
+    ]
+  },
+  {
+    "id": "3fce7a45dd3670a4",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "37baa76cfd48b2fc",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "sonoff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "SNZB-01P",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "button",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3330,
+    "y": 780,
+    "wires": [
+      [
+        "68937215c80c0f7c"
+      ]
+    ]
+  },
+  {
+    "id": "68937215c80c0f7c",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "37baa76cfd48b2fc",
+    "name": "Sonoff - SNZB-01P - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3455,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "2b16e085b48c0440",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "2c8e632985722562",
+    "name": "Sonoff - SNZB-03 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3195,
+    "y": 1140,
+    "wires": [
+      [
+        "34f9d3e13a7a926c"
+      ]
+    ]
+  },
+  {
+    "id": "34f9d3e13a7a926c",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "2c8e632985722562",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "sonoff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "SNZB-03",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "sensor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3330,
+    "y": 1140,
+    "wires": [
+      [
+        "23cde9c0dc38671b"
+      ]
+    ]
+  },
+  {
+    "id": "23cde9c0dc38671b",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "2c8e632985722562",
+    "name": "Sonoff - SNZB-03 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3455,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "fad484a3f123ac37",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fd562a0e54bacd1",
+    "name": "Sonoff - SNZB-02 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3195,
+    "y": 1440,
+    "wires": [
+      [
+        "96513a0fecdf10d8"
+      ]
+    ]
+  },
+  {
+    "id": "96513a0fecdf10d8",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fd562a0e54bacd1",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "sonoff",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "SNZB-02",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3330,
+    "y": 1440,
+    "wires": [
+      [
+        "b9beacf10a894eba"
+      ]
+    ]
+  },
+  {
+    "id": "b9beacf10a894eba",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fd562a0e54bacd1",
+    "name": "Sonoff - SNZB-03 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3455,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "370a85c93a8d561d",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fb79d89a2bd41ff",
+    "name": "zigbee - S530559 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "fb8a232abeb978b3"
+      ]
+    ]
+  },
+  {
+    "id": "fb8a232abeb978b3",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fb79d89a2bd41ff",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "Schneider Electric",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "S530559",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "socket",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "96dc3b51e121f1c9"
+      ]
+    ]
+  },
+  {
+    "id": "96dc3b51e121f1c9",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "3fb79d89a2bd41ff",
+    "name": "zigbee - S530559 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "b463c81b1b187246",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "26ebc7d97f06c117",
+    "name": "zigbee - MCCGQ11LM - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 840,
+    "wires": [
+      [
+        "df0e7a06d243f473"
+      ]
+    ]
+  },
+  {
+    "id": "df0e7a06d243f473",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "26ebc7d97f06c117",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "aqara",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "MCCGQ11LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "aperture",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 840,
+    "wires": [
+      [
+        "4eb7f83fca4bcb34"
+      ]
+    ]
+  },
+  {
+    "id": "4eb7f83fca4bcb34",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "26ebc7d97f06c117",
+    "name": "zigbee - MCCGQ11LM - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "06e81a86a3217a48",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "5967c186d2f9ebf3",
+    "name": "zigbee - 412171, 412170 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1140,
+    "wires": [
+      [
+        "c6c8fa25720fcc15",
+        "c5b9d91c720d7091"
+      ]
+    ]
+  },
+  {
+    "id": "c6c8fa25720fcc15",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "5967c186d2f9ebf3",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "legrand",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "412171",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "relay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1140,
+    "wires": [
+      [
+        "79409b5134de7f76"
+      ]
+    ]
+  },
+  {
+    "id": "79409b5134de7f76",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "5967c186d2f9ebf3",
+    "name": "zigbee - 412171, 412170 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "c5b9d91c720d7091",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "5967c186d2f9ebf3",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "legrand",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "412170",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "relay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1200,
+    "wires": [
+      [
+        "79409b5134de7f76"
+      ]
+    ]
+  },
+  {
+    "id": "a6900d3b869e3d1e",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "874510c9886ca66e",
+    "name": "zigbee - PJ-MGW1203 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1500,
+    "wires": [
+      [
+        "9ea62fd7b38d5c2a"
+      ]
+    ]
+  },
+  {
+    "id": "9ea62fd7b38d5c2a",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "874510c9886ca66e",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "tuya",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "PJ-MGW1203",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "torus",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1500,
+    "wires": [
+      [
+        "f26c156abc555775"
+      ]
+    ]
+  },
+  {
+    "id": "f26c156abc555775",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "874510c9886ca66e",
+    "name": "zigbee - PJ-MGW1203 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1500,
     "wires": []
   }
 ]

@@ -62,75 +62,13 @@
     "nodes": [
       "04de52a5f5237233",
       "84416ebc7a349dd4",
-      "638b6d92fcb75ad5"
+      "638b6d92fcb75ad5",
+      "2bdcefabbf93c852"
     ],
     "x": 68,
-    "y": 173,
+    "y": 353,
     "w": 644,
-    "h": 374
-  },
-  {
-    "id": "04de52a5f5237233",
-    "type": "group",
-    "z": "e19f53e3dc7ab928",
-    "g": "df46e2504e16fc3e",
-    "name": "home - ui - chart outdoor temperature",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "3bd22b1740d9d8b2",
-      "43e68c058a7661d6",
-      "b3f5b970a9b03119"
-    ],
-    "x": 94,
-    "y": 199,
-    "w": 592,
-    "h": 82
-  },
-  {
-    "id": "84416ebc7a349dd4",
-    "type": "group",
-    "z": "e19f53e3dc7ab928",
-    "g": "df46e2504e16fc3e",
-    "name": "home - ui - chart outdoor humidity",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "53e61734d5875604",
-      "f9ae231f709aa135",
-      "50bc182c3569008c"
-    ],
-    "x": 94,
-    "y": 319,
-    "w": 572,
-    "h": 82
-  },
-  {
-    "id": "638b6d92fcb75ad5",
-    "type": "group",
-    "z": "e19f53e3dc7ab928",
-    "g": "df46e2504e16fc3e",
-    "name": "home - ui - chart linky power",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "3abfeada773a5af2",
-      "ae8ac7965d6fb684",
-      "47316bf97f84b277"
-    ],
-    "x": 94,
-    "y": 439,
-    "w": 552,
-    "h": 82
+    "h": 494
   },
   {
     "id": "c520bebe00c3589e",
@@ -151,6 +89,111 @@
     "x": 534,
     "y": 19,
     "w": 422,
+    "h": 82
+  },
+  {
+    "id": "04de52a5f5237233",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart outdoor temperature",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3bd22b1740d9d8b2",
+      "43e68c058a7661d6",
+      "b3f5b970a9b03119"
+    ],
+    "x": 94,
+    "y": 379,
+    "w": 592,
+    "h": 82
+  },
+  {
+    "id": "84416ebc7a349dd4",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart outdoor humidity",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "53e61734d5875604",
+      "f9ae231f709aa135",
+      "50bc182c3569008c"
+    ],
+    "x": 94,
+    "y": 499,
+    "w": 572,
+    "h": 82
+  },
+  {
+    "id": "638b6d92fcb75ad5",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart linky power",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3abfeada773a5af2",
+      "ae8ac7965d6fb684",
+      "47316bf97f84b277"
+    ],
+    "x": 94,
+    "y": 619,
+    "w": 552,
+    "h": 82
+  },
+  {
+    "id": "e221264ccaca42a1",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - device - auto",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ce3cbb4ae72bbc14",
+      "5edfa91275f58882",
+      "fad822d4d6bc47a2",
+      "9beae381e402ac2c"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 642,
+    "h": 82
+  },
+  {
+    "id": "2bdcefabbf93c852",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "g": "df46e2504e16fc3e",
+    "name": "home - ui - chart photovoltaic power",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c4bb801a22f7f669",
+      "6c11220b26097fc3",
+      "a2bfb1feb168f963"
+    ],
+    "x": 94,
+    "y": 739,
+    "w": 592,
     "h": 82
   },
   {
@@ -220,7 +263,10 @@
     "name": "home - bucket",
     "mode": "link",
     "links": [
-      "ab6d3d1be0d9ea74"
+      "ab6d3d1be0d9ea74",
+      "ec3cc0db88098e5c",
+      "15d5a5183a81d250",
+      "ce3cbb4ae72bbc14"
     ],
     "x": 395,
     "y": 60,
@@ -282,7 +328,10 @@
     "links": [
       "1ff5fd68e1799ae5",
       "057cd27350be1d0e",
-      "522b6c161afcb47e"
+      "522b6c161afcb47e",
+      "fdea9ff531a587a8",
+      "72f3d70342e83655",
+      "1d9d8c969ccdf2be"
     ],
     "x": 1095,
     "y": 60,
@@ -332,7 +381,7 @@
     "height": "6",
     "className": "",
     "x": 550,
-    "y": 240,
+    "y": 420,
     "wires": [
       []
     ]
@@ -350,7 +399,7 @@
     "retentionPolicy": "",
     "org": "iotredloop",
     "x": 300,
-    "y": 240,
+    "y": 420,
     "wires": [
       [
         "3bd22b1740d9d8b2"
@@ -367,7 +416,7 @@
       "004bb30c27c94fb4"
     ],
     "x": 135,
-    "y": 240,
+    "y": 420,
     "wires": [
       [
         "43e68c058a7661d6"
@@ -414,7 +463,7 @@
     "height": "6",
     "className": "",
     "x": 540,
-    "y": 360,
+    "y": 540,
     "wires": [
       []
     ]
@@ -432,7 +481,7 @@
     "retentionPolicy": "",
     "org": "iotredloop",
     "x": 300,
-    "y": 360,
+    "y": 540,
     "wires": [
       [
         "53e61734d5875604"
@@ -449,7 +498,7 @@
       "004bb30c27c94fb4"
     ],
     "x": 135,
-    "y": 360,
+    "y": 540,
     "wires": [
       [
         "f9ae231f709aa135"
@@ -496,7 +545,7 @@
     "height": "6",
     "className": "",
     "x": 530,
-    "y": 480,
+    "y": 660,
     "wires": [
       []
     ]
@@ -514,7 +563,7 @@
     "retentionPolicy": "",
     "org": "iotredloop",
     "x": 300,
-    "y": 480,
+    "y": 660,
     "wires": [
       [
         "3abfeada773a5af2"
@@ -531,7 +580,7 @@
       "004bb30c27c94fb4"
     ],
     "x": 135,
-    "y": 480,
+    "y": 660,
     "wires": [
       [
         "ae8ac7965d6fb684"
@@ -595,5 +644,166 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "ce3cbb4ae72bbc14",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "e221264ccaca42a1",
+    "name": "home - device-  auto",
+    "links": [
+      "fb0afb89fb191395"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "5edfa91275f58882"
+      ]
+    ]
+  },
+  {
+    "id": "5edfa91275f58882",
+    "type": "credentials",
+    "z": "e19f53e3dc7ab928",
+    "g": "e221264ccaca42a1",
+    "name": "id",
+    "props": [
+      {
+        "value": "id",
+        "type": "msg"
+      }
+    ],
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "fad822d4d6bc47a2"
+      ]
+    ]
+  },
+  {
+    "id": "fad822d4d6bc47a2",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "e221264ccaca42a1",
+    "name": "ecu-c / xxx / photovoltaic / url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ecu-c",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 240,
+    "wires": [
+      [
+        "9beae381e402ac2c"
+      ]
+    ]
+  },
+  {
+    "id": "9beae381e402ac2c",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "e221264ccaca42a1",
+    "name": "home - device - auto",
+    "mode": "link",
+    "links": [
+      "d85fe6335a6eae7b"
+    ],
+    "x": 695,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "c4bb801a22f7f669",
+    "type": "ui-chart",
+    "z": "e19f53e3dc7ab928",
+    "g": "2bdcefabbf93c852",
+    "group": "2e025331300821aa",
+    "name": "ui chart photovoltac power",
+    "label": "",
+    "order": 9007199254740991,
+    "chartType": "line",
+    "category": "_field",
+    "categoryType": "property",
+    "xAxisProperty": "_time",
+    "xAxisPropertyType": "msg",
+    "xAxisType": "time",
+    "yAxisProperty": "_value",
+    "ymin": "",
+    "ymax": "",
+    "action": "replace",
+    "pointShape": "false",
+    "pointRadius": "2",
+    "showLegend": false,
+    "removeOlder": 1,
+    "removeOlderUnit": "86400",
+    "removeOlderPoints": "100",
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#2ca02c",
+      "#98df8a",
+      "#d62728",
+      "#ff9896",
+      "#9467bd",
+      "#c5b0d5"
+    ],
+    "width": 6,
+    "height": "6",
+    "className": "",
+    "x": 550,
+    "y": 780,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6c11220b26097fc3",
+    "type": "influxdb in",
+    "z": "e19f53e3dc7ab928",
+    "g": "2bdcefabbf93c852",
+    "influxdb": "e408b55d1dc6870d",
+    "name": "",
+    "query": "from(bucket: \"home\")\n  |> range(start: -1d, stop: now())\n  |> aggregateWindow(every: 15m, fn: last, createEmpty: false)\n  |> filter(fn: (r) =>\n    r._measurement == \"photovoltaic\" and r._field == \"production power\"\n  )",
+    "rawOutput": false,
+    "precision": "",
+    "retentionPolicy": "",
+    "org": "iotredloop",
+    "x": 300,
+    "y": 780,
+    "wires": [
+      [
+        "c4bb801a22f7f669"
+      ]
+    ]
+  },
+  {
+    "id": "a2bfb1feb168f963",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "2bdcefabbf93c852",
+    "name": "home - ui - chart linky power",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 135,
+    "y": 780,
+    "wires": [
+      [
+        "6c11220b26097fc3"
+      ]
+    ]
   }
 ]

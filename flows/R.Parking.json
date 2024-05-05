@@ -394,7 +394,9 @@
     "mode": "link",
     "links": [
       "21b27e23f84eeec9",
-      "9bf844aeef65ae08"
+      "2e7bb0e6e6079d56",
+      "9bf844aeef65ae08",
+      "668589ced855b77f"
     ],
     "x": 395,
     "y": 60,
@@ -673,7 +675,9 @@
     "g": "d1e36e4097e61950",
     "name": "parking - scene - telegram motion",
     "mode": "link",
-    "links": [],
+    "links": [
+      "ba0f26a893bbaac2"
+    ],
     "x": 1535,
     "y": 1260,
     "wires": []

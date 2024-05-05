@@ -532,10 +532,12 @@
     "mode": "link",
     "links": [
       "0193c4f2510b8f3f",
+      "2e7bb0e6e6079d56",
       "3dc0abb4933cf52c",
       "48350e3084957111",
       "7faf686a74225948",
-      "be213fcd6188de9f"
+      "be213fcd6188de9f",
+      "668589ced855b77f"
     ],
     "x": 395,
     "y": 60,
@@ -789,7 +791,7 @@
     "type": "change",
     "z": "82d1583d2c5dfc80",
     "g": "4266b9a7527b5cab",
-    "name": "ZMNHBD / xxx / outlet / socket 1 (option 1)",
+    "name": "ZMNHBD / xxx / outlet / left socket (option 1)",
     "rules": [
       {
         "t": "set",
@@ -804,6 +806,13 @@
         "pt": "msg",
         "to": "1",
         "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "left socket",
+        "tot": "str"
       }
     ],
     "action": "",
@@ -824,7 +833,7 @@
     "type": "change",
     "z": "82d1583d2c5dfc80",
     "g": "4266b9a7527b5cab",
-    "name": "ZMNHBD / xxx / outlet / socket 2 (option 2)",
+    "name": "ZMNHBD / xxx / outlet / right socket (option 2)",
     "rules": [
       {
         "t": "set",
@@ -839,6 +848,13 @@
         "pt": "msg",
         "to": "2",
         "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "right socket",
+        "tot": "str"
       }
     ],
     "action": "",

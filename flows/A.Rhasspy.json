@@ -116,6 +116,144 @@
     "h": 142
   },
   {
+    "id": "56334b8b.5fd224",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "Intention",
+    "style": {
+      "stroke": "#a4a4a4",
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "color": "#7f7f7f"
+    },
+    "nodes": [
+      "2f629fa5.21d19",
+      "fdc00c7c.60095",
+      "cea3f288.bcb26",
+      "569f9335.f48c8c",
+      "a3e1b5e5.0d0ef8",
+      "66f3ea78.14b9b4",
+      "14899088.b01bef",
+      "f4fffe27.31ff5",
+      "96348320.b652a",
+      "bf1e93fc.bbeca",
+      "e596ecc0.c9616",
+      "382970a4.425d6",
+      "c22bbee6.47b7a",
+      "e05cb16e.ff2c2",
+      "32fe33ae.a321ac",
+      "5c5317f5.b9aae8",
+      "a8f7856e.e5d398",
+      "941e361c.d71418",
+      "29f39327.90d0bc",
+      "dda50597.594f58",
+      "77b65753.bbdb28",
+      "657f7682.77d688",
+      "ed993f37.53193",
+      "eee061d4.bf955",
+      "b64aec4c.52f8",
+      "51b518a6.4af478",
+      "8f9c20c3.fc37a",
+      "32ba92cf.54950e",
+      "9d1cfd56.737b9",
+      "da507502.f708e8",
+      "6603cd11.9802c4",
+      "cb6aeb0c.1e3338",
+      "35204a8af1b663ea",
+      "d4c5a5fae1f1b56f",
+      "0fe92c75f3eaef4a",
+      "2494e673a498ca2f",
+      "6f0233872e96cac2",
+      "9cb04c54a400ebcc",
+      "703f8f42adcce1da",
+      "0beb44e89b2e30b4",
+      "78f631485429d868",
+      "ca8f9cb7063f4dad",
+      "0d6d53c8baa5e907",
+      "8a0c5e7df26d88d5",
+      "081c50f9dcfb4b51",
+      "4dd71cfc1021aadf",
+      "f4c898d73ae26945",
+      "6b34b6cdde85efe0",
+      "4e2598ba2a349251",
+      "ad14707636c17a17",
+      "5d1da1947184e3f7",
+      "833f9ea0770f6e5a",
+      "03732989aa73f35a"
+    ],
+    "x": 94,
+    "y": 579,
+    "w": 3922,
+    "h": 982
+  },
+  {
+    "id": "7edde334.214fcc",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "Retour d'action",
+    "style": {
+      "stroke": "#a4a4a4",
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "color": "#7f7f7f"
+    },
+    "nodes": [
+      "85a64ab6.b23f08",
+      "bc8a2400.cf65c8",
+      "6e9a0d50.e1a814",
+      "7392637e.5ee6ac",
+      "5b76bba6.45fa64",
+      "35779147.0489ce",
+      "1963cac3.92fb35",
+      "fac9339ce8daa1a2",
+      "8e8fad5a3dc8ff2f",
+      "40349e29c54aadd9",
+      "10aafa2119bcdcac"
+    ],
+    "x": 94,
+    "y": 1599,
+    "w": 1822,
+    "h": 142
+  },
+  {
+    "id": "5749f1a3ca81d04c",
+    "type": "group",
+    "z": "0e52966a98143270",
+    "name": "scene rhasspy volume",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.1",
+      "label": true
+    },
+    "nodes": [
+      "ce8707c6.dc7138",
+      "2e0ae690.f2f90a",
+      "9f96e582.967208",
+      "5501246c.a0f3bc",
+      "c22b1683.523528",
+      "4f56bd52.514404",
+      "8dbe96dd.eab3b8",
+      "0ff84980aae53d0f",
+      "d0893099b20a4ecc",
+      "ef402ae5e4c37c13",
+      "2874910a1963721a",
+      "11bcee51878d81c8",
+      "93e8c15dd0559efb",
+      "8231b6a267d39bf2",
+      "e6e992ed3ab5057d",
+      "65c10ac9303d616b",
+      "461e40cdc9b83b48",
+      "a9b7311d0fdfef9b",
+      "2c561a436a935bc6"
+    ],
+    "x": 94,
+    "y": 1791.5,
+    "w": 2562,
+    "h": 209.5
+  },
+  {
     "id": "c227fdb52429c5c6",
     "type": "change",
     "z": "0e52966a98143270",
@@ -241,6 +379,7 @@
     "id": "81b03b89f507e5ce",
     "type": "link out",
     "z": "0e52966a98143270",
+    "d": true,
     "g": "a23c2aa7e24eb8f7",
     "name": "mqtt rhasspy",
     "mode": "link",
@@ -401,6 +540,7 @@
     "id": "4cfd419f66b58eda",
     "type": "link in",
     "z": "0e52966a98143270",
+    "d": true,
     "g": "234feecbe12db6fa",
     "name": "mqtt rhasspy",
     "links": [
@@ -456,5 +596,2472 @@
         "4db395b3e8fa404f"
       ]
     ]
+  },
+  {
+    "id": "3a610a2616fc025c",
+    "type": "comment",
+    "z": "0e52966a98143270",
+    "name": "Jarvis - Rhasspy",
+    "info": "",
+    "x": 1100,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "2f629fa5.21d19",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "intention",
+    "property": "bot.intention",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "siteTurnStore",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteTurnLight",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteSetMode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteTurnVolume",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteTurnRadio",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteGetTemp",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteGetTime",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "siteGetDate",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 9,
+    "x": 2820,
+    "y": 740,
+    "wires": [
+      [
+        "4e2598ba2a349251"
+      ],
+      [
+        "6f0233872e96cac2"
+      ],
+      [
+        "6b34b6cdde85efe0",
+        "03732989aa73f35a"
+      ],
+      [
+        "03732989aa73f35a"
+      ],
+      [
+        "03732989aa73f35a"
+      ],
+      [
+        "ca8f9cb7063f4dad"
+      ],
+      [
+        "382970a4.425d6"
+      ],
+      [
+        "c22bbee6.47b7a"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "fdc00c7c.60095",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "lumiere",
+    "property": "bot.action",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "on",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "off",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 3160,
+    "y": 860,
+    "wires": [
+      [
+        "cea3f288.bcb26"
+      ],
+      [
+        "569f9335.f48c8c"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "cea3f288.bcb26",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "allumer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.payload",
+        "pt": "msg",
+        "to": "99",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai allumé la lumière",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3340,
+    "y": 860,
+    "wires": [
+      [
+        "703f8f42adcce1da"
+      ]
+    ]
+  },
+  {
+    "id": "569f9335.f48c8c",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "éteindre",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai éteint la lumière",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3340,
+    "y": 920,
+    "wires": [
+      [
+        "703f8f42adcce1da"
+      ]
+    ]
+  },
+  {
+    "id": "a3e1b5e5.0d0ef8",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "lieu",
+    "property": "bot.topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "null"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2430,
+    "y": 740,
+    "wires": [
+      [
+        "66f3ea78.14b9b4"
+      ],
+      [
+        "2f629fa5.21d19"
+      ]
+    ]
+  },
+  {
+    "id": "66f3ea78.14b9b4",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "site vers cible",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.topic",
+        "pt": "msg",
+        "to": "bot.source",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2620,
+    "y": 680,
+    "wires": [
+      [
+        "2f629fa5.21d19"
+      ]
+    ]
+  },
+  {
+    "id": "14899088.b01bef",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "Inconnue",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "Je ne sais pas quoi faire.",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3000,
+    "y": 1520,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "f4fffe27.31ff5",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "volet",
+    "property": "bot.action",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "up",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "half",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "down",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 3470,
+    "y": 740,
+    "wires": [
+      [
+        "96348320.b652a"
+      ],
+      [
+        "cb6aeb0c.1e3338"
+      ],
+      [
+        "bf1e93fc.bbeca"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "96348320.b652a",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "ouvrir",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "99",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai ouvert le volet",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3630,
+    "y": 620,
+    "wires": [
+      [
+        "f4c898d73ae26945"
+      ]
+    ]
+  },
+  {
+    "id": "bf1e93fc.bbeca",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "fermer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai fermé le volet",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3630,
+    "y": 740,
+    "wires": [
+      [
+        "f4c898d73ae26945"
+      ]
+    ]
+  },
+  {
+    "id": "e596ecc0.c9616",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "changer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bot.action",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "\"J'ai changé le mode \" & msg.bot.topic& \" sur \" & msg.bot.action",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3160,
+    "y": 980,
+    "wires": [
+      [
+        "dda50597.594f58"
+      ]
+    ]
+  },
+  {
+    "id": "382970a4.425d6",
+    "type": "moment",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "Heure",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "[Il est ]H[ heure ]m",
+    "locale": "fr-FR",
+    "output": "bot.reponse",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 2990,
+    "y": 1400,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "c22bbee6.47b7a",
+    "type": "moment",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "Date",
+    "topic": "",
+    "input": "",
+    "inputType": "date",
+    "inTz": "Europe/Paris",
+    "adjAmount": 0,
+    "adjType": "days",
+    "adjDir": "add",
+    "format": "[Nous sommes le ]LLLL",
+    "locale": "fr-FR",
+    "output": "bot.reponse",
+    "outputType": "msg",
+    "outTz": "Europe/Paris",
+    "x": 2990,
+    "y": 1460,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "e05cb16e.ff2c2",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "volume",
+    "property": "bot.action",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "up",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "down",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 3000,
+    "y": 1100,
+    "wires": [
+      [
+        "32fe33ae.a321ac"
+      ],
+      [
+        "5c5317f5.b9aae8"
+      ]
+    ]
+  },
+  {
+    "id": "32fe33ae.a321ac",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "monter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai augmenté le volume",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3180,
+    "y": 1100,
+    "wires": [
+      [
+        "77b65753.bbdb28"
+      ]
+    ]
+  },
+  {
+    "id": "5c5317f5.b9aae8",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "diminier",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai baissé le volume",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3180,
+    "y": 1160,
+    "wires": [
+      [
+        "77b65753.bbdb28"
+      ]
+    ]
+  },
+  {
+    "id": "a8f7856e.e5d398",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "radio",
+    "property": "bot.action",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "on",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "off",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2990,
+    "y": 1220,
+    "wires": [
+      [
+        "29f39327.90d0bc"
+      ],
+      [
+        "941e361c.d71418"
+      ]
+    ]
+  },
+  {
+    "id": "941e361c.d71418",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "arrêter",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai arrêté la radio",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3170,
+    "y": 1280,
+    "wires": [
+      [
+        "77b65753.bbdb28"
+      ]
+    ]
+  },
+  {
+    "id": "29f39327.90d0bc",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "lire",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai mis la radio",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3170,
+    "y": 1220,
+    "wires": [
+      [
+        "77b65753.bbdb28"
+      ]
+    ]
+  },
+  {
+    "id": "dda50597.594f58",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'device/systeme/mode/' & $lowercase(msg.bot.topic)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3330,
+    "y": 980,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a",
+        "78f631485429d868"
+      ]
+    ]
+  },
+  {
+    "id": "77b65753.bbdb28",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "sensor",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.sensor",
+        "pt": "msg",
+        "to": "radio",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3350,
+    "y": 1100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "657f7682.77d688",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "intention & site",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query.intention",
+        "pt": "flow",
+        "to": "payload.intent.intentName",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "query.source",
+        "pt": "flow",
+        "to": "payload.siteId",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.slots",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1120,
+    "y": 740,
+    "wires": [
+      [
+        "6603cd11.9802c4"
+      ]
+    ]
+  },
+  {
+    "id": "ed993f37.53193",
+    "type": "split",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 1470,
+    "y": 860,
+    "wires": [
+      [
+        "eee061d4.bf955"
+      ]
+    ]
+  },
+  {
+    "id": "eee061d4.bf955",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "slot",
+    "property": "payload.slotName",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "^(topic|action|flux|mode)$",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1630,
+    "y": 860,
+    "wires": [
+      [
+        "b64aec4c.52f8"
+      ],
+      [
+        "51b518a6.4af478"
+      ]
+    ]
+  },
+  {
+    "id": "b64aec4c.52f8",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "value",
+    "rules": [
+      {
+        "t": "set",
+        "p": "query[msg.payload.slotName]",
+        "pt": "flow",
+        "to": "msg.payload.value.value",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1790,
+    "y": 800,
+    "wires": [
+      [
+        "51b518a6.4af478"
+      ]
+    ]
+  },
+  {
+    "id": "51b518a6.4af478",
+    "type": "join",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "",
+    "mode": "auto",
+    "build": "string",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": false,
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "reduceExp": "",
+    "reduceInit": "",
+    "reduceInitType": "",
+    "reduceFixup": "",
+    "x": 1950,
+    "y": 860,
+    "wires": [
+      [
+        "9d1cfd56.737b9"
+      ]
+    ]
+  },
+  {
+    "id": "8f9c20c3.fc37a",
+    "type": "debug",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2430,
+    "y": 800,
+    "wires": []
+  },
+  {
+    "id": "32ba92cf.54950e",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "mode assistant",
+    "property": "stack.systeme.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 720,
+    "y": 740,
+    "wires": [
+      [
+        "2494e673a498ca2f"
+      ]
+    ]
+  },
+  {
+    "id": "9d1cfd56.737b9",
+    "type": "delay",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "50ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "outputs": 1,
+    "x": 2110,
+    "y": 740,
+    "wires": [
+      [
+        "da507502.f708e8"
+      ]
+    ]
+  },
+  {
+    "id": "da507502.f708e8",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot",
+        "pt": "msg",
+        "to": "query",
+        "tot": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "query",
+        "pt": "flow"
+      },
+      {
+        "t": "set",
+        "p": "bot.type",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2270,
+    "y": 740,
+    "wires": [
+      [
+        "8f9c20c3.fc37a",
+        "a3e1b5e5.0d0ef8"
+      ]
+    ]
+  },
+  {
+    "id": "6603cd11.9802c4",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "slots",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "empty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1310,
+    "y": 740,
+    "wires": [
+      [
+        "9d1cfd56.737b9"
+      ],
+      [
+        "ed993f37.53193"
+      ]
+    ]
+  },
+  {
+    "id": "cb6aeb0c.1e3338",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "ajourer",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stack[msg.bot.topic]['ombrage']['ajoure']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "J'ai ajouré le volet",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3640,
+    "y": 680,
+    "wires": [
+      [
+        "f4c898d73ae26945"
+      ]
+    ]
+  },
+  {
+    "id": "35204a8af1b663ea",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "mode automate",
+    "property": "stack.systeme.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 740,
+    "wires": [
+      [
+        "32ba92cf.54950e"
+      ]
+    ]
+  },
+  {
+    "id": "d4c5a5fae1f1b56f",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "mode maitre",
+    "property": "stack.systeme.mode.maitre",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 740,
+    "wires": [
+      [
+        "35204a8af1b663ea"
+      ]
+    ]
+  },
+  {
+    "id": "0fe92c75f3eaef4a",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "jarvis intention say",
+    "mode": "link",
+    "links": [
+      "bc8a2400.cf65c8"
+    ],
+    "x": 3135,
+    "y": 1400,
+    "wires": []
+  },
+  {
+    "id": "2494e673a498ca2f",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "jarvis actif",
+    "property": "stack[msg.payload.siteId]jarvis.actif",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 920,
+    "y": 740,
+    "wires": [
+      [
+        "657f7682.77d688"
+      ]
+    ]
+  },
+  {
+    "id": "6f0233872e96cac2",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "exists",
+    "property": "stack[msg.bot.topic]",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "lumiere",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2990,
+    "y": 860,
+    "wires": [
+      [
+        "fdc00c7c.60095"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "9cb04c54a400ebcc",
+    "type": "split",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "x": 3690,
+    "y": 860,
+    "wires": [
+      [
+        "0beb44e89b2e30b4"
+      ]
+    ]
+  },
+  {
+    "id": "703f8f42adcce1da",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "lumieres",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stack[msg.bot.topic]lumiere",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3520,
+    "y": 860,
+    "wires": [
+      [
+        "9cb04c54a400ebcc",
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "0beb44e89b2e30b4",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'device/' & msg.bot.topic & '/cible/' & msg.field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bot.payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3850,
+    "y": 860,
+    "wires": [
+      [
+        "78f631485429d868"
+      ]
+    ]
+  },
+  {
+    "id": "78f631485429d868",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "jarvis intention metric",
+    "mode": "link",
+    "links": [
+      "03fc37b7f3c68264"
+    ],
+    "x": 3975,
+    "y": 860,
+    "wires": []
+  },
+  {
+    "id": "ca8f9cb7063f4dad",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bot.topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2990,
+    "y": 1340,
+    "wires": [
+      [
+        "0d6d53c8baa5e907"
+      ]
+    ]
+  },
+  {
+    "id": "0d6d53c8baa5e907",
+    "type": "link call",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "",
+    "links": [
+      "ddd39f991efd9d31"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 3280,
+    "y": 1340,
+    "wires": [
+      [
+        "8a0c5e7df26d88d5"
+      ]
+    ]
+  },
+  {
+    "id": "8a0c5e7df26d88d5",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 3490,
+    "y": 1340,
+    "wires": [
+      [
+        "081c50f9dcfb4b51"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "081c50f9dcfb4b51",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "response",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "'Il fait ' & msg.payload & ' degré.'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3680,
+    "y": 1340,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "4dd71cfc1021aadf",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "exists",
+    "property": "stack[msg.bot.topic]",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "ombrage",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 3310,
+    "y": 740,
+    "wires": [
+      [
+        "f4fffe27.31ff5"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "f4c898d73ae26945",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "'jarvis/' & msg.bot.topic & '/cible/volet'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3810,
+    "y": 740,
+    "wires": [
+      [
+        "78f631485429d868",
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "6b34b6cdde85efe0",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "d": true,
+    "g": "56334b8b.5fd224",
+    "name": "exists",
+    "property": "stack.systeme.mode",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "$lowercase(msg.bot.topic)",
+        "vt": "jsonata"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2990,
+    "y": 980,
+    "wires": [
+      [
+        "e596ecc0.c9616"
+      ],
+      [
+        "14899088.b01bef"
+      ]
+    ]
+  },
+  {
+    "id": "4e2598ba2a349251",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "piece",
+    "property": "bot.topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cuisine",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "bureau",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 2990,
+    "y": 740,
+    "wires": [
+      [
+        "ad14707636c17a17"
+      ],
+      [
+        "5d1da1947184e3f7"
+      ],
+      [
+        "4dd71cfc1021aadf"
+      ]
+    ]
+  },
+  {
+    "id": "ad14707636c17a17",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "salon",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.topic",
+        "pt": "msg",
+        "to": "salon",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3150,
+    "y": 620,
+    "wires": [
+      [
+        "4dd71cfc1021aadf"
+      ]
+    ]
+  },
+  {
+    "id": "5d1da1947184e3f7",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "jeux",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.topic",
+        "pt": "msg",
+        "to": "jeux",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3150,
+    "y": 680,
+    "wires": [
+      [
+        "4dd71cfc1021aadf"
+      ]
+    ]
+  },
+  {
+    "id": "833f9ea0770f6e5a",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "jarvis intention",
+    "links": [
+      "4db395b3e8fa404f"
+    ],
+    "x": 135,
+    "y": 740,
+    "wires": [
+      [
+        "d4c5a5fae1f1b56f"
+      ]
+    ]
+  },
+  {
+    "id": "03732989aa73f35a",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "56334b8b.5fd224",
+    "name": "desactive",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bot.reponse",
+        "pt": "msg",
+        "to": "Cette fonction est désacitvée pour le moment..",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3000,
+    "y": 800,
+    "wires": [
+      [
+        "0fe92c75f3eaef4a"
+      ]
+    ]
+  },
+  {
+    "id": "85a64ab6.b23f08",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "mode notification",
+    "property": "stack.systeme.mode.notification",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1640,
+    "wires": [
+      [
+        "6e9a0d50.e1a814"
+      ]
+    ]
+  },
+  {
+    "id": "bc8a2400.cf65c8",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "réponse",
+    "links": [
+      "13952b24.eb42e5",
+      "1d4ca7fb.bef5a8",
+      "4cadf1da.0ec3b",
+      "52d39243.ae3c2c",
+      "5afae511.1fe0bc",
+      "67e9ed0.d4d0514",
+      "71f69349.c3226c",
+      "75b5593c.a2c718",
+      "8d496e48.310eb",
+      "8f9a3407.33b968",
+      "a0fa3feb.3ce5c",
+      "b1dc988c.855348",
+      "d726127.322b3f",
+      "ea4c35f9.bb1eb8",
+      "f8be5c1e.0943c",
+      "fc55423a.6d2c3",
+      "fd82e626.a1fdd8",
+      "545cc8bd.0ed1c8",
+      "aa40379b.135308",
+      "75aa71b7.8a96d",
+      "86ddfd28.6e0c3",
+      "0fe92c75f3eaef4a"
+    ],
+    "x": 135,
+    "y": 1640,
+    "wires": [
+      [
+        "fac9339ce8daa1a2"
+      ]
+    ]
+  },
+  {
+    "id": "6e9a0d50.e1a814",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "bot reponse",
+    "property": "bot.reponse",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1170,
+    "y": 1640,
+    "wires": [
+      [
+        "1963cac3.92fb35"
+      ]
+    ]
+  },
+  {
+    "id": "7392637e.5ee6ac",
+    "type": "delay",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "",
+    "pauseType": "rate",
+    "timeout": "1",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": true,
+    "outputs": 1,
+    "x": 1560,
+    "y": 1640,
+    "wires": [
+      [
+        "35779147.0489ce"
+      ]
+    ]
+  },
+  {
+    "id": "5b76bba6.45fa64",
+    "type": "comment",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "vire les multi-odres de radio",
+    "info": "",
+    "x": 1600,
+    "y": 1700,
+    "wires": []
+  },
+  {
+    "id": "35779147.0489ce",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\"siteId\":msg.bot.source,\"text\":msg.bot.reponse}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "jarvis",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "radio",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "hermes/tts/say",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "qos",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "retain",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1750,
+    "y": 1640,
+    "wires": [
+      [
+        "10aafa2119bcdcac"
+      ]
+    ]
+  },
+  {
+    "id": "1963cac3.92fb35",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "bot type",
+    "property": "bot.type",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "bucket",
+        "vt": "flow"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1360,
+    "y": 1640,
+    "wires": [
+      [
+        "7392637e.5ee6ac"
+      ]
+    ]
+  },
+  {
+    "id": "fac9339ce8daa1a2",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "mode maitre",
+    "property": "stack.systeme.mode.maitre",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 1640,
+    "wires": [
+      [
+        "8e8fad5a3dc8ff2f"
+      ]
+    ]
+  },
+  {
+    "id": "8e8fad5a3dc8ff2f",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "mode automate",
+    "property": "stack.systeme.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 500,
+    "y": 1640,
+    "wires": [
+      [
+        "40349e29c54aadd9"
+      ]
+    ]
+  },
+  {
+    "id": "40349e29c54aadd9",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "mode assistant",
+    "property": "stack.systeme.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 720,
+    "y": 1640,
+    "wires": [
+      [
+        "85a64ab6.b23f08"
+      ]
+    ]
+  },
+  {
+    "id": "10aafa2119bcdcac",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "7edde334.214fcc",
+    "name": "jarvis say",
+    "mode": "link",
+    "links": [
+      "4cfd419f66b58eda"
+    ],
+    "x": 1875,
+    "y": 1640,
+    "wires": []
+  },
+  {
+    "id": "ce8707c6.dc7138",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "faible",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.jarvis.faible",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload/100",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2330,
+    "y": 1960,
+    "wires": [
+      [
+        "c22b1683.523528"
+      ]
+    ]
+  },
+  {
+    "id": "2e0ae690.f2f90a",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "fort",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.jarvis.fort",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload/100",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2330,
+    "y": 1900,
+    "wires": [
+      [
+        "c22b1683.523528"
+      ]
+    ]
+  },
+  {
+    "id": "9f96e582.967208",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "mode son",
+    "property": "stack.systeme.mode.son",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Arrêt",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "Fort",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "Faible",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 2160,
+    "y": 1840,
+    "wires": [
+      [
+        "5501246c.a0f3bc"
+      ],
+      [
+        "2e0ae690.f2f90a"
+      ],
+      [
+        "ce8707c6.dc7138"
+      ]
+    ]
+  },
+  {
+    "id": "5501246c.a0f3bc",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "arrêt",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2330,
+    "y": 1840,
+    "wires": [
+      [
+        "c22b1683.523528"
+      ]
+    ]
+  },
+  {
+    "id": "c22b1683.523528",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"volume\":msg.tmp,\t   \"siteId\":msg.bucket\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "rhasspy/audioServer/setVolume",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "qos",
+        "pt": "msg",
+        "to": "1",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "retain",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "path",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2490,
+    "y": 1840,
+    "wires": [
+      [
+        "2c561a436a935bc6"
+      ]
+    ]
+  },
+  {
+    "id": "4f56bd52.514404",
+    "type": "comment",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "volume (cf comm)",
+    "info": "Reglage sur le pi: sudo amixer set Speaker 127",
+    "x": 2530,
+    "y": 1900,
+    "wires": []
+  },
+  {
+    "id": "8dbe96dd.eab3b8",
+    "type": "delay",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1970,
+    "y": 1840,
+    "wires": [
+      [
+        "9f96e582.967208"
+      ]
+    ]
+  },
+  {
+    "id": "0ff84980aae53d0f",
+    "type": "link in",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "jarvis volume",
+    "links": [],
+    "x": 135,
+    "y": 1840,
+    "wires": [
+      [
+        "11bcee51878d81c8",
+        "461e40cdc9b83b48"
+      ]
+    ]
+  },
+  {
+    "id": "d0893099b20a4ecc",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "mode maitre",
+    "property": "stack.systeme.mode.maitre",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "automate",
+        "vt": "global"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 670,
+    "y": 1840,
+    "wires": [
+      [
+        "ef402ae5e4c37c13"
+      ]
+    ]
+  },
+  {
+    "id": "ef402ae5e4c37c13",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "mode automate",
+    "property": "stack.systeme.mode.automate",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 880,
+    "y": 1840,
+    "wires": [
+      [
+        "2874910a1963721a"
+      ]
+    ]
+  },
+  {
+    "id": "2874910a1963721a",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "mode assistant",
+    "property": "stack.systeme.mode.assistant",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "Automatique",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1100,
+    "y": 1840,
+    "wires": [
+      [
+        "93e8c15dd0559efb"
+      ]
+    ]
+  },
+  {
+    "id": "11bcee51878d81c8",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "declencheur",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "systeme/mode/son",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 1840,
+    "wires": [
+      [
+        "d0893099b20a4ecc"
+      ]
+    ]
+  },
+  {
+    "id": "93e8c15dd0559efb",
+    "type": "change",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "buckets",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "stack",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1300,
+    "y": 1840,
+    "wires": [
+      [
+        "8231b6a267d39bf2"
+      ]
+    ]
+  },
+  {
+    "id": "8231b6a267d39bf2",
+    "type": "split",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1470,
+    "y": 1840,
+    "wires": [
+      [
+        "e6e992ed3ab5057d"
+      ]
+    ]
+  },
+  {
+    "id": "e6e992ed3ab5057d",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "jarvis",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "jarvis",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1630,
+    "y": 1840,
+    "wires": [
+      [
+        "65c10ac9303d616b"
+      ]
+    ]
+  },
+  {
+    "id": "65c10ac9303d616b",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "actif",
+    "property": "payload.jarvis.actif",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "true"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1790,
+    "y": 1840,
+    "wires": [
+      [
+        "8dbe96dd.eab3b8"
+      ]
+    ]
+  },
+  {
+    "id": "461e40cdc9b83b48",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "jarvis",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 300,
+    "y": 1900,
+    "wires": [
+      [
+        "a9b7311d0fdfef9b"
+      ]
+    ]
+  },
+  {
+    "id": "a9b7311d0fdfef9b",
+    "type": "switch",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "fort",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "faible",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 490,
+    "y": 1900,
+    "wires": [
+      [
+        "d0893099b20a4ecc"
+      ],
+      [
+        "d0893099b20a4ecc"
+      ]
+    ]
+  },
+  {
+    "id": "2c561a436a935bc6",
+    "type": "link out",
+    "z": "0e52966a98143270",
+    "g": "5749f1a3ca81d04c",
+    "name": "jarvis volume",
+    "mode": "link",
+    "links": [
+      "4cfd419f66b58eda"
+    ],
+    "x": 2615,
+    "y": 1840,
+    "wires": []
   }
 ]

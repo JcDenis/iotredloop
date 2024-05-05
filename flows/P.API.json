@@ -18,11 +18,13 @@
       "label": true
     },
     "nodes": [
-      "636790a6de6bdeca"
+      "636790a6de6bdeca",
+      "e9ac143262e4b9a0",
+      "4408e79a921abde7"
     ],
     "x": 68,
     "y": 173,
-    "w": 814,
+    "w": 1254,
     "h": 194
   },
   {
@@ -40,11 +42,13 @@
       "360ce5f1d0de3811",
       "e7dd5536e7ec485b",
       "c845a1c03f4d92c1",
-      "00798774fd655f5e"
+      "00798774fd655f5e",
+      "56543977028aa001",
+      "8aac22b29281bbb2"
     ],
     "x": 68,
     "y": 413,
-    "w": 7634,
+    "w": 5954,
     "h": 794
   },
   {
@@ -85,10 +89,9 @@
       "cd58e411fe4d34cd",
       "61651b0ee41123b7",
       "7c230d4cdca2bfea",
-      "4e3f5c09468d189b",
-      "4408e79a921abde7"
+      "4e3f5c09468d189b"
     ],
-    "x": 94,
+    "x": 534,
     "y": 199,
     "w": 762,
     "h": 142
@@ -116,14 +119,13 @@
       "51b51889079ebf6c",
       "ddd2fdbcdb9c86c1",
       "584d6b722534c912",
-      "8aac22b29281bbb2",
       "f0caf0d00683cab6",
       "2ea0e31ea4bcc4e0",
       "5075e1b00bd279ed",
       "ed78d57addcfaed4",
       "48d093a809c863d7"
     ],
-    "x": 94,
+    "x": 534,
     "y": 439,
     "w": 942,
     "h": 742
@@ -164,7 +166,7 @@
       "0fb952b271143df6",
       "99ba27f17405021f"
     ],
-    "x": 1134,
+    "x": 1574,
     "y": 439,
     "w": 2052,
     "h": 262
@@ -196,7 +198,7 @@
       "1a5051a42ca6c504",
       "bc4daaee49052e86"
     ],
-    "x": 3254,
+    "x": 3694,
     "y": 439,
     "w": 2042,
     "h": 142
@@ -240,8 +242,8 @@
       "c63d0c615d60abc8",
       "68aeddd9bd26aa5b"
     ],
-    "x": 5374,
-    "y": 439,
+    "x": 3694,
+    "y": 619,
     "w": 2302,
     "h": 442
   },
@@ -267,10 +269,215 @@
       "517ffa31c1e561c3",
       "8296521e661aabf6"
     ],
-    "x": 1134,
-    "y": 919,
+    "x": 1574,
+    "y": 739,
     "w": 782,
     "h": 262
+  },
+  {
+    "id": "96eb2a79eb4c26b2",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "name": "api - ecu-c - device",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2a395b7046ce9a55",
+      "e3693344db474a0a",
+      "709f263740a61967",
+      "c2f0571e97f072d9",
+      "a839571a87dd2aa6",
+      "97176af7973174dd"
+    ],
+    "x": 68,
+    "y": 1253,
+    "w": 5184,
+    "h": 374
+  },
+  {
+    "id": "2a395b7046ce9a55",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "api - ecu - ui",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bbdfc8668282860e",
+      "6f71034627ce41c8",
+      "41fce6a2ccb96e9c",
+      "a917e4aa4ccb7790",
+      "00253031bbae4616",
+      "65c543a69d403cd7",
+      "9319869767e90c51",
+      "e0343612736a3dc9",
+      "d56dc907d5c1acec",
+      "fcfa41510d4d881d",
+      "6f98aa04e4ad50e2"
+    ],
+    "x": 4314,
+    "y": 1279,
+    "w": 912,
+    "h": 202
+  },
+  {
+    "id": "e3693344db474a0a",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "api - ecu-c - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "42747e8a5076b140",
+      "0b2db761754711da",
+      "645a5c37a7442a3a",
+      "ba1b2e019bac57a0",
+      "d56c89df832031a9",
+      "6b69eabc1b4262e7",
+      "ea470f779e4827f9",
+      "b1329a14210f3a69",
+      "2c5ef02ab2fd4b04",
+      "6f09c4d0fd650430",
+      "735d536496e9ddda",
+      "fcb1ab6455b06283",
+      "2242e0f8f199a633",
+      "476acc2dcd7993ae",
+      "9c8f46ffc099ab23",
+      "7f10b42898985d21",
+      "4433605232813be4",
+      "403ed8a53ec05449",
+      "01722dc818a6feda"
+    ],
+    "x": 1574,
+    "y": 1279,
+    "w": 2632,
+    "h": 142
+  },
+  {
+    "id": "709f263740a61967",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "home - ecu - device",
+    "style": {
+      "label": true,
+      "fill": "#ffC000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "626fbd5643a10cad",
+      "d05a833bc0944694",
+      "6bc13c7cf7683462",
+      "de60b0422ab7f7a1",
+      "d59e71f32dca20fe",
+      "9a4b65c56551cc5a",
+      "196a9e3b2963d54d",
+      "13df18e469dd5933",
+      "2ed136ebd92695c1"
+    ],
+    "x": 534,
+    "y": 1279,
+    "w": 942,
+    "h": 322
+  },
+  {
+    "id": "c2f0571e97f072d9",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "api- ecu-c - get url",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "487c23a4a5a0bdc3",
+      "61ad71f1a6e26708",
+      "6e5199207c64c314",
+      "747be65a91f87907",
+      "9ab1093bbdb724bd",
+      "1630d20b18ae1ca5",
+      "da2aec8e2b2edecf",
+      "6e55943b9d5ef0ee"
+    ],
+    "x": 1574,
+    "y": 1459,
+    "w": 1232,
+    "h": 82
+  },
+  {
+    "id": "a839571a87dd2aa6",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "api - ecu-c - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "0df2f6e07a121689",
+      "c58419a94fdc0937",
+      "ac9c9b4e7caf4c7c"
+    ],
+    "x": 94,
+    "y": 1279,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "56543977028aa001",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "571cfd384a015b88",
+    "name": "api - BRP069B45 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40de83c24a607884",
+      "291134c3ae70e68a",
+      "72a29139af6e48a9"
+    ],
+    "x": 94,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "e9ac143262e4b9a0",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "g": "9a5f8bbe3eabf5fb",
+    "name": "api - REOLINK - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e31b48fc04ade3f3",
+      "3dc94638f08bfde6",
+      "f5d43b55f6998570"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 342,
+    "h": 82
   },
   {
     "id": "99fe787fc1aa2efe",
@@ -313,7 +520,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 470,
+    "x": 910,
     "y": 300,
     "wires": [
       [
@@ -330,7 +537,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 240,
     "wires": [
       [
@@ -356,7 +563,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 240,
     "wires": [
       [
@@ -385,7 +592,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 240,
     "wires": [
       [
@@ -403,7 +610,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 815,
+    "x": 1255,
     "y": 240,
     "wires": []
   },
@@ -442,7 +649,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 430,
+    "x": 870,
     "y": 240,
     "wires": [
       [
@@ -454,11 +661,11 @@
     "id": "4408e79a921abde7",
     "type": "comment",
     "z": "f125f568d4e332ee",
-    "g": "636790a6de6bdeca",
+    "g": "9a5f8bbe3eabf5fb",
     "name": "camera / url",
     "info": "",
     "x": 190,
-    "y": 300,
+    "y": 320,
     "wires": []
   },
   {
@@ -470,7 +677,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 480,
     "wires": [
       [
@@ -519,7 +726,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 600,
     "wires": [
       [
@@ -568,7 +775,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 660,
     "wires": [
       [
@@ -617,7 +824,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 720,
     "wires": [
       [
@@ -666,7 +873,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 530,
+    "x": 970,
     "y": 780,
     "wires": [
       [
@@ -715,7 +922,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 560,
+    "x": 1000,
     "y": 900,
     "wires": [
       [
@@ -733,7 +940,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 995,
+    "x": 1435,
     "y": 480,
     "wires": []
   },
@@ -778,7 +985,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 540,
     "wires": [
       [
@@ -821,7 +1028,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 430,
+    "x": 870,
     "y": 480,
     "wires": [
       [
@@ -849,7 +1056,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 860,
+    "x": 1300,
     "y": 480,
     "wires": [
       [
@@ -875,7 +1082,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 480,
     "wires": [
       [
@@ -898,11 +1105,11 @@
     "id": "8aac22b29281bbb2",
     "type": "comment",
     "z": "f125f568d4e332ee",
-    "g": "9cdc88788fe441f1",
+    "g": "571cfd384a015b88",
     "name": "air conditioner / url",
     "info": "",
     "x": 210,
-    "y": 540,
+    "y": 560,
     "wires": []
   },
   {
@@ -946,7 +1153,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 960,
     "wires": [
       [
@@ -995,7 +1202,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 1020,
     "wires": [
       [
@@ -1044,7 +1251,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 540,
+    "x": 980,
     "y": 1080,
     "wires": [
       [
@@ -1093,7 +1300,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 1140,
     "wires": [
       [
@@ -1142,7 +1349,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 840,
     "wires": [
       [
@@ -1159,7 +1366,7 @@
     "links": [
       "004bb30c27c94fb4"
     ],
-    "x": 1175,
+    "x": 1615,
     "y": 540,
     "wires": [
       [
@@ -1187,7 +1394,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1330,
+    "x": 1770,
     "y": 540,
     "wires": [
       [
@@ -1207,7 +1414,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "bucket",
-    "x": 1510,
+    "x": 1950,
     "y": 540,
     "wires": [
       [
@@ -1233,7 +1440,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1700,
+    "x": 2140,
     "y": 540,
     "wires": [
       [
@@ -1255,7 +1462,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 3030,
+    "x": 3470,
     "y": 480,
     "wires": []
   },
@@ -1277,7 +1484,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 2050,
+    "x": 2490,
     "y": 540,
     "wires": [
       [
@@ -1295,7 +1502,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 2935,
+    "x": 3375,
     "y": 540,
     "wires": []
   },
@@ -1304,9 +1511,9 @@
     "type": "comment",
     "z": "f125f568d4e332ee",
     "g": "360ce5f1d0de3811",
-    "name": "scan rooms to find air conditioner and to query it to update values",
+    "name": "scan buckets to find air conditioner and to query it to update values",
     "info": "",
-    "x": 1390,
+    "x": 1840,
     "y": 480,
     "wires": []
   },
@@ -1328,7 +1535,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1890,
+    "x": 2330,
     "y": 540,
     "wires": [
       [
@@ -1366,7 +1573,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2210,
+    "x": 2650,
     "y": 540,
     "wires": [
       [
@@ -1386,7 +1593,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 2420,
+    "x": 2860,
     "y": 540,
     "wires": [
       [
@@ -1406,7 +1613,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "field",
-    "x": 2630,
+    "x": 3070,
     "y": 540,
     "wires": [
       [
@@ -1434,7 +1641,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2800,
+    "x": 3240,
     "y": 540,
     "wires": [
       [
@@ -1451,7 +1658,7 @@
     "name": "catch query timeout (see query)",
     "scope": "group",
     "uncaught": false,
-    "x": 2450,
+    "x": 2890,
     "y": 480,
     "wires": [
       []
@@ -1477,7 +1684,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1580,
+    "x": 2020,
     "y": 660,
     "wires": [
       [
@@ -1502,7 +1709,7 @@
     "authType": "",
     "senderr": false,
     "headers": [],
-    "x": 1770,
+    "x": 2210,
     "y": 660,
     "wires": [
       [
@@ -1528,7 +1735,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1950,
+    "x": 2390,
     "y": 660,
     "wires": [
       [
@@ -1563,7 +1770,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2120,
+    "x": 2560,
     "y": 660,
     "wires": [
       [
@@ -1583,7 +1790,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 2290,
+    "x": 2730,
     "y": 660,
     "wires": [
       [
@@ -1611,7 +1818,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2450,
+    "x": 2890,
     "y": 660,
     "wires": [
       [
@@ -1642,7 +1849,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 2610,
+    "x": 3050,
     "y": 660,
     "wires": [
       [
@@ -1687,7 +1894,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2790,
+    "x": 3230,
     "y": 660,
     "wires": [
       [
@@ -1729,7 +1936,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2770,
+    "x": 3210,
     "y": 600,
     "wires": [
       [
@@ -1746,7 +1953,7 @@
     "links": [
       "031a6afd8300356a"
     ],
-    "x": 3295,
+    "x": 3735,
     "y": 540,
     "wires": [
       [
@@ -1762,7 +1969,7 @@
     "name": "api - BRP069B45 - metric error",
     "mode": "link",
     "links": [],
-    "x": 4995,
+    "x": 5435,
     "y": 540,
     "wires": []
   },
@@ -1793,7 +2000,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3810,
+    "x": 4250,
     "y": 540,
     "wires": [
       [
@@ -1819,7 +2026,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3460,
+    "x": 3900,
     "y": 540,
     "wires": [
       [
@@ -1845,7 +2052,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3650,
+    "x": 4090,
     "y": 540,
     "wires": [
       [
@@ -1868,7 +2075,7 @@
     "authType": "",
     "senderr": false,
     "headers": [],
-    "x": 4690,
+    "x": 5130,
     "y": 540,
     "wires": [
       [
@@ -1894,7 +2101,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4870,
+    "x": 5310,
     "y": 540,
     "wires": [
       [
@@ -1917,7 +2124,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 5120,
+    "x": 5560,
     "y": 480,
     "wires": []
   },
@@ -1939,7 +2146,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4260,
+    "x": 4700,
     "y": 540,
     "wires": [
       [
@@ -1958,7 +2165,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 4020,
+    "x": 4460,
     "y": 540,
     "wires": [
       [
@@ -2025,7 +2232,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4480,
+    "x": 4920,
     "y": 540,
     "wires": [
       [
@@ -2041,7 +2248,7 @@
     "g": "e7dd5536e7ec485b",
     "name": "query ac before sending order to see if there'are changes",
     "info": "",
-    "x": 3650,
+    "x": 4090,
     "y": 480,
     "wires": []
   },
@@ -2053,7 +2260,7 @@
     "name": "catch query timeout (see query)",
     "scope": "group",
     "uncaught": false,
-    "x": 4050,
+    "x": 4490,
     "y": 480,
     "wires": [
       []
@@ -2073,7 +2280,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 4730,
+    "x": 5170,
     "y": 480,
     "wires": []
   },
@@ -2105,8 +2312,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5720,
-    "y": 540,
+    "x": 4040,
+    "y": 720,
     "wires": [
       [
         "f721ca03be8ff260"
@@ -2130,8 +2337,8 @@
     "authType": "",
     "senderr": false,
     "headers": [],
-    "x": 5910,
-    "y": 540,
+    "x": 4230,
+    "y": 720,
     "wires": [
       [
         "0f9815dd4369b44e"
@@ -2165,8 +2372,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6260,
-    "y": 540,
+    "x": 4580,
+    "y": 720,
     "wires": [
       [
         "5d1d77696340830c",
@@ -2186,8 +2393,8 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 6430,
-    "y": 540,
+    "x": 4750,
+    "y": 720,
     "wires": [
       [
         "983cd159a0b40113"
@@ -2214,8 +2421,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6590,
-    "y": 540,
+    "x": 4910,
+    "y": 720,
     "wires": [
       [
         "37d6df803145f6b3"
@@ -2268,8 +2475,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 7,
-    "x": 6750,
-    "y": 540,
+    "x": 5070,
+    "y": 720,
     "wires": [
       [
         "dedd7481c1232f2b"
@@ -2312,8 +2519,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 6090,
-    "y": 540,
+    "x": 4410,
+    "y": 720,
     "wires": [
       [
         "f2a95a5b30167059"
@@ -2340,8 +2547,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6960,
-    "y": 480,
+    "x": 5280,
+    "y": 660,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2368,8 +2575,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6920,
-    "y": 540,
+    "x": 5240,
+    "y": 720,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2396,8 +2603,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6930,
-    "y": 600,
+    "x": 5250,
+    "y": 780,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2424,8 +2631,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6910,
-    "y": 660,
+    "x": 5230,
+    "y": 840,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2452,8 +2659,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6910,
-    "y": 720,
+    "x": 5230,
+    "y": 900,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2467,8 +2674,8 @@
     "g": "c845a1c03f4d92c1",
     "name": "api - BRP069B45 - call",
     "links": [],
-    "x": 5415,
-    "y": 540,
+    "x": 3735,
+    "y": 720,
     "wires": [
       [
         "54880878ed729b66"
@@ -2491,8 +2698,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5550,
-    "y": 540,
+    "x": 3870,
+    "y": 720,
     "wires": [
       [
         "786bfd43841bb244"
@@ -2516,8 +2723,8 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 7170,
-    "y": 540,
+    "x": 5490,
+    "y": 720,
     "wires": [
       [
         "2aca27cd78517955"
@@ -2544,8 +2751,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6910,
-    "y": 840,
+    "x": 5230,
+    "y": 1020,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2570,8 +2777,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 7340,
-    "y": 540,
+    "x": 5660,
+    "y": 720,
     "wires": [
       [
         "78056d2e854d07b8"
@@ -2630,8 +2837,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 7500,
-    "y": 540,
+    "x": 5820,
+    "y": 720,
     "wires": [
       [
         "8919c8979775e43c"
@@ -2646,8 +2853,8 @@
     "name": "api - BRP069B45 - call",
     "mode": "return",
     "links": [],
-    "x": 7635,
-    "y": 540,
+    "x": 5955,
+    "y": 720,
     "wires": []
   },
   {
@@ -2657,8 +2864,8 @@
     "g": "c845a1c03f4d92c1",
     "name": "use flow.ac to memorise values during split",
     "info": "",
-    "x": 6540,
-    "y": 660,
+    "x": 4860,
+    "y": 840,
     "wires": []
   },
   {
@@ -2668,8 +2875,8 @@
     "g": "c845a1c03f4d92c1",
     "name": "See : https://github.com/ehjortberg/daikin-control",
     "info": "",
-    "x": 5580,
-    "y": 480,
+    "x": 3900,
+    "y": 660,
     "wires": []
   },
   {
@@ -2686,8 +2893,8 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 6180,
-    "y": 480,
+    "x": 4500,
+    "y": 660,
     "wires": []
   },
   {
@@ -2698,8 +2905,8 @@
     "name": "catch query timeout",
     "scope": "group",
     "uncaught": false,
-    "x": 5930,
-    "y": 480,
+    "x": 4250,
+    "y": 660,
     "wires": [
       [
         "d1e219d53c99be45"
@@ -2720,8 +2927,8 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 6510,
-    "y": 480,
+    "x": 4830,
+    "y": 660,
     "wires": []
   },
   {
@@ -2744,8 +2951,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6920,
-    "y": 780,
+    "x": 5240,
+    "y": 960,
     "wires": [
       [
         "aa72fc0611d255ca"
@@ -2759,8 +2966,8 @@
     "g": "c845a1c03f4d92c1",
     "name": "not working",
     "info": "",
-    "x": 7130,
-    "y": 780,
+    "x": 5450,
+    "y": 960,
     "wires": []
   },
   {
@@ -2772,8 +2979,8 @@
     "links": [
       "031a6afd8300356a"
     ],
-    "x": 1175,
-    "y": 1080,
+    "x": 1615,
+    "y": 900,
     "wires": [
       [
         "08048d875b38ceb8"
@@ -2808,8 +3015,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1310,
-    "y": 1080,
+    "x": 1750,
+    "y": 900,
     "wires": [
       [
         "a76580bfbb24a34e",
@@ -2833,8 +3040,8 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 1875,
-    "y": 1080,
+    "x": 2315,
+    "y": 900,
     "wires": []
   },
   {
@@ -2871,8 +3078,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1570,
-    "y": 1140,
+    "x": 2010,
+    "y": 960,
     "wires": [
       [
         "d5cdd8f60040d125"
@@ -2906,8 +3113,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1520,
-    "y": 1020,
+    "x": 1960,
+    "y": 840,
     "wires": [
       [
         "517ffa31c1e561c3"
@@ -2941,8 +3148,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1510,
-    "y": 1080,
+    "x": 1950,
+    "y": 900,
     "wires": [
       [
         "d5cdd8f60040d125"
@@ -2965,8 +3172,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1730,
-    "y": 960,
+    "x": 2170,
+    "y": 780,
     "wires": [
       [
         "d5cdd8f60040d125"
@@ -2991,8 +3198,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 1740,
-    "y": 1020,
+    "x": 2180,
+    "y": 840,
     "wires": [
       [
         "d5cdd8f60040d125"
@@ -3033,8 +3240,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1520,
-    "y": 960,
+    "x": 1960,
+    "y": 780,
     "wires": [
       [
         "192d06a39b1a1f66"
@@ -3097,6 +3304,1569 @@
     ],
     "x": 915,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "bbdfc8668282860e",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "home - ecu - ui - metric",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 4355,
+    "y": 1320,
+    "wires": [
+      [
+        "6f71034627ce41c8"
+      ]
+    ]
+  },
+  {
+    "id": "6f71034627ce41c8",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "xxx/photovoltaic/xxx",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/photovoltaic/production power'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "msg.bucket & '/photovoltaic/import power'",
+        "vt": "jsonata"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 4680,
+    "y": 1320,
+    "wires": [
+      [
+        "41fce6a2ccb96e9c"
+      ],
+      [
+        "d56dc907d5c1acec"
+      ]
+    ]
+  },
+  {
+    "id": "41fce6a2ccb96e9c",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload&'W'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4900,
+    "y": 1320,
+    "wires": [
+      [
+        "a917e4aa4ccb7790"
+      ]
+    ]
+  },
+  {
+    "id": "a917e4aa4ccb7790",
+    "type": "ui-text",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "group": "241fa70e798648e8",
+    "order": 7,
+    "width": "6",
+    "height": "1",
+    "name": "production power",
+    "label": "Production",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 5110,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "00253031bbae4616",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]photovoltaic['production power']",
+        "tot": "global"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4720,
+    "y": 1380,
+    "wires": [
+      [
+        "41fce6a2ccb96e9c"
+      ]
+    ]
+  },
+  {
+    "id": "65c543a69d403cd7",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "home - ecu - ui - load",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 4355,
+    "y": 1380,
+    "wires": [
+      [
+        "9319869767e90c51"
+      ]
+    ]
+  },
+  {
+    "id": "42747e8a5076b140",
+    "type": "debug",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "api - ecu-c - source",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 4070,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "0b2db761754711da",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.each_system_power",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3670,
+    "y": 1380,
+    "wires": [
+      [
+        "ba1b2e019bac57a0"
+      ]
+    ]
+  },
+  {
+    "id": "645a5c37a7442a3a",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "api - ecu-c - source",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 3995,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "ba1b2e019bac57a0",
+    "type": "function",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "cleanup",
+    "func": "var msg = msg;\nvar newmsg = {};\n\nnewmsg.payload = msg.payload\nnewmsg.bucket = msg.bucket;\nnewmsg.measurement = 'photovoltaic';\nnewmsg.field = msg.field;\n//newmsg.repeat = true;\n\nreturn newmsg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 3860,
+    "y": 1320,
+    "wires": [
+      [
+        "42747e8a5076b140",
+        "645a5c37a7442a3a"
+      ]
+    ]
+  },
+  {
+    "id": "d56c89df832031a9",
+    "type": "inject",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "",
+    "props": [
+      {
+        "p": "limit",
+        "v": "$millis()-300000",
+        "vt": "jsonata"
+      }
+    ],
+    "repeat": "300",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "30",
+    "topic": "",
+    "x": 1680,
+    "y": 1320,
+    "wires": [
+      [
+        "01722dc818a6feda"
+      ]
+    ]
+  },
+  {
+    "id": "6b69eabc1b4262e7",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "ecu web api refresh rate is by 5 minutes",
+    "info": "",
+    "x": 1750,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "ea470f779e4827f9",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "'http://'&msg.url&'/index.php/meter/old_meter_power_graph'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2090,
+    "y": 1320,
+    "wires": [
+      [
+        "b1329a14210f3a69"
+      ]
+    ]
+  },
+  {
+    "id": "b1329a14210f3a69",
+    "type": "http request",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "",
+    "method": "GET",
+    "ret": "txt",
+    "paytoqs": false,
+    "url": "",
+    "persist": false,
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 2270,
+    "y": 1320,
+    "wires": [
+      [
+        "2c5ef02ab2fd4b04"
+      ]
+    ]
+  },
+  {
+    "id": "2c5ef02ab2fd4b04",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "status",
+    "property": "statusCode",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "200",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2450,
+    "y": 1320,
+    "wires": [
+      [
+        "6f09c4d0fd650430"
+      ]
+    ]
+  },
+  {
+    "id": "6f09c4d0fd650430",
+    "type": "json",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "",
+    "property": "payload",
+    "action": "",
+    "pretty": false,
+    "x": 2610,
+    "y": 1320,
+    "wires": [
+      [
+        "476acc2dcd7993ae",
+        "7f10b42898985d21"
+      ]
+    ]
+  },
+  {
+    "id": "735d536496e9ddda",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "",
+    "x": 3350,
+    "y": 1320,
+    "wires": [
+      [
+        "9c8f46ffc099ab23"
+      ]
+    ]
+  },
+  {
+    "id": "fcb1ab6455b06283",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "count",
+    "rules": [
+      {
+        "t": "set",
+        "p": "count",
+        "pt": "msg",
+        "to": "$count(msg.payload)-1",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3010,
+    "y": 1320,
+    "wires": [
+      [
+        "2242e0f8f199a633"
+      ]
+    ]
+  },
+  {
+    "id": "2242e0f8f199a633",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "has result",
+    "property": "count",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gte",
+        "v": "0",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3180,
+    "y": 1320,
+    "wires": [
+      [
+        "735d536496e9ddda"
+      ]
+    ]
+  },
+  {
+    "id": "476acc2dcd7993ae",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "production power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.power1",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "production power",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2810,
+    "y": 1320,
+    "wires": [
+      [
+        "fcb1ab6455b06283"
+      ]
+    ]
+  },
+  {
+    "id": "9c8f46ffc099ab23",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "recent",
+    "property": "payload.time",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "limit",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3510,
+    "y": 1320,
+    "wires": [
+      [
+        "4433605232813be4"
+      ]
+    ]
+  },
+  {
+    "id": "7f10b42898985d21",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "import power",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.power2",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "import power",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2790,
+    "y": 1380,
+    "wires": [
+      [
+        "fcb1ab6455b06283"
+      ]
+    ]
+  },
+  {
+    "id": "4433605232813be4",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.powerA",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3680,
+    "y": 1320,
+    "wires": [
+      [
+        "ba1b2e019bac57a0"
+      ]
+    ]
+  },
+  {
+    "id": "626fbd5643a10cad",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "photovoltaic / power / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 950,
+    "y": 1440,
+    "wires": [
+      [
+        "13df18e469dd5933"
+      ]
+    ]
+  },
+  {
+    "id": "d05a833bc0944694",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "photovoltaic / production power / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "production power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 990,
+    "y": 1500,
+    "wires": [
+      [
+        "13df18e469dd5933"
+      ]
+    ]
+  },
+  {
+    "id": "6bc13c7cf7683462",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "photovoltaic / import power / number / 0",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "import power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 980,
+    "y": 1560,
+    "wires": [
+      [
+        "13df18e469dd5933"
+      ]
+    ]
+  },
+  {
+    "id": "de60b0422ab7f7a1",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "photovoltaic / url / text / *",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "id",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 1380,
+    "wires": [
+      [
+        "13df18e469dd5933"
+      ]
+    ]
+  },
+  {
+    "id": "d59e71f32dca20fe",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "api - ecu-c - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 1320,
+    "wires": [
+      [
+        "9a4b65c56551cc5a"
+      ]
+    ]
+  },
+  {
+    "id": "9a4b65c56551cc5a",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ecu-c",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 1320,
+    "wires": [
+      [
+        "196a9e3b2963d54d",
+        "de60b0422ab7f7a1",
+        "626fbd5643a10cad",
+        "d05a833bc0944694",
+        "6bc13c7cf7683462"
+      ]
+    ]
+  },
+  {
+    "id": "196a9e3b2963d54d",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "d": true,
+    "g": "709f263740a61967",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "apsystems",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 870,
+    "y": 1320,
+    "wires": [
+      [
+        "13df18e469dd5933"
+      ]
+    ]
+  },
+  {
+    "id": "13df18e469dd5933",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1300,
+    "y": 1320,
+    "wires": [
+      [
+        "2ed136ebd92695c1"
+      ]
+    ]
+  },
+  {
+    "id": "2ed136ebd92695c1",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "709f263740a61967",
+    "name": "api - ecu-c - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1435,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "403ed8a53ec05449",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "todo: waiying for new tore...",
+    "info": "",
+    "x": 3420,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "487c23a4a5a0bdc3",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "api- ecu-c - get url",
+    "links": [],
+    "x": 1615,
+    "y": 1500,
+    "wires": [
+      [
+        "61ad71f1a6e26708"
+      ]
+    ]
+  },
+  {
+    "id": "61ad71f1a6e26708",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1760,
+    "y": 1500,
+    "wires": [
+      [
+        "6e5199207c64c314"
+      ]
+    ]
+  },
+  {
+    "id": "6e5199207c64c314",
+    "type": "split",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 1940,
+    "y": 1500,
+    "wires": [
+      [
+        "747be65a91f87907"
+      ]
+    ]
+  },
+  {
+    "id": "747be65a91f87907",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "measurement",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "photovoltaic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2130,
+    "y": 1500,
+    "wires": [
+      [
+        "9ab1093bbdb724bd"
+      ]
+    ]
+  },
+  {
+    "id": "9ab1093bbdb724bd",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "device",
+    "property": "devices[msg.bucket].photovoltaic.url.model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "ecu-c",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2320,
+    "y": 1500,
+    "wires": [
+      [
+        "1630d20b18ae1ca5"
+      ]
+    ]
+  },
+  {
+    "id": "1630d20b18ae1ca5",
+    "type": "delay",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 2480,
+    "y": 1500,
+    "wires": [
+      [
+        "da2aec8e2b2edecf"
+      ]
+    ]
+  },
+  {
+    "id": "da2aec8e2b2edecf",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "get url",
+    "rules": [
+      {
+        "t": "set",
+        "p": "url",
+        "pt": "msg",
+        "to": "payload.photovoltaic.url",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old.payload",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2640,
+    "y": 1500,
+    "wires": [
+      [
+        "6e55943b9d5ef0ee"
+      ]
+    ]
+  },
+  {
+    "id": "6e55943b9d5ef0ee",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "c2f0571e97f072d9",
+    "name": "api- ecu-c - get url",
+    "mode": "return",
+    "links": [],
+    "x": 2765,
+    "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "01722dc818a6feda",
+    "type": "link call",
+    "z": "f125f568d4e332ee",
+    "g": "e3693344db474a0a",
+    "name": "",
+    "links": [
+      "487c23a4a5a0bdc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1890,
+    "y": 1320,
+    "wires": [
+      [
+        "ea470f779e4827f9"
+      ]
+    ]
+  },
+  {
+    "id": "9319869767e90c51",
+    "type": "link call",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "",
+    "links": [
+      "487c23a4a5a0bdc3"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 4510,
+    "y": 1380,
+    "wires": [
+      [
+        "00253031bbae4616",
+        "6f98aa04e4ad50e2"
+      ]
+    ]
+  },
+  {
+    "id": "e0343612736a3dc9",
+    "type": "ui-text",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "group": "241fa70e798648e8",
+    "order": 8,
+    "width": "6",
+    "height": "1",
+    "name": "import power",
+    "label": "Importation",
+    "format": "{{msg.payload}}",
+    "layout": "row-spread",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 5090,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "d56dc907d5c1acec",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload&'W'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4900,
+    "y": 1380,
+    "wires": [
+      [
+        "e0343612736a3dc9"
+      ]
+    ]
+  },
+  {
+    "id": "fcfa41510d4d881d",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "on linky dashboard",
+    "info": "",
+    "x": 5110,
+    "y": 1440,
+    "wires": []
+  },
+  {
+    "id": "6f98aa04e4ad50e2",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "2a395b7046ce9a55",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]photovoltaic['import power']",
+        "tot": "global"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4720,
+    "y": 1440,
+    "wires": [
+      [
+        "d56dc907d5c1acec"
+      ]
+    ]
+  },
+  {
+    "id": "0df2f6e07a121689",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "a839571a87dd2aa6",
+    "name": "api - ecu-c - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1320,
+    "wires": [
+      [
+        "c58419a94fdc0937"
+      ]
+    ]
+  },
+  {
+    "id": "c58419a94fdc0937",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "a839571a87dd2aa6",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "apsystems",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ecu-c",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "api",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1320,
+    "wires": [
+      [
+        "ac9c9b4e7caf4c7c"
+      ]
+    ]
+  },
+  {
+    "id": "ac9c9b4e7caf4c7c",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "a839571a87dd2aa6",
+    "name": "api - ecu-c - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "40de83c24a607884",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "56543977028aa001",
+    "name": "api - BRP069B45 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "291134c3ae70e68a"
+      ]
+    ]
+  },
+  {
+    "id": "291134c3ae70e68a",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "56543977028aa001",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "daikin",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "BRP069B45",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "api",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "air conditioner",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "72a29139af6e48a9"
+      ]
+    ]
+  },
+  {
+    "id": "72a29139af6e48a9",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "56543977028aa001",
+    "name": "api - BRP069B45 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "97176af7973174dd",
+    "type": "comment",
+    "z": "f125f568d4e332ee",
+    "g": "96eb2a79eb4c26b2",
+    "name": "photovoltaic / url",
+    "info": "",
+    "x": 200,
+    "y": 1400,
+    "wires": []
+  },
+  {
+    "id": "e31b48fc04ade3f3",
+    "type": "link in",
+    "z": "f125f568d4e332ee",
+    "g": "e9ac143262e4b9a0",
+    "name": "api - REOLINK - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "3dc94638f08bfde6"
+      ]
+    ]
+  },
+  {
+    "id": "3dc94638f08bfde6",
+    "type": "change",
+    "z": "f125f568d4e332ee",
+    "g": "e9ac143262e4b9a0",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "reolink",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "REOLINK",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "api",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "camera",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "f5d43b55f6998570"
+      ]
+    ]
+  },
+  {
+    "id": "f5d43b55f6998570",
+    "type": "link out",
+    "z": "f125f568d4e332ee",
+    "g": "e9ac143262e4b9a0",
+    "name": "api - REOLINK - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 240,
     "wires": []
   }
 ]

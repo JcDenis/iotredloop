@@ -20,11 +20,13 @@
     "nodes": [
       "7df4891fb0f54c6a",
       "a92f07dc2780d8bc",
-      "8903de87d27776de"
+      "8903de87d27776de",
+      "8c79dc3ef73d2580",
+      "61811e3af05e7627"
     ],
     "x": 68,
     "y": 413,
-    "w": 2774,
+    "w": 3214,
     "h": 314
   },
   {
@@ -39,11 +41,13 @@
     },
     "nodes": [
       "68b5dafb14052979",
-      "d621563355a4fe91"
+      "d621563355a4fe91",
+      "f902f6ba6753215d",
+      "59fe73b9b188de07"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 413,
-    "w": 1734,
+    "w": 2174,
     "h": 434
   },
   {
@@ -59,11 +63,13 @@
     "nodes": [
       "2da7158c8343266e",
       "016aea5aee729a42",
-      "c267a41dc3eea79e"
+      "c267a41dc3eea79e",
+      "9f6b281b8dc7ed8e",
+      "f0f9f0281acad3c4"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 893,
-    "w": 2454,
+    "w": 2894,
     "h": 314
   },
   {
@@ -78,11 +84,13 @@
     },
     "nodes": [
       "be104700c7271732",
-      "0a50b28d4026a61d"
+      "0a50b28d4026a61d",
+      "9fe281cffb31e00c",
+      "3eade78d0878580f"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 1253,
-    "w": 1734,
+    "w": 2174,
     "h": 374
   },
   {
@@ -98,11 +106,13 @@
     "nodes": [
       "f6435fdfdf88d839",
       "c140123c0a2df7d3",
-      "dbe90b9341f05711"
+      "dbe90b9341f05711",
+      "95a74006c5eb9f38",
+      "501e6d96a73a9088"
     ],
     "x": 68,
     "y": 773,
-    "w": 3174,
+    "w": 3614,
     "h": 494
   },
   {
@@ -118,11 +128,13 @@
     "nodes": [
       "579d035d7902f85b",
       "a63f48bf2ad99007",
-      "465fbb68bc8819d9"
+      "465fbb68bc8819d9",
+      "70c4d454a29e1c45",
+      "137c61fc6cd3b296"
     ],
     "x": 68,
     "y": 1313,
-    "w": 2534,
+    "w": 2974,
     "h": 254
   },
   {
@@ -138,11 +150,13 @@
     "nodes": [
       "e8ec9cb7ed810eb1",
       "913b1d1497543ac9",
-      "ea83926edf12f8f9"
+      "ea83926edf12f8f9",
+      "2da7ce03f5191d38",
+      "3320ef3f3756aa11"
     ],
     "x": 68,
     "y": 1613,
-    "w": 2674,
+    "w": 3114,
     "h": 314
   },
   {
@@ -158,11 +172,13 @@
     "nodes": [
       "04e46863c1e5b152",
       "9a2930d4a5225064",
-      "782b3f453d398052"
+      "782b3f453d398052",
+      "304b2bd59bbb2dd7",
+      "8381482825528158"
     ],
     "x": 68,
     "y": 1973,
-    "w": 2514,
+    "w": 2954,
     "h": 374
   },
   {
@@ -178,11 +194,12 @@
     "nodes": [
       "04604742f88c50dc",
       "c0b002df0f286108",
-      "9306ccb4b4f39b0f"
+      "9306ccb4b4f39b0f",
+      "20ebd48d15c9a606"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 1673,
-    "w": 2654,
+    "w": 3094,
     "h": 314
   },
   {
@@ -198,11 +215,12 @@
     "nodes": [
       "4a380e4e6f98695d",
       "7ba5b63508a29d7b",
-      "5b6ef9828f2cbf8a"
+      "5b6ef9828f2cbf8a",
+      "b533b3a78677c7f6"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 2033,
-    "w": 2674,
+    "w": 3114,
     "h": 314
   },
   {
@@ -217,11 +235,12 @@
     },
     "nodes": [
       "5550170f30d4e17c",
-      "a20475bea97e7d94"
+      "a20475bea97e7d94",
+      "6bf9fae4b0bc8907"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 2393,
-    "w": 1714,
+    "w": 2154,
     "h": 314
   },
   {
@@ -237,11 +256,13 @@
     "nodes": [
       "7da83da639a48fc6",
       "62705fcec5af5085",
-      "7e93a24c134aa8e3"
+      "7e93a24c134aa8e3",
+      "5c9a983b8db0a524",
+      "5b532049057ce244"
     ],
     "x": 68,
     "y": 2393,
-    "w": 2514,
+    "w": 2954,
     "h": 314
   },
   {
@@ -256,915 +277,13 @@
     },
     "nodes": [
       "29237f8ee2660ed5",
-      "0911ef2f51d2874d"
+      "0911ef2f51d2874d",
+      "669a920f894a115d"
     ],
-    "x": 3328,
+    "x": 3748,
     "y": 2753,
-    "w": 1634,
+    "w": 2074,
     "h": 314
-  },
-  {
-    "id": "7df4891fb0f54c6a",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "a80fd3f576f680d2",
-    "name": "zwave - ZMNHSD - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "35e090f8c7faf406",
-      "f067f99223702cbd",
-      "6ecfab261b01f9c3",
-      "8d39935a442a5f68",
-      "33801fcadc63dce7",
-      "f668ac218120f382",
-      "9ac0d9e950466cdf",
-      "b87c542ba9b27bb5",
-      "61811e3af05e7627",
-      "7fcb14cf0abcfdc7",
-      "0a5cddbc797bd399",
-      "ef4f8454f3ec4dbe",
-      "c3ac6ed333078e5e",
-      "8d0c275c95303653"
-    ],
-    "x": 94,
-    "y": 439,
-    "w": 1142,
-    "h": 262
-  },
-  {
-    "id": "a92f07dc2780d8bc",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "a80fd3f576f680d2",
-    "name": "zwave - ZMNHSD - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "3b891fba4dfecf92",
-      "357802005b57cd25",
-      "7327ac2371d2c61e",
-      "7f3849dc4dede295",
-      "4175579ef516b417",
-      "9c2e6f0785e3d15e"
-    ],
-    "x": 1334,
-    "y": 439,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "8903de87d27776de",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "a80fd3f576f680d2",
-    "name": "zwave - ZMNHSD - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "a6e7cb7d734ff576",
-      "45b3204fc96f986e",
-      "6129043e9e44e401",
-      "ddcfded754ff2589",
-      "c72252e63ad47e9c"
-    ],
-    "x": 2094,
-    "y": 439,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "68b5dafb14052979",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "10c9d50559ed7215",
-    "name": "zwave - ZW100 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "df73a0138e5eb1a2",
-      "678ee1ecfd2bd7b4",
-      "8da01c4e7e02c944",
-      "12a77bd93e3178cc",
-      "cb4e39396408f83a",
-      "e0704ac6164d8080",
-      "b8a506ad585dedf8",
-      "348b03cd790fc39d",
-      "7eff7f2e1f0574d0"
-    ],
-    "x": 4334,
-    "y": 439,
-    "w": 702,
-    "h": 322
-  },
-  {
-    "id": "d621563355a4fe91",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "10c9d50559ed7215",
-    "name": "zwave - ZW100 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "fe8287ee6989a4af",
-      "07aa53e3f9ed5c5e",
-      "35473aebb652019e",
-      "36b0b5383d7ea0d9",
-      "9f1d0534b76da1e7",
-      "1f98f11f070b0415",
-      "230aac809f1b2cdf",
-      "069ed6873270c4ef",
-      "b49245576c4f4bc9",
-      "372240222a775d4f",
-      "59fe73b9b188de07"
-    ],
-    "x": 3354,
-    "y": 439,
-    "w": 882,
-    "h": 382
-  },
-  {
-    "id": "2da7158c8343266e",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "380884ff4c222733",
-    "name": "zwave - FGD212 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "dfec8109ff57764a",
-      "ca4a8a1799332754",
-      "66550e9de816eb03",
-      "ea77f48c1d222cc2",
-      "c0886037ccb4c42f",
-      "ab023aa415991c4f",
-      "3f6c850249b7b7a4",
-      "445a5124b1d3b6ba",
-      "f0f9f0281acad3c4"
-    ],
-    "x": 3354,
-    "y": 919,
-    "w": 822,
-    "h": 262
-  },
-  {
-    "id": "016aea5aee729a42",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "380884ff4c222733",
-    "name": "zwave - FGD212 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "f3c1fc23bc17ce5a",
-      "01d014a468d55ce0",
-      "d6f83986f164d9d1",
-      "2ab7993499d31bbd",
-      "b2ead3db76c4ae15",
-      "43cbbc293f2e38d6"
-    ],
-    "x": 4274,
-    "y": 919,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "c267a41dc3eea79e",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "380884ff4c222733",
-    "name": "zwave - FGD212 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d1420178d53a10af",
-      "d381cd4b08e2f495",
-      "4949856273c96f31",
-      "ffb38b5da98a825a",
-      "6df92a3791727361"
-    ],
-    "x": 5034,
-    "y": 919,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "be104700c7271732",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "052f9d828fb52a35",
-    "name": "zwave - FGMS001 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "61aa3b52edd2cf60",
-      "97c80fb2c749b970",
-      "da86ee3c4a435b50",
-      "24371de5255c7936",
-      "c288ba888d38a74d",
-      "e8d75052d713d6b0",
-      "ed3c5c95136138e9",
-      "0ecd4f80d94c7372",
-      "cfae06c36dd8db78",
-      "3eade78d0878580f"
-    ],
-    "x": 3354,
-    "y": 1279,
-    "w": 882,
-    "h": 322
-  },
-  {
-    "id": "0a50b28d4026a61d",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "052f9d828fb52a35",
-    "name": "zwave - FGMS001 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "03f6a62f4708e206",
-      "97d3eebe58bb5985",
-      "a09a4a753b9fc72d",
-      "e5cbab5e28c8de7b",
-      "b618882d7f713f12",
-      "9983a70a0578c4f9",
-      "a1919db957b380fa",
-      "8ab95bcfe737b310"
-    ],
-    "x": 4334,
-    "y": 1279,
-    "w": 702,
-    "h": 262
-  },
-  {
-    "id": "f6435fdfdf88d839",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "d4d6d96350b622f2",
-    "name": "zwave - ZMNHAD, ZMNHDD - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "40e5f9f0e69cbf0c",
-      "c1256035b49c2bb1",
-      "7f1a014f3a67626b",
-      "70caec029fe23f10",
-      "787259a3f73535a8",
-      "c7da2bc733b697cb"
-    ],
-    "x": 2334,
-    "y": 799,
-    "w": 882,
-    "h": 82
-  },
-  {
-    "id": "c140123c0a2df7d3",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "d4d6d96350b622f2",
-    "name": "zwave - ZMNHAD, ZMNHDD - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "68c3860c9fae5517",
-      "758a3d5a8018121f",
-      "f5939fa235e4cf9d",
-      "b206a6826946f259",
-      "9bdd13282dd84b6c",
-      "4582084ea33f3138",
-      "3104f63ffa2f71d1",
-      "8ad2befe24b148fa",
-      "266813c772c7eb42",
-      "facec84c0d632bcb",
-      "299b1f31bde3e4d4",
-      "cc33383330ef7115"
-    ],
-    "x": 1214,
-    "y": 799,
-    "w": 1022,
-    "h": 262
-  },
-  {
-    "id": "dbe90b9341f05711",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "d4d6d96350b622f2",
-    "name": "zwave - ZMNHAD, ZMNHDD - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "04cb6aaa8eea0664",
-      "d846c551ea80153d",
-      "2b40c2df7323e8af",
-      "adbb1e631cfad35c",
-      "b329ce160f5f733a",
-      "a49224cb278e6662",
-      "c6eb92860bb829f8",
-      "d0fc50917dc16651",
-      "1347f6afde2719d6",
-      "1c7f22c9875595ea",
-      "501e6d96a73a9088",
-      "b47fbc4a28ea339b"
-    ],
-    "x": 94,
-    "y": 799,
-    "w": 1022,
-    "h": 442
-  },
-  {
-    "id": "579d035d7902f85b",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "64ae107fab0120ff",
-    "name": "zwave - ZMNHJD, ZMNHUD - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "8affc5ca98fa4897",
-      "2818a7a29e3d6043",
-      "6d9584c64548ce93",
-      "ca7f3971c86b027d",
-      "04c8ea40e1416dd8"
-    ],
-    "x": 1854,
-    "y": 1339,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "a63f48bf2ad99007",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "64ae107fab0120ff",
-    "name": "zwave - ZMNHJD, ZMNHUD - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "91ef50a86cf538aa",
-      "9565abec6d5582d4",
-      "c1f7db9cb66dc783",
-      "6a91ccda006a7b1e",
-      "a14747cc11f09dca"
-    ],
-    "x": 1054,
-    "y": 1339,
-    "w": 702,
-    "h": 82
-  },
-  {
-    "id": "465fbb68bc8819d9",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "64ae107fab0120ff",
-    "name": "zwave - ZMNHJD, ZMNHUD - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "46aaf1264fcb5bf8",
-      "54eb8ae585b6cd20",
-      "d817a6ca738c2860",
-      "f023a02d1b870d05",
-      "91619bc892c2f367",
-      "6ef165716dcf6229",
-      "bf6076f2668efe23",
-      "137c61fc6cd3b296"
-    ],
-    "x": 94,
-    "y": 1339,
-    "w": 862,
-    "h": 202
-  },
-  {
-    "id": "e8ec9cb7ed810eb1",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "db501caf0bb9ee92",
-    "name": "zwave - ZMNHBD - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1bc0dec0b9dddbe2",
-      "78e8c4b7b4f9e582",
-      "b7b3c2c518c1c818",
-      "7157ad0d44c06b58",
-      "7fa52a5adb54be1a",
-      "d3f8302e1b74a106",
-      "85ee94aae40a4436",
-      "70520299b0fb1e7e",
-      "3320ef3f3756aa11",
-      "d203f9e048583564",
-      "cc33862cc2bcb9d1"
-    ],
-    "x": 94,
-    "y": 1639,
-    "w": 1022,
-    "h": 262
-  },
-  {
-    "id": "913b1d1497543ac9",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "db501caf0bb9ee92",
-    "name": "zwave - ZMNHSD - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "888060d0043ce808",
-      "91a4c95f63913e23",
-      "c54c02a1bb45d163",
-      "bd77a65fc80868ea",
-      "02c82f93fc78e071",
-      "a5e2d099050bf1a9"
-    ],
-    "x": 1214,
-    "y": 1639,
-    "w": 682,
-    "h": 142
-  },
-  {
-    "id": "ea83926edf12f8f9",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "db501caf0bb9ee92",
-    "name": "zwave - ZMNHBD - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "18181d0455cede05",
-      "26c8f66f641451ac",
-      "b851d81e54e34734",
-      "ca7bb35596db70a1",
-      "4330bd30b21a41d3"
-    ],
-    "x": 1994,
-    "y": 1639,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "04e46863c1e5b152",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "e8171983c5a482d5",
-    "name": "zwave - ZMNHDA - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "54959d8ebb7a6a94",
-      "daf5f2bb0df1a76a",
-      "748946dc040568fd",
-      "439c47602f7560b5",
-      "961e963c5556fcc6",
-      "a39e9118de882577",
-      "e8191cdd969d017a",
-      "b9b3c6ff10434440",
-      "8381482825528158",
-      "4a2c2e932c76f64d",
-      "633a1e4957cf12d5",
-      "2cf054260d385cc3"
-    ],
-    "x": 94,
-    "y": 1999,
-    "w": 842,
-    "h": 322
-  },
-  {
-    "id": "9a2930d4a5225064",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "e8171983c5a482d5",
-    "name": "zwave - ZMNHDA - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c9778546fb264453",
-      "de8002c9432cac28",
-      "f0366fead862ee6e",
-      "9b579ed6e0d51eb9",
-      "c857889090f3e22b",
-      "18c9f623b0f8f8ba",
-      "7e81f275faa02d6b"
-    ],
-    "x": 1034,
-    "y": 1999,
-    "w": 702,
-    "h": 202
-  },
-  {
-    "id": "782b3f453d398052",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "e8171983c5a482d5",
-    "name": "zwave - ZMNHDA - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "a0e054509672e997",
-      "07cfbb3cf7a1c47a",
-      "9141d766151544f5",
-      "df19118b2c5130ce",
-      "52c2592695ee91c5"
-    ],
-    "x": 1834,
-    "y": 1999,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "04604742f88c50dc",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "3dfc4f4ef8899345",
-    "name": "zwave - FGS223 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "8f14ef8b0dec90ca",
-      "8b671de83e82e3c7",
-      "9ffbd2a425d3da08",
-      "2dd3539dc0c9fedf",
-      "f6760519bfacb95c",
-      "3b8f7825e86ca38f",
-      "d5ee121954c3165a",
-      "c76838030c694a7c",
-      "595a0330e482cd83",
-      "716d0d31801c55a2",
-      "0c7538718c2f2176"
-    ],
-    "x": 3354,
-    "y": 1699,
-    "w": 1022,
-    "h": 262
-  },
-  {
-    "id": "c0b002df0f286108",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "3dfc4f4ef8899345",
-    "name": "zwave - FGS223 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "da52d77e97c46855",
-      "6614feac3aab5d48",
-      "0c68f6b037bb2c3f",
-      "94c509df2eefb756",
-      "4eec716927c54696",
-      "f5c2ab1d8a9d4f05"
-    ],
-    "x": 4474,
-    "y": 1699,
-    "w": 662,
-    "h": 142
-  },
-  {
-    "id": "9306ccb4b4f39b0f",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "3dfc4f4ef8899345",
-    "name": "zwave - FGS223 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "b4ab5729d8b915e3",
-      "b776ddbdb4b51028",
-      "a0599f25333072be",
-      "edfa688e83ba01ec",
-      "5e7190592d427d58"
-    ],
-    "x": 5234,
-    "y": 1699,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "4a380e4e6f98695d",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "5e146180b8f60933",
-    "name": "zwave - FGR223 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "17d862b7c87a0c81",
-      "395101accdb746b0",
-      "49c51b54dbc8de4b",
-      "115d9ecf61c636e1",
-      "313791fb98411c32",
-      "6b94df736e3aae95",
-      "995fad47e619c553",
-      "ca10c66c7eb38d3a",
-      "de6adbd1a6a76e71"
-    ],
-    "x": 3354,
-    "y": 2059,
-    "w": 862,
-    "h": 262
-  },
-  {
-    "id": "7ba5b63508a29d7b",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "5e146180b8f60933",
-    "name": "zwave - FGR223 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "587efc609fd34f60",
-      "d0b465b95bb896ba",
-      "a12c8ea8c9ebce6e",
-      "465fd39cc57093ae",
-      "57c40fb9509f24f8",
-      "235c64c84c410ada"
-    ],
-    "x": 4314,
-    "y": 2059,
-    "w": 682,
-    "h": 142
-  },
-  {
-    "id": "5b6ef9828f2cbf8a",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "5e146180b8f60933",
-    "name": "zwave - FGR223 - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4eeff21a82a74216",
-      "cd0939042b525b67",
-      "a405297eaa582a12",
-      "27df9eeb4c4be0d9",
-      "4dfeb1671f086cf5",
-      "60e5aff00573dfee"
-    ],
-    "x": 5094,
-    "y": 2059,
-    "w": 882,
-    "h": 82
-  },
-  {
-    "id": "5550170f30d4e17c",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "ad3ffab1b67d0abb",
-    "name": "zwave - FGDW002 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4934e4e9bbbcf276",
-      "bd61789259c6755d",
-      "ab198f30438066cf",
-      "6167d3ab75e9020c",
-      "63ccb5cc65d41db0",
-      "b690e7b1952e6dbd",
-      "4a66fcf836959d2c"
-    ],
-    "x": 4314,
-    "y": 2419,
-    "w": 702,
-    "h": 202
-  },
-  {
-    "id": "a20475bea97e7d94",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "ad3ffab1b67d0abb",
-    "name": "zwave - FGDW002 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "17477da0ab771aec",
-      "5184a5c010f3a471",
-      "a9fa8c0a0f9cc6c5",
-      "8a0b4fb72d78f2f6",
-      "595aaa04ece20f2b",
-      "72e91a01a0069d6d",
-      "dcad275631537041",
-      "e43044b50e8b545e",
-      "8200e47f3ac4a54c"
-    ],
-    "x": 3354,
-    "y": 2419,
-    "w": 862,
-    "h": 262
-  },
-  {
-    "id": "7da83da639a48fc6",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "6595b51ed6ecedbf",
-    "name": "zwave - ZMNHCD - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "bb470048978f0a5f",
-      "b89d73b977e671ac",
-      "5e96b8f5b93353a1",
-      "388c30abbe7958c4",
-      "f2e1359ef2aba23d",
-      "5f1b59b7430d9182",
-      "bb978f84aed3c56e",
-      "3d511a9b258bcb98",
-      "5b532049057ce244"
-    ],
-    "x": 94,
-    "y": 2419,
-    "w": 862,
-    "h": 262
-  },
-  {
-    "id": "62705fcec5af5085",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "6595b51ed6ecedbf",
-    "name": "zwave - ZMNHCD - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "40ab635d1b1ec345",
-      "6dbebb8a91c9165b",
-      "9c89f8ad918445b3",
-      "13a43ea0c63dc053",
-      "3dc23c43051c7f58",
-      "6ec6e8722ecb1ea8"
-    ],
-    "x": 1054,
-    "y": 2419,
-    "w": 682,
-    "h": 142
-  },
-  {
-    "id": "7e93a24c134aa8e3",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "6595b51ed6ecedbf",
-    "name": "zwave - ZMNHCD - metric",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "8707ef443b2b75e6",
-      "366f7377fd513760",
-      "8e7510f792d7e993",
-      "c779c6dbb176753a",
-      "352a3a95ae907bb2"
-    ],
-    "x": 1834,
-    "y": 2419,
-    "w": 722,
-    "h": 82
-  },
-  {
-    "id": "29237f8ee2660ed5",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "52d62e3ff58d5f74",
-    "name": "zwave - FGSD002 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "5cdbb02a7e351e0f",
-      "33f69aa26f1e209a",
-      "db79ea3229eaecba",
-      "e1728c824c18c918",
-      "2095d2a63909780c",
-      "46c8e45a70c3cba8",
-      "5d76905ae805599d",
-      "743adc10689eacac"
-    ],
-    "x": 4274,
-    "y": 2779,
-    "w": 662,
-    "h": 262
-  },
-  {
-    "id": "0911ef2f51d2874d",
-    "type": "group",
-    "z": "03220402a282530b",
-    "g": "52d62e3ff58d5f74",
-    "name": "zwave - FGSD002 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1d68f0724b54ae79",
-      "4d69e994afd7044f",
-      "b9b9b74030d6b940",
-      "c50944ca0208faa9",
-      "59a05142f5ec6a47",
-      "d3bb44844809bc3a",
-      "cbbeb017488b22b2",
-      "6824a9460e4d8c9f",
-      "cde37a984b02d94f"
-    ],
-    "x": 3354,
-    "y": 2779,
-    "w": 822,
-    "h": 262
   },
   {
     "id": "835c4830d89d6f6a",
@@ -1206,6 +325,921 @@
     "y": 173,
     "w": 1744,
     "h": 194
+  },
+  {
+    "id": "a2ec354825243259",
+    "type": "group",
+    "z": "03220402a282530b",
+    "name": "zwave - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "af1f37a02c4c1955",
+      "d129c40c48c09bac",
+      "3226e1c699eaca3d"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "7df4891fb0f54c6a",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "a80fd3f576f680d2",
+    "name": "zwave - ZMNHSD - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "35e090f8c7faf406",
+      "f067f99223702cbd",
+      "6ecfab261b01f9c3",
+      "8d39935a442a5f68",
+      "33801fcadc63dce7",
+      "f668ac218120f382",
+      "9ac0d9e950466cdf",
+      "b87c542ba9b27bb5",
+      "7fcb14cf0abcfdc7",
+      "0a5cddbc797bd399",
+      "ef4f8454f3ec4dbe",
+      "c3ac6ed333078e5e",
+      "8d0c275c95303653"
+    ],
+    "x": 534,
+    "y": 439,
+    "w": 1142,
+    "h": 262
+  },
+  {
+    "id": "a92f07dc2780d8bc",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "a80fd3f576f680d2",
+    "name": "zwave - ZMNHSD - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "3b891fba4dfecf92",
+      "357802005b57cd25",
+      "7327ac2371d2c61e",
+      "7f3849dc4dede295",
+      "4175579ef516b417",
+      "9c2e6f0785e3d15e"
+    ],
+    "x": 1774,
+    "y": 439,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "8903de87d27776de",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "a80fd3f576f680d2",
+    "name": "zwave - ZMNHSD - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a6e7cb7d734ff576",
+      "45b3204fc96f986e",
+      "6129043e9e44e401",
+      "ddcfded754ff2589",
+      "c72252e63ad47e9c"
+    ],
+    "x": 2534,
+    "y": 439,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "68b5dafb14052979",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "10c9d50559ed7215",
+    "name": "zwave - ZW100 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "df73a0138e5eb1a2",
+      "678ee1ecfd2bd7b4",
+      "8da01c4e7e02c944",
+      "12a77bd93e3178cc",
+      "cb4e39396408f83a",
+      "e0704ac6164d8080",
+      "b8a506ad585dedf8",
+      "348b03cd790fc39d",
+      "7eff7f2e1f0574d0"
+    ],
+    "x": 5194,
+    "y": 439,
+    "w": 702,
+    "h": 322
+  },
+  {
+    "id": "d621563355a4fe91",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "10c9d50559ed7215",
+    "name": "zwave - ZW100 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "fe8287ee6989a4af",
+      "07aa53e3f9ed5c5e",
+      "35473aebb652019e",
+      "36b0b5383d7ea0d9",
+      "9f1d0534b76da1e7",
+      "1f98f11f070b0415",
+      "230aac809f1b2cdf",
+      "069ed6873270c4ef",
+      "b49245576c4f4bc9",
+      "372240222a775d4f"
+    ],
+    "x": 4214,
+    "y": 439,
+    "w": 882,
+    "h": 382
+  },
+  {
+    "id": "2da7158c8343266e",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "380884ff4c222733",
+    "name": "zwave - FGD212 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "dfec8109ff57764a",
+      "ca4a8a1799332754",
+      "66550e9de816eb03",
+      "ea77f48c1d222cc2",
+      "c0886037ccb4c42f",
+      "ab023aa415991c4f",
+      "3f6c850249b7b7a4",
+      "445a5124b1d3b6ba"
+    ],
+    "x": 4214,
+    "y": 919,
+    "w": 822,
+    "h": 262
+  },
+  {
+    "id": "016aea5aee729a42",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "380884ff4c222733",
+    "name": "zwave - FGD212 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f3c1fc23bc17ce5a",
+      "01d014a468d55ce0",
+      "d6f83986f164d9d1",
+      "2ab7993499d31bbd",
+      "b2ead3db76c4ae15",
+      "43cbbc293f2e38d6"
+    ],
+    "x": 5134,
+    "y": 919,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "c267a41dc3eea79e",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "380884ff4c222733",
+    "name": "zwave - FGD212 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d1420178d53a10af",
+      "d381cd4b08e2f495",
+      "4949856273c96f31",
+      "ffb38b5da98a825a",
+      "6df92a3791727361"
+    ],
+    "x": 5894,
+    "y": 919,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "be104700c7271732",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "052f9d828fb52a35",
+    "name": "zwave - FGMS001 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "61aa3b52edd2cf60",
+      "97c80fb2c749b970",
+      "da86ee3c4a435b50",
+      "24371de5255c7936",
+      "c288ba888d38a74d",
+      "e8d75052d713d6b0",
+      "ed3c5c95136138e9",
+      "0ecd4f80d94c7372",
+      "cfae06c36dd8db78"
+    ],
+    "x": 4214,
+    "y": 1279,
+    "w": 882,
+    "h": 322
+  },
+  {
+    "id": "0a50b28d4026a61d",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "052f9d828fb52a35",
+    "name": "zwave - FGMS001 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "03f6a62f4708e206",
+      "97d3eebe58bb5985",
+      "a09a4a753b9fc72d",
+      "e5cbab5e28c8de7b",
+      "b618882d7f713f12",
+      "9983a70a0578c4f9",
+      "a1919db957b380fa",
+      "8ab95bcfe737b310"
+    ],
+    "x": 5194,
+    "y": 1279,
+    "w": 702,
+    "h": 262
+  },
+  {
+    "id": "f6435fdfdf88d839",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "d4d6d96350b622f2",
+    "name": "zwave - ZMNHAD, ZMNHDD - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40e5f9f0e69cbf0c",
+      "c1256035b49c2bb1",
+      "7f1a014f3a67626b",
+      "70caec029fe23f10",
+      "787259a3f73535a8",
+      "c7da2bc733b697cb"
+    ],
+    "x": 2774,
+    "y": 799,
+    "w": 882,
+    "h": 82
+  },
+  {
+    "id": "c140123c0a2df7d3",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "d4d6d96350b622f2",
+    "name": "zwave - ZMNHAD, ZMNHDD - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "68c3860c9fae5517",
+      "758a3d5a8018121f",
+      "f5939fa235e4cf9d",
+      "b206a6826946f259",
+      "9bdd13282dd84b6c",
+      "4582084ea33f3138",
+      "3104f63ffa2f71d1",
+      "8ad2befe24b148fa",
+      "266813c772c7eb42",
+      "facec84c0d632bcb",
+      "299b1f31bde3e4d4",
+      "cc33383330ef7115"
+    ],
+    "x": 1654,
+    "y": 799,
+    "w": 1022,
+    "h": 262
+  },
+  {
+    "id": "dbe90b9341f05711",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "d4d6d96350b622f2",
+    "name": "zwave - ZMNHAD, ZMNHDD - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "04cb6aaa8eea0664",
+      "d846c551ea80153d",
+      "2b40c2df7323e8af",
+      "adbb1e631cfad35c",
+      "b329ce160f5f733a",
+      "a49224cb278e6662",
+      "c6eb92860bb829f8",
+      "d0fc50917dc16651",
+      "1347f6afde2719d6",
+      "1c7f22c9875595ea",
+      "b47fbc4a28ea339b"
+    ],
+    "x": 534,
+    "y": 799,
+    "w": 1022,
+    "h": 442
+  },
+  {
+    "id": "579d035d7902f85b",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "64ae107fab0120ff",
+    "name": "zwave - ZMNHJD, ZMNHUD - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8affc5ca98fa4897",
+      "2818a7a29e3d6043",
+      "6d9584c64548ce93",
+      "ca7f3971c86b027d",
+      "04c8ea40e1416dd8"
+    ],
+    "x": 2294,
+    "y": 1339,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "a63f48bf2ad99007",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "64ae107fab0120ff",
+    "name": "zwave - ZMNHJD, ZMNHUD - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "91ef50a86cf538aa",
+      "9565abec6d5582d4",
+      "c1f7db9cb66dc783",
+      "6a91ccda006a7b1e",
+      "a14747cc11f09dca"
+    ],
+    "x": 1494,
+    "y": 1339,
+    "w": 702,
+    "h": 82
+  },
+  {
+    "id": "465fbb68bc8819d9",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "64ae107fab0120ff",
+    "name": "zwave - ZMNHJD, ZMNHUD - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "46aaf1264fcb5bf8",
+      "54eb8ae585b6cd20",
+      "d817a6ca738c2860",
+      "f023a02d1b870d05",
+      "91619bc892c2f367",
+      "6ef165716dcf6229",
+      "bf6076f2668efe23"
+    ],
+    "x": 534,
+    "y": 1339,
+    "w": 862,
+    "h": 202
+  },
+  {
+    "id": "e8ec9cb7ed810eb1",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "db501caf0bb9ee92",
+    "name": "zwave - ZMNHBD - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1bc0dec0b9dddbe2",
+      "78e8c4b7b4f9e582",
+      "b7b3c2c518c1c818",
+      "7157ad0d44c06b58",
+      "7fa52a5adb54be1a",
+      "d3f8302e1b74a106",
+      "85ee94aae40a4436",
+      "70520299b0fb1e7e",
+      "d203f9e048583564",
+      "cc33862cc2bcb9d1"
+    ],
+    "x": 534,
+    "y": 1639,
+    "w": 1022,
+    "h": 262
+  },
+  {
+    "id": "913b1d1497543ac9",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "db501caf0bb9ee92",
+    "name": "zwave - ZMNHSD - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "888060d0043ce808",
+      "91a4c95f63913e23",
+      "c54c02a1bb45d163",
+      "bd77a65fc80868ea",
+      "02c82f93fc78e071",
+      "a5e2d099050bf1a9"
+    ],
+    "x": 1654,
+    "y": 1639,
+    "w": 682,
+    "h": 142
+  },
+  {
+    "id": "ea83926edf12f8f9",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "db501caf0bb9ee92",
+    "name": "zwave - ZMNHBD - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "18181d0455cede05",
+      "26c8f66f641451ac",
+      "b851d81e54e34734",
+      "ca7bb35596db70a1",
+      "4330bd30b21a41d3"
+    ],
+    "x": 2434,
+    "y": 1639,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "04e46863c1e5b152",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "e8171983c5a482d5",
+    "name": "zwave - ZMNHDA - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "54959d8ebb7a6a94",
+      "daf5f2bb0df1a76a",
+      "748946dc040568fd",
+      "439c47602f7560b5",
+      "961e963c5556fcc6",
+      "a39e9118de882577",
+      "e8191cdd969d017a",
+      "b9b3c6ff10434440",
+      "4a2c2e932c76f64d",
+      "633a1e4957cf12d5",
+      "2cf054260d385cc3"
+    ],
+    "x": 534,
+    "y": 1999,
+    "w": 842,
+    "h": 322
+  },
+  {
+    "id": "9a2930d4a5225064",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "e8171983c5a482d5",
+    "name": "zwave - ZMNHDA - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c9778546fb264453",
+      "de8002c9432cac28",
+      "f0366fead862ee6e",
+      "9b579ed6e0d51eb9",
+      "c857889090f3e22b",
+      "18c9f623b0f8f8ba",
+      "7e81f275faa02d6b"
+    ],
+    "x": 1474,
+    "y": 1999,
+    "w": 702,
+    "h": 202
+  },
+  {
+    "id": "782b3f453d398052",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "e8171983c5a482d5",
+    "name": "zwave - ZMNHDA - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a0e054509672e997",
+      "07cfbb3cf7a1c47a",
+      "9141d766151544f5",
+      "df19118b2c5130ce",
+      "52c2592695ee91c5"
+    ],
+    "x": 2274,
+    "y": 1999,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "04604742f88c50dc",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "3dfc4f4ef8899345",
+    "name": "zwave - FGS223 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8f14ef8b0dec90ca",
+      "8b671de83e82e3c7",
+      "9ffbd2a425d3da08",
+      "2dd3539dc0c9fedf",
+      "f6760519bfacb95c",
+      "3b8f7825e86ca38f",
+      "d5ee121954c3165a",
+      "c76838030c694a7c",
+      "595a0330e482cd83",
+      "716d0d31801c55a2",
+      "0c7538718c2f2176"
+    ],
+    "x": 4214,
+    "y": 1699,
+    "w": 1022,
+    "h": 262
+  },
+  {
+    "id": "c0b002df0f286108",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "3dfc4f4ef8899345",
+    "name": "zwave - FGS223 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "da52d77e97c46855",
+      "6614feac3aab5d48",
+      "0c68f6b037bb2c3f",
+      "94c509df2eefb756",
+      "4eec716927c54696",
+      "f5c2ab1d8a9d4f05"
+    ],
+    "x": 5334,
+    "y": 1699,
+    "w": 662,
+    "h": 142
+  },
+  {
+    "id": "9306ccb4b4f39b0f",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "3dfc4f4ef8899345",
+    "name": "zwave - FGS223 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b4ab5729d8b915e3",
+      "b776ddbdb4b51028",
+      "a0599f25333072be",
+      "edfa688e83ba01ec",
+      "5e7190592d427d58"
+    ],
+    "x": 6094,
+    "y": 1699,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "4a380e4e6f98695d",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "5e146180b8f60933",
+    "name": "zwave - FGR223 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "17d862b7c87a0c81",
+      "395101accdb746b0",
+      "49c51b54dbc8de4b",
+      "115d9ecf61c636e1",
+      "313791fb98411c32",
+      "6b94df736e3aae95",
+      "995fad47e619c553",
+      "ca10c66c7eb38d3a",
+      "de6adbd1a6a76e71"
+    ],
+    "x": 4214,
+    "y": 2059,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "7ba5b63508a29d7b",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "5e146180b8f60933",
+    "name": "zwave - FGR223 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "587efc609fd34f60",
+      "d0b465b95bb896ba",
+      "a12c8ea8c9ebce6e",
+      "465fd39cc57093ae",
+      "57c40fb9509f24f8",
+      "235c64c84c410ada"
+    ],
+    "x": 5174,
+    "y": 2059,
+    "w": 682,
+    "h": 142
+  },
+  {
+    "id": "5b6ef9828f2cbf8a",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "5e146180b8f60933",
+    "name": "zwave - FGR223 - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4eeff21a82a74216",
+      "cd0939042b525b67",
+      "a405297eaa582a12",
+      "27df9eeb4c4be0d9",
+      "4dfeb1671f086cf5",
+      "60e5aff00573dfee"
+    ],
+    "x": 5954,
+    "y": 2059,
+    "w": 882,
+    "h": 82
+  },
+  {
+    "id": "5550170f30d4e17c",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "ad3ffab1b67d0abb",
+    "name": "zwave - FGDW002 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4934e4e9bbbcf276",
+      "bd61789259c6755d",
+      "ab198f30438066cf",
+      "6167d3ab75e9020c",
+      "63ccb5cc65d41db0",
+      "b690e7b1952e6dbd",
+      "4a66fcf836959d2c"
+    ],
+    "x": 5174,
+    "y": 2419,
+    "w": 702,
+    "h": 202
+  },
+  {
+    "id": "a20475bea97e7d94",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "ad3ffab1b67d0abb",
+    "name": "zwave - FGDW002 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "17477da0ab771aec",
+      "5184a5c010f3a471",
+      "a9fa8c0a0f9cc6c5",
+      "8a0b4fb72d78f2f6",
+      "595aaa04ece20f2b",
+      "72e91a01a0069d6d",
+      "dcad275631537041",
+      "e43044b50e8b545e",
+      "8200e47f3ac4a54c"
+    ],
+    "x": 4214,
+    "y": 2419,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "7da83da639a48fc6",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "6595b51ed6ecedbf",
+    "name": "zwave - ZMNHCD - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bb470048978f0a5f",
+      "b89d73b977e671ac",
+      "5e96b8f5b93353a1",
+      "388c30abbe7958c4",
+      "f2e1359ef2aba23d",
+      "5f1b59b7430d9182",
+      "bb978f84aed3c56e",
+      "3d511a9b258bcb98"
+    ],
+    "x": 534,
+    "y": 2419,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "62705fcec5af5085",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "6595b51ed6ecedbf",
+    "name": "zwave - ZMNHCD - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "40ab635d1b1ec345",
+      "6dbebb8a91c9165b",
+      "9c89f8ad918445b3",
+      "13a43ea0c63dc053",
+      "3dc23c43051c7f58",
+      "6ec6e8722ecb1ea8"
+    ],
+    "x": 1494,
+    "y": 2419,
+    "w": 682,
+    "h": 142
+  },
+  {
+    "id": "7e93a24c134aa8e3",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "6595b51ed6ecedbf",
+    "name": "zwave - ZMNHCD - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8707ef443b2b75e6",
+      "366f7377fd513760",
+      "8e7510f792d7e993",
+      "c779c6dbb176753a",
+      "352a3a95ae907bb2"
+    ],
+    "x": 2274,
+    "y": 2419,
+    "w": 722,
+    "h": 82
+  },
+  {
+    "id": "29237f8ee2660ed5",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "52d62e3ff58d5f74",
+    "name": "zwave - FGSD002 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5cdbb02a7e351e0f",
+      "33f69aa26f1e209a",
+      "db79ea3229eaecba",
+      "e1728c824c18c918",
+      "2095d2a63909780c",
+      "46c8e45a70c3cba8",
+      "5d76905ae805599d",
+      "743adc10689eacac"
+    ],
+    "x": 5134,
+    "y": 2779,
+    "w": 662,
+    "h": 262
+  },
+  {
+    "id": "0911ef2f51d2874d",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "52d62e3ff58d5f74",
+    "name": "zwave - FGSD002 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1d68f0724b54ae79",
+      "4d69e994afd7044f",
+      "b9b9b74030d6b940",
+      "c50944ca0208faa9",
+      "59a05142f5ec6a47",
+      "d3bb44844809bc3a",
+      "cbbeb017488b22b2",
+      "6824a9460e4d8c9f",
+      "cde37a984b02d94f"
+    ],
+    "x": 4214,
+    "y": 2779,
+    "w": 822,
+    "h": 262
   },
   {
     "id": "1e687cd4c0cc0ece",
@@ -1254,23 +1288,277 @@
     "h": 142
   },
   {
-    "id": "a2ec354825243259",
+    "id": "8c79dc3ef73d2580",
     "type": "group",
     "z": "03220402a282530b",
-    "name": "zwave - bucket",
+    "g": "a80fd3f576f680d2",
+    "name": "zwave - ZMNHSD - model",
     "style": {
-      "fill": "#ffC000",
+      "fill": "#001f60",
       "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
+      "label": true
     },
     "nodes": [
-      "af1f37a02c4c1955",
-      "d129c40c48c09bac",
-      "3226e1c699eaca3d"
+      "2128f35825dde7a6",
+      "86669a240762d83c",
+      "68455293ad284dd5"
     ],
     "x": 94,
-    "y": 19,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "95a74006c5eb9f38",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "d4d6d96350b622f2",
+    "name": "zwave - ZMNHAD, ZMNHDD - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "73bb43528b419bc3",
+      "e896de3485f98861",
+      "1ba6fff915be6924",
+      "ebe6d2bcd36db17e"
+    ],
+    "x": 94,
+    "y": 799,
+    "w": 342,
+    "h": 142
+  },
+  {
+    "id": "70c4d454a29e1c45",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "64ae107fab0120ff",
+    "name": "zwave - ZMNHJD, ZMNHUD - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "502a76366d0afa9f",
+      "63c129e57bd851a1",
+      "7730cebb6d30dd0f",
+      "295541fe39be68c8"
+    ],
+    "x": 94,
+    "y": 1339,
+    "w": 342,
+    "h": 142
+  },
+  {
+    "id": "2da7ce03f5191d38",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "db501caf0bb9ee92",
+    "name": "zwave - ZMNHBD - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c52016c969292c72",
+      "9dff5591c0dc819e",
+      "425bce213a925d73"
+    ],
+    "x": 94,
+    "y": 1639,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "304b2bd59bbb2dd7",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "e8171983c5a482d5",
+    "name": "zwave - ZMNHDA - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c839570ef7a78a9f",
+      "04c6c66a49433012",
+      "4c23495713170d6d"
+    ],
+    "x": 94,
+    "y": 1999,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "5c9a983b8db0a524",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "6595b51ed6ecedbf",
+    "name": "zwave - ZMNHCD - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b21a4e42ed9c41ea",
+      "f4205715cfb82d3e",
+      "98015f2feffa655e"
+    ],
+    "x": 94,
+    "y": 2419,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "f902f6ba6753215d",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "10c9d50559ed7215",
+    "name": "zwave - ZW100 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "18c15e43576295d6",
+      "fb886b6e3cc21020",
+      "200dd435b42e8ec3"
+    ],
+    "x": 3774,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "9f6b281b8dc7ed8e",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "380884ff4c222733",
+    "name": "zwave - FGD212 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "5ecc13865846db0e",
+      "46d4dc918d902684",
+      "76e3b03e619c3fbc"
+    ],
+    "x": 3774,
+    "y": 919,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "9fe281cffb31e00c",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "052f9d828fb52a35",
+    "name": "zwave - FGMS001 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bec54e9477e4bd61",
+      "c69d13cea7af53c5",
+      "08e5a3df0b2c2c95"
+    ],
+    "x": 3774,
+    "y": 1279,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "20ebd48d15c9a606",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "3dfc4f4ef8899345",
+    "name": "zwave - FGS223 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f4a990fd68343eba",
+      "63b29df0baadb63e",
+      "3b8391f25d2d2849"
+    ],
+    "x": 3774,
+    "y": 1699,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "b533b3a78677c7f6",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "5e146180b8f60933",
+    "name": "zwave - FGR223 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "cdd076b6b818d38f",
+      "fbf0d71664d419d7",
+      "7dd6e99d1c259084"
+    ],
+    "x": 3774,
+    "y": 2059,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "6bf9fae4b0bc8907",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "ad3ffab1b67d0abb",
+    "name": "zwave - FGDW002 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "39e9e59dd42094bb",
+      "023a78297e355b65",
+      "b8e2db56d1fe5f75"
+    ],
+    "x": 3774,
+    "y": 2419,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "669a920f894a115d",
+    "type": "group",
+    "z": "03220402a282530b",
+    "g": "52d62e3ff58d5f74",
+    "name": "zwave - FGSD002 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "b4066829ee5f163b",
+      "2ed2bc7ce44d3649",
+      "4ad7402573722786"
+    ],
+    "x": 3774,
+    "y": 2779,
     "w": 342,
     "h": 82
   },
@@ -1301,7 +1589,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 460,
+    "x": 900,
     "y": 600,
     "wires": [
       [
@@ -1336,7 +1624,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 460,
+    "x": 900,
     "y": 660,
     "wires": [
       [
@@ -1385,7 +1673,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 540,
     "wires": [
       [
@@ -1402,7 +1690,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 480,
     "wires": [
       [
@@ -1428,7 +1716,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 480,
     "wires": [
       [
@@ -1473,7 +1761,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 480,
     "wires": [
       [
@@ -1501,7 +1789,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1060,
+    "x": 1500,
     "y": 480,
     "wires": [
       [
@@ -1519,7 +1807,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1195,
+    "x": 1635,
     "y": 480,
     "wires": []
   },
@@ -1527,11 +1815,11 @@
     "id": "61811e3af05e7627",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "7df4891fb0f54c6a",
+    "g": "a80fd3f576f680d2",
     "name": "light / relay",
     "info": "",
     "x": 180,
-    "y": 540,
+    "y": 560,
     "wires": []
   },
   {
@@ -1541,7 +1829,7 @@
     "g": "7df4891fb0f54c6a",
     "name": "option 1 : boolean",
     "info": "",
-    "x": 210,
+    "x": 650,
     "y": 600,
     "wires": []
   },
@@ -1552,7 +1840,7 @@
     "g": "7df4891fb0f54c6a",
     "name": "option 2 : dimmer",
     "info": "",
-    "x": 200,
+    "x": 640,
     "y": 660,
     "wires": []
   },
@@ -1579,7 +1867,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 650,
+    "x": 1090,
     "y": 600,
     "wires": [
       [
@@ -1617,7 +1905,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 850,
+    "x": 1290,
     "y": 600,
     "wires": [
       [
@@ -1652,7 +1940,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 840,
+    "x": 1280,
     "y": 660,
     "wires": [
       [
@@ -1687,7 +1975,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1830,
+    "x": 2270,
     "y": 480,
     "wires": [
       [
@@ -1722,7 +2010,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1830,
+    "x": 2270,
     "y": 540,
     "wires": [
       [
@@ -1739,7 +2027,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1375,
+    "x": 1815,
     "y": 480,
     "wires": [
       [
@@ -1765,7 +2053,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1510,
+    "x": 1950,
     "y": 480,
     "wires": [
       [
@@ -1796,7 +2084,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1670,
+    "x": 2110,
     "y": 480,
     "wires": [
       [
@@ -1817,7 +2105,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1955,
+    "x": 2395,
     "y": 480,
     "wires": []
   },
@@ -1841,7 +2129,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2650,
+    "x": 3090,
     "y": 480,
     "wires": [
       [
@@ -1858,7 +2146,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 2135,
+    "x": 2575,
     "y": 480,
     "wires": [
       [
@@ -1876,7 +2164,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2775,
+    "x": 3215,
     "y": 480,
     "wires": []
   },
@@ -1898,7 +2186,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2270,
+    "x": 2710,
     "y": 480,
     "wires": [
       [
@@ -1924,7 +2212,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2460,
+    "x": 2900,
     "y": 480,
     "wires": [
       [
@@ -1959,7 +2247,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4840,
+    "x": 5700,
     "y": 660,
     "wires": [
       [
@@ -2005,7 +2293,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 5,
-    "x": 4670,
+    "x": 5530,
     "y": 540,
     "wires": [
       [
@@ -2059,7 +2347,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4830,
+    "x": 5690,
     "y": 480,
     "wires": [
       [
@@ -2094,7 +2382,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5710,
     "y": 540,
     "wires": [
       [
@@ -2129,7 +2417,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4840,
+    "x": 5700,
     "y": 600,
     "wires": [
       [
@@ -2164,7 +2452,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4830,
+    "x": 5690,
     "y": 720,
     "wires": [
       [
@@ -2181,7 +2469,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4375,
+    "x": 5235,
     "y": 540,
     "wires": [
       [
@@ -2207,7 +2495,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4510,
+    "x": 5370,
     "y": 540,
     "wires": [
       [
@@ -2225,7 +2513,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4995,
+    "x": 5855,
     "y": 540,
     "wires": []
   },
@@ -2270,7 +2558,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 540,
     "wires": [
       [
@@ -2319,7 +2607,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3790,
+    "x": 4650,
     "y": 600,
     "wires": [
       [
@@ -2368,7 +2656,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 660,
     "wires": [
       [
@@ -2417,7 +2705,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3780,
+    "x": 4640,
     "y": 720,
     "wires": [
       [
@@ -2466,7 +2754,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 780,
     "wires": [
       [
@@ -2483,7 +2771,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 480,
     "wires": [
       [
@@ -2509,7 +2797,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 480,
     "wires": [
       [
@@ -2556,7 +2844,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 480,
     "wires": [
       [
@@ -2584,7 +2872,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4060,
+    "x": 4920,
     "y": 480,
     "wires": [
       [
@@ -2602,7 +2890,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4195,
+    "x": 5055,
     "y": 480,
     "wires": []
   },
@@ -2610,11 +2898,11 @@
     "id": "59fe73b9b188de07",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "d621563355a4fe91",
+    "g": "10c9d50559ed7215",
     "name": "motion / detector",
     "info": "",
-    "x": 3460,
-    "y": 540,
+    "x": 3880,
+    "y": 560,
     "wires": []
   },
   {
@@ -2658,7 +2946,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 1020,
     "wires": [
       [
@@ -2707,7 +2995,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 1080,
     "wires": [
       [
@@ -2756,7 +3044,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 1140,
     "wires": [
       [
@@ -2773,7 +3061,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 960,
     "wires": [
       [
@@ -2799,7 +3087,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 960,
     "wires": [
       [
@@ -2820,7 +3108,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4135,
+    "x": 4995,
     "y": 960,
     "wires": []
   },
@@ -2858,7 +3146,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 960,
     "wires": [
       [
@@ -2886,7 +3174,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4000,
+    "x": 4860,
     "y": 960,
     "wires": [
       [
@@ -2898,11 +3186,11 @@
     "id": "f0f9f0281acad3c4",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "2da7158c8343266e",
+    "g": "380884ff4c222733",
     "name": "light / ceiling",
     "info": "",
-    "x": 3450,
-    "y": 1020,
+    "x": 3870,
+    "y": 1040,
     "wires": []
   },
   {
@@ -2925,7 +3213,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 1020,
     "wires": [
       [
@@ -2945,7 +3233,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 960,
     "wires": [
       [
@@ -2962,7 +3250,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4315,
+    "x": 5175,
     "y": 960,
     "wires": [
       [
@@ -2980,7 +3268,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4895,
+    "x": 5755,
     "y": 960,
     "wires": []
   },
@@ -3007,7 +3295,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4610,
+    "x": 5470,
     "y": 960,
     "wires": [
       [
@@ -3036,7 +3324,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4450,
+    "x": 5310,
     "y": 960,
     "wires": [
       [
@@ -3064,7 +3352,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5590,
+    "x": 6450,
     "y": 960,
     "wires": [
       [
@@ -3081,7 +3369,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 5075,
+    "x": 5935,
     "y": 960,
     "wires": [
       [
@@ -3099,7 +3387,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 5715,
+    "x": 6575,
     "y": 960,
     "wires": []
   },
@@ -3121,7 +3409,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5210,
+    "x": 6070,
     "y": 960,
     "wires": [
       [
@@ -3147,7 +3435,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 5400,
+    "x": 6260,
     "y": 960,
     "wires": [
       [
@@ -3196,7 +3484,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 1380,
     "wires": [
       [
@@ -3245,7 +3533,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3790,
+    "x": 4650,
     "y": 1440,
     "wires": [
       [
@@ -3294,7 +3582,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 1500,
     "wires": [
       [
@@ -3343,7 +3631,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3780,
+    "x": 4640,
     "y": 1560,
     "wires": [
       [
@@ -3361,7 +3649,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4195,
+    "x": 5055,
     "y": 1320,
     "wires": []
   },
@@ -3383,7 +3671,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 1320,
     "wires": [
       [
@@ -3404,7 +3692,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 1320,
     "wires": [
       [
@@ -3446,7 +3734,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 1320,
     "wires": [
       [
@@ -3474,7 +3762,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4060,
+    "x": 4920,
     "y": 1320,
     "wires": [
       [
@@ -3486,11 +3774,11 @@
     "id": "3eade78d0878580f",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "be104700c7271732",
+    "g": "052f9d828fb52a35",
     "name": "motion / detector",
     "info": "",
-    "x": 3460,
-    "y": 1380,
+    "x": 3880,
+    "y": 1400,
     "wires": []
   },
   {
@@ -3520,7 +3808,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4840,
+    "x": 5700,
     "y": 1320,
     "wires": [
       [
@@ -3555,7 +3843,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5710,
     "y": 1380,
     "wires": [
       [
@@ -3590,7 +3878,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4830,
+    "x": 5690,
     "y": 1440,
     "wires": [
       [
@@ -3625,7 +3913,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4830,
+    "x": 5690,
     "y": 1500,
     "wires": [
       [
@@ -3642,7 +3930,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4375,
+    "x": 5235,
     "y": 1380,
     "wires": [
       [
@@ -3668,7 +3956,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4510,
+    "x": 5370,
     "y": 1380,
     "wires": [
       [
@@ -3709,7 +3997,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 4670,
+    "x": 5530,
     "y": 1380,
     "wires": [
       [
@@ -3736,7 +4024,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4995,
+    "x": 5855,
     "y": 1380,
     "wires": []
   },
@@ -3760,7 +4048,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3050,
+    "x": 3490,
     "y": 840,
     "wires": [
       [
@@ -3777,7 +4065,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 2375,
+    "x": 2815,
     "y": 840,
     "wires": [
       [
@@ -3808,7 +4096,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 2510,
+    "x": 2950,
     "y": 840,
     "wires": [
       [
@@ -3837,7 +4125,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2700,
+    "x": 3140,
     "y": 840,
     "wires": [
       [
@@ -3855,7 +4143,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 3175,
+    "x": 3615,
     "y": 840,
     "wires": []
   },
@@ -3879,7 +4167,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2890,
+    "x": 3330,
     "y": 840,
     "wires": [
       [
@@ -3914,7 +4202,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2030,
+    "x": 2470,
     "y": 960,
     "wires": [
       [
@@ -3949,7 +4237,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2030,
+    "x": 2470,
     "y": 1020,
     "wires": [
       [
@@ -3991,7 +4279,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2040,
+    "x": 2480,
     "y": 840,
     "wires": [
       [
@@ -4026,7 +4314,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2050,
+    "x": 2490,
     "y": 900,
     "wires": [
       [
@@ -4043,7 +4331,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1255,
+    "x": 1695,
     "y": 900,
     "wires": [
       [
@@ -4074,7 +4362,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1390,
+    "x": 1830,
     "y": 900,
     "wires": [
       [
@@ -4108,7 +4396,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1870,
+    "x": 2310,
     "y": 960,
     "wires": [
       [
@@ -4129,7 +4417,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 2195,
+    "x": 2635,
     "y": 840,
     "wires": []
   },
@@ -4159,7 +4447,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1550,
+    "x": 1990,
     "y": 900,
     "wires": [
       [
@@ -4193,7 +4481,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1710,
+    "x": 2150,
     "y": 900,
     "wires": [
       [
@@ -4222,7 +4510,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1710,
+    "x": 2150,
     "y": 960,
     "wires": [
       [
@@ -4258,7 +4546,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1870,
+    "x": 2310,
     "y": 900,
     "wires": [
       [
@@ -4313,7 +4601,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 670,
+    "x": 1110,
     "y": 960,
     "wires": [
       [
@@ -4362,7 +4650,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 1020,
     "wires": [
       [
@@ -4411,7 +4699,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 660,
+    "x": 1100,
     "y": 1080,
     "wires": [
       [
@@ -4442,7 +4730,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 270,
+    "x": 710,
     "y": 840,
     "wires": [
       [
@@ -4481,7 +4769,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 430,
+    "x": 870,
     "y": 960,
     "wires": [
       [
@@ -4546,7 +4834,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 1140,
     "wires": [
       [
@@ -4595,7 +4883,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 1200,
     "wires": [
       [
@@ -4613,7 +4901,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1075,
+    "x": 1515,
     "y": 840,
     "wires": []
   },
@@ -4626,7 +4914,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 840,
     "wires": [
       [
@@ -4654,7 +4942,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 940,
+    "x": 1380,
     "y": 840,
     "wires": [
       [
@@ -4666,11 +4954,11 @@
     "id": "501e6d96a73a9088",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "dbe90b9341f05711",
+    "g": "d4d6d96350b622f2",
     "name": "outlet / socket",
     "info": "",
     "x": 190,
-    "y": 900,
+    "y": 980,
     "wires": []
   },
   {
@@ -4707,7 +4995,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 840,
     "wires": [
       [
@@ -4735,7 +5023,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2410,
+    "x": 2850,
     "y": 1380,
     "wires": [
       [
@@ -4752,7 +5040,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 1895,
+    "x": 2335,
     "y": 1380,
     "wires": [
       [
@@ -4783,7 +5071,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 2030,
+    "x": 2470,
     "y": 1380,
     "wires": [
       [
@@ -4812,7 +5100,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2220,
+    "x": 2660,
     "y": 1380,
     "wires": [
       [
@@ -4830,7 +5118,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2535,
+    "x": 2975,
     "y": 1380,
     "wires": []
   },
@@ -4846,7 +5134,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1570,
+    "x": 2010,
     "y": 1380,
     "wires": [
       [
@@ -4863,7 +5151,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1095,
+    "x": 1535,
     "y": 1380,
     "wires": [
       [
@@ -4894,7 +5182,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1230,
+    "x": 1670,
     "y": 1380,
     "wires": [
       [
@@ -4923,7 +5211,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1390,
+    "x": 1830,
     "y": 1380,
     "wires": [
       [
@@ -4941,7 +5229,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1715,
+    "x": 2155,
     "y": 1380,
     "wires": []
   },
@@ -4986,7 +5274,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 1500,
     "wires": [
       [
@@ -5003,7 +5291,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 1380,
     "wires": [
       [
@@ -5034,7 +5322,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 270,
+    "x": 710,
     "y": 1380,
     "wires": [
       [
@@ -5083,7 +5371,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 1380,
     "wires": [
       [
@@ -5111,7 +5399,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 1220,
     "y": 1380,
     "wires": [
       [
@@ -5129,7 +5417,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 915,
+    "x": 1355,
     "y": 1380,
     "wires": []
   },
@@ -5174,7 +5462,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 1440,
     "wires": [
       [
@@ -5186,11 +5474,11 @@
     "id": "137c61fc6cd3b296",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "465fbb68bc8819d9",
+    "g": "64ae107fab0120ff",
     "name": "thermostat / pilot",
     "info": "",
     "x": 200,
-    "y": 1440,
+    "y": 1520,
     "wires": []
   },
   {
@@ -5234,7 +5522,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 670,
+    "x": 1110,
     "y": 1740,
     "wires": [
       [
@@ -5283,7 +5571,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 1800,
     "wires": [
       [
@@ -5332,7 +5620,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 670,
+    "x": 1110,
     "y": 1860,
     "wires": [
       [
@@ -5349,7 +5637,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 1680,
     "wires": [
       [
@@ -5375,7 +5663,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 1680,
     "wires": [
       [
@@ -5417,7 +5705,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 680,
+    "x": 1120,
     "y": 1680,
     "wires": [
       [
@@ -5452,7 +5740,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 940,
+    "x": 1380,
     "y": 1680,
     "wires": [
       [
@@ -5470,7 +5758,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1075,
+    "x": 1515,
     "y": 1680,
     "wires": []
   },
@@ -5478,11 +5766,11 @@
     "id": "3320ef3f3756aa11",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "e8ec9cb7ed810eb1",
+    "g": "db501caf0bb9ee92",
     "name": "outlet / socket x",
     "info": "",
     "x": 200,
-    "y": 1740,
+    "y": 1760,
     "wires": []
   },
   {
@@ -5492,7 +5780,7 @@
     "g": "e8ec9cb7ed810eb1",
     "name": "option 1 or 2",
     "info": "",
-    "x": 190,
+    "x": 630,
     "y": 1800,
     "wires": []
   },
@@ -5514,7 +5802,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 430,
+    "x": 870,
     "y": 1680,
     "wires": [
       [
@@ -5552,7 +5840,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1710,
+    "x": 2150,
     "y": 1680,
     "wires": [
       [
@@ -5587,7 +5875,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1710,
+    "x": 2150,
     "y": 1740,
     "wires": [
       [
@@ -5604,7 +5892,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1255,
+    "x": 1695,
     "y": 1680,
     "wires": [
       [
@@ -5630,7 +5918,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1390,
+    "x": 1830,
     "y": 1680,
     "wires": [
       [
@@ -5661,7 +5949,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1550,
+    "x": 1990,
     "y": 1680,
     "wires": [
       [
@@ -5682,7 +5970,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1855,
+    "x": 2295,
     "y": 1680,
     "wires": []
   },
@@ -5706,7 +5994,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2550,
+    "x": 2990,
     "y": 1680,
     "wires": [
       [
@@ -5723,7 +6011,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 2035,
+    "x": 2475,
     "y": 1680,
     "wires": [
       [
@@ -5741,7 +6029,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2675,
+    "x": 3115,
     "y": 1680,
     "wires": []
   },
@@ -5763,7 +6051,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2170,
+    "x": 2610,
     "y": 1680,
     "wires": [
       [
@@ -5789,7 +6077,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2360,
+    "x": 2800,
     "y": 1680,
     "wires": [
       [
@@ -5838,7 +6126,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 2100,
     "wires": [
       [
@@ -5887,7 +6175,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 2160,
     "wires": [
       [
@@ -5936,7 +6224,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 490,
+    "x": 930,
     "y": 2220,
     "wires": [
       [
@@ -5953,7 +6241,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 2040,
     "wires": [
       [
@@ -5979,7 +6267,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 2040,
     "wires": [
       [
@@ -6025,7 +6313,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 2040,
     "wires": [
       [
@@ -6053,7 +6341,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 760,
+    "x": 1200,
     "y": 2040,
     "wires": [
       [
@@ -6071,7 +6359,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 895,
+    "x": 1335,
     "y": 2040,
     "wires": []
   },
@@ -6079,11 +6367,11 @@
     "id": "8381482825528158",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "04e46863c1e5b152",
+    "g": "e8171983c5a482d5",
     "name": "airflow / cmv",
     "info": "",
     "x": 190,
-    "y": 2100,
+    "y": 2120,
     "wires": []
   },
   {
@@ -6093,7 +6381,7 @@
     "g": "04e46863c1e5b152",
     "name": "only boolean",
     "info": "",
-    "x": 190,
+    "x": 630,
     "y": 2160,
     "wires": []
   },
@@ -6104,7 +6392,7 @@
     "g": "04e46863c1e5b152",
     "name": "with temp only",
     "info": "",
-    "x": 190,
+    "x": 630,
     "y": 2220,
     "wires": []
   },
@@ -6149,7 +6437,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 2280,
     "wires": [
       [
@@ -6184,7 +6472,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1970,
     "y": 2040,
     "wires": [
       [
@@ -6219,7 +6507,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1970,
     "y": 2100,
     "wires": [
       [
@@ -6236,7 +6524,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1075,
+    "x": 1515,
     "y": 2100,
     "wires": [
       [
@@ -6262,7 +6550,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1210,
+    "x": 1650,
     "y": 2100,
     "wires": [
       [
@@ -6298,7 +6586,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1370,
+    "x": 1810,
     "y": 2100,
     "wires": [
       [
@@ -6322,7 +6610,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1695,
+    "x": 2135,
     "y": 2100,
     "wires": []
   },
@@ -6353,7 +6641,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1550,
+    "x": 1990,
     "y": 2160,
     "wires": [
       [
@@ -6381,7 +6669,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2390,
+    "x": 2830,
     "y": 2040,
     "wires": [
       [
@@ -6398,7 +6686,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 1875,
+    "x": 2315,
     "y": 2040,
     "wires": [
       [
@@ -6416,7 +6704,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2515,
+    "x": 2955,
     "y": 2040,
     "wires": []
   },
@@ -6438,7 +6726,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2010,
+    "x": 2450,
     "y": 2040,
     "wires": [
       [
@@ -6464,7 +6752,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2200,
+    "x": 2640,
     "y": 2040,
     "wires": [
       [
@@ -6513,7 +6801,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3930,
+    "x": 4790,
     "y": 1800,
     "wires": [
       [
@@ -6562,7 +6850,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3940,
+    "x": 4800,
     "y": 1860,
     "wires": [
       [
@@ -6611,7 +6899,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3930,
+    "x": 4790,
     "y": 1920,
     "wires": [
       [
@@ -6628,7 +6916,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 1740,
     "wires": [
       [
@@ -6654,7 +6942,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 1740,
     "wires": [
       [
@@ -6696,7 +6984,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3930,
+    "x": 4790,
     "y": 1740,
     "wires": [
       [
@@ -6731,7 +7019,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4200,
+    "x": 5060,
     "y": 1740,
     "wires": [
       [
@@ -6749,7 +7037,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4335,
+    "x": 5195,
     "y": 1740,
     "wires": []
   },
@@ -6760,7 +7048,7 @@
     "g": "04604742f88c50dc",
     "name": "outlet / socket x",
     "info": "",
-    "x": 3460,
+    "x": 4320,
     "y": 1800,
     "wires": []
   },
@@ -6771,7 +7059,7 @@
     "g": "04604742f88c50dc",
     "name": "option 1 or 2",
     "info": "",
-    "x": 3450,
+    "x": 4310,
     "y": 1860,
     "wires": []
   },
@@ -6793,7 +7081,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3690,
+    "x": 4550,
     "y": 1740,
     "wires": [
       [
@@ -6831,7 +7119,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4970,
+    "x": 5830,
     "y": 1740,
     "wires": [
       [
@@ -6866,7 +7154,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4970,
+    "x": 5830,
     "y": 1800,
     "wires": [
       [
@@ -6883,7 +7171,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4515,
+    "x": 5375,
     "y": 1740,
     "wires": [
       [
@@ -6909,7 +7197,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4650,
+    "x": 5510,
     "y": 1740,
     "wires": [
       [
@@ -6940,7 +7228,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4810,
+    "x": 5670,
     "y": 1740,
     "wires": [
       [
@@ -6961,7 +7249,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 5095,
+    "x": 5955,
     "y": 1740,
     "wires": []
   },
@@ -6985,7 +7273,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5790,
+    "x": 6650,
     "y": 1740,
     "wires": [
       [
@@ -7002,7 +7290,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 5275,
+    "x": 6135,
     "y": 1740,
     "wires": [
       [
@@ -7020,7 +7308,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 5915,
+    "x": 6775,
     "y": 1740,
     "wires": []
   },
@@ -7042,7 +7330,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5410,
+    "x": 6270,
     "y": 1740,
     "wires": [
       [
@@ -7068,7 +7356,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 5600,
+    "x": 6460,
     "y": 1740,
     "wires": [
       [
@@ -7117,7 +7405,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 2160,
     "wires": [
       [
@@ -7166,7 +7454,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 2220,
     "wires": [
       [
@@ -7215,7 +7503,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 2280,
     "wires": [
       [
@@ -7232,7 +7520,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 2100,
     "wires": [
       [
@@ -7258,7 +7546,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 2100,
     "wires": [
       [
@@ -7279,7 +7567,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4175,
+    "x": 5035,
     "y": 2100,
     "wires": []
   },
@@ -7317,7 +7605,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3780,
+    "x": 4640,
     "y": 2100,
     "wires": [
       [
@@ -7345,7 +7633,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4040,
+    "x": 4900,
     "y": 2100,
     "wires": [
       [
@@ -7360,7 +7648,7 @@
     "g": "4a380e4e6f98695d",
     "name": "aperture / shutter",
     "info": "",
-    "x": 3460,
+    "x": 4320,
     "y": 2160,
     "wires": []
   },
@@ -7384,7 +7672,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4810,
+    "x": 5670,
     "y": 2160,
     "wires": [
       [
@@ -7412,7 +7700,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4820,
+    "x": 5680,
     "y": 2100,
     "wires": [
       [
@@ -7429,7 +7717,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4355,
+    "x": 5215,
     "y": 2100,
     "wires": [
       [
@@ -7447,7 +7735,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4955,
+    "x": 5815,
     "y": 2100,
     "wires": []
   },
@@ -7474,7 +7762,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4650,
+    "x": 5510,
     "y": 2100,
     "wires": [
       [
@@ -7503,7 +7791,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4490,
+    "x": 5350,
     "y": 2100,
     "wires": [
       [
@@ -7531,7 +7819,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5650,
+    "x": 6510,
     "y": 2100,
     "wires": [
       [
@@ -7548,7 +7836,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 5135,
+    "x": 5995,
     "y": 2100,
     "wires": [
       [
@@ -7566,7 +7854,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 5935,
+    "x": 6795,
     "y": 2100,
     "wires": []
   },
@@ -7588,7 +7876,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5270,
+    "x": 6130,
     "y": 2100,
     "wires": [
       [
@@ -7614,7 +7902,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 5460,
+    "x": 6320,
     "y": 2100,
     "wires": [
       [
@@ -7640,7 +7928,7 @@
     "bytopic": "topic",
     "topic": "id",
     "outputs": 1,
-    "x": 5810,
+    "x": 6670,
     "y": 2100,
     "wires": [
       [
@@ -7676,7 +7964,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 4650,
+    "x": 5510,
     "y": 2520,
     "wires": [
       [
@@ -7717,7 +8005,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4820,
+    "x": 5680,
     "y": 2460,
     "wires": [
       [
@@ -7745,7 +8033,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4830,
+    "x": 5690,
     "y": 2520,
     "wires": [
       [
@@ -7773,7 +8061,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4810,
+    "x": 5670,
     "y": 2580,
     "wires": [
       [
@@ -7790,7 +8078,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4355,
+    "x": 5215,
     "y": 2520,
     "wires": [
       [
@@ -7816,7 +8104,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4490,
+    "x": 5350,
     "y": 2520,
     "wires": [
       [
@@ -7834,7 +8122,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4975,
+    "x": 5835,
     "y": 2520,
     "wires": []
   },
@@ -7879,7 +8167,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3780,
+    "x": 4640,
     "y": 2520,
     "wires": [
       [
@@ -7928,7 +8216,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 2580,
     "wires": [
       [
@@ -7977,7 +8265,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 2640,
     "wires": [
       [
@@ -7994,7 +8282,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 2460,
     "wires": [
       [
@@ -8020,7 +8308,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 2460,
     "wires": [
       [
@@ -8065,7 +8353,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3770,
+    "x": 4630,
     "y": 2460,
     "wires": [
       [
@@ -8093,7 +8381,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4040,
+    "x": 4900,
     "y": 2460,
     "wires": [
       [
@@ -8111,7 +8399,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4175,
+    "x": 5035,
     "y": 2460,
     "wires": []
   },
@@ -8122,7 +8410,7 @@
     "g": "a20475bea97e7d94",
     "name": "aperture / door",
     "info": "",
-    "x": 3460,
+    "x": 4320,
     "y": 2520,
     "wires": []
   },
@@ -8167,7 +8455,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 2520,
     "wires": [
       [
@@ -8216,7 +8504,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 2580,
     "wires": [
       [
@@ -8265,7 +8553,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 2640,
     "wires": [
       [
@@ -8282,7 +8570,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 2460,
     "wires": [
       [
@@ -8308,7 +8596,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 2460,
     "wires": [
       [
@@ -8329,7 +8617,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 915,
+    "x": 1355,
     "y": 2460,
     "wires": []
   },
@@ -8367,7 +8655,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 2460,
     "wires": [
       [
@@ -8395,7 +8683,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 1220,
     "y": 2460,
     "wires": [
       [
@@ -8407,11 +8695,11 @@
     "id": "5b532049057ce244",
     "type": "comment",
     "z": "03220402a282530b",
-    "g": "7da83da639a48fc6",
+    "g": "6595b51ed6ecedbf",
     "name": "aperture / shutter",
     "info": "",
     "x": 200,
-    "y": 2520,
+    "y": 2540,
     "wires": []
   },
   {
@@ -8434,7 +8722,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1550,
+    "x": 1990,
     "y": 2520,
     "wires": [
       [
@@ -8454,7 +8742,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1560,
+    "x": 2000,
     "y": 2460,
     "wires": [
       [
@@ -8471,7 +8759,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1095,
+    "x": 1535,
     "y": 2460,
     "wires": [
       [
@@ -8489,7 +8777,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1695,
+    "x": 2135,
     "y": 2460,
     "wires": []
   },
@@ -8516,7 +8804,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1390,
+    "x": 1830,
     "y": 2460,
     "wires": [
       [
@@ -8545,7 +8833,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1230,
+    "x": 1670,
     "y": 2460,
     "wires": [
       [
@@ -8573,7 +8861,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2390,
+    "x": 2830,
     "y": 2460,
     "wires": [
       [
@@ -8590,7 +8878,7 @@
     "links": [
       "637b84024e725f38"
     ],
-    "x": 1875,
+    "x": 2315,
     "y": 2460,
     "wires": [
       [
@@ -8608,7 +8896,7 @@
     "links": [
       "e93e8daa30075ae6"
     ],
-    "x": 2515,
+    "x": 2955,
     "y": 2460,
     "wires": []
   },
@@ -8630,7 +8918,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2010,
+    "x": 2450,
     "y": 2460,
     "wires": [
       [
@@ -8656,7 +8944,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 2200,
+    "x": 2640,
     "y": 2460,
     "wires": [
       [
@@ -8697,7 +8985,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 4610,
+    "x": 5470,
     "y": 2880,
     "wires": [
       [
@@ -8741,7 +9029,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 2820,
     "wires": [
       [
@@ -8776,7 +9064,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 2880,
     "wires": [
       [
@@ -8804,7 +9092,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 2940,
     "wires": [
       [
@@ -8821,7 +9109,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 4315,
+    "x": 5175,
     "y": 2880,
     "wires": [
       [
@@ -8847,7 +9135,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4450,
+    "x": 5310,
     "y": 2880,
     "wires": [
       [
@@ -8865,7 +9153,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4895,
+    "x": 5755,
     "y": 2880,
     "wires": []
   },
@@ -8896,7 +9184,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4770,
+    "x": 5630,
     "y": 3000,
     "wires": [
       [
@@ -8945,7 +9233,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3760,
+    "x": 4620,
     "y": 2880,
     "wires": [
       [
@@ -8994,7 +9282,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3750,
+    "x": 4610,
     "y": 2940,
     "wires": [
       [
@@ -9043,7 +9331,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3750,
+    "x": 4610,
     "y": 3000,
     "wires": [
       [
@@ -9060,7 +9348,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 3395,
+    "x": 4255,
     "y": 2820,
     "wires": [
       [
@@ -9086,7 +9374,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3530,
+    "x": 4390,
     "y": 2820,
     "wires": [
       [
@@ -9131,7 +9419,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3750,
+    "x": 4610,
     "y": 2820,
     "wires": [
       [
@@ -9159,7 +9447,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4000,
+    "x": 4860,
     "y": 2820,
     "wires": [
       [
@@ -9177,7 +9465,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 4135,
+    "x": 4995,
     "y": 2820,
     "wires": []
   },
@@ -9188,7 +9476,7 @@
     "g": "0911ef2f51d2874d",
     "name": "smoke / fire",
     "info": "",
-    "x": 3450,
+    "x": 4310,
     "y": 2880,
     "wires": []
   },
@@ -9591,6 +9879,1461 @@
     "links": [],
     "x": 395,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "2128f35825dde7a6",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "8c79dc3ef73d2580",
+    "name": "zwave - ZMNHSD - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "86669a240762d83c"
+      ]
+    ]
+  },
+  {
+    "id": "86669a240762d83c",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "8c79dc3ef73d2580",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHSD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "power",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "relay",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "68455293ad284dd5"
+      ]
+    ]
+  },
+  {
+    "id": "68455293ad284dd5",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "8c79dc3ef73d2580",
+    "name": "zwave - ZMNHSD - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "73bb43528b419bc3",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "95a74006c5eb9f38",
+    "name": "zwave - ZMNHAD, ZMNHDD - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 840,
+    "wires": [
+      [
+        "e896de3485f98861",
+        "ebe6d2bcd36db17e"
+      ]
+    ]
+  },
+  {
+    "id": "e896de3485f98861",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "95a74006c5eb9f38",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHAD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "socket",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 840,
+    "wires": [
+      [
+        "1ba6fff915be6924"
+      ]
+    ]
+  },
+  {
+    "id": "1ba6fff915be6924",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "95a74006c5eb9f38",
+    "name": "zwave - ZMNHAD, ZMNHDD - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "ebe6d2bcd36db17e",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "95a74006c5eb9f38",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHDD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "socket",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 900,
+    "wires": [
+      [
+        "1ba6fff915be6924"
+      ]
+    ]
+  },
+  {
+    "id": "502a76366d0afa9f",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "70c4d454a29e1c45",
+    "name": "zwave - ZMNHJD, ZMNHUD - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1380,
+    "wires": [
+      [
+        "63c129e57bd851a1",
+        "295541fe39be68c8"
+      ]
+    ]
+  },
+  {
+    "id": "63c129e57bd851a1",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "70c4d454a29e1c45",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHJD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pitlot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1380,
+    "wires": [
+      [
+        "7730cebb6d30dd0f"
+      ]
+    ]
+  },
+  {
+    "id": "7730cebb6d30dd0f",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "70c4d454a29e1c45",
+    "name": "zwave - ZMNHJD, ZMNHUD - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1380,
+    "wires": []
+  },
+  {
+    "id": "295541fe39be68c8",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "70c4d454a29e1c45",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHUD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "pitlot",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1440,
+    "wires": [
+      [
+        "7730cebb6d30dd0f"
+      ]
+    ]
+  },
+  {
+    "id": "c52016c969292c72",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "2da7ce03f5191d38",
+    "name": "zwave - ZMNHBD - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1680,
+    "wires": [
+      [
+        "9dff5591c0dc819e"
+      ]
+    ]
+  },
+  {
+    "id": "9dff5591c0dc819e",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "2da7ce03f5191d38",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHBD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "socket",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1680,
+    "wires": [
+      [
+        "425bce213a925d73"
+      ]
+    ]
+  },
+  {
+    "id": "425bce213a925d73",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "2da7ce03f5191d38",
+    "name": "zwave - ZMNHBD - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1680,
+    "wires": []
+  },
+  {
+    "id": "c839570ef7a78a9f",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "304b2bd59bbb2dd7",
+    "name": "zwave - ZMNHDA - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 2040,
+    "wires": [
+      [
+        "04c6c66a49433012"
+      ]
+    ]
+  },
+  {
+    "id": "04c6c66a49433012",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "304b2bd59bbb2dd7",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHDA",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "cmv",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 2040,
+    "wires": [
+      [
+        "4c23495713170d6d"
+      ]
+    ]
+  },
+  {
+    "id": "4c23495713170d6d",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "304b2bd59bbb2dd7",
+    "name": "zwave - ZMNHDA - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "b21a4e42ed9c41ea",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "5c9a983b8db0a524",
+    "name": "zwave - ZMNHCD - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "f4205715cfb82d3e"
+      ]
+    ]
+  },
+  {
+    "id": "f4205715cfb82d3e",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "5c9a983b8db0a524",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "qubino",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZMNHCD",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "aperture",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "shutter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 2460,
+    "wires": [
+      [
+        "98015f2feffa655e"
+      ]
+    ]
+  },
+  {
+    "id": "98015f2feffa655e",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "5c9a983b8db0a524",
+    "name": "zwave - ZMNHCD - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "18c15e43576295d6",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "f902f6ba6753215d",
+    "name": "zwave - ZW100 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 480,
+    "wires": [
+      [
+        "fb886b6e3cc21020"
+      ]
+    ]
+  },
+  {
+    "id": "fb886b6e3cc21020",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "f902f6ba6753215d",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "ZW100",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "detector",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 480,
+    "wires": [
+      [
+        "200dd435b42e8ec3"
+      ]
+    ]
+  },
+  {
+    "id": "200dd435b42e8ec3",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "f902f6ba6753215d",
+    "name": "zwave - ZW100 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "5ecc13865846db0e",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "9f6b281b8dc7ed8e",
+    "name": "zwave - FGD212 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 960,
+    "wires": [
+      [
+        "46d4dc918d902684"
+      ]
+    ]
+  },
+  {
+    "id": "46d4dc918d902684",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "9f6b281b8dc7ed8e",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGD212",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "ceiling",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 960,
+    "wires": [
+      [
+        "76e3b03e619c3fbc"
+      ]
+    ]
+  },
+  {
+    "id": "76e3b03e619c3fbc",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "9f6b281b8dc7ed8e",
+    "name": "zwave - FGD212 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "bec54e9477e4bd61",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "9fe281cffb31e00c",
+    "name": "zwave - FGMS001 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 1320,
+    "wires": [
+      [
+        "c69d13cea7af53c5"
+      ]
+    ]
+  },
+  {
+    "id": "c69d13cea7af53c5",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "9fe281cffb31e00c",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGMS001",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "detector",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 1320,
+    "wires": [
+      [
+        "08e5a3df0b2c2c95"
+      ]
+    ]
+  },
+  {
+    "id": "08e5a3df0b2c2c95",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "9fe281cffb31e00c",
+    "name": "zwave - FGMS001 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 1320,
+    "wires": []
+  },
+  {
+    "id": "f4a990fd68343eba",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "20ebd48d15c9a606",
+    "name": "zwave - FGS223 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 1740,
+    "wires": [
+      [
+        "63b29df0baadb63e"
+      ]
+    ]
+  },
+  {
+    "id": "63b29df0baadb63e",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "20ebd48d15c9a606",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGS223",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "outlet",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "socket",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 1740,
+    "wires": [
+      [
+        "3b8391f25d2d2849"
+      ]
+    ]
+  },
+  {
+    "id": "3b8391f25d2d2849",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "20ebd48d15c9a606",
+    "name": "zwave - FGS223 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "cdd076b6b818d38f",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "b533b3a78677c7f6",
+    "name": "zwave - FGR223 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 2100,
+    "wires": [
+      [
+        "fbf0d71664d419d7"
+      ]
+    ]
+  },
+  {
+    "id": "fbf0d71664d419d7",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "b533b3a78677c7f6",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGR223",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "aperture",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "shutter",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 2100,
+    "wires": [
+      [
+        "7dd6e99d1c259084"
+      ]
+    ]
+  },
+  {
+    "id": "7dd6e99d1c259084",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "b533b3a78677c7f6",
+    "name": "zwave - FGR223 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 2100,
+    "wires": []
+  },
+  {
+    "id": "39e9e59dd42094bb",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "6bf9fae4b0bc8907",
+    "name": "zwave - FGDW002 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 2460,
+    "wires": [
+      [
+        "023a78297e355b65"
+      ]
+    ]
+  },
+  {
+    "id": "023a78297e355b65",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "6bf9fae4b0bc8907",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGDW002",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "aperture",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "door",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 2460,
+    "wires": [
+      [
+        "b8e2db56d1fe5f75"
+      ]
+    ]
+  },
+  {
+    "id": "b8e2db56d1fe5f75",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "6bf9fae4b0bc8907",
+    "name": "zwave - FGDW002 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "b4066829ee5f163b",
+    "type": "link in",
+    "z": "03220402a282530b",
+    "g": "669a920f894a115d",
+    "name": "zwave - FGSD002 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 3815,
+    "y": 2820,
+    "wires": [
+      [
+        "2ed2bc7ce44d3649"
+      ]
+    ]
+  },
+  {
+    "id": "2ed2bc7ce44d3649",
+    "type": "change",
+    "z": "03220402a282530b",
+    "g": "669a920f894a115d",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "fibaro",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "FGSD002",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zwave",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "smoke",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "fire",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3950,
+    "y": 2820,
+    "wires": [
+      [
+        "4ad7402573722786"
+      ]
+    ]
+  },
+  {
+    "id": "4ad7402573722786",
+    "type": "link out",
+    "z": "03220402a282530b",
+    "g": "669a920f894a115d",
+    "name": "zwave - FGSD002 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 4075,
+    "y": 2820,
     "wires": []
   }
 ]

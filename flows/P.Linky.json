@@ -47,7 +47,7 @@
     ],
     "x": 68,
     "y": 413,
-    "w": 1244,
+    "w": 1574,
     "h": 2174
   },
   {
@@ -99,6 +99,67 @@
     "h": 142
   },
   {
+    "id": "8a97ad21fb974dbd",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "6f11b20b69a42029",
+      "31fc5fdc93b7363d",
+      "d7b616f51fec6d9a"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
+    "id": "b9a706d9e4980c1e",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "mqtt server for teleinfo",
+    "style": {
+      "fill": "#ffffff",
+      "fill-opacity": "0.5",
+      "label": true,
+      "stroke": "#0070c0"
+    },
+    "nodes": [
+      "fee31a77e542b203",
+      "0bf16a20b9656c59"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 1764,
+    "h": 194
+  },
+  {
+    "id": "b31845e35ff96b51",
+    "type": "group",
+    "z": "a1e22fa468f03c15",
+    "name": "home - linky",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f36ad9add0dea84a",
+      "4cb9d5d99960728b",
+      "afbdaa08d5344ac6"
+    ],
+    "x": 68,
+    "y": 2993,
+    "w": 3504,
+    "h": 494
+  },
+  {
     "id": "f65dfdda10900ffc",
     "type": "group",
     "z": "a1e22fa468f03c15",
@@ -133,7 +194,8 @@
       "25b8f66cb5486055",
       "25a206dee6cb2d38",
       "10352a4c8044bff8",
-      "d1f398881a976c8c"
+      "d1f398881a976c8c",
+      "06b7f0862564450a"
     ],
     "x": 94,
     "y": 439,
@@ -183,11 +245,14 @@
       "905240083e6bd5a2",
       "e57340f8784de737",
       "1d84aac6c8e2a838",
-      "eaf239f4e4fd9d20"
+      "eaf239f4e4fd9d20",
+      "9a0a261261c064da",
+      "ffd6cc9a833578f9",
+      "fd73f58e64fd7772"
     ],
     "x": 94,
     "y": 979,
-    "w": 1182,
+    "w": 1522,
     "h": 142
   },
   {
@@ -306,47 +371,6 @@
     "h": 269.5
   },
   {
-    "id": "8a97ad21fb974dbd",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "6f11b20b69a42029",
-      "31fc5fdc93b7363d",
-      "d7b616f51fec6d9a"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
-  },
-  {
-    "id": "b9a706d9e4980c1e",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "mqtt server for teleinfo",
-    "style": {
-      "fill": "#ffffff",
-      "fill-opacity": "0.5",
-      "label": true,
-      "stroke": "#0070c0"
-    },
-    "nodes": [
-      "fee31a77e542b203",
-      "0bf16a20b9656c59"
-    ],
-    "x": 68,
-    "y": 173,
-    "w": 1764,
-    "h": 194
-  },
-  {
     "id": "fee31a77e542b203",
     "type": "group",
     "z": "a1e22fa468f03c15",
@@ -391,26 +415,6 @@
     "y": 199,
     "w": 512,
     "h": 142
-  },
-  {
-    "id": "b31845e35ff96b51",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "home - linky",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "f36ad9add0dea84a",
-      "4cb9d5d99960728b",
-      "afbdaa08d5344ac6"
-    ],
-    "x": 68,
-    "y": 2993,
-    "w": 3504,
-    "h": 494
   },
   {
     "id": "f36ad9add0dea84a",
@@ -573,7 +577,8 @@
     "name": "linky - bucket",
     "mode": "link",
     "links": [
-      "60a457c83fc5f610"
+      "60a457c83fc5f610",
+      "f5c52506bf786402"
     ],
     "x": 395,
     "y": 60,
@@ -718,6 +723,7 @@
     "inout": "out",
     "septopics": true,
     "property": "payload",
+    "topi": "topic",
     "x": 930,
     "y": 840,
     "wires": [
@@ -849,7 +855,7 @@
     "y": 900,
     "wires": [
       [
-        "df89dd445c170c34"
+        "06b7f0862564450a"
       ]
     ]
   },
@@ -1408,11 +1414,11 @@
     "reduceInit": "",
     "reduceInitType": "",
     "reduceFixup": "",
-    "x": 770,
+    "x": 780,
     "y": 1020,
     "wires": [
       [
-        "af3687a9f899e8da"
+        "9a0a261261c064da"
       ]
     ]
   },
@@ -1422,13 +1428,14 @@
     "z": "a1e22fa468f03c15",
     "g": "543a74289e049295",
     "name": "",
-    "func": "var old = msg.payload.old.value;\nvar current = msg.payload.new.value;\nvar diff_index = current - old;\nvar diff_seconds = (msg.payload.new.time - msg.payload.old.time) / 1000;\nif (diff_seconds == 0) {\n    var conso = 0;\n} else {\n    var coeff = diff_seconds / 3600\n    var conso = diff_index / coeff\n    conso = Math.round(conso*100)/100\n}\nvar msg2 = {};\nmsg2.payload = {};\nmsg2.payload.conso = conso;\nmsg2.payload.diff_sec = diff_seconds;\nmsg2.payload.old_time = msg.payload.old.time;\nmsg2.payload.new_time = msg.payload.new.time;\nreturn msg2;",
+    "func": "var old = msg.payload.old.value;\nvar current = msg.payload.new.value;\nvar diff_index = current - old;\n\n\nvar diff_seconds = (msg.payload.new.time - msg.payload.old.time) / 1000;\nif (diff_seconds == 0) {\n    var conso = 0;\n} else {\n    var coeff = diff_seconds / 3600\n    var conso = diff_index / coeff\n    conso = Math.round(conso*100)/100\n}\nvar msg2 = {};\nmsg2.payload = {};\nmsg2.payload.conso = conso;\nmsg2.payload.diff_sec = diff_seconds;\nmsg2.payload.old_time = msg.payload.old.time;\nmsg2.payload.new_time = msg.payload.new.time;\n\nnode.status({fill: \"green\", shape: \"ring\", text: conso});\nreturn msg2;",
     "outputs": 1,
+    "timeout": "",
     "noerr": 0,
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 940,
+    "x": 1280,
     "y": 1020,
     "wires": [
       [
@@ -1588,7 +1595,7 @@
     "links": [
       "e340056f7c0ff7e6"
     ],
-    "x": 1235,
+    "x": 1575,
     "y": 1020,
     "wires": []
   },
@@ -1631,7 +1638,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1110,
+    "x": 1450,
     "y": 1020,
     "wires": [
       [
@@ -4797,7 +4804,7 @@
     "width": "5",
     "height": "1",
     "name": "power",
-    "label": "Puissance",
+    "label": "Puissance linky",
     "format": "{{msg.payload}}",
     "layout": "row-spread",
     "style": false,
@@ -4815,11 +4822,11 @@
     "z": "a1e22fa468f03c15",
     "g": "afbdaa08d5344ac6",
     "group": "241fa70e798648e8",
-    "order": 3,
+    "order": 4,
     "width": "6",
     "height": "1",
     "name": "tariff",
-    "label": "Tarif",
+    "label": "Tarif linky",
     "format": "{{msg.payload}}",
     "layout": "row-spread",
     "style": false,
@@ -4949,11 +4956,11 @@
     "z": "a1e22fa468f03c15",
     "g": "afbdaa08d5344ac6",
     "group": "241fa70e798648e8",
-    "order": 3,
+    "order": 5,
     "width": "6",
     "height": "1",
     "name": "conso_total_today",
-    "label": "Aujourd'hui",
+    "label": "Consommation linky ajourdh'ui",
     "format": "{{msg.payload}}",
     "layout": "row-spread",
     "style": false,
@@ -4971,11 +4978,11 @@
     "z": "a1e22fa468f03c15",
     "g": "afbdaa08d5344ac6",
     "group": "241fa70e798648e8",
-    "order": 3,
+    "order": 6,
     "width": "6",
     "height": "1",
     "name": "conso_total_yesturday",
-    "label": "Hier",
+    "label": "Consommation linky hier",
     "format": "{{msg.payload}}",
     "layout": "row-spread",
     "style": false,
@@ -5162,5 +5169,96 @@
         "8883fe1a066abc69"
       ]
     ]
+  },
+  {
+    "id": "06b7f0862564450a",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "f65dfdda10900ffc",
+    "name": "inject",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 770,
+    "y": 900,
+    "wires": [
+      [
+        "80713009a92b1fb1"
+      ],
+      [
+        "df89dd445c170c34"
+      ]
+    ]
+  },
+  {
+    "id": "9a0a261261c064da",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "new",
+    "property": "payload.new",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 950,
+    "y": 1020,
+    "wires": [
+      [
+        "ffd6cc9a833578f9"
+      ]
+    ]
+  },
+  {
+    "id": "ffd6cc9a833578f9",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "old",
+    "property": "payload.old",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1110,
+    "y": 1020,
+    "wires": [
+      [
+        "af3687a9f899e8da"
+      ]
+    ]
+  },
+  {
+    "id": "fd73f58e64fd7772",
+    "type": "comment",
+    "z": "a1e22fa468f03c15",
+    "g": "543a74289e049295",
+    "name": "",
+    "info": "",
+    "x": 790,
+    "y": 1080,
+    "wires": []
   }
 ]

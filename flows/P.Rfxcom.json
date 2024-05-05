@@ -11,7 +11,7 @@
     "id": "8ff8200fb98a6c9f",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "Oregon Scientific - THGxxx",
+    "name": "Oregon Scientific - THG",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -19,11 +19,13 @@
     },
     "nodes": [
       "c9bfd06d94c778b0",
-      "964bf809761a572e"
+      "964bf809761a572e",
+      "3f9f8a0b4fa2c055",
+      "f86e15a9805df2eb"
     ],
     "x": 68,
     "y": 413,
-    "w": 1714,
+    "w": 2154,
     "h": 314
   },
   {
@@ -38,11 +40,13 @@
     },
     "nodes": [
       "f203be2131a6857b",
-      "648c017fa768efff"
+      "648c017fa768efff",
+      "6e4f227cc28d0ae1",
+      "0c79eda0b1819a61"
     ],
     "x": 68,
     "y": 773,
-    "w": 2354,
+    "w": 2794,
     "h": 194
   },
   {
@@ -57,11 +61,13 @@
     },
     "nodes": [
       "ac4875632c3c08e1",
-      "315a7d88b33ec298"
+      "315a7d88b33ec298",
+      "fe22668bd12059fe",
+      "fc4300b4cbfc7dac"
     ],
-    "x": 2508,
+    "x": 2908,
     "y": 413,
-    "w": 2394,
+    "w": 2834,
     "h": 194
   },
   {
@@ -76,234 +82,14 @@
     },
     "nodes": [
       "32b0e7dfab2726d5",
-      "f3fbbcf1b5165983"
+      "f3fbbcf1b5165983",
+      "6e514e612809a95c",
+      "72d6fffa4dada8c2"
     ],
-    "x": 2508,
+    "x": 2908,
     "y": 653,
-    "w": 2714,
+    "w": 3154,
     "h": 314
-  },
-  {
-    "id": "c9bfd06d94c778b0",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "8ff8200fb98a6c9f",
-    "name": "rfxcom - THG - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c7c9dbd511ce3178",
-      "aa27feeb7f465ede",
-      "bd90c8853bb23bbc",
-      "1868c54d6625f422",
-      "277f13fc211becf2",
-      "a05655d2da0205bf",
-      "05b9c831fcbc4327",
-      "919ec72b0122125e",
-      "f86e15a9805df2eb"
-    ],
-    "x": 94,
-    "y": 439,
-    "w": 862,
-    "h": 262
-  },
-  {
-    "id": "964bf809761a572e",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "8ff8200fb98a6c9f",
-    "name": "rfxcom - THG - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "05b01da832e8dc8e",
-      "4b250474eef9ebf9",
-      "3f67497a06c6790b",
-      "40abdc0a6d9a02e0",
-      "ba66e66c54a87e85",
-      "bc5e8eb38502426b",
-      "0a2fa3c2042de32b"
-    ],
-    "x": 1054,
-    "y": 439,
-    "w": 702,
-    "h": 202
-  },
-  {
-    "id": "f203be2131a6857b",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "d6b920b99b611bdf",
-    "name": "rfxcom - SH4-90157 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d1282e8de47bdf60",
-      "14a19cafbce9493f",
-      "3f944b3a650ccb02",
-      "2069657998805215",
-      "58a1beac4e88a457",
-      "64209e9b32b3069e",
-      "0c79eda0b1819a61"
-    ],
-    "x": 94,
-    "y": 799,
-    "w": 882,
-    "h": 142
-  },
-  {
-    "id": "648c017fa768efff",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "d6b920b99b611bdf",
-    "name": "rfxcom - SH4-90157 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "e9e3a2077a1fb722",
-      "582fd41fd3f9077e",
-      "cb0926c497a333b7",
-      "846e71a382cb0e4a",
-      "e75839a08fe8026b",
-      "18d6239a83c542f6",
-      "b1b7d0d0ebcf09f8",
-      "1ed7593011ad6d9d",
-      "559501a6882a7e03"
-    ],
-    "x": 1074,
-    "y": 799,
-    "w": 1322,
-    "h": 142
-  },
-  {
-    "id": "ac4875632c3c08e1",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "9764355bf8f8caf8",
-    "name": "rfxcom - DIO-54791 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4d6edf0867a50f9d",
-      "c54311f816c57545",
-      "cfd7f4d7cb8008c2",
-      "625e790911e89ba5",
-      "396a3bfdb0718a53",
-      "daf0d80c53e0db5f",
-      "12ee535e8df383e4",
-      "ada8e99555ab016e",
-      "e6c56ae4bc5df5d8",
-      "fbf9779ea5af2111",
-      "c04bcd7a0e7a788c",
-      "8a80d7d04901125e"
-    ],
-    "x": 3514,
-    "y": 439,
-    "w": 1362,
-    "h": 142
-  },
-  {
-    "id": "315a7d88b33ec298",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "9764355bf8f8caf8",
-    "name": "rfxcom - DIO-54791 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4b701431b4a2a6cf",
-      "9386d8f8dd219a71",
-      "31b02672ea156965",
-      "9648a5fa00b709ec",
-      "76e4299fa08ddb99",
-      "fc4300b4cbfc7dac",
-      "5b20e4596518419e"
-    ],
-    "x": 2534,
-    "y": 439,
-    "w": 882,
-    "h": 142
-  },
-  {
-    "id": "32b0e7dfab2726d5",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "068fb3ac81317e59",
-    "name": "rfxcom - DIO-54760 - source",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "bd94efd3c0d41ec1",
-      "77f89a4e117cdb43",
-      "977fce374c045aa2",
-      "64e62d9c80ee281f",
-      "1f51d9ea8a1bf1de",
-      "2b13cb6248d2f638",
-      "aeefd326e0d79eb2",
-      "cdb2ddeafa644131",
-      "246fe56fe7852fb7",
-      "1c45f45498655577",
-      "df6ef3b58ab095da",
-      "5de16c90c3283bc0",
-      "40b53bd7b2dd3fda",
-      "baa85c145ba7e3cd",
-      "7c7b0c1ef742761b",
-      "fd7c381284fe78b5",
-      "db5251d07949a8c0",
-      "67a3679a821559e1",
-      "6d3f4589b84a4ae0"
-    ],
-    "x": 3494,
-    "y": 679,
-    "w": 1702,
-    "h": 262
-  },
-  {
-    "id": "f3fbbcf1b5165983",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "g": "068fb3ac81317e59",
-    "name": "rfxcom - DIO-54760 - device",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "cea82d4e74329977",
-      "20255790fade5c76",
-      "2c174532d49b2fa7",
-      "78c44721aa7e96ba",
-      "76c617de3fe57a72",
-      "72d6fffa4dada8c2",
-      "a08fafe0b15e2f0d",
-      "802a3e81458149bc"
-    ],
-    "x": 2534,
-    "y": 679,
-    "w": 862,
-    "h": 202
   },
   {
     "id": "e1a08515c0ecf6e6",
@@ -345,6 +131,245 @@
     "y": 173,
     "w": 1764,
     "h": 194
+  },
+  {
+    "id": "f391c9146d7bbd74",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "name": "rfxcom - bucket",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ffC000"
+    },
+    "nodes": [
+      "21ece2cf0225f84c",
+      "c0f802fd747208b3",
+      "957e5c162598e005"
+    ],
+    "x": 94,
+    "y": 19,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "c9bfd06d94c778b0",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "8ff8200fb98a6c9f",
+    "name": "rfxcom - THG - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c7c9dbd511ce3178",
+      "aa27feeb7f465ede",
+      "bd90c8853bb23bbc",
+      "1868c54d6625f422",
+      "277f13fc211becf2",
+      "a05655d2da0205bf",
+      "05b9c831fcbc4327",
+      "919ec72b0122125e"
+    ],
+    "x": 534,
+    "y": 439,
+    "w": 862,
+    "h": 262
+  },
+  {
+    "id": "964bf809761a572e",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "8ff8200fb98a6c9f",
+    "name": "rfxcom - THG - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "05b01da832e8dc8e",
+      "4b250474eef9ebf9",
+      "3f67497a06c6790b",
+      "40abdc0a6d9a02e0",
+      "ba66e66c54a87e85",
+      "bc5e8eb38502426b",
+      "0a2fa3c2042de32b"
+    ],
+    "x": 1494,
+    "y": 439,
+    "w": 702,
+    "h": 202
+  },
+  {
+    "id": "f203be2131a6857b",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "d6b920b99b611bdf",
+    "name": "rfxcom - SH4-90157 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d1282e8de47bdf60",
+      "14a19cafbce9493f",
+      "3f944b3a650ccb02",
+      "2069657998805215",
+      "58a1beac4e88a457",
+      "64209e9b32b3069e"
+    ],
+    "x": 534,
+    "y": 799,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "648c017fa768efff",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "d6b920b99b611bdf",
+    "name": "rfxcom - SH4-90157 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "e9e3a2077a1fb722",
+      "582fd41fd3f9077e",
+      "cb0926c497a333b7",
+      "846e71a382cb0e4a",
+      "e75839a08fe8026b",
+      "18d6239a83c542f6",
+      "b1b7d0d0ebcf09f8",
+      "1ed7593011ad6d9d",
+      "559501a6882a7e03"
+    ],
+    "x": 1514,
+    "y": 799,
+    "w": 1322,
+    "h": 142
+  },
+  {
+    "id": "ac4875632c3c08e1",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "9764355bf8f8caf8",
+    "name": "rfxcom - DIO-54791 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4d6edf0867a50f9d",
+      "c54311f816c57545",
+      "cfd7f4d7cb8008c2",
+      "625e790911e89ba5",
+      "396a3bfdb0718a53",
+      "daf0d80c53e0db5f",
+      "12ee535e8df383e4",
+      "ada8e99555ab016e",
+      "e6c56ae4bc5df5d8",
+      "fbf9779ea5af2111",
+      "c04bcd7a0e7a788c",
+      "8a80d7d04901125e"
+    ],
+    "x": 4354,
+    "y": 439,
+    "w": 1362,
+    "h": 142
+  },
+  {
+    "id": "315a7d88b33ec298",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "9764355bf8f8caf8",
+    "name": "rfxcom - DIO-54791 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "4b701431b4a2a6cf",
+      "9386d8f8dd219a71",
+      "31b02672ea156965",
+      "9648a5fa00b709ec",
+      "76e4299fa08ddb99",
+      "5b20e4596518419e"
+    ],
+    "x": 3374,
+    "y": 439,
+    "w": 882,
+    "h": 142
+  },
+  {
+    "id": "32b0e7dfab2726d5",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "068fb3ac81317e59",
+    "name": "rfxcom - DIO-54760 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bd94efd3c0d41ec1",
+      "77f89a4e117cdb43",
+      "977fce374c045aa2",
+      "64e62d9c80ee281f",
+      "1f51d9ea8a1bf1de",
+      "2b13cb6248d2f638",
+      "aeefd326e0d79eb2",
+      "cdb2ddeafa644131",
+      "246fe56fe7852fb7",
+      "1c45f45498655577",
+      "df6ef3b58ab095da",
+      "5de16c90c3283bc0",
+      "40b53bd7b2dd3fda",
+      "baa85c145ba7e3cd",
+      "7c7b0c1ef742761b",
+      "fd7c381284fe78b5",
+      "db5251d07949a8c0",
+      "67a3679a821559e1",
+      "6d3f4589b84a4ae0"
+    ],
+    "x": 4334,
+    "y": 679,
+    "w": 1702,
+    "h": 262
+  },
+  {
+    "id": "f3fbbcf1b5165983",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "068fb3ac81317e59",
+    "name": "rfxcom - DIO-54760 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "cea82d4e74329977",
+      "20255790fade5c76",
+      "2c174532d49b2fa7",
+      "78c44721aa7e96ba",
+      "76c617de3fe57a72",
+      "a08fafe0b15e2f0d",
+      "802a3e81458149bc"
+    ],
+    "x": 3374,
+    "y": 679,
+    "w": 862,
+    "h": 202
   },
   {
     "id": "3ab6bcaac666ddc4",
@@ -393,23 +418,86 @@
     "h": 142
   },
   {
-    "id": "f391c9146d7bbd74",
+    "id": "3f9f8a0b4fa2c055",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "rfxcom - bucket",
+    "g": "8ff8200fb98a6c9f",
+    "name": "rfxcom - THG - model",
     "style": {
-      "fill": "#ffC000",
+      "fill": "#001f60",
       "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
+      "label": true
     },
     "nodes": [
-      "21ece2cf0225f84c",
-      "c0f802fd747208b3",
-      "957e5c162598e005"
+      "4125458fe3950d3d",
+      "d8907bcd74db249f",
+      "5b6791e0c3031934"
     ],
     "x": 94,
-    "y": 19,
+    "y": 439,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "6e4f227cc28d0ae1",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "d6b920b99b611bdf",
+    "name": "rfxcom - SH4-90157 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7a5b0b5583ea7343",
+      "1b2d8f9617488c30",
+      "e7c8646d0179e346"
+    ],
+    "x": 94,
+    "y": 799,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "6e514e612809a95c",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "068fb3ac81317e59",
+    "name": "rfxcom - DIO-54760 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7956edf72f807538",
+      "be033ed2f9099d29",
+      "197354399802c0d6"
+    ],
+    "x": 2934,
+    "y": 679,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "fe22668bd12059fe",
+    "type": "group",
+    "z": "b984eb4415408ed9",
+    "g": "9764355bf8f8caf8",
+    "name": "rfxcom - DIO-54791 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2cd6d04618352d88",
+      "f0d61d7030f60516",
+      "4902a3b3378eb68c"
+    ],
+    "x": 2934,
+    "y": 439,
     "w": 342,
     "h": 82
   },
@@ -454,7 +542,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 540,
     "wires": [
       [
@@ -503,7 +591,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 950,
     "y": 600,
     "wires": [
       [
@@ -552,7 +640,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 940,
     "y": 660,
     "wires": [
       [
@@ -578,7 +666,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 480,
     "wires": [
       [
@@ -598,7 +686,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 480,
     "wires": [
       [
@@ -640,7 +728,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 480,
     "wires": [
       [
@@ -668,7 +756,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 1220,
     "y": 480,
     "wires": [
       [
@@ -686,7 +774,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 915,
+    "x": 1355,
     "y": 480,
     "wires": []
   },
@@ -694,11 +782,11 @@
     "id": "f86e15a9805df2eb",
     "type": "comment",
     "z": "b984eb4415408ed9",
-    "g": "c9bfd06d94c778b0",
+    "g": "8ff8200fb98a6c9f",
     "name": "temperature / probe",
     "info": "",
     "x": 210,
-    "y": 540,
+    "y": 560,
     "wires": []
   },
   {
@@ -735,7 +823,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1570,
+    "x": 2010,
     "y": 480,
     "wires": [
       [
@@ -777,7 +865,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1560,
+    "x": 2000,
     "y": 540,
     "wires": [
       [
@@ -826,7 +914,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1550,
+    "x": 1990,
     "y": 600,
     "wires": [
       [
@@ -843,7 +931,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1095,
+    "x": 1535,
     "y": 480,
     "wires": [
       [
@@ -869,7 +957,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1230,
+    "x": 1670,
     "y": 480,
     "wires": [
       [
@@ -895,7 +983,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1390,
+    "x": 1830,
     "y": 480,
     "wires": [
       [
@@ -915,7 +1003,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 1715,
+    "x": 2155,
     "y": 480,
     "wires": []
   },
@@ -960,7 +1048,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 520,
+    "x": 960,
     "y": 900,
     "wires": [
       [
@@ -977,7 +1065,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 135,
+    "x": 575,
     "y": 840,
     "wires": [
       [
@@ -1003,7 +1091,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 270,
+    "x": 710,
     "y": 840,
     "wires": [
       [
@@ -1046,7 +1134,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 530,
+    "x": 970,
     "y": 840,
     "wires": [
       [
@@ -1074,7 +1162,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 800,
+    "x": 1240,
     "y": 840,
     "wires": [
       [
@@ -1092,7 +1180,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 935,
+    "x": 1375,
     "y": 840,
     "wires": []
   },
@@ -1100,11 +1188,11 @@
     "id": "0c79eda0b1819a61",
     "type": "comment",
     "z": "b984eb4415408ed9",
-    "g": "f203be2131a6857b",
+    "g": "d6b920b99b611bdf",
     "name": "motion / sensor",
     "info": "",
     "x": 200,
-    "y": 900,
+    "y": 920,
     "wires": []
   },
   {
@@ -1119,7 +1207,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2220,
+    "x": 2660,
     "y": 840,
     "wires": [
       [
@@ -1147,7 +1235,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1580,
+    "x": 2020,
     "y": 840,
     "wires": [
       [
@@ -1172,7 +1260,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 1,
-    "x": 1750,
+    "x": 2190,
     "y": 840,
     "wires": [
       [
@@ -1198,7 +1286,7 @@
     "bytopic": "topic",
     "topic": "topic",
     "outputs": 1,
-    "x": 1820,
+    "x": 2260,
     "y": 900,
     "wires": [
       [
@@ -1215,7 +1303,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1115,
+    "x": 1555,
     "y": 840,
     "wires": [
       [
@@ -1241,7 +1329,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1250,
+    "x": 1690,
     "y": 840,
     "wires": [
       [
@@ -1267,7 +1355,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1410,
+    "x": 1850,
     "y": 840,
     "wires": [
       [
@@ -1285,7 +1373,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 2355,
+    "x": 2795,
     "y": 840,
     "wires": []
   },
@@ -1309,7 +1397,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2050,
+    "x": 2490,
     "y": 900,
     "wires": [
       [
@@ -1344,7 +1432,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4700,
+    "x": 5540,
     "y": 540,
     "wires": [
       [
@@ -1375,7 +1463,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4350,
+    "x": 5190,
     "y": 540,
     "wires": [
       [
@@ -1406,7 +1494,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4520,
+    "x": 5360,
     "y": 540,
     "wires": [
       [
@@ -1432,7 +1520,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4190,
+    "x": 5030,
     "y": 540,
     "wires": [
       [
@@ -1458,7 +1546,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4030,
+    "x": 4870,
     "y": 540,
     "wires": [
       [
@@ -1481,7 +1569,7 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 3870,
+    "x": 4710,
     "y": 540,
     "wires": [
       [
@@ -1498,7 +1586,7 @@
     "links": [
       "94c79b8f52f0b6ba"
     ],
-    "x": 3555,
+    "x": 4395,
     "y": 480,
     "wires": [
       [
@@ -1524,7 +1612,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 3700,
+    "x": 4540,
     "y": 480,
     "wires": [
       [
@@ -1539,7 +1627,7 @@
     "g": "ac4875632c3c08e1",
     "name": "Do not replay command from mqtt on startup",
     "info": "",
-    "x": 3990,
+    "x": 4830,
     "y": 480,
     "wires": []
   },
@@ -1552,7 +1640,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3555,
+    "x": 4395,
     "y": 540,
     "wires": [
       [
@@ -1578,7 +1666,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3690,
+    "x": 4530,
     "y": 540,
     "wires": [
       [
@@ -1596,7 +1684,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 4835,
+    "x": 5675,
     "y": 540,
     "wires": []
   },
@@ -1641,7 +1729,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2970,
+    "x": 3810,
     "y": 540,
     "wires": [
       [
@@ -1658,7 +1746,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2575,
+    "x": 3415,
     "y": 480,
     "wires": [
       [
@@ -1684,7 +1772,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2710,
+    "x": 3550,
     "y": 480,
     "wires": [
       [
@@ -1713,7 +1801,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3240,
+    "x": 4080,
     "y": 480,
     "wires": [
       [
@@ -1731,7 +1819,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3375,
+    "x": 4215,
     "y": 480,
     "wires": []
   },
@@ -1739,11 +1827,11 @@
     "id": "fc4300b4cbfc7dac",
     "type": "comment",
     "z": "b984eb4415408ed9",
-    "g": "315a7d88b33ec298",
+    "g": "9764355bf8f8caf8",
     "name": "command / remote",
     "info": "",
-    "x": 2650,
-    "y": 540,
+    "x": 3050,
+    "y": 560,
     "wires": []
   },
   {
@@ -1780,7 +1868,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2960,
+    "x": 3800,
     "y": 480,
     "wires": [
       [
@@ -1808,7 +1896,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4520,
+    "x": 5360,
     "y": 840,
     "wires": [
       [
@@ -1850,7 +1938,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5020,
+    "x": 5860,
     "y": 840,
     "wires": [
       [
@@ -1881,7 +1969,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4670,
+    "x": 5510,
     "y": 840,
     "wires": [
       [
@@ -1912,7 +2000,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4840,
+    "x": 5680,
     "y": 840,
     "wires": [
       [
@@ -1940,7 +2028,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4520,
+    "x": 5360,
     "y": 720,
     "wires": [
       [
@@ -1968,7 +2056,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4520,
+    "x": 5360,
     "y": 780,
     "wires": [
       [
@@ -1996,7 +2084,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4520,
+    "x": 5360,
     "y": 900,
     "wires": [
       [
@@ -2027,7 +2115,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4670,
+    "x": 5510,
     "y": 900,
     "wires": [
       [
@@ -2058,7 +2146,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4840,
+    "x": 5680,
     "y": 900,
     "wires": [
       [
@@ -2092,7 +2180,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 4170,
+    "x": 5010,
     "y": 840,
     "wires": [
       [
@@ -2124,7 +2212,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4010,
+    "x": 4850,
     "y": 840,
     "wires": [
       [
@@ -2153,7 +2241,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 4340,
+    "x": 5180,
     "y": 900,
     "wires": [
       [
@@ -2179,7 +2267,7 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 3850,
+    "x": 4690,
     "y": 840,
     "wires": [
       [
@@ -2196,7 +2284,7 @@
     "links": [
       "94c79b8f52f0b6ba"
     ],
-    "x": 3535,
+    "x": 4375,
     "y": 780,
     "wires": [
       [
@@ -2222,7 +2310,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 3680,
+    "x": 4520,
     "y": 780,
     "wires": [
       [
@@ -2237,7 +2325,7 @@
     "g": "32b0e7dfab2726d5",
     "name": "Do not replay command from mqtt on startup",
     "info": "",
-    "x": 3970,
+    "x": 4810,
     "y": 780,
     "wires": []
   },
@@ -2250,7 +2338,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 3535,
+    "x": 4375,
     "y": 840,
     "wires": [
       [
@@ -2276,7 +2364,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3670,
+    "x": 4510,
     "y": 840,
     "wires": [
       [
@@ -2294,7 +2382,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 5155,
+    "x": 5995,
     "y": 840,
     "wires": []
   },
@@ -2339,7 +2427,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2950,
+    "x": 3790,
     "y": 780,
     "wires": [
       [
@@ -2356,7 +2444,7 @@
     "links": [
       "546f190f3ec0c90d"
     ],
-    "x": 2575,
+    "x": 3415,
     "y": 720,
     "wires": [
       [
@@ -2382,7 +2470,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2710,
+    "x": 3550,
     "y": 720,
     "wires": [
       [
@@ -2411,7 +2499,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3220,
+    "x": 4060,
     "y": 720,
     "wires": [
       [
@@ -2429,7 +2517,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 3355,
+    "x": 4195,
     "y": 720,
     "wires": []
   },
@@ -2437,11 +2525,11 @@
     "id": "72d6fffa4dada8c2",
     "type": "comment",
     "z": "b984eb4415408ed9",
-    "g": "f3fbbcf1b5165983",
+    "g": "068fb3ac81317e59",
     "name": "command / remote x",
     "info": "",
-    "x": 2650,
-    "y": 780,
+    "x": 3050,
+    "y": 800,
     "wires": []
   },
   {
@@ -2478,7 +2566,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2960,
+    "x": 3800,
     "y": 720,
     "wires": [
       [
@@ -2493,7 +2581,7 @@
     "g": "f3fbbcf1b5165983",
     "name": "payload: button 1 off = 10, button 1 on = 11, button 2 off = 20, button 2 on = 21, ...",
     "info": "",
-    "x": 2840,
+    "x": 3680,
     "y": 840,
     "wires": []
   },
@@ -2862,5 +2950,409 @@
     "x": 395,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "4125458fe3950d3d",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "3f9f8a0b4fa2c055",
+    "name": "rfxcom - THG - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 480,
+    "wires": [
+      [
+        "d8907bcd74db249f"
+      ]
+    ]
+  },
+  {
+    "id": "d8907bcd74db249f",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "3f9f8a0b4fa2c055",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "Oregon Scientific",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "THG",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "temperature",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "probe",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "20",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 480,
+    "wires": [
+      [
+        "5b6791e0c3031934"
+      ]
+    ]
+  },
+  {
+    "id": "5b6791e0c3031934",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "3f9f8a0b4fa2c055",
+    "name": "rfxcom - THG - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "7a5b0b5583ea7343",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "6e4f227cc28d0ae1",
+    "name": "rfxcom - SH4-90157 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 840,
+    "wires": [
+      [
+        "1b2d8f9617488c30"
+      ]
+    ]
+  },
+  {
+    "id": "1b2d8f9617488c30",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "6e4f227cc28d0ae1",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "Smartwaves",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "SH4-90157",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "motion",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "sensor",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 840,
+    "wires": [
+      [
+        "e7c8646d0179e346"
+      ]
+    ]
+  },
+  {
+    "id": "e7c8646d0179e346",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "6e4f227cc28d0ae1",
+    "name": "rfxcom - SH4-90157 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "7956edf72f807538",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "6e514e612809a95c",
+    "name": "rfxcom - DIO-54760 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 2975,
+    "y": 720,
+    "wires": [
+      [
+        "197354399802c0d6"
+      ]
+    ]
+  },
+  {
+    "id": "be033ed2f9099d29",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "6e514e612809a95c",
+    "name": "rfxcom - DIO-54760 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3235,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "2cd6d04618352d88",
+    "type": "link in",
+    "z": "b984eb4415408ed9",
+    "g": "fe22668bd12059fe",
+    "name": "rfxcom - DIO-54791 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 2975,
+    "y": 480,
+    "wires": [
+      [
+        "f0d61d7030f60516"
+      ]
+    ]
+  },
+  {
+    "id": "f0d61d7030f60516",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "fe22668bd12059fe",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "Chacon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "DIO-54791",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "remote",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3110,
+    "y": 480,
+    "wires": [
+      [
+        "4902a3b3378eb68c"
+      ]
+    ]
+  },
+  {
+    "id": "4902a3b3378eb68c",
+    "type": "link out",
+    "z": "b984eb4415408ed9",
+    "g": "fe22668bd12059fe",
+    "name": "rfxcom - DIO-54791 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 3235,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "197354399802c0d6",
+    "type": "change",
+    "z": "b984eb4415408ed9",
+    "g": "6e514e612809a95c",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "Chacon",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "DIO-54760",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "rfxcom",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "command",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "remote",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3110,
+    "y": 720,
+    "wires": [
+      [
+        "be033ed2f9099d29"
+      ]
+    ]
   }
 ]
