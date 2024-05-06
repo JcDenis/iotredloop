@@ -931,6 +931,95 @@
     "h": 82
   },
   {
+    "id": "b3a54f494cdd0908",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "name": "Legrand - 412015",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "af4ed7f5e6452fe2",
+      "8e3558d0fd29e787",
+      "f560c75cc0e86a48",
+      "4fcc72c14eaab8bb"
+    ],
+    "x": 68,
+    "y": 1733,
+    "w": 2254,
+    "h": 248
+  },
+  {
+    "id": "af4ed7f5e6452fe2",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b3a54f494cdd0908",
+    "name": "zigbee - 412015 - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "548e7018cac831bd",
+      "de267bb0a5ee01a3",
+      "96341058baa9083b",
+      "a26b411c2e416297",
+      "aca4e6e7d14bc594",
+      "e20cf17770949369"
+    ],
+    "x": 534,
+    "y": 1759,
+    "w": 962,
+    "h": 142
+  },
+  {
+    "id": "8e3558d0fd29e787",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b3a54f494cdd0908",
+    "name": "zigbee - 412015 - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "66467fdc455dc868",
+      "b3091e70cd5211b4",
+      "0d1a308fe2b59338",
+      "b1746f0094fd6091",
+      "a5360e4799f9e170"
+    ],
+    "x": 1594,
+    "y": 1759,
+    "w": 702,
+    "h": 82
+  },
+  {
+    "id": "f560c75cc0e86a48",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "b3a54f494cdd0908",
+    "name": "zigbee - 412015 - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ff3a40b127910051",
+      "e285295f66b2b90f",
+      "fbe235d0cb60d161"
+    ],
+    "x": 94,
+    "y": 1759,
+    "w": 342,
+    "h": 82
+  },
+  {
     "id": "19b13887fb6925d7",
     "type": "switch",
     "z": "0cd436e03cba5cb6",
@@ -6147,6 +6236,406 @@
     ],
     "x": 395,
     "y": 1500,
+    "wires": []
+  },
+  {
+    "id": "548e7018cac831bd",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "412015",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 1800,
+    "wires": [
+      [
+        "de267bb0a5ee01a3",
+        "a26b411c2e416297"
+      ]
+    ]
+  },
+  {
+    "id": "de267bb0a5ee01a3",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "photovoltaic* / power production*  / number / 0*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "msg.measurement?msg.measurement:'photovoltaic'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'power production'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "msg.default?msg.default:0",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1000,
+    "y": 1860,
+    "wires": [
+      [
+        "aca4e6e7d14bc594"
+      ]
+    ]
+  },
+  {
+    "id": "96341058baa9083b",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "zigbee - 412015 - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 1800,
+    "wires": [
+      [
+        "548e7018cac831bd"
+      ]
+    ]
+  },
+  {
+    "id": "a26b411c2e416297",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "brand: legrand / photovoltaic* / power production*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "legrand",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "msg.measurement?msg.measurement:'photovoltaic'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'power production'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 1800,
+    "wires": [
+      [
+        "aca4e6e7d14bc594"
+      ]
+    ]
+  },
+  {
+    "id": "aca4e6e7d14bc594",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1320,
+    "y": 1800,
+    "wires": [
+      [
+        "e20cf17770949369"
+      ]
+    ]
+  },
+  {
+    "id": "e20cf17770949369",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "af4ed7f5e6452fe2",
+    "name": "zigbee - 412015 - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1455,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "66467fdc455dc868",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "8e3558d0fd29e787",
+    "name": "photovoltaic*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.power",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2110,
+    "y": 1800,
+    "wires": [
+      [
+        "a5360e4799f9e170"
+      ]
+    ]
+  },
+  {
+    "id": "b3091e70cd5211b4",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "8e3558d0fd29e787",
+    "name": "zigbee -  412015 - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1635,
+    "y": 1800,
+    "wires": [
+      [
+        "0d1a308fe2b59338"
+      ]
+    ]
+  },
+  {
+    "id": "0d1a308fe2b59338",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "8e3558d0fd29e787",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "412015",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1770,
+    "y": 1800,
+    "wires": [
+      [
+        "b1746f0094fd6091"
+      ]
+    ]
+  },
+  {
+    "id": "b1746f0094fd6091",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "8e3558d0fd29e787",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "prefix",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1930,
+    "y": 1800,
+    "wires": [
+      [
+        "66467fdc455dc868"
+      ]
+    ]
+  },
+  {
+    "id": "a5360e4799f9e170",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "8e3558d0fd29e787",
+    "name": "zigbee - 412015 - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2255,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "ff3a40b127910051",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "f560c75cc0e86a48",
+    "name": "zigbee - 412015 - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 1800,
+    "wires": [
+      [
+        "e285295f66b2b90f"
+      ]
+    ]
+  },
+  {
+    "id": "e285295f66b2b90f",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "f560c75cc0e86a48",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "legrand",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "412015",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "photovoltaic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "power production",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 1800,
+    "wires": [
+      [
+        "fbe235d0cb60d161"
+      ]
+    ]
+  },
+  {
+    "id": "fbe235d0cb60d161",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "f560c75cc0e86a48",
+    "name": "zigbee - 412015 - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "4fcc72c14eaab8bb",
+    "type": "comment",
+    "z": "0cd436e03cba5cb6",
+    "g": "b3a54f494cdd0908",
+    "name": "photovoltaic / power production",
+    "info": "",
+    "x": 250,
+    "y": 1940,
     "wires": []
   }
 ]
