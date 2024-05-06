@@ -195,7 +195,7 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 1764,
+    "w": 1824,
     "h": 194
   },
   {
@@ -218,6 +218,48 @@
     "y": 19,
     "w": 342,
     "h": 82
+  },
+  {
+    "id": "c77a914a05a8229b",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "name": "Tuya - PJ-MGW1203",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "71fe9ef70302b7fe",
+      "f617e52e297c8ad2",
+      "874510c9886ca66e",
+      "4d1cd88e584eca79"
+    ],
+    "x": 68,
+    "y": 1433,
+    "w": 2094,
+    "h": 254
+  },
+  {
+    "id": "b3a54f494cdd0908",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "name": "Legrand - 412015",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "af4ed7f5e6452fe2",
+      "8e3558d0fd29e787",
+      "f560c75cc0e86a48",
+      "4fcc72c14eaab8bb"
+    ],
+    "x": 68,
+    "y": 1733,
+    "w": 2254,
+    "h": 248
   },
   {
     "id": "66948514053cd7ef",
@@ -686,31 +728,10 @@
       "3398dde44269eb08",
       "08f26275ef69e598"
     ],
-    "x": 1294,
+    "x": 1354,
     "y": 199,
     "w": 512,
     "h": 142
-  },
-  {
-    "id": "c77a914a05a8229b",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "name": "Tuya - PJ-MGW1203",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "71fe9ef70302b7fe",
-      "f617e52e297c8ad2",
-      "874510c9886ca66e",
-      "4d1cd88e584eca79"
-    ],
-    "x": 68,
-    "y": 1433,
-    "w": 2094,
-    "h": 254
   },
   {
     "id": "71fe9ef70302b7fe",
@@ -929,27 +950,6 @@
     "y": 1459,
     "w": 342,
     "h": 82
-  },
-  {
-    "id": "b3a54f494cdd0908",
-    "type": "group",
-    "z": "0cd436e03cba5cb6",
-    "name": "Legrand - 412015",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "af4ed7f5e6452fe2",
-      "8e3558d0fd29e787",
-      "f560c75cc0e86a48",
-      "4fcc72c14eaab8bb"
-    ],
-    "x": 68,
-    "y": 1733,
-    "w": 2254,
-    "h": 248
   },
   {
     "id": "af4ed7f5e6452fe2",
@@ -4838,7 +4838,7 @@
     "correl": "",
     "expiry": "",
     "broker": "8b2a4e4f622431e7",
-    "x": 1700,
+    "x": 1760,
     "y": 240,
     "wires": []
   },
@@ -4851,7 +4851,7 @@
     "links": [
       "89d2eebcaafb5013"
     ],
-    "x": 1335,
+    "x": 1395,
     "y": 240,
     "wires": [
       [
@@ -4871,7 +4871,7 @@
       "76a866f04ab291ef",
       "b2547f7ff4878848"
     ],
-    "x": 1625,
+    "x": 1685,
     "y": 300,
     "wires": []
   },
@@ -4894,7 +4894,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1490,
+    "x": 1550,
     "y": 240,
     "wires": [
       [

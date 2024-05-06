@@ -134,7 +134,7 @@
     ],
     "x": 68,
     "y": 3113,
-    "w": 1764,
+    "w": 1824,
     "h": 194
   },
   {
@@ -197,7 +197,7 @@
     ],
     "x": 88,
     "y": 3633,
-    "w": 1664,
+    "w": 1744,
     "h": 314
   },
   {
@@ -269,7 +269,7 @@
     ],
     "x": 94,
     "y": 2539,
-    "w": 652,
+    "w": 712,
     "h": 262,
     "info": "cron minute = every minutes from flow start\r\ncron hour = every hours from flow start\r\ncron day = every day at 3 am"
   },
@@ -515,7 +515,7 @@
     ],
     "x": 94,
     "y": 199,
-    "w": 792,
+    "w": 812,
     "h": 202
   },
   {
@@ -567,7 +567,7 @@
       "0f1e413815ecc824",
       "19a5c46ec6c71456"
     ],
-    "x": 1294,
+    "x": 1354,
     "y": 3139,
     "w": 512,
     "h": 142
@@ -618,6 +618,26 @@
     "y": 2839,
     "w": 352,
     "h": 142
+  },
+  {
+    "id": "1e45572f1b441732",
+    "type": "group",
+    "z": "ab51b1e8cad7b700",
+    "g": "3a98a00afc60d7cd",
+    "name": "",
+    "style": {
+      "stroke": "#001f60",
+      "fill": "#ffffff",
+      "label": true
+    },
+    "nodes": [
+      "abae3c836f2269b3",
+      "b96253f786c81415"
+    ],
+    "x": 88,
+    "y": 3393,
+    "w": 2124,
+    "h": 194
   },
   {
     "id": "d9548e9b1a2e6f36",
@@ -744,7 +764,7 @@
       "8f4503a19f2f639e",
       "b08802b0dbd9a58b"
     ],
-    "x": 754,
+    "x": 834,
     "y": 3659,
     "w": 972,
     "h": 262
@@ -816,30 +836,10 @@
       "9573e23ffd1bd3ec",
       "37838aa1f7d06a7b"
     ],
-    "x": 574,
+    "x": 594,
     "y": 3419,
     "w": 1592,
     "h": 142
-  },
-  {
-    "id": "1e45572f1b441732",
-    "type": "group",
-    "z": "ab51b1e8cad7b700",
-    "g": "3a98a00afc60d7cd",
-    "name": "",
-    "style": {
-      "stroke": "#001f60",
-      "fill": "#ffffff",
-      "label": true
-    },
-    "nodes": [
-      "abae3c836f2269b3",
-      "b96253f786c81415"
-    ],
-    "x": 88,
-    "y": 3393,
-    "w": 2104,
-    "h": 194
   },
   {
     "id": "69041daa92bc0a8b",
@@ -1942,7 +1942,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1360,
+    "x": 1440,
     "y": 3700,
     "wires": [
       [
@@ -1971,7 +1971,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1150,
+    "x": 1230,
     "y": 3760,
     "wires": [
       [
@@ -2016,7 +2016,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1170,
+    "x": 1250,
     "y": 3820,
     "wires": [
       [
@@ -2045,7 +2045,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 950,
+    "x": 1030,
     "y": 3880,
     "wires": [
       [
@@ -2077,7 +2077,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1600,
+    "x": 1680,
     "y": 3760,
     "wires": [
       []
@@ -2093,7 +2093,7 @@
     "links": [
       "bfa594bf1f876c92"
     ],
-    "x": 1335,
+    "x": 1415,
     "y": 3880,
     "wires": []
   },
@@ -2135,7 +2135,7 @@
       "22ef5d09e03d19e0",
       "e20cf17770949369"
     ],
-    "x": 795,
+    "x": 875,
     "y": 3880,
     "wires": [
       [
@@ -2466,7 +2466,7 @@
     "g": "a762a7a552cb9f03",
     "name": "every day at 12am",
     "info": "",
-    "x": 530,
+    "x": 590,
     "y": 2760,
     "wires": []
   },
@@ -2477,7 +2477,7 @@
     "g": "a762a7a552cb9f03",
     "name": "60 s after boot and every minute",
     "info": "",
-    "x": 570,
+    "x": 630,
     "y": 2580,
     "wires": []
   },
@@ -2488,7 +2488,7 @@
     "g": "a762a7a552cb9f03",
     "name": "60 s after boot and every hour",
     "info": "",
-    "x": 560,
+    "x": 620,
     "y": 2640,
     "wires": []
   },
@@ -2499,7 +2499,7 @@
     "g": "a762a7a552cb9f03",
     "name": "60 s after boot and every day at 3am",
     "info": "",
-    "x": 580,
+    "x": 640,
     "y": 2700,
     "wires": []
   },
@@ -2679,7 +2679,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1490,
+    "x": 1550,
     "y": 3180,
     "wires": [
       [
@@ -2700,7 +2700,7 @@
       "e942462a899825f8",
       "ff1a30fbddcaa9fd"
     ],
-    "x": 1635,
+    "x": 1695,
     "y": 3240,
     "wires": []
   },
@@ -2714,7 +2714,7 @@
       "e080152994978357",
       "c5465d5f64db4b45"
     ],
-    "x": 1335,
+    "x": 1395,
     "y": 3180,
     "wires": [
       [
@@ -2737,7 +2737,7 @@
     "correl": "",
     "expiry": "",
     "broker": "51fc92ba27d12eaa",
-    "x": 1700,
+    "x": 1760,
     "y": 3180,
     "wires": []
   },
@@ -5036,7 +5036,7 @@
     "g": "9ea365cc69a1f2bf",
     "name": "launch devices configuration cycle",
     "info": "",
-    "x": 620,
+    "x": 640,
     "y": 360,
     "wires": []
   },
@@ -5047,7 +5047,7 @@
     "g": "9ea365cc69a1f2bf",
     "name": "launch complete cycle",
     "info": "",
-    "x": 580,
+    "x": 600,
     "y": 300,
     "wires": []
   },
@@ -5058,7 +5058,7 @@
     "g": "9ea365cc69a1f2bf",
     "name": "reset all global variables and launch complete cycle",
     "info": "",
-    "x": 670,
+    "x": 690,
     "y": 240,
     "wires": []
   },
@@ -6016,7 +6016,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1990,
+    "x": 2010,
     "y": 3520,
     "wires": [
       []
@@ -6118,7 +6118,7 @@
       "4ad7402573722786",
       "fbe235d0cb60d161"
     ],
-    "x": 615,
+    "x": 635,
     "y": 3520,
     "wires": [
       [
@@ -6168,7 +6168,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 2010,
+    "x": 2030,
     "y": 3460,
     "wires": []
   },
@@ -6221,7 +6221,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 760,
+    "x": 780,
     "y": 3520,
     "wires": [
       [
@@ -6251,7 +6251,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 930,
+    "x": 950,
     "y": 3520,
     "wires": [
       [
@@ -6281,7 +6281,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1090,
+    "x": 1110,
     "y": 3520,
     "wires": [
       [
@@ -6311,7 +6311,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1280,
+    "x": 1300,
     "y": 3520,
     "wires": [
       [
@@ -6341,7 +6341,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1470,
+    "x": 1490,
     "y": 3520,
     "wires": [
       [
@@ -6371,7 +6371,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1790,
+    "x": 1810,
     "y": 3520,
     "wires": [
       [
@@ -6404,7 +6404,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1630,
+    "x": 1650,
     "y": 3520,
     "wires": [
       [
