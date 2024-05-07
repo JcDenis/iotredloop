@@ -235,11 +235,12 @@
       "e0b5e448c81dcca6",
       "6c4bed6b5d616836",
       "6ed2ba39d2ad3830",
-      "422e1dd2aab1ae7d"
+      "422e1dd2aab1ae7d",
+      "30ccf1e79a8c842a"
     ],
     "x": 94,
     "y": 1779,
-    "w": 2152,
+    "w": 2212,
     "h": 682
   },
   {
@@ -500,7 +501,8 @@
       "e035e232e2747fed",
       "e6e1bdcedd4890e9",
       "fc02e2aced7cc118",
-      "fd2f2860794605a9"
+      "fd2f2860794605a9",
+      "fb0afb89fb191395"
     ],
     "x": 135,
     "y": 480,
@@ -2171,7 +2173,7 @@
     "z": "1362a4b4f08f3d5b",
     "g": "4aa11d03f1b394a5",
     "name": "creator - boot entities",
-    "active": false,
+    "active": true,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -2231,7 +2233,7 @@
       "fdea9ff531a587a8",
       "1d9d8c969ccdf2be"
     ],
-    "x": 1735,
+    "x": 1895,
     "y": 1820,
     "wires": [
       [
@@ -2261,7 +2263,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 1690,
+    "x": 1850,
     "y": 1880,
     "wires": [
       [
@@ -2344,7 +2346,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1690,
     "y": 1940,
     "wires": [
       [
@@ -2369,7 +2371,7 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 1690,
+    "x": 1850,
     "y": 1940,
     "wires": [
       [
@@ -2438,7 +2440,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 2030,
+    "x": 2190,
     "y": 2000,
     "wires": [
       [
@@ -2466,6 +2468,13 @@
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "index",
+        "pt": "flow",
+        "to": "0",
+        "tot": "num"
       }
     ],
     "action": "",
@@ -2499,7 +2508,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 2050,
+    "x": 2210,
     "y": 1940,
     "wires": [
       [
@@ -2519,7 +2528,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 350,
+    "x": 370,
     "y": 2000,
     "wires": [
       [
@@ -2547,7 +2556,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
+    "x": 1690,
     "y": 2000,
     "wires": [
       [
@@ -2572,7 +2581,7 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 1690,
+    "x": 1850,
     "y": 2000,
     "wires": [
       [
@@ -2614,7 +2623,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1860,
+    "x": 2020,
     "y": 2000,
     "wires": [
       [
@@ -2638,7 +2647,7 @@
     "y": 2060,
     "wires": [
       [
-        "422e1dd2aab1ae7d"
+        "30ccf1e79a8c842a"
       ]
     ]
   },
@@ -2651,9 +2660,16 @@
     "rules": [
       {
         "t": "set",
-        "p": "delete.md5[msg.parts.index]",
+        "p": "delete_md5",
+        "pt": "msg",
+        "to": "delete.md5",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "delete.md5",
         "pt": "flow",
-        "to": "{\t    'label':msg.trans&' '&msg.measurement&' / '&msg.payload.brand&' '&msg.payload.model&' / '&msg.payload.protocol&' '&msg.payload.id,\t    'value':msg.md5\t}",
+        "to": "$append(msg.delete_md5,{\t    'label':msg.trans&' '&msg.measurement&' / '&msg.payload.brand&' '&msg.payload.model&' / '&msg.payload.protocol&' '&msg.payload.id,\t    'value':msg.md5\t})",
         "tot": "jsonata"
       }
     ],
@@ -2662,8 +2678,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
-    "y": 2060,
+    "x": 1690,
+    "y": 2120,
     "wires": [
       [
         "ee4607a9074fe742"
@@ -2704,7 +2720,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1860,
+    "x": 2020,
     "y": 2060,
     "wires": [
       [
@@ -2733,7 +2749,7 @@
     "reduceInit": "",
     "reduceInitType": "",
     "reduceFixup": "",
-    "x": 1690,
+    "x": 1850,
     "y": 2060,
     "wires": [
       [
@@ -2766,7 +2782,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 2030,
+    "x": 2190,
     "y": 2060,
     "wires": [
       [
@@ -2835,7 +2851,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1870,
+    "x": 2030,
     "y": 1880,
     "wires": [
       [
@@ -2864,7 +2880,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 2050,
+    "x": 2210,
     "y": 1880,
     "wires": [
       [
@@ -2894,7 +2910,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 2050,
+    "x": 2210,
     "y": 2120,
     "wires": [
       [
@@ -2936,7 +2952,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1860,
+    "x": 2020,
     "y": 2120,
     "wires": [
       [
@@ -3054,8 +3070,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 770,
-    "y": 2060,
+    "x": 930,
+    "y": 2120,
     "wires": [
       [
         "b40e12a183af125b"
@@ -3073,8 +3089,8 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 960,
-    "y": 2060,
+    "x": 1120,
+    "y": 2120,
     "wires": [
       [
         "b9356dbf87d93bc5"
@@ -3108,8 +3124,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1150,
-    "y": 2060,
+    "x": 1310,
+    "y": 2120,
     "wires": [
       [
         "b85e06a6ce56c496"
@@ -3127,8 +3143,8 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 1340,
-    "y": 2060,
+    "x": 1500,
+    "y": 2120,
     "wires": [
       [
         "21beb0360e865da3"
@@ -5120,8 +5136,8 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 560,
-    "y": 2060,
+    "x": 720,
+    "y": 2120,
     "wires": [
       [
         "662c49c88089f00f"
@@ -5156,7 +5172,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "entity_striing",
+        "p": "entity_string",
         "pt": "msg",
         "to": "msg.entity_string.model&'.'&msg.entity_string.id&'.'&msg.entity_string.option",
         "tot": "jsonata"
@@ -5185,5 +5201,37 @@
     "x": 680,
     "y": 2900,
     "wires": []
+  },
+  {
+    "id": "30ccf1e79a8c842a",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d163a291da272610",
+    "name": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "object",
+        "vt": "object"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 510,
+    "y": 2060,
+    "wires": [
+      [
+        "422e1dd2aab1ae7d"
+      ],
+      [
+        "ee4607a9074fe742"
+      ]
+    ]
   }
 ]
