@@ -11,7 +11,7 @@
     "id": "f147598b1853465c",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Schneider Electric - S530559",
+    "name": "schneider electric - S530559",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -33,7 +33,7 @@
     "id": "610900e2bc688c66",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Aqara - MCCGQ11LM",
+    "name": "aqara - MCCGQ11LM",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -54,7 +54,7 @@
     "id": "1a4c91d77f5e3f12",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Sonoff - SNZB-02",
+    "name": "sonoff - SNZB-02",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -75,7 +75,7 @@
     "id": "a8afdde5118f03bd",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Legrand - 412171, 412170",
+    "name": "legrand - 412171, 412170",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -97,7 +97,7 @@
     "id": "7ca9480926549d67",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Sonoff - ZBMINIL2",
+    "name": "sonoff - ZBMINIL2",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -119,7 +119,7 @@
     "id": "85cf36fc3802a3fe",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Sonoff - SNZB-01P",
+    "name": "sonoff - SNZB-01P",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -140,7 +140,7 @@
     "id": "b475a609b6f58891",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Sonoff - SNZB-03",
+    "name": "sonoff - SNZB-03",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -236,15 +236,15 @@
       "4d1cd88e584eca79"
     ],
     "x": 68,
-    "y": 1433,
-    "w": 2094,
+    "y": 1673,
+    "w": 2154,
     "h": 254
   },
   {
     "id": "b3a54f494cdd0908",
     "type": "group",
     "z": "0cd436e03cba5cb6",
-    "name": "Legrand - 412015",
+    "name": "legrand - 412015",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -257,9 +257,9 @@
       "4fcc72c14eaab8bb"
     ],
     "x": 68,
-    "y": 1733,
-    "w": 2254,
-    "h": 248
+    "y": 1433,
+    "w": 2174,
+    "h": 194
   },
   {
     "id": "66948514053cd7ef",
@@ -754,8 +754,8 @@
       "13199e203383201a"
     ],
     "x": 534,
-    "y": 1459,
-    "w": 822,
+    "y": 1699,
+    "w": 882,
     "h": 202
   },
   {
@@ -777,8 +777,8 @@
       "f60ae365fb4e2024",
       "81d1299edeeec856"
     ],
-    "x": 1454,
-    "y": 1459,
+    "x": 1514,
+    "y": 1699,
     "w": 682,
     "h": 142
   },
@@ -947,7 +947,7 @@
       "f26c156abc555775"
     ],
     "x": 94,
-    "y": 1459,
+    "y": 1699,
     "w": 342,
     "h": 82
   },
@@ -971,8 +971,8 @@
       "e20cf17770949369"
     ],
     "x": 534,
-    "y": 1759,
-    "w": 962,
+    "y": 1459,
+    "w": 902,
     "h": 142
   },
   {
@@ -993,9 +993,9 @@
       "b1746f0094fd6091",
       "a5360e4799f9e170"
     ],
-    "x": 1594,
-    "y": 1759,
-    "w": 702,
+    "x": 1534,
+    "y": 1459,
+    "w": 682,
     "h": 82
   },
   {
@@ -1015,7 +1015,7 @@
       "fbe235d0cb60d161"
     ],
     "x": 94,
-    "y": 1759,
+    "y": 1459,
     "w": 342,
     "h": 82
   },
@@ -1217,7 +1217,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "66948514053cd7ef",
-    "name": "brand: schneider eletric /. outlet / socket",
+    "name": "brand: schneider eletric /.outlet* / socket*",
     "rules": [
       {
         "t": "set",
@@ -1318,14 +1318,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "payload.state",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "msg.payload='ON'",
+        "to": "msg.payload.state='ON'",
         "tot": "jsonata"
       }
     ],
@@ -1607,13 +1600,6 @@
       },
       {
         "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "msg.field?msg.field:'door'",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.battery",
@@ -1642,30 +1628,9 @@
     "rules": [
       {
         "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "aperture",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "msg.field?msg.field:'door'",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "payload.contact",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "$boolean(msg.payload)=false",
+        "to": "$boolean(msg.payload.contact)=false",
         "tot": "jsonata"
       }
     ],
@@ -1956,7 +1921,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "ee13e249bc8f7cb8",
-    "name": "brand: sonoff / aperture / door*",
+    "name": "brand: aqara / aperture / door*",
     "rules": [
       {
         "t": "set",
@@ -2013,20 +1978,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "temperature",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.temperature",
@@ -2062,13 +2013,6 @@
       },
       {
         "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.humidity",
@@ -2100,13 +2044,6 @@
         "p": "measurement",
         "pt": "msg",
         "to": "battery",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
         "tot": "str"
       },
       {
@@ -2813,14 +2750,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "payload.state",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "msg.payload='ON'",
+        "to": "msg.payload.state='ON'",
         "tot": "jsonata"
       }
     ],
@@ -3351,14 +3281,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "payload.state",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "msg.payload='ON'",
+        "to": "msg.payload.state='ON'",
         "tot": "jsonata"
       }
     ],
@@ -4196,13 +4119,6 @@
       },
       {
         "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "msg.field?msg.field:'sensor'",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.battery",
@@ -4229,20 +4145,6 @@
     "g": "19780ef67d75fab4",
     "name": "motion",
     "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "motion",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "msg.field?msg.field:'sensor'",
-        "tot": "jsonata"
-      },
       {
         "t": "set",
         "p": "payload",
@@ -4986,7 +4888,7 @@
     "repair": false,
     "outputs": 1,
     "x": 710,
-    "y": 1500,
+    "y": 1740,
     "wires": [
       [
         "ac0a600ca52f9c3e",
@@ -5000,7 +4902,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "71fe9ef70302b7fe",
-    "name": "power / torus* / number / 0",
+    "name": "power / electric meter* / number / 0",
     "rules": [
       {
         "t": "set",
@@ -5013,7 +4915,7 @@
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "msg.field?msg.field:'torus'",
+        "to": "msg.field?msg.field:'electric meter'",
         "tot": "jsonata"
       },
       {
@@ -5036,8 +4938,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 940,
-    "y": 1560,
+    "x": 960,
+    "y": 1800,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -5054,7 +4956,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 1500,
+    "y": 1740,
     "wires": [
       [
         "dfbbe93ed61d87b2"
@@ -5066,7 +4968,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "71fe9ef70302b7fe",
-    "name": "brand: tuya /. power / torus*",
+    "name": "brand: tuya /. power / electric meter*",
     "rules": [
       {
         "t": "set",
@@ -5086,7 +4988,7 @@
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "msg.field?msg.field:'torus'",
+        "to": "msg.field?msg.field:'electric meter'",
         "tot": "jsonata"
       }
     ],
@@ -5095,8 +4997,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 940,
-    "y": 1500,
+    "x": 970,
+    "y": 1740,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -5123,8 +5025,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1180,
-    "y": 1500,
+    "x": 1240,
+    "y": 1740,
     "wires": [
       [
         "22ef5d09e03d19e0"
@@ -5141,8 +5043,8 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1315,
-    "y": 1500,
+    "x": 1375,
+    "y": 1740,
     "wires": []
   },
   {
@@ -5150,10 +5052,10 @@
     "type": "comment",
     "z": "0cd436e03cba5cb6",
     "g": "c77a914a05a8229b",
-    "name": "power / torus",
+    "name": "power / electric meter",
     "info": "",
-    "x": 190,
-    "y": 1580,
+    "x": 220,
+    "y": 1820,
     "wires": []
   },
   {
@@ -5183,8 +5085,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1950,
-    "y": 1500,
+    "x": 2010,
+    "y": 1740,
     "wires": [
       [
         "81d1299edeeec856"
@@ -5218,8 +5120,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1960,
-    "y": 1560,
+    "x": 2020,
+    "y": 1800,
     "wires": [
       [
         "81d1299edeeec856"
@@ -5235,8 +5137,8 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1495,
-    "y": 1500,
+    "x": 1555,
+    "y": 1740,
     "wires": [
       [
         "a26d34138e9e5ac9"
@@ -5261,8 +5163,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1630,
-    "y": 1500,
+    "x": 1690,
+    "y": 1740,
     "wires": [
       [
         "f60ae365fb4e2024"
@@ -5287,8 +5189,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1790,
-    "y": 1500,
+    "x": 1850,
+    "y": 1740,
     "wires": [
       [
         "6bf24cfdfefb1bb7",
@@ -5306,8 +5208,8 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 2095,
-    "y": 1500,
+    "x": 2155,
+    "y": 1740,
     "wires": []
   },
   {
@@ -5315,7 +5217,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "71fe9ef70302b7fe",
-    "name": "current / torus* / number / 0",
+    "name": "current / electric meter* / number / 0",
     "rules": [
       {
         "t": "set",
@@ -5328,7 +5230,7 @@
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "msg.field?msg.field:'torus'",
+        "to": "msg.field?msg.field:'electric meter'",
         "tot": "jsonata"
       },
       {
@@ -5351,8 +5253,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 940,
-    "y": 1620,
+    "x": 960,
+    "y": 1860,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -5465,7 +5367,7 @@
     "type": "link in",
     "z": "0cd436e03cba5cb6",
     "g": "37baa76cfd48b2fc",
-    "name": "Sonoff - SNZB-01P - model",
+    "name": "sonoff - SNZB-01P - model",
     "links": [
       "9cb906bf8066d37e"
     ],
@@ -5552,7 +5454,7 @@
     "type": "link out",
     "z": "0cd436e03cba5cb6",
     "g": "37baa76cfd48b2fc",
-    "name": "Sonoff - SNZB-01P - model",
+    "name": "sonoff - SNZB-01P - model",
     "mode": "link",
     "links": [
       "94aa726ce8973d2c"
@@ -5566,7 +5468,7 @@
     "type": "link in",
     "z": "0cd436e03cba5cb6",
     "g": "2c8e632985722562",
-    "name": "Sonoff - SNZB-03 - model",
+    "name": "sonoff - SNZB-03 - model",
     "links": [
       "9cb906bf8066d37e"
     ],
@@ -5653,7 +5555,7 @@
     "type": "link out",
     "z": "0cd436e03cba5cb6",
     "g": "2c8e632985722562",
-    "name": "Sonoff - SNZB-03 - model",
+    "name": "sonoff - SNZB-03 - model",
     "mode": "link",
     "links": [
       "94aa726ce8973d2c"
@@ -5667,7 +5569,7 @@
     "type": "link in",
     "z": "0cd436e03cba5cb6",
     "g": "3fd562a0e54bacd1",
-    "name": "Sonoff - SNZB-02 - model",
+    "name": "sonoff - SNZB-02 - model",
     "links": [
       "9cb906bf8066d37e"
     ],
@@ -5754,7 +5656,7 @@
     "type": "link out",
     "z": "0cd436e03cba5cb6",
     "g": "3fd562a0e54bacd1",
-    "name": "Sonoff - SNZB-03 - model",
+    "name": "sonoff - SNZB-03 - model",
     "mode": "link",
     "links": [
       "94aa726ce8973d2c"
@@ -5791,7 +5693,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "Schneider Electric",
+        "to": "schneider electric",
         "tot": "str"
       },
       {
@@ -6147,7 +6049,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 1500,
+    "y": 1740,
     "wires": [
       [
         "9ea62fd7b38d5c2a"
@@ -6193,7 +6095,7 @@
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "torus",
+        "to": "electric meter",
         "tot": "str"
       },
       {
@@ -6217,7 +6119,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1500,
+    "y": 1740,
     "wires": [
       [
         "f26c156abc555775"
@@ -6235,7 +6137,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 1500,
+    "y": 1740,
     "wires": []
   },
   {
@@ -6257,7 +6159,7 @@
     "repair": false,
     "outputs": 1,
     "x": 710,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "de267bb0a5ee01a3",
@@ -6270,20 +6172,20 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "af4ed7f5e6452fe2",
-    "name": "photovoltaic* / power production*  / number / 0*",
+    "name": "power / electric meter*  / number / 0*",
     "rules": [
       {
         "t": "set",
         "p": "measurement",
         "pt": "msg",
-        "to": "msg.measurement?msg.measurement:'photovoltaic'",
-        "tot": "jsonata"
+        "to": "power",
+        "tot": "str"
       },
       {
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "msg.field?msg.field:'power production'",
+        "to": "msg.field?msg.field:'electric meter'",
         "tot": "jsonata"
       },
       {
@@ -6306,8 +6208,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1000,
-    "y": 1860,
+    "x": 960,
+    "y": 1560,
     "wires": [
       [
         "aca4e6e7d14bc594"
@@ -6324,7 +6226,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "548e7018cac831bd"
@@ -6336,7 +6238,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "af4ed7f5e6452fe2",
-    "name": "brand: legrand / photovoltaic* / power production*",
+    "name": "brand: legrand / power / electric meter*",
     "rules": [
       {
         "t": "set",
@@ -6349,14 +6251,14 @@
         "t": "set",
         "p": "measurement",
         "pt": "msg",
-        "to": "msg.measurement?msg.measurement:'photovoltaic'",
-        "tot": "jsonata"
+        "to": "power",
+        "tot": "str"
       },
       {
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "msg.field?msg.field:'power production'",
+        "to": "msg.field?msg.field:'electric meter'",
         "tot": "jsonata"
       }
     ],
@@ -6365,8 +6267,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1010,
-    "y": 1800,
+    "x": 970,
+    "y": 1500,
     "wires": [
       [
         "aca4e6e7d14bc594"
@@ -6393,8 +6295,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1320,
-    "y": 1800,
+    "x": 1260,
+    "y": 1500,
     "wires": [
       [
         "e20cf17770949369"
@@ -6411,8 +6313,8 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1455,
-    "y": 1800,
+    "x": 1395,
+    "y": 1500,
     "wires": []
   },
   {
@@ -6420,7 +6322,7 @@
     "type": "change",
     "z": "0cd436e03cba5cb6",
     "g": "8e3558d0fd29e787",
-    "name": "photovoltaic*",
+    "name": "power*",
     "rules": [
       {
         "t": "set",
@@ -6435,8 +6337,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2110,
-    "y": 1800,
+    "x": 2040,
+    "y": 1500,
     "wires": [
       [
         "a5360e4799f9e170"
@@ -6452,8 +6354,8 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1635,
-    "y": 1800,
+    "x": 1575,
+    "y": 1500,
     "wires": [
       [
         "0d1a308fe2b59338"
@@ -6478,8 +6380,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1770,
-    "y": 1800,
+    "x": 1710,
+    "y": 1500,
     "wires": [
       [
         "b1746f0094fd6091"
@@ -6504,8 +6406,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1930,
-    "y": 1800,
+    "x": 1870,
+    "y": 1500,
     "wires": [
       [
         "66467fdc455dc868"
@@ -6522,8 +6424,8 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 2255,
-    "y": 1800,
+    "x": 2175,
+    "y": 1500,
     "wires": []
   },
   {
@@ -6536,7 +6438,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "e285295f66b2b90f"
@@ -6575,14 +6477,14 @@
         "t": "set",
         "p": "measurement",
         "pt": "msg",
-        "to": "photovoltaic",
+        "to": "power",
         "tot": "str"
       },
       {
         "t": "set",
         "p": "field",
         "pt": "msg",
-        "to": "power production",
+        "to": "electric meter",
         "tot": "str"
       },
       {
@@ -6606,7 +6508,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "fbe235d0cb60d161"
@@ -6624,7 +6526,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 1800,
+    "y": 1500,
     "wires": []
   },
   {
@@ -6632,10 +6534,10 @@
     "type": "comment",
     "z": "0cd436e03cba5cb6",
     "g": "b3a54f494cdd0908",
-    "name": "photovoltaic / power production",
+    "name": "power / electric meter",
     "info": "",
-    "x": 250,
-    "y": 1940,
+    "x": 220,
+    "y": 1580,
     "wires": []
   }
 ]
