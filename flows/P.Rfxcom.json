@@ -11,7 +11,7 @@
     "id": "8ff8200fb98a6c9f",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "Oregon Scientific - THG",
+    "name": "oregon scientific - THG",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -25,14 +25,14 @@
     ],
     "x": 68,
     "y": 413,
-    "w": 2154,
+    "w": 2214,
     "h": 314
   },
   {
     "id": "d6b920b99b611bdf",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "Smartwaves - SH4-90157",
+    "name": "smartwaves - SH4-90157",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -53,7 +53,7 @@
     "id": "9764355bf8f8caf8",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "Chacon - DIO-54791",
+    "name": "chacon - DIO-54791",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -74,7 +74,7 @@
     "id": "068fb3ac81317e59",
     "type": "group",
     "z": "b984eb4415408ed9",
-    "name": "Chacon - DIO-54780",
+    "name": "chacon - DIO-54780",
     "style": {
       "fill": "#777777",
       "fill-opacity": "0.05",
@@ -176,7 +176,7 @@
     ],
     "x": 534,
     "y": 439,
-    "w": 862,
+    "w": 922,
     "h": 262
   },
   {
@@ -199,7 +199,7 @@
       "bc5e8eb38502426b",
       "0a2fa3c2042de32b"
     ],
-    "x": 1494,
+    "x": 1554,
     "y": 439,
     "w": 702,
     "h": 202
@@ -699,13 +699,13 @@
     "type": "change",
     "z": "b984eb4415408ed9",
     "g": "c9bfd06d94c778b0",
-    "name": "brand: oregon / temperature / probe",
+    "name": "brand: oregon scientific / temperature / probe",
     "rules": [
       {
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "oregon",
+        "to": "oregon scientific",
         "tot": "str"
       },
       {
@@ -728,7 +728,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 960,
+    "x": 990,
     "y": 480,
     "wires": [
       [
@@ -756,7 +756,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1220,
+    "x": 1280,
     "y": 480,
     "wires": [
       [
@@ -774,7 +774,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1355,
+    "x": 1415,
     "y": 480,
     "wires": []
   },
@@ -798,20 +798,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "temperature",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.temperature",
@@ -823,7 +809,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2010,
+    "x": 2070,
     "y": 480,
     "wires": [
       [
@@ -847,13 +833,6 @@
       },
       {
         "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "payload.humidity",
@@ -865,7 +844,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2000,
+    "x": 2060,
     "y": 540,
     "wires": [
       [
@@ -889,23 +868,9 @@
       },
       {
         "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "payload.batteryLevel",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "msg.payload*10",
+        "to": "msg.payload.batteryLevel*10",
         "tot": "jsonata"
       }
     ],
@@ -914,7 +879,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1990,
+    "x": 2050,
     "y": 600,
     "wires": [
       [
@@ -931,7 +896,7 @@
     "links": [
       "24058eec92534b27"
     ],
-    "x": 1535,
+    "x": 1595,
     "y": 480,
     "wires": [
       [
@@ -957,7 +922,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1670,
+    "x": 1730,
     "y": 480,
     "wires": [
       [
@@ -983,7 +948,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1830,
+    "x": 1890,
     "y": 480,
     "wires": [
       [
@@ -1003,7 +968,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 2155,
+    "x": 2215,
     "y": 480,
     "wires": []
   },
@@ -1200,14 +1165,14 @@
     "type": "change",
     "z": "b984eb4415408ed9",
     "g": "648c017fa768efff",
-    "name": "motion*",
+    "name": "motion",
     "rules": [],
     "action": "",
     "property": "",
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2660,
+    "x": 2650,
     "y": 840,
     "wires": [
       [
@@ -1412,13 +1377,6 @@
     "g": "ac4875632c3c08e1",
     "name": "command",
     "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "command",
-        "tot": "str"
-      },
       {
         "t": "set",
         "p": "repeat",
@@ -1911,13 +1869,6 @@
     "g": "32b0e7dfab2726d5",
     "name": "command",
     "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "command",
-        "tot": "str"
-      },
       {
         "t": "set",
         "p": "payload",
@@ -2979,7 +2930,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "Oregon Scientific",
+        "to": "oregon scientific",
         "tot": "str"
       },
       {
@@ -3080,7 +3031,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "Smartwaves",
+        "to": "smartwaves",
         "tot": "str"
       },
       {
@@ -3212,7 +3163,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "Chacon",
+        "to": "chacon",
         "tot": "str"
       },
       {
@@ -3296,7 +3247,7 @@
         "t": "set",
         "p": "brand",
         "pt": "msg",
-        "to": "Chacon",
+        "to": "chacon",
         "tot": "str"
       },
       {
