@@ -1281,7 +1281,7 @@
     "rules": [
       {
         "t": "eq",
-        "v": "home/linky/tariff",
+        "v": "home/tariff/electric meter",
         "vt": "str"
       },
       {

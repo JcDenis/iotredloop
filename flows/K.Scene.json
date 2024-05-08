@@ -295,7 +295,8 @@
       "de0a0d586916ab0a",
       "70900b24b581bb03",
       "ed10eaa200be8111",
-      "97c76b46acec597a"
+      "97c76b46acec597a",
+      "2d7460e83e45f6fe"
     ],
     "x": 94,
     "y": 1699,
@@ -3514,7 +3515,7 @@
     "repair": false,
     "outputs": 2,
     "x": 790,
-    "y": 1860,
+    "y": 1920,
     "wires": [
       [
         "777caf84fbc17ac4"
@@ -3545,13 +3546,11 @@
       },
       {
         "t": "eq",
-        "v": "tariff",
+        "v": "cumulus",
         "vt": "str"
       },
       {
-        "t": "eq",
-        "v": "cumulus",
-        "vt": "str"
+        "t": "else"
       }
     ],
     "checkall": "false",
@@ -3567,10 +3566,10 @@
         "627447b0ec972fad"
       ],
       [
-        "f223833693840d74"
+        "cadd4b3e31abda90"
       ],
       [
-        "cadd4b3e31abda90"
+        "2d7460e83e45f6fe"
       ]
     ]
   },
@@ -4343,6 +4342,32 @@
     "wires": [
       [
         "5f43398278d755b7"
+      ]
+    ]
+  },
+  {
+    "id": "2d7460e83e45f6fe",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "48278b1e56c6d7ab",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "tariff",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 600,
+    "y": 1920,
+    "wires": [
+      [
+        "f223833693840d74"
       ]
     ]
   }
