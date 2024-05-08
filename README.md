@@ -24,6 +24,7 @@ Flows are written under Node-red v3.1.9 with following nodes packages :
 * [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb) 0.7.0
 * [node-red-contrib-credentials](https://flows.nodered.org/node/node-red-contrib-credentials) 0.2.3
 * [node-red-node-base64](https://flows.nodered.org/node/node-red-node-base64) 0.3.0
+* [node-red-contrib-md5](https://flows.nodered.org/nodenode-red-contrib-md5) 1.0.4
 
 It additionnaly uses some Telegram, Proxmox, Unifi, Nextcloud (agenda) and Amazon Alexa stuff.
 
