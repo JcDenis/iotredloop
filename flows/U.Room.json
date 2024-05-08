@@ -1813,14 +1813,14 @@
         "t": "set",
         "p": "room",
         "pt": "flow",
-        "to": "home",
+        "to": "",
         "tot": "str"
       },
       {
         "t": "set",
         "p": "room",
         "pt": "msg",
-        "to": "home",
+        "to": "",
         "tot": "str"
       }
     ],
