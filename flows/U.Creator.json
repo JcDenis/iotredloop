@@ -145,7 +145,8 @@
       "c19a4a024ab45653",
       "868f82b1a5ca2a85",
       "f5b6bba2551b5bec",
-      "28026a2ce29f6d72"
+      "28026a2ce29f6d72",
+      "be0fb9a04ea16004"
     ],
     "x": 94,
     "y": 739,
@@ -645,9 +646,9 @@
       },
       {
         "t": "set",
-        "p": "options",
+        "p": "options[0]",
         "pt": "msg",
-        "to": "['-','-']",
+        "to": "{'label':'select','value':''}",
         "tot": "jsonata"
       },
       {
@@ -4775,11 +4776,11 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1350,
+    "x": 1150,
     "y": 1260,
     "wires": [
       [
-        "f5b6bba2551b5bec"
+        "be0fb9a04ea16004"
       ],
       [
         "4ca6bf4176ebe985"
@@ -5211,6 +5212,53 @@
       ],
       [
         "ee4607a9074fe742"
+      ]
+    ]
+  },
+  {
+    "id": "be0fb9a04ea16004",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "7a3b686f86cb9beb",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "[{'label':'high level','value':true},{'label':'low level','value':false}]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      },
+      {
+        "t": "delete",
+        "p": "field",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1340,
+    "y": 1260,
+    "wires": [
+      [
+        "f5b6bba2551b5bec"
       ]
     ]
   }

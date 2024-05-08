@@ -3565,7 +3565,7 @@
     "repeat": "300",
     "crontab": "",
     "once": true,
-    "onceDelay": "30",
+    "onceDelay": "5",
     "topic": "",
     "payload": "",
     "payloadType": "str",
