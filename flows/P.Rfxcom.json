@@ -3053,7 +3053,7 @@
         "p": "measurement",
         "pt": "msg",
         "to": "motion",
-        "tot": "jsonata"
+        "tot": "str"
       },
       {
         "t": "set",
@@ -3185,7 +3185,7 @@
         "p": "measurement",
         "pt": "msg",
         "to": "command",
-        "tot": "msg"
+        "tot": "str"
       },
       {
         "t": "set",

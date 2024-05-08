@@ -145,7 +145,6 @@
       "c19a4a024ab45653",
       "868f82b1a5ca2a85",
       "f5b6bba2551b5bec",
-      "26a056a88ea18afb",
       "28026a2ce29f6d72"
     ],
     "x": 94,
@@ -2173,7 +2172,7 @@
     "z": "1362a4b4f08f3d5b",
     "g": "4aa11d03f1b394a5",
     "name": "creator - boot entities",
-    "active": true,
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -4914,24 +4913,6 @@
     ]
   },
   {
-    "id": "26a056a88ea18afb",
-    "type": "debug",
-    "z": "1362a4b4f08f3d5b",
-    "g": "7a3b686f86cb9beb",
-    "name": "debug 1",
-    "active": true,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 460,
-    "y": 1680,
-    "wires": []
-  },
-  {
     "id": "a327bc0ce37018cf",
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
@@ -5062,8 +5043,7 @@
     "y": 1620,
     "wires": [
       [
-        "b09d639af149c549",
-        "26a056a88ea18afb"
+        "b09d639af149c549"
       ]
     ]
   },

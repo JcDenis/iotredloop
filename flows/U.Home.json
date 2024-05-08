@@ -45,7 +45,7 @@
       "32eb12f106b8c786"
     ],
     "x": 1054,
-    "y": 19,
+    "y": 139,
     "w": 492,
     "h": 82
   },
@@ -197,6 +197,28 @@
     "h": 82
   },
   {
+    "id": "2a1bd2a4837e01f7",
+    "type": "group",
+    "z": "e19f53e3dc7ab928",
+    "name": "home - ui select room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#6f2fa0"
+    },
+    "nodes": [
+      "601b5a75c014b306",
+      "29f190c009d9bd2b",
+      "6877b109cf50132e",
+      "fc901a06715c2d2a"
+    ],
+    "x": 1054,
+    "y": 19,
+    "w": 562,
+    "h": 82
+  },
+  {
     "id": "d210ac6cc3e866c0",
     "type": "change",
     "z": "e19f53e3dc7ab928",
@@ -263,9 +285,8 @@
     "name": "home - bucket",
     "mode": "link",
     "links": [
+      "2e7bb0e6e6079d56",
       "ab6d3d1be0d9ea74",
-      "ec3cc0db88098e5c",
-      "15d5a5183a81d250",
       "ce3cbb4ae72bbc14"
     ],
     "x": 395,
@@ -290,7 +311,7 @@
     "className": "",
     "name": "",
     "x": 1430,
-    "y": 60,
+    "y": 180,
     "wires": []
   },
   {
@@ -312,7 +333,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1230,
-    "y": 60,
+    "y": 180,
     "wires": [
       [
         "d1f40d903ba49ae7"
@@ -334,7 +355,7 @@
       "1d9d8c969ccdf2be"
     ],
     "x": 1095,
-    "y": 60,
+    "y": 180,
     "wires": [
       [
         "c32288ec6571a37f"
@@ -803,6 +824,102 @@
     "wires": [
       [
         "6c11220b26097fc3"
+      ]
+    ]
+  },
+  {
+    "id": "601b5a75c014b306",
+    "type": "link out",
+    "z": "e19f53e3dc7ab928",
+    "g": "2a1bd2a4837e01f7",
+    "name": "home - ui select room",
+    "mode": "link",
+    "links": [
+      "1be6ca3c2b8615a2"
+    ],
+    "x": 1575,
+    "y": 60,
+    "wires": []
+  },
+  {
+    "id": "29f190c009d9bd2b",
+    "type": "link in",
+    "z": "e19f53e3dc7ab928",
+    "g": "2a1bd2a4837e01f7",
+    "name": "home - ui select room",
+    "links": [
+      "74172837e07ab80d"
+    ],
+    "x": 1095,
+    "y": 60,
+    "wires": [
+      [
+        "6877b109cf50132e"
+      ]
+    ]
+  },
+  {
+    "id": "6877b109cf50132e",
+    "type": "change",
+    "z": "e19f53e3dc7ab928",
+    "g": "2a1bd2a4837e01f7",
+    "name": "enabled button",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "enabled",
+        "pt": "msg",
+        "to": "msg.payload != msg.room",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 60,
+    "wires": [
+      [
+        "fc901a06715c2d2a"
+      ]
+    ]
+  },
+  {
+    "id": "fc901a06715c2d2a",
+    "type": "ui-button",
+    "z": "e19f53e3dc7ab928",
+    "g": "2a1bd2a4837e01f7",
+    "group": "36396f5285df476c",
+    "name": "",
+    "label": "Maison",
+    "order": 2,
+    "width": "2",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "bucket",
+    "payloadType": "flow",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 1460,
+    "y": 60,
+    "wires": [
+      [
+        "601b5a75c014b306"
       ]
     ]
   }

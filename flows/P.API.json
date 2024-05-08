@@ -73,6 +73,29 @@
     "h": 82
   },
   {
+    "id": "96eb2a79eb4c26b2",
+    "type": "group",
+    "z": "f125f568d4e332ee",
+    "name": "api - ecu-c - device",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2a395b7046ce9a55",
+      "e3693344db474a0a",
+      "709f263740a61967",
+      "c2f0571e97f072d9",
+      "a839571a87dd2aa6",
+      "97176af7973174dd"
+    ],
+    "x": 68,
+    "y": 1253,
+    "w": 5184,
+    "h": 374
+  },
+  {
     "id": "636790a6de6bdeca",
     "type": "group",
     "z": "f125f568d4e332ee",
@@ -273,29 +296,6 @@
     "y": 739,
     "w": 782,
     "h": 262
-  },
-  {
-    "id": "96eb2a79eb4c26b2",
-    "type": "group",
-    "z": "f125f568d4e332ee",
-    "name": "api - ecu-c - device",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "2a395b7046ce9a55",
-      "e3693344db474a0a",
-      "709f263740a61967",
-      "c2f0571e97f072d9",
-      "a839571a87dd2aa6",
-      "97176af7973174dd"
-    ],
-    "x": 68,
-    "y": 1253,
-    "w": 5184,
-    "h": 374
   },
   {
     "id": "2a395b7046ce9a55",
@@ -3557,6 +3557,9 @@
         "p": "limit",
         "v": "$millis()-300000",
         "vt": "jsonata"
+      },
+      {
+        "p": "payload"
       }
     ],
     "repeat": "300",
@@ -3564,6 +3567,8 @@
     "once": true,
     "onceDelay": "30",
     "topic": "",
+    "payload": "",
+    "payloadType": "str",
     "x": 1680,
     "y": 1320,
     "wires": [
@@ -4246,17 +4251,17 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "metrics",
-        "tot": "global"
-      },
-      {
-        "t": "set",
         "p": "old_payload",
         "pt": "msg",
         "to": "payload",
         "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
       }
     ],
     "action": "",
