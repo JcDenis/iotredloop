@@ -489,7 +489,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'temperature':'temperature',\t    'humidity':'humidity',\t    'luminosity':'luminosity',\t    'power':'power',\t    'current':'current',\t    'outlet':'outlet',\t    'light':'light',\t    'battery':'battery',\t    'motion':'motion',\t    'airflow':'airflow',\t    'command':'command',\t    'photovoltaic':'photovoltaic',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air contidioner':'air conditioner',\t    'thermostat':'thermostat',\t    'tariff':'tariff',\t    'peak hours counter':'peak hours counter',\t    'off-peak hours counter':'off-peak hours counter',\t    'total hours counter':'total hours counter',\t    'smoke':'smoke',\t    'heat':'heat'\t}",
+        "to": "{\t    'temperature':'temperature',\t    'humidity':'humidity',\t    'luminosity':'luminosity',\t    'power':'power',\t    'current':'current',\t    'outlet':'outlet',\t    'light':'light',\t    'battery':'battery',\t    'motion':'motion',\t    'aperture':'aperture',\t    'airflow':'airflow',\t    'command':'command',\t    'photovoltaic':'photovoltaic',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air contidioner':'air conditioner',\t    'thermostat':'thermostat',\t    'tariff':'tariff',\t    'peak hours counter':'peak hours counter',\t    'off-peak hours counter':'off-peak hours counter',\t    'total hours counter':'total hours counter',\t    'smoke':'smoke',\t    'heat':'heat'\t}",
         "tot": "jsonata"
       },
       {
@@ -1016,7 +1016,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'temperature':'température',\t    'humidity':'humidité',\t    'luminosity':'luminosité',\t    'power':'puissance',\t    'current':'courant',\t    'outlet':'prise',\t    'light':'lumière',\t    'battery':'batterie',\t    'motion':'mouvement',\t    'airflow':'ventilation',\t    'command':'commande',\t    'photovoltaic':'photovoltaîque',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air contidioner':'climatisation',\t    'thermostat':'thermostat',\t    'tariff':'tarif',\t    'peak hours counter':'compteur heaures pleines',\t    'off-peak hours counter':'compteur heures creuses',\t    'total hours counter':'compteur heures total',\t    'smoke':'fumée',\t    'heat':'chaleur'\t}",
+        "to": "{\t    'temperature':'température',\t    'humidity':'humidité',\t    'luminosity':'luminosité',\t    'power':'puissance',\t    'current':'courant',\t    'outlet':'prise',\t    'light':'lumière',\t    'battery':'batterie',\t    'motion':'mouvement',\t    'aperture':'ouverture',\t    'airflow':'ventilation',\t    'command':'commande',\t    'photovoltaic':'photovoltaîque',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air contidioner':'climatisation',\t    'thermostat':'thermostat',\t    'tariff':'tarif',\t    'peak hours counter':'compteur heaures pleines',\t    'off-peak hours counter':'compteur heures creuses',\t    'total hours counter':'compteur heures total',\t    'smoke':'fumée',\t    'heat':'chaleur'\t}",
         "tot": "jsonata"
       },
       {
