@@ -16639,7 +16639,7 @@
     "rules": [
       {
         "t": "hask",
-        "v": "current",
+        "v": "tariff",
         "vt": "str"
       },
       {
@@ -16724,7 +16724,7 @@
         "t": "set",
         "p": "cumulus_options[msg.cumulus_count]",
         "pt": "msg",
-        "to": "{\t    'label': msg.bucket&'/current/electric meter',\t    'value': msg.bucket&'/current/electric meter'\t}",
+        "to": "{\t    'label': msg.bucket&'/tariff/electric meter',\t    'value': msg.bucket&'/tariff/electric meter'\t}",
         "tot": "jsonata"
       },
       {
