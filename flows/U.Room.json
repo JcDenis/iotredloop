@@ -170,9 +170,9 @@
       "48dd7d439fba9eda"
     ],
     "x": 5048,
-    "y": 953,
-    "w": 1364,
-    "h": 5554
+    "y": 833,
+    "w": 2414,
+    "h": 5674
   },
   {
     "id": "f68e8c6415aca870",
@@ -786,12 +786,21 @@
       "5aa2370542c80557",
       "417fbb2eb3a923ed",
       "57e410937624c3d6",
-      "c17dc35aca46f82c"
+      "c17dc35aca46f82c",
+      "5c7542a83bbabb35",
+      "c35b2b2e8f2b4219",
+      "92754828aa30243d",
+      "473d6854093e32df",
+      "109b8b2fe8df33cb",
+      "98eb7016dea145b8",
+      "d51ca92136da8ea4",
+      "56484d472a10cece",
+      "e67a8cdad7117ce2"
     ],
     "x": 5074,
-    "y": 979,
-    "w": 1102,
-    "h": 442
+    "y": 859,
+    "w": 2362,
+    "h": 562
   },
   {
     "id": "db185d30e93f616d",
@@ -8590,15 +8599,20 @@
       },
       {
         "t": "eq",
+        "v": "electric meter",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
         "v": "balloon",
         "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 5,
+    "outputs": 6,
     "x": 5630,
-    "y": 1320,
+    "y": 1260,
     "wires": [
       [
         "f1a67acc80e7df25"
@@ -8611,6 +8625,9 @@
       ],
       [
         "57e410937624c3d6"
+      ],
+      [
+        "c35b2b2e8f2b4219"
       ],
       [
         "417fbb2eb3a923ed"
@@ -8638,7 +8655,7 @@
     "to": "",
     "reg": false,
     "x": 5630,
-    "y": 1200,
+    "y": 1080,
     "wires": [
       [
         "a734f97d04983224"
@@ -8666,7 +8683,7 @@
     "to": "",
     "reg": false,
     "x": 5630,
-    "y": 1140,
+    "y": 1020,
     "wires": [
       [
         "f1a67acc80e7df25",
@@ -8696,8 +8713,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6000,
-    "y": 1140,
+    "x": 7260,
+    "y": 1200,
     "wires": [
       [
         "f1cc0ee7d294d743"
@@ -8714,12 +8731,13 @@
       "9e4bfee0db3051d4"
     ],
     "x": 5115,
-    "y": 1020,
+    "y": 900,
     "wires": [
       [
         "bf71f08c103ab9bf",
         "1db8267958aa8d3c",
-        "3fbe41cfcb30b29f"
+        "3fbe41cfcb30b29f",
+        "5c7542a83bbabb35"
       ]
     ]
   },
@@ -8733,7 +8751,7 @@
       "b6323e1460f6f50c"
     ],
     "x": 5115,
-    "y": 1080,
+    "y": 960,
     "wires": [
       [
         "a2ed4c3380f63344"
@@ -8750,8 +8768,8 @@
     "links": [
       "2690f4e06626ebda"
     ],
-    "x": 6135,
-    "y": 1140,
+    "x": 7395,
+    "y": 1200,
     "wires": []
   },
   {
@@ -8774,7 +8792,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5980,
+    "x": 7260,
     "y": 1380,
     "wires": [
       [
@@ -8801,7 +8819,7 @@
     "repair": false,
     "outputs": 1,
     "x": 5280,
-    "y": 1080,
+    "y": 960,
     "wires": [
       [
         "8a877a1f0ad96a9f",
@@ -8828,7 +8846,7 @@
     "color": "#717171",
     "className": "",
     "x": 5970,
-    "y": 1020,
+    "y": 900,
     "wires": []
   },
   {
@@ -8852,7 +8870,7 @@
     "to": "",
     "reg": false,
     "x": 5800,
-    "y": 1020,
+    "y": 900,
     "wires": [
       [
         "d66a556c8804aa96"
@@ -8894,7 +8912,7 @@
     "to": "",
     "reg": false,
     "x": 5630,
-    "y": 1020,
+    "y": 900,
     "wires": [
       [
         "5a3cf6eb82112299",
@@ -8930,7 +8948,7 @@
     "to": "",
     "reg": false,
     "x": 5630,
-    "y": 1080,
+    "y": 960,
     "wires": [
       [
         "86bf6614eaaed4fb",
@@ -8947,7 +8965,7 @@
     "ui": "2d75e4809d2a6fbf",
     "events": "all",
     "x": 5800,
-    "y": 1080,
+    "y": 960,
     "wires": [
       []
     ]
@@ -8977,7 +8995,7 @@
     "officon": "",
     "offcolor": "",
     "x": 5790,
-    "y": 1140,
+    "y": 1020,
     "wires": [
       [
         "6d4b70fa6bba8616"
@@ -8993,7 +9011,7 @@
     "name": "timer",
     "label": "Minuterie",
     "tooltip": "",
-    "order": 3,
+    "order": 4,
     "width": 0,
     "height": 0,
     "passthru": false,
@@ -9006,7 +9024,7 @@
     "step": "10",
     "className": "",
     "x": 5790,
-    "y": 1200,
+    "y": 1080,
     "wires": [
       [
         "6d4b70fa6bba8616"
@@ -9021,7 +9039,7 @@
     "name": "daily",
     "label": "Exécuté",
     "group": "d9226f161296ef5d",
-    "order": 4,
+    "order": 5,
     "width": 0,
     "height": 0,
     "passthru": false,
@@ -9038,7 +9056,7 @@
     "officon": "",
     "offcolor": "",
     "x": 5790,
-    "y": 1260,
+    "y": 1140,
     "wires": [
       [
         "6d4b70fa6bba8616"
@@ -9053,7 +9071,7 @@
     "name": "balloon",
     "label": "Etat",
     "group": "d9226f161296ef5d",
-    "order": 6,
+    "order": 7,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -9085,7 +9103,7 @@
     "name": "night",
     "label": "Nocturne",
     "group": "d9226f161296ef5d",
-    "order": 5,
+    "order": 6,
     "width": 0,
     "height": 0,
     "passthru": false,
@@ -9102,7 +9120,7 @@
     "officon": "",
     "offcolor": "",
     "x": 5790,
-    "y": 1320,
+    "y": 1200,
     "wires": [
       [
         "6d4b70fa6bba8616"
@@ -9128,7 +9146,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 5470,
-    "y": 1320,
+    "y": 1260,
     "wires": [
       [
         "3ea1bb4e5ff3e53a"
@@ -16510,6 +16528,310 @@
     "wires": [
       [
         "dac472279b8e26a6"
+      ]
+    ]
+  },
+  {
+    "id": "5c7542a83bbabb35",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "options[0]",
+        "pt": "msg",
+        "to": "{'label':'select','value':''}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5630,
+    "y": 1140,
+    "wires": [
+      [
+        "e67a8cdad7117ce2"
+      ]
+    ]
+  },
+  {
+    "id": "c35b2b2e8f2b4219",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "cumulus.options",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5810,
+    "y": 1300,
+    "wires": [
+      [
+        "92754828aa30243d"
+      ]
+    ]
+  },
+  {
+    "id": "92754828aa30243d",
+    "type": "split",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "x": 5990,
+    "y": 1300,
+    "wires": [
+      [
+        "473d6854093e32df"
+      ]
+    ]
+  },
+  {
+    "id": "473d6854093e32df",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "measurement",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "current",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 6180,
+    "y": 1300,
+    "wires": [
+      [
+        "109b8b2fe8df33cb"
+      ],
+      [
+        "d51ca92136da8ea4"
+      ]
+    ]
+  },
+  {
+    "id": "109b8b2fe8df33cb",
+    "type": "switch",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "field",
+    "property": "payload.current",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "electric meter",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 6370,
+    "y": 1240,
+    "wires": [
+      [
+        "98eb7016dea145b8"
+      ],
+      [
+        "d51ca92136da8ea4"
+      ]
+    ]
+  },
+  {
+    "id": "98eb7016dea145b8",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "cumulus_options",
+        "pt": "msg",
+        "to": "cumulus.options",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "cumulus_count",
+        "pt": "msg",
+        "to": "$count(msg.cumulus_options)-1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "cumulus_count",
+        "pt": "msg",
+        "to": "msg.cumulus_count+1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "cumulus_options[msg.cumulus_count]",
+        "pt": "msg",
+        "to": "{\t    'label': msg.bucket&'/current/electric meter',\t    'value': msg.bucket&'/current/electric meter'\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "cumulus.options",
+        "pt": "flow",
+        "to": "cumulus_options",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6530,
+    "y": 1240,
+    "wires": [
+      [
+        "d51ca92136da8ea4"
+      ]
+    ]
+  },
+  {
+    "id": "d51ca92136da8ea4",
+    "type": "join",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 6690,
+    "y": 1300,
+    "wires": [
+      [
+        "56484d472a10cece"
+      ]
+    ]
+  },
+  {
+    "id": "56484d472a10cece",
+    "type": "change",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "cumulus.options",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6860,
+    "y": 1300,
+    "wires": [
+      [
+        "e67a8cdad7117ce2"
+      ]
+    ]
+  },
+  {
+    "id": "e67a8cdad7117ce2",
+    "type": "ui-dropdown",
+    "z": "aab0c030de7df5cc",
+    "g": "9b11e3a85026957b",
+    "group": "d9226f161296ef5d",
+    "name": "electric meter",
+    "label": "Compteur électrique :",
+    "tooltip": "",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [],
+    "payload": "",
+    "topic": "electric meter",
+    "topicType": "str",
+    "className": "",
+    "x": 7060,
+    "y": 1240,
+    "wires": [
+      [
+        "6d4b70fa6bba8616"
       ]
     ]
   }
