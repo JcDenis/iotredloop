@@ -9392,7 +9392,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "",
+        "to": "home/current/electric meter",
         "tot": "str"
       }
     ],

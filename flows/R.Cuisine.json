@@ -51,28 +51,6 @@
     "h": 82
   },
   {
-    "id": "863ac35de01d6543",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "e7a2800f3ce83a11",
-      "7aa57835f17b84c0",
-      "192e8f224ae18f09",
-      "fe5a163a6b387bd1",
-      "062924d415d00ec7"
-    ],
-    "x": 68,
-    "y": 1913,
-    "w": 1378,
-    "h": 434
-  },
-  {
     "id": "1dff1743cac3569e",
     "type": "group",
     "z": "83779166f14173f8",
@@ -170,38 +148,6 @@
     "y": 19,
     "w": 422,
     "h": 82
-  },
-  {
-    "id": "062924d415d00ec7",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "g": "863ac35de01d6543",
-    "name": "cuisine - device - auto",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "18a18ef9ed11ad89",
-      "85f46b3605d814c5",
-      "fe78f8b441d511fa",
-      "9a065d1c01359039",
-      "e0fe5671f8061def",
-      "bf730ed10a3c0f1d",
-      "00b6e5c70f38f1d0",
-      "a6ffe5aaf5f33dc4",
-      "82b1766e7f8e0df2",
-      "7e2da2acb43d4d1b",
-      "c7bd909bde4eead7",
-      "0b89339eaace90d7",
-      "b01d2b8600a9b1df",
-      "bb7e4f28c0d803ec"
-    ],
-    "x": 94,
-    "y": 1939,
-    "w": 722,
-    "h": 382
   },
   {
     "id": "ff6f186606d23a8e",
@@ -612,263 +558,41 @@
     "id": "e7a2800f3ce83a11",
     "type": "comment",
     "z": "83779166f14173f8",
-    "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 2 : scene lighting / jardin / light / spots",
     "info": "",
-    "x": 1150,
-    "y": 2020,
+    "x": 1950,
+    "y": 80,
     "wires": []
   },
   {
     "id": "7aa57835f17b84c0",
     "type": "comment",
     "z": "83779166f14173f8",
-    "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 3 : scene lighting / jardin / light / lamp",
     "info": "",
-    "x": 1150,
-    "y": 2060,
+    "x": 1950,
+    "y": 120,
     "wires": []
   },
   {
     "id": "192e8f224ae18f09",
     "type": "comment",
     "z": "83779166f14173f8",
-    "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 1 : scene lighting / parking / light / spots",
     "info": "",
-    "x": 1160,
-    "y": 1980,
+    "x": 1960,
+    "y": 40,
     "wires": []
   },
   {
     "id": "fe5a163a6b387bd1",
     "type": "comment",
     "z": "83779166f14173f8",
-    "g": "863ac35de01d6543",
     "name": "cuisine / command / remote 4 : scene shading / salon / aperture / shutter",
     "info": "",
-    "x": 1170,
-    "y": 2100,
+    "x": 1970,
+    "y": 160,
     "wires": []
-  },
-  {
-    "id": "18a18ef9ed11ad89",
-    "type": "link in",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "cuisine - device - auto",
-    "links": [
-      "35e382c59a86017f"
-    ],
-    "x": 135,
-    "y": 1980,
-    "wires": [
-      [
-        "82b1766e7f8e0df2",
-        "7e2da2acb43d4d1b",
-        "c7bd909bde4eead7",
-        "0b89339eaace90d7",
-        "b01d2b8600a9b1df",
-        "bb7e4f28c0d803ec"
-      ]
-    ]
-  },
-  {
-    "id": "85f46b3605d814c5",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "MCCGQ11LM / xxx / aperture / window",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "MCCGQ11LM",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "window",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 530,
-    "y": 2160,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
-  },
-  {
-    "id": "fe78f8b441d511fa",
-    "type": "link out",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "cuisine - device - auto",
-    "mode": "link",
-    "links": [
-      "d85fe6335a6eae7b"
-    ],
-    "x": 775,
-    "y": 1980,
-    "wires": []
-  },
-  {
-    "id": "9a065d1c01359039",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "ZW100 / xxx / motion / detector",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "ZW100",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 510,
-    "y": 2040,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
-  },
-  {
-    "id": "e0fe5671f8061def",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "DIO-54760 / xxx / command / remote",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "DIO-54760",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 530,
-    "y": 2220,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
-  },
-  {
-    "id": "bf730ed10a3c0f1d",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "FGD212 / xxx / light / ceiling",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "FGD212",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "option",
-        "pt": "msg",
-        "to": "0",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 500,
-    "y": 2100,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
-  },
-  {
-    "id": "00b6e5c70f38f1d0",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "ZMNHUD / xxx / thermostat / pilot",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "ZMNHUD",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 520,
-    "y": 2280,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
-  },
-  {
-    "id": "a6ffe5aaf5f33dc4",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "A4ZP7ZC4PI6TO / xxx / alexa / actif",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "A4ZP7ZC4PI6TO",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 530,
-    "y": 1980,
-    "wires": [
-      [
-        "fe78f8b441d511fa"
-      ]
-    ]
   },
   {
     "id": "494718f442ad9e57",
@@ -2726,114 +2450,6 @@
     "x": 535,
     "y": 1140,
     "wires": []
-  },
-  {
-    "id": "82b1766e7f8e0df2",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 2040,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "7e2da2acb43d4d1b",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 1980,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "c7bd909bde4eead7",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 2280,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "0b89339eaace90d7",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 2220,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "b01d2b8600a9b1df",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 2160,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "bb7e4f28c0d803ec",
-    "type": "credentials",
-    "z": "83779166f14173f8",
-    "g": "062924d415d00ec7",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 2100,
-    "wires": [
-      []
-    ]
   },
   {
     "id": "483a5fade5592d4c",

@@ -763,7 +763,8 @@
       "0ff47b07b863d0ae",
       "561aaceffe076a5d",
       "8f4503a19f2f639e",
-      "b08802b0dbd9a58b"
+      "b08802b0dbd9a58b",
+      "9d71ae848c07c4ab"
     ],
     "x": 834,
     "y": 3659,
@@ -2224,7 +2225,7 @@
     "z": "ab51b1e8cad7b700",
     "g": "bd21a8b1786d3ed2",
     "name": "check device",
-    "func": "// output 1 : error message\n// output 2 : device registration\n\n// script var\nvar msg = msg;\nvar newmsg = {};\n\nif (typeof msg === 'undefined'){\n    return [null,null];\n}\n\n// check var existence\nif (typeof msg.bucket === 'undefined' ||\n    typeof msg.model === 'undefined' ||\n    typeof msg.id === 'undefined'\n) {\n    node.status({\n        fill: \"red\", shape: \"ring\", text: 'undefined device'});\n    return [msg,null];\n}\n\n// recreate msg\nnewmsg = {\n    'bucket': msg.bucket,\n    'measurement': typeof msg.measurement === 'undefined' ? '' : msg.measurement,\n    'field': typeof msg.field === 'undefined' ? '' : msg.field,\n    'model': msg.model,\n    'option': typeof msg.option === 'undefined' ? 0 : msg.option,\n    'id': msg.id,\n    'payload':''\n};\n\nnode.status({ fill: 'green', shape: \"ring\", text:  newmsg.model + ' / ' + newmsg.id });\nreturn [null,newmsg];",
+    "func": "// output 1 : error message\n// output 2 : device registration\n\n// script var\nvar msg = msg;\nvar newmsg = {};\n\nif (typeof msg === 'undefined'){\n    return [null,null];\n}\n\n// check var existence\nif (typeof msg.bucket === 'undefined' ||\n    typeof msg.model === 'undefined' ||\n    typeof msg.id === 'undefined'\n) {\n    node.status({\n        fill: \"red\", shape: \"ring\", text: 'undefined device'});\n    return [msg,null];\n}\n\n// recreate msg\nnewmsg = {\n    'bucket': msg.bucket,\n    'measurement': typeof msg.measurement === 'undefined' ? '' : msg.measurement,\n    'field': typeof msg.field === 'undefined' ? '' : msg.field,\n    'model': msg.model,\n    'option': typeof msg.option === 'undefined' ? 0 : msg.option,\n    'id': msg.id,\n    'default': typeof msg.default === 'undefined' ? '' : msg.default,\n    'payload':''\n};\n\nnode.status({ fill: 'green', shape: \"ring\", text:  newmsg.model + ' / ' + newmsg.id });\nreturn [null,newmsg];",
     "outputs": 2,
     "timeout": "",
     "noerr": 0,
@@ -5676,6 +5677,13 @@
       },
       {
         "t": "set",
+        "p": "models",
+        "pt": "global",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "protocols",
         "pt": "global",
         "to": "{}",
@@ -5683,7 +5691,7 @@
       },
       {
         "t": "set",
-        "p": "buckets",
+        "p": "rooms",
         "pt": "global",
         "to": "{}",
         "tot": "jsonata"
@@ -6007,7 +6015,7 @@
     "op2": "",
     "op1type": "pay",
     "op2type": "payl",
-    "duration": "100",
+    "duration": "500",
     "extend": false,
     "overrideDelay": false,
     "units": "ms",
@@ -6497,5 +6505,321 @@
         "5891781e4a61525a"
       ]
     ]
+  },
+  {
+    "id": "c75d85a05c1d10d5",
+    "type": "inject",
+    "z": "ab51b1e8cad7b700",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 1110,
+    "y": 60,
+    "wires": [
+      [
+        "33197b9fc4357637"
+      ]
+    ]
+  },
+  {
+    "id": "4812a1970cd7b6ca",
+    "type": "inject",
+    "z": "ab51b1e8cad7b700",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 1110,
+    "y": 140,
+    "wires": [
+      [
+        "10af67697b451754"
+      ]
+    ]
+  },
+  {
+    "id": "33197b9fc4357637",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "name": "bk",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bk",
+        "pt": "global",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "bk.devices",
+        "pt": "global",
+        "to": "devices",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bk.entities",
+        "pt": "global",
+        "to": "entities",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bk.metrics",
+        "pt": "global",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bk.models",
+        "pt": "global",
+        "to": "models",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bk.protocols",
+        "pt": "global",
+        "to": "protocols",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "bk.rooms",
+        "pt": "global",
+        "to": "rooms",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 60,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "981cd36f0eff2fe5",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "name": "del",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "devices",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "metrics",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "models",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "protocols",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "rooms",
+        "pt": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "10af67697b451754",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "name": "rt",
+    "rules": [
+      {
+        "t": "set",
+        "p": "devices",
+        "pt": "global",
+        "to": "bk.devices",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "entities",
+        "pt": "global",
+        "to": "bk.entities",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "metrics",
+        "pt": "global",
+        "to": "bk.metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "models",
+        "pt": "global",
+        "to": "bk.models",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "protocols",
+        "pt": "global",
+        "to": "bk.protocols",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "rooms",
+        "pt": "global",
+        "to": "bk.rooms",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1270,
+    "y": 140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a222eb10b7ac30f7",
+    "type": "inject",
+    "z": "ab51b1e8cad7b700",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 1110,
+    "y": 100,
+    "wires": [
+      [
+        "981cd36f0eff2fe5"
+      ]
+    ]
+  },
+  {
+    "id": "09022e238fac22fa",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "name": "del",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "devices",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "entities",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "metrics",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "models",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "protocols",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "rooms",
+        "pt": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1470,
+    "y": 100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "9d71ae848c07c4ab",
+    "type": "comment",
+    "z": "ab51b1e8cad7b700",
+    "g": "4937527cddd45b61",
+    "name": "note: P.API does not use protocol id by device URL",
+    "info": "",
+    "x": 1050,
+    "y": 3700,
+    "wires": []
   }
 ]

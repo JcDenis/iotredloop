@@ -24,7 +24,7 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 1254,
+    "w": 1274,
     "h": 194
   },
   {
@@ -116,7 +116,7 @@
     ],
     "x": 534,
     "y": 199,
-    "w": 762,
+    "w": 782,
     "h": 142
   },
   {
@@ -484,7 +484,7 @@
     "type": "change",
     "z": "f125f568d4e332ee",
     "g": "636790a6de6bdeca",
-    "name": "camera / url / text",
+    "name": "camera / url / text / *",
     "rules": [
       {
         "t": "set",
@@ -511,8 +511,8 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "id",
-        "tot": "msg"
+        "to": "msg.default?msg.default:''",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -520,7 +520,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 910,
+    "x": 920,
     "y": 300,
     "wires": [
       [
@@ -592,7 +592,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1120,
+    "x": 1140,
     "y": 240,
     "wires": [
       [
@@ -610,7 +610,7 @@
     "links": [
       "3e1b4213132404be"
     ],
-    "x": 1255,
+    "x": 1275,
     "y": 240,
     "wires": []
   },
@@ -976,8 +976,8 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "id",
-        "tot": "msg"
+        "to": "msg.default?msg.default:''",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -4067,8 +4067,8 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "id",
-        "tot": "msg"
+        "to": "msg.default?msg.default:''",
+        "tot": "jsonata"
       }
     ],
     "action": "",

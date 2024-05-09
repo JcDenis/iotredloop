@@ -51,24 +51,6 @@
     "h": 82
   },
   {
-    "id": "bb5966c01d1eaad0",
-    "type": "group",
-    "z": "5771bd732671238b",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "4621825537b5ee7f"
-    ],
-    "x": 68,
-    "y": 533,
-    "w": 694,
-    "h": 134
-  },
-  {
     "id": "08e20e01c191aebd",
     "type": "group",
     "z": "5771bd732671238b",
@@ -106,28 +88,6 @@
     "x": 534,
     "y": 19,
     "w": 422,
-    "h": 82
-  },
-  {
-    "id": "4621825537b5ee7f",
-    "type": "group",
-    "z": "5771bd732671238b",
-    "g": "bb5966c01d1eaad0",
-    "name": "combles - device - auto",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "96ad68746204ca2f",
-      "19a6166e5849a994",
-      "e7cfaeb61c083f59",
-      "d282578a332382dd"
-    ],
-    "x": 94,
-    "y": 559,
-    "w": 642,
     "h": 82
   },
   {
@@ -336,79 +296,6 @@
     "wires": [
       [
         "4526a823900a3869"
-      ]
-    ]
-  },
-  {
-    "id": "96ad68746204ca2f",
-    "type": "link in",
-    "z": "5771bd732671238b",
-    "g": "4621825537b5ee7f",
-    "name": "combles - device - auto",
-    "links": [
-      "95b38fc6b2a4af14"
-    ],
-    "x": 135,
-    "y": 600,
-    "wires": [
-      [
-        "d282578a332382dd"
-      ]
-    ]
-  },
-  {
-    "id": "19a6166e5849a994",
-    "type": "link out",
-    "z": "5771bd732671238b",
-    "g": "4621825537b5ee7f",
-    "name": "combles - device - auto",
-    "mode": "link",
-    "links": [
-      "d85fe6335a6eae7b"
-    ],
-    "x": 695,
-    "y": 600,
-    "wires": []
-  },
-  {
-    "id": "e7cfaeb61c083f59",
-    "type": "change",
-    "z": "5771bd732671238b",
-    "g": "4621825537b5ee7f",
-    "name": "ZMNHDA / xxx / airflow / cmv",
-    "rules": [
-      {
-        "t": "set",
-        "p": "model",
-        "pt": "msg",
-        "to": "ZMNHDA",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "airflow",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "cmv",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 500,
-    "y": 600,
-    "wires": [
-      [
-        "19a6166e5849a994"
       ]
     ]
   },
@@ -738,24 +625,6 @@
       [
         "6776ac4a3f4a2d18"
       ]
-    ]
-  },
-  {
-    "id": "d282578a332382dd",
-    "type": "credentials",
-    "z": "5771bd732671238b",
-    "g": "4621825537b5ee7f",
-    "name": "id",
-    "props": [
-      {
-        "value": "id",
-        "type": "msg"
-      }
-    ],
-    "x": 270,
-    "y": 600,
-    "wires": [
-      []
     ]
   },
   {
