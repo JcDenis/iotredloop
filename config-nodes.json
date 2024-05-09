@@ -1038,5 +1038,18 @@
     "className": "",
     "visible": "true",
     "disabled": "false"
+  },
+  {
+    "id": "234a71f9f37e0fe7",
+    "type": "ui-group",
+    "name": "Liste des entités",
+    "page": "a7cbb932c183a9ce",
+    "width": "18",
+    "height": "1",
+    "order": 4,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false"
   }
 ]
