@@ -3540,7 +3540,9 @@
     "z": "0cd436e03cba5cb6",
     "g": "19df7e1ced610978",
     "name": "zigbee - SNZB-01P - source gate",
-    "links": [],
+    "links": [
+      "8fdb5986494986cc"
+    ],
     "x": 4595,
     "y": 780,
     "wires": [
