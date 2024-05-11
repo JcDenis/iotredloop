@@ -1960,7 +1960,7 @@
     "type": "change",
     "z": "29b296e6cd0e71d4",
     "g": "a02b86cff33f1dca",
-    "name": "alexa / high / number / 40",
+    "name": "alexa / high / number / 50",
     "rules": [
       {
         "t": "set",
@@ -1987,7 +1987,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "40",
+        "to": "50",
         "tot": "num"
       }
     ],
@@ -2009,7 +2009,7 @@
     "type": "change",
     "z": "29b296e6cd0e71d4",
     "g": "a02b86cff33f1dca",
-    "name": "alexa / low / number / 10",
+    "name": "alexa / low / number / 25",
     "rules": [
       {
         "t": "set",
@@ -2036,7 +2036,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "10",
+        "to": "25",
         "tot": "num"
       }
     ],
@@ -2058,7 +2058,7 @@
     "type": "change",
     "z": "29b296e6cd0e71d4",
     "g": "a02b86cff33f1dca",
-    "name": "alexa / volume / number / 10",
+    "name": "alexa / volume / number / 25",
     "rules": [
       {
         "t": "set",
@@ -2085,7 +2085,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "10",
+        "to": "25",
         "tot": "num"
       }
     ],

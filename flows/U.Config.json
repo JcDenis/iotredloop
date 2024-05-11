@@ -114,7 +114,8 @@
       "2a90b9bd2e0a777c",
       "7a76fc8d520b5b9e",
       "772791bd8b527740",
-      "34f9df4fdd3bd8df"
+      "34f9df4fdd3bd8df",
+      "8b6c9751b1c7cc20"
     ],
     "x": 94,
     "y": 739,
@@ -1227,10 +1228,10 @@
     "name": "config ui - delete metric notification",
     "mode": "link",
     "links": [
-      "32eb12f106b8c786",
+      "206c1fb4a48067df",
       "34f9df4fdd3bd8df"
     ],
-    "x": 1015,
+    "x": 1255,
     "y": 1020,
     "wires": []
   },
@@ -1266,13 +1267,6 @@
         "t": "delete",
         "p": "metrics[msg.bucket][msg.measurement][msg.field]",
         "pt": "global"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "Variable effacée",
-        "tot": "str"
       },
       {
         "t": "delete",
@@ -1320,7 +1314,7 @@
     "y": 1020,
     "wires": [
       [
-        "1ff5fd68e1799ae5"
+        "8b6c9751b1c7cc20"
       ]
     ]
   },
@@ -1478,5 +1472,54 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "8b6c9751b1c7cc20",
+    "type": "change",
+    "z": "c2bfa0fea66ef080",
+    "g": "dd003c121420d45a",
+    "name": "set notification metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Variable effacé",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1080,
+    "y": 1020,
+    "wires": [
+      [
+        "1ff5fd68e1799ae5"
+      ]
+    ]
   }
 ]

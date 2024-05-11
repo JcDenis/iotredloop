@@ -29,27 +29,6 @@
     "h": 82
   },
   {
-    "id": "c76679b82b664526",
-    "type": "group",
-    "z": "e19f53e3dc7ab928",
-    "name": "home - ui - notification",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#6f2fa0"
-    },
-    "nodes": [
-      "d1f40d903ba49ae7",
-      "c32288ec6571a37f",
-      "32eb12f106b8c786"
-    ],
-    "x": 1054,
-    "y": 139,
-    "w": 492,
-    "h": 82
-  },
-  {
     "id": "df46e2504e16fc3e",
     "type": "group",
     "z": "e19f53e3dc7ab928",
@@ -227,75 +206,6 @@
     "x": 395,
     "y": 60,
     "wires": []
-  },
-  {
-    "id": "d1f40d903ba49ae7",
-    "type": "ui-notification",
-    "z": "e19f53e3dc7ab928",
-    "g": "c76679b82b664526",
-    "ui": "2d75e4809d2a6fbf",
-    "position": "center center",
-    "colorDefault": true,
-    "color": "#000000",
-    "displayTime": "2",
-    "showCountdown": true,
-    "outputs": 0,
-    "allowDismiss": true,
-    "dismissText": "Close",
-    "raw": false,
-    "className": "",
-    "name": "",
-    "x": 1430,
-    "y": 180,
-    "wires": []
-  },
-  {
-    "id": "c32288ec6571a37f",
-    "type": "switch",
-    "z": "e19f53e3dc7ab928",
-    "g": "c76679b82b664526",
-    "name": "!empty",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "istype",
-        "v": "string",
-        "vt": "string"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1230,
-    "y": 180,
-    "wires": [
-      [
-        "d1f40d903ba49ae7"
-      ]
-    ]
-  },
-  {
-    "id": "32eb12f106b8c786",
-    "type": "link in",
-    "z": "e19f53e3dc7ab928",
-    "g": "c76679b82b664526",
-    "name": "home - ui - notification",
-    "links": [
-      "1ff5fd68e1799ae5",
-      "057cd27350be1d0e",
-      "522b6c161afcb47e",
-      "fdea9ff531a587a8",
-      "72f3d70342e83655",
-      "1d9d8c969ccdf2be"
-    ],
-    "x": 1095,
-    "y": 180,
-    "wires": [
-      [
-        "c32288ec6571a37f"
-      ]
-    ]
   },
   {
     "id": "3bd22b1740d9d8b2",

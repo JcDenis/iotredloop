@@ -2134,8 +2134,29 @@
     "type": "change",
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
-    "name": "payload",
+    "name": "set notification metric",
     "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -2149,7 +2170,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2880,
+    "x": 2920,
     "y": 1220,
     "wires": [
       [
@@ -2162,12 +2183,12 @@
     "type": "link out",
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
-    "name": "proxmox - list - ui notification",
+    "name": "proxmox - list - notification",
     "mode": "link",
     "links": [
-      "32eb12f106b8c786"
+      "206c1fb4a48067df"
     ],
-    "x": 3015,
+    "x": 3095,
     "y": 1220,
     "wires": []
   },

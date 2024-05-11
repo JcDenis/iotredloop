@@ -4382,7 +4382,7 @@
     "z": "68ee181e9defa139",
     "g": "48278b1e56c6d7ab",
     "name": "scene - cumulus",
-    "active": true,
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,

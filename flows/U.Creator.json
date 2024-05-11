@@ -146,7 +146,10 @@
       "868f82b1a5ca2a85",
       "f5b6bba2551b5bec",
       "28026a2ce29f6d72",
-      "be0fb9a04ea16004"
+      "be0fb9a04ea16004",
+      "e9fecb57cdb7b4a1",
+      "d55073835b5cbfc3",
+      "41e9885bae118005"
     ],
     "x": 94,
     "y": 739,
@@ -289,7 +292,7 @@
     ],
     "x": 94,
     "y": 2499,
-    "w": 4852,
+    "w": 4932,
     "h": 262
   },
   {
@@ -490,11 +493,11 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 1170,
+    "x": 710,
     "y": 840,
     "wires": [
       [
-        "4e039b1bb507cbd3"
+        "e9fecb57cdb7b4a1"
       ]
     ]
   },
@@ -1531,7 +1534,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 830,
+    "x": 910,
     "y": 1620,
     "wires": []
   },
@@ -2058,12 +2061,12 @@
     "mode": "link",
     "links": [
       "035760b14c0a3455",
-      "32eb12f106b8c786",
+      "206c1fb4a48067df",
+      "595853542a4259b5",
       "7c98833082d48029",
-      "c94f5e94ee5a1918",
-      "595853542a4259b5"
+      "c94f5e94ee5a1918"
     ],
-    "x": 755,
+    "x": 835,
     "y": 1700,
     "wires": []
   },
@@ -2100,8 +2103,29 @@
     "type": "change",
     "z": "1362a4b4f08f3d5b",
     "g": "7a3b686f86cb9beb",
-    "name": "message",
+    "name": "set notification metric",
     "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -2115,7 +2139,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 620,
+    "x": 660,
     "y": 1620,
     "wires": [
       [
@@ -2987,8 +3011,29 @@
     "type": "change",
     "z": "1362a4b4f08f3d5b",
     "g": "d163a291da272610",
-    "name": "message",
+    "name": "set notification metric",
     "rules": [
+      {
+        "t": "set",
+        "p": "bucekt",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -3002,7 +3047,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 640,
+    "x": 680,
     "y": 2360,
     "wires": [
       [
@@ -3020,11 +3065,11 @@
     "mode": "link",
     "links": [
       "035760b14c0a3455",
-      "32eb12f106b8c786",
-      "7c98833082d48029",
-      "595853542a4259b5"
+      "206c1fb4a48067df",
+      "595853542a4259b5",
+      "7c98833082d48029"
     ],
-    "x": 775,
+    "x": 855,
     "y": 2420,
     "wires": []
   },
@@ -3042,7 +3087,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 860,
+    "x": 940,
     "y": 2360,
     "wires": []
   },
@@ -3773,7 +3818,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 4780,
+    "x": 4860,
     "y": 2660,
     "wires": []
   },
@@ -3786,10 +3831,10 @@
     "mode": "link",
     "links": [
       "035760b14c0a3455",
-      "32eb12f106b8c786",
+      "206c1fb4a48067df",
       "7c98833082d48029"
     ],
-    "x": 4675,
+    "x": 4755,
     "y": 2720,
     "wires": []
   },
@@ -4334,8 +4379,29 @@
     "type": "change",
     "z": "1362a4b4f08f3d5b",
     "g": "3b06cf51ed60a17e",
-    "name": "message",
+    "name": "set notification metric",
     "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -4349,7 +4415,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4540,
+    "x": 4580,
     "y": 2720,
     "wires": [
       [
@@ -5469,6 +5535,63 @@
     "wires": [
       [
         "fd0e7bccfabe2ee6"
+      ]
+    ]
+  },
+  {
+    "id": "e9fecb57cdb7b4a1",
+    "type": "link out",
+    "z": "1362a4b4f08f3d5b",
+    "g": "7a3b686f86cb9beb",
+    "name": "creator - add entity - reload",
+    "mode": "link",
+    "links": [
+      "a330cf9fee227d5f"
+    ],
+    "x": 855,
+    "y": 840,
+    "wires": []
+  },
+  {
+    "id": "d55073835b5cbfc3",
+    "type": "link in",
+    "z": "1362a4b4f08f3d5b",
+    "g": "7a3b686f86cb9beb",
+    "name": "link in 2",
+    "links": [
+      "21fbe912a43d9c26"
+    ],
+    "x": 1015,
+    "y": 840,
+    "wires": [
+      [
+        "41e9885bae118005"
+      ]
+    ]
+  },
+  {
+    "id": "41e9885bae118005",
+    "type": "trigger",
+    "z": "1362a4b4f08f3d5b",
+    "g": "7a3b686f86cb9beb",
+    "name": "wait 50 ms",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "str",
+    "duration": "50",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "ms",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 1170,
+    "y": 840,
+    "wires": [
+      [
+        "4e039b1bb507cbd3"
       ]
     ]
   }
