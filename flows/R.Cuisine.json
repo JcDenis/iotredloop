@@ -80,14 +80,12 @@
       "label": true
     },
     "nodes": [
-      "bc2f5f0fdf3a95b1",
-      "1aae9b0388d3b77d",
-      "56f91a15dd1455d7"
+      "bc2f5f0fdf3a95b1"
     ],
     "x": 68,
-    "y": 653,
-    "w": 1774,
-    "h": 374
+    "y": 645.5,
+    "w": 1094,
+    "h": 149
   },
   {
     "id": "1e26da4be4f8adc8",
@@ -216,59 +214,10 @@
       "0857f7c3fc012063",
       "e6615272da1c215c"
     ],
-    "x": 774,
-    "y": 711.5,
+    "x": 94,
+    "y": 671.5,
     "w": 1042,
     "h": 97
-  },
-  {
-    "id": "1aae9b0388d3b77d",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "g": "9e0ecda168e420f6",
-    "name": "cuisine - source - thermostat aperture",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "0628e9848bdd1852",
-      "bd8ce1c1b118deca",
-      "3303b4e8e608541b",
-      "41c360fc4fbb160a",
-      "c40ff844dd2331be",
-      "f7dcd2b0b67ae95c"
-    ],
-    "x": 774,
-    "y": 836.5,
-    "w": 882,
-    "h": 127
-  },
-  {
-    "id": "56f91a15dd1455d7",
-    "type": "group",
-    "z": "83779166f14173f8",
-    "g": "9e0ecda168e420f6",
-    "name": "cuisine - device - thermostat partial (see flow Thermostat)",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "b6797740ddbfdc31",
-      "9e172dccc52202e9",
-      "ce356d0dbca4f157",
-      "ad06c3265ca316c5",
-      "ecdb89989bc6cfda",
-      "3f8eedb7511f6d4b",
-      "402b3bacddd7969e"
-    ],
-    "x": 94,
-    "y": 679,
-    "w": 582,
-    "h": 322
   },
   {
     "id": "4e85de651f8c65da",
@@ -1027,8 +976,8 @@
     "links": [
       "35e382c59a86017f"
     ],
-    "x": 815,
-    "y": 760,
+    "x": 135,
+    "y": 720,
     "wires": [
       [
         "229c7cd129b5b39e"
@@ -1055,8 +1004,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1110,
-    "y": 760,
+    "x": 430,
+    "y": 720,
     "wires": [
       [
         "eee1367b24f15bfe"
@@ -1083,8 +1032,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1650,
-    "y": 760,
+    "x": 970,
+    "y": 720,
     "wires": [
       [
         "0857f7c3fc012063"
@@ -1216,8 +1165,8 @@
     "atstart": false,
     "odd": false,
     "even": false,
-    "x": 1300,
-    "y": 760,
+    "x": 620,
+    "y": 720,
     "wires": [
       [],
       [
@@ -1244,8 +1193,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 950,
-    "y": 760,
+    "x": 270,
+    "y": 720,
     "wires": [
       [
         "887c96a79a17ae77"
@@ -1262,8 +1211,8 @@
     "links": [
       "d1c7f4810b12afe2"
     ],
-    "x": 1775,
-    "y": 760,
+    "x": 1095,
+    "y": 720,
     "wires": []
   },
   {
@@ -1284,511 +1233,11 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 1490,
-    "y": 760,
+    "x": 810,
+    "y": 720,
     "wires": [
       [
         "8c4f101eaabd11ac"
-      ]
-    ]
-  },
-  {
-    "id": "0628e9848bdd1852",
-    "type": "switch",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "cuisine/aperture/window",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "diner/aperture/door",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/right bay",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/left bay",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/window",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 5,
-    "x": 950,
-    "y": 900,
-    "wires": [
-      [
-        "bd8ce1c1b118deca"
-      ],
-      [
-        "bd8ce1c1b118deca"
-      ],
-      [
-        "bd8ce1c1b118deca"
-      ],
-      [
-        "bd8ce1c1b118deca"
-      ],
-      [
-        "bd8ce1c1b118deca"
-      ]
-    ]
-  },
-  {
-    "id": "bd8ce1c1b118deca",
-    "type": "trigger",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "wait 5 s",
-    "op1": "",
-    "op2": "",
-    "op1type": "nul",
-    "op2type": "payl",
-    "duration": "5",
-    "extend": true,
-    "overrideDelay": false,
-    "units": "s",
-    "reset": "",
-    "bytopic": "all",
-    "topic": "topic",
-    "outputs": 1,
-    "x": 1120,
-    "y": 900,
-    "wires": [
-      [
-        "3303b4e8e608541b"
-      ]
-    ]
-  },
-  {
-    "id": "3303b4e8e608541b",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "door",
-        "pt": "msg",
-        "to": "metrics.diner.aperture.door",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "window",
-        "pt": "msg",
-        "to": "metrics.salon.aperture.window",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "cuisine",
-        "pt": "msg",
-        "to": "metrics.cuisine.aperture.window",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "right",
-        "pt": "msg",
-        "to": "metrics.salon.aperture['right bay']",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "left",
-        "pt": "msg",
-        "to": "metrics.salon.aperture['left bay']",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "$boolean(msg.door) or $boolean(msg.window) or $boolean(msg.cuisine) or $boolean(msg.right) or $boolean(msg.left)",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1300,
-    "y": 900,
-    "wires": [
-      [
-        "c40ff844dd2331be"
-      ]
-    ]
-  },
-  {
-    "id": "41c360fc4fbb160a",
-    "type": "link in",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "cuisine - source - thermostat aperture",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 815,
-    "y": 900,
-    "wires": [
-      [
-        "0628e9848bdd1852"
-      ]
-    ]
-  },
-  {
-    "id": "c40ff844dd2331be",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "aperture opened",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1480,
-    "y": 900,
-    "wires": [
-      [
-        "f7dcd2b0b67ae95c"
-      ]
-    ]
-  },
-  {
-    "id": "f7dcd2b0b67ae95c",
-    "type": "link out",
-    "z": "83779166f14173f8",
-    "g": "1aae9b0388d3b77d",
-    "name": "cuisine - source - thermostat aperture",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 1615,
-    "y": 900,
-    "wires": []
-  },
-  {
-    "id": "b6797740ddbfdc31",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "thermostat / cycle time / number / 60",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "cycle time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "60",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 840,
-    "wires": [
-      [
-        "3f8eedb7511f6d4b"
-      ]
-    ]
-  },
-  {
-    "id": "9e172dccc52202e9",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "thermostat / outdoor coefficient / number / 5.5",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "outdoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "5.5",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 780,
-    "wires": [
-      [
-        "3f8eedb7511f6d4b"
-      ]
-    ]
-  },
-  {
-    "id": "ce356d0dbca4f157",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "thermostat / indoor coefficient / number / 115",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "indoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "115",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 720,
-    "wires": [
-      [
-        "3f8eedb7511f6d4b"
-      ]
-    ]
-  },
-  {
-    "id": "ad06c3265ca316c5",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "chauffage / preheat time / number / 30",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "preheat time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "30",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 900,
-    "wires": [
-      [
-        "3f8eedb7511f6d4b"
-      ]
-    ]
-  },
-  {
-    "id": "ecdb89989bc6cfda",
-    "type": "link in",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "cuisine - device - thermostat",
-    "links": [
-      "35e382c59a86017f"
-    ],
-    "x": 135,
-    "y": 720,
-    "wires": [
-      [
-        "ce356d0dbca4f157",
-        "9e172dccc52202e9",
-        "b6797740ddbfdc31",
-        "ad06c3265ca316c5",
-        "402b3bacddd7969e"
-      ]
-    ]
-  },
-  {
-    "id": "3f8eedb7511f6d4b",
-    "type": "link out",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "cuisine - device - thermostat",
-    "mode": "link",
-    "links": [
-      "d8585174fdd6097c"
-    ],
-    "x": 635,
-    "y": 720,
-    "wires": []
-  },
-  {
-    "id": "402b3bacddd7969e",
-    "type": "change",
-    "z": "83779166f14173f8",
-    "g": "56f91a15dd1455d7",
-    "name": "thermostat / offloading power / number / 1500",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "offloading power",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "1500",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 960,
-    "wires": [
-      [
-        "3f8eedb7511f6d4b"
       ]
     ]
   },

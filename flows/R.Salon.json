@@ -122,14 +122,12 @@
       "label": true
     },
     "nodes": [
-      "ca6e5594c10b00d0",
-      "1ee72229287164ea",
-      "a42719f70bda2d30"
+      "ca6e5594c10b00d0"
     ],
     "x": 68,
-    "y": 893,
-    "w": 1854,
-    "h": 396.5
+    "y": 1185.5,
+    "w": 1174,
+    "h": 209
   },
   {
     "id": "cb3c4ecc11e622c8",
@@ -146,28 +144,9 @@
       "d2d3d56d19f17173"
     ],
     "x": 68,
-    "y": 1513,
+    "y": 893,
     "w": 1534,
     "h": 261.5
-  },
-  {
-    "id": "ba23bc2d38d8f73d",
-    "type": "group",
-    "z": "e067074d6510b7f8",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "d79566aeb0899fc0",
-      "791417822934da42"
-    ],
-    "x": 68,
-    "y": 1333,
-    "w": 1194,
-    "h": 134
   },
   {
     "id": "d7fe6b32f7d450de",
@@ -449,59 +428,10 @@
       "2c774c7cde335304",
       "7f6d6bbaadea9039"
     ],
-    "x": 774,
-    "y": 951.5,
+    "x": 94,
+    "y": 1211.5,
     "w": 1122,
     "h": 157
-  },
-  {
-    "id": "1ee72229287164ea",
-    "type": "group",
-    "z": "e067074d6510b7f8",
-    "g": "555137194aeca274",
-    "name": "salon - source - thermostat aperture",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "95543dbe851ec8d8",
-      "d7ee554ca1e12fbf",
-      "de0ec49c5344ce82",
-      "64efc8a9e8807f11",
-      "c56f905f0dc3a3fe",
-      "2dfb1d687d5296d6"
-    ],
-    "x": 774,
-    "y": 1136.5,
-    "w": 882,
-    "h": 127
-  },
-  {
-    "id": "a42719f70bda2d30",
-    "type": "group",
-    "z": "e067074d6510b7f8",
-    "g": "555137194aeca274",
-    "name": "salon - device - thermostat partial (see flow Thermostat)",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "5ed3e98ca4457785",
-      "908d2271a90c6e2a",
-      "a6c9620c84637393",
-      "c5837cb76a95373d",
-      "6d0ef0315dcfeea5",
-      "17e1e87a7ce7485f",
-      "3bab96694179fa3c"
-    ],
-    "x": 94,
-    "y": 919,
-    "w": 582,
-    "h": 322
   },
   {
     "id": "aa047eea162db86e",
@@ -526,7 +456,7 @@
       "ec16e55b9c303ae7"
     ],
     "x": 714,
-    "y": 1539,
+    "y": 919,
     "w": 862,
     "h": 209.5
   },
@@ -548,52 +478,9 @@
       "0a20a19873de330c"
     ],
     "x": 94,
-    "y": 1539,
+    "y": 919,
     "w": 522,
     "h": 142
-  },
-  {
-    "id": "d79566aeb0899fc0",
-    "type": "group",
-    "z": "e067074d6510b7f8",
-    "g": "ba23bc2d38d8f73d",
-    "name": "salon - device - copy couloir tempearture to salon",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "7cf763afc0515f46",
-      "82740b84eee274f7",
-      "17b39beef9bff4b1"
-    ],
-    "x": 94,
-    "y": 1359,
-    "w": 522,
-    "h": 82
-  },
-  {
-    "id": "791417822934da42",
-    "type": "group",
-    "z": "e067074d6510b7f8",
-    "g": "ba23bc2d38d8f73d",
-    "name": "salon - metric - copy couloir tempearture to salon",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.04",
-      "label": true
-    },
-    "nodes": [
-      "8f53b8eccaa53c4d",
-      "9f7ebdeaee2e4456",
-      "71e83823374dcddf",
-      "697e3a94eb990433"
-    ],
-    "x": 714,
-    "y": 1359,
-    "w": 522,
-    "h": 82
   },
   {
     "id": "0a87d6e296fbe795",
@@ -2270,8 +2157,8 @@
     "links": [
       "36ce7ba8c84903c3"
     ],
-    "x": 815,
-    "y": 1000,
+    "x": 135,
+    "y": 1260,
     "wires": [
       [
         "0d601d3e95908328"
@@ -2298,8 +2185,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1110,
-    "y": 1000,
+    "x": 430,
+    "y": 1260,
     "wires": [
       [
         "553643b4e18545ba",
@@ -2432,8 +2319,8 @@
     "atstart": false,
     "odd": false,
     "even": false,
-    "x": 1320,
-    "y": 1060,
+    "x": 640,
+    "y": 1320,
     "wires": [
       [],
       [
@@ -2460,8 +2347,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 950,
-    "y": 1000,
+    "x": 270,
+    "y": 1260,
     "wires": [
       [
         "a05d5930c2e71184"
@@ -2478,8 +2365,8 @@
     "links": [
       "d1c7f4810b12afe2"
     ],
-    "x": 1855,
-    "y": 1000,
+    "x": 1175,
+    "y": 1260,
     "wires": []
   },
   {
@@ -2607,8 +2494,8 @@
     "atstart": false,
     "odd": false,
     "even": false,
-    "x": 1330,
-    "y": 1000,
+    "x": 650,
+    "y": 1260,
     "wires": [
       [],
       [
@@ -2644,8 +2531,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1550,
-    "y": 1000,
+    "x": 870,
+    "y": 1260,
     "wires": [
       [
         "ad5d6657510d4e95"
@@ -2668,8 +2555,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1720,
-    "y": 1000,
+    "x": 1040,
+    "y": 1260,
     "wires": [
       [
         "f8f9a6db99bb33e8"
@@ -2692,8 +2579,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1700,
-    "y": 1060,
+    "x": 1020,
+    "y": 1320,
     "wires": [
       [
         "f8f9a6db99bb33e8"
@@ -2720,511 +2607,11 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
-    "y": 1060,
+    "x": 850,
+    "y": 1320,
     "wires": [
       [
         "2c774c7cde335304"
-      ]
-    ]
-  },
-  {
-    "id": "95543dbe851ec8d8",
-    "type": "switch",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "cuisine/aperture/window",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "diner/aperture/door",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/right bay",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/left bay",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "salon/aperture/window",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 5,
-    "x": 950,
-    "y": 1200,
-    "wires": [
-      [
-        "d7ee554ca1e12fbf"
-      ],
-      [
-        "d7ee554ca1e12fbf"
-      ],
-      [
-        "d7ee554ca1e12fbf"
-      ],
-      [
-        "d7ee554ca1e12fbf"
-      ],
-      [
-        "d7ee554ca1e12fbf"
-      ]
-    ]
-  },
-  {
-    "id": "d7ee554ca1e12fbf",
-    "type": "trigger",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "wait 5 s",
-    "op1": "",
-    "op2": "",
-    "op1type": "nul",
-    "op2type": "payl",
-    "duration": "5",
-    "extend": true,
-    "overrideDelay": false,
-    "units": "s",
-    "reset": "",
-    "bytopic": "all",
-    "topic": "topic",
-    "outputs": 1,
-    "x": 1120,
-    "y": 1200,
-    "wires": [
-      [
-        "de0ec49c5344ce82"
-      ]
-    ]
-  },
-  {
-    "id": "de0ec49c5344ce82",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "door",
-        "pt": "msg",
-        "to": "metrics.diner.aperture.door",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "window",
-        "pt": "msg",
-        "to": "metrics.salon.aperture.window",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "cuisine",
-        "pt": "msg",
-        "to": "metrics.cuisine.aperture.window",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "right",
-        "pt": "msg",
-        "to": "metrics.salon.aperture['right bay']",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "left",
-        "pt": "msg",
-        "to": "metrics.salon.aperture['left bay']",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "$boolean(msg.door) or $boolean(msg.window) or $boolean(msg.cuisine) or $boolean(msg.right) or $boolean(msg.left)",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1300,
-    "y": 1200,
-    "wires": [
-      [
-        "c56f905f0dc3a3fe"
-      ]
-    ]
-  },
-  {
-    "id": "64efc8a9e8807f11",
-    "type": "link in",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "salon - source - thermostat aperture",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 815,
-    "y": 1200,
-    "wires": [
-      [
-        "95543dbe851ec8d8"
-      ]
-    ]
-  },
-  {
-    "id": "c56f905f0dc3a3fe",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "aperture opened",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1480,
-    "y": 1200,
-    "wires": [
-      [
-        "2dfb1d687d5296d6"
-      ]
-    ]
-  },
-  {
-    "id": "2dfb1d687d5296d6",
-    "type": "link out",
-    "z": "e067074d6510b7f8",
-    "g": "1ee72229287164ea",
-    "name": "salon - source - thermostat aperture",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 1615,
-    "y": 1200,
-    "wires": []
-  },
-  {
-    "id": "5ed3e98ca4457785",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "thermostat / cycle time / number / 30",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "cycle time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "30",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 1080,
-    "wires": [
-      [
-        "17e1e87a7ce7485f"
-      ]
-    ]
-  },
-  {
-    "id": "908d2271a90c6e2a",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "thermostat / outdoor coefficient / number / 10",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "outdoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "10",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 1020,
-    "wires": [
-      [
-        "17e1e87a7ce7485f"
-      ]
-    ]
-  },
-  {
-    "id": "a6c9620c84637393",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "thermostat / indoor coefficient / number / 180",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "indoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "180",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 960,
-    "wires": [
-      [
-        "17e1e87a7ce7485f"
-      ]
-    ]
-  },
-  {
-    "id": "c5837cb76a95373d",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "chauffage / preheat time / number / 5",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "preheat time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "5",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 1140,
-    "wires": [
-      [
-        "17e1e87a7ce7485f"
-      ]
-    ]
-  },
-  {
-    "id": "6d0ef0315dcfeea5",
-    "type": "link in",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "salon - device - thermostat",
-    "links": [
-      "36ce7ba8c84903c3"
-    ],
-    "x": 135,
-    "y": 960,
-    "wires": [
-      [
-        "a6c9620c84637393",
-        "908d2271a90c6e2a",
-        "5ed3e98ca4457785",
-        "c5837cb76a95373d",
-        "3bab96694179fa3c"
-      ]
-    ]
-  },
-  {
-    "id": "17e1e87a7ce7485f",
-    "type": "link out",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "salon - device - thermostat",
-    "mode": "link",
-    "links": [
-      "d8585174fdd6097c"
-    ],
-    "x": 635,
-    "y": 960,
-    "wires": []
-  },
-  {
-    "id": "3bab96694179fa3c",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "g": "a42719f70bda2d30",
-    "name": "thermostat / offloading power / number / 1000",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "offloading power",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "1000",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 1200,
-    "wires": [
-      [
-        "17e1e87a7ce7485f"
       ]
     ]
   },
@@ -3354,7 +2741,7 @@
     "odd": false,
     "even": false,
     "x": 1240,
-    "y": 1640,
+    "y": 1020,
     "wires": [
       [
         "6ccad4521acbf705"
@@ -3405,7 +2792,7 @@
     "to": "",
     "reg": false,
     "x": 1410,
-    "y": 1640,
+    "y": 1020,
     "wires": [
       [
         "bbae4d26e41478ea"
@@ -3423,7 +2810,7 @@
       "206c1fb4a48067df"
     ],
     "x": 1535,
-    "y": 1640,
+    "y": 1020,
     "wires": []
   },
   {
@@ -3436,7 +2823,7 @@
       "074a67bf0fcf09ad"
     ],
     "x": 755,
-    "y": 1580,
+    "y": 960,
     "wires": [
       [
         "31f89f6c208761ec",
@@ -3465,7 +2852,7 @@
     "to": "",
     "reg": false,
     "x": 1250,
-    "y": 1580,
+    "y": 960,
     "wires": [
       [
         "6ccad4521acbf705",
@@ -3492,7 +2879,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 900,
-    "y": 1640,
+    "y": 1020,
     "wires": [
       [
         "ec16e55b9c303ae7"
@@ -3625,7 +3012,7 @@
     "odd": false,
     "even": false,
     "x": 1240,
-    "y": 1700,
+    "y": 1080,
     "wires": [
       [
         "3a7e10be0513fe02"
@@ -3676,7 +3063,7 @@
     "to": "",
     "reg": false,
     "x": 1410,
-    "y": 1700,
+    "y": 1080,
     "wires": [
       [
         "bbae4d26e41478ea"
@@ -3704,7 +3091,7 @@
     "to": "",
     "reg": false,
     "x": 1070,
-    "y": 1640,
+    "y": 1020,
     "wires": [
       [
         "b0ec9dc39c0e4a04",
@@ -3761,7 +3148,7 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 1580,
+    "y": 960,
     "wires": [
       [
         "ad43a0610ba77d34"
@@ -3779,7 +3166,7 @@
       "bfa594bf1f876c92"
     ],
     "x": 575,
-    "y": 1580,
+    "y": 960,
     "wires": []
   },
   {
@@ -3792,7 +3179,7 @@
       "36ce7ba8c84903c3"
     ],
     "x": 135,
-    "y": 1580,
+    "y": 960,
     "wires": [
       [
         "84add143f23bfe25",
@@ -3849,212 +3236,12 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 1640,
+    "y": 1020,
     "wires": [
       [
         "ad43a0610ba77d34"
       ]
     ]
-  },
-  {
-    "id": "7cf763afc0515f46",
-    "type": "link in",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "d79566aeb0899fc0",
-    "name": "salon - device - copy couloir tempearture to salon",
-    "links": [
-      "36ce7ba8c84903c3"
-    ],
-    "x": 135,
-    "y": 1400,
-    "wires": [
-      [
-        "82740b84eee274f7"
-      ]
-    ]
-  },
-  {
-    "id": "82740b84eee274f7",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "d79566aeb0899fc0",
-    "name": "temperature / probe / number / 20",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "temperature",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "20",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 360,
-    "y": 1400,
-    "wires": [
-      [
-        "17b39beef9bff4b1"
-      ]
-    ]
-  },
-  {
-    "id": "17b39beef9bff4b1",
-    "type": "link out",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "d79566aeb0899fc0",
-    "name": "salon - device - copy couloir tempearture to salon",
-    "mode": "link",
-    "links": [
-      "bfa594bf1f876c92"
-    ],
-    "x": 575,
-    "y": 1400,
-    "wires": []
-  },
-  {
-    "id": "8f53b8eccaa53c4d",
-    "type": "link in",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "791417822934da42",
-    "name": "copy couloir temperature to salon",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 755,
-    "y": 1400,
-    "wires": [
-      [
-        "9f7ebdeaee2e4456"
-      ]
-    ]
-  },
-  {
-    "id": "9f7ebdeaee2e4456",
-    "type": "switch",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "791417822934da42",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "couloir/temperature/probe",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 890,
-    "y": 1400,
-    "wires": [
-      [
-        "71e83823374dcddf"
-      ]
-    ]
-  },
-  {
-    "id": "71e83823374dcddf",
-    "type": "change",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "791417822934da42",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "temperature",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "probe",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "repeat",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1060,
-    "y": 1400,
-    "wires": [
-      [
-        "697e3a94eb990433"
-      ]
-    ]
-  },
-  {
-    "id": "697e3a94eb990433",
-    "type": "link out",
-    "z": "e067074d6510b7f8",
-    "d": true,
-    "g": "791417822934da42",
-    "name": "salon - metric - copy couloir temperature to salon",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 1195,
-    "y": 1400,
-    "wires": []
   },
   {
     "id": "8d7b277f0f787f97",

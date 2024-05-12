@@ -484,7 +484,8 @@
       "2dedf503efee73c8",
       "bfa594bf1f876c92",
       "94c79b8f52f0b6ba",
-      "2ba23548e87b0292"
+      "2ba23548e87b0292",
+      "f1898b7dbc641cd6"
     ],
     "x": 94,
     "y": 679,
@@ -516,7 +517,7 @@
     ],
     "x": 94,
     "y": 199,
-    "w": 812,
+    "w": 1152,
     "h": 202
   },
   {
@@ -4172,7 +4173,9 @@
       "2b543f5a91575995",
       "86a1031c97fd1f24",
       "a4d8eac11d9627da",
-      "32eb12f106b8c786"
+      "32eb12f106b8c786",
+      "7837b5fcc1432bfa",
+      "1d1dc560168d0284"
     ],
     "x": 5195,
     "y": 1260,
@@ -4259,7 +4262,9 @@
       "72f3d70342e83655",
       "1d9d8c969ccdf2be",
       "1ff5fd68e1799ae5",
-      "d2194c4dad790ec4"
+      "d2194c4dad790ec4",
+      "6632e88ee0633e4c",
+      "5484e74403bbb7d8"
     ],
     "x": 135,
     "y": 1260,
@@ -5095,9 +5100,9 @@
     "type": "comment",
     "z": "ab51b1e8cad7b700",
     "g": "9ea365cc69a1f2bf",
-    "name": "launch complete cycle",
+    "name": "launch complete cycle. This kept existing metrics",
     "info": "",
-    "x": 600,
+    "x": 680,
     "y": 300,
     "wires": []
   },
@@ -5106,9 +5111,9 @@
     "type": "comment",
     "z": "ab51b1e8cad7b700",
     "g": "9ea365cc69a1f2bf",
-    "name": "reset all global variables and launch complete cycle",
+    "name": "reset all global variables and launch complete cycle. This erases all devices configurations made from UI !!!",
     "info": "",
-    "x": 690,
+    "x": 860,
     "y": 240,
     "wires": []
   },
@@ -5240,10 +5245,11 @@
       "05e8fa641a3e8478",
       "8f8a3cf8eff18bc0",
       "ec9a2ee558dee047",
-      "f9007d094495cf1e"
+      "f9007d094495cf1e",
+      "3006243d30270236"
     ],
     "x": 135,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "fabb645e0d88c91c"
@@ -5278,7 +5284,7 @@
     "op2": "true",
     "op1type": "nul",
     "op2type": "bool",
-    "duration": "50",
+    "duration": "100",
     "extend": true,
     "overrideDelay": false,
     "units": "ms",
@@ -5359,7 +5365,7 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 540,
-    "y": 720,
+    "y": 780,
     "wires": []
   },
   {
@@ -5383,11 +5389,12 @@
     "to": "",
     "reg": false,
     "x": 550,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "c1d2a5b213c6568a",
-        "e5f9a77af592fc78"
+        "e5f9a77af592fc78",
+        "f1898b7dbc641cd6"
       ]
     ]
   },
@@ -5405,7 +5412,7 @@
     "finalize": "\n",
     "libs": [],
     "x": 290,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "6d65af0eaae695a3"
@@ -6924,5 +6931,19 @@
         "3308d2aa53cd0bbd"
       ]
     ]
+  },
+  {
+    "id": "f1898b7dbc641cd6",
+    "type": "link out",
+    "z": "ab51b1e8cad7b700",
+    "g": "bbf7bb18989048e1",
+    "name": "kernel - device - catch",
+    "mode": "link",
+    "links": [
+      "949a8ee5f18f108a"
+    ],
+    "x": 755,
+    "y": 720,
+    "wires": []
   }
 ]

@@ -84,7 +84,7 @@
       "0bcc12317f704d00"
     ],
     "x": 68,
-    "y": 1013,
+    "y": 593,
     "w": 1534,
     "h": 261.5
   },
@@ -99,14 +99,12 @@
       "label": true
     },
     "nodes": [
-      "7588dc8563233dd0",
-      "35b625755a3e0460",
-      "dc97d115c73345bc"
+      "7588dc8563233dd0"
     ],
     "x": 68,
-    "y": 593,
-    "w": 1854,
-    "h": 374
+    "y": 885.5,
+    "w": 1174,
+    "h": 209
   },
   {
     "id": "e8f4a92ebb6cf506",
@@ -219,7 +217,7 @@
       "7f0b17be16628023"
     ],
     "x": 714,
-    "y": 1039,
+    "y": 619,
     "w": 862,
     "h": 209.5
   },
@@ -241,7 +239,7 @@
       "d39bf4e7d227b64a"
     ],
     "x": 94,
-    "y": 1039,
+    "y": 619,
     "w": 522,
     "h": 142
   },
@@ -268,57 +266,10 @@
       "0d69fef38ca34a4c",
       "a2a8a9a71afb5ea7"
     ],
-    "x": 774,
-    "y": 671.5,
+    "x": 94,
+    "y": 911.5,
     "w": 1122,
     "h": 157
-  },
-  {
-    "id": "35b625755a3e0460",
-    "type": "group",
-    "z": "7b8b61c2b3de438c",
-    "g": "f5227a609c5c5182",
-    "name": "ambre - source - thermostat aperture",
-    "style": {
-      "fill": "#0070c0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "0b2a82c8c72139f4",
-      "8fdc0ab2b7fadb49",
-      "173e0da8e8278c08",
-      "7993168529c40611"
-    ],
-    "x": 774,
-    "y": 859,
-    "w": 502,
-    "h": 82
-  },
-  {
-    "id": "dc97d115c73345bc",
-    "type": "group",
-    "z": "7b8b61c2b3de438c",
-    "g": "f5227a609c5c5182",
-    "name": "ambre - device - thermostat partial (see flow Thermostat)",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "2c593aa5c3cc64ad",
-      "f31baa24aeac69bd",
-      "eb178403b0453389",
-      "e54e9dfdc3b312ec",
-      "9fc89d4f93b076e1",
-      "a57dadebc90cb6a7",
-      "71f88edd928fa13a"
-    ],
-    "x": 94,
-    "y": 619,
-    "w": 582,
-    "h": 322
   },
   {
     "id": "7952d4c5ec3d3baf",
@@ -1090,7 +1041,7 @@
     "odd": false,
     "even": false,
     "x": 1240,
-    "y": 1140,
+    "y": 720,
     "wires": [
       [
         "ce1a4efb5352db26"
@@ -1141,7 +1092,7 @@
     "to": "",
     "reg": false,
     "x": 1410,
-    "y": 1140,
+    "y": 720,
     "wires": [
       [
         "0341dba34c381ced"
@@ -1159,7 +1110,7 @@
       "206c1fb4a48067df"
     ],
     "x": 1535,
-    "y": 1140,
+    "y": 720,
     "wires": []
   },
   {
@@ -1172,7 +1123,7 @@
       "074a67bf0fcf09ad"
     ],
     "x": 755,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "1d012568a67e2708",
@@ -1201,7 +1152,7 @@
     "to": "",
     "reg": false,
     "x": 1250,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "ce1a4efb5352db26",
@@ -1228,7 +1179,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 900,
-    "y": 1140,
+    "y": 720,
     "wires": [
       [
         "7f0b17be16628023"
@@ -1361,7 +1312,7 @@
     "odd": false,
     "even": false,
     "x": 1240,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "111a586617b6e513"
@@ -1412,7 +1363,7 @@
     "to": "",
     "reg": false,
     "x": 1410,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "0341dba34c381ced"
@@ -1440,7 +1391,7 @@
     "to": "",
     "reg": false,
     "x": 1070,
-    "y": 1140,
+    "y": 720,
     "wires": [
       [
         "3c821a2ed1fb5b4b",
@@ -1497,7 +1448,7 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "d47a5d29139aca1c"
@@ -1515,7 +1466,7 @@
       "bfa594bf1f876c92"
     ],
     "x": 575,
-    "y": 1080,
+    "y": 660,
     "wires": []
   },
   {
@@ -1528,7 +1479,7 @@
       "5a8db78f84b2088e"
     ],
     "x": 135,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "4cdc594a062b6204",
@@ -1585,7 +1536,7 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 1140,
+    "y": 720,
     "wires": [
       [
         "d47a5d29139aca1c"
@@ -1601,8 +1552,8 @@
     "links": [
       "5a8db78f84b2088e"
     ],
-    "x": 815,
-    "y": 720,
+    "x": 135,
+    "y": 960,
     "wires": [
       [
         "f58f803cd183fe23"
@@ -1629,8 +1580,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1110,
-    "y": 720,
+    "x": 430,
+    "y": 960,
     "wires": [
       [
         "a695670fa9127502",
@@ -1648,8 +1599,8 @@
     "links": [
       "d1c7f4810b12afe2"
     ],
-    "x": 1855,
-    "y": 720,
+    "x": 1175,
+    "y": 960,
     "wires": []
   },
   {
@@ -1679,8 +1630,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1550,
-    "y": 720,
+    "x": 870,
+    "y": 960,
     "wires": [
       [
         "02c07a0cc8b4cceb"
@@ -1705,8 +1656,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 950,
-    "y": 720,
+    "x": 270,
+    "y": 960,
     "wires": [
       [
         "5aa1466e5d029218"
@@ -1838,8 +1789,8 @@
     "atstart": false,
     "odd": false,
     "even": false,
-    "x": 1330,
-    "y": 720,
+    "x": 650,
+    "y": 960,
     "wires": [
       [],
       [
@@ -1973,8 +1924,8 @@
     "atstart": false,
     "odd": false,
     "even": false,
-    "x": 1320,
-    "y": 780,
+    "x": 640,
+    "y": 1020,
     "wires": [
       [],
       [
@@ -1999,8 +1950,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1720,
-    "y": 720,
+    "x": 1040,
+    "y": 960,
     "wires": [
       [
         "438b7d7c7b096219"
@@ -2023,8 +1974,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1700,
-    "y": 780,
+    "x": 1020,
+    "y": 1020,
     "wires": [
       [
         "438b7d7c7b096219"
@@ -2051,398 +2002,11 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1530,
-    "y": 780,
+    "x": 850,
+    "y": 1020,
     "wires": [
       [
         "0d69fef38ca34a4c"
-      ]
-    ]
-  },
-  {
-    "id": "0b2a82c8c72139f4",
-    "type": "link in",
-    "z": "7b8b61c2b3de438c",
-    "g": "35b625755a3e0460",
-    "name": "ambre - source - thermostat aperture",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 815,
-    "y": 900,
-    "wires": [
-      [
-        "7993168529c40611"
-      ]
-    ]
-  },
-  {
-    "id": "8fdc0ab2b7fadb49",
-    "type": "link out",
-    "z": "7b8b61c2b3de438c",
-    "g": "35b625755a3e0460",
-    "name": "ambre - source - thermostat aperture",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 1235,
-    "y": 900,
-    "wires": []
-  },
-  {
-    "id": "173e0da8e8278c08",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "35b625755a3e0460",
-    "name": "metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "aperture opened",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1110,
-    "y": 900,
-    "wires": [
-      [
-        "8fdc0ab2b7fadb49"
-      ]
-    ]
-  },
-  {
-    "id": "7993168529c40611",
-    "type": "switch",
-    "z": "7b8b61c2b3de438c",
-    "g": "35b625755a3e0460",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "ambre/aperture/door",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "ambre/aperture/window",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 950,
-    "y": 900,
-    "wires": [
-      [
-        "173e0da8e8278c08"
-      ],
-      [
-        "173e0da8e8278c08"
-      ]
-    ]
-  },
-  {
-    "id": "2c593aa5c3cc64ad",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "thermostat / cycle time / number / 60",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "cycle time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "60",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 780,
-    "wires": [
-      [
-        "a57dadebc90cb6a7"
-      ]
-    ]
-  },
-  {
-    "id": "f31baa24aeac69bd",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "thermostat / oudoor coefficient/ number / 12",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "outdoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "12",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 720,
-    "wires": [
-      [
-        "a57dadebc90cb6a7"
-      ]
-    ]
-  },
-  {
-    "id": "eb178403b0453389",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "thermostat / indoor coefficient / number / 103",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "indoor coefficient",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "103",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 660,
-    "wires": [
-      [
-        "a57dadebc90cb6a7"
-      ]
-    ]
-  },
-  {
-    "id": "e54e9dfdc3b312ec",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "chauffage / preheat time / number / 10",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "preheat time",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "10",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 370,
-    "y": 840,
-    "wires": [
-      [
-        "a57dadebc90cb6a7"
-      ]
-    ]
-  },
-  {
-    "id": "9fc89d4f93b076e1",
-    "type": "link in",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "ambre - device - thermostat",
-    "links": [
-      "5a8db78f84b2088e"
-    ],
-    "x": 135,
-    "y": 660,
-    "wires": [
-      [
-        "eb178403b0453389",
-        "f31baa24aeac69bd",
-        "2c593aa5c3cc64ad",
-        "e54e9dfdc3b312ec",
-        "71f88edd928fa13a"
-      ]
-    ]
-  },
-  {
-    "id": "a57dadebc90cb6a7",
-    "type": "link out",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "ambre - device - thermostat",
-    "mode": "link",
-    "links": [
-      "d8585174fdd6097c"
-    ],
-    "x": 635,
-    "y": 660,
-    "wires": []
-  },
-  {
-    "id": "71f88edd928fa13a",
-    "type": "change",
-    "z": "7b8b61c2b3de438c",
-    "g": "dc97d115c73345bc",
-    "name": "thermostat / offloading power / number / 500",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "offloading power",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "500",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 390,
-    "y": 900,
-    "wires": [
-      [
-        "a57dadebc90cb6a7"
       ]
     ]
   },
