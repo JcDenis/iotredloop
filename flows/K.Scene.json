@@ -261,39 +261,6 @@
     "h": 82
   },
   {
-    "id": "daf0cda4c7b1bea9",
-    "type": "group",
-    "z": "68ee181e9defa139",
-    "name": "scene - airflow",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "5f43398278d755b7",
-      "110c42bacf7a84eb",
-      "75e1b24c5aaa1167",
-      "7110eb15cfddfcf3",
-      "c1cfc09f7c596d30",
-      "cdfca4745c436b9b",
-      "fb0064cdad40050d",
-      "9d44b3d59e20d35e",
-      "a9df5f12ddfa6c7e",
-      "9f45e18e4edbe2b1",
-      "75e409ff7d8f6f73",
-      "4e9f8b6ae5dc5a9a",
-      "fa344f3b42836488",
-      "01bdaee277401c15",
-      "15ff0a0169806055",
-      "a5e91e12f7ecfedc"
-    ],
-    "x": 94,
-    "y": 1699,
-    "w": 1822,
-    "h": 202
-  },
-  {
     "id": "35d3c87e78a23030",
     "type": "group",
     "z": "68ee181e9defa139",
@@ -309,7 +276,7 @@
     ],
     "x": 68,
     "y": 1973,
-    "w": 5514,
+    "w": 5834,
     "h": 374
   },
   {
@@ -355,11 +322,13 @@
       "ee65481751fbbb14",
       "4f03a790cab6b283",
       "003ba471ff0ebfa4",
-      "e55d1ea6d7242bfc"
+      "e55d1ea6d7242bfc",
+      "ae0a5d9f0b470cc1",
+      "e1f2c4546f0130dc"
     ],
     "x": 1254,
     "y": 1999,
-    "w": 4302,
+    "w": 4622,
     "h": 322
   },
   {
@@ -390,6 +359,98 @@
     "y": 1999,
     "w": 1062,
     "h": 322
+  },
+  {
+    "id": "4206d30978748143",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c6cb89a1ee503d2d",
+      "49794532d925f87d"
+    ],
+    "x": 68,
+    "y": 2393,
+    "w": 4584,
+    "h": 554
+  },
+  {
+    "id": "c6cb89a1ee503d2d",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "g": "4206d30978748143",
+    "name": "device - airflow",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "bd3993636ad365be",
+      "75f29e3e2be3f5d7",
+      "4cfbcc42c42795e7",
+      "80614f90fc25ec4a",
+      "d3968cfcbfe1e2d4",
+      "77b05b9e59ec652c",
+      "dcd4b1194169d097",
+      "660daed15b476d7f",
+      "9bf15f012eba32fd",
+      "253eaf939b574f3a",
+      "0ad91c777d8ac1e1",
+      "fc725fd688697cae",
+      "f0dbfaf1061b3eb9",
+      "84760331e955a63c"
+    ],
+    "x": 94,
+    "y": 2419,
+    "w": 1062,
+    "h": 502
+  },
+  {
+    "id": "49794532d925f87d",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "g": "4206d30978748143",
+    "name": "scene - airflow",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6e122c5defee75eb",
+      "e80ac9c6a2450e94",
+      "23403b2e0efa08c0",
+      "7a3e5c86333a7ae0",
+      "121fed57229486de",
+      "dd5a3618de2a35cc",
+      "cb83cca146b17b71",
+      "e383a634f71ed9d5",
+      "c8ef0ce134c4de20",
+      "6a36741a719e6e4d",
+      "16d41222926b4e21",
+      "f3de19c8cb3d6f5e",
+      "e83020decb3a2dea",
+      "c9314de7ea6b9531",
+      "e5c65ab7f659b78c",
+      "05a0bf5c41fb1fad",
+      "8d40f4d6eaa344ac",
+      "5ea6ee43e920e092",
+      "3ae94b451aee5a01",
+      "c1bdda78a1a1cd4f",
+      "2c8763a31cb569ed",
+      "399cd9f81052ae3e",
+      "44638c23fe15b9b9"
+    ],
+    "x": 1254,
+    "y": 2419,
+    "w": 3372,
+    "h": 202
   },
   {
     "id": "2f88f0a1be78ca59",
@@ -668,7 +729,8 @@
       "9379409dd3374a57",
       "7110eb15cfddfcf3",
       "371da4ba2aa94afb",
-      "45b8cc265f3cddf8"
+      "45b8cc265f3cddf8",
+      "6a36741a719e6e4d"
     ],
     "x": 135,
     "y": 420,
@@ -3353,405 +3415,6 @@
     "wires": []
   },
   {
-    "id": "5f43398278d755b7",
-    "type": "link call",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "",
-    "links": [
-      "c1a22098f4c6b607"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 290,
-    "y": 1800,
-    "wires": [
-      [
-        "110c42bacf7a84eb"
-      ]
-    ]
-  },
-  {
-    "id": "110c42bacf7a84eb",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 470,
-    "y": 1800,
-    "wires": [
-      [
-        "cdfca4745c436b9b"
-      ]
-    ]
-  },
-  {
-    "id": "75e1b24c5aaa1167",
-    "type": "link call",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "",
-    "links": [
-      "834ce9850cdb0a72"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 1230,
-    "y": 1740,
-    "wires": [
-      [
-        "c1cfc09f7c596d30"
-      ]
-    ]
-  },
-  {
-    "id": "7110eb15cfddfcf3",
-    "type": "link out",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "scene - airflow",
-    "mode": "link",
-    "links": [
-      "fb4b4e2a3fb029df"
-    ],
-    "x": 1535,
-    "y": 1860,
-    "wires": []
-  },
-  {
-    "id": "c1cfc09f7c596d30",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1410,
-    "y": 1740,
-    "wires": [
-      [
-        "7110eb15cfddfcf3",
-        "a9df5f12ddfa6c7e",
-        "15ff0a0169806055"
-      ]
-    ]
-  },
-  {
-    "id": "cdfca4745c436b9b",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "measurement",
-    "property": "measurement",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "mode",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "humidity",
-        "vt": "str"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 3,
-    "x": 660,
-    "y": 1800,
-    "wires": [
-      [
-        "fb0064cdad40050d"
-      ],
-      [
-        "4e9f8b6ae5dc5a9a"
-      ],
-      [
-        "fa344f3b42836488"
-      ]
-    ]
-  },
-  {
-    "id": "fb0064cdad40050d",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "manual",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 860,
-    "y": 1740,
-    "wires": [
-      [
-        "9d44b3d59e20d35e"
-      ]
-    ]
-  },
-  {
-    "id": "9d44b3d59e20d35e",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "true",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1050,
-    "y": 1800,
-    "wires": [
-      [
-        "7110eb15cfddfcf3",
-        "75e1b24c5aaa1167",
-        "15ff0a0169806055"
-      ]
-    ]
-  },
-  {
-    "id": "a9df5f12ddfa6c7e",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "mode",
-    "property": "metrics.system.mode.airflow",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "manual",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1570,
-    "y": 1740,
-    "wires": [
-      [
-        "9f45e18e4edbe2b1"
-      ]
-    ]
-  },
-  {
-    "id": "9f45e18e4edbe2b1",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "automatic",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "system",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "mode",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "airflow",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1740,
-    "y": 1740,
-    "wires": [
-      [
-        "75e409ff7d8f6f73"
-      ]
-    ]
-  },
-  {
-    "id": "75e409ff7d8f6f73",
-    "type": "link out",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "scene - airflow - auto",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 1875,
-    "y": 1740,
-    "wires": []
-  },
-  {
-    "id": "4e9f8b6ae5dc5a9a",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "humidity",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "gt",
-        "v": "routine.humidity",
-        "vt": "msg"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 860,
-    "y": 1800,
-    "wires": [
-      [
-        "9d44b3d59e20d35e"
-      ]
-    ]
-  },
-  {
-    "id": "fa344f3b42836488",
-    "type": "link call",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "",
-    "links": [
-      "587236e6160da46c"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 870,
-    "y": 1860,
-    "wires": [
-      [
-        "01bdaee277401c15",
-        "75e1b24c5aaa1167"
-      ]
-    ]
-  },
-  {
-    "id": "01bdaee277401c15",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1050,
-    "y": 1860,
-    "wires": [
-      [
-        "7110eb15cfddfcf3",
-        "15ff0a0169806055"
-      ]
-    ]
-  },
-  {
-    "id": "15ff0a0169806055",
-    "type": "debug",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "scene - airflow",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1600,
-    "y": 1800,
-    "wires": []
-  },
-  {
-    "id": "a5e91e12f7ecfedc",
-    "type": "link in",
-    "z": "68ee181e9defa139",
-    "g": "daf0cda4c7b1bea9",
-    "name": "scene - airflow",
-    "links": [
-      "ce2b0a43f5487a52"
-    ],
-    "x": 135,
-    "y": 1800,
-    "wires": [
-      [
-        "5f43398278d755b7"
-      ]
-    ]
-  },
-  {
     "id": "ed024e2049749de7",
     "type": "switch",
     "z": "68ee181e9defa139",
@@ -3762,8 +3425,8 @@
     "rules": [
       {
         "t": "eq",
-        "v": "metrics[msg.scene.bucket]cumulus['electric meter']",
-        "vt": "global"
+        "v": "payload.cumulus['electric meter']",
+        "vt": "msg"
       },
       {
         "t": "eq",
@@ -3784,20 +3447,20 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 2490,
+    "x": 2630,
     "y": 2160,
     "wires": [
       [
-        "966f04b51561351a"
+        "e1f2c4546f0130dc"
       ],
       [
-        "966f04b51561351a"
+        "e1f2c4546f0130dc"
       ],
       [
-        "966f04b51561351a"
+        "e1f2c4546f0130dc"
       ],
       [
-        "966f04b51561351a"
+        "e1f2c4546f0130dc"
       ]
     ]
   },
@@ -3806,15 +3469,8 @@
     "type": "change",
     "z": "68ee181e9defa139",
     "g": "75150dc9074374a7",
-    "name": "scene cumulus / balloon / boolean",
+    "name": "set scene metrics",
     "rules": [
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "payload.bucket",
-        "tot": "msg"
-      },
       {
         "t": "set",
         "p": "scene.measurement",
@@ -3859,20 +3515,10 @@
       },
       {
         "t": "set",
-        "p": "payload",
+        "p": "scene.bucket",
         "pt": "msg",
-        "to": "old_payload",
+        "to": "scene_bucket",
         "tot": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "old_payload",
-        "pt": "msg"
-      },
-      {
-        "t": "delete",
-        "p": "parts",
-        "pt": "msg"
       }
     ],
     "action": "",
@@ -3880,7 +3526,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2240,
+    "x": 2430,
     "y": 2160,
     "wires": [
       [
@@ -3901,7 +3547,7 @@
     "y": 2160,
     "wires": [
       [
-        "9b91d71f1e44cf1f"
+        "ae0a5d9f0b470cc1"
       ]
     ]
   },
@@ -4279,6 +3925,13 @@
         "pt": "msg",
         "to": "metrics",
         "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "scene",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -4286,7 +3939,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1480,
+    "x": 1720,
     "y": 2160,
     "wires": [
       [
@@ -4305,8 +3958,8 @@
     "arraySplt": 1,
     "arraySpltType": "len",
     "stream": false,
-    "addname": "",
-    "x": 1720,
+    "addname": "scene_bucket",
+    "x": 1960,
     "y": 2160,
     "wires": [
       [
@@ -4332,7 +3985,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1950,
+    "x": 2190,
     "y": 2160,
     "wires": [
       [
@@ -4351,7 +4004,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 2670,
+    "x": 2990,
     "y": 2160,
     "wires": [
       [
@@ -4377,7 +4030,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2850,
+    "x": 3170,
     "y": 2160,
     "wires": [
       [
@@ -4396,7 +4049,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 3930,
+    "x": 4250,
     "y": 2220,
     "wires": [
       [
@@ -4422,7 +4075,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4110,
+    "x": 4430,
     "y": 2220,
     "wires": [
       [
@@ -4441,7 +4094,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 4810,
+    "x": 5130,
     "y": 2040,
     "wires": [
       [
@@ -4467,7 +4120,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4990,
+    "x": 5310,
     "y": 2040,
     "wires": [
       [
@@ -4487,7 +4140,7 @@
     "links": [
       "fb4b4e2a3fb029df"
     ],
-    "x": 5115,
+    "x": 5435,
     "y": 2160,
     "wires": []
   },
@@ -4502,7 +4155,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 3570,
+    "x": 3890,
     "y": 2280,
     "wires": [
       [
@@ -4528,7 +4181,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 4460,
+    "x": 4780,
     "y": 2160,
     "wires": [
       [
@@ -4561,7 +4214,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 3390,
+    "x": 3710,
     "y": 2220,
     "wires": [
       [
@@ -4603,7 +4256,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 4,
-    "x": 3010,
+    "x": 3330,
     "y": 2160,
     "wires": [
       [
@@ -4638,7 +4291,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3200,
+    "x": 3520,
     "y": 2160,
     "wires": [
       [
@@ -4666,7 +4319,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4280,
+    "x": 4600,
     "y": 2160,
     "wires": [
       [
@@ -4692,7 +4345,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5180,
+    "x": 5500,
     "y": 2040,
     "wires": [
       [
@@ -4741,7 +4394,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5380,
+    "x": 5700,
     "y": 2040,
     "wires": [
       [
@@ -4759,7 +4412,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 5515,
+    "x": 5835,
     "y": 2040,
     "wires": []
   },
@@ -4783,7 +4436,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4140,
+    "x": 4460,
     "y": 2040,
     "wires": [
       [
@@ -4817,7 +4470,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 3750,
+    "x": 4070,
     "y": 2280,
     "wires": [
       [
@@ -4841,7 +4494,7 @@
     "septopics": false,
     "property": "payload",
     "topi": "topic",
-    "x": 4630,
+    "x": 4950,
     "y": 2040,
     "wires": [
       [
@@ -4867,7 +4520,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3940,
+    "x": 4260,
     "y": 2100,
     "wires": [
       [
@@ -4893,7 +4546,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3210,
+    "x": 3530,
     "y": 2100,
     "wires": [
       [
@@ -4919,7 +4572,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3170,
+    "x": 3490,
     "y": 2040,
     "wires": [
       [
@@ -4945,7 +4598,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 3330,
+    "x": 3650,
     "y": 2040,
     "wires": [
       [
@@ -4969,7 +4622,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3510,
+    "x": 3830,
     "y": 2040,
     "wires": [
       [
@@ -4995,7 +4648,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3200,
+    "x": 3520,
     "y": 2220,
     "wires": [
       [
@@ -5017,8 +4670,1262 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 5180,
+    "x": 5500,
     "y": 2100,
     "wires": []
+  },
+  {
+    "id": "bd3993636ad365be",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / actif / boolean / true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "actif",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 720,
+    "y": 2460,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "75f29e3e2be3f5d7",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow  / timer / number / 30",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "timer",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "30",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 720,
+    "y": 2520,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "4cfbcc42c42795e7",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / limit / number / 55",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "limit",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "55",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2580,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "6e122c5defee75eb",
+    "type": "link in",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "scene - airflow",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 1295,
+    "y": 2520,
+    "wires": [
+      [
+        "399cd9f81052ae3e"
+      ]
+    ]
+  },
+  {
+    "id": "e80ac9c6a2450e94",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "set scene metrics",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "scene_bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "cmv",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2430,
+    "y": 2520,
+    "wires": [
+      [
+        "dd5a3618de2a35cc"
+      ]
+    ]
+  },
+  {
+    "id": "80614f90fc25ec4a",
+    "type": "link in",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "device - airflow",
+    "links": [
+      "f1898b7dbc641cd6"
+    ],
+    "x": 135,
+    "y": 2460,
+    "wires": [
+      [
+        "d3968cfcbfe1e2d4"
+      ]
+    ]
+  },
+  {
+    "id": "d3968cfcbfe1e2d4",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "field",
+    "property": "field",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cmv",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 2460,
+    "wires": [
+      [
+        "77b05b9e59ec652c"
+      ]
+    ]
+  },
+  {
+    "id": "77b05b9e59ec652c",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "airflow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 460,
+    "y": 2460,
+    "wires": [
+      [
+        "bd3993636ad365be",
+        "75f29e3e2be3f5d7",
+        "4cfbcc42c42795e7",
+        "253eaf939b574f3a",
+        "0ad91c777d8ac1e1",
+        "fc725fd688697cae",
+        "f0dbfaf1061b3eb9",
+        "84760331e955a63c"
+      ]
+    ]
+  },
+  {
+    "id": "dcd4b1194169d097",
+    "type": "comment",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "scan device registration to find xxx / airflow / cmv",
+    "info": "",
+    "x": 300,
+    "y": 2520,
+    "wires": []
+  },
+  {
+    "id": "660daed15b476d7f",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "path",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "protocol",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "mdoel",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "id",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "option",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 980,
+    "y": 2460,
+    "wires": [
+      [
+        "9bf15f012eba32fd"
+      ]
+    ]
+  },
+  {
+    "id": "9bf15f012eba32fd",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "device - airflow",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 1115,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "253eaf939b574f3a",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / humidity 1 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity 1",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2640,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "0ad91c777d8ac1e1",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / humidity 2 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity 2",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2700,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "fc725fd688697cae",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / humidity 3 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity 3",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2760,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "f0dbfaf1061b3eb9",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / humidity 4 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity 4",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2820,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "84760331e955a63c",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "c6cb89a1ee503d2d",
+    "name": "airflow / humidity 5 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "humidity 5",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 710,
+    "y": 2880,
+    "wires": [
+      [
+        "660daed15b476d7f"
+      ]
+    ]
+  },
+  {
+    "id": "23403b2e0efa08c0",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "get metrics from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "scene",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1720,
+    "y": 2520,
+    "wires": [
+      [
+        "7a3e5c86333a7ae0"
+      ]
+    ]
+  },
+  {
+    "id": "7a3e5c86333a7ae0",
+    "type": "split",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "split by buckets",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "scene_bucket",
+    "x": 1960,
+    "y": 2520,
+    "wires": [
+      [
+        "121fed57229486de"
+      ]
+    ]
+  },
+  {
+    "id": "121fed57229486de",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "has measurement",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "airflow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2190,
+    "y": 2520,
+    "wires": [
+      [
+        "e80ac9c6a2450e94"
+      ]
+    ]
+  },
+  {
+    "id": "dd5a3618de2a35cc",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "payload.airflow['humidity 1']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "payload.airflow['humidity 2']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "payload.airflow['humidity 3']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "payload.airflow['humidity 4']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "payload.airflow['humidity 5']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "msg.scene.bucket&'/airflow/cmv'",
+        "vt": "jsonata"
+      },
+      {
+        "t": "eq",
+        "v": "system/mode/airflow",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 7,
+    "x": 2630,
+    "y": 2520,
+    "wires": [
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ],
+      [
+        "44638c23fe15b9b9"
+      ]
+    ]
+  },
+  {
+    "id": "cb83cca146b17b71",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 3010,
+    "y": 2520,
+    "wires": [
+      [
+        "e383a634f71ed9d5"
+      ]
+    ]
+  },
+  {
+    "id": "e383a634f71ed9d5",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3180,
+    "y": 2520,
+    "wires": [
+      [
+        "f3de19c8cb3d6f5e"
+      ]
+    ]
+  },
+  {
+    "id": "c8ef0ce134c4de20",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "",
+    "links": [
+      "834ce9850cdb0a72"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 3940,
+    "y": 2460,
+    "wires": [
+      [
+        "16d41222926b4e21"
+      ]
+    ]
+  },
+  {
+    "id": "6a36741a719e6e4d",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "scene - airflow",
+    "mode": "link",
+    "links": [
+      "fb4b4e2a3fb029df"
+    ],
+    "x": 4245,
+    "y": 2580,
+    "wires": []
+  },
+  {
+    "id": "16d41222926b4e21",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 4120,
+    "y": 2460,
+    "wires": [
+      [
+        "6a36741a719e6e4d",
+        "e5c65ab7f659b78c",
+        "2c8763a31cb569ed"
+      ]
+    ]
+  },
+  {
+    "id": "f3de19c8cb3d6f5e",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "mode",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "humidity",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 3370,
+    "y": 2520,
+    "wires": [
+      [
+        "e83020decb3a2dea"
+      ],
+      [
+        "5ea6ee43e920e092"
+      ],
+      [
+        "3ae94b451aee5a01"
+      ]
+    ]
+  },
+  {
+    "id": "e83020decb3a2dea",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "manual",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3570,
+    "y": 2460,
+    "wires": [
+      [
+        "c9314de7ea6b9531"
+      ]
+    ]
+  },
+  {
+    "id": "c9314de7ea6b9531",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "true",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3760,
+    "y": 2520,
+    "wires": [
+      [
+        "6a36741a719e6e4d",
+        "c8ef0ce134c4de20",
+        "2c8763a31cb569ed"
+      ]
+    ]
+  },
+  {
+    "id": "e5c65ab7f659b78c",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "mode",
+    "property": "metrics.system.mode.airflow",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "manual",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 4280,
+    "y": 2460,
+    "wires": [
+      [
+        "05a0bf5c41fb1fad"
+      ]
+    ]
+  },
+  {
+    "id": "05a0bf5c41fb1fad",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "automatic",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "airflow",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4450,
+    "y": 2460,
+    "wires": [
+      [
+        "8d40f4d6eaa344ac"
+      ]
+    ]
+  },
+  {
+    "id": "8d40f4d6eaa344ac",
+    "type": "link out",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "scene - airflow - auto",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 4585,
+    "y": 2460,
+    "wires": []
+  },
+  {
+    "id": "5ea6ee43e920e092",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "humidity",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "routine.humidity",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3570,
+    "y": 2520,
+    "wires": [
+      [
+        "c9314de7ea6b9531"
+      ]
+    ]
+  },
+  {
+    "id": "3ae94b451aee5a01",
+    "type": "link call",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "",
+    "links": [
+      "587236e6160da46c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 3580,
+    "y": 2580,
+    "wires": [
+      [
+        "c1bdda78a1a1cd4f",
+        "c8ef0ce134c4de20"
+      ]
+    ]
+  },
+  {
+    "id": "c1bdda78a1a1cd4f",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3760,
+    "y": 2580,
+    "wires": [
+      [
+        "6a36741a719e6e4d",
+        "2c8763a31cb569ed"
+      ]
+    ]
+  },
+  {
+    "id": "2c8763a31cb569ed",
+    "type": "debug",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "scene - airflow",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 4310,
+    "y": 2520,
+    "wires": []
+  },
+  {
+    "id": "399cd9f81052ae3e",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "limit measurements",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "(humidity|airflow|mode)",
+        "vt": "str",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1470,
+    "y": 2520,
+    "wires": [
+      [
+        "23403b2e0efa08c0"
+      ]
+    ]
+  },
+  {
+    "id": "ae0a5d9f0b470cc1",
+    "type": "switch",
+    "z": "68ee181e9defa139",
+    "g": "75150dc9074374a7",
+    "name": "limit measurements",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "(cumulus|power|mode)",
+        "vt": "str",
+        "case": false
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1470,
+    "y": 2160,
+    "wires": [
+      [
+        "9b91d71f1e44cf1f"
+      ]
+    ]
+  },
+  {
+    "id": "44638c23fe15b9b9",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "49794532d925f87d",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "old_payload",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "scene_bucket",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2810,
+    "y": 2520,
+    "wires": [
+      [
+        "cb83cca146b17b71"
+      ]
+    ]
+  },
+  {
+    "id": "e1f2c4546f0130dc",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "75150dc9074374a7",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "old_payload",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "scene_bucket",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2800,
+    "y": 2160,
+    "wires": [
+      [
+        "966f04b51561351a"
+      ]
+    ]
   }
 ]
