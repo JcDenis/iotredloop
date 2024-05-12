@@ -70,25 +70,6 @@
     "h": 314
   },
   {
-    "id": "37624cd98b8ee2a4",
-    "type": "group",
-    "z": "2b225e03b149417d",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "729d745d2f78ab73",
-      "297b2d3fd56440f9"
-    ],
-    "x": 68,
-    "y": 593,
-    "w": 1334,
-    "h": 374
-  },
-  {
     "id": "f8d0942e587ff2f0",
     "type": "group",
     "z": "2b225e03b149417d",
@@ -105,7 +86,7 @@
       "1be2396c5ede7eef"
     ],
     "x": 68,
-    "y": 1013,
+    "y": 593,
     "w": 1394,
     "h": 494
   },
@@ -179,53 +160,6 @@
     "h": 164.5
   },
   {
-    "id": "729d745d2f78ab73",
-    "type": "group",
-    "z": "2b225e03b149417d",
-    "g": "37624cd98b8ee2a4",
-    "name": "cave - scene - cumulus balloon",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1dee4c1bfd86f78c",
-      "c11de5fcb0565144",
-      "d60df3cdcb5355ed",
-      "a5610da475c5e78e"
-    ],
-    "x": 694,
-    "y": 724,
-    "w": 682,
-    "h": 112
-  },
-  {
-    "id": "297b2d3fd56440f9",
-    "type": "group",
-    "z": "2b225e03b149417d",
-    "g": "37624cd98b8ee2a4",
-    "name": "cave - device - cumulus",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "ab0e0267be067354",
-      "6d8b9ac84c8dc897",
-      "cf6474d8d06d0270",
-      "b986d701532491f9",
-      "d8f18951a98cd40c",
-      "216fcd9d7b66d1b0",
-      "8c211879313393ab"
-    ],
-    "x": 94,
-    "y": 619,
-    "w": 502,
-    "h": 322
-  },
-  {
     "id": "0fd00a5d28108c93",
     "type": "group",
     "z": "2b225e03b149417d",
@@ -246,7 +180,7 @@
       "89735cb301bdea99"
     ],
     "x": 94,
-    "y": 1039,
+    "y": 619,
     "w": 1342,
     "h": 82
   },
@@ -269,7 +203,7 @@
       "3762437c4d4b168c"
     ],
     "x": 94,
-    "y": 1159,
+    "y": 739,
     "w": 952,
     "h": 82
   },
@@ -292,7 +226,7 @@
       "ac6b4421c7675b8f"
     ],
     "x": 94,
-    "y": 1279,
+    "y": 859,
     "w": 952,
     "h": 82
   },
@@ -315,7 +249,7 @@
       "938259965bdd9849"
     ],
     "x": 94,
-    "y": 1399,
+    "y": 979,
     "w": 892,
     "h": 82
   },
@@ -383,7 +317,8 @@
       "aa7b6ce7671e2eec",
       "cf6474d8d06d0270",
       "d063a776bac586a6",
-      "668589ced855b77f"
+      "668589ced855b77f",
+      "b2727298d3be322e"
     ],
     "x": 395,
     "y": 60,
@@ -931,374 +866,6 @@
     ]
   },
   {
-    "id": "1dee4c1bfd86f78c",
-    "type": "switch",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "metrics[msg.scene.bucket]cumulus['electric meter']",
-        "vt": "global"
-      },
-      {
-        "t": "eq",
-        "v": "system/mode/nycthemer",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "system/mode/cumulus",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "msg.scene.bucket&'/power/'&msg.scene.field",
-        "vt": "jsonata"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 4,
-    "x": 1210,
-    "y": 780,
-    "wires": [
-      [
-        "a5610da475c5e78e"
-      ],
-      [
-        "a5610da475c5e78e"
-      ],
-      [
-        "a5610da475c5e78e"
-      ],
-      [
-        "a5610da475c5e78e"
-      ]
-    ]
-  },
-  {
-    "id": "c11de5fcb0565144",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "scene cumulus / balloon / boolean",
-    "rules": [
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "scene.measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.field",
-        "pt": "msg",
-        "to": "balloon",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.format",
-        "pt": "msg",
-        "to": "boolean",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.type",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.on",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "scene.off",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 960,
-    "y": 780,
-    "wires": [
-      [
-        "1dee4c1bfd86f78c"
-      ]
-    ]
-  },
-  {
-    "id": "d60df3cdcb5355ed",
-    "type": "link in",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "cave - scene - cumulus balloon",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 735,
-    "y": 780,
-    "wires": [
-      [
-        "c11de5fcb0565144"
-      ]
-    ]
-  },
-  {
-    "id": "ab0e0267be067354",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cumulus / actif / boolean / true",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "actif",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "boolean",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 350,
-    "y": 660,
-    "wires": [
-      [
-        "6d8b9ac84c8dc897"
-      ]
-    ]
-  },
-  {
-    "id": "6d8b9ac84c8dc897",
-    "type": "link out",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "device cumulus",
-    "mode": "link",
-    "links": [
-      "bfa594bf1f876c92"
-    ],
-    "x": 555,
-    "y": 660,
-    "wires": []
-  },
-  {
-    "id": "cf6474d8d06d0270",
-    "type": "link in",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cave - device - cumulus",
-    "links": [
-      "e035e232e2747fed"
-    ],
-    "x": 135,
-    "y": 660,
-    "wires": [
-      [
-        "ab0e0267be067354",
-        "b986d701532491f9",
-        "d8f18951a98cd40c",
-        "216fcd9d7b66d1b0",
-        "8c211879313393ab"
-      ]
-    ]
-  },
-  {
-    "id": "b986d701532491f9",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cumulus / timer / number / 180",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "timer",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "number",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "180",
-        "tot": "num"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 350,
-    "y": 780,
-    "wires": [
-      [
-        "6d8b9ac84c8dc897"
-      ]
-    ]
-  },
-  {
-    "id": "d8f18951a98cd40c",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cumulus / daily / boolean / false",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "daily",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "boolean",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 350,
-    "y": 840,
-    "wires": [
-      [
-        "6d8b9ac84c8dc897"
-      ]
-    ]
-  },
-  {
-    "id": "216fcd9d7b66d1b0",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cumulus / night / boolean / true",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "night",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "boolean",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 350,
-    "y": 900,
-    "wires": [
-      [
-        "6d8b9ac84c8dc897"
-      ]
-    ]
-  },
-  {
     "id": "a72c1a80a1c23c90",
     "type": "link out",
     "z": "2b225e03b149417d",
@@ -1309,7 +876,7 @@
       "df6a69e3a774eebc"
     ],
     "x": 1395,
-    "y": 1080,
+    "y": 660,
     "wires": []
   },
   {
@@ -1322,7 +889,7 @@
       "abd3bb3b24dd961a"
     ],
     "x": 135,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "90c2212a5870ab4d"
@@ -1348,7 +915,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "7a48d3b28afb9335"
@@ -1374,7 +941,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "3bb670b7c782d0fe"
@@ -1398,7 +965,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 930,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "89735cb301bdea99"
@@ -1417,7 +984,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 660,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "40a1233e15703902"
@@ -1436,7 +1003,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 1200,
-    "y": 1080,
+    "y": 660,
     "wires": [
       [
         "a72c1a80a1c23c90"
@@ -1453,7 +1020,7 @@
       "a66c6d1f8e271921"
     ],
     "x": 135,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "0ff0fadc83ac38d1"
@@ -1479,7 +1046,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "c86c464bb9aa4ec7"
@@ -1498,7 +1065,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 650,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "3762437c4d4b168c"
@@ -1526,7 +1093,7 @@
     "to": "",
     "reg": false,
     "x": 430,
-    "y": 1200,
+    "y": 780,
     "wires": [
       [
         "cf514e4790cf30b2"
@@ -1550,7 +1117,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 920,
-    "y": 1200,
+    "y": 780,
     "wires": [
       []
     ]
@@ -1574,7 +1141,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1320,
+    "y": 900,
     "wires": [
       [
         "c952edfa67754b49"
@@ -1591,7 +1158,7 @@
       "8f6b9cabcee961b9"
     ],
     "x": 135,
-    "y": 1320,
+    "y": 900,
     "wires": [
       [
         "76fff1f1e6767cb1"
@@ -1619,7 +1186,7 @@
     "to": "",
     "reg": false,
     "x": 430,
-    "y": 1320,
+    "y": 900,
     "wires": [
       [
         "5bdae1b3b0632ad1"
@@ -1638,7 +1205,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 650,
-    "y": 1320,
+    "y": 900,
     "wires": [
       [
         "ac6b4421c7675b8f"
@@ -1662,7 +1229,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 920,
-    "y": 1320,
+    "y": 900,
     "wires": [
       []
     ]
@@ -1677,7 +1244,7 @@
       "c961c347fd2d14b5"
     ],
     "x": 135,
-    "y": 1440,
+    "y": 1020,
     "wires": [
       [
         "151c6168bcca45e8"
@@ -1703,7 +1270,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1440,
+    "y": 1020,
     "wires": [
       [
         "ce088fb02cc8d95e"
@@ -1729,7 +1296,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1440,
+    "y": 1020,
     "wires": [
       [
         "938259965bdd9849"
@@ -1753,7 +1320,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 880,
-    "y": 1440,
+    "y": 1020,
     "wires": [
       []
     ]
@@ -1770,7 +1337,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 640,
-    "y": 1440,
+    "y": 1020,
     "wires": [
       [
         "b178cd11693d5684"
@@ -1834,68 +1401,5 @@
     "x": 915,
     "y": 60,
     "wires": []
-  },
-  {
-    "id": "a5610da475c5e78e",
-    "type": "link out",
-    "z": "2b225e03b149417d",
-    "g": "729d745d2f78ab73",
-    "name": "cave - scene - cumulus balloon",
-    "mode": "link",
-    "links": [
-      "97c76b46acec597a"
-    ],
-    "x": 1335,
-    "y": 780,
-    "wires": []
-  },
-  {
-    "id": "8c211879313393ab",
-    "type": "change",
-    "z": "2b225e03b149417d",
-    "g": "297b2d3fd56440f9",
-    "name": "cumulus / electric meter / text / ",
-    "rules": [
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "cumulus",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "electric meter",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "format",
-        "pt": "msg",
-        "to": "text",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "default",
-        "pt": "msg",
-        "to": "home/current/electric meter",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 350,
-    "y": 720,
-    "wires": [
-      [
-        "6d8b9ac84c8dc897"
-      ]
-    ]
   }
 ]
