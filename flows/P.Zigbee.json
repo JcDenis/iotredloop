@@ -46,7 +46,7 @@
       "573db46bbc14f6e9"
     ],
     "x": 68,
-    "y": 773,
+    "y": 1673,
     "w": 2114,
     "h": 254
   },
@@ -89,7 +89,7 @@
       "a96ce0d1796adb63"
     ],
     "x": 68,
-    "y": 1073,
+    "y": 773,
     "w": 2914,
     "h": 314
   },
@@ -236,7 +236,7 @@
       "4d1cd88e584eca79"
     ],
     "x": 68,
-    "y": 1673,
+    "y": 1373,
     "w": 2154,
     "h": 254
   },
@@ -257,9 +257,30 @@
       "4fcc72c14eaab8bb"
     ],
     "x": 68,
-    "y": 1433,
+    "y": 1133,
     "w": 2174,
     "h": 194
+  },
+  {
+    "id": "fc882b005e4a84af",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "name": "aqara - LGYCDD01LM",
+    "style": {
+      "label": true,
+      "fill": "#777777",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "bfbcbfaa6778aa95",
+      "de09283c1daf628d",
+      "f5aa5e5de05036bc",
+      "33b6641b09b8c982"
+    ],
+    "x": 68,
+    "y": 1965.5,
+    "w": 2934,
+    "h": 381.5
   },
   {
     "id": "66948514053cd7ef",
@@ -354,7 +375,7 @@
       "da66f64898772e28"
     ],
     "x": 1474,
-    "y": 799,
+    "y": 1699,
     "w": 682,
     "h": 142
   },
@@ -379,7 +400,7 @@
       "cff5883034f77cb0"
     ],
     "x": 534,
-    "y": 799,
+    "y": 1699,
     "w": 842,
     "h": 202
   },
@@ -456,7 +477,7 @@
       "8237bbc2fead9706"
     ],
     "x": 534,
-    "y": 1099,
+    "y": 799,
     "w": 842,
     "h": 262
   },
@@ -480,7 +501,7 @@
       "4385665e61ddeef1"
     ],
     "x": 1474,
-    "y": 1099,
+    "y": 799,
     "w": 662,
     "h": 142
   },
@@ -503,7 +524,7 @@
       "dc8432cb11ffb0d6"
     ],
     "x": 2234,
-    "y": 1099,
+    "y": 799,
     "w": 722,
     "h": 82
   },
@@ -754,7 +775,7 @@
       "13199e203383201a"
     ],
     "x": 534,
-    "y": 1699,
+    "y": 1399,
     "w": 882,
     "h": 202
   },
@@ -778,7 +799,7 @@
       "81d1299edeeec856"
     ],
     "x": 1514,
-    "y": 1699,
+    "y": 1399,
     "w": 682,
     "h": 142
   },
@@ -904,7 +925,7 @@
       "4eb7f83fca4bcb34"
     ],
     "x": 94,
-    "y": 799,
+    "y": 1699,
     "w": 342,
     "h": 82
   },
@@ -926,7 +947,7 @@
       "c5b9d91c720d7091"
     ],
     "x": 94,
-    "y": 1099,
+    "y": 799,
     "w": 342,
     "h": 142
   },
@@ -947,7 +968,7 @@
       "f26c156abc555775"
     ],
     "x": 94,
-    "y": 1699,
+    "y": 1399,
     "w": 342,
     "h": 82
   },
@@ -971,7 +992,7 @@
       "e20cf17770949369"
     ],
     "x": 534,
-    "y": 1459,
+    "y": 1159,
     "w": 902,
     "h": 142
   },
@@ -994,7 +1015,7 @@
       "a5360e4799f9e170"
     ],
     "x": 1534,
-    "y": 1459,
+    "y": 1159,
     "w": 682,
     "h": 82
   },
@@ -1015,9 +1036,103 @@
       "fbe235d0cb60d161"
     ],
     "x": 94,
-    "y": 1459,
+    "y": 1159,
     "w": 342,
     "h": 82
+  },
+  {
+    "id": "bfbcbfaa6778aa95",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "fc882b005e4a84af",
+    "name": "zigbee - LGYCDD01LM - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "d8ae76a5c0ba5f6a",
+      "c54192a41990cf11",
+      "4975550378291448"
+    ],
+    "x": 94,
+    "y": 1999,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "de09283c1daf628d",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "fc882b005e4a84af",
+    "name": "zigbee - LGYCDD01LM- device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f06ba18faf97032b",
+      "7290c49c75ecae94",
+      "8e57dece73e9abd4",
+      "32d00a16ef133893",
+      "d66b347f3bce5f3d",
+      "177460bc6cfd066c",
+      "808fb84d912540a7",
+      "82b83f7d81d2ba8f",
+      "66ba7737ec70b545"
+    ],
+    "x": 534,
+    "y": 1999,
+    "w": 842,
+    "h": 322
+  },
+  {
+    "id": "f5aa5e5de05036bc",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "fc882b005e4a84af",
+    "name": "zigbee - LGYCDD01LM - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ee79788fa0dd99e5",
+      "f6a43d93fa9caf56",
+      "011799cd3edec2dc",
+      "facc68a5ef39eb24",
+      "1f491e6a49821d0e"
+    ],
+    "x": 1474,
+    "y": 1999,
+    "w": 682,
+    "h": 82
+  },
+  {
+    "id": "33b6641b09b8c982",
+    "type": "group",
+    "z": "0cd436e03cba5cb6",
+    "g": "fc882b005e4a84af",
+    "name": "zigbee - LGYCDD01LM - metric",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "aff9c7b218c52ff1",
+      "d0fa99cc77ef787c",
+      "83ba7411866b2702",
+      "1df2f73158e97776",
+      "23cb7e24572f04c1"
+    ],
+    "x": 2254,
+    "y": 1991.5,
+    "w": 722,
+    "h": 97
   },
   {
     "id": "19b13887fb6925d7",
@@ -1612,7 +1727,7 @@
     "to": "",
     "reg": false,
     "x": 1970,
-    "y": 900,
+    "y": 1800,
     "wires": [
       [
         "8f6759a268add92e"
@@ -1640,7 +1755,7 @@
     "to": "",
     "reg": false,
     "x": 1980,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "8f6759a268add92e"
@@ -1657,7 +1772,7 @@
       "24058eec92534b27"
     ],
     "x": 1515,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "6a57d40dff357bfa"
@@ -1683,7 +1798,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1650,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "da66f64898772e28"
@@ -1701,7 +1816,7 @@
       "14a0a0839924964f"
     ],
     "x": 2115,
-    "y": 840,
+    "y": 1740,
     "wires": []
   },
   {
@@ -1723,7 +1838,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1810,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "eb2dea648ab3cbf3",
@@ -1750,7 +1865,7 @@
     "repair": false,
     "outputs": 1,
     "x": 710,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "3ceac0cbe91463c5",
@@ -1801,7 +1916,7 @@
     "to": "",
     "reg": false,
     "x": 950,
-    "y": 900,
+    "y": 1800,
     "wires": [
       [
         "0cdcc7d5d4b9c579"
@@ -1850,7 +1965,7 @@
     "to": "",
     "reg": false,
     "x": 940,
-    "y": 960,
+    "y": 1860,
     "wires": [
       [
         "0cdcc7d5d4b9c579"
@@ -1867,7 +1982,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "2743e40bf657513e"
@@ -1885,7 +2000,7 @@
       "3e1b4213132404be"
     ],
     "x": 1335,
-    "y": 840,
+    "y": 1740,
     "wires": []
   },
   {
@@ -1909,7 +2024,7 @@
     "to": "",
     "reg": false,
     "x": 1200,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "4f9f216ecca80280"
@@ -1951,7 +2066,7 @@
     "to": "",
     "reg": false,
     "x": 950,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "0cdcc7d5d4b9c579"
@@ -1966,7 +2081,7 @@
     "name": "aperture / door",
     "info": "",
     "x": 200,
-    "y": 920,
+    "y": 1820,
     "wires": []
   },
   {
@@ -2464,7 +2579,7 @@
     "repair": false,
     "outputs": 2,
     "x": 710,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "de7e38615805f3a5",
@@ -2522,7 +2637,7 @@
     "to": "",
     "reg": false,
     "x": 940,
-    "y": 1200,
+    "y": 900,
     "wires": [
       [
         "d982fc8e308c3260"
@@ -2571,7 +2686,7 @@
     "to": "",
     "reg": false,
     "x": 950,
-    "y": 1260,
+    "y": 960,
     "wires": [
       [
         "d982fc8e308c3260"
@@ -2620,7 +2735,7 @@
     "to": "",
     "reg": false,
     "x": 940,
-    "y": 1320,
+    "y": 1020,
     "wires": [
       [
         "d982fc8e308c3260"
@@ -2637,7 +2752,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "8cac6d3317d16d9b"
@@ -2679,7 +2794,7 @@
     "to": "",
     "reg": false,
     "x": 940,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "d982fc8e308c3260"
@@ -2707,7 +2822,7 @@
     "to": "",
     "reg": false,
     "x": 1200,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "8237bbc2fead9706"
@@ -2725,7 +2840,7 @@
       "3e1b4213132404be"
     ],
     "x": 1335,
-    "y": 1140,
+    "y": 840,
     "wires": []
   },
   {
@@ -2736,7 +2851,7 @@
     "name": "light / relay",
     "info": "",
     "x": 180,
-    "y": 1280,
+    "y": 980,
     "wires": []
   },
   {
@@ -2760,7 +2875,7 @@
     "to": "",
     "reg": false,
     "x": 1970,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "4385665e61ddeef1"
@@ -2795,7 +2910,7 @@
     "to": "",
     "reg": false,
     "x": 1970,
-    "y": 1200,
+    "y": 900,
     "wires": [
       [
         "4385665e61ddeef1"
@@ -2812,7 +2927,7 @@
       "24058eec92534b27"
     ],
     "x": 1515,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "1163d4337dbcccf6"
@@ -2843,7 +2958,7 @@
     "repair": false,
     "outputs": 2,
     "x": 1650,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "2ec8ca0d27d00fed"
@@ -2872,7 +2987,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1810,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "93febb4421f30d87",
@@ -2891,7 +3006,7 @@
       "14a0a0839924964f"
     ],
     "x": 2095,
-    "y": 1140,
+    "y": 840,
     "wires": []
   },
   {
@@ -2934,7 +3049,7 @@
     "to": "",
     "reg": false,
     "x": 2790,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "dc8432cb11ffb0d6"
@@ -2951,7 +3066,7 @@
       "637b84024e725f38"
     ],
     "x": 2275,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "c7da23fa87be228d"
@@ -2982,7 +3097,7 @@
     "repair": false,
     "outputs": 2,
     "x": 2410,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "f2fda89b10cab1fe"
@@ -3011,7 +3126,7 @@
     "repair": false,
     "outputs": 1,
     "x": 2600,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "de48ab70a838d67e"
@@ -3029,7 +3144,7 @@
       "e93e8daa30075ae6"
     ],
     "x": 2915,
-    "y": 1140,
+    "y": 840,
     "wires": []
   },
   {
@@ -4890,7 +5005,7 @@
     "repair": false,
     "outputs": 1,
     "x": 710,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "ac0a600ca52f9c3e",
@@ -4941,7 +5056,7 @@
     "to": "",
     "reg": false,
     "x": 960,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -4958,7 +5073,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "dfbbe93ed61d87b2"
@@ -5000,7 +5115,7 @@
     "to": "",
     "reg": false,
     "x": 970,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -5028,7 +5143,7 @@
     "to": "",
     "reg": false,
     "x": 1240,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "22ef5d09e03d19e0"
@@ -5046,7 +5161,7 @@
       "3e1b4213132404be"
     ],
     "x": 1375,
-    "y": 1740,
+    "y": 1440,
     "wires": []
   },
   {
@@ -5057,7 +5172,7 @@
     "name": "power / electric meter",
     "info": "",
     "x": 220,
-    "y": 1820,
+    "y": 1520,
     "wires": []
   },
   {
@@ -5088,7 +5203,7 @@
     "to": "",
     "reg": false,
     "x": 2010,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "81d1299edeeec856"
@@ -5123,7 +5238,7 @@
     "to": "",
     "reg": false,
     "x": 2020,
-    "y": 1800,
+    "y": 1500,
     "wires": [
       [
         "81d1299edeeec856"
@@ -5140,7 +5255,7 @@
       "24058eec92534b27"
     ],
     "x": 1555,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "a26d34138e9e5ac9"
@@ -5166,7 +5281,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1690,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "f60ae365fb4e2024"
@@ -5192,7 +5307,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1850,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "6bf24cfdfefb1bb7",
@@ -5211,7 +5326,7 @@
       "14a0a0839924964f"
     ],
     "x": 2155,
-    "y": 1740,
+    "y": 1440,
     "wires": []
   },
   {
@@ -5256,7 +5371,7 @@
     "to": "",
     "reg": false,
     "x": 960,
-    "y": 1860,
+    "y": 1560,
     "wires": [
       [
         "f739db440f3d79b1"
@@ -5778,7 +5893,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "df0e7a06d243f473"
@@ -5848,7 +5963,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 840,
+    "y": 1740,
     "wires": [
       [
         "4eb7f83fca4bcb34"
@@ -5866,7 +5981,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 840,
+    "y": 1740,
     "wires": []
   },
   {
@@ -5879,7 +5994,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "c6c8fa25720fcc15",
@@ -5950,7 +6065,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1140,
+    "y": 840,
     "wires": [
       [
         "79409b5134de7f76"
@@ -5968,7 +6083,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 1140,
+    "y": 840,
     "wires": []
   },
   {
@@ -6034,7 +6149,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1200,
+    "y": 900,
     "wires": [
       [
         "79409b5134de7f76"
@@ -6051,7 +6166,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "9ea62fd7b38d5c2a"
@@ -6121,7 +6236,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1740,
+    "y": 1440,
     "wires": [
       [
         "f26c156abc555775"
@@ -6139,7 +6254,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 1740,
+    "y": 1440,
     "wires": []
   },
   {
@@ -6161,7 +6276,7 @@
     "repair": false,
     "outputs": 1,
     "x": 710,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "de267bb0a5ee01a3",
@@ -6211,7 +6326,7 @@
     "to": "",
     "reg": false,
     "x": 960,
-    "y": 1560,
+    "y": 1260,
     "wires": [
       [
         "aca4e6e7d14bc594"
@@ -6228,7 +6343,7 @@
       "546f190f3ec0c90d"
     ],
     "x": 575,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "548e7018cac831bd"
@@ -6270,7 +6385,7 @@
     "to": "",
     "reg": false,
     "x": 970,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "aca4e6e7d14bc594"
@@ -6298,7 +6413,7 @@
     "to": "",
     "reg": false,
     "x": 1260,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "e20cf17770949369"
@@ -6316,7 +6431,7 @@
       "3e1b4213132404be"
     ],
     "x": 1395,
-    "y": 1500,
+    "y": 1200,
     "wires": []
   },
   {
@@ -6340,7 +6455,7 @@
     "to": "",
     "reg": false,
     "x": 2040,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "a5360e4799f9e170"
@@ -6357,7 +6472,7 @@
       "24058eec92534b27"
     ],
     "x": 1575,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "0d1a308fe2b59338"
@@ -6383,7 +6498,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1710,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "b1746f0094fd6091"
@@ -6409,7 +6524,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1870,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "66467fdc455dc868"
@@ -6427,7 +6542,7 @@
       "14a0a0839924964f"
     ],
     "x": 2175,
-    "y": 1500,
+    "y": 1200,
     "wires": []
   },
   {
@@ -6440,7 +6555,7 @@
       "9cb906bf8066d37e"
     ],
     "x": 135,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "e285295f66b2b90f"
@@ -6510,7 +6625,7 @@
     "to": "",
     "reg": false,
     "x": 270,
-    "y": 1500,
+    "y": 1200,
     "wires": [
       [
         "fbe235d0cb60d161"
@@ -6528,7 +6643,7 @@
       "94aa726ce8973d2c"
     ],
     "x": 395,
-    "y": 1500,
+    "y": 1200,
     "wires": []
   },
   {
@@ -6539,7 +6654,718 @@
     "name": "power / electric meter",
     "info": "",
     "x": 220,
-    "y": 1580,
+    "y": 1280,
     "wires": []
+  },
+  {
+    "id": "d8ae76a5c0ba5f6a",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "bfbcbfaa6778aa95",
+    "name": "zigbee - LGYCDD01LM - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 2040,
+    "wires": [
+      [
+        "c54192a41990cf11"
+      ]
+    ]
+  },
+  {
+    "id": "c54192a41990cf11",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "bfbcbfaa6778aa95",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "aqara",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "LGYCDD01LM",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "leds",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 2040,
+    "wires": [
+      [
+        "4975550378291448"
+      ]
+    ]
+  },
+  {
+    "id": "4975550378291448",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "bfbcbfaa6778aa95",
+    "name": "zigbee - LGYCDD01LM - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "f06ba18faf97032b",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "LGYCDD01LM",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 2040,
+    "wires": [
+      [
+        "7290c49c75ecae94",
+        "177460bc6cfd066c",
+        "808fb84d912540a7",
+        "82b83f7d81d2ba8f",
+        "66ba7737ec70b545"
+      ]
+    ]
+  },
+  {
+    "id": "7290c49c75ecae94",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "light / leds* / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'leds'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 2160,
+    "wires": [
+      [
+        "d66b347f3bce5f3d"
+      ]
+    ]
+  },
+  {
+    "id": "8e57dece73e9abd4",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "zigbee - LGYCDD01LM - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 2040,
+    "wires": [
+      [
+        "f06ba18faf97032b"
+      ]
+    ]
+  },
+  {
+    "id": "32d00a16ef133893",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "zigbee - LGYCDD01LM - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1335,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "d66b347f3bce5f3d",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "zigbee",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1200,
+    "y": 2040,
+    "wires": [
+      [
+        "32d00a16ef133893"
+      ]
+    ]
+  },
+  {
+    "id": "177460bc6cfd066c",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "brand: aqara / light / leds*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "aqara",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'leds'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 930,
+    "y": 2040,
+    "wires": [
+      [
+        "d66b347f3bce5f3d"
+      ]
+    ]
+  },
+  {
+    "id": "ee79788fa0dd99e5",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "f5aa5e5de05036bc",
+    "name": "light",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.payload.state='ON'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1970,
+    "y": 2040,
+    "wires": [
+      [
+        "facc68a5ef39eb24"
+      ]
+    ]
+  },
+  {
+    "id": "f6a43d93fa9caf56",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "f5aa5e5de05036bc",
+    "name": "zigbee - LGYCDD01LM - source",
+    "links": [
+      "24058eec92534b27"
+    ],
+    "x": 1515,
+    "y": 2040,
+    "wires": [
+      [
+        "011799cd3edec2dc"
+      ]
+    ]
+  },
+  {
+    "id": "011799cd3edec2dc",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "f5aa5e5de05036bc",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "LGYCDD01LM",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1650,
+    "y": 2040,
+    "wires": [
+      [
+        "1f491e6a49821d0e"
+      ]
+    ]
+  },
+  {
+    "id": "facc68a5ef39eb24",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "f5aa5e5de05036bc",
+    "name": "zigbee - LGYCDD01LM - source",
+    "mode": "link",
+    "links": [
+      "14a0a0839924964f"
+    ],
+    "x": 2115,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "1f491e6a49821d0e",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "f5aa5e5de05036bc",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "prefix",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1810,
+    "y": 2040,
+    "wires": [
+      [
+        "ee79788fa0dd99e5"
+      ]
+    ]
+  },
+  {
+    "id": "808fb84d912540a7",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "cible / leds* / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cible",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'leds'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 2100,
+    "wires": [
+      [
+        "d66b347f3bce5f3d"
+      ]
+    ]
+  },
+  {
+    "id": "aff9c7b218c52ff1",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "33b6641b09b8c982",
+    "name": "topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket][msg.measurement][msg.field]",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "msg.state?'ON':'OFF'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "color",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]['color'][msg.field]",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "brightness",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]['brightness'][msg.field]",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t    'state': msg.state,\t    'color': {'hex': msg.color},\t    'brightness': msg.brightness\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "state",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "color",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "set",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2810,
+    "y": 2040,
+    "wires": [
+      [
+        "23cb7e24572f04c1"
+      ]
+    ]
+  },
+  {
+    "id": "d0fa99cc77ef787c",
+    "type": "link in",
+    "z": "0cd436e03cba5cb6",
+    "g": "33b6641b09b8c982",
+    "name": "zigbee - LGYCDD01LM - metric",
+    "links": [
+      "637b84024e725f38"
+    ],
+    "x": 2295,
+    "y": 2040,
+    "wires": [
+      [
+        "83ba7411866b2702"
+      ]
+    ]
+  },
+  {
+    "id": "83ba7411866b2702",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "33b6641b09b8c982",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "LGYCDD01LM",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2430,
+    "y": 2040,
+    "wires": [
+      [
+        "1df2f73158e97776"
+      ]
+    ]
+  },
+  {
+    "id": "1df2f73158e97776",
+    "type": "switch",
+    "z": "0cd436e03cba5cb6",
+    "g": "33b6641b09b8c982",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cible",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "color",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "brightness",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 2620,
+    "y": 2040,
+    "wires": [
+      [
+        "aff9c7b218c52ff1"
+      ],
+      [
+        "aff9c7b218c52ff1"
+      ],
+      [
+        "aff9c7b218c52ff1"
+      ]
+    ]
+  },
+  {
+    "id": "23cb7e24572f04c1",
+    "type": "link out",
+    "z": "0cd436e03cba5cb6",
+    "g": "33b6641b09b8c982",
+    "name": "zigbee - LGYCDD01LM - metric",
+    "mode": "link",
+    "links": [
+      "e93e8daa30075ae6"
+    ],
+    "x": 2935,
+    "y": 2040,
+    "wires": []
+  },
+  {
+    "id": "82b83f7d81d2ba8f",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "color / leds* / text / #FFFFFF",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "color",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'leds'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "#FFFFFF",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 940,
+    "y": 2220,
+    "wires": [
+      [
+        "d66b347f3bce5f3d"
+      ]
+    ]
+  },
+  {
+    "id": "66ba7737ec70b545",
+    "type": "change",
+    "z": "0cd436e03cba5cb6",
+    "g": "de09283c1daf628d",
+    "name": "brightness / leds* / number / 200",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "brightness",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'leds'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "number",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "200",
+        "tot": "num"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 950,
+    "y": 2280,
+    "wires": [
+      [
+        "d66b347f3bce5f3d"
+      ]
+    ]
   }
 ]

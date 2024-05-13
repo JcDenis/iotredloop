@@ -280,6 +280,25 @@
     "h": 374
   },
   {
+    "id": "4206d30978748143",
+    "type": "group",
+    "z": "68ee181e9defa139",
+    "name": "",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c6cb89a1ee503d2d",
+      "49794532d925f87d"
+    ],
+    "x": 68,
+    "y": 2393,
+    "w": 4584,
+    "h": 554
+  },
+  {
     "id": "75150dc9074374a7",
     "type": "group",
     "z": "68ee181e9defa139",
@@ -359,25 +378,6 @@
     "y": 1999,
     "w": 1062,
     "h": 322
-  },
-  {
-    "id": "4206d30978748143",
-    "type": "group",
-    "z": "68ee181e9defa139",
-    "name": "",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c6cb89a1ee503d2d",
-      "49794532d925f87d"
-    ],
-    "x": 68,
-    "y": 2393,
-    "w": 4584,
-    "h": 554
   },
   {
     "id": "c6cb89a1ee503d2d",
@@ -3227,7 +3227,7 @@
     "z": "68ee181e9defa139",
     "g": "5bbc579c9b6b5a17",
     "name": "scene - nightlight",
-    "active": false,
+    "active": true,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -3473,6 +3473,13 @@
     "rules": [
       {
         "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "scene_bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
         "p": "scene.measurement",
         "pt": "msg",
         "to": "cumulus",
@@ -3512,13 +3519,6 @@
         "pt": "msg",
         "to": "false",
         "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "scene_bucket",
-        "tot": "msg"
       }
     ],
     "action": "",
@@ -3973,11 +3973,11 @@
     "z": "68ee181e9defa139",
     "g": "75150dc9074374a7",
     "name": "has measurement",
-    "property": "payload.measurement",
+    "property": "payload",
     "propertyType": "msg",
     "rules": [
       {
-        "t": "eq",
+        "t": "hask",
         "v": "cumulus",
         "vt": "str"
       }
@@ -5826,7 +5826,7 @@
     "rules": [
       {
         "t": "regex",
-        "v": "(cumulus|power|mode)",
+        "v": "(cumulus|power|tariff|mode)",
         "vt": "str",
         "case": false
       }
