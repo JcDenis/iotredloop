@@ -159,6 +159,26 @@
     "h": 922
   },
   {
+    "id": "ca924b100cc8cff2",
+    "type": "group",
+    "z": "52347795767acd3f",
+    "name": "telegram - sender",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "758726f2b1f2072d",
+      "0c86ad51105737f4",
+      "3433733d6b9a8736"
+    ],
+    "x": 1334,
+    "y": 19,
+    "w": 652,
+    "h": 82
+  },
+  {
     "id": "d2959fd404d63e14",
     "type": "group",
     "z": "52347795767acd3f",
@@ -230,12 +250,13 @@
       "5cce3ddc85ae4b7f",
       "52e58ab14c13701d",
       "ba7a5c79cd8542ce",
-      "cf344cfc63c703eb"
+      "cf344cfc63c703eb",
+      "7102b05e3a7f621d"
     ],
     "x": 1514,
     "y": 259,
     "w": 2492,
-    "h": 142
+    "h": 149.5
   },
   {
     "id": "93b32becb3f1dc05",
@@ -255,26 +276,6 @@
     "x": 1514,
     "y": 439,
     "w": 314,
-    "h": 82
-  },
-  {
-    "id": "ca924b100cc8cff2",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "telegram - sender",
-    "style": {
-      "label": true,
-      "fill": "#ff0000",
-      "fill-opacity": "0.05"
-    },
-    "nodes": [
-      "758726f2b1f2072d",
-      "0c86ad51105737f4",
-      "3433733d6b9a8736"
-    ],
-    "x": 1334,
-    "y": 19,
-    "w": 652,
     "h": 82
   },
   {
@@ -2881,11 +2882,16 @@
         "t": "eq",
         "v": "message",
         "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "report",
+        "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 2,
+    "outputs": 3,
     "x": 1910,
     "y": 360,
     "wires": [
@@ -2893,7 +2899,10 @@
         "cf344cfc63c703eb"
       ],
       [
-        "5cce3ddc85ae4b7f"
+        "7102b05e3a7f621d"
+      ],
+      [
+        "7102b05e3a7f621d"
       ]
     ]
   },
@@ -3520,6 +3529,34 @@
     "property": "payload",
     "x": 2080,
     "y": 300,
+    "wires": [
+      [
+        "5cce3ddc85ae4b7f"
+      ]
+    ]
+  },
+  {
+    "id": "7102b05e3a7f621d",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "bdd2440c99f0d065",
+    "name": "field",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2070,
+    "y": 360,
     "wires": [
       [
         "5cce3ddc85ae4b7f"
