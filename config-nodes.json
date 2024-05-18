@@ -265,7 +265,7 @@
   {
     "id": "0e53487482752cfe",
     "type": "ui-theme",
-    "name": "home theme",
+    "name": "theme room",
     "colors": {
       "surface": "#ffffff",
       "primary": "#aebd84",
@@ -274,10 +274,10 @@
       "groupOutline": "#cccccc"
     },
     "sizes": {
-      "pagePadding": "5px",
-      "groupGap": "5px",
-      "groupBorderRadius": "4px",
-      "widgetGap": "5px"
+      "pagePadding": "",
+      "groupGap": "",
+      "groupBorderRadius": "",
+      "widgetGap": ""
     }
   },
   {
@@ -929,7 +929,7 @@
     "path": "/creator",
     "icon": "auto-fix",
     "layout": "flex",
-    "theme": "0e53487482752cfe",
+    "theme": "b9e3784065d1d1b2",
     "order": 6,
     "className": "",
     "visible": "true",
@@ -1051,5 +1051,23 @@
     "className": "",
     "visible": "true",
     "disabled": "false"
+  },
+  {
+    "id": "b9e3784065d1d1b2",
+    "type": "ui-theme",
+    "name": "theme creator",
+    "colors": {
+      "surface": "#ffffff",
+      "primary": "#cca000",
+      "bgPage": "#eeeeee",
+      "groupBg": "#ffffff",
+      "groupOutline": "#bdd1d1"
+    },
+    "sizes": {
+      "pagePadding": "12px",
+      "groupGap": "12px",
+      "groupBorderRadius": "4px",
+      "widgetGap": "12px"
+    }
   }
 ]

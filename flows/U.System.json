@@ -7945,7 +7945,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "bucekt",
+        "p": "bucket",
         "pt": "msg",
         "to": "system",
         "tot": "str"

@@ -3227,7 +3227,7 @@
     "z": "68ee181e9defa139",
     "g": "5bbc579c9b6b5a17",
     "name": "scene - nightlight",
-    "active": true,
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
