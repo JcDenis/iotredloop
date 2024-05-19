@@ -64,7 +64,7 @@
       "7675dd03f941bc9a"
     ],
     "x": 68,
-    "y": 905.5,
+    "y": 1365.5,
     "w": 934,
     "h": 149
   },
@@ -82,12 +82,13 @@
       "0b5e3bfbf0fb13c7",
       "e3da4219d2723996",
       "bf5fb6e0ee73d142",
-      "6c31c5a2c83b0cc9"
+      "6c31c5a2c83b0cc9",
+      "8f721526b1bd8e11"
     ],
     "x": 68,
     "y": 233,
     "w": 1714,
-    "h": 634
+    "h": 1094
   },
   {
     "id": "b2aabcf1a98113d2",
@@ -108,7 +109,7 @@
       "b674665f8dd964b7"
     ],
     "x": 68,
-    "y": 1093,
+    "y": 1553,
     "w": 1494,
     "h": 734
   },
@@ -153,7 +154,7 @@
       "10dddc528a72d52c"
     ],
     "x": 94,
-    "y": 931.5,
+    "y": 1391.5,
     "w": 882,
     "h": 97
   },
@@ -198,12 +199,14 @@
       "94ae75b4ddf5cc3a",
       "3330543761d78e58",
       "2de6256021c37086",
-      "b1e863424ff2705e"
+      "b1e863424ff2705e",
+      "331b6dc245510fd9",
+      "a7519d9f19c4c34d"
     ],
     "x": 694,
-    "y": 684,
+    "y": 739,
     "w": 1022,
-    "h": 157
+    "h": 202
   },
   {
     "id": "bf5fb6e0ee73d142",
@@ -222,12 +225,14 @@
       "2c27e193b70e02a1",
       "15367243a010781c",
       "6c3ccae58cdb8180",
-      "124b22b5f5e84b4a"
+      "124b22b5f5e84b4a",
+      "0a21f1c3c8c31ff9",
+      "70a7e504ff1a46bb"
     ],
     "x": 694,
-    "y": 491.5,
-    "w": 1042,
-    "h": 149.5
+    "y": 499,
+    "w": 1062,
+    "h": 202
   },
   {
     "id": "6c31c5a2c83b0cc9",
@@ -246,12 +251,14 @@
       "0f438cecf3747714",
       "feef715d3f66ac99",
       "f418d5018c521e07",
-      "feb01b6b528eca0b"
+      "feb01b6b528eca0b",
+      "5dbc953c7bf31694",
+      "f4f3e9824b0a85b8"
     ],
     "x": 694,
-    "y": 311.5,
+    "y": 259,
     "w": 1062,
-    "h": 149.5
+    "h": 202
   },
   {
     "id": "a0fb7feea30116c9",
@@ -274,7 +281,7 @@
       "4a9c3f3e6824d0f3"
     ],
     "x": 94,
-    "y": 1119,
+    "y": 1579,
     "w": 1442,
     "h": 82
   },
@@ -299,7 +306,7 @@
       "3c3c58dfa896a7a9"
     ],
     "x": 94,
-    "y": 1239,
+    "y": 1699,
     "w": 1422,
     "h": 82
   },
@@ -324,7 +331,7 @@
       "17fa49462f1cd0d0"
     ],
     "x": 94,
-    "y": 1359,
+    "y": 1819,
     "w": 1402,
     "h": 82
   },
@@ -347,7 +354,7 @@
       "c979677403c2fc22"
     ],
     "x": 94,
-    "y": 1479,
+    "y": 1939,
     "w": 1052,
     "h": 82
   },
@@ -370,7 +377,7 @@
       "abc61cd9f3d45c52"
     ],
     "x": 94,
-    "y": 1599,
+    "y": 2059,
     "w": 992,
     "h": 82
   },
@@ -393,9 +400,38 @@
       "f46d58cad61a3af9"
     ],
     "x": 94,
-    "y": 1719,
+    "y": 2179,
     "w": 992,
     "h": 82
+  },
+  {
+    "id": "8f721526b1bd8e11",
+    "type": "group",
+    "z": "4ae92a5d07f513ee",
+    "g": "28edba1c5e66d39d",
+    "name": "parents - scene - lighting leds",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "8e100ef9757cbc9a",
+      "bb050db7168b02f5",
+      "33998200e1925e5e",
+      "956bdcf315610791",
+      "c729f7835ec2ea89",
+      "33361db30f7155ac",
+      "6fcd8d2982928436",
+      "bab1296d2f16c5fa",
+      "d7378c576ca6583b",
+      "65d1aae873b7206a",
+      "c57984f9ea96ac0d"
+    ],
+    "x": 694,
+    "y": 979,
+    "w": 902,
+    "h": 322
   },
   {
     "id": "9c97074ceef682a8",
@@ -573,7 +609,7 @@
       "cc68069930b2479b"
     ],
     "x": 135,
-    "y": 980,
+    "y": 1440,
     "wires": [
       [
         "ab8f732932d99b17"
@@ -601,7 +637,7 @@
     "to": "",
     "reg": false,
     "x": 430,
-    "y": 980,
+    "y": 1440,
     "wires": [
       [
         "10dddc528a72d52c"
@@ -619,7 +655,7 @@
       "d1c7f4810b12afe2"
     ],
     "x": 935,
-    "y": 980,
+    "y": 1440,
     "wires": []
   },
   {
@@ -643,7 +679,7 @@
     "to": "",
     "reg": false,
     "x": 810,
-    "y": 980,
+    "y": 1440,
     "wires": [
       [
         "377374bc3cc49bc5"
@@ -669,7 +705,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 270,
-    "y": 980,
+    "y": 1440,
     "wires": [
       [
         "663171ca016f7dc9"
@@ -802,7 +838,7 @@
     "odd": false,
     "even": false,
     "x": 620,
-    "y": 980,
+    "y": 1440,
     "wires": [
       [],
       [
@@ -1051,7 +1087,7 @@
       "031a6afd8300356a"
     ],
     "x": 735,
-    "y": 740,
+    "y": 840,
     "wires": [
       [
         "94ae75b4ddf5cc3a"
@@ -1121,7 +1157,7 @@
     "to": "",
     "reg": false,
     "x": 1470,
-    "y": 740,
+    "y": 780,
     "wires": [
       [
         "3330543761d78e58"
@@ -1156,13 +1192,18 @@
         "t": "eq",
         "v": "parents/command/left remote",
         "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "parents/command/remote",
+        "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 4,
+    "outputs": 5,
     "x": 870,
-    "y": 740,
+    "y": 840,
     "wires": [
       [
         "859ec44e839237d7"
@@ -1175,6 +1216,9 @@
       ],
       [
         "2de6256021c37086"
+      ],
+      [
+        "331b6dc245510fd9"
       ]
     ]
   },
@@ -1189,7 +1233,7 @@
       "abdf34b12a5dd88d"
     ],
     "x": 1675,
-    "y": 740,
+    "y": 780,
     "wires": []
   },
   {
@@ -1213,7 +1257,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1040,
-    "y": 800,
+    "y": 840,
     "wires": [
       [
         "b1e863424ff2705e"
@@ -1241,7 +1285,7 @@
     "to": "",
     "reg": false,
     "x": 1220,
-    "y": 800,
+    "y": 840,
     "wires": [
       [
         "859ec44e839237d7"
@@ -1258,7 +1302,7 @@
       "031a6afd8300356a"
     ],
     "x": 735,
-    "y": 540,
+    "y": 600,
     "wires": [
       [
         "2c27e193b70e02a1"
@@ -1358,13 +1402,18 @@
         "t": "eq",
         "v": "parents/command/left remote",
         "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "parents/command/remote",
+        "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 3,
+    "outputs": 4,
     "x": 870,
-    "y": 540,
+    "y": 600,
     "wires": [
       [
         "e019588e48011a10"
@@ -1374,6 +1423,9 @@
       ],
       [
         "6c3ccae58cdb8180"
+      ],
+      [
+        "0a21f1c3c8c31ff9"
       ]
     ]
   },
@@ -1387,7 +1439,7 @@
     "links": [
       "abdf34b12a5dd88d"
     ],
-    "x": 1695,
+    "x": 1715,
     "y": 540,
     "wires": []
   },
@@ -1527,7 +1579,7 @@
     "to": "",
     "reg": false,
     "x": 1490,
-    "y": 360,
+    "y": 300,
     "wires": [
       [
         "feef715d3f66ac99"
@@ -1557,11 +1609,16 @@
         "t": "eq",
         "v": "parents/command/left remote",
         "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "parents/command/remote",
+        "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 3,
+    "outputs": 4,
     "x": 870,
     "y": 360,
     "wires": [
@@ -1573,6 +1630,9 @@
       ],
       [
         "f418d5018c521e07"
+      ],
+      [
+        "5dbc953c7bf31694"
       ]
     ]
   },
@@ -1587,7 +1647,7 @@
       "abdf34b12a5dd88d"
     ],
     "x": 1715,
-    "y": 360,
+    "y": 300,
     "wires": []
   },
   {
@@ -1611,7 +1671,7 @@
     "repair": false,
     "outputs": 1,
     "x": 1040,
-    "y": 420,
+    "y": 360,
     "wires": [
       [
         "feb01b6b528eca0b"
@@ -1639,7 +1699,7 @@
     "to": "",
     "reg": false,
     "x": 1220,
-    "y": 420,
+    "y": 360,
     "wires": [
       [
         "c873fafacd9c4dee"
@@ -1737,7 +1797,7 @@
       "df6a69e3a774eebc"
     ],
     "x": 1495,
-    "y": 1160,
+    "y": 1620,
     "wires": []
   },
   {
@@ -1750,7 +1810,7 @@
       "abd3bb3b24dd961a"
     ],
     "x": 135,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "5588600e048bb7ec"
@@ -1776,7 +1836,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "c10f9df1d2567205"
@@ -1802,7 +1862,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "153d6c79ddb6a61b"
@@ -1826,7 +1886,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 970,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "4a9c3f3e6824d0f3"
@@ -1845,7 +1905,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 660,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "cb2c15acf0d304bf"
@@ -1864,7 +1924,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 1290,
-    "y": 1160,
+    "y": 1620,
     "wires": [
       [
         "03f7513bc15a7970"
@@ -1882,7 +1942,7 @@
       "df6a69e3a774eebc"
     ],
     "x": 1475,
-    "y": 1280,
+    "y": 1740,
     "wires": []
   },
   {
@@ -1895,7 +1955,7 @@
       "abd3bb3b24dd961a"
     ],
     "x": 135,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "582b6a7ea3b56bca"
@@ -1921,7 +1981,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "768e9d23bb8da222"
@@ -1947,7 +2007,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "059867e6b2a77ca8"
@@ -1971,7 +2031,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 960,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "3c3c58dfa896a7a9"
@@ -1990,7 +2050,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 660,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "6c48c7a61c0d093a"
@@ -2009,7 +2069,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 1270,
-    "y": 1280,
+    "y": 1740,
     "wires": [
       [
         "2d23c818628833ec"
@@ -2027,7 +2087,7 @@
       "df6a69e3a774eebc"
     ],
     "x": 1455,
-    "y": 1400,
+    "y": 1860,
     "wires": []
   },
   {
@@ -2040,7 +2100,7 @@
       "abd3bb3b24dd961a"
     ],
     "x": 135,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "41ba9594faf12ef2"
@@ -2066,7 +2126,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "29c94887623c7f17"
@@ -2092,7 +2152,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "c10bfa259d445594"
@@ -2116,7 +2176,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 950,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "17fa49462f1cd0d0"
@@ -2135,7 +2195,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 660,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "ad3fd833430ad4f8"
@@ -2154,7 +2214,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 1250,
-    "y": 1400,
+    "y": 1860,
     "wires": [
       [
         "9f90b3631947d4a8"
@@ -2171,7 +2231,7 @@
       "a66c6d1f8e271921"
     ],
     "x": 135,
-    "y": 1520,
+    "y": 1980,
     "wires": [
       [
         "fc0429db9ca2e788"
@@ -2197,7 +2257,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1520,
+    "y": 1980,
     "wires": [
       [
         "2d3c55726a3b4596"
@@ -2216,7 +2276,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 650,
-    "y": 1520,
+    "y": 1980,
     "wires": [
       [
         "c979677403c2fc22"
@@ -2244,7 +2304,7 @@
     "to": "",
     "reg": false,
     "x": 430,
-    "y": 1520,
+    "y": 1980,
     "wires": [
       [
         "fe0b88b5a3708f00"
@@ -2268,7 +2328,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 970,
-    "y": 1520,
+    "y": 1980,
     "wires": [
       []
     ]
@@ -2283,7 +2343,7 @@
       "c961c347fd2d14b5"
     ],
     "x": 135,
-    "y": 1640,
+    "y": 2100,
     "wires": [
       [
         "75b658a5c36bf6d2"
@@ -2309,7 +2369,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1640,
+    "y": 2100,
     "wires": [
       [
         "0724c54c1d040bed"
@@ -2335,7 +2395,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1640,
+    "y": 2100,
     "wires": [
       [
         "abc61cd9f3d45c52"
@@ -2359,7 +2419,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 930,
-    "y": 1640,
+    "y": 2100,
     "wires": [
       []
     ]
@@ -2376,7 +2436,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 640,
-    "y": 1640,
+    "y": 2100,
     "wires": [
       [
         "2414f4d2a325c335"
@@ -2393,7 +2453,7 @@
       "c961c347fd2d14b5"
     ],
     "x": 135,
-    "y": 1760,
+    "y": 2220,
     "wires": [
       [
         "48ccea69f6924811"
@@ -2419,7 +2479,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 1760,
+    "y": 2220,
     "wires": [
       [
         "55c079be3de2c0a7"
@@ -2445,7 +2505,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 1760,
+    "y": 2220,
     "wires": [
       [
         "f46d58cad61a3af9"
@@ -2469,7 +2529,7 @@
     "filterTopic": false,
     "plan": "free",
     "x": 930,
-    "y": 1760,
+    "y": 2220,
     "wires": [
       []
     ]
@@ -2486,7 +2546,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 640,
-    "y": 1760,
+    "y": 2220,
     "wires": [
       [
         "fe8f81fd4f0f21c5"
@@ -2549,6 +2609,734 @@
     ],
     "x": 915,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "8e100ef9757cbc9a",
+    "type": "link in",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "parents - scene - lighting leds",
+    "links": [
+      "031a6afd8300356a"
+    ],
+    "x": 735,
+    "y": 1140,
+    "wires": [
+      [
+        "bb050db7168b02f5"
+      ]
+    ]
+  },
+  {
+    "id": "bb050db7168b02f5",
+    "type": "switch",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "parents/cible/leds",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "parents/command/remote",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 870,
+    "y": 1140,
+    "wires": [
+      [
+        "65d1aae873b7206a"
+      ],
+      [
+        "33998200e1925e5e"
+      ]
+    ]
+  },
+  {
+    "id": "33998200e1925e5e",
+    "type": "switch",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "button",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "31",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "32",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "41",
+        "vt": "num"
+      },
+      {
+        "t": "eq",
+        "v": "42",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 4,
+    "x": 1030,
+    "y": 1140,
+    "wires": [
+      [
+        "956bdcf315610791"
+      ],
+      [
+        "d7378c576ca6583b"
+      ],
+      [
+        "6fcd8d2982928436"
+      ],
+      [
+        "bab1296d2f16c5fa"
+      ]
+    ]
+  },
+  {
+    "id": "956bdcf315610791",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "on/off",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cible",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light.leds",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state?false:true",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1200,
+    "y": 1080,
+    "wires": [
+      [
+        "c729f7835ec2ea89"
+      ]
+    ]
+  },
+  {
+    "id": "c729f7835ec2ea89",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "scene.bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "leds",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1400,
+    "y": 1140,
+    "wires": [
+      [
+        "33361db30f7155ac"
+      ]
+    ]
+  },
+  {
+    "id": "33361db30f7155ac",
+    "type": "link out",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "parents - scene - lighting leds",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 1555,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "6fcd8d2982928436",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "brightness +",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "brightness",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]brightness.leds",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state>194?250:(msg.state+50)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1220,
+    "y": 1200,
+    "wires": [
+      [
+        "c729f7835ec2ea89"
+      ]
+    ]
+  },
+  {
+    "id": "bab1296d2f16c5fa",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "brightness -",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "brightness",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]brightness.leds",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state<60?10:(msg.state-50)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1220,
+    "y": 1260,
+    "wires": [
+      [
+        "c729f7835ec2ea89"
+      ]
+    ]
+  },
+  {
+    "id": "d7378c576ca6583b",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "color",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "color",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "colors",
+        "pt": "msg",
+        "to": "{\t    '#FFFFFF':'#FF0018',\t    '#FF0018':'#FFFF41',\t    '#FFFF41':'#008018',\t    '#008018':'#0000F9',\t    '#0000F9':'#86007D',\t    '#86007D':'#FFFFFF'\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.scene.bucket]color.leds",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "color",
+        "pt": "msg",
+        "to": "colors[msg.state]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.color?msg.color:'#FFFFFF'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1200,
+    "y": 1140,
+    "wires": [
+      [
+        "c729f7835ec2ea89"
+      ]
+    ]
+  },
+  {
+    "id": "5dbc953c7bf31694",
+    "type": "switch",
+    "z": "4ae92a5d07f513ee",
+    "g": "6c31c5a2c83b0cc9",
+    "name": "remote",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "11",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1040,
+    "y": 420,
+    "wires": [
+      [
+        "f4f3e9824b0a85b8"
+      ]
+    ]
+  },
+  {
+    "id": "f4f3e9824b0a85b8",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "6c31c5a2c83b0cc9",
+    "name": "toggle",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light['right bedside']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state?false:true",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 420,
+    "wires": [
+      [
+        "c873fafacd9c4dee"
+      ]
+    ]
+  },
+  {
+    "id": "0a21f1c3c8c31ff9",
+    "type": "switch",
+    "z": "4ae92a5d07f513ee",
+    "g": "bf5fb6e0ee73d142",
+    "name": "remote",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "21",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1040,
+    "y": 660,
+    "wires": [
+      [
+        "70a7e504ff1a46bb"
+      ]
+    ]
+  },
+  {
+    "id": "70a7e504ff1a46bb",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "bf5fb6e0ee73d142",
+    "name": "toggle",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light['left bedside']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state?false:true",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 660,
+    "wires": [
+      [
+        "e019588e48011a10"
+      ]
+    ]
+  },
+  {
+    "id": "65d1aae873b7206a",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "scene lighting / leds / boolean",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "leds",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "lighting",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1110,
+    "y": 1020,
+    "wires": [
+      [
+        "c57984f9ea96ac0d"
+      ]
+    ]
+  },
+  {
+    "id": "c57984f9ea96ac0d",
+    "type": "link out",
+    "z": "4ae92a5d07f513ee",
+    "g": "8f721526b1bd8e11",
+    "name": "parents - scene - lighting leds",
+    "mode": "link",
+    "links": [
+      "abdf34b12a5dd88d"
+    ],
+    "x": 1555,
+    "y": 1020,
+    "wires": []
+  },
+  {
+    "id": "331b6dc245510fd9",
+    "type": "switch",
+    "z": "4ae92a5d07f513ee",
+    "g": "e3da4219d2723996",
+    "name": "remote",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "12",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1040,
+    "y": 900,
+    "wires": [
+      [
+        "a7519d9f19c4c34d"
+      ]
+    ]
+  },
+  {
+    "id": "a7519d9f19c4c34d",
+    "type": "change",
+    "z": "4ae92a5d07f513ee",
+    "g": "e3da4219d2723996",
+    "name": "toggle",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "state",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]light.ceiling",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "msg.state?false:true",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 900,
+    "wires": [
+      [
+        "859ec44e839237d7"
+      ]
+    ]
+  },
+  {
+    "id": "1203dd4a94f48276",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 1 single : right bedside toggle",
+    "info": "",
+    "x": 2050,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "e2ecba6aed6b6aeb",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 2 single : left bedside toggle",
+    "info": "",
+    "x": 2050,
+    "y": 440,
+    "wires": []
+  },
+  {
+    "id": "715af9136699d378",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 1 double : ceiling toggle",
+    "info": "",
+    "x": 2030,
+    "y": 400,
+    "wires": []
+  },
+  {
+    "id": "757c3d9ab9d0959d",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 2 double : ceiling toggle",
+    "info": "",
+    "x": 2030,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "57931bd357455424",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 3 single : leds toggle",
+    "info": "",
+    "x": 2020,
+    "y": 520,
+    "wires": []
+  },
+  {
+    "id": "e09ed41400ba1f5b",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 3 double : leds color",
+    "info": "",
+    "x": 2020,
+    "y": 560,
+    "wires": []
+  },
+  {
+    "id": "17eda99bebc9ddc6",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 4 double : leds brightness -",
+    "info": "",
+    "x": 2040,
+    "y": 640,
+    "wires": []
+  },
+  {
+    "id": "a34eb58b749615b6",
+    "type": "comment",
+    "z": "4ae92a5d07f513ee",
+    "name": "parents  / command / remote 4 single : leds brightness +",
+    "info": "",
+    "x": 2040,
+    "y": 600,
     "wires": []
   }
 ]
