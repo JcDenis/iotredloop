@@ -1483,7 +1483,8 @@
       "81d1299edeeec856",
       "a5360e4799f9e170",
       "2154dfc072f5104e",
-      "facc68a5ef39eb24"
+      "facc68a5ef39eb24",
+      "dd58c47d1106a4bf"
     ],
     "x": 1755,
     "y": 4060,
@@ -1790,7 +1791,8 @@
       "ddda7783f50a0db4",
       "b3091e70cd5211b4",
       "a735610c7cb844e6",
-      "f6a43d93fa9caf56"
+      "f6a43d93fa9caf56",
+      "e46d811a29ddc59e"
     ],
     "x": 1575,
     "y": 4120,
@@ -2157,7 +2159,8 @@
       "e20cf17770949369",
       "136467c932bcd5c7",
       "19134c8dcb4e84fd",
-      "32d00a16ef133893"
+      "32d00a16ef133893",
+      "fa5bb014ac36141b"
     ],
     "x": 875,
     "y": 3880,
@@ -2207,7 +2210,8 @@
       "96341058baa9083b",
       "4b7ee33aecb98a13",
       "592fa749c393ef14",
-      "8e57dece73e9abd4"
+      "8e57dece73e9abd4",
+      "4b0831a713ce8dc0"
     ],
     "x": 455,
     "y": 3820,
@@ -4183,7 +4187,9 @@
       "7837b5fcc1432bfa",
       "1d1dc560168d0284",
       "ac33a83c23cf9ac4",
-      "6e122c5defee75eb"
+      "6e122c5defee75eb",
+      "8e100ef9757cbc9a",
+      "894e30d7fd56cd87"
     ],
     "x": 5195,
     "y": 1260,
@@ -4274,7 +4280,8 @@
       "6632e88ee0633e4c",
       "5484e74403bbb7d8",
       "943f5d0e31f50195",
-      "8d40f4d6eaa344ac"
+      "8d40f4d6eaa344ac",
+      "33361db30f7155ac"
     ],
     "x": 135,
     "y": 1260,
@@ -6168,7 +6175,8 @@
       "3d1e4fa0f23499e7",
       "fdab2741acb61ed1",
       "addd40dc7fbf27c9",
-      "d8ae76a5c0ba5f6a"
+      "d8ae76a5c0ba5f6a",
+      "11ec7020f389b20d"
     ],
     "x": 455,
     "y": 3520,
@@ -6213,7 +6221,8 @@
       "a8b3e0ae1a87461c",
       "69564d0c8dc942c7",
       "ac45d4c7f6f1a547",
-      "4975550378291448"
+      "4975550378291448",
+      "cfb8b7f11b653349"
     ],
     "x": 635,
     "y": 3520,
@@ -6819,54 +6828,6 @@
     ]
   },
   {
-    "id": "09022e238fac22fa",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "name": "del",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "devices",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "entities",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "metrics",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "models",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "protocols",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "rooms",
-        "pt": "global"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1470,
-    "y": 100,
-    "wires": [
-      []
-    ]
-  },
-  {
     "id": "9d71ae848c07c4ab",
     "type": "comment",
     "z": "ab51b1e8cad7b700",
@@ -6963,62 +6924,5 @@
     "x": 755,
     "y": 720,
     "wires": []
-  },
-  {
-    "id": "4c8f0b36f9f733e7",
-    "type": "inject",
-    "z": "ab51b1e8cad7b700",
-    "name": "",
-    "props": [
-      {
-        "p": "payload"
-      },
-      {
-        "p": "topic",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "payload": "",
-    "payloadType": "date",
-    "x": 1670,
-    "y": 60,
-    "wires": [
-      [
-        "c73227de85cac447"
-      ]
-    ]
-  },
-  {
-    "id": "c73227de85cac447",
-    "type": "change",
-    "z": "ab51b1e8cad7b700",
-    "name": "",
-    "rules": [
-      {
-        "t": "delete",
-        "p": "metrics.cave.cumulus",
-        "pt": "global"
-      },
-      {
-        "t": "delete",
-        "p": "devices.cave.cumulus",
-        "pt": "global"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1880,
-    "y": 60,
-    "wires": [
-      []
-    ]
   }
 ]

@@ -30,11 +30,12 @@
       "bdcd4dd80dcbe2b9",
       "98770f13ab060020",
       "df12c095346ac6e5",
-      "b929885ac70c377e"
+      "b929885ac70c377e",
+      "f03cb3f44a33d88e"
     ],
     "x": 94,
     "y": 199,
-    "w": 2242,
+    "w": 2562,
     "h": 202
   },
   {
@@ -78,12 +79,15 @@
       "2a7ee2b9643e48ab",
       "c8c5507a879a6447",
       "4baf1d36b4971cb5",
-      "09ef74553d2bf413"
+      "09ef74553d2bf413",
+      "1f1862300f29f4be",
+      "502c26f59c72bc20",
+      "56cabe66c45f025e"
     ],
     "x": 94,
     "y": 1039,
     "w": 502,
-    "h": 202
+    "h": 262
   },
   {
     "id": "a057f7516f625581",
@@ -111,12 +115,17 @@
       "dcc6c975447a9cd3",
       "ef63242b0954ddd8",
       "9e1b6551c2a77738",
-      "a8fe7d31170d65f8"
+      "a8fe7d31170d65f8",
+      "359029339a166e29",
+      "b87c82c6c7d711b3",
+      "bf836542a7db7520",
+      "2fe005298161599c",
+      "6402f2306b4ca091"
     ],
     "x": 94,
     "y": 439,
     "w": 1122,
-    "h": 382
+    "h": 502
   },
   {
     "id": "1cefc23dde634662",
@@ -138,12 +147,15 @@
       "a224ce84703d7913",
       "631e6df32297fad4",
       "804f5e47bf25b226",
-      "fa5fa5f551f340b8"
+      "fa5fa5f551f340b8",
+      "b502be8f6570f52c",
+      "93834b48f9810d44",
+      "b25023459b4d1288"
     ],
     "x": 94,
-    "y": 1279,
+    "y": 1339,
     "w": 502,
-    "h": 202
+    "h": 262
   },
   {
     "id": "df0e4ab2e1efc286",
@@ -200,7 +212,7 @@
     "name": "translate - field",
     "mode": "return",
     "links": [],
-    "x": 2295,
+    "x": 2615,
     "y": 360,
     "wires": []
   },
@@ -224,7 +236,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2160,
+    "x": 2480,
     "y": 360,
     "wires": [
       [
@@ -861,7 +873,7 @@
     "y": 300,
     "wires": [
       [
-        "bdcd4dd80dcbe2b9"
+        "f03cb3f44a33d88e"
       ]
     ]
   },
@@ -873,7 +885,7 @@
     "name": "translate - dictionnary - fr - fields",
     "links": [],
     "x": 135,
-    "y": 1320,
+    "y": 1380,
     "wires": [
       [
         "d19444d55fc80292"
@@ -913,7 +925,7 @@
     "to": "",
     "reg": false,
     "x": 320,
-    "y": 1320,
+    "y": 1380,
     "wires": [
       [
         "dea0faa68144f674"
@@ -929,7 +941,7 @@
     "mode": "return",
     "links": [],
     "x": 555,
-    "y": 1320,
+    "y": 1380,
     "wires": []
   },
   {
@@ -940,7 +952,7 @@
     "name": "translate - dictionnary - fr - measurements",
     "links": [],
     "x": 135,
-    "y": 1380,
+    "y": 1440,
     "wires": [
       [
         "b992e76203b16a72"
@@ -980,7 +992,7 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 1380,
+    "y": 1440,
     "wires": [
       [
         "a224ce84703d7913"
@@ -996,7 +1008,7 @@
     "mode": "return",
     "links": [],
     "x": 555,
-    "y": 1380,
+    "y": 1440,
     "wires": []
   },
   {
@@ -1007,7 +1019,7 @@
     "name": "translate - dictionnary - fr - states",
     "links": [],
     "x": 135,
-    "y": 1440,
+    "y": 1500,
     "wires": [
       [
         "804f5e47bf25b226"
@@ -1047,7 +1059,7 @@
     "to": "",
     "reg": false,
     "x": 320,
-    "y": 1440,
+    "y": 1500,
     "wires": [
       [
         "fa5fa5f551f340b8"
@@ -1063,7 +1075,7 @@
     "mode": "return",
     "links": [],
     "x": 555,
-    "y": 1440,
+    "y": 1500,
     "wires": []
   },
   {
@@ -1098,7 +1110,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2160,
+    "x": 2480,
     "y": 240,
     "wires": [
       [
@@ -1127,7 +1139,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1980,
+    "x": 2300,
     "y": 300,
     "wires": [
       [
@@ -1163,7 +1175,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2160,
+    "x": 2480,
     "y": 300,
     "wires": [
       [
@@ -1182,11 +1194,261 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 1750,
+    "x": 2070,
     "y": 300,
     "wires": [
       [
         "b929885ac70c377e"
+      ]
+    ]
+  },
+  {
+    "id": "359029339a166e29",
+    "type": "link in",
+    "z": "bac2b08cd7c2e421",
+    "g": "a057f7516f625581",
+    "name": "translate - dictionnary - colors",
+    "links": [],
+    "x": 135,
+    "y": 900,
+    "wires": [
+      [
+        "bf836542a7db7520"
+      ]
+    ]
+  },
+  {
+    "id": "b87c82c6c7d711b3",
+    "type": "switch",
+    "z": "bac2b08cd7c2e421",
+    "g": "a057f7516f625581",
+    "name": "lang",
+    "property": "about.lang",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "fr",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 2,
+    "x": 610,
+    "y": 900,
+    "wires": [
+      [
+        "2fe005298161599c"
+      ],
+      [
+        "6402f2306b4ca091"
+      ]
+    ]
+  },
+  {
+    "id": "bf836542a7db7520",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "g": "a057f7516f625581",
+    "name": "",
+    "links": [
+      "1f1862300f29f4be"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 360,
+    "y": 900,
+    "wires": [
+      [
+        "b87c82c6c7d711b3"
+      ]
+    ]
+  },
+  {
+    "id": "2fe005298161599c",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "g": "a057f7516f625581",
+    "name": "",
+    "links": [
+      "b502be8f6570f52c"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 860,
+    "y": 840,
+    "wires": [
+      [
+        "6402f2306b4ca091"
+      ]
+    ]
+  },
+  {
+    "id": "6402f2306b4ca091",
+    "type": "link out",
+    "z": "bac2b08cd7c2e421",
+    "g": "a057f7516f625581",
+    "name": "translate - dictionnary - colors",
+    "mode": "return",
+    "links": [],
+    "x": 1085,
+    "y": 900,
+    "wires": []
+  },
+  {
+    "id": "1f1862300f29f4be",
+    "type": "link in",
+    "z": "bac2b08cd7c2e421",
+    "g": "3ce65ca28b29922d",
+    "name": "translate - dictionnary - en - colors",
+    "links": [],
+    "x": 135,
+    "y": 1260,
+    "wires": [
+      [
+        "502c26f59c72bc20"
+      ]
+    ]
+  },
+  {
+    "id": "502c26f59c72bc20",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "g": "3ce65ca28b29922d",
+    "name": "dictionnary - en - colors",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "{\t    'white':'white',\t    'red':'red',\t    'yellow':'yellow',\t    'green':'green',\t    'blue':'blue',\t    'purple':'purple'\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "dictionnary",
+        "pt": "msg",
+        "to": "msg.dictionnary?$merge([msg.dictionnary,msg.tmp]):msg.tmp",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 330,
+    "y": 1260,
+    "wires": [
+      [
+        "56cabe66c45f025e"
+      ]
+    ]
+  },
+  {
+    "id": "56cabe66c45f025e",
+    "type": "link out",
+    "z": "bac2b08cd7c2e421",
+    "g": "3ce65ca28b29922d",
+    "name": "translate - dictionnary - en - colors",
+    "mode": "return",
+    "links": [],
+    "x": 555,
+    "y": 1260,
+    "wires": []
+  },
+  {
+    "id": "b502be8f6570f52c",
+    "type": "link in",
+    "z": "bac2b08cd7c2e421",
+    "g": "1cefc23dde634662",
+    "name": "translate - dictionnary - fr - colors",
+    "links": [],
+    "x": 135,
+    "y": 1560,
+    "wires": [
+      [
+        "93834b48f9810d44"
+      ]
+    ]
+  },
+  {
+    "id": "93834b48f9810d44",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "g": "1cefc23dde634662",
+    "name": "dictionnary - fr - colors",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "{\t    'white':'blanc',\t    'red':'rouge',\t    'yellow':'jaune',\t    'green':'vert',\t    'blue':'bleu',\t    'purple':'violet'\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "dictionnary",
+        "pt": "msg",
+        "to": "$merge([msg.dictionnary,msg.tmp])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "tmp",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 320,
+    "y": 1560,
+    "wires": [
+      [
+        "b25023459b4d1288"
+      ]
+    ]
+  },
+  {
+    "id": "b25023459b4d1288",
+    "type": "link out",
+    "z": "bac2b08cd7c2e421",
+    "g": "1cefc23dde634662",
+    "name": "translate - dictionnary - fr - colors",
+    "mode": "return",
+    "links": [],
+    "x": 555,
+    "y": 1560,
+    "wires": []
+  },
+  {
+    "id": "f03cb3f44a33d88e",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "g": "dd7ef46856df793e",
+    "name": "",
+    "links": [
+      "359029339a166e29"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1770,
+    "y": 300,
+    "wires": [
+      [
+        "bdcd4dd80dcbe2b9"
       ]
     ]
   }

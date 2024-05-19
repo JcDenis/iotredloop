@@ -267,17 +267,17 @@
     "type": "ui-theme",
     "name": "theme room",
     "colors": {
-      "surface": "#ffffff",
-      "primary": "#aebd84",
-      "bgPage": "#eeeeee",
-      "groupBg": "#fafafa",
+      "surface": "#333333",
+      "primary": "#008080",
+      "bgPage": "#2b2b2b",
+      "groupBg": "#444444",
       "groupOutline": "#cccccc"
     },
     "sizes": {
-      "pagePadding": "",
-      "groupGap": "",
-      "groupBorderRadius": "",
-      "widgetGap": ""
+      "pagePadding": "8px",
+      "groupGap": "8px",
+      "groupBorderRadius": "12px",
+      "widgetGap": "4px"
     }
   },
   {
@@ -451,7 +451,7 @@
     "theme": "0e53487482752cfe",
     "order": 1,
     "className": "",
-    "visible": "true",
+    "visible": true,
     "disabled": "false"
   },
   {
@@ -1057,17 +1057,17 @@
     "type": "ui-theme",
     "name": "theme creator",
     "colors": {
-      "surface": "#ffffff",
+      "surface": "#333333",
       "primary": "#cca000",
-      "bgPage": "#eeeeee",
-      "groupBg": "#ffffff",
+      "bgPage": "#2b2b2b",
+      "groupBg": "#444444",
       "groupOutline": "#bdd1d1"
     },
     "sizes": {
-      "pagePadding": "12px",
-      "groupGap": "12px",
-      "groupBorderRadius": "4px",
-      "widgetGap": "12px"
+      "pagePadding": "8px",
+      "groupGap": "8px",
+      "groupBorderRadius": "12px",
+      "widgetGap": "4px"
     }
   }
 ]
