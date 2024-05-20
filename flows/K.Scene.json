@@ -77,11 +77,12 @@
       "633e93007ad7359e",
       "f57a3d0eaf07945a",
       "85ac6855ecab60c4",
-      "4abd6ee3b969ce9b"
+      "4abd6ee3b969ce9b",
+      "d2e269a6af2dfb1c"
     ],
     "x": 94,
     "y": 319,
-    "w": 1532,
+    "w": 1692,
     "h": 202
   },
   {
@@ -708,7 +709,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 1395,
+    "x": 1555,
     "y": 420,
     "wires": []
   },
@@ -795,8 +796,7 @@
     "y": 420,
     "wires": [
       [
-        "85ac6855ecab60c4",
-        "1b1e4074f6d9749c"
+        "d2e269a6af2dfb1c"
       ]
     ]
   },
@@ -841,7 +841,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1240,
+    "x": 1400,
     "y": 480,
     "wires": [
       [
@@ -925,6 +925,20 @@
         "pt": "msg",
         "to": "scene.field",
         "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "old_topic",
+        "pt": "msg",
+        "to": "topic",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "msg.bucket&msg.measurement&msg.field",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -993,7 +1007,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 1450,
+    "x": 1610,
     "y": 360,
     "wires": []
   },
@@ -1011,7 +1025,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 1480,
+    "x": 1640,
     "y": 480,
     "wires": []
   },
@@ -5926,6 +5940,35 @@
     "wires": [
       [
         "966f04b51561351a"
+      ]
+    ]
+  },
+  {
+    "id": "d2e269a6af2dfb1c",
+    "type": "change",
+    "z": "68ee181e9defa139",
+    "g": "9fed22b2831a8c22",
+    "name": "move",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "old_topic",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1430,
+    "y": 420,
+    "wires": [
+      [
+        "85ac6855ecab60c4",
+        "1b1e4074f6d9749c"
       ]
     ]
   }

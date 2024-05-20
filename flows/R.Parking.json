@@ -1094,25 +1094,17 @@
     "propertyType": "msg",
     "rules": [
       {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      },
-      {
-        "t": "eq",
-        "v": "-1",
+        "t": "neq",
+        "v": "0",
         "vt": "num"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 2,
+    "outputs": 1,
     "x": 1930,
     "y": 540,
     "wires": [
-      [
-        "ada94e4f95af472a"
-      ],
       [
         "ada94e4f95af472a"
       ]
