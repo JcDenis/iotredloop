@@ -484,13 +484,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
         "p": "index.aperture",
         "pt": "flow",
         "to": "{}",
@@ -1152,13 +1145,6 @@
     "g": "e9b46670bc7283be",
     "name": "reset",
     "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
       {
         "t": "set",
         "p": "index.battery",
@@ -1888,13 +1874,6 @@
     "g": "55552ce2fcab661e",
     "name": "reset",
     "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
       {
         "t": "set",
         "p": "index.seen",
@@ -2772,13 +2751,6 @@
     "g": "edfd321fdae55df0",
     "name": "reset",
     "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
       {
         "t": "set",
         "p": "index.light",
@@ -3827,13 +3799,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
         "p": "index.outlet",
         "pt": "flow",
         "to": "{}",
@@ -4698,13 +4663,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "false",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
         "p": "index.power",
         "pt": "flow",
         "to": "{}",
@@ -5462,13 +5420,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      },
-      {
-        "t": "set",
         "p": "index.color",
         "pt": "flow",
         "to": "{}",
@@ -5928,13 +5879,7 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [
-      {
-        "label": "non assigné",
-        "value": "",
-        "type": "str"
-      }
-    ],
+    "options": [],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
@@ -5961,13 +5906,7 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [
-      {
-        "label": "non assigné",
-        "value": "",
-        "type": "str"
-      }
-    ],
+    "options": [],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
@@ -6060,13 +5999,7 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [
-      {
-        "label": "non assigné",
-        "value": "",
-        "type": "str"
-      }
-    ],
+    "options": [],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
@@ -6115,13 +6048,7 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [
-      {
-        "label": "non assigné",
-        "value": "",
-        "type": "str"
-      }
-    ],
+    "options": [],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
@@ -6170,13 +6097,7 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [
-      {
-        "label": "non assigné",
-        "value": "",
-        "type": "str"
-      }
-    ],
+    "options": [],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
@@ -6224,13 +6145,6 @@
     "g": "14365542ae0790c8",
     "name": "reset",
     "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      },
       {
         "t": "set",
         "p": "index.brightness",
