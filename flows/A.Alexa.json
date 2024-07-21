@@ -94,7 +94,7 @@
     ],
     "x": 74,
     "y": 819,
-    "w": 672,
+    "w": 732,
     "h": 82
   },
   {
@@ -1675,7 +1675,7 @@
         }
       }
     },
-    "x": 370,
+    "x": 430,
     "y": 860,
     "wires": [
       [
@@ -1688,14 +1688,14 @@
     "type": "inject",
     "z": "29b296e6cd0e71d4",
     "g": "0cf81dc631df6bea",
-    "name": "",
+    "name": "get Alexa devices",
     "props": [],
     "repeat": "",
     "crontab": "",
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "x": 170,
+    "x": 200,
     "y": 860,
     "wires": [
       [
@@ -1717,7 +1717,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 610,
+    "x": 670,
     "y": 860,
     "wires": []
   },

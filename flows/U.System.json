@@ -722,6 +722,79 @@
     "h": 314
   },
   {
+    "id": "1021acef5727d683",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "room - clock",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "69645e55501064d8",
+      "a4306c9de01d4722"
+    ],
+    "x": 68,
+    "y": 3533,
+    "w": 2284,
+    "h": 254
+  },
+  {
+    "id": "69645e55501064d8",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "1021acef5727d683",
+    "name": "room - clock - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "685a0ab8aaa24747",
+      "260725a140f7cb61",
+      "62d9811cb83cb6dd",
+      "44266579fe2f82fd",
+      "06ce61297d900620",
+      "c90a6632bc4b63a3",
+      "b9934bb215edafe6"
+    ],
+    "x": 94,
+    "y": 3559,
+    "w": 842,
+    "h": 142
+  },
+  {
+    "id": "a4306c9de01d4722",
+    "type": "group",
+    "z": "677f66663a198839",
+    "g": "1021acef5727d683",
+    "name": "room - clock - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "28812ef076d967f4",
+      "7f0910ae6f903617",
+      "85890de261cf2a1f",
+      "ac912f36def02119",
+      "ffb6d8f6427b4d52",
+      "7a46605f38735c66",
+      "b9f3d00e902f65a2",
+      "1acc4b7b4c392c1f",
+      "59e31b73c4ea2253",
+      "5e6d3072053bc3d4",
+      "61f1ad5814d37ec9"
+    ],
+    "x": 1034,
+    "y": 3559,
+    "w": 1292,
+    "h": 202
+  },
+  {
     "id": "da2f54e055f1d1ac",
     "type": "change",
     "z": "677f66663a198839",
@@ -6437,7 +6510,7 @@
     "type": "change",
     "z": "677f66663a198839",
     "g": "0164b91ce85885f1",
-    "name": "from global",
+    "name": "metrics",
     "rules": [
       {
         "t": "set",
@@ -6466,7 +6539,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 910,
+    "x": 900,
     "y": 4920,
     "wires": [
       [
@@ -6479,14 +6552,15 @@
     "type": "split",
     "z": "677f66663a198839",
     "g": "0164b91ce85885f1",
-    "name": "split",
+    "name": "buckets",
     "splt": "\\n",
     "spltType": "str",
     "arraySplt": 1,
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 1090,
+    "property": "payload",
+    "x": 1080,
     "y": 4920,
     "wires": [
       [
@@ -9552,5 +9626,524 @@
     "x": 2310,
     "y": 2700,
     "wires": []
+  },
+  {
+    "id": "685a0ab8aaa24747",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "clock / work day / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work day",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 3600,
+    "wires": [
+      [
+        "260725a140f7cb61"
+      ]
+    ]
+  },
+  {
+    "id": "260725a140f7cb61",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "room - clock - device",
+    "mode": "link",
+    "links": [
+      "bfa594bf1f876c92"
+    ],
+    "x": 895,
+    "y": 3660,
+    "wires": []
+  },
+  {
+    "id": "62d9811cb83cb6dd",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "room - clock - device",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 3660,
+    "wires": [
+      [
+        "06ce61297d900620"
+      ]
+    ]
+  },
+  {
+    "id": "44266579fe2f82fd",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "clock/ work eve / boolean / false",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "work eve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "false",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 670,
+    "y": 3660,
+    "wires": [
+      [
+        "260725a140f7cb61"
+      ]
+    ]
+  },
+  {
+    "id": "06ce61297d900620",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "rooms",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "rooms",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 3660,
+    "wires": [
+      [
+        "c90a6632bc4b63a3"
+      ]
+    ]
+  },
+  {
+    "id": "c90a6632bc4b63a3",
+    "type": "split",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "rooms",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "room",
+    "property": "payload",
+    "x": 430,
+    "y": 3660,
+    "wires": [
+      [
+        "685a0ab8aaa24747",
+        "44266579fe2f82fd"
+      ]
+    ]
+  },
+  {
+    "id": "b9934bb215edafe6",
+    "type": "comment",
+    "z": "677f66663a198839",
+    "g": "69645e55501064d8",
+    "name": "create clock for each room",
+    "info": "",
+    "x": 230,
+    "y": 3600,
+    "wires": []
+  },
+  {
+    "id": "28812ef076d967f4",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "room - clock - source - in",
+    "mode": "link",
+    "links": [
+      "151c140cd7171c80",
+      "3db710d8b9023738",
+      "42c36b63863ecb77",
+      "84aad657cc3015c1",
+      "f1ddd31035db0cc4"
+    ],
+    "x": 1335,
+    "y": 3600,
+    "wires": []
+  },
+  {
+    "id": "7f0910ae6f903617",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1210,
+    "y": 3600,
+    "wires": [
+      [
+        "28812ef076d967f4"
+      ]
+    ]
+  },
+  {
+    "id": "85890de261cf2a1f",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "room - clock - source - out",
+    "links": [
+      "2ecf7207d27bb785",
+      "bbae4d26e41478ea",
+      "c469093ebb0005f9",
+      "e0395c593211c049",
+      "e0ee48357ee30544"
+    ],
+    "x": 1495,
+    "y": 3600,
+    "wires": [
+      [
+        "b9f3d00e902f65a2"
+      ]
+    ]
+  },
+  {
+    "id": "ac912f36def02119",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "topic",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "day",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "eve",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1970,
+    "y": 3600,
+    "wires": [
+      [
+        "7a46605f38735c66"
+      ],
+      [
+        "7a46605f38735c66"
+      ]
+    ]
+  },
+  {
+    "id": "ffb6d8f6427b4d52",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "room - clock - source",
+    "mode": "link",
+    "links": [],
+    "x": 2285,
+    "y": 3600,
+    "wires": []
+  },
+  {
+    "id": "7a46605f38735c66",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "clock",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "'work '&msg.topic",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2150,
+    "y": 3600,
+    "wires": [
+      [
+        "ffb6d8f6427b4d52"
+      ]
+    ]
+  },
+  {
+    "id": "b9f3d00e902f65a2",
+    "type": "switch",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "sync",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "sync",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1630,
+    "y": 3600,
+    "wires": [
+      [
+        "59e31b73c4ea2253",
+        "61f1ad5814d37ec9"
+      ],
+      [
+        "1acc4b7b4c392c1f"
+      ]
+    ]
+  },
+  {
+    "id": "1acc4b7b4c392c1f",
+    "type": "delay",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "250 ms",
+    "pauseType": "delay",
+    "timeout": "250",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 1800,
+    "y": 3720,
+    "wires": [
+      [
+        "ac912f36def02119"
+      ]
+    ]
+  },
+  {
+    "id": "59e31b73c4ea2253",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "work day",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "day",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1800,
+    "y": 3600,
+    "wires": [
+      [
+        "ac912f36def02119"
+      ]
+    ]
+  },
+  {
+    "id": "5e6d3072053bc3d4",
+    "type": "link in",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "room - clock - source",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 1075,
+    "y": 3600,
+    "wires": [
+      [
+        "7f0910ae6f903617"
+      ]
+    ]
+  },
+  {
+    "id": "61f1ad5814d37ec9",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "a4306c9de01d4722",
+    "name": "work eve",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "0",
+        "tot": "num"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "eve",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1800,
+    "y": 3660,
+    "wires": [
+      [
+        "ac912f36def02119"
+      ]
+    ]
   }
 ]
