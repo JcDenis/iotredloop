@@ -5920,7 +5920,7 @@
         "t": "set",
         "p": "about",
         "pt": "global",
-        "to": "{\t    'automate':'iotredloop',\t    'version':'0.0.2',\t    'author':'Jean-Christian Paul Denis',\t    'lang':'fr'\t}",
+        "to": "{\t    'automate':'iotredloop',\t    'version':'0.1.0',\t    'author':'Jean-Christian Paul Denis',\t    'lang':'fr'\t}",
         "tot": "jsonata"
       }
     ],
