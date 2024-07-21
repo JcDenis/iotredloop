@@ -2,7 +2,7 @@
   {
     "id": "1362a4b4f08f3d5b",
     "type": "tab",
-    "label": "U.Creator",
+    "label": "U.Entities",
     "disabled": false,
     "info": "",
     "env": []
@@ -11,7 +11,7 @@
     "id": "215a32642af29284",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - bucket",
+    "name": "entities - bucket",
     "style": {
       "fill": "#ffC000",
       "fill-opacity": "0.05",
@@ -53,7 +53,7 @@
     "id": "d62c9cf0cb81a537",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - register rooms",
+    "name": "entities - register rooms",
     "style": {
       "label": true,
       "fill": "#ff0000",
@@ -64,18 +64,23 @@
       "5f114cc4b6ae0579",
       "7992580eefeada6a",
       "6b5dd5979114ad9c",
-      "69a45eebaa58325f"
+      "69a45eebaa58325f",
+      "6eafb2a9c1ec95c0",
+      "39740b8338a622fd",
+      "4e5188bf59004a54",
+      "cc946bae3f4b46d8",
+      "fc14608145819575"
     ],
     "x": 94,
     "y": 379,
-    "w": 832,
+    "w": 1112,
     "h": 142
   },
   {
     "id": "7a3b686f86cb9beb",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - add entity",
+    "name": "entities - add entity",
     "style": {
       "label": true,
       "fill": "#6f2fa0",
@@ -83,7 +88,6 @@
     },
     "nodes": [
       "4e039b1bb507cbd3",
-      "1f487e161c7a3a9f",
       "6c95c42a1bb0e0e8",
       "3cad0ebae9bab6a3",
       "c94f5e94ee5a1918",
@@ -147,23 +151,22 @@
       "f5b6bba2551b5bec",
       "28026a2ce29f6d72",
       "be0fb9a04ea16004",
-      "e9fecb57cdb7b4a1",
-      "d55073835b5cbfc3",
       "41e9885bae118005",
       "bf39b8d1716ca963",
       "4f7352e714e2f497",
-      "9ee5440963269d27"
+      "9ee5440963269d27",
+      "e7c533a4825e3889"
     ],
     "x": 94,
     "y": 739,
-    "w": 1552,
+    "w": 1672,
     "h": 1062
   },
   {
     "id": "4aa11d03f1b394a5",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - boot entities",
+    "name": "entities - boot entities",
     "style": {
       "fill": "#ff0000",
       "fill-opacity": "0.05",
@@ -187,7 +190,7 @@
     "id": "d163a291da272610",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - delete entity",
+    "name": "entities - delete entity",
     "style": {
       "label": true,
       "fill": "#6f2fa0",
@@ -195,7 +198,6 @@
     },
     "nodes": [
       "035760b14c0a3455",
-      "83fc1a8db8e3774c",
       "c115ad43edc89efe",
       "e941b40b953cddbc",
       "6964c9772d7bc5d6",
@@ -242,18 +244,19 @@
       "6c4bed6b5d616836",
       "6ed2ba39d2ad3830",
       "422e1dd2aab1ae7d",
-      "30ccf1e79a8c842a"
+      "30ccf1e79a8c842a",
+      "389909b07238cc3a"
     ],
     "x": 94,
-    "y": 1839,
-    "w": 2212,
-    "h": 682
+    "y": 1899,
+    "w": 2332,
+    "h": 622
   },
   {
     "id": "3b06cf51ed60a17e",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - export entities",
+    "name": "entities - export entities",
     "style": {
       "label": true,
       "fill": "#6f2fa0",
@@ -303,7 +306,7 @@
     "id": "ed710864874f0897",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - entity to md5",
+    "name": "entities - entity to md5",
     "style": {
       "label": true,
       "stroke": "#92d04f",
@@ -331,7 +334,7 @@
     "id": "e7814f99120a45d2",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
-    "name": "creator - list entities",
+    "name": "entities - list entities",
     "style": {
       "label": true
     },
@@ -352,6 +355,106 @@
     "h": 142
   },
   {
+    "id": "087716156d7ca3c7",
+    "type": "group",
+    "z": "1362a4b4f08f3d5b",
+    "name": "entities - add room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "6934471d55d3dc61",
+      "a0738c4dddf29c0c",
+      "7becb48e82e41f4d",
+      "77618bede4cd20a4",
+      "0031d2f1a7c3c8ac",
+      "6076cbdfef84255d",
+      "cb1e6d4592635001",
+      "cf0c81d932939eeb",
+      "c819a68d55e52a48",
+      "1b7806eb440632ce",
+      "52c9ef8bf5d5f352",
+      "bbc4e7be116546f6",
+      "69f377a19c3aaebb"
+    ],
+    "x": 94,
+    "y": 3039,
+    "w": 1112,
+    "h": 262
+  },
+  {
+    "id": "b8a64a86d3eb3506",
+    "type": "group",
+    "z": "1362a4b4f08f3d5b",
+    "name": "entities - delete room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "44639ce55332cbf7",
+      "b39e6b36efa2837a",
+      "28b0fb497ecfebb2",
+      "8e60fec05ccbd504",
+      "eb03f7c93f8b43a3",
+      "66b74056a86a68c5",
+      "66d2402c36529cd8",
+      "e665cef3b57e2e30",
+      "be1564c06fdecf2b",
+      "7b09dadab4169774",
+      "9804124babada246",
+      "dc7b00050a7d145a",
+      "39c9aaaef7274169",
+      "9b255197471d7224",
+      "d4606f08690adde6",
+      "607bdd179757b5c7",
+      "2e60e757450968dc",
+      "33a339c0afc1ba9a",
+      "ae105b35b7dfbc69"
+    ],
+    "x": 94,
+    "y": 3339,
+    "w": 1432,
+    "h": 262
+  },
+  {
+    "id": "433d0b51637d03f5",
+    "type": "group",
+    "z": "1362a4b4f08f3d5b",
+    "name": "entities - export room",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a0202211b5f8a9ce",
+      "d24a1016b1615427",
+      "726ccca1e080bf6b",
+      "695be3c75559690b",
+      "b7488a10a88f20a9",
+      "0949b6119fa62e77",
+      "9606333fe00f01bb",
+      "5c4aa68efe456371",
+      "f83897b1f3c48879",
+      "20a79d9eeb90fda6",
+      "1fa905f4d19b3376",
+      "d2997f50cec29cce",
+      "6f0c74e816a70334",
+      "8d4d236424edbea8",
+      "f14ce35482fb5f06",
+      "087ef495d3f3bf63",
+      "c8ca16b97279bf5f"
+    ],
+    "x": 94,
+    "y": 3639,
+    "w": 1872,
+    "h": 202
+  },
+  {
     "id": "1d1b97b90e8247f3",
     "type": "change",
     "z": "1362a4b4f08f3d5b",
@@ -362,7 +465,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "creator",
+        "to": "entities",
         "tot": "str"
       },
       {
@@ -391,7 +494,7 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "215a32642af29284",
-    "name": "creator - bucket",
+    "name": "entities - bucket",
     "links": [
       "25445f5a9b787a0a"
     ],
@@ -408,12 +511,12 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "215a32642af29284",
-    "name": "creator - bucket",
+    "name": "entities - bucket",
     "mode": "link",
     "links": [
-      "c94f5e94ee5a1918",
       "035760b14c0a3455",
-      "595853542a4259b5"
+      "595853542a4259b5",
+      "c94f5e94ee5a1918"
     ],
     "x": 395,
     "y": 60,
@@ -446,7 +549,7 @@
         "t": "set",
         "p": "topic",
         "pt": "msg",
-        "to": "creator",
+        "to": "entities",
         "tot": "str"
       }
     ],
@@ -478,41 +581,11 @@
     "wires": []
   },
   {
-    "id": "1f487e161c7a3a9f",
-    "type": "ui-button",
-    "z": "1362a4b4f08f3d5b",
-    "g": "7a3b686f86cb9beb",
-    "group": "e5d4647d97841024",
-    "name": "reload",
-    "label": "",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "emulateClick": false,
-    "tooltip": "",
-    "color": "",
-    "bgcolor": "",
-    "className": "",
-    "icon": "reload",
-    "iconPosition": "left",
-    "payload": "",
-    "payloadType": "str",
-    "topic": "topic",
-    "topicType": "msg",
-    "x": 690,
-    "y": 840,
-    "wires": [
-      [
-        "e9fecb57cdb7b4a1"
-      ]
-    ]
-  },
-  {
     "id": "2e7bb0e6e6079d56",
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "d62c9cf0cb81a537",
-    "name": "creator - register rooms",
+    "name": "entities - register rooms",
     "links": [
       "0503bf7758416919",
       "2c97fceb2be5bfbb",
@@ -531,9 +604,9 @@
       "cc68069930b2479b",
       "e035e232e2747fed",
       "e6e1bdcedd4890e9",
+      "fb0afb89fb191395",
       "fc02e2aced7cc118",
-      "fd2f2860794605a9",
-      "fb0afb89fb191395"
+      "fd2f2860794605a9"
     ],
     "x": 135,
     "y": 480,
@@ -584,8 +657,8 @@
         "t": "set",
         "p": "rooms[msg.bucket]",
         "pt": "global",
-        "to": "{}",
-        "tot": "jsonata"
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -610,7 +683,7 @@
     "name": "bucket",
     "label": "Sélectionner une pièce :",
     "tooltip": "",
-    "order": 13,
+    "order": 12,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -722,7 +795,7 @@
     "to": "",
     "reg": false,
     "x": 1350,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "6c95c42a1bb0e0e8",
@@ -747,16 +820,17 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "7a3b686f86cb9beb",
-    "name": "creator - add entity",
+    "name": "entities - add entity",
     "links": [
+      "21fbe912a43d9c26",
       "7d77f0bc3fa0e695",
       "fdea9ff531a587a8"
     ],
-    "x": 1235,
-    "y": 780,
+    "x": 1015,
+    "y": 840,
     "wires": [
       [
-        "4e039b1bb507cbd3"
+        "41e9885bae118005"
       ]
     ]
   },
@@ -1113,7 +1187,7 @@
     "name": "measurement",
     "label": "Mesure :",
     "tooltip": "",
-    "order": 6,
+    "order": 5,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -1146,7 +1220,7 @@
     "name": "field",
     "label": "Champs :",
     "tooltip": "",
-    "order": 7,
+    "order": 6,
     "width": 0,
     "height": 0,
     "passthru": false,
@@ -1331,7 +1405,7 @@
     "name": "model",
     "label": "Modèle :",
     "tooltip": "",
-    "order": 4,
+    "order": 3,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -1391,7 +1465,7 @@
     "group": "e5d4647d97841024",
     "name": "id",
     "label": "Identifiant :",
-    "order": 12,
+    "order": 11,
     "width": "6",
     "height": "1",
     "topic": "topic",
@@ -1487,7 +1561,7 @@
     "group": "e5d4647d97841024",
     "name": "add",
     "label": "",
-    "order": 14,
+    "order": 13,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -1575,7 +1649,7 @@
     "type": "debug",
     "z": "1362a4b4f08f3d5b",
     "g": "7a3b686f86cb9beb",
-    "name": "creator - add entity",
+    "name": "entities - add entity",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -1782,6 +1856,13 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "class",
         "pt": "msg",
         "to": "",
@@ -1815,14 +1896,14 @@
     "name": "protocol",
     "label": "Protocole :",
     "tooltip": "",
-    "order": 2,
+    "order": 1,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
     "options": [
       {
-        "label": "non assigné",
+        "label": "» recharger",
         "value": "",
         "type": "str"
       }
@@ -1835,7 +1916,7 @@
     "y": 900,
     "wires": [
       [
-        "d9f51facbcafa156"
+        "e7c533a4825e3889"
       ]
     ]
   },
@@ -1972,7 +2053,7 @@
     "name": "brand",
     "label": "Marque :",
     "tooltip": "",
-    "order": 3,
+    "order": 2,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -2089,7 +2170,7 @@
     "name": "options",
     "label": "Variante :",
     "tooltip": "",
-    "order": 5,
+    "order": 4,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -2133,7 +2214,7 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "7a3b686f86cb9beb",
-    "name": "creator - add entity",
+    "name": "entities - add entity",
     "mode": "link",
     "links": [
       "035760b14c0a3455",
@@ -2208,6 +2289,13 @@
         "pt": "msg",
         "to": "Entité ajouté",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -2229,7 +2317,7 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "4aa11d03f1b394a5",
-    "name": "creator - boot entities",
+    "name": "entities - boot entities",
     "links": [
       "25445f5a9b787a0a"
     ],
@@ -2294,7 +2382,7 @@
     "type": "debug",
     "z": "1362a4b4f08f3d5b",
     "g": "4aa11d03f1b394a5",
-    "name": "creator - boot entities",
+    "name": "entities - boot entities",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -2334,7 +2422,7 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "4aa11d03f1b394a5",
-    "name": "creator - boot entities",
+    "name": "entities - boot entities",
     "mode": "link",
     "links": [
       "d85fe6335a6eae7b"
@@ -2348,44 +2436,14 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "d163a291da272610",
-    "name": "creator - delete entity",
+    "name": "entities - delete entity",
     "links": [
+      "1d9d8c969ccdf2be",
       "72f3d70342e83655",
       "7d77f0bc3fa0e695",
-      "fdea9ff531a587a8",
-      "1d9d8c969ccdf2be"
+      "fdea9ff531a587a8"
     ],
     "x": 1895,
-    "y": 1880,
-    "wires": [
-      [
-        "ccc2df3ce92c67ad"
-      ]
-    ]
-  },
-  {
-    "id": "83fc1a8db8e3774c",
-    "type": "ui-button",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d163a291da272610",
-    "group": "bb1749d6bdee813d",
-    "name": "reload",
-    "label": "",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "emulateClick": false,
-    "tooltip": "",
-    "color": "",
-    "bgcolor": "",
-    "className": "",
-    "icon": "reload",
-    "iconPosition": "left",
-    "payload": "",
-    "payloadType": "str",
-    "topic": "topic",
-    "topicType": "msg",
-    "x": 1830,
     "y": 1940,
     "wires": [
       [
@@ -2552,14 +2610,14 @@
     "name": "bucket",
     "label": "Pièce :",
     "tooltip": "",
-    "order": 2,
+    "order": 1,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
     "options": [
       {
-        "label": "non assigné",
+        "label": "» recharger",
         "value": "",
         "type": "str"
       }
@@ -2572,7 +2630,7 @@
     "y": 2060,
     "wires": [
       [
-        "ceffdbc65f225ed5"
+        "389909b07238cc3a"
       ]
     ]
   },
@@ -2736,6 +2794,13 @@
         "p": "options",
         "pt": "msg",
         "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
         "tot": "jsonata"
       },
       {
@@ -2908,7 +2973,7 @@
     "name": "id",
     "label": "ID :",
     "tooltip": "",
-    "order": 3,
+    "order": 2,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -3036,7 +3101,7 @@
     "group": "bb1749d6bdee813d",
     "name": "delete",
     "label": "",
-    "order": 4,
+    "order": 3,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -3132,8 +3197,15 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "Model supprimé",
+        "to": "Entitée supprimée",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -3155,7 +3227,7 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "d163a291da272610",
-    "name": "creator - delete entity",
+    "name": "entities - delete entity",
     "mode": "link",
     "links": [
       "035760b14c0a3455",
@@ -3172,7 +3244,7 @@
     "type": "debug",
     "z": "1362a4b4f08f3d5b",
     "g": "d163a291da272610",
-    "name": "creator - delete entity",
+    "name": "entities - delete entity",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -3856,11 +3928,11 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "3b06cf51ed60a17e",
-    "name": "creator - export entities",
+    "name": "entities - export entities",
     "links": [
+      "72f3d70342e83655",
       "7d77f0bc3fa0e695",
-      "fdea9ff531a587a8",
-      "72f3d70342e83655"
+      "fdea9ff531a587a8"
     ],
     "x": 245,
     "y": 2600,
@@ -3903,7 +3975,7 @@
     "type": "debug",
     "z": "1362a4b4f08f3d5b",
     "g": "3b06cf51ed60a17e",
-    "name": "creator - import export entity",
+    "name": "entities - import export entity",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -3921,7 +3993,7 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "3b06cf51ed60a17e",
-    "name": "creator - import export entity",
+    "name": "entities - import export entity",
     "mode": "link",
     "links": [
       "035760b14c0a3455",
@@ -4414,7 +4486,7 @@
     "g": "d62c9cf0cb81a537",
     "name": "buckets which are rooms",
     "info": "",
-    "x": 770,
+    "x": 1070,
     "y": 480,
     "wires": []
   },
@@ -4423,7 +4495,7 @@
     "type": "debug",
     "z": "1362a4b4f08f3d5b",
     "g": "d62c9cf0cb81a537",
-    "name": "creator - register rooms",
+    "name": "entities - register rooms",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -4433,7 +4505,7 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 770,
-    "y": 420,
+    "y": 480,
     "wires": []
   },
   {
@@ -4502,6 +4574,13 @@
         "pt": "msg",
         "to": "import.message",
         "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -4988,7 +5067,7 @@
     "name": "default_number",
     "label": "Valeur par défaut",
     "tooltip": "",
-    "order": 10,
+    "order": 9,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -5016,7 +5095,7 @@
     "group": "e5d4647d97841024",
     "name": "default_text",
     "label": "Valeur par défaut",
-    "order": 11,
+    "order": 10,
     "width": "6",
     "height": "1",
     "topic": "topic",
@@ -5057,7 +5136,7 @@
     "to": "",
     "reg": false,
     "x": 1350,
-    "y": 840,
+    "y": 780,
     "wires": [
       [
         "f5b6bba2551b5bec"
@@ -5073,7 +5152,7 @@
     "name": "default_boolean",
     "label": "Valeur par défaut:",
     "tooltip": "",
-    "order": 9,
+    "order": 8,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -5107,7 +5186,7 @@
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
     "g": "ed710864874f0897",
-    "name": "creator - entity to md5",
+    "name": "entities - entity to md5",
     "links": [],
     "x": 135,
     "y": 600,
@@ -5211,7 +5290,7 @@
     "type": "link out",
     "z": "1362a4b4f08f3d5b",
     "g": "ed710864874f0897",
-    "name": "creator - entity to md5",
+    "name": "entities - entity to md5",
     "mode": "return",
     "links": [],
     "x": 1235,
@@ -5641,37 +5720,6 @@
     ]
   },
   {
-    "id": "e9fecb57cdb7b4a1",
-    "type": "link out",
-    "z": "1362a4b4f08f3d5b",
-    "g": "7a3b686f86cb9beb",
-    "name": "creator - add entity - reload",
-    "mode": "link",
-    "links": [
-      "a330cf9fee227d5f"
-    ],
-    "x": 855,
-    "y": 840,
-    "wires": []
-  },
-  {
-    "id": "d55073835b5cbfc3",
-    "type": "link in",
-    "z": "1362a4b4f08f3d5b",
-    "g": "7a3b686f86cb9beb",
-    "name": "link in 2",
-    "links": [
-      "21fbe912a43d9c26"
-    ],
-    "x": 1015,
-    "y": 840,
-    "wires": [
-      [
-        "41e9885bae118005"
-      ]
-    ]
-  },
-  {
     "id": "41e9885bae118005",
     "type": "trigger",
     "z": "1362a4b4f08f3d5b",
@@ -5773,7 +5821,7 @@
     "name": "suffix",
     "label": "Suffix :",
     "tooltip": "",
-    "order": 8,
+    "order": 7,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -5889,6 +5937,1686 @@
     "wires": [
       [
         "374944ec7a1d4b47"
+      ]
+    ]
+  },
+  {
+    "id": "e7c533a4825e3889",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "7a3b686f86cb9beb",
+    "name": "reload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1690,
+    "y": 900,
+    "wires": [
+      [
+        "4e039b1bb507cbd3"
+      ],
+      [
+        "d9f51facbcafa156"
+      ]
+    ]
+  },
+  {
+    "id": "389909b07238cc3a",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d163a291da272610",
+    "name": "reload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2350,
+    "y": 2060,
+    "wires": [
+      [
+        "ccc2df3ce92c67ad"
+      ],
+      [
+        "ceffdbc65f225ed5"
+      ]
+    ]
+  },
+  {
+    "id": "6934471d55d3dc61",
+    "type": "link in",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "entities - add room",
+    "links": [
+      "69f377a19c3aaebb",
+      "39c9aaaef7274169"
+    ],
+    "x": 135,
+    "y": 3080,
+    "wires": [
+      [
+        "a0738c4dddf29c0c"
+      ]
+    ]
+  },
+  {
+    "id": "a0738c4dddf29c0c",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "bucket",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "measurement",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "field",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "options",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 3080,
+    "wires": [
+      [
+        "7becb48e82e41f4d",
+        "77618bede4cd20a4",
+        "cf0c81d932939eeb"
+      ]
+    ]
+  },
+  {
+    "id": "7becb48e82e41f4d",
+    "type": "delay",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "wait 100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 3080,
+    "wires": [
+      [
+        "1b7806eb440632ce"
+      ]
+    ]
+  },
+  {
+    "id": "77618bede4cd20a4",
+    "type": "ui-text-input",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "group": "c1cd47eafbe36514",
+    "name": "bucket",
+    "label": "Pièces :",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "topic": "topic",
+    "topicType": "msg",
+    "mode": "text",
+    "delay": 300,
+    "passthru": false,
+    "sendOnDelay": false,
+    "sendOnBlur": true,
+    "sendOnEnter": true,
+    "className": "",
+    "x": 430,
+    "y": 3140,
+    "wires": [
+      [
+        "52c9ef8bf5d5f352"
+      ]
+    ]
+  },
+  {
+    "id": "0031d2f1a7c3c8ac",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "to global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "rooms[msg.room]",
+        "pt": "global",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 600,
+    "y": 3200,
+    "wires": [
+      [
+        "6076cbdfef84255d"
+      ]
+    ]
+  },
+  {
+    "id": "6076cbdfef84255d",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "set notification metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Pièce ajouté",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 820,
+    "y": 3200,
+    "wires": [
+      [
+        "cb1e6d4592635001",
+        "69f377a19c3aaebb"
+      ]
+    ]
+  },
+  {
+    "id": "cb1e6d4592635001",
+    "type": "debug",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "entities - add room",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "room",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1070,
+    "y": 3200,
+    "wires": []
+  },
+  {
+    "id": "cf0c81d932939eeb",
+    "type": "ui-button",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "group": "c1cd47eafbe36514",
+    "name": "add",
+    "label": "",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "plus",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 430,
+    "y": 3200,
+    "wires": [
+      [
+        "0031d2f1a7c3c8ac"
+      ]
+    ]
+  },
+  {
+    "id": "c819a68d55e52a48",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "options",
+        "pt": "msg"
+      },
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 260,
+    "y": 3200,
+    "wires": [
+      [
+        "cf0c81d932939eeb"
+      ]
+    ]
+  },
+  {
+    "id": "1b7806eb440632ce",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "options",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 260,
+    "y": 3140,
+    "wires": [
+      [
+        "77618bede4cd20a4"
+      ]
+    ]
+  },
+  {
+    "id": "52c9ef8bf5d5f352",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "check room",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "(system|room|thermostat|agenda|home)",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "regex",
+        "v": "^[a-z]{4,20}$",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 610,
+    "y": 3140,
+    "wires": [
+      [
+        "bbc4e7be116546f6"
+      ],
+      [
+        "c819a68d55e52a48"
+      ],
+      [
+        "bbc4e7be116546f6"
+      ]
+    ]
+  },
+  {
+    "id": "bbc4e7be116546f6",
+    "type": "debug",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "entities - add room - invalid name",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 880,
+    "y": 3140,
+    "wires": []
+  },
+  {
+    "id": "69f377a19c3aaebb",
+    "type": "link out",
+    "z": "1362a4b4f08f3d5b",
+    "g": "087716156d7ca3c7",
+    "name": "entities - add room",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df",
+      "6934471d55d3dc61",
+      "dc7b00050a7d145a"
+    ],
+    "x": 995,
+    "y": 3260,
+    "wires": []
+  },
+  {
+    "id": "44639ce55332cbf7",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delete",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "bucket",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "measurement",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "field",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "entity",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "options",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 3380,
+    "wires": [
+      [
+        "8e60fec05ccbd504",
+        "9804124babada246",
+        "b39e6b36efa2837a"
+      ]
+    ]
+  },
+  {
+    "id": "b39e6b36efa2837a",
+    "type": "delay",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "wait 50 ms",
+    "pauseType": "delay",
+    "timeout": "50",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 450,
+    "y": 3380,
+    "wires": [
+      [
+        "be1564c06fdecf2b"
+      ]
+    ]
+  },
+  {
+    "id": "28b0fb497ecfebb2",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "reload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 590,
+    "y": 3440,
+    "wires": [
+      [
+        "44639ce55332cbf7"
+      ],
+      [
+        "7b09dadab4169774"
+      ]
+    ]
+  },
+  {
+    "id": "8e60fec05ccbd504",
+    "type": "ui-dropdown",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "group": "773eef4fbdd58da8",
+    "name": "bucket",
+    "label": "Pièce :",
+    "tooltip": "",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "options": [
+      {
+        "label": "» recharger",
+        "value": "",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "topic",
+    "topicType": "msg",
+    "className": "",
+    "x": 430,
+    "y": 3440,
+    "wires": [
+      [
+        "28b0fb497ecfebb2"
+      ]
+    ]
+  },
+  {
+    "id": "eb03f7c93f8b43a3",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "delete.roomsoptions",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 260,
+    "y": 3440,
+    "wires": [
+      [
+        "8e60fec05ccbd504"
+      ]
+    ]
+  },
+  {
+    "id": "66b74056a86a68c5",
+    "type": "join",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1350,
+    "y": 3380,
+    "wires": [
+      [
+        "eb03f7c93f8b43a3"
+      ]
+    ]
+  },
+  {
+    "id": "66d2402c36529cd8",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delete.roomsoptions[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\t    'label':msg.room,\t    'value':msg.room\t}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1190,
+    "y": 3440,
+    "wires": [
+      [
+        "66b74056a86a68c5"
+      ]
+    ]
+  },
+  {
+    "id": "e665cef3b57e2e30",
+    "type": "split",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "room",
+    "x": 830,
+    "y": 3380,
+    "wires": [
+      [
+        "33a339c0afc1ba9a"
+      ]
+    ]
+  },
+  {
+    "id": "be1564c06fdecf2b",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "rooms",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "delete.roomsoptions",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 650,
+    "y": 3380,
+    "wires": [
+      [
+        "e665cef3b57e2e30"
+      ]
+    ]
+  },
+  {
+    "id": "7b09dadab4169774",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "room",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 260,
+    "y": 3500,
+    "wires": [
+      [
+        "9804124babada246"
+      ]
+    ]
+  },
+  {
+    "id": "9804124babada246",
+    "type": "ui-button",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "group": "773eef4fbdd58da8",
+    "name": "delete",
+    "label": "",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "close",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 430,
+    "y": 3500,
+    "wires": [
+      [
+        "9b255197471d7224"
+      ]
+    ]
+  },
+  {
+    "id": "dc7b00050a7d145a",
+    "type": "link in",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "entities - delete room",
+    "links": [
+      "39c9aaaef7274169",
+      "69f377a19c3aaebb"
+    ],
+    "x": 135,
+    "y": 3380,
+    "wires": [
+      [
+        "44639ce55332cbf7"
+      ]
+    ]
+  },
+  {
+    "id": "39c9aaaef7274169",
+    "type": "link out",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "entities - delete room",
+    "mode": "link",
+    "links": [
+      "dc7b00050a7d145a",
+      "6934471d55d3dc61"
+    ],
+    "x": 1295,
+    "y": 3560,
+    "wires": []
+  },
+  {
+    "id": "9b255197471d7224",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "delete room from global",
+    "rules": [
+      {
+        "t": "delete",
+        "p": "rooms[msg.room]",
+        "pt": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 650,
+    "y": 3500,
+    "wires": [
+      [
+        "2e60e757450968dc"
+      ]
+    ]
+  },
+  {
+    "id": "d4606f08690adde6",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "set notification metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Pièce supprimée",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1120,
+    "y": 3500,
+    "wires": [
+      [
+        "607bdd179757b5c7",
+        "39c9aaaef7274169"
+      ]
+    ]
+  },
+  {
+    "id": "607bdd179757b5c7",
+    "type": "debug",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "entities - delete room",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "room",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1380,
+    "y": 3500,
+    "wires": []
+  },
+  {
+    "id": "2e60e757450968dc",
+    "type": "delay",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "wait 150 ms",
+    "pauseType": "delay",
+    "timeout": "150",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 890,
+    "y": 3500,
+    "wires": [
+      [
+        "d4606f08690adde6"
+      ]
+    ]
+  },
+  {
+    "id": "33a339c0afc1ba9a",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "check room",
+    "property": "room",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "(system|room|thermostat|agenda|home)",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1010,
+    "y": 3380,
+    "wires": [
+      [
+        "ae105b35b7dfbc69"
+      ],
+      [
+        "66d2402c36529cd8"
+      ]
+    ]
+  },
+  {
+    "id": "ae105b35b7dfbc69",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "b8a64a86d3eb3506",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "delete.roomsoptions[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\t    'label':msg.room&' (system)',\t    'value':''\t}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1190,
+    "y": 3380,
+    "wires": [
+      [
+        "66b74056a86a68c5"
+      ]
+    ]
+  },
+  {
+    "id": "a0202211b5f8a9ce",
+    "type": "ui-button",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "group": "851105d76914a281",
+    "name": "reload",
+    "label": "",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "reload",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 270,
+    "y": 3680,
+    "wires": [
+      [
+        "d24a1016b1615427"
+      ]
+    ]
+  },
+  {
+    "id": "d24a1016b1615427",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "rooms",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "import",
+        "pt": "flow",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 450,
+    "y": 3680,
+    "wires": [
+      [
+        "20a79d9eeb90fda6"
+      ]
+    ]
+  },
+  {
+    "id": "726ccca1e080bf6b",
+    "type": "ui-text-input",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "group": "851105d76914a281",
+    "name": "",
+    "label": "",
+    "order": 2,
+    "width": "6",
+    "height": "3",
+    "topic": "topic",
+    "topicType": "msg",
+    "mode": "textarea",
+    "delay": 300,
+    "passthru": true,
+    "sendOnDelay": false,
+    "sendOnBlur": true,
+    "sendOnEnter": true,
+    "className": "",
+    "x": 820,
+    "y": 3680,
+    "wires": [
+      [
+        "695be3c75559690b"
+      ]
+    ]
+  },
+  {
+    "id": "695be3c75559690b",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "to flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "import.content",
+        "pt": "flow",
+        "to": "payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1010,
+    "y": 3680,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "b7488a10a88f20a9",
+    "type": "ui-button",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "group": "851105d76914a281",
+    "name": "import",
+    "label": "",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "plus",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 270,
+    "y": 3740,
+    "wires": [
+      [
+        "0949b6119fa62e77"
+      ]
+    ]
+  },
+  {
+    "id": "0949b6119fa62e77",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "from flow",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "import.content",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "import.message",
+        "pt": "flow",
+        "to": "Pièces importé avec succès",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "entity",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 440,
+    "y": 3740,
+    "wires": [
+      [
+        "9606333fe00f01bb"
+      ]
+    ]
+  },
+  {
+    "id": "9606333fe00f01bb",
+    "type": "json",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "",
+    "property": "payload",
+    "action": "obj",
+    "pretty": false,
+    "x": 610,
+    "y": 3740,
+    "wires": [
+      [
+        "5c4aa68efe456371"
+      ]
+    ]
+  },
+  {
+    "id": "5c4aa68efe456371",
+    "type": "split",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "room",
+    "x": 770,
+    "y": 3740,
+    "wires": [
+      [
+        "1fa905f4d19b3376"
+      ]
+    ]
+  },
+  {
+    "id": "f83897b1f3c48879",
+    "type": "link in",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "entities - export rooms",
+    "links": [],
+    "x": 135,
+    "y": 3680,
+    "wires": [
+      [
+        "a0202211b5f8a9ce"
+      ]
+    ]
+  },
+  {
+    "id": "20a79d9eeb90fda6",
+    "type": "json",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "",
+    "property": "payload",
+    "action": "",
+    "pretty": true,
+    "x": 630,
+    "y": 3680,
+    "wires": [
+      [
+        "726ccca1e080bf6b"
+      ]
+    ]
+  },
+  {
+    "id": "1fa905f4d19b3376",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "check room",
+    "property": "room",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "(system|room|thermostat|agenda|home)",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 950,
+    "y": 3740,
+    "wires": [
+      [
+        "d2997f50cec29cce"
+      ],
+      [
+        "6f0c74e816a70334"
+      ]
+    ]
+  },
+  {
+    "id": "d2997f50cec29cce",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "message",
+    "rules": [
+      {
+        "t": "set",
+        "p": "import.message",
+        "pt": "flow",
+        "to": "Une pièce n'a pas pu être importé",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 3740,
+    "wires": [
+      [
+        "8d4d236424edbea8"
+      ]
+    ]
+  },
+  {
+    "id": "6f0c74e816a70334",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "to global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "entities[msg.md5]",
+        "pt": "global",
+        "to": "payload",
+        "tot": "msg",
+        "dc": true
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 3800,
+    "wires": [
+      [
+        "8d4d236424edbea8"
+      ]
+    ]
+  },
+  {
+    "id": "8d4d236424edbea8",
+    "type": "join",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 1310,
+    "y": 3740,
+    "wires": [
+      [
+        "f14ce35482fb5f06"
+      ]
+    ]
+  },
+  {
+    "id": "f14ce35482fb5f06",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "set notification metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "system",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "notification",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "message",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "import.message",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1520,
+    "y": 3740,
+    "wires": [
+      [
+        "087ef495d3f3bf63",
+        "c8ca16b97279bf5f"
+      ]
+    ]
+  },
+  {
+    "id": "087ef495d3f3bf63",
+    "type": "debug",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "entities - import export room",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1800,
+    "y": 3680,
+    "wires": []
+  },
+  {
+    "id": "c8ca16b97279bf5f",
+    "type": "link out",
+    "z": "1362a4b4f08f3d5b",
+    "g": "433d0b51637d03f5",
+    "name": "entities - export room",
+    "mode": "link",
+    "links": [],
+    "x": 1695,
+    "y": 3740,
+    "wires": []
+  },
+  {
+    "id": "6eafb2a9c1ec95c0",
+    "type": "link in",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d62c9cf0cb81a537",
+    "name": "entities - rooms to buckets",
+    "links": [
+      "f4e4d84dd55f9d0d"
+    ],
+    "x": 135,
+    "y": 420,
+    "wires": [
+      [
+        "4e5188bf59004a54"
+      ]
+    ]
+  },
+  {
+    "id": "39740b8338a622fd",
+    "type": "split",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d62c9cf0cb81a537",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "room",
+    "x": 470,
+    "y": 420,
+    "wires": [
+      [
+        "fc14608145819575"
+      ]
+    ]
+  },
+  {
+    "id": "4e5188bf59004a54",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d62c9cf0cb81a537",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "rooms",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload.home",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 290,
+    "y": 420,
+    "wires": [
+      [
+        "39740b8338a622fd"
+      ]
+    ]
+  },
+  {
+    "id": "cc946bae3f4b46d8",
+    "type": "change",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d62c9cf0cb81a537",
+    "name": "to global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "metrics[msg.room]",
+        "pt": "global",
+        "to": "{}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 840,
+    "y": 420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "fc14608145819575",
+    "type": "switch",
+    "z": "1362a4b4f08f3d5b",
+    "g": "d62c9cf0cb81a537",
+    "name": "has bucket",
+    "property": "metrics",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "room",
+        "vt": "msg"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 650,
+    "y": 420,
+    "wires": [
+      [],
+      [
+        "cc946bae3f4b46d8"
       ]
     ]
   }

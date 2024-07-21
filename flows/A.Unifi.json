@@ -409,7 +409,7 @@
     "name": "",
     "server": "535a857c71583573",
     "command": "20",
-    "debug": false,
+    "debug": true,
     "x": 1680,
     "y": 960,
     "wires": [
@@ -444,7 +444,7 @@
     "name": "",
     "label": "Led Unifi",
     "group": "3cfaa12a351bab8e",
-    "order": 0,
+    "order": 1,
     "width": 0,
     "height": 0,
     "passthru": false,

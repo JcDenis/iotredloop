@@ -68,7 +68,7 @@
     ],
     "x": 68,
     "y": 233,
-    "w": 3964,
+    "w": 3984,
     "h": 314
   },
   {
@@ -255,7 +255,7 @@
     ],
     "x": 1514,
     "y": 259,
-    "w": 2492,
+    "w": 2512,
     "h": 149.5
   },
   {
@@ -2959,7 +2959,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3440,
+    "x": 3460,
     "y": 360,
     "wires": [
       [
@@ -2985,7 +2985,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2790,
+    "x": 2810,
     "y": 360,
     "wires": [
       [
@@ -3011,7 +3011,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3000,
+    "x": 3020,
     "y": 360,
     "wires": [
       [
@@ -3037,7 +3037,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3230,
+    "x": 3250,
     "y": 360,
     "wires": [
       [
@@ -3061,7 +3061,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3620,
+    "x": 3640,
     "y": 360,
     "wires": [
       [
@@ -3119,7 +3119,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 3850,
+    "x": 3870,
     "y": 300,
     "wires": []
   },
@@ -3166,7 +3166,7 @@
     "links": [
       "3433733d6b9a8736"
     ],
-    "x": 3755,
+    "x": 3775,
     "y": 360,
     "wires": []
   },
@@ -3480,14 +3480,15 @@
     "type": "split",
     "z": "52347795767acd3f",
     "g": "bdd2440c99f0d065",
-    "name": "",
+    "name": "buckets",
     "splt": "\\n",
     "spltType": "str",
     "arraySplt": 1,
     "arraySpltType": "len",
     "stream": false,
     "addname": "bucket",
-    "x": 2450,
+    "property": "payload",
+    "x": 2460,
     "y": 360,
     "wires": [
       [
@@ -3511,7 +3512,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2610,
+    "x": 2630,
     "y": 360,
     "wires": [
       [

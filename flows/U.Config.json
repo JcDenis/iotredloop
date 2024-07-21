@@ -67,12 +67,14 @@
       "90eddf07569aadc0",
       "5b6c97eb42f7b833",
       "2302782a6ca41102",
-      "a69d70a155c21ef3"
+      "a69d70a155c21ef3",
+      "27a767a07e780b79",
+      "cc58fa2dc61acc60"
     ],
     "x": 94,
     "y": 319,
     "w": 362,
-    "h": 382
+    "h": 442
   },
   {
     "id": "dd003c121420d45a",
@@ -85,7 +87,6 @@
       "label": true
     },
     "nodes": [
-      "417badba7b8593d3",
       "cfd1c312affb0a45",
       "aaba9cf674e8cfe0",
       "4eb13f33c92436a9",
@@ -115,11 +116,15 @@
       "7a76fc8d520b5b9e",
       "772791bd8b527740",
       "34f9df4fdd3bd8df",
-      "8b6c9751b1c7cc20"
+      "8b6c9751b1c7cc20",
+      "d7987f4bac2a1be7",
+      "06183d3762a605b4",
+      "6c0c33d1effc0c8d",
+      "648265bba2a83bd7"
     ],
     "x": 94,
-    "y": 739,
-    "w": 1252,
+    "y": 799,
+    "w": 2042,
     "h": 322
   },
   {
@@ -260,7 +265,7 @@
       "7c98833082d48029"
     ],
     "x": 415,
-    "y": 360,
+    "y": 420,
     "wires": []
   },
   {
@@ -271,7 +276,7 @@
     "group": "018c8ded1126b49a",
     "name": "reload devices definitions",
     "label": "Recharger les définitions d'équipements",
-    "order": 1,
+    "order": 2,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -286,7 +291,7 @@
     "topic": "topic",
     "topicType": "msg",
     "x": 230,
-    "y": 360,
+    "y": 420,
     "wires": [
       [
         "68a233d0b60bf782"
@@ -301,7 +306,7 @@
     "group": "018c8ded1126b49a",
     "name": "freeze kernel",
     "label": "Congeler le noyau",
-    "order": 3,
+    "order": 4,
     "width": "6",
     "height": "1",
     "tooltip": "",
@@ -315,7 +320,7 @@
     "topic": "gate",
     "topicType": "str",
     "x": 190,
-    "y": 540,
+    "y": 600,
     "wires": [
       [
         "aa2c3406c988ef4b"
@@ -333,7 +338,7 @@
       "baaac9a301ef150a"
     ],
     "x": 415,
-    "y": 540,
+    "y": 600,
     "wires": []
   },
   {
@@ -344,7 +349,7 @@
     "group": "018c8ded1126b49a",
     "name": "load context file",
     "label": "Recharger le fichier de context",
-    "order": 2,
+    "order": 7,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -359,7 +364,7 @@
     "topic": "topic",
     "topicType": "msg",
     "x": 200,
-    "y": 420,
+    "y": 480,
     "wires": [
       [
         "8820bdb5b422a686"
@@ -377,7 +382,7 @@
       "dfb4b5350a9383c9"
     ],
     "x": 415,
-    "y": 420,
+    "y": 480,
     "wires": []
   },
   {
@@ -388,7 +393,7 @@
     "group": "018c8ded1126b49a",
     "name": "close kernel",
     "label": "Fermer le noyau",
-    "order": 4,
+    "order": 5,
     "width": "6",
     "height": "1",
     "tooltip": "",
@@ -402,7 +407,7 @@
     "topic": "gate",
     "topicType": "str",
     "x": 190,
-    "y": 600,
+    "y": 660,
     "wires": [
       [
         "aa2c3406c988ef4b"
@@ -417,7 +422,7 @@
     "group": "018c8ded1126b49a",
     "name": "open kernel",
     "label": "Ouvrir le noyau",
-    "order": 5,
+    "order": 6,
     "width": "6",
     "height": "1",
     "tooltip": "",
@@ -431,40 +436,10 @@
     "topic": "gate",
     "topicType": "str",
     "x": 190,
-    "y": 660,
+    "y": 720,
     "wires": [
       [
         "aa2c3406c988ef4b"
-      ]
-    ]
-  },
-  {
-    "id": "417badba7b8593d3",
-    "type": "ui-button",
-    "z": "c2bfa0fea66ef080",
-    "g": "dd003c121420d45a",
-    "group": "88a7ce8d8fd7e72b",
-    "name": "reload",
-    "label": "Recharger",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "emulateClick": false,
-    "tooltip": "",
-    "color": "",
-    "bgcolor": "",
-    "className": "",
-    "icon": "",
-    "iconPosition": "left",
-    "payload": "",
-    "payloadType": "str",
-    "topic": "topic",
-    "topicType": "msg",
-    "x": 1210,
-    "y": 780,
-    "wires": [
-      [
-        "e9341386035b1f2c"
       ]
     ]
   },
@@ -496,7 +471,7 @@
     "to": "",
     "reg": false,
     "x": 380,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "aaba9cf674e8cfe0"
@@ -516,7 +491,7 @@
     "stream": false,
     "addname": "bucket",
     "x": 550,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "4eb13f33c92436a9"
@@ -544,7 +519,7 @@
     "to": "",
     "reg": false,
     "x": 710,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "a103f8cc78fc5ad7"
@@ -573,7 +548,7 @@
     "reduceInitType": "",
     "reduceFixup": "",
     "x": 870,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "9cd19202a5858a27"
@@ -589,21 +564,29 @@
     "name": "buckets",
     "label": "Bucket",
     "tooltip": "",
-    "order": 2,
+    "order": 1,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [],
+    "chips": false,
+    "clearable": false,
+    "options": [
+      {
+        "label": "» recharger",
+        "value": "",
+        "type": "str"
+      }
+    ],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
     "className": "",
     "x": 1220,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
-        "d4e3490de6550eea"
+        "d7987f4bac2a1be7"
       ]
     ]
   },
@@ -630,6 +613,20 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "class",
         "pt": "msg",
         "to": "",
@@ -642,7 +639,7 @@
     "to": "",
     "reg": false,
     "x": 1040,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "61464b0778183fdb"
@@ -684,7 +681,7 @@
     "to": "",
     "reg": false,
     "x": 380,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "f59d0b8138fa7525"
@@ -704,7 +701,7 @@
     "stream": false,
     "addname": "measurement",
     "x": 550,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "43b5266fef6d73b9"
@@ -732,7 +729,7 @@
     "to": "",
     "reg": false,
     "x": 710,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "55366488e4c7e9c3"
@@ -761,7 +758,7 @@
     "reduceInitType": "",
     "reduceFixup": "",
     "x": 870,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "5c6b98d2f2d16291"
@@ -777,21 +774,29 @@
     "name": "measurements",
     "label": "Measurement",
     "tooltip": "",
-    "order": 3,
+    "order": 2,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [],
+    "chips": false,
+    "clearable": false,
+    "options": [
+      {
+        "label": "__",
+        "value": "",
+        "type": "str"
+      }
+    ],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
     "className": "",
     "x": 1240,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
-        "b15ee9861786845f"
+        "06183d3762a605b4"
       ]
     ]
   },
@@ -818,6 +823,13 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "class",
         "pt": "msg",
         "to": "",
@@ -830,7 +842,7 @@
     "to": "",
     "reg": false,
     "x": 1040,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "649a5ab3d32438c5"
@@ -887,7 +899,7 @@
     "to": "",
     "reg": false,
     "x": 1050,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "61464b0778183fdb",
@@ -933,7 +945,7 @@
     "to": "",
     "reg": false,
     "x": 380,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "41f5791b1f5773f4"
@@ -953,7 +965,7 @@
     "stream": false,
     "addname": "field",
     "x": 550,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "d5741bb4d825808f"
@@ -981,7 +993,7 @@
     "to": "",
     "reg": false,
     "x": 710,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "608c1dd85cfe7947"
@@ -1010,7 +1022,7 @@
     "reduceInitType": "",
     "reduceFixup": "",
     "x": 870,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "3737a5a641de4ed0"
@@ -1026,18 +1038,26 @@
     "name": "fields",
     "label": "Field",
     "tooltip": "",
-    "order": 4,
+    "order": 3,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
-    "options": [],
+    "chips": false,
+    "clearable": false,
+    "options": [
+      {
+        "label": "__",
+        "value": "",
+        "type": "str"
+      }
+    ],
     "payload": "",
     "topic": "topic",
     "topicType": "msg",
     "className": "",
     "x": 1210,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "5a86c32a699d6a2e"
@@ -1067,6 +1087,20 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» TOUT','':''}])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "class",
         "pt": "msg",
         "to": "",
@@ -1079,7 +1113,7 @@
     "to": "",
     "reg": false,
     "x": 1040,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "385e81d9be142966"
@@ -1105,7 +1139,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 190,
-    "y": 840,
+    "y": 900,
     "wires": [
       [
         "cfd1c312affb0a45"
@@ -1131,7 +1165,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 190,
-    "y": 900,
+    "y": 960,
     "wires": [
       [
         "9401ba1506c0d201"
@@ -1157,7 +1191,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 190,
-    "y": 960,
+    "y": 1020,
     "wires": [
       [
         "d274c198b7d6186e"
@@ -1172,7 +1206,7 @@
     "group": "88a7ce8d8fd7e72b",
     "name": "delete",
     "label": "Effacer",
-    "order": 5,
+    "order": 4,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -1186,11 +1220,11 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 550,
-    "y": 1020,
+    "x": 1210,
+    "y": 1080,
     "wires": [
       [
-        "2a90b9bd2e0a777c"
+        "6c0c33d1effc0c8d"
       ]
     ]
   },
@@ -1213,7 +1247,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 190,
-    "y": 1020,
+    "y": 1080,
     "wires": [
       [
         "772791bd8b527740"
@@ -1231,8 +1265,8 @@
       "206c1fb4a48067df",
       "34f9df4fdd3bd8df"
     ],
-    "x": 1255,
-    "y": 1020,
+    "x": 2095,
+    "y": 1080,
     "wires": []
   },
   {
@@ -1257,15 +1291,8 @@
         "tot": "flow"
       },
       {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "delete.field",
-        "tot": "flow"
-      },
-      {
         "t": "delete",
-        "p": "metrics[msg.bucket][msg.measurement][msg.field]",
+        "p": "metrics[msg.bucket][msg.measurement]",
         "pt": "global"
       },
       {
@@ -1284,7 +1311,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 710,
+    "x": 1550,
     "y": 1020,
     "wires": [
       [
@@ -1310,8 +1337,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 880,
-    "y": 1020,
+    "x": 1720,
+    "y": 1080,
     "wires": [
       [
         "8b6c9751b1c7cc20"
@@ -1346,7 +1373,7 @@
     "to": "",
     "reg": false,
     "x": 380,
-    "y": 1020,
+    "y": 1080,
     "wires": [
       [
         "eeff7c0a47ecf9ee"
@@ -1364,7 +1391,7 @@
       "1ff5fd68e1799ae5"
     ],
     "x": 915,
-    "y": 780,
+    "y": 840,
     "wires": [
       [
         "e9341386035b1f2c"
@@ -1379,7 +1406,7 @@
     "group": "018c8ded1126b49a",
     "name": "write context file",
     "label": "Sauvegarder le fichier de context",
-    "order": 2,
+    "order": 3,
     "width": "6",
     "height": "1",
     "emulateClick": false,
@@ -1394,7 +1421,7 @@
     "topic": "topic",
     "topicType": "msg",
     "x": 200,
-    "y": 480,
+    "y": 540,
     "wires": [
       [
         "a69d70a155c21ef3"
@@ -1412,7 +1439,7 @@
       "432e8063fae7039e"
     ],
     "x": 415,
-    "y": 480,
+    "y": 540,
     "wires": []
   },
   {
@@ -1507,6 +1534,13 @@
         "pt": "msg",
         "to": "Variable effacé",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -1514,11 +1548,200 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1080,
-    "y": 1020,
+    "x": 1920,
+    "y": 1080,
     "wires": [
       [
         "1ff5fd68e1799ae5"
+      ]
+    ]
+  },
+  {
+    "id": "27a767a07e780b79",
+    "type": "ui-button",
+    "z": "c2bfa0fea66ef080",
+    "g": "dad2ac027d4f9f24",
+    "group": "018c8ded1126b49a",
+    "name": "reboot system",
+    "label": "Redémarrer le serveur Node-red",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "emulateClick": false,
+    "tooltip": "",
+    "color": "",
+    "bgcolor": "",
+    "className": "",
+    "icon": "",
+    "iconPosition": "left",
+    "payload": "",
+    "payloadType": "str",
+    "topic": "topic",
+    "topicType": "msg",
+    "x": 200,
+    "y": 360,
+    "wires": [
+      [
+        "cc58fa2dc61acc60"
+      ]
+    ]
+  },
+  {
+    "id": "cc58fa2dc61acc60",
+    "type": "link out",
+    "z": "c2bfa0fea66ef080",
+    "g": "dad2ac027d4f9f24",
+    "name": "config - ui - kernel reboot system",
+    "mode": "link",
+    "links": [
+      "083e2e406bc15eb5"
+    ],
+    "x": 415,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "d7987f4bac2a1be7",
+    "type": "switch",
+    "z": "c2bfa0fea66ef080",
+    "g": "dd003c121420d45a",
+    "name": "reload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1390,
+    "y": 900,
+    "wires": [
+      [
+        "e9341386035b1f2c"
+      ],
+      [
+        "d4e3490de6550eea"
+      ]
+    ]
+  },
+  {
+    "id": "06183d3762a605b4",
+    "type": "switch",
+    "z": "c2bfa0fea66ef080",
+    "g": "dd003c121420d45a",
+    "name": "empty",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1430,
+    "y": 960,
+    "wires": [
+      [
+        "b15ee9861786845f"
+      ]
+    ]
+  },
+  {
+    "id": "6c0c33d1effc0c8d",
+    "type": "switch",
+    "z": "c2bfa0fea66ef080",
+    "g": "dd003c121420d45a",
+    "name": "all fields",
+    "property": "delete.field",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "empty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1380,
+    "y": 1080,
+    "wires": [
+      [
+        "2a90b9bd2e0a777c"
+      ],
+      [
+        "648265bba2a83bd7"
+      ]
+    ]
+  },
+  {
+    "id": "648265bba2a83bd7",
+    "type": "change",
+    "z": "c2bfa0fea66ef080",
+    "g": "dd003c121420d45a",
+    "name": "global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "delete.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "delete.measurement",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "delete.field",
+        "tot": "flow"
+      },
+      {
+        "t": "delete",
+        "p": "metrics[msg.bucket][msg.measurement][msg.field]",
+        "pt": "global"
+      },
+      {
+        "t": "delete",
+        "p": "options",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "topic",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1550,
+    "y": 1080,
+    "wires": [
+      [
+        "7a76fc8d520b5b9e"
       ]
     ]
   }

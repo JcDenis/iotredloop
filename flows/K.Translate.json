@@ -436,7 +436,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'url':'url',\t    'detector':'detector',\t    'sensor':'sensor',\t    'probe':'probe',\t    'ceiling':'ceiling',\t    'lamp':'lamp',\t    'leds':'leds',\t    'spots':'spots',\t    'socket':'socket',\t    'left socket':'left socket',\t    'right socket':'right socket',\t    'door':'door',\t    'window':'window',\t    'bay':'bay',\t    'left bay':'left bay',\t    'right bay':'right bay',\t    'balloon':'balloon',\t    'speaker':'speaker',\t    'desk':'desk',\t    'mirror':'mirror',\t    'fire':'fire',\t    'remote':'remote',\t    'left remote':'left remote',\t    'right remote':'right remote',\t    'button':'button',\t    'shutter':'shutter',\t    'pilot':'pilot',\t    'bedside':'bedside',\t    'left bedside':'left bedside',\t    'right bedside':'right bedside',\t    'heat pump':'heat pump',\t    'cmv':'cmv',\t    'torus':'torus',\t    'relay':'relay',\t    'electric meter':'electric meter',\t    'solar panels':'solar panels',\t    'rack':'rack',\t    'actif':'actif',\t    'snapshot':'snapshot',\t    'assistant':'assistant',\t    'message':'message'\t}",
+        "to": "{\t    'url':'url',\t    'detector':'detector',\t    'sensor':'sensor',\t    'probe':'probe',\t    'ceiling':'ceiling',\t    'lamp':'lamp',\t    'leds':'leds',\t    'left leds':'left leds',\t    'right leds':'right leds',\t    'spots':'spots',\t    'socket':'socket',\t    'left socket':'left socket',\t    'right socket':'right socket',\t    'door':'door',\t    'window':'window',\t    'bay':'bay',\t    'left bay':'left bay',\t    'right bay':'right bay',\t    'balloon':'balloon',\t    'speaker':'speaker',\t    'desk':'desk',\t    'mirror':'mirror',\t    'fire':'fire',\t    'remote':'remote',\t    'left remote':'left remote',\t    'right remote':'right remote',\t    'button':'button',\t    'shutter':'shutter',\t    'pilot':'pilot',\t    'bedside':'bedside',\t    'left bedside':'left bedside',\t    'right bedside':'right bedside',\t    'heat pump':'heat pump',\t    'cmv':'cmv',\t    'torus':'torus',\t    'relay':'relay',\t    'electric meter':'electric meter',\t    'solar panels':'solar panels',\t    'rack':'rack',\t    'actif':'actif',\t    'snapshot':'snapshot',\t    'assistant':'assistant',\t    'message':'message',\t    'alexa':'alexa',\t    'server':'server'\t}",
         "tot": "jsonata"
       },
       {
@@ -503,7 +503,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'temperature':'temperature',\t    'humidity':'humidity',\t    'luminosity':'luminosity',\t    'power':'power',\t    'current':'current',\t    'outlet':'outlet',\t    'light':'light',\t    'battery':'battery',\t    'motion':'motion',\t    'aperture':'aperture',\t    'airflow':'airflow',\t    'command':'command',\t    'photovoltaic':'photovoltaic',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air conditioner':'air conditioner',\t    'thermostat':'thermostat',\t    'tariff':'tariff',\t    'peak hours counter':'peak hours counter',\t    'off-peak hours counter':'off-peak hours counter',\t    'total hours counter':'total hours counter',\t    'smoke':'smoke',\t    'heat':'heat',\t    'alexa':'alexa',\t    'telegram':'telegram',\t    'color':'color',\t    'brightness':'brightness'\t}",
+        "to": "{\t    'temperature':'temperature',\t    'humidity':'humidity',\t    'luminosity':'luminosity',\t    'power':'power',\t    'current':'current',\t    'outlet':'outlet',\t    'light':'light',\t    'battery':'battery',\t    'motion':'motion',\t    'aperture':'aperture',\t    'airflow':'airflow',\t    'command':'command',\t    'photovoltaic':'photovoltaic',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air conditioner':'air conditioner',\t    'thermostat':'thermostat',\t    'tariff':'tariff',\t    'peak hours counter':'peak hours counter',\t    'off-peak hours counter':'off-peak hours counter',\t    'total hours counter':'total hours counter',\t    'smoke':'smoke',\t    'heat':'heat',\t    'volume':'volume',\t    'telegram':'telegram',\t    'color':'color',\t    'brightness':'brightness',\t    'cpu usage':'cpu usage',\t    'overload':'overload'\t}",
         "tot": "jsonata"
       },
       {
@@ -903,7 +903,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'url':'url',\t    'detector':'détecteur',\t    'sensor':'capteur',\t    'probe':'sonde',\t    'ceiling':'plafonnier',\t    'lamp':'lampe',\t    'leds':'leds',\t    'spots':'spots',\t    'socket':'sortie',\t    'left socket':'sortie gauche',\t    'right socket':'sortie droite',\t    'door':'porte',\t    'window':'fenêtre',\t    'bay':'baie',\t    'left bay':'baie gauche',\t    'right bay':'baie droite',\t    'balloon':'ballon',\t    'speaker':'haut parleur',\t    'desk':'bureau',\t    'mirror':'miroir',\t    'fire':'incendie',\t    'remote':'télécommande',\t    'left remote':'télécommande gauche',\t    'right remote':'télécommande droite',\t    'button':'button',\t    'shutter':'volet',\t    'pilot':'pilote',\t    'bedside':'chevet',\t    'left bedside':'chevet gauche',\t    'right bedside':'chevet droite',\t    'heat pump':'pompe à chaleur',\t    'cmv':'vmc',\t    'torus':'tore',\t    'relay':'relais',\t    'power production':\"production d'énergie\",\t    'electric meter':'compteur électrique',\t    'solar panels':'panneaux solaires',\t    'rack':'rack',\t    'actif':'actif',\t    'snapshot':\"capture d'image\",\t    'assistant':'assistant',\t    'message':'message'\t}",
+        "to": "{\t    'url':'url',\t    'detector':'détecteur',\t    'sensor':'capteur',\t    'probe':'sonde',\t    'ceiling':'plafonnier',\t    'lamp':'lampe',\t    'leds':'leds',\t    'left leds':'leds gauche',\t    'right leds':'leds droite',\t    'spots':'spots',\t    'socket':'sortie',\t    'left socket':'sortie gauche',\t    'right socket':'sortie droite',\t    'door':'porte',\t    'window':'fenêtre',\t    'bay':'baie',\t    'left bay':'baie gauche',\t    'right bay':'baie droite',\t    'balloon':'ballon',\t    'speaker':'haut parleur',\t    'desk':'bureau',\t    'mirror':'miroir',\t    'fire':'incendie',\t    'remote':'télécommande',\t    'left remote':'télécommande gauche',\t    'right remote':'télécommande droite',\t    'button':'button',\t    'shutter':'volet',\t    'pilot':'pilote',\t    'bedside':'chevet',\t    'left bedside':'chevet gauche',\t    'right bedside':'chevet droite',\t    'heat pump':'pompe à chaleur',\t    'cmv':'vmc',\t    'torus':'tore',\t    'relay':'relais',\t    'power production':\"production d'énergie\",\t    'electric meter':'compteur électrique',\t    'solar panels':'panneaux solaires',\t    'rack':'rack',\t    'actif':'actif',\t    'snapshot':\"capture d'image\",\t    'assistant':'assistant',\t    'message':'message',\t    'alexa':'alexa',\t    'server':'serveur'\t}",
         "tot": "jsonata"
       },
       {
@@ -970,7 +970,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "{\t    'temperature':'température',\t    'humidity':'humidité',\t    'luminosity':'luminosité',\t    'power':'puissance',\t    'current':'courant',\t    'outlet':'prise',\t    'light':'lumière',\t    'battery':'batterie',\t    'motion':'mouvement',\t    'aperture':'ouverture',\t    'airflow':'ventilation',\t    'command':'commande',\t    'photovoltaic':'photovoltaîque',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air conditioner':'climatisation',\t    'thermostat':'thermostat',\t    'tariff':'tarif',\t    'peak hours counter':'compteur heaures pleines',\t    'off-peak hours counter':'compteur heures creuses',\t    'total hours counter':'compteur heures total',\t    'smoke':'fumée',\t    'heat':'chaleur',\t    'alexa':'alexa',\t    'telegram':'telegram',\t    'color':'couleur',\t    'brightness':'luminosité'\t}",
+        "to": "{\t    'temperature':'température',\t    'humidity':'humidité',\t    'luminosity':'luminosité',\t    'power':'puissance',\t    'current':'courant',\t    'outlet':'prise',\t    'light':'lumière',\t    'battery':'batterie',\t    'motion':'mouvement',\t    'aperture':'ouverture',\t    'airflow':'ventilation',\t    'command':'commande',\t    'photovoltaic':'photovoltaîque',\t    'camera':'camera',\t    'cumulus':'cumulus',\t    'air conditioner':'climatisation',\t    'thermostat':'thermostat',\t    'tariff':'tarif',\t    'peak hours counter':'compteur heaures pleines',\t    'off-peak hours counter':'compteur heures creuses',\t    'total hours counter':'compteur heures total',\t    'smoke':'fumée',\t    'heat':'chaleur',\t    'volume':'volume',\t    'telegram':'telegram',\t    'color':'couleur',\t    'brightness':'luminosité',\t    'cpu usage':'utilisation cpu',\t    'overload':'surcharge'\t}",
         "tot": "jsonata"
       },
       {
@@ -1449,6 +1449,340 @@
     "wires": [
       [
         "bdcd4dd80dcbe2b9"
+      ]
+    ]
+  },
+  {
+    "id": "025e219749a67439",
+    "type": "link in",
+    "z": "bac2b08cd7c2e421",
+    "name": "translate - metric",
+    "links": [],
+    "x": 135,
+    "y": 1740,
+    "wires": [
+      [
+        "34429d11d196843d"
+      ]
+    ]
+  },
+  {
+    "id": "34429d11d196843d",
+    "type": "switch",
+    "z": "bac2b08cd7c2e421",
+    "name": "check metric",
+    "property": "metric",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "string",
+        "vt": "string"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 290,
+    "y": 1740,
+    "wires": [
+      [
+        "8132d29defa08323"
+      ]
+    ]
+  },
+  {
+    "id": "8132d29defa08323",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "name": "split metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$split(msg.metric,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "trans",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "trans.bucket",
+        "pt": "msg",
+        "to": "tmp[0]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "trans.measurement",
+        "pt": "msg",
+        "to": "tmp[1]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "trans.field",
+        "pt": "msg",
+        "to": "tmp[2]",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "dictionnary",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 490,
+    "y": 1740,
+    "wires": [
+      [
+        "97fc1790a2645359"
+      ]
+    ]
+  },
+  {
+    "id": "97fc1790a2645359",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "name": "",
+    "links": [
+      "27183008d41a13ed"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 770,
+    "y": 1740,
+    "wires": [
+      [
+        "8bcefb815fc8435c"
+      ]
+    ]
+  },
+  {
+    "id": "978da5d0e2dd6cd6",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "name": "",
+    "links": [
+      "aeb0d3b6747c9280"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1630,
+    "y": 1740,
+    "wires": [
+      [
+        "ded3021e1648bbc7"
+      ]
+    ]
+  },
+  {
+    "id": "8bcefb815fc8435c",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "name": "trans measurement",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "dictionnary[msg.trans.measurement]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "trans.measurement",
+        "pt": "msg",
+        "to": "msg.tmp?msg.tmp:msg.trans.measurement",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "trans.field",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1070,
+    "y": 1740,
+    "wires": [
+      [
+        "088a7d890760254f"
+      ]
+    ]
+  },
+  {
+    "id": "088a7d890760254f",
+    "type": "link call",
+    "z": "bac2b08cd7c2e421",
+    "name": "",
+    "links": [
+      "0ac217c2ced7927a"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1340,
+    "y": 1740,
+    "wires": [
+      [
+        "978da5d0e2dd6cd6"
+      ]
+    ]
+  },
+  {
+    "id": "ded3021e1648bbc7",
+    "type": "switch",
+    "z": "bac2b08cd7c2e421",
+    "name": "",
+    "property": "dictionnary",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "short_field",
+        "vt": "msg"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 1860,
+    "y": 1740,
+    "wires": [
+      [
+        "252c4251489738e4"
+      ],
+      [
+        "047190c9d2c62ebe"
+      ]
+    ]
+  },
+  {
+    "id": "252c4251489738e4",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "name": "translate",
+    "rules": [
+      {
+        "t": "set",
+        "p": "trans.field",
+        "pt": "msg",
+        "to": "dictionnary[msg.short_field]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "trans.field",
+        "pt": "msg",
+        "to": "msg.trans.field&msg.end_field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "split_field",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 1680,
+    "wires": [
+      [
+        "e25ebb310bbeb26b"
+      ]
+    ]
+  },
+  {
+    "id": "047190c9d2c62ebe",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "name": "original",
+    "rules": [
+      {
+        "t": "set",
+        "p": "trans.field",
+        "pt": "msg",
+        "to": "msg.short_field&msg.end_field",
+        "tot": "jsonata"
+      },
+      {
+        "t": "delete",
+        "p": "split_field",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2040,
+    "y": 1740,
+    "wires": [
+      [
+        "e25ebb310bbeb26b"
+      ]
+    ]
+  },
+  {
+    "id": "1519fd79c475d95a",
+    "type": "link out",
+    "z": "bac2b08cd7c2e421",
+    "name": "translate - metric",
+    "mode": "return",
+    "links": [],
+    "x": 2335,
+    "y": 1740,
+    "wires": []
+  },
+  {
+    "id": "e25ebb310bbeb26b",
+    "type": "change",
+    "z": "bac2b08cd7c2e421",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "trans.path",
+        "pt": "msg",
+        "to": "msg.trans.bucket&' / '&msg.trans.measurement&' / '&msg.trans.field",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2210,
+    "y": 1740,
+    "wires": [
+      [
+        "1519fd79c475d95a"
       ]
     ]
   }
