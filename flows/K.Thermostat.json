@@ -525,6 +525,45 @@
     "h": 142
   },
   {
+    "id": "b3bc1717c16dc7dc",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "name": "thermostat - update - operating mode",
+    "style": {
+      "stroke": "#a4a4a4",
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "048bc1e501b0f9f2",
+      "3b8d8924bdb03f80",
+      "3e40fc1c77ed372a",
+      "b461040a6c998b61",
+      "3c808f997ae66a1c",
+      "069ab711c0c089a6",
+      "c20295d9b0ac3419",
+      "34992e101a5f7e1c",
+      "36eb92fa692e166c",
+      "d4c1d964e9c56e01",
+      "abd02925c2597211",
+      "e267a0404a5c5d6c",
+      "758acb218148a1d7",
+      "0728c8c3564e6e93",
+      "d1c7f4810b12afe2",
+      "35ea643afefc732d",
+      "6764b95646ec77db",
+      "45bd2f5743776c20",
+      "d6ec98126b0438ab",
+      "84f1bb54c15f032d",
+      "f05d34dd5ff9746b"
+    ],
+    "x": 94,
+    "y": 4899,
+    "w": 3172,
+    "h": 262
+  },
+  {
     "id": "f0bd4b1ffe5da318",
     "type": "change",
     "z": "80f2ffd4953c67e9",
@@ -6097,5 +6136,601 @@
     "x": 280,
     "y": 4560,
     "wires": []
+  },
+  {
+    "id": "048bc1e501b0f9f2",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "confort",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "confort",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2410,
+    "y": 5120,
+    "wires": [
+      [
+        "0728c8c3564e6e93"
+      ]
+    ]
+  },
+  {
+    "id": "3b8d8924bdb03f80",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "eco",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "eco",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2410,
+    "y": 5060,
+    "wires": [
+      [
+        "0728c8c3564e6e93"
+      ]
+    ]
+  },
+  {
+    "id": "3e40fc1c77ed372a",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "mode heating",
+    "property": "metrics.system.mode.heating",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "off",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "anti-freeze",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "automatic",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 3,
+    "x": 1780,
+    "y": 5000,
+    "wires": [
+      [
+        "b461040a6c998b61"
+      ],
+      [
+        "3c808f997ae66a1c"
+      ],
+      [
+        "069ab711c0c089a6"
+      ]
+    ]
+  },
+  {
+    "id": "b461040a6c998b61",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "off",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "off",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2410,
+    "y": 4940,
+    "wires": [
+      [
+        "0728c8c3564e6e93"
+      ]
+    ]
+  },
+  {
+    "id": "3c808f997ae66a1c",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "anti-freeze",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "anti-freeze",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2430,
+    "y": 5000,
+    "wires": [
+      [
+        "0728c8c3564e6e93"
+      ]
+    ]
+  },
+  {
+    "id": "069ab711c0c089a6",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "hour confort",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "0",
+        "vt": "num"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2010,
+    "y": 5060,
+    "wires": [
+      [
+        "3b8d8924bdb03f80"
+      ],
+      [
+        "35ea643afefc732d"
+      ]
+    ]
+  },
+  {
+    "id": "c20295d9b0ac3419",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "set metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "scene.bucket",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "scene.measurement",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "scene.field",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2800,
+    "y": 5000,
+    "wires": [
+      [
+        "e267a0404a5c5d6c",
+        "34992e101a5f7e1c"
+      ]
+    ]
+  },
+  {
+    "id": "34992e101a5f7e1c",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "thermostat - update - operating mode",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3070,
+    "y": 4940,
+    "wires": []
+  },
+  {
+    "id": "36eb92fa692e166c",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "rsp",
+    "property": "routine.response",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "1",
+        "vt": "num"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1590,
+    "y": 5000,
+    "wires": [
+      [
+        "3e40fc1c77ed372a"
+      ]
+    ]
+  },
+  {
+    "id": "d4c1d964e9c56e01",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "",
+    "links": [
+      "c1a22098f4c6b607"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1410,
+    "y": 5000,
+    "wires": [
+      [
+        "36eb92fa692e166c"
+      ]
+    ]
+  },
+  {
+    "id": "abd02925c2597211",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "scene thermostat / operating mode / text",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "room",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "scene.measurement",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.field",
+        "pt": "msg",
+        "to": "operating mode",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.type",
+        "pt": "msg",
+        "to": "thermostat",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.on",
+        "pt": "msg",
+        "to": "eco",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "scene.off",
+        "pt": "msg",
+        "to": "off",
+        "tot": "str"
+      },
+      {
+        "t": "delete",
+        "p": "room",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1120,
+    "y": 5000,
+    "wires": [
+      [
+        "d4c1d964e9c56e01"
+      ]
+    ]
+  },
+  {
+    "id": "e267a0404a5c5d6c",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "thermostat - update - operating mode",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2935,
+    "y": 5000,
+    "wires": []
+  },
+  {
+    "id": "758acb218148a1d7",
+    "type": "comment",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "don not call system/mode/heating as thermostat because of modes off are different",
+    "info": "",
+    "x": 1630,
+    "y": 4940,
+    "wires": []
+  },
+  {
+    "id": "0728c8c3564e6e93",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "compare",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "neq",
+        "v": "routine[msg.scene.field]",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2620,
+    "y": 5000,
+    "wires": [
+      [
+        "c20295d9b0ac3419"
+      ]
+    ]
+  },
+  {
+    "id": "d1c7f4810b12afe2",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "thermostat - update - operating mode - out",
+    "links": [
+      "0857f7c3fc012063",
+      "2ced5243fb4aa8a7",
+      "2df681beb21344f6",
+      "307e1f98694a09a1",
+      "377374bc3cc49bc5",
+      "438b7d7c7b096219",
+      "4a2c85990a2b061e",
+      "7dc41ad29651ef76",
+      "9820c6e109f25a2a",
+      "f8f9a6db99bb33e8"
+    ],
+    "x": 715,
+    "y": 5000,
+    "wires": [
+      [
+        "d6ec98126b0438ab"
+      ]
+    ]
+  },
+  {
+    "id": "35ea643afefc732d",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "mode presence",
+    "property": "metrics.system.mode.presence",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "absent",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 2220,
+    "y": 5120,
+    "wires": [
+      [
+        "3b8d8924bdb03f80"
+      ],
+      [
+        "048bc1e501b0f9f2"
+      ]
+    ]
+  },
+  {
+    "id": "6764b95646ec77db",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "5 s",
+    "pauseType": "delay",
+    "timeout": "5",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 5000,
+    "wires": [
+      [
+        "45bd2f5743776c20"
+      ]
+    ]
+  },
+  {
+    "id": "45bd2f5743776c20",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "sync",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "sync",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 430,
+    "y": 5000,
+    "wires": [
+      [
+        "84f1bb54c15f032d"
+      ]
+    ]
+  },
+  {
+    "id": "d6ec98126b0438ab",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "room",
+    "property": "room",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "istype",
+        "v": "string",
+        "vt": "string"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 850,
+    "y": 5000,
+    "wires": [
+      [
+        "abd02925c2597211"
+      ]
+    ]
+  },
+  {
+    "id": "84f1bb54c15f032d",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "thermostat - update - operating modee - in",
+    "mode": "link",
+    "links": [
+      "30a4c71f8d02384d",
+      "3dc0abb4933cf52c",
+      "628c2e8014a8c40c",
+      "64765643b13c207f",
+      "6f4850f14b12df44",
+      "8f0b1f8de9fbfc9f",
+      "94744f7b1ec149b3",
+      "afd97549392e0e45",
+      "c39d452224c976fc",
+      "eec0c12c5dac7ac0"
+    ],
+    "x": 555,
+    "y": 5000,
+    "wires": []
+  },
+  {
+    "id": "f05d34dd5ff9746b",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "b3bc1717c16dc7dc",
+    "name": "thermostat - update - operating mode - boot",
+    "links": [
+      "25445f5a9b787a0a"
+    ],
+    "x": 135,
+    "y": 5000,
+    "wires": [
+      [
+        "6764b95646ec77db"
+      ]
+    ]
   }
 ]

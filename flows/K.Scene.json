@@ -85,46 +85,6 @@
     "h": 202
   },
   {
-    "id": "b3bc1717c16dc7dc",
-    "type": "group",
-    "z": "68ee181e9defa139",
-    "name": "scene - thermostat operating mode",
-    "style": {
-      "stroke": "#a4a4a4",
-      "fill": "#92d04f",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "048bc1e501b0f9f2",
-      "3b8d8924bdb03f80",
-      "3e40fc1c77ed372a",
-      "b461040a6c998b61",
-      "3c808f997ae66a1c",
-      "069ab711c0c089a6",
-      "c20295d9b0ac3419",
-      "34992e101a5f7e1c",
-      "36eb92fa692e166c",
-      "d4c1d964e9c56e01",
-      "abd02925c2597211",
-      "e267a0404a5c5d6c",
-      "758acb218148a1d7",
-      "0728c8c3564e6e93",
-      "d1c7f4810b12afe2",
-      "35ea643afefc732d",
-      "6764b95646ec77db",
-      "45bd2f5743776c20",
-      "7550c60a97723c5b",
-      "d6ec98126b0438ab",
-      "84f1bb54c15f032d",
-      "f05d34dd5ff9746b"
-    ],
-    "x": 94,
-    "y": 739,
-    "w": 3152,
-    "h": 262
-  },
-  {
     "id": "796ef41c1dd2380c",
     "type": "group",
     "z": "68ee181e9defa139",
@@ -186,7 +146,7 @@
       "975a84254ad7876b"
     ],
     "x": 94,
-    "y": 619,
+    "y": 919,
     "w": 922,
     "h": 82
   },
@@ -296,7 +256,7 @@
     ],
     "x": 94,
     "y": 1039,
-    "w": 2552,
+    "w": 2792,
     "h": 322
   },
   {
@@ -898,482 +858,6 @@
     "wires": []
   },
   {
-    "id": "048bc1e501b0f9f2",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "confort",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "confort",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2410,
-    "y": 960,
-    "wires": [
-      [
-        "0728c8c3564e6e93"
-      ]
-    ]
-  },
-  {
-    "id": "3b8d8924bdb03f80",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "eco",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "eco",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2410,
-    "y": 900,
-    "wires": [
-      [
-        "0728c8c3564e6e93"
-      ]
-    ]
-  },
-  {
-    "id": "3e40fc1c77ed372a",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "mode heating",
-    "property": "metrics.system.mode.heating",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "off",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "anti-freeze",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "automatic",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 3,
-    "x": 1780,
-    "y": 840,
-    "wires": [
-      [
-        "b461040a6c998b61"
-      ],
-      [
-        "3c808f997ae66a1c"
-      ],
-      [
-        "069ab711c0c089a6"
-      ]
-    ]
-  },
-  {
-    "id": "b461040a6c998b61",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "off",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "off",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2410,
-    "y": 780,
-    "wires": [
-      [
-        "0728c8c3564e6e93"
-      ]
-    ]
-  },
-  {
-    "id": "3c808f997ae66a1c",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "anti-freeze",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "anti-freeze",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2430,
-    "y": 840,
-    "wires": [
-      [
-        "0728c8c3564e6e93"
-      ]
-    ]
-  },
-  {
-    "id": "069ab711c0c089a6",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "hour confort",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "0",
-        "vt": "num"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 2010,
-    "y": 900,
-    "wires": [
-      [
-        "3b8d8924bdb03f80"
-      ],
-      [
-        "35ea643afefc732d"
-      ]
-    ]
-  },
-  {
-    "id": "c20295d9b0ac3419",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "set metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "scene.bucket",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "measurement",
-        "pt": "msg",
-        "to": "scene.measurement",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "scene.field",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2800,
-    "y": 840,
-    "wires": [
-      [
-        "e267a0404a5c5d6c",
-        "34992e101a5f7e1c"
-      ]
-    ]
-  },
-  {
-    "id": "34992e101a5f7e1c",
-    "type": "debug",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene - thermostat operating mode",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 3060,
-    "y": 780,
-    "wires": []
-  },
-  {
-    "id": "36eb92fa692e166c",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "rsp",
-    "property": "routine.response",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "1",
-        "vt": "num"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 1590,
-    "y": 840,
-    "wires": [
-      [
-        "3e40fc1c77ed372a"
-      ]
-    ]
-  },
-  {
-    "id": "d4c1d964e9c56e01",
-    "type": "link call",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "",
-    "links": [
-      "c1a22098f4c6b607"
-    ],
-    "linkType": "static",
-    "timeout": "30",
-    "x": 1410,
-    "y": 840,
-    "wires": [
-      [
-        "36eb92fa692e166c"
-      ]
-    ]
-  },
-  {
-    "id": "abd02925c2597211",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene thermostat / operating mode / text",
-    "rules": [
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "room",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "scene.measurement",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.field",
-        "pt": "msg",
-        "to": "operating mode",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.format",
-        "pt": "msg",
-        "to": "text",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.type",
-        "pt": "msg",
-        "to": "thermostat",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.on",
-        "pt": "msg",
-        "to": "eco",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "scene.off",
-        "pt": "msg",
-        "to": "off",
-        "tot": "str"
-      },
-      {
-        "t": "delete",
-        "p": "room",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1120,
-    "y": 840,
-    "wires": [
-      [
-        "d4c1d964e9c56e01"
-      ]
-    ]
-  },
-  {
-    "id": "e267a0404a5c5d6c",
-    "type": "link out",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene - thermostat operating mode",
-    "mode": "link",
-    "links": [
-      "206c1fb4a48067df"
-    ],
-    "x": 2935,
-    "y": 840,
-    "wires": []
-  },
-  {
-    "id": "758acb218148a1d7",
-    "type": "comment",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "don not call system/mode/heating as thermostat because of modes off are different",
-    "info": "",
-    "x": 1650,
-    "y": 780,
-    "wires": []
-  },
-  {
-    "id": "0728c8c3564e6e93",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "compare",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "neq",
-        "v": "routine[msg.scene.field]",
-        "vt": "msg"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 2620,
-    "y": 840,
-    "wires": [
-      [
-        "c20295d9b0ac3419"
-      ]
-    ]
-  },
-  {
-    "id": "d1c7f4810b12afe2",
-    "type": "link in",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene - thermostat operating mode - out",
-    "links": [
-      "0857f7c3fc012063",
-      "2ced5243fb4aa8a7",
-      "2df681beb21344f6",
-      "307e1f98694a09a1",
-      "377374bc3cc49bc5",
-      "438b7d7c7b096219",
-      "4a2c85990a2b061e",
-      "7dc41ad29651ef76",
-      "9820c6e109f25a2a",
-      "f8f9a6db99bb33e8"
-    ],
-    "x": 715,
-    "y": 840,
-    "wires": [
-      [
-        "d6ec98126b0438ab"
-      ]
-    ]
-  },
-  {
-    "id": "35ea643afefc732d",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "mode presence",
-    "property": "metrics.system.mode.presence",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "absent",
-        "vt": "str"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 2220,
-    "y": 960,
-    "wires": [
-      [
-        "3b8d8924bdb03f80"
-      ],
-      [
-        "048bc1e501b0f9f2"
-      ]
-    ]
-  },
-  {
     "id": "abdf34b12a5dd88d",
     "type": "link in",
     "z": "68ee181e9defa139",
@@ -1864,7 +1348,7 @@
     "repair": false,
     "outputs": 1,
     "x": 270,
-    "y": 660,
+    "y": 960,
     "wires": [
       [
         "d5aa33c47a8c4347"
@@ -1890,7 +1374,7 @@
     "repair": false,
     "outputs": 1,
     "x": 610,
-    "y": 660,
+    "y": 960,
     "wires": [
       [
         "f4e114d534bc63d0"
@@ -1916,7 +1400,7 @@
     "repair": false,
     "outputs": 1,
     "x": 820,
-    "y": 660,
+    "y": 960,
     "wires": [
       [
         "7fcd9ac436f62e8a"
@@ -1942,7 +1426,7 @@
     "repair": false,
     "outputs": 1,
     "x": 430,
-    "y": 660,
+    "y": 960,
     "wires": [
       [
         "2856d3bff393f9fc"
@@ -1960,7 +1444,7 @@
       "fb4b4e2a3fb029df"
     ],
     "x": 975,
-    "y": 660,
+    "y": 960,
     "wires": []
   },
   {
@@ -1971,7 +1455,7 @@
     "name": "scene - fire",
     "links": [],
     "x": 135,
-    "y": 660,
+    "y": 960,
     "wires": [
       [
         "07d45bb35ac762c9"
@@ -2946,7 +2430,7 @@
     "links": [
       "fb4b4e2a3fb029df"
     ],
-    "x": 2395,
+    "x": 2635,
     "y": 1320,
     "wires": []
   },
@@ -2961,8 +2445,8 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 1390,
-    "y": 1260,
+    "x": 1630,
+    "y": 1200,
     "wires": [
       [
         "4ddccddf03e3d4d4"
@@ -2987,8 +2471,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1570,
-    "y": 1260,
+    "x": 1810,
+    "y": 1200,
     "wires": [
       [
         "db475389de188a0c"
@@ -3017,7 +2501,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 2090,
+    "x": 2330,
     "y": 1260,
     "wires": [
       [
@@ -3051,7 +2535,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2250,
+    "x": 2490,
     "y": 1200,
     "wires": [
       [
@@ -3080,7 +2564,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2250,
+    "x": 2490,
     "y": 1260,
     "wires": [
       [
@@ -3109,7 +2593,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2260,
+    "x": 2500,
     "y": 1320,
     "wires": [
       [
@@ -3190,7 +2674,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1560,
+    "x": 1800,
     "y": 1080,
     "wires": [
       [
@@ -3214,7 +2698,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1740,
+    "x": 1980,
     "y": 1200,
     "wires": [
       [
@@ -3238,7 +2722,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1920,
+    "x": 2160,
     "y": 1200,
     "wires": [
       [
@@ -3257,7 +2741,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 1190,
+    "x": 850,
     "y": 1320,
     "wires": [
       [
@@ -3296,7 +2780,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 2490,
+    "x": 2730,
     "y": 1260,
     "wires": []
   },
@@ -3327,8 +2811,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1190,
-    "y": 1260,
+    "x": 1430,
+    "y": 1200,
     "wires": [
       [
         "85772c505d998011"
@@ -3353,7 +2837,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1370,
+    "x": 2170,
     "y": 1320,
     "wires": [
       [
@@ -3453,8 +2937,8 @@
     "bytopic": "topic",
     "topic": "scene.bucket",
     "outputs": 1,
-    "x": 1000,
-    "y": 1200,
+    "x": 1240,
+    "y": 1140,
     "wires": [
       [
         "bb270d49658a693f"
@@ -3541,7 +3025,6 @@
     "y": 1140,
     "wires": [
       [
-        "f1475eafde58ef48",
         "36fedc6b0be804e7"
       ]
     ]
@@ -4355,7 +3838,9 @@
     "x": 1030,
     "y": 1140,
     "wires": [
-      []
+      [
+        "f1475eafde58ef48"
+      ]
     ]
   },
   {
@@ -6207,151 +5692,5 @@
     "x": 310,
     "y": 3360,
     "wires": []
-  },
-  {
-    "id": "6764b95646ec77db",
-    "type": "delay",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "5 s",
-    "pauseType": "delay",
-    "timeout": "5",
-    "timeoutUnits": "seconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 270,
-    "y": 840,
-    "wires": [
-      [
-        "45bd2f5743776c20"
-      ]
-    ]
-  },
-  {
-    "id": "45bd2f5743776c20",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "sync",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "sync",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 430,
-    "y": 840,
-    "wires": [
-      [
-        "84f1bb54c15f032d"
-      ]
-    ]
-  },
-  {
-    "id": "7550c60a97723c5b",
-    "type": "change",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "scene.bucket",
-        "pt": "msg",
-        "to": "room",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1710,
-    "y": 940,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "d6ec98126b0438ab",
-    "type": "switch",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "room",
-    "property": "room",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "istype",
-        "v": "string",
-        "vt": "string"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 850,
-    "y": 840,
-    "wires": [
-      [
-        "abd02925c2597211"
-      ]
-    ]
-  },
-  {
-    "id": "84f1bb54c15f032d",
-    "type": "link out",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene - thermostat operating mode - in",
-    "mode": "link",
-    "links": [
-      "64765643b13c207f",
-      "c39d452224c976fc",
-      "afd97549392e0e45",
-      "eec0c12c5dac7ac0",
-      "8f0b1f8de9fbfc9f",
-      "94744f7b1ec149b3",
-      "6f4850f14b12df44",
-      "3dc0abb4933cf52c",
-      "30a4c71f8d02384d",
-      "628c2e8014a8c40c"
-    ],
-    "x": 555,
-    "y": 840,
-    "wires": []
-  },
-  {
-    "id": "f05d34dd5ff9746b",
-    "type": "link in",
-    "z": "68ee181e9defa139",
-    "g": "b3bc1717c16dc7dc",
-    "name": "scene - thermostat operating mode - boot",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 840,
-    "wires": [
-      [
-        "6764b95646ec77db"
-      ]
-    ]
   }
 ]
