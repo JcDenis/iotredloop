@@ -2445,6 +2445,13 @@
         "pt": "msg",
         "to": "detector",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -3871,6 +3878,13 @@
         "pt": "msg",
         "to": "detector",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -8054,6 +8068,13 @@
         "pt": "msg",
         "to": "battery",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -9085,6 +9106,13 @@
         "pt": "msg",
         "to": "battery",
         "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",

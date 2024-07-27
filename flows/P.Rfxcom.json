@@ -874,6 +874,13 @@
         "pt": "msg",
         "to": "msg.payload.batteryLevel*10",
         "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
