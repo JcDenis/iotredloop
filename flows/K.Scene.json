@@ -2658,8 +2658,8 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "metrics[msg.scene.bucket][msg.scene.type]openwork",
-        "tot": "global"
+        "to": "scene.openwork",
+        "tot": "msg"
       },
       {
         "t": "set",

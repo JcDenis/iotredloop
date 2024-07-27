@@ -7444,6 +7444,13 @@
         "pt": "msg",
         "to": "true",
         "tot": "bool"
+      },
+      {
+        "t": "set",
+        "p": "payload.config",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",

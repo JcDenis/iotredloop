@@ -29,36 +29,10 @@
     "h": 82
   },
   {
-    "id": "431e858f4040dc8b",
-    "type": "group",
-    "z": "bcb1eeac454a68aa",
-    "name": "unifi - scene - unifi site led",
-    "style": {
-      "fill": "#92d04f",
-      "fill-opacity": "0.1",
-      "label": true
-    },
-    "nodes": [
-      "c05215ab11c67472",
-      "ff67e3a2734a57e6",
-      "cc7f40c27b45b5f8",
-      "13a2d7fb2604e394",
-      "dcb86b8e023a9ff4",
-      "e5af9cdb8ad1782f",
-      "a04df5d6f5a664c9",
-      "aecf9a82cca1010b",
-      "8662a6d8d5df3801",
-      "bd2e646697352643"
-    ],
-    "x": 94,
-    "y": 859,
-    "w": 2012,
-    "h": 142
-  },
-  {
     "id": "d05973f2f05e6933",
     "type": "group",
     "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
     "name": "unifi - statistics to Influxdb",
     "style": {
       "stroke": "#bfbfbf",
@@ -100,11 +74,12 @@
       "39408c8ef2fd9677",
       "15d5032c9ec85d29",
       "8e650ebd7375f518",
-      "86ab0804781ac276"
+      "7add2d2e9d373780",
+      "130c39ccae1b9794"
     ],
-    "x": 94,
-    "y": 199,
-    "w": 2232,
+    "x": 534,
+    "y": 559,
+    "w": 2452,
     "h": 622
   },
   {
@@ -129,9 +104,184 @@
     "h": 82
   },
   {
+    "id": "75c056e8b9acf6f0",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "24f1eadd52e84117",
+      "b7428f7175bc8304",
+      "ca7574044008cea7",
+      "ca0422a25853c623",
+      "dfe9a336f7c03735",
+      "9f7da7413819da7a",
+      "4be8a4f49d4c269f",
+      "f74f132c878e2874"
+    ],
+    "x": 534,
+    "y": 199,
+    "w": 922,
+    "h": 262
+  },
+  {
+    "id": "c1f27c79c0103c45",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi - model",
+    "style": {
+      "fill": "#001f60",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "c2cee2352b8eb312",
+      "b5d729ae425c26e0",
+      "8c7dce81c2afdec7"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "78d96244e9eac38d",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi  - source - version",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "f26d82c5b17daad4",
+      "49e9fd1f6eb63cdf",
+      "4276f7c65945133d",
+      "87d5ef2cd29bcc43",
+      "c1db316df918bd6e",
+      "facc2899b5d97d7e",
+      "a1bd5f85906d484b",
+      "a9b04d9c53e4c569",
+      "00dc8b4a542b336f"
+    ],
+    "x": 1554,
+    "y": 199,
+    "w": 1332,
+    "h": 142
+  },
+  {
+    "id": "61d1d619cb7e91c6",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi  - source - led",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "33e731942160c568",
+      "b351e04458db2c8a",
+      "cde871cc4745f0d2",
+      "b85376917915e0b2",
+      "7d2fc8498ffb759c",
+      "52e1d9c9b79eecee",
+      "d7e7a4c4f46d667f",
+      "8ec530eea07d0f48",
+      "ae5f4efe08216242"
+    ],
+    "x": 1554,
+    "y": 379,
+    "w": 1292,
+    "h": 142
+  },
+  {
+    "id": "9fcce29d49756b8d",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi - metric - led",
+    "style": {
+      "fill": "#92d04f",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "de4f3fffefe78b3e",
+      "53e98b0660f4ec34",
+      "27c981e256dd5966",
+      "13fb777c8e39f531",
+      "cd07d521b8972cbe",
+      "3a31252a361d9d0f"
+    ],
+    "x": 2974,
+    "y": 199,
+    "w": 1112,
+    "h": 82
+  },
+  {
+    "id": "513272bff0b57de0",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "g": "4d818c92192d1954",
+    "name": "api - unifi - get model",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "2a175bcdc17dce69",
+      "a8f6b8baeaf94e43",
+      "9c6e12731fcf28f0",
+      "6a2046b093b1a7da",
+      "fc4048e7d45f23ba",
+      "193c8cb0b47326f5",
+      "bfad6ea1161596cc"
+    ],
+    "x": 2974,
+    "y": 319,
+    "w": 1112,
+    "h": 82
+  },
+  {
+    "id": "4d818c92192d1954",
+    "type": "group",
+    "z": "bcb1eeac454a68aa",
+    "name": "api - unifi",
+    "style": {
+      "label": true,
+      "fill": "#777777",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "c1f27c79c0103c45",
+      "75c056e8b9acf6f0",
+      "61d1d619cb7e91c6",
+      "78d96244e9eac38d",
+      "513272bff0b57de0",
+      "9fcce29d49756b8d",
+      "d05973f2f05e6933"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 4044,
+    "h": 1034
+  },
+  {
     "id": "ae85504297599271",
     "type": "change",
     "z": "bcb1eeac454a68aa",
+    "d": true,
     "g": "ef46b000b033db2d",
     "name": "bucket",
     "rules": [
@@ -167,6 +317,7 @@
     "id": "d3b50627581cb177",
     "type": "link in",
     "z": "bcb1eeac454a68aa",
+    "d": true,
     "g": "ef46b000b033db2d",
     "name": "unifi - bucket",
     "links": [],
@@ -182,6 +333,7 @@
     "id": "f0ed6e5d36cbe523",
     "type": "link out",
     "z": "bcb1eeac454a68aa",
+    "d": true,
     "g": "ef46b000b033db2d",
     "name": "unifi - bucket",
     "mode": "link",
@@ -189,284 +341,6 @@
     "x": 395,
     "y": 60,
     "wires": []
-  },
-  {
-    "id": "c05215ab11c67472",
-    "type": "change",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "command",
-    "rules": [
-      {
-        "t": "set",
-        "p": "tmp",
-        "pt": "msg",
-        "to": "$boolean(msg.payload)=true",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{}",
-        "tot": "json"
-      },
-      {
-        "t": "set",
-        "p": "payload.mode",
-        "pt": "msg",
-        "to": "tmp",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "payload.command",
-        "pt": "msg",
-        "to": "setsiteled",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "payload.site",
-        "pt": "msg",
-        "to": "default",
-        "tot": "str"
-      },
-      {
-        "t": "delete",
-        "p": "tmp",
-        "pt": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1460,
-    "y": 960,
-    "wires": [
-      [
-        "aecf9a82cca1010b"
-      ]
-    ]
-  },
-  {
-    "id": "ff67e3a2734a57e6",
-    "type": "switch",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "mode master",
-    "property": "metrics.system.mode.master",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "about.automate",
-        "vt": "global"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 450,
-    "y": 960,
-    "wires": [
-      [
-        "cc7f40c27b45b5f8"
-      ]
-    ]
-  },
-  {
-    "id": "cc7f40c27b45b5f8",
-    "type": "switch",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "mode automate",
-    "property": "metrics.system.mode.automate",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "automatic",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 660,
-    "y": 960,
-    "wires": [
-      [
-        "dcb86b8e023a9ff4"
-      ]
-    ]
-  },
-  {
-    "id": "13a2d7fb2604e394",
-    "type": "change",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "boolean",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "msg.payload='Jour'",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1100,
-    "y": 960,
-    "wires": [
-      [
-        "c05215ab11c67472",
-        "bd2e646697352643"
-      ]
-    ]
-  },
-  {
-    "id": "dcb86b8e023a9ff4",
-    "type": "switch",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "mode nycthemer",
-    "property": "payload",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "neq",
-        "v": "off",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 890,
-    "y": 960,
-    "wires": [
-      [
-        "13a2d7fb2604e394"
-      ]
-    ]
-  },
-  {
-    "id": "e5af9cdb8ad1782f",
-    "type": "link in",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "unifi - scene - unifi site led",
-    "links": [
-      "031a6afd8300356a"
-    ],
-    "x": 135,
-    "y": 960,
-    "wires": [
-      [
-        "a04df5d6f5a664c9"
-      ]
-    ]
-  },
-  {
-    "id": "a04df5d6f5a664c9",
-    "type": "switch",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "system/mode/nycthemer",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 1,
-    "x": 270,
-    "y": 960,
-    "wires": [
-      [
-        "ff67e3a2734a57e6"
-      ]
-    ]
-  },
-  {
-    "id": "aecf9a82cca1010b",
-    "type": "Unifi",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "",
-    "server": "535a857c71583573",
-    "command": "20",
-    "debug": true,
-    "x": 1680,
-    "y": 960,
-    "wires": [
-      [
-        "8662a6d8d5df3801"
-      ]
-    ]
-  },
-  {
-    "id": "8662a6d8d5df3801",
-    "type": "debug",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "unifi - scene - unifi site led",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1950,
-    "y": 960,
-    "wires": []
-  },
-  {
-    "id": "bd2e646697352643",
-    "type": "ui-switch",
-    "z": "bcb1eeac454a68aa",
-    "g": "431e858f4040dc8b",
-    "name": "",
-    "label": "Led Unifi",
-    "group": "3cfaa12a351bab8e",
-    "order": 1,
-    "width": 0,
-    "height": 0,
-    "passthru": false,
-    "topic": "topic",
-    "topicType": "msg",
-    "style": "",
-    "className": "",
-    "onvalue": "true",
-    "onvalueType": "bool",
-    "onicon": "",
-    "oncolor": "",
-    "offvalue": "false",
-    "offvalueType": "bool",
-    "officon": "",
-    "offcolor": "",
-    "x": 1280,
-    "y": 900,
-    "wires": [
-      [
-        "c05215ab11c67472"
-      ]
-    ]
   },
   {
     "id": "8553e21d99113958",
@@ -483,8 +357,8 @@
     "retentionPolicyV18Flux": "",
     "org": "iotredloop",
     "bucket": "unifi",
-    "x": 2190,
-    "y": 240,
+    "x": 2850,
+    "y": 600,
     "wires": []
   },
   {
@@ -492,12 +366,12 @@
     "type": "Unifi",
     "z": "bcb1eeac454a68aa",
     "g": "d05973f2f05e6933",
-    "name": "AccessDevices",
+    "name": "unifi query",
     "server": "535a857c71583573",
     "command": "70",
     "debug": false,
-    "x": 460,
-    "y": 240,
+    "x": 1130,
+    "y": 600,
     "wires": [
       [
         "e0507a6e8e927e19",
@@ -521,8 +395,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 810,
-    "y": 360,
+    "x": 1470,
+    "y": 720,
     "wires": [
       [
         "7f55efeecc6ec73e"
@@ -563,8 +437,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1010,
-    "y": 360,
+    "x": 1670,
+    "y": 720,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -587,8 +461,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 830,
-    "y": 300,
+    "x": 1490,
+    "y": 660,
     "wires": [
       [
         "8582c1a640e03d41"
@@ -632,8 +506,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1690,
-    "y": 240,
+    "x": 2350,
+    "y": 600,
     "wires": [
       [
         "39408c8ef2fd9677"
@@ -674,8 +548,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1030,
-    "y": 300,
+    "x": 1690,
+    "y": 660,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -699,8 +573,8 @@
     "randomUnits": "seconds",
     "drop": false,
     "outputs": 1,
-    "x": 2010,
-    "y": 240,
+    "x": 2670,
+    "y": 600,
     "wires": [
       [
         "8553e21d99113958",
@@ -727,8 +601,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 830,
-    "y": 240,
+    "x": 1490,
+    "y": 600,
     "wires": [
       [
         "b7cba9eee3f6e94e"
@@ -762,8 +636,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1010,
-    "y": 240,
+    "x": 1670,
+    "y": 600,
     "wires": [
       [
         "2acf6f79f1b77e0f"
@@ -782,8 +656,8 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "sub_id",
-    "x": 1170,
-    "y": 240,
+    "x": 1830,
+    "y": 600,
     "wires": [
       [
         "085b08d355309601"
@@ -824,8 +698,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1510,
-    "y": 240,
+    "x": 2170,
+    "y": 600,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -850,8 +724,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 820,
-    "y": 420,
+    "x": 1480,
+    "y": 780,
     "wires": [
       [
         "a3f3004529ef18a2",
@@ -895,8 +769,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 420,
+    "x": 1700,
+    "y": 780,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -937,8 +811,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 480,
+    "x": 1700,
+    "y": 840,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -979,8 +853,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 540,
+    "x": 1700,
+    "y": 900,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1021,8 +895,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 600,
+    "x": 1700,
+    "y": 960,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1063,8 +937,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1020,
-    "y": 660,
+    "x": 1680,
+    "y": 1020,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1105,8 +979,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1020,
-    "y": 720,
+    "x": 1680,
+    "y": 1080,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1131,8 +1005,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 830,
-    "y": 660,
+    "x": 1490,
+    "y": 1020,
     "wires": [
       [
         "c589887266c69450",
@@ -1158,8 +1032,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 820,
-    "y": 780,
+    "x": 1480,
+    "y": 1140,
     "wires": [
       [
         "b11dbfb8e7b04adc"
@@ -1193,8 +1067,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1010,
-    "y": 780,
+    "x": 1670,
+    "y": 1140,
     "wires": [
       [
         "c712b913351f15c2"
@@ -1213,8 +1087,8 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 1170,
-    "y": 780,
+    "x": 1830,
+    "y": 1140,
     "wires": [
       [
         "1d7fdb59cd34b66c",
@@ -1256,8 +1130,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1350,
-    "y": 720,
+    "x": 2010,
+    "y": 1080,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1298,8 +1172,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1350,
-    "y": 780,
+    "x": 2010,
+    "y": 1140,
     "wires": [
       [
         "2177d6f5082386d2"
@@ -1320,8 +1194,8 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 2200,
-    "y": 360,
+    "x": 2860,
+    "y": 720,
     "wires": []
   },
   {
@@ -1338,8 +1212,8 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 470,
-    "y": 300,
+    "x": 1150,
+    "y": 660,
     "wires": []
   },
   {
@@ -1354,8 +1228,8 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "eq_id",
-    "x": 650,
-    "y": 240,
+    "x": 1310,
+    "y": 600,
     "wires": [
       [
         "224c5d499abe0df3",
@@ -1385,8 +1259,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1330,
-    "y": 240,
+    "x": 1990,
+    "y": 600,
     "wires": [
       [
         "258cd89a7735d78b"
@@ -1409,8 +1283,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1850,
-    "y": 240,
+    "x": 2510,
+    "y": 600,
     "wires": [
       [
         "9932a3c5f71ec579"
@@ -1426,11 +1300,11 @@
     "links": [
       "004bb30c27c94fb4"
     ],
-    "x": 135,
-    "y": 240,
+    "x": 575,
+    "y": 600,
     "wires": [
       [
-        "86ab0804781ac276"
+        "130c39ccae1b9794"
       ]
     ]
   },
@@ -1442,37 +1316,9 @@
     "name": "unifi - statistics",
     "mode": "link",
     "links": [],
-    "x": 2135,
-    "y": 300,
+    "x": 2795,
+    "y": 660,
     "wires": []
-  },
-  {
-    "id": "86ab0804781ac276",
-    "type": "change",
-    "z": "bcb1eeac454a68aa",
-    "g": "d05973f2f05e6933",
-    "name": "time",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "",
-        "tot": "date"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 240,
-    "wires": [
-      [
-        "649b628a9a4b5a76"
-      ]
-    ]
   },
   {
     "id": "9607eb8becc34592",
@@ -1531,5 +1377,1177 @@
     "x": 915,
     "y": 60,
     "wires": []
+  },
+  {
+    "id": "24f1eadd52e84117",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "api - unifi - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 240,
+    "wires": [
+      [
+        "b7428f7175bc8304"
+      ]
+    ]
+  },
+  {
+    "id": "b7428f7175bc8304",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "unifi console",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 240,
+    "wires": [
+      [
+        "ca7574044008cea7",
+        "9f7da7413819da7a",
+        "4be8a4f49d4c269f",
+        "f74f132c878e2874"
+      ]
+    ]
+  },
+  {
+    "id": "ca7574044008cea7",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "d": true,
+    "g": "75c056e8b9acf6f0",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "unifi",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 870,
+    "y": 240,
+    "wires": [
+      [
+        "ca0422a25853c623"
+      ]
+    ]
+  },
+  {
+    "id": "ca0422a25853c623",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "nodered",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1280,
+    "y": 240,
+    "wires": [
+      [
+        "dfe9a336f7c03735"
+      ]
+    ]
+  },
+  {
+    "id": "dfe9a336f7c03735",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "api - unifi - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1415,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "9f7da7413819da7a",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "virtual environment / unifi console* / text / *",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'unifi console'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "msg.default?msg.default:''",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 990,
+    "y": 300,
+    "wires": [
+      [
+        "ca0422a25853c623"
+      ]
+    ]
+  },
+  {
+    "id": "c2cee2352b8eb312",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "c1f27c79c0103c45",
+    "name": "api - unifi - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "b5d729ae425c26e0"
+      ]
+    ]
+  },
+  {
+    "id": "b5d729ae425c26e0",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "c1f27c79c0103c45",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "unifi",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "unifi console",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "api",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'unifi console'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "8c7dce81c2afdec7"
+      ]
+    ]
+  },
+  {
+    "id": "8c7dce81c2afdec7",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "c1f27c79c0103c45",
+    "name": "api - unifi - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "4be8a4f49d4c269f",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "light / unifi console* / boolean / false*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'unifi console'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "msg.default?$boolean(msg.default):false",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 420,
+    "wires": [
+      [
+        "ca0422a25853c623"
+      ]
+    ]
+  },
+  {
+    "id": "f26d82c5b17daad4",
+    "type": "inject",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "manual update",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "str",
+    "x": 1680,
+    "y": 240,
+    "wires": [
+      [
+        "00dc8b4a542b336f"
+      ]
+    ]
+  },
+  {
+    "id": "49e9fd1f6eb63cdf",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "api - unifi - source - version",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2720,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "4276f7c65945133d",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload[0]version",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "site",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2490,
+    "y": 300,
+    "wires": [
+      [
+        "49e9fd1f6eb63cdf",
+        "a1bd5f85906d484b"
+      ]
+    ]
+  },
+  {
+    "id": "87d5ef2cd29bcc43",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "api - unifi - source - version",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 1595,
+    "y": 300,
+    "wires": [
+      [
+        "00dc8b4a542b336f"
+      ]
+    ]
+  },
+  {
+    "id": "c1db316df918bd6e",
+    "type": "comment",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "scan buckets to find unifi and to query it to update values",
+    "info": "",
+    "x": 2030,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "facc2899b5d97d7e",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.site",
+        "pt": "msg",
+        "to": "devices[msg.bucket]['virtual environment'][msg.field]id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload.command",
+        "pt": "msg",
+        "to": "SiteSysinfo",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2130,
+    "y": 300,
+    "wires": [
+      [
+        "a9b04d9c53e4c569"
+      ]
+    ]
+  },
+  {
+    "id": "a1bd5f85906d484b",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "api - proxmox - source - version",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2615,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "a9b04d9c53e4c569",
+    "type": "Unifi",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "unifi qurey",
+    "server": "535a857c71583573",
+    "command": "20",
+    "debug": true,
+    "x": 2310,
+    "y": 300,
+    "wires": [
+      [
+        "4276f7c65945133d"
+      ]
+    ]
+  },
+  {
+    "id": "33e731942160c568",
+    "type": "inject",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "manual update",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "str",
+    "x": 1680,
+    "y": 420,
+    "wires": [
+      [
+        "ae5f4efe08216242"
+      ]
+    ]
+  },
+  {
+    "id": "b351e04458db2c8a",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "api - unifi - source - led",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 2700,
+    "y": 420,
+    "wires": []
+  },
+  {
+    "id": "cde871cc4745f0d2",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "light",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload[0]['led_enabled']",
+        "tot": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "site",
+        "pt": "msg"
+      },
+      {
+        "t": "delete",
+        "p": "parts",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2490,
+    "y": 480,
+    "wires": [
+      [
+        "b351e04458db2c8a",
+        "d7e7a4c4f46d667f"
+      ]
+    ]
+  },
+  {
+    "id": "b85376917915e0b2",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "api - unifi - source - led",
+    "links": [
+      "004bb30c27c94fb4"
+    ],
+    "x": 1595,
+    "y": 480,
+    "wires": [
+      [
+        "ae5f4efe08216242"
+      ]
+    ]
+  },
+  {
+    "id": "7d2fc8498ffb759c",
+    "type": "comment",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "scan buckets to find unifi and to query it to update values",
+    "info": "",
+    "x": 2030,
+    "y": 420,
+    "wires": []
+  },
+  {
+    "id": "52e1d9c9b79eecee",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.site",
+        "pt": "msg",
+        "to": "devices[msg.bucket]['virtual environment'][msg.field]id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload.command",
+        "pt": "msg",
+        "to": "setsiteled",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2130,
+    "y": 480,
+    "wires": [
+      [
+        "8ec530eea07d0f48"
+      ]
+    ]
+  },
+  {
+    "id": "d7e7a4c4f46d667f",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "api - proxmox - source - led",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 2615,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "8ec530eea07d0f48",
+    "type": "Unifi",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "unifi qurey",
+    "server": "535a857c71583573",
+    "command": "20",
+    "debug": true,
+    "x": 2310,
+    "y": 480,
+    "wires": [
+      [
+        "cde871cc4745f0d2"
+      ]
+    ]
+  },
+  {
+    "id": "de4f3fffefe78b3e",
+    "type": "Unifi",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "unifi qurey",
+    "server": "535a857c71583573",
+    "command": "20",
+    "debug": true,
+    "x": 3710,
+    "y": 240,
+    "wires": [
+      [
+        "53e98b0660f4ec34"
+      ]
+    ]
+  },
+  {
+    "id": "53e98b0660f4ec34",
+    "type": "debug",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "api - unifi - metric - led",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3940,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "f74f132c878e2874",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "75c056e8b9acf6f0",
+    "name": "cible / unifi console* / boolean / false*",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "cible",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'unifi console'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "boolean",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "msg.default?$boolean(msg.default):false",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 360,
+    "wires": [
+      [
+        "ca0422a25853c623"
+      ]
+    ]
+  },
+  {
+    "id": "13fb777c8e39f531",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "api - unifi - metric - led",
+    "links": [
+      "637b84024e725f38"
+    ],
+    "x": 3015,
+    "y": 240,
+    "wires": [
+      [
+        "27c981e256dd5966"
+      ]
+    ]
+  },
+  {
+    "id": "27c981e256dd5966",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "unifi console",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3150,
+    "y": 240,
+    "wires": [
+      [
+        "cd07d521b8972cbe"
+      ]
+    ]
+  },
+  {
+    "id": "cd07d521b8972cbe",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "cible",
+        "vt": "str"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 3340,
+    "y": 240,
+    "wires": [
+      [
+        "3a31252a361d9d0f"
+      ]
+    ]
+  },
+  {
+    "id": "3a31252a361d9d0f",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "9fcce29d49756b8d",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.site",
+        "pt": "msg",
+        "to": "id",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload.command",
+        "pt": "msg",
+        "to": "setsiteled",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload.mode",
+        "pt": "msg",
+        "to": "$boolean(msg.payload)",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3530,
+    "y": 240,
+    "wires": [
+      [
+        "de4f3fffefe78b3e"
+      ]
+    ]
+  },
+  {
+    "id": "2a175bcdc17dce69",
+    "type": "link in",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "api - unifi - get model",
+    "links": [],
+    "x": 3015,
+    "y": 360,
+    "wires": [
+      [
+        "a8f6b8baeaf94e43"
+      ]
+    ]
+  },
+  {
+    "id": "a8f6b8baeaf94e43",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3180,
+    "y": 360,
+    "wires": [
+      [
+        "9c6e12731fcf28f0"
+      ]
+    ]
+  },
+  {
+    "id": "9c6e12731fcf28f0",
+    "type": "split",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "buckets",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "property": "payload",
+    "x": 3370,
+    "y": 360,
+    "wires": [
+      [
+        "6a2046b093b1a7da"
+      ]
+    ]
+  },
+  {
+    "id": "6a2046b093b1a7da",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "measurement",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload['virtual environment']",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3570,
+    "y": 360,
+    "wires": [
+      [
+        "fc4048e7d45f23ba"
+      ]
+    ]
+  },
+  {
+    "id": "fc4048e7d45f23ba",
+    "type": "split",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "fields",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "property": "payload",
+    "x": 3760,
+    "y": 360,
+    "wires": [
+      [
+        "193c8cb0b47326f5"
+      ]
+    ]
+  },
+  {
+    "id": "193c8cb0b47326f5",
+    "type": "switch",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "model",
+    "property": "devices[msg.bucket]['virtual environment'][msg.field]model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "unifi console",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3920,
+    "y": 360,
+    "wires": [
+      [
+        "bfad6ea1161596cc"
+      ]
+    ]
+  },
+  {
+    "id": "bfad6ea1161596cc",
+    "type": "link out",
+    "z": "bcb1eeac454a68aa",
+    "g": "513272bff0b57de0",
+    "name": "api - unifi - get model",
+    "mode": "return",
+    "links": [],
+    "x": 4045,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "00dc8b4a542b336f",
+    "type": "link call",
+    "z": "bcb1eeac454a68aa",
+    "g": "78d96244e9eac38d",
+    "name": "",
+    "links": [
+      "2a175bcdc17dce69"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1920,
+    "y": 300,
+    "wires": [
+      [
+        "facc2899b5d97d7e"
+      ]
+    ]
+  },
+  {
+    "id": "ae5f4efe08216242",
+    "type": "link call",
+    "z": "bcb1eeac454a68aa",
+    "g": "61d1d619cb7e91c6",
+    "name": "",
+    "links": [
+      "2a175bcdc17dce69"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1920,
+    "y": 480,
+    "wires": [
+      [
+        "52e1d9c9b79eecee"
+      ]
+    ]
+  },
+  {
+    "id": "7add2d2e9d373780",
+    "type": "change",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload.site",
+        "pt": "msg",
+        "to": "devices[msg.bucket]['virtual environment'][msg.field]id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "payload.command",
+        "pt": "msg",
+        "to": "accessDevices",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 950,
+    "y": 600,
+    "wires": [
+      [
+        "649b628a9a4b5a76"
+      ]
+    ]
+  },
+  {
+    "id": "130c39ccae1b9794",
+    "type": "link call",
+    "z": "bcb1eeac454a68aa",
+    "g": "d05973f2f05e6933",
+    "name": "",
+    "links": [
+      "2a175bcdc17dce69"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 740,
+    "y": 600,
+    "wires": [
+      [
+        "7add2d2e9d373780"
+      ]
+    ]
   }
 ]

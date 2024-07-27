@@ -55,14 +55,57 @@
       "21e0a26a69851550"
     ],
     "x": 94,
-    "y": 199,
+    "y": 939,
     "w": 952,
     "h": 862
+  },
+  {
+    "id": "b2743c80684b0c5b",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "eff9d80049182cee",
+      "c48efb433e1bac8b",
+      "f21a1bff030f3d3d"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
+    "id": "f5c47550f872f36e",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "name": "api - proxmox",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7df081d38de8d887",
+      "d36d7c4d00993eda",
+      "738a9b631ec7f956",
+      "02f2098631b8f1bc"
+    ],
+    "x": 68,
+    "y": 173,
+    "w": 7064,
+    "h": 714
   },
   {
     "id": "7df081d38de8d887",
     "type": "group",
     "z": "422511c2793ff288",
+    "g": "f5c47550f872f36e",
     "name": "proxmox - list",
     "style": {
       "fill": "#6f2fa0",
@@ -115,39 +158,110 @@
       "486eab6cd67669f4",
       "cd60eff79722f6a8",
       "eddef41fac28be72",
-      "284f816c5e8bbfec",
-      "ed43589ee9e39cd5",
       "5def5c4c2f2f242a",
       "f6aaeec4c6fdfabe",
       "522b6c161afcb47e",
       "6957810565336218",
-      "d82d93f92871f901"
+      "d82d93f92871f901",
+      "df15e932155f2ba9",
+      "c30333f4e590339e",
+      "ce7f4614862751ea",
+      "9646351e993f370b",
+      "add6ed83ed30f23d",
+      "b83c5421732aa53c",
+      "6e81c498073124d6",
+      "f182def43c9b706e",
+      "f7de59496ae60d1b",
+      "0845db45a9ff77b2",
+      "b3ca9cbe02a17956",
+      "9938c42740cdd357",
+      "4098270104cd50f5",
+      "5538fb1a47d31421",
+      "80954cb6ad16cefc",
+      "b4d39d580663092e",
+      "cc8a05125b23ef33",
+      "0cd42c49ccab909c"
     ],
-    "x": 94,
-    "y": 1099,
-    "w": 3212,
-    "h": 562
+    "x": 3554,
+    "y": 199,
+    "w": 3552,
+    "h": 662
   },
   {
-    "id": "b2743c80684b0c5b",
+    "id": "738a9b631ec7f956",
     "type": "group",
     "z": "422511c2793ff288",
-    "name": "catch error",
+    "g": "f5c47550f872f36e",
+    "name": "api - proxmox - model",
     "style": {
-      "fill": "#ff0000",
+      "fill": "#001f60",
       "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
+      "label": true
     },
     "nodes": [
-      "eff9d80049182cee",
-      "c48efb433e1bac8b",
-      "f21a1bff030f3d3d"
+      "b2838ba438b43d0b",
+      "0bde03fbf7b38bcb",
+      "89a3bed0e116f6f1"
+    ],
+    "x": 94,
+    "y": 199,
+    "w": 342,
+    "h": 82
+  },
+  {
+    "id": "d36d7c4d00993eda",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "g": "f5c47550f872f36e",
+    "name": "api - proxmox - device",
+    "style": {
+      "fill": "#ffC000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ad92cd0a9ebcc5c6",
+      "bc0f706d3f9ddd67",
+      "97594776b8a93958",
+      "29a790d13e997ea0",
+      "34225f529989ce82",
+      "c90531777172c544"
     ],
     "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
+    "y": 199,
+    "w": 902,
+    "h": 142
+  },
+  {
+    "id": "02f2098631b8f1bc",
+    "type": "group",
+    "z": "422511c2793ff288",
+    "g": "f5c47550f872f36e",
+    "name": "api - proxmox - source",
+    "style": {
+      "fill": "#0070c0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "a84ce3434527b080",
+      "46e8d049f1dfa844",
+      "be261ab969e7e113",
+      "caf42cf81dd9a31f",
+      "0dc4530042a27b71",
+      "c799c704d0078a61",
+      "0717e554d8e37888",
+      "31fb41f4b6681c69",
+      "90bb7f1a39ec64b7",
+      "2b29f074aad421e2",
+      "98525980d1eae3a3",
+      "a6e1c1277d441234",
+      "4da6b55dc971d6da"
+    ],
+    "x": 1534,
+    "y": 199,
+    "w": 1932,
+    "h": 142
   },
   {
     "id": "e66b05819afe5f9b",
@@ -159,7 +273,7 @@
       "94c79b8f52f0b6ba"
     ],
     "x": 135,
-    "y": 240,
+    "y": 980,
     "wires": [
       [
         "46e028f30bd1e4df"
@@ -186,7 +300,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 240,
+    "y": 980,
     "wires": [
       []
     ]
@@ -211,7 +325,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 360,
+    "y": 1100,
     "wires": [
       []
     ]
@@ -236,7 +350,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 420,
+    "y": 1160,
     "wires": [
       []
     ]
@@ -261,7 +375,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 480,
+    "y": 1220,
     "wires": [
       []
     ]
@@ -286,7 +400,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 540,
+    "y": 1280,
     "wires": [
       []
     ]
@@ -311,7 +425,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 600,
+    "y": 1340,
     "wires": [
       []
     ]
@@ -336,7 +450,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 660,
+    "y": 1400,
     "wires": [
       []
     ]
@@ -361,7 +475,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 720,
+    "y": 1460,
     "wires": [
       []
     ]
@@ -386,7 +500,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 780,
+    "y": 1520,
     "wires": [
       []
     ]
@@ -411,7 +525,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 300,
+    "y": 1040,
     "wires": [
       []
     ]
@@ -436,7 +550,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 840,
+    "y": 1580,
     "wires": [
       []
     ]
@@ -461,7 +575,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 900,
+    "y": 1640,
     "wires": [
       []
     ]
@@ -485,7 +599,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 540,
-    "y": 240,
+    "y": 980,
     "wires": [
       [
         "502e6e4ee5518983",
@@ -524,7 +638,7 @@
     "repair": false,
     "outputs": 1,
     "x": 350,
-    "y": 300,
+    "y": 1040,
     "wires": [
       [
         "46e028f30bd1e4df"
@@ -539,7 +653,7 @@
     "name": "do not work for now",
     "info": "",
     "x": 210,
-    "y": 360,
+    "y": 1100,
     "wires": []
   },
   {
@@ -564,7 +678,7 @@
     "topic": "topic",
     "topicType": "msg",
     "x": 190,
-    "y": 420,
+    "y": 1160,
     "wires": [
       [
         "10fd8311c39ec414"
@@ -592,7 +706,7 @@
     "to": "",
     "reg": false,
     "x": 350,
-    "y": 420,
+    "y": 1160,
     "wires": [
       [
         "46e028f30bd1e4df"
@@ -607,7 +721,7 @@
     "ui": "2d75e4809d2a6fbf",
     "name": "",
     "x": 190,
-    "y": 300,
+    "y": 1040,
     "wires": [
       [
         "c6ac70f99bf92330"
@@ -634,7 +748,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 960,
+    "y": 1700,
     "wires": [
       []
     ]
@@ -659,7 +773,7 @@
     "templateScope": "local",
     "className": "",
     "x": 960,
-    "y": 1020,
+    "y": 1760,
     "wires": [
       []
     ]
@@ -674,8 +788,8 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 450,
-    "y": 1340,
+    "x": 4250,
+    "y": 540,
     "wires": [
       [
         "10eef034696319a1",
@@ -693,8 +807,8 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 450,
-    "y": 1400,
+    "x": 4250,
+    "y": 600,
     "wires": [
       [
         "0c26626f4e3adf41",
@@ -714,8 +828,8 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 770,
-    "y": 1400,
+    "x": 4570,
+    "y": 600,
     "wires": [
       [
         "5395e3432fb6a03a"
@@ -742,8 +856,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 610,
-    "y": 1400,
+    "x": 4410,
+    "y": 600,
     "wires": [
       [
         "1c774f316a83189f"
@@ -770,8 +884,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 930,
-    "y": 1400,
+    "x": 4730,
+    "y": 600,
     "wires": [
       [
         "7c482f95d5acd377"
@@ -795,8 +909,8 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 1090,
-    "y": 1400,
+    "x": 4890,
+    "y": 600,
     "wires": [
       [
         "3be3338a465d07b4"
@@ -819,6 +933,20 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "enabled",
         "pt": "msg",
         "to": "true",
@@ -837,8 +965,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1260,
-    "y": 1400,
+    "x": 5060,
+    "y": 600,
     "wires": [
       [
         "be08cc3353798b38"
@@ -855,8 +983,8 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 2350,
-    "y": 1500,
+    "x": 6150,
+    "y": 700,
     "wires": [
       [
         "5a9bc4ec16bbbbdd",
@@ -878,7 +1006,14 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "'nodes/proxmox-ve-02/qemu/' & msg.payload & '/status/current'",
+        "to": "current_id",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/qemu/' & msg.payload & '/status/current'",
         "tot": "jsonata"
       },
       {
@@ -913,8 +1048,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1770,
-    "y": 1400,
+    "x": 5570,
+    "y": 600,
     "wires": [
       [
         "5def5c4c2f2f242a"
@@ -948,8 +1083,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2510,
-    "y": 1380,
+    "x": 6310,
+    "y": 580,
     "wires": [
       [
         "ee02a80588e4865e",
@@ -998,8 +1133,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2670,
-    "y": 1500,
+    "x": 6470,
+    "y": 700,
     "wires": [
       [
         "c749dbb3c75164bd"
@@ -1018,8 +1153,8 @@
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 2860,
-    "y": 1560,
+    "x": 6660,
+    "y": 760,
     "wires": [
       [
         "486eab6cd67669f4"
@@ -1053,8 +1188,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2680,
-    "y": 1560,
+    "x": 6480,
+    "y": 760,
     "wires": [
       [
         "043c1679f6189be4"
@@ -1088,8 +1223,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2670,
-    "y": 1440,
+    "x": 6470,
+    "y": 640,
     "wires": [
       [
         "7ac6d616ebb5757c"
@@ -1103,8 +1238,8 @@
     "g": "7df081d38de8d887",
     "name": "",
     "input": "",
-    "x": 2850,
-    "y": 1440,
+    "x": 6650,
+    "y": 640,
     "wires": [
       [
         "cd60eff79722f6a8"
@@ -1118,6 +1253,13 @@
     "g": "7df081d38de8d887",
     "name": "reset",
     "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -1138,13 +1280,6 @@
         "pt": "msg",
         "to": "true",
         "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
       }
     ],
     "action": "",
@@ -1152,8 +1287,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1770,
-    "y": 1280,
+    "x": 5410,
+    "y": 480,
     "wires": [
       [
         "dbc00f1ad95d7531",
@@ -1170,6 +1305,13 @@
     "g": "7df081d38de8d887",
     "name": "reset",
     "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -1197,8 +1339,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1770,
-    "y": 1220,
+    "x": 5410,
+    "y": 420,
     "wires": [
       [
         "7757f127c3b4cace",
@@ -1227,8 +1369,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2510,
-    "y": 1440,
+    "x": 6310,
+    "y": 640,
     "wires": [
       [
         "e5a2a2539df70a6a"
@@ -1253,8 +1395,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2510,
-    "y": 1560,
+    "x": 6310,
+    "y": 760,
     "wires": [
       [
         "eba5563db4b6c071"
@@ -1279,8 +1421,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2510,
-    "y": 1500,
+    "x": 6310,
+    "y": 700,
     "wires": [
       [
         "2c10659ba7fe0d2e"
@@ -1307,8 +1449,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 610,
-    "y": 1340,
+    "x": 4410,
+    "y": 540,
     "wires": [
       [
         "70e4f4553c942c61"
@@ -1327,8 +1469,9 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 770,
-    "y": 1340,
+    "property": "payload",
+    "x": 4570,
+    "y": 540,
     "wires": [
       [
         "400c9b7813cf6d51"
@@ -1355,8 +1498,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 930,
-    "y": 1340,
+    "x": 4730,
+    "y": 540,
     "wires": [
       [
         "f675d1dd4067f84b"
@@ -1380,8 +1523,8 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 1090,
-    "y": 1340,
+    "x": 4890,
+    "y": 540,
     "wires": [
       [
         "b1bb3606daf5a8eb"
@@ -1404,6 +1547,20 @@
       },
       {
         "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$append(msg.options,[{'label':'» recharger','value':''}])",
+        "tot": "str"
+      },
+      {
+        "t": "set",
         "p": "enabled",
         "pt": "msg",
         "to": "true",
@@ -1422,8 +1579,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1260,
-    "y": 1340,
+    "x": 5060,
+    "y": 540,
     "wires": [
       [
         "7302166d0d52c751"
@@ -1441,7 +1598,14 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "'nodes/proxmox-ve-02/lxc/' & msg.payload & '/status/current'",
+        "to": "current_id",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/lxc/' & msg.payload & '/status/current'",
         "tot": "jsonata"
       },
       {
@@ -1476,8 +1640,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1770,
-    "y": 1340,
+    "x": 5570,
+    "y": 540,
     "wires": [
       [
         "5def5c4c2f2f242a"
@@ -1503,8 +1667,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 2670,
-    "y": 1320,
+    "x": 6470,
+    "y": 520,
     "wires": [
       [
         "b7808f0d1452b125",
@@ -1533,7 +1697,7 @@
       {
         "t": "set",
         "p": "current_type",
-        "pt": "msg",
+        "pt": "flow",
         "to": "",
         "tot": "str"
       }
@@ -1543,10 +1707,12 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
-    "y": 1280,
+    "x": 4410,
+    "y": 480,
     "wires": [
-      []
+      [
+        "9938c42740cdd357"
+      ]
     ]
   },
   {
@@ -1559,8 +1725,8 @@
     "method": "POST",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 3180,
-    "y": 1140,
+    "x": 6980,
+    "y": 340,
     "wires": [
       []
     ]
@@ -1590,7 +1756,14 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "'nodes/proxmox-ve-02/' & msg.type & '/' & msg.vmid & '/status/' & msg.payload",
+        "to": "current_id",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/' & msg.type & '/' & msg.vmid & '/status/' & msg.payload",
         "tot": "jsonata"
       },
       {
@@ -1613,8 +1786,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3010,
-    "y": 1140,
+    "x": 6810,
+    "y": 340,
     "wires": [
       [
         "075ac2c97dc15b14"
@@ -1641,8 +1814,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2670,
-    "y": 1380,
+    "x": 6470,
+    "y": 580,
     "wires": [
       [
         "e1768552a28f6516"
@@ -1674,8 +1847,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2510,
-    "y": 1620,
+    "x": 6310,
+    "y": 820,
     "wires": [
       [
         "7757f127c3b4cace"
@@ -1700,8 +1873,8 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 2160,
-    "y": 1500,
+    "x": 5960,
+    "y": 700,
     "wires": [
       [
         "73fc98b86fa09bd4"
@@ -1722,6 +1895,8 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
         "label": "» recharger",
@@ -1733,11 +1908,13 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 1440,
-    "y": 1400,
+    "x": 5240,
+    "y": 600,
     "wires": [
       [
-        "d82d93f92871f901"
+        "d82d93f92871f901",
+        "17e5368c34dd3491",
+        "e4bf0709d1045f3a"
       ]
     ]
   },
@@ -1750,11 +1927,13 @@
     "name": "Liste LXC",
     "label": "Liste LXC",
     "tooltip": "",
-    "order": 2,
+    "order": 3,
     "width": "6",
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
         "label": "» recharger",
@@ -1766,11 +1945,13 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 1440,
-    "y": 1340,
+    "x": 5240,
+    "y": 540,
     "wires": [
       [
-        "6957810565336218"
+        "6957810565336218",
+        "17e5368c34dd3491",
+        "e4bf0709d1045f3a"
       ]
     ]
   },
@@ -1782,8 +1963,8 @@
     "group": "c758b19593f570d4",
     "name": "start",
     "label": "",
-    "order": 3,
-    "width": "1",
+    "order": 4,
+    "width": "2",
     "height": "1",
     "emulateClick": false,
     "tooltip": "",
@@ -1796,8 +1977,8 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 2830,
-    "y": 1140,
+    "x": 6630,
+    "y": 340,
     "wires": [
       [
         "9b1c118db9a99b9e",
@@ -1813,8 +1994,8 @@
     "group": "c758b19593f570d4",
     "name": "shutdown",
     "label": "",
-    "order": 5,
-    "width": "1",
+    "order": 6,
+    "width": "2",
     "height": "1",
     "emulateClick": false,
     "tooltip": "",
@@ -1827,8 +2008,8 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 2840,
-    "y": 1260,
+    "x": 6640,
+    "y": 460,
     "wires": [
       [
         "9b1c118db9a99b9e",
@@ -1844,8 +2025,8 @@
     "group": "c758b19593f570d4",
     "name": "stop",
     "label": "",
-    "order": 4,
-    "width": "1",
+    "order": 5,
+    "width": "2",
     "height": "1",
     "emulateClick": false,
     "tooltip": "",
@@ -1858,8 +2039,8 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 2830,
-    "y": 1200,
+    "x": 6630,
+    "y": 400,
     "wires": [
       [
         "9b1c118db9a99b9e",
@@ -1875,8 +2056,8 @@
     "group": "c758b19593f570d4",
     "name": "reboot",
     "label": "",
-    "order": 6,
-    "width": "1",
+    "order": 7,
+    "width": "2",
     "height": "1",
     "emulateClick": false,
     "tooltip": "",
@@ -1889,8 +2070,8 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 2830,
-    "y": 1320,
+    "x": 6630,
+    "y": 520,
     "wires": [
       [
         "9b1c118db9a99b9e",
@@ -1904,7 +2085,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 7,
+    "order": 8,
     "width": "3",
     "height": "1",
     "name": "uptime",
@@ -1916,8 +2097,8 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 3210,
-    "y": 1440,
+    "x": 7010,
+    "y": 640,
     "wires": []
   },
   {
@@ -1926,7 +2107,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 8,
+    "order": 9,
     "width": "3",
     "height": "1",
     "name": "state",
@@ -1938,8 +2119,8 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 3210,
-    "y": 1380,
+    "x": 7010,
+    "y": 580,
     "wires": []
   },
   {
@@ -1948,7 +2129,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 9,
+    "order": 10,
     "width": "3",
     "height": "1",
     "name": "cpu",
@@ -1960,8 +2141,8 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 3210,
-    "y": 1500,
+    "x": 7010,
+    "y": 700,
     "wires": []
   },
   {
@@ -1970,7 +2151,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 10,
+    "order": 11,
     "width": "3",
     "height": "1",
     "name": "memory",
@@ -1982,8 +2163,8 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 3220,
-    "y": 1560,
+    "x": 7020,
+    "y": 760,
     "wires": []
   },
   {
@@ -2006,8 +2187,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3040,
-    "y": 1440,
+    "x": 6840,
+    "y": 640,
     "wires": [
       [
         "dbc00f1ad95d7531"
@@ -2032,61 +2213,12 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 280,
-    "y": 1340,
+    "x": 3920,
+    "y": 540,
     "wires": [
       [
-        "a3768ce65939db54",
-        "23929da1a8dc3ab1"
-      ]
-    ]
-  },
-  {
-    "id": "284f816c5e8bbfec",
-    "type": "link in",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "proxmox - list - load",
-    "links": [
-      "94c79b8f52f0b6ba"
-    ],
-    "x": 135,
-    "y": 1220,
-    "wires": [
-      [
-        "eddef41fac28be72",
-        "17e5368c34dd3491",
-        "e4bf0709d1045f3a",
-        "939a9569896f434a"
-      ]
-    ]
-  },
-  {
-    "id": "ed43589ee9e39cd5",
-    "type": "change",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "class",
-    "rules": [
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1270,
-    "y": 1180,
-    "wires": [
-      [
-        "be08cc3353798b38",
-        "7302166d0d52c751"
+        "4098270104cd50f5",
+        "5538fb1a47d31421"
       ]
     ]
   },
@@ -2108,8 +2240,8 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 1950,
-    "y": 1500,
+    "x": 5750,
+    "y": 700,
     "wires": [
       [
         "7757f127c3b4cace"
@@ -2164,8 +2296,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3060,
-    "y": 1220,
+    "x": 6860,
+    "y": 420,
     "wires": [
       [
         "522b6c161afcb47e"
@@ -2182,8 +2314,8 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 3235,
-    "y": 1220,
+    "x": 7035,
+    "y": 420,
     "wires": []
   },
   {
@@ -2203,7 +2335,7 @@
       }
     ],
     "x": 740,
-    "y": 240,
+    "y": 980,
     "wires": [
       [
         "cf36484da72c0614"
@@ -2227,7 +2359,7 @@
       }
     ],
     "x": 730,
-    "y": 300,
+    "y": 1040,
     "wires": [
       [
         "42e6573c9c69f200"
@@ -2251,7 +2383,7 @@
       }
     ],
     "x": 720,
-    "y": 360,
+    "y": 1100,
     "wires": [
       [
         "3e575131b157d58c"
@@ -2275,7 +2407,7 @@
       }
     ],
     "x": 740,
-    "y": 420,
+    "y": 1160,
     "wires": [
       [
         "591d9584f2826895"
@@ -2299,7 +2431,7 @@
       }
     ],
     "x": 720,
-    "y": 480,
+    "y": 1220,
     "wires": [
       [
         "ae506fba4bac5e81"
@@ -2323,7 +2455,7 @@
       }
     ],
     "x": 720,
-    "y": 540,
+    "y": 1280,
     "wires": [
       [
         "9112bb2a8dc47460"
@@ -2347,7 +2479,7 @@
       }
     ],
     "x": 710,
-    "y": 600,
+    "y": 1340,
     "wires": [
       [
         "b5afd4eb06f899a1"
@@ -2371,7 +2503,7 @@
       }
     ],
     "x": 740,
-    "y": 660,
+    "y": 1400,
     "wires": [
       [
         "adb22cd4e76fd9eb"
@@ -2395,7 +2527,7 @@
       }
     ],
     "x": 720,
-    "y": 720,
+    "y": 1460,
     "wires": [
       [
         "76323f6b74b3cf6e"
@@ -2419,7 +2551,7 @@
       }
     ],
     "x": 720,
-    "y": 780,
+    "y": 1520,
     "wires": [
       [
         "a0264b96576e8fc6"
@@ -2443,7 +2575,7 @@
       }
     ],
     "x": 710,
-    "y": 840,
+    "y": 1580,
     "wires": [
       [
         "dbec9d8eafc144f8"
@@ -2467,7 +2599,7 @@
       }
     ],
     "x": 720,
-    "y": 900,
+    "y": 1640,
     "wires": [
       [
         "308b8672ef449d0c"
@@ -2491,7 +2623,7 @@
       }
     ],
     "x": 710,
-    "y": 960,
+    "y": 1700,
     "wires": [
       [
         "3d380600a548966c"
@@ -2515,7 +2647,7 @@
       }
     ],
     "x": 750,
-    "y": 1020,
+    "y": 1760,
     "wires": [
       [
         "140844d72684e5fd"
@@ -2601,15 +2733,13 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1610,
-    "y": 1340,
+    "x": 5410,
+    "y": 540,
     "wires": [
       [
-        "a3768ce65939db54"
+        "4098270104cd50f5"
       ],
       [
-        "17e5368c34dd3491",
-        "e4bf0709d1045f3a",
         "87c78a11cf031035"
       ]
     ]
@@ -2635,16 +2765,1110 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1610,
-    "y": 1400,
+    "x": 5410,
+    "y": 600,
+    "wires": [
+      [
+        "5538fb1a47d31421"
+      ],
+      [
+        "e463ecf298cb67dd"
+      ]
+    ]
+  },
+  {
+    "id": "df15e932155f2ba9",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "room - ui - photovoltaic - load",
+    "links": [
+      "9e4bfee0db3051d4"
+    ],
+    "x": 3595,
+    "y": 240,
+    "wires": [
+      [
+        "9646351e993f370b",
+        "0845db45a9ff77b2"
+      ]
+    ]
+  },
+  {
+    "id": "c30333f4e590339e",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "room - ui - photovoltaic - metric",
+    "links": [
+      "b6323e1460f6f50c"
+    ],
+    "x": 3595,
+    "y": 300,
+    "wires": [
+      [
+        "ce7f4614862751ea"
+      ]
+    ]
+  },
+  {
+    "id": "ce7f4614862751ea",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "virtual environment",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 3760,
+    "y": 300,
+    "wires": [
+      [
+        "80954cb6ad16cefc"
+      ]
+    ]
+  },
+  {
+    "id": "9646351e993f370b",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Pièces:Proxmox VE\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5070,
+    "y": 240,
+    "wires": [
+      [
+        "f182def43c9b706e",
+        "add6ed83ed30f23d"
+      ]
+    ]
+  },
+  {
+    "id": "add6ed83ed30f23d",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun relevé photovoltaic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5240,
+    "y": 240,
+    "wires": [
+      [
+        "b83c5421732aa53c"
+      ]
+    ]
+  },
+  {
+    "id": "b83c5421732aa53c",
+    "type": "ui-text",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "group": "c758b19593f570d4",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "none",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 5410,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "6e81c498073124d6",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Pièces:Proxmox VE\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5070,
+    "y": 300,
+    "wires": [
+      [
+        "f182def43c9b706e",
+        "add6ed83ed30f23d"
+      ]
+    ]
+  },
+  {
+    "id": "f182def43c9b706e",
+    "type": "ui-control",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 5240,
+    "y": 300,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "f7de59496ae60d1b",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "reset",
+    "rules": [],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5070,
+    "y": 360,
+    "wires": [
+      [
+        "17e5368c34dd3491",
+        "e4bf0709d1045f3a"
+      ]
+    ]
+  },
+  {
+    "id": "0845db45a9ff77b2",
+    "type": "delay",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "150",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 3730,
+    "y": 360,
+    "wires": [
+      [
+        "f7de59496ae60d1b"
+      ]
+    ]
+  },
+  {
+    "id": "b3ca9cbe02a17956",
+    "type": "delay",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 3740,
+    "y": 480,
+    "wires": [
+      [
+        "eddef41fac28be72",
+        "939a9569896f434a"
+      ]
+    ]
+  },
+  {
+    "id": "b2838ba438b43d0b",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "738a9b631ec7f956",
+    "name": "api - proxmox - model",
+    "links": [
+      "9cb906bf8066d37e"
+    ],
+    "x": 135,
+    "y": 240,
+    "wires": [
+      [
+        "0bde03fbf7b38bcb"
+      ]
+    ]
+  },
+  {
+    "id": "0bde03fbf7b38bcb",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "738a9b631ec7f956",
+    "name": "model",
+    "rules": [
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "proxmox",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "model",
+        "pt": "msg",
+        "to": "proxmox ve",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "api",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'proxmox ve'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 240,
+    "wires": [
+      [
+        "89a3bed0e116f6f1"
+      ]
+    ]
+  },
+  {
+    "id": "89a3bed0e116f6f1",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "738a9b631ec7f956",
+    "name": "api - proxmox - model",
+    "mode": "link",
+    "links": [
+      "94aa726ce8973d2c"
+    ],
+    "x": 395,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "ad92cd0a9ebcc5c6",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "d36d7c4d00993eda",
+    "name": "api - proxmox  - device",
+    "links": [
+      "546f190f3ec0c90d"
+    ],
+    "x": 575,
+    "y": 240,
+    "wires": [
+      [
+        "bc0f706d3f9ddd67"
+      ]
+    ]
+  },
+  {
+    "id": "bc0f706d3f9ddd67",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "d36d7c4d00993eda",
+    "name": "model",
+    "property": "model",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "proxmox ve",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 710,
+    "y": 240,
+    "wires": [
+      [
+        "97594776b8a93958",
+        "c90531777172c544"
+      ]
+    ]
+  },
+  {
+    "id": "97594776b8a93958",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "d": true,
+    "g": "d36d7c4d00993eda",
+    "name": "brand",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "url",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "brand",
+        "pt": "msg",
+        "to": "proxmox",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 870,
+    "y": 240,
+    "wires": [
+      [
+        "29a790d13e997ea0"
+      ]
+    ]
+  },
+  {
+    "id": "29a790d13e997ea0",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "d36d7c4d00993eda",
+    "name": "protocol",
+    "rules": [
+      {
+        "t": "set",
+        "p": "protocol",
+        "pt": "msg",
+        "to": "nodered",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1260,
+    "y": 240,
+    "wires": [
+      [
+        "34225f529989ce82"
+      ]
+    ]
+  },
+  {
+    "id": "34225f529989ce82",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "d36d7c4d00993eda",
+    "name": "api - proxmox - device",
+    "mode": "link",
+    "links": [
+      "3e1b4213132404be"
+    ],
+    "x": 1395,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "c90531777172c544",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "d36d7c4d00993eda",
+    "name": "virtual environment / proxmox ve* / text / *",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "msg.field?msg.field:'proxmox ve'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "msg.default?msg.default:''",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 980,
+    "y": 300,
+    "wires": [
+      [
+        "29a790d13e997ea0"
+      ]
+    ]
+  },
+  {
+    "id": "9938c42740cdd357",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "class",
+    "rules": [
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "[{'label':'» recharger','value':''}]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5070,
+    "y": 480,
+    "wires": [
+      [
+        "7302166d0d52c751",
+        "be08cc3353798b38"
+      ]
+    ]
+  },
+  {
+    "id": "a84ce3434527b080",
+    "type": "proxmox-api",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "version",
+    "path": "plop",
+    "method": "GET",
+    "payload": "",
+    "server": "b2b86208a514c8a7",
+    "x": 2940,
+    "y": 300,
+    "wires": [
+      [
+        "caf42cf81dd9a31f"
+      ]
+    ]
+  },
+  {
+    "id": "46e8d049f1dfa844",
+    "type": "inject",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "manual update",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "str",
+    "x": 1660,
+    "y": 240,
+    "wires": [
+      [
+        "c799c704d0078a61"
+      ]
+    ]
+  },
+  {
+    "id": "be261ab969e7e113",
+    "type": "debug",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "api - proxmox - source",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3320,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "caf42cf81dd9a31f",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "measurement",
+        "pt": "msg",
+        "to": "virtual environment",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload.version",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
+      },
+      {
+        "t": "delete",
+        "p": "path",
+        "pt": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3110,
+    "y": 300,
+    "wires": [
+      [
+        "be261ab969e7e113",
+        "4da6b55dc971d6da"
+      ]
+    ]
+  },
+  {
+    "id": "4098270104cd50f5",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "current_id",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/lxc'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4090,
+    "y": 540,
+    "wires": [
+      [
+        "a3768ce65939db54"
+      ]
+    ]
+  },
+  {
+    "id": "5538fb1a47d31421",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "current_id",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/qemu'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4090,
+    "y": 600,
     "wires": [
       [
         "23929da1a8dc3ab1"
-      ],
+      ]
+    ]
+  },
+  {
+    "id": "0dc4530042a27b71",
+    "type": "link in",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "api - proxmox - source",
+    "links": [
+      "074a67bf0fcf09ad"
+    ],
+    "x": 1575,
+    "y": 300,
+    "wires": [
       [
-        "17e5368c34dd3491",
-        "e4bf0709d1045f3a",
-        "e463ecf298cb67dd"
+        "c799c704d0078a61"
+      ]
+    ]
+  },
+  {
+    "id": "c799c704d0078a61",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1870,
+    "y": 300,
+    "wires": [
+      [
+        "0717e554d8e37888"
+      ]
+    ]
+  },
+  {
+    "id": "0717e554d8e37888",
+    "type": "split",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "buckets",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "property": "payload",
+    "x": 2060,
+    "y": 300,
+    "wires": [
+      [
+        "2b29f074aad421e2"
+      ]
+    ]
+  },
+  {
+    "id": "31fb41f4b6681c69",
+    "type": "comment",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "scan buckets to find proxmox and to query it to update values",
+    "info": "",
+    "x": 2020,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "90bb7f1a39ec64b7",
+    "type": "split",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "fields",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "property": "payload",
+    "x": 2450,
+    "y": 300,
+    "wires": [
+      [
+        "98525980d1eae3a3"
+      ]
+    ]
+  },
+  {
+    "id": "2b29f074aad421e2",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "measurement",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "payload['virtual environment']",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2260,
+    "y": 300,
+    "wires": [
+      [
+        "90bb7f1a39ec64b7"
+      ]
+    ]
+  },
+  {
+    "id": "98525980d1eae3a3",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "model",
+    "property": "devices[msg.bucket]['virtual environment'][msg.field]model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "proxmox ve",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 2610,
+    "y": 300,
+    "wires": [
+      [
+        "a6e1c1277d441234"
+      ]
+    ]
+  },
+  {
+    "id": "a6e1c1277d441234",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "path",
+    "rules": [
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "devices[msg.bucket]['virtual environment'][msg.field]id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "path",
+        "pt": "msg",
+        "to": "'nodes/'&msg.path&'/version'",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2770,
+    "y": 300,
+    "wires": [
+      [
+        "a84ce3434527b080"
+      ]
+    ]
+  },
+  {
+    "id": "4da6b55dc971d6da",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "02f2098631b8f1bc",
+    "name": "api - proxmox - source",
+    "mode": "link",
+    "links": [
+      "206c1fb4a48067df"
+    ],
+    "x": 3235,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "80954cb6ad16cefc",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "measurements",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "devices[msg.bucket][msg.measurement]",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3980,
+    "y": 300,
+    "wires": [
+      [
+        "b4d39d580663092e"
+      ]
+    ]
+  },
+  {
+    "id": "b4d39d580663092e",
+    "type": "split",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "fields",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "property": "payload",
+    "x": 4170,
+    "y": 300,
+    "wires": [
+      [
+        "cc8a05125b23ef33"
+      ]
+    ]
+  },
+  {
+    "id": "cc8a05125b23ef33",
+    "type": "switch",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "model",
+    "property": "devices[msg.bucket]['virtual environment'][msg.field]model",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "proxmox ve",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 4330,
+    "y": 300,
+    "wires": [
+      [
+        "0cd42c49ccab909c"
+      ]
+    ]
+  },
+  {
+    "id": "0cd42c49ccab909c",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "node id",
+    "rules": [
+      {
+        "t": "set",
+        "p": "node_id",
+        "pt": "msg",
+        "to": "devices[msg.bucket][msg.measurement][msg.field]id",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "current_id",
+        "pt": "flow",
+        "to": "node_id",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4500,
+    "y": 300,
+    "wires": [
+      [
+        "b3ca9cbe02a17956",
+        "6e81c498073124d6"
       ]
     ]
   }

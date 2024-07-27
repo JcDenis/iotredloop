@@ -362,6 +362,48 @@
     "h": 142
   },
   {
+    "id": "cf7114b43871c414",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "room - ui - agenda",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7c1941c9ed1317fd",
+      "69c1098076e822f6",
+      "edf6d818fc24d922",
+      "c7fb4cc0446dbf74",
+      "daf44778ff19113d",
+      "1a58eab278d161f3",
+      "95b83d4f7b2e36d6",
+      "6888bb4727921ff4",
+      "aa0d0e7c55d0ca77",
+      "0cdf527eea858d38",
+      "fa60e7b17b73d75a",
+      "38113221fd7ac74f",
+      "e62675c777ab078d",
+      "816e8f38b155770a",
+      "5e69f8525379ec0c",
+      "20fe207df07074ca",
+      "e0a3e77a2e5cc677",
+      "96f6b4a768453df2",
+      "686debd2a5597828",
+      "e9015b7aad0145df",
+      "b7fbf4650b5dac3a",
+      "e53a56f681d4ca9e",
+      "b4c42dd5263f05c2",
+      "0467047fa991d42e",
+      "7dc1c5c9ba185887"
+    ],
+    "x": 94,
+    "y": 3619,
+    "w": 1507,
+    "h": 562
+  },
+  {
     "id": "8d4b985ec87645f6",
     "type": "comment",
     "z": "b66c229035856438",
@@ -3959,6 +4001,641 @@
     ],
     "x": 915,
     "y": 60,
+    "wires": []
+  },
+  {
+    "id": "7c1941c9ed1317fd",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire aujourd'hui",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 3900,
+    "wires": [
+      [
+        "69c1098076e822f6"
+      ]
+    ]
+  },
+  {
+    "id": "69c1098076e822f6",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "group": "cde58fe11ffae273",
+    "order": 2,
+    "width": "6",
+    "height": "1",
+    "name": "today birthday",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1340,
+    "y": 3840,
+    "wires": []
+  },
+  {
+    "id": "edf6d818fc24d922",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "group": "cde58fe11ffae273",
+    "order": 3,
+    "width": "6",
+    "height": "1",
+    "name": "tomorrow birthday",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1350,
+    "y": 3960,
+    "wires": []
+  },
+  {
+    "id": "c7fb4cc0446dbf74",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun anniversaire demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 4020,
+    "wires": [
+      [
+        "edf6d818fc24d922"
+      ]
+    ]
+  },
+  {
+    "id": "daf44778ff19113d",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 960,
+    "y": 3840,
+    "wires": [
+      [
+        "69c1098076e822f6"
+      ],
+      [
+        "7c1941c9ed1317fd"
+      ]
+    ]
+  },
+  {
+    "id": "1a58eab278d161f3",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 960,
+    "y": 3960,
+    "wires": [
+      [
+        "edf6d818fc24d922"
+      ],
+      [
+        "c7fb4cc0446dbf74"
+      ]
+    ]
+  },
+  {
+    "id": "95b83d4f7b2e36d6",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "100 ms",
+    "pauseType": "delay",
+    "timeout": "100",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 440,
+    "y": 3840,
+    "wires": [
+      [
+        "6888bb4727921ff4",
+        "aa0d0e7c55d0ca77",
+        "0467047fa991d42e"
+      ]
+    ]
+  },
+  {
+    "id": "6888bb4727921ff4",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.birthday.today",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 3840,
+    "wires": [
+      [
+        "daf44778ff19113d"
+      ]
+    ]
+  },
+  {
+    "id": "aa0d0e7c55d0ca77",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.birthday.tomorrow",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 3960,
+    "wires": [
+      [
+        "1a58eab278d161f3"
+      ]
+    ]
+  },
+  {
+    "id": "0cdf527eea858d38",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "room - ui - agenda - load",
+    "links": [
+      "9e4bfee0db3051d4"
+    ],
+    "x": 135,
+    "y": 3660,
+    "wires": [
+      [
+        "e62675c777ab078d",
+        "e9015b7aad0145df"
+      ]
+    ]
+  },
+  {
+    "id": "fa60e7b17b73d75a",
+    "type": "link in",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "room - ui - agenda - metric",
+    "links": [
+      "b6323e1460f6f50c"
+    ],
+    "x": 135,
+    "y": 3720,
+    "wires": [
+      [
+        "38113221fd7ac74f"
+      ]
+    ]
+  },
+  {
+    "id": "38113221fd7ac74f",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "room",
+    "property": "room",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "home",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3720,
+    "wires": [
+      [
+        "95b83d4f7b2e36d6",
+        "e0a3e77a2e5cc677"
+      ]
+    ]
+  },
+  {
+    "id": "e62675c777ab078d",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "reset",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"hide\":[\"Pièces:Agenda\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1150,
+    "y": 3660,
+    "wires": [
+      [
+        "20fe207df07074ca",
+        "816e8f38b155770a"
+      ]
+    ]
+  },
+  {
+    "id": "816e8f38b155770a",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucun relevé photovoltaic",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1320,
+    "y": 3660,
+    "wires": [
+      [
+        "5e69f8525379ec0c"
+      ]
+    ]
+  },
+  {
+    "id": "5e69f8525379ec0c",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "group": "cde58fe11ffae273",
+    "order": 1,
+    "width": "6",
+    "height": "1",
+    "name": "none",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-center",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1490,
+    "y": 3660,
+    "wires": []
+  },
+  {
+    "id": "20fe207df07074ca",
+    "type": "ui-control",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "",
+    "ui": "2d75e4809d2a6fbf",
+    "events": "all",
+    "x": 1320,
+    "y": 3720,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e0a3e77a2e5cc677",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "set",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "{\t   \"groups\":{\t       \"show\":[\"Pièces:Agenda\"]\t   }\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "class",
+        "pt": "msg",
+        "to": "remove",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1150,
+    "y": 3720,
+    "wires": [
+      [
+        "20fe207df07074ca",
+        "816e8f38b155770a"
+      ]
+    ]
+  },
+  {
+    "id": "96f6b4a768453df2",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "reset",
+    "rules": [],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 970,
+    "y": 3780,
+    "wires": [
+      [
+        "7c1941c9ed1317fd",
+        "c7fb4cc0446dbf74",
+        "e53a56f681d4ca9e"
+      ]
+    ]
+  },
+  {
+    "id": "686debd2a5597828",
+    "type": "delay",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "50 ms",
+    "pauseType": "delay",
+    "timeout": "150",
+    "timeoutUnits": "milliseconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 430,
+    "y": 3780,
+    "wires": [
+      [
+        "96f6b4a768453df2"
+      ]
+    ]
+  },
+  {
+    "id": "e9015b7aad0145df",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "room",
+    "property": "room",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "home",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 270,
+    "y": 3780,
+    "wires": [
+      [
+        "686debd2a5597828"
+      ]
+    ]
+  },
+  {
+    "id": "b7fbf4650b5dac3a",
+    "type": "ui-text",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "group": "cde58fe11ffae273",
+    "order": 4,
+    "width": "6",
+    "height": "1",
+    "name": "tomorrow trash",
+    "label": "",
+    "format": "{{msg.payload}}",
+    "layout": "row-left",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#717171",
+    "className": "",
+    "x": 1340,
+    "y": 4080,
+    "wires": []
+  },
+  {
+    "id": "e53a56f681d4ca9e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "Aucune poubelle demain",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1140,
+    "y": 4140,
+    "wires": [
+      [
+        "b7fbf4650b5dac3a"
+      ]
+    ]
+  },
+  {
+    "id": "b4c42dd5263f05c2",
+    "type": "switch",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "payload",
+    "property": "payload",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nempty"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 960,
+    "y": 4080,
+    "wires": [
+      [
+        "b7fbf4650b5dac3a"
+      ],
+      [
+        "e53a56f681d4ca9e"
+      ]
+    ]
+  },
+  {
+    "id": "0467047fa991d42e",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics.agenda.trash.tomorrow",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 4080,
+    "wires": [
+      [
+        "b4c42dd5263f05c2"
+      ]
+    ]
+  },
+  {
+    "id": "7dc1c5c9ba185887",
+    "type": "comment",
+    "z": "b66c229035856438",
+    "g": "cf7114b43871c414",
+    "name": "on room \"home\" only",
+    "info": "",
+    "x": 210,
+    "y": 3900,
     "wires": []
   }
 ]
