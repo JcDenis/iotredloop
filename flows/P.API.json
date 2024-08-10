@@ -2466,7 +2466,7 @@
     "z": "f125f568d4e332ee",
     "g": "e7dd5536e7ec485b",
     "name": "api - BRP069B45 - metric",
-    "active": true,
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,

@@ -2748,7 +2748,7 @@
     "type": "change",
     "z": "ab51b1e8cad7b700",
     "g": "a8dc4fab59fdefb4",
-    "name": "system / kernel / version / text / 0.0.1",
+    "name": "system / kernel / version / text / 0.2.0",
     "rules": [
       {
         "t": "set",
@@ -2775,7 +2775,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "0.0.2",
+        "to": "0.2.0",
         "tot": "str"
       },
       {
