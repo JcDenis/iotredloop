@@ -1,5 +1,5 @@
 ## ABOUT
-iotredloop v0.1.0
+iotredloop v0.2.0
 > Simple nodered home automation kernel
 
 This is a personnal project of home automation, it is highly limited to my needs.
@@ -16,7 +16,7 @@ Flows are written under Node-red v4.0.2 with following nodes packages :
 * [node-red-contrib-queue-gate](https://flows.nodered.org/node/node-red-contrib-queue-gate) 1.5.5
 * [node-red-contrib-simple-gate](https://flows.nodered.org/node/node-red-contrib-simple-gate) 0.5.2
 * [node-red-contrib-stackhero-influxdb-v2](https://flows.nodered.org/node/node-red-contrib-stackhero-influxdb-v2) 1.0.4
-* [@flowfuse/node-red-dashboard](https://flows.nodered.org/node/@flowfuse/node-red-dashboard) 1.13.0 (nodered dashboard 2)
+* [@flowfuse/node-red-dashboard](https://flows.nodered.org/node/@flowfuse/node-red-dashboard) 1.14.0 (nodered dashboard 2)
 * [node-red-contrib-cpu](https://flows.nodered.org/node/node-red-contrib-cpu) 0.0.4
 * [node-red-contrib-moment](https://flows.nodered.org/node/node-red-contrib-moment) 5.0.0
 * [node-red-contrib-bigtimer](https://flows.nodered.org/node/node-red-contrib-bigtimer) 2.8.6

@@ -8,27 +8,6 @@
     "env": []
   },
   {
-    "id": "0aff5d7f470c281b",
-    "type": "group",
-    "z": "52347795767acd3f",
-    "name": "telegram - bucket",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "1423657927f0381b",
-      "88c0a82bdddf789a",
-      "dd23d0e2ece16df7"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 342,
-    "h": 82
-  },
-  {
     "id": "ab32af53a59cbfa9",
     "type": "group",
     "z": "52347795767acd3f",
@@ -69,7 +48,7 @@
     ],
     "x": 68,
     "y": 233,
-    "w": 5754,
+    "w": 6094,
     "h": 494
   },
   {
@@ -252,11 +231,12 @@
       "52e58ab14c13701d",
       "ba7a5c79cd8542ce",
       "cf344cfc63c703eb",
-      "7102b05e3a7f621d"
+      "7102b05e3a7f621d",
+      "8f85e38762803340"
     ],
     "x": 1514,
     "y": 259,
-    "w": 2512,
+    "w": 2692,
     "h": 149.5
   },
   {
@@ -317,7 +297,7 @@
       "4edb12baad4c5bd0",
       "58e1c9e33b0a90f3"
     ],
-    "x": 4114,
+    "x": 4454,
     "y": 259,
     "w": 1682,
     "h": 442
@@ -329,72 +309,6 @@
     "name": "Nestor - Telegram",
     "info": "chatid = 777414971",
     "x": 1150,
-    "y": 60,
-    "wires": []
-  },
-  {
-    "id": "1423657927f0381b",
-    "type": "change",
-    "z": "52347795767acd3f",
-    "g": "0aff5d7f470c281b",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "telegram",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 60,
-    "wires": [
-      [
-        "dd23d0e2ece16df7"
-      ]
-    ]
-  },
-  {
-    "id": "88c0a82bdddf789a",
-    "type": "link in",
-    "z": "52347795767acd3f",
-    "g": "0aff5d7f470c281b",
-    "name": "telegram - bucket",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 60,
-    "wires": [
-      [
-        "1423657927f0381b"
-      ]
-    ]
-  },
-  {
-    "id": "dd23d0e2ece16df7",
-    "type": "link out",
-    "z": "52347795767acd3f",
-    "g": "0aff5d7f470c281b",
-    "name": "telegram - bucket",
-    "mode": "link",
-    "links": [
-      "8fd6b4ae0318fb3e"
-    ],
-    "x": 395,
     "y": 60,
     "wires": []
   },
@@ -2863,14 +2777,13 @@
     "name": "telegram - chatbot - metric",
     "links": [
       "031a6afd8300356a",
-      "86cfacef3152a233",
-      "f63523d696b72def"
+      "094771ea30e6c0b6"
     ],
     "x": 1555,
     "y": 360,
     "wires": [
       [
-        "b203a4b79c347218"
+        "8f85e38762803340"
       ]
     ]
   },
@@ -2897,7 +2810,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1720,
+    "x": 1900,
     "y": 360,
     "wires": [
       [
@@ -2936,7 +2849,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1910,
+    "x": 2090,
     "y": 360,
     "wires": [
       [
@@ -3003,7 +2916,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3460,
+    "x": 3640,
     "y": 360,
     "wires": [
       [
@@ -3029,7 +2942,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2810,
+    "x": 2990,
     "y": 360,
     "wires": [
       [
@@ -3055,7 +2968,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3020,
+    "x": 3200,
     "y": 360,
     "wires": [
       [
@@ -3081,7 +2994,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3250,
+    "x": 3430,
     "y": 360,
     "wires": [
       [
@@ -3105,7 +3018,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3640,
+    "x": 3820,
     "y": 360,
     "wires": [
       [
@@ -3163,7 +3076,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 3870,
+    "x": 4050,
     "y": 300,
     "wires": []
   },
@@ -3210,7 +3123,7 @@
     "links": [
       "3433733d6b9a8736"
     ],
-    "x": 3775,
+    "x": 3955,
     "y": 360,
     "wires": []
   },
@@ -3511,7 +3424,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2270,
+    "x": 2450,
     "y": 360,
     "wires": [
       [
@@ -3532,7 +3445,7 @@
     "stream": false,
     "addname": "bucket",
     "property": "payload",
-    "x": 2460,
+    "x": 2640,
     "y": 360,
     "wires": [
       [
@@ -3556,7 +3469,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2630,
+    "x": 2810,
     "y": 360,
     "wires": [
       [
@@ -3572,7 +3485,7 @@
     "name": "",
     "action": "",
     "property": "payload",
-    "x": 2080,
+    "x": 2260,
     "y": 300,
     "wires": [
       [
@@ -3600,7 +3513,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2070,
+    "x": 2250,
     "y": 360,
     "wires": [
       [
@@ -3626,7 +3539,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4690,
+    "x": 5030,
     "y": 540,
     "wires": [
       [
@@ -3655,7 +3568,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5540,
+    "x": 5880,
     "y": 540,
     "wires": [
       [
@@ -3672,7 +3585,7 @@
     "links": [
       "b6323e1460f6f50c"
     ],
-    "x": 4155,
+    "x": 4495,
     "y": 360,
     "wires": [
       [
@@ -3689,7 +3602,7 @@
     "links": [
       "9e4bfee0db3051d4"
     ],
-    "x": 4155,
+    "x": 4495,
     "y": 300,
     "wires": [
       [
@@ -3708,7 +3621,7 @@
     "links": [
       "2690f4e06626ebda"
     ],
-    "x": 5675,
+    "x": 6015,
     "y": 540,
     "wires": []
   },
@@ -3730,7 +3643,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4320,
+    "x": 4660,
     "y": 360,
     "wires": [
       [
@@ -3751,7 +3664,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5190,
     "y": 420,
     "wires": [
       [
@@ -3788,7 +3701,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5190,
     "y": 360,
     "wires": [
       [
@@ -3831,7 +3744,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5190,
     "y": 300,
     "wires": [
       [
@@ -3860,7 +3773,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5020,
+    "x": 5360,
     "y": 300,
     "wires": [
       [
@@ -3886,7 +3799,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 5190,
+    "x": 5530,
     "y": 300,
     "wires": []
   },
@@ -3898,7 +3811,7 @@
     "name": "",
     "ui": "2d75e4809d2a6fbf",
     "events": "all",
-    "x": 5020,
+    "x": 5360,
     "y": 360,
     "wires": [
       []
@@ -3928,7 +3841,7 @@
     "offvalueType": "bool",
     "officon": "cog-off-outline",
     "offcolor": "grey",
-    "x": 5190,
+    "x": 5530,
     "y": 540,
     "wires": [
       [
@@ -3954,7 +3867,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 4520,
+    "x": 4860,
     "y": 540,
     "wires": [
       [
@@ -3983,7 +3896,7 @@
     "sendOnBlur": true,
     "sendOnEnter": true,
     "className": "",
-    "x": 5020,
+    "x": 5360,
     "y": 600,
     "wires": [
       [
@@ -4013,7 +3926,7 @@
     "payloadType": "str",
     "topic": "message",
     "topicType": "str",
-    "x": 5010,
+    "x": 5350,
     "y": 660,
     "wires": [
       [
@@ -4030,7 +3943,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "telegram.content",
+        "p": "#:(onMemory)::telegram.content",
         "pt": "flow",
         "to": "payload",
         "tot": "msg"
@@ -4041,7 +3954,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5190,
+    "x": 5530,
     "y": 600,
     "wires": [
       []
@@ -4067,7 +3980,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4690,
+    "x": 5030,
     "y": 600,
     "wires": [
       [
@@ -4086,7 +3999,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "telegram.content",
+        "to": "#:(onMemory)::telegram.content",
         "tot": "flow"
       }
     ],
@@ -4095,7 +4008,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5700,
     "y": 660,
     "wires": [
       [
@@ -4153,7 +4066,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5580,
+    "x": 5920,
     "y": 660,
     "wires": [
       [
@@ -4171,7 +4084,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 5755,
+    "x": 6095,
     "y": 660,
     "wires": []
   },
@@ -4181,7 +4094,7 @@
     "z": "52347795767acd3f",
     "g": "35fa81df547b4491",
     "name": "flow",
-    "property": "telegram.content",
+    "property": "#:(onMemory)::telegram.content",
     "propertyType": "flow",
     "rules": [
       {
@@ -4191,7 +4104,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5190,
+    "x": 5530,
     "y": 660,
     "wires": [
       [
@@ -4217,7 +4130,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 5020,
+    "x": 5360,
     "y": 540,
     "wires": []
   },
@@ -4241,7 +4154,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4850,
+    "x": 5190,
     "y": 540,
     "wires": [
       [
@@ -4267,11 +4180,34 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 4290,
+    "x": 4630,
     "y": 420,
     "wires": [
       [
         "2936573edcac41e4"
+      ]
+    ]
+  },
+  {
+    "id": "8f85e38762803340",
+    "type": "gate",
+    "z": "52347795767acd3f",
+    "g": "bdd2440c99f0d065",
+    "name": "gate loop",
+    "controlTopic": "gate loop",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 1700,
+    "y": 360,
+    "wires": [
+      [
+        "b203a4b79c347218"
       ]
     ]
   }

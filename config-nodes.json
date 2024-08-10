@@ -600,7 +600,7 @@
     "onKeywordInLanguage": "",
     "userAgent": "",
     "usePushConnection": "on",
-    "autoInit": "on"
+    "autoInit": "off"
   },
   {
     "id": "535a857c71583573",
@@ -719,7 +719,7 @@
   {
     "id": "b156e6eff1bfadd1",
     "type": "vsh-connection",
-    "name": "alexa",
+    "name": "alexa -",
     "port": "8883",
     "accessTokenExpiry": "1714319347116",
     "debug": false,

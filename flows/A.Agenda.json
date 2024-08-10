@@ -11,7 +11,7 @@
     "id": "e59bed66f12534a0",
     "type": "group",
     "z": "b66c229035856438",
-    "name": "agenda - bucket",
+    "name": "agenda - room",
     "style": {
       "fill": "#ffC000",
       "fill-opacity": "0.05",
@@ -92,6 +92,48 @@
     "h": 82
   },
   {
+    "id": "cf7114b43871c414",
+    "type": "group",
+    "z": "b66c229035856438",
+    "name": "room - ui - agenda",
+    "style": {
+      "fill": "#6f2fa0",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "7c1941c9ed1317fd",
+      "69c1098076e822f6",
+      "edf6d818fc24d922",
+      "c7fb4cc0446dbf74",
+      "daf44778ff19113d",
+      "1a58eab278d161f3",
+      "95b83d4f7b2e36d6",
+      "6888bb4727921ff4",
+      "aa0d0e7c55d0ca77",
+      "0cdf527eea858d38",
+      "fa60e7b17b73d75a",
+      "38113221fd7ac74f",
+      "e62675c777ab078d",
+      "816e8f38b155770a",
+      "5e69f8525379ec0c",
+      "20fe207df07074ca",
+      "e0a3e77a2e5cc677",
+      "96f6b4a768453df2",
+      "686debd2a5597828",
+      "e9015b7aad0145df",
+      "b7fbf4650b5dac3a",
+      "e53a56f681d4ca9e",
+      "b4c42dd5263f05c2",
+      "0467047fa991d42e",
+      "7dc1c5c9ba185887"
+    ],
+    "x": 94,
+    "y": 3619,
+    "w": 1332,
+    "h": 562
+  },
+  {
     "id": "31de927a663fcb1e",
     "type": "group",
     "z": "b66c229035856438",
@@ -108,11 +150,12 @@
       "72120a886fd31b2a",
       "e4d7334aa6d35ebe",
       "16c8ef5f39faedc8",
-      "2864163617b6dd6c"
+      "2864163617b6dd6c",
+      "1d3fa042fb5c9c75"
     ],
     "x": 94,
     "y": 319,
-    "w": 642,
+    "w": 802,
     "h": 202
   },
   {
@@ -252,11 +295,12 @@
       "83efec5c7865bc6b",
       "e7f86112802a7c6b",
       "831eab530fc4d597",
-      "817e42ff3aa821fb"
+      "817e42ff3aa821fb",
+      "a7eeb2774ebe2e49"
     ],
     "x": 94,
     "y": 2419,
-    "w": 622,
+    "w": 762,
     "h": 142
   },
   {
@@ -362,48 +406,6 @@
     "h": 142
   },
   {
-    "id": "cf7114b43871c414",
-    "type": "group",
-    "z": "b66c229035856438",
-    "name": "room - ui - agenda",
-    "style": {
-      "fill": "#6f2fa0",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "7c1941c9ed1317fd",
-      "69c1098076e822f6",
-      "edf6d818fc24d922",
-      "c7fb4cc0446dbf74",
-      "daf44778ff19113d",
-      "1a58eab278d161f3",
-      "95b83d4f7b2e36d6",
-      "6888bb4727921ff4",
-      "aa0d0e7c55d0ca77",
-      "0cdf527eea858d38",
-      "fa60e7b17b73d75a",
-      "38113221fd7ac74f",
-      "e62675c777ab078d",
-      "816e8f38b155770a",
-      "5e69f8525379ec0c",
-      "20fe207df07074ca",
-      "e0a3e77a2e5cc677",
-      "96f6b4a768453df2",
-      "686debd2a5597828",
-      "e9015b7aad0145df",
-      "b7fbf4650b5dac3a",
-      "e53a56f681d4ca9e",
-      "b4c42dd5263f05c2",
-      "0467047fa991d42e",
-      "7dc1c5c9ba185887"
-    ],
-    "x": 94,
-    "y": 3619,
-    "w": 1507,
-    "h": 562
-  },
-  {
     "id": "8d4b985ec87645f6",
     "type": "comment",
     "z": "b66c229035856438",
@@ -418,21 +420,21 @@
     "type": "change",
     "z": "b66c229035856438",
     "g": "e59bed66f12534a0",
-    "name": "bucket",
+    "name": "room",
     "rules": [
       {
         "t": "set",
-        "p": "bucket",
+        "p": "room",
         "pt": "msg",
         "to": "agenda",
         "tot": "str"
       },
       {
         "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
+        "p": "payload",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
       }
     ],
     "action": "",
@@ -453,9 +455,9 @@
     "type": "link in",
     "z": "b66c229035856438",
     "g": "e59bed66f12534a0",
-    "name": "agenda - bucket",
+    "name": "agenda - room",
     "links": [
-      "25445f5a9b787a0a"
+      "a0f0f63b3934f168"
     ],
     "x": 135,
     "y": 60,
@@ -470,11 +472,10 @@
     "type": "link out",
     "z": "b66c229035856438",
     "g": "e59bed66f12534a0",
-    "name": "agenda - bucket",
+    "name": "agenda - room",
     "mode": "link",
     "links": [
-      "060ca3dab7e4b080",
-      "a471c698f7538a54"
+      "6eafb2a9c1ec95c0"
     ],
     "x": 395,
     "y": 60,
@@ -487,15 +488,13 @@
     "g": "31de927a663fcb1e",
     "name": "agenda - birthday - device",
     "links": [
-      "e928798f23941942"
+      "3fe55eddaf0140ee"
     ],
     "x": 135,
     "y": 360,
     "wires": [
       [
-        "72120a886fd31b2a",
-        "2864163617b6dd6c",
-        "16c8ef5f39faedc8"
+        "1d3fa042fb5c9c75"
       ]
     ]
   },
@@ -509,7 +508,7 @@
     "links": [
       "bfa594bf1f876c92"
     ],
-    "x": 695,
+    "x": 855,
     "y": 360,
     "wires": []
   },
@@ -554,7 +553,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 490,
+    "x": 650,
     "y": 360,
     "wires": [
       [
@@ -596,7 +595,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 490,
+    "x": 650,
     "y": 480,
     "wires": [
       [
@@ -617,7 +616,7 @@
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 270,
+    "x": 430,
     "y": 480,
     "wires": [
       [
@@ -666,7 +665,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 500,
+    "x": 660,
     "y": 420,
     "wires": [
       [
@@ -685,7 +684,7 @@
         "t": "set",
         "p": "list_today",
         "pt": "msg",
-        "to": "list_today",
+        "to": "#:(onMemory)::list_today",
         "tot": "flow"
       },
       {
@@ -697,7 +696,7 @@
       },
       {
         "t": "set",
-        "p": "list_today",
+        "p": "#:(onMemory)::list_today",
         "pt": "flow",
         "to": "list_today",
         "tot": "msg"
@@ -727,7 +726,7 @@
         "t": "set",
         "p": "list_today",
         "pt": "msg",
-        "to": "list_today",
+        "to": "#:(onMemory)::list_today",
         "tot": "flow"
       },
       {
@@ -841,21 +840,21 @@
       },
       {
         "t": "set",
-        "p": "list_today",
+        "p": "#:(onMemory)::list_today",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
       },
       {
         "t": "set",
-        "p": "list_tomorrow",
+        "p": "#:(onMemory)::list_tomorrow",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
       },
       {
         "t": "set",
-        "p": "counter.birthday",
+        "p": "#:(onMemory)::counter.birthday",
         "pt": "flow",
         "to": "0",
         "tot": "num"
@@ -991,7 +990,7 @@
       },
       {
         "t": "set",
-        "p": "counter.birthday",
+        "p": "#:(onMemory)::counter.birthday",
         "pt": "flow",
         "to": "0",
         "tot": "num"
@@ -1067,7 +1066,7 @@
         "t": "set",
         "p": "counter",
         "pt": "msg",
-        "to": "counter.birthday",
+        "to": "#:(onMemory)::counter.birthday",
         "tot": "flow"
       },
       {
@@ -1093,7 +1092,7 @@
       },
       {
         "t": "set",
-        "p": "counter.birthday",
+        "p": "#:(onMemory)::counter.birthday",
         "pt": "flow",
         "to": "counter",
         "tot": "msg"
@@ -1123,7 +1122,7 @@
     "z": "b66c229035856438",
     "g": "fb524b1a6da7faeb",
     "name": "nb",
-    "property": "counter.birthday",
+    "property": "#:(onMemory)::counter.birthday",
     "propertyType": "flow",
     "rules": [
       {
@@ -1280,7 +1279,7 @@
     "name": "agenda - birthday - source",
     "links": [
       "074a67bf0fcf09ad",
-      "94c79b8f52f0b6ba"
+      "f1a09e5456fe03fe"
     ],
     "x": 135,
     "y": 720,
@@ -1344,8 +1343,8 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
+        "to": "agenda",
+        "tot": "str"
       },
       {
         "t": "set",
@@ -1489,7 +1488,7 @@
         "t": "set",
         "p": "list_tomorrow",
         "pt": "msg",
-        "to": "list_tomorrow",
+        "to": "#:(onMemory)::list_tomorrow",
         "tot": "flow"
       },
       {
@@ -1501,7 +1500,7 @@
       },
       {
         "t": "set",
-        "p": "list_tomorrow",
+        "p": "#:(onMemory)::list_tomorrow",
         "pt": "flow",
         "to": "list_tomorrow",
         "tot": "msg"
@@ -1561,7 +1560,7 @@
         "t": "set",
         "p": "list_tomorrow",
         "pt": "msg",
-        "to": "list_tomorrow",
+        "to": "#:(onMemory)::list_tomorrow",
         "tot": "flow"
       },
       {
@@ -1740,7 +1739,7 @@
     "name": "agenda - birthday - ui - load",
     "links": [
       "074a67bf0fcf09ad",
-      "94c79b8f52f0b6ba"
+      "e509e8b44c9007e1"
     ],
     "x": 135,
     "y": 960,
@@ -2412,8 +2411,8 @@
     "rules": [
       {
         "t": "eq",
-        "v": "bucket",
-        "vt": "flow"
+        "v": "agenda",
+        "vt": "str"
       }
     ],
     "checkall": "false",
@@ -2547,14 +2546,13 @@
     "g": "2d16095457052f90",
     "name": "agenda - trash - device",
     "links": [
-      "e928798f23941942"
+      "3fe55eddaf0140ee"
     ],
     "x": 135,
     "y": 2460,
     "wires": [
       [
-        "e7f86112802a7c6b",
-        "817e42ff3aa821fb"
+        "a7eeb2774ebe2e49"
       ]
     ]
   },
@@ -2568,7 +2566,7 @@
     "links": [
       "bfa594bf1f876c92"
     ],
-    "x": 675,
+    "x": 815,
     "y": 2460,
     "wires": []
   },
@@ -2613,7 +2611,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 490,
+    "x": 630,
     "y": 2460,
     "wires": [
       [
@@ -2655,7 +2653,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 480,
+    "x": 620,
     "y": 2520,
     "wires": [
       [
@@ -2676,7 +2674,7 @@
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 270,
+    "x": 410,
     "y": 2520,
     "wires": [
       [
@@ -2736,7 +2734,7 @@
       },
       {
         "t": "set",
-        "p": "counter.trash",
+        "p": "#:(onMemory)::counter.trash",
         "pt": "flow",
         "to": "0",
         "tot": "num"
@@ -2871,7 +2869,7 @@
       },
       {
         "t": "set",
-        "p": "counter.trash",
+        "p": "#:(onMemory)::counter.trash",
         "pt": "flow",
         "to": "0",
         "tot": "num"
@@ -2947,7 +2945,7 @@
         "t": "set",
         "p": "counter",
         "pt": "msg",
-        "to": "counter.trash",
+        "to": "#:(onMemory)::counter.trash",
         "tot": "flow"
       },
       {
@@ -2973,7 +2971,7 @@
       },
       {
         "t": "set",
-        "p": "counter.trash",
+        "p": "#:(onMemory)::counter.trash",
         "pt": "flow",
         "to": "counter",
         "tot": "msg"
@@ -3003,7 +3001,7 @@
     "z": "b66c229035856438",
     "g": "99b5327a504595cb",
     "name": "nb",
-    "property": "counter.trash",
+    "property": "#:(onMemory)::counter.trash",
     "propertyType": "flow",
     "rules": [
       {
@@ -3057,7 +3055,7 @@
     "name": "agenda - trash - source",
     "links": [
       "074a67bf0fcf09ad",
-      "94c79b8f52f0b6ba"
+      "f1a09e5456fe03fe"
     ],
     "x": 135,
     "y": 2760,
@@ -3121,8 +3119,8 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "bucket",
-        "tot": "flow"
+        "to": "agenda",
+        "tot": "str"
       },
       {
         "t": "set",
@@ -3373,7 +3371,7 @@
     "name": "agenda - trash - ui - load",
     "links": [
       "074a67bf0fcf09ad",
-      "94c79b8f52f0b6ba"
+      "e509e8b44c9007e1"
     ],
     "x": 135,
     "y": 2880,
@@ -3817,8 +3815,8 @@
     "rules": [
       {
         "t": "eq",
-        "v": "bucket",
-        "vt": "flow"
+        "v": "agenda",
+        "vt": "str"
       }
     ],
     "checkall": "false",
@@ -4023,7 +4021,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1140,
+    "x": 1000,
     "y": 3900,
     "wires": [
       [
@@ -4049,7 +4047,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 1340,
+    "x": 1200,
     "y": 3840,
     "wires": []
   },
@@ -4071,7 +4069,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 1350,
+    "x": 1210,
     "y": 3960,
     "wires": []
   },
@@ -4095,7 +4093,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1140,
+    "x": 1000,
     "y": 4020,
     "wires": [
       [
@@ -4122,7 +4120,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 960,
+    "x": 820,
     "y": 3840,
     "wires": [
       [
@@ -4152,7 +4150,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 960,
+    "x": 820,
     "y": 3960,
     "wires": [
       [
@@ -4304,8 +4302,8 @@
     "y": 3720,
     "wires": [
       [
-        "95b83d4f7b2e36d6",
-        "e0a3e77a2e5cc677"
+        "e0a3e77a2e5cc677",
+        "95b83d4f7b2e36d6"
       ]
     ]
   },
@@ -4336,7 +4334,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1150,
+    "x": 1010,
     "y": 3660,
     "wires": [
       [
@@ -4365,7 +4363,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1320,
+    "x": 1180,
     "y": 3660,
     "wires": [
       [
@@ -4391,7 +4389,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 1490,
+    "x": 1350,
     "y": 3660,
     "wires": []
   },
@@ -4403,7 +4401,7 @@
     "name": "",
     "ui": "2d75e4809d2a6fbf",
     "events": "all",
-    "x": 1320,
+    "x": 1180,
     "y": 3720,
     "wires": [
       []
@@ -4436,7 +4434,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1150,
+    "x": 1010,
     "y": 3720,
     "wires": [
       [
@@ -4457,7 +4455,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 970,
+    "x": 830,
     "y": 3780,
     "wires": [
       [
@@ -4537,7 +4535,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 1340,
+    "x": 1200,
     "y": 4080,
     "wires": []
   },
@@ -4561,7 +4559,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1140,
+    "x": 1000,
     "y": 4140,
     "wires": [
       [
@@ -4588,7 +4586,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 960,
+    "x": 820,
     "y": 4080,
     "wires": [
       [
@@ -4636,6 +4634,75 @@
     "info": "",
     "x": 210,
     "y": 3900,
+    "wires": []
+  },
+  {
+    "id": "1d3fa042fb5c9c75",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "31de927a663fcb1e",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "agenda",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 360,
+    "wires": [
+      [
+        "72120a886fd31b2a",
+        "2864163617b6dd6c",
+        "16c8ef5f39faedc8"
+      ]
+    ]
+  },
+  {
+    "id": "a7eeb2774ebe2e49",
+    "type": "change",
+    "z": "b66c229035856438",
+    "g": "2d16095457052f90",
+    "name": "bucket",
+    "rules": [
+      {
+        "t": "set",
+        "p": "bucket",
+        "pt": "msg",
+        "to": "agenda",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 270,
+    "y": 2460,
+    "wires": [
+      [
+        "e7f86112802a7c6b",
+        "817e42ff3aa821fb"
+      ]
+    ]
+  },
+  {
+    "id": "192902e162788e14",
+    "type": "comment",
+    "z": "b66c229035856438",
+    "name": "\"agenda\" is a reserved word for room and bucket",
+    "info": "",
+    "x": 1520,
+    "y": 60,
     "wires": []
   }
 ]

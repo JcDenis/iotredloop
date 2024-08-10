@@ -67,7 +67,7 @@
     ],
     "x": 2908,
     "y": 413,
-    "w": 2834,
+    "w": 2854,
     "h": 194
   },
   {
@@ -88,7 +88,7 @@
     ],
     "x": 2908,
     "y": 653,
-    "w": 3554,
+    "w": 3574,
     "h": 314
   },
   {
@@ -129,29 +129,8 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 1824,
+    "w": 1804,
     "h": 194
-  },
-  {
-    "id": "f391c9146d7bbd74",
-    "type": "group",
-    "z": "b984eb4415408ed9",
-    "name": "rfxcom - bucket",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "21ece2cf0225f84c",
-      "c0f802fd747208b3",
-      "957e5c162598e005"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 342,
-    "h": 82
   },
   {
     "id": "c9bfd06d94c778b0",
@@ -273,17 +252,14 @@
       "625e790911e89ba5",
       "396a3bfdb0718a53",
       "daf0d80c53e0db5f",
-      "12ee535e8df383e4",
-      "ada8e99555ab016e",
-      "e6c56ae4bc5df5d8",
       "fbf9779ea5af2111",
       "c04bcd7a0e7a788c",
       "8a80d7d04901125e"
     ],
     "x": 4354,
-    "y": 439,
-    "w": 1362,
-    "h": 142
+    "y": 499,
+    "w": 1382,
+    "h": 82
   },
   {
     "id": "315a7d88b33ec298",
@@ -334,9 +310,6 @@
       "df6ef3b58ab095da",
       "5de16c90c3283bc0",
       "40b53bd7b2dd3fda",
-      "baa85c145ba7e3cd",
-      "7c7b0c1ef742761b",
-      "fd7c381284fe78b5",
       "db5251d07949a8c0",
       "67a3679a821559e1",
       "6d3f4589b84a4ae0",
@@ -345,7 +318,7 @@
     ],
     "x": 4334,
     "y": 679,
-    "w": 2102,
+    "w": 2122,
     "h": 262
   },
   {
@@ -394,7 +367,7 @@
     ],
     "x": 94,
     "y": 199,
-    "w": 1162,
+    "w": 942,
     "h": 142
   },
   {
@@ -412,11 +385,12 @@
       "a4f8287c851b1796",
       "de0c34e8104574b0",
       "f0991abcca9403bc",
-      "a39cfa7867f1affb"
+      "a39cfa7867f1affb",
+      "d63df3a878dcfda7"
     ],
-    "x": 1354,
+    "x": 1134,
     "y": 199,
-    "w": 512,
+    "w": 712,
     "h": 142
   },
   {
@@ -1399,7 +1373,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5540,
+    "x": 5560,
     "y": 540,
     "wires": [
       [
@@ -1430,7 +1404,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5190,
+    "x": 5210,
     "y": 540,
     "wires": [
       [
@@ -1461,7 +1435,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5380,
     "y": 540,
     "wires": [
       [
@@ -1487,7 +1461,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 5030,
+    "x": 5050,
     "y": 540,
     "wires": [
       [
@@ -1513,7 +1487,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4870,
+    "x": 4890,
     "y": 540,
     "wires": [
       [
@@ -1526,8 +1500,8 @@
     "type": "gate",
     "z": "b984eb4415408ed9",
     "g": "ac4875632c3c08e1",
-    "name": "",
-    "controlTopic": "gate",
+    "name": "gate source",
+    "controlTopic": "gate source",
     "defaultState": "closed",
     "openCmd": "open",
     "closeCmd": "close",
@@ -1536,67 +1510,14 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 4710,
+    "x": 4550,
     "y": 540,
     "wires": [
       [
-        "396a3bfdb0718a53"
+        "c04bcd7a0e7a788c"
       ]
-    ]
-  },
-  {
-    "id": "12ee535e8df383e4",
-    "type": "link in",
-    "z": "b984eb4415408ed9",
-    "g": "ac4875632c3c08e1",
-    "name": "rfxcom - DIO-54791 - source gate",
-    "links": [
-      "94c79b8f52f0b6ba"
     ],
-    "x": 4395,
-    "y": 480,
-    "wires": [
-      [
-        "ada8e99555ab016e"
-      ]
-    ]
-  },
-  {
-    "id": "ada8e99555ab016e",
-    "type": "trigger",
-    "z": "b984eb4415408ed9",
-    "g": "ac4875632c3c08e1",
-    "name": "wait 10 s",
-    "op1": "",
-    "op2": "open",
-    "op1type": "nul",
-    "op2type": "str",
-    "duration": "10",
-    "extend": false,
-    "overrideDelay": false,
-    "units": "s",
-    "reset": "",
-    "bytopic": "all",
-    "topic": "topic",
-    "outputs": 1,
-    "x": 4540,
-    "y": 480,
-    "wires": [
-      [
-        "daf0d80c53e0db5f"
-      ]
-    ]
-  },
-  {
-    "id": "e6c56ae4bc5df5d8",
-    "type": "comment",
-    "z": "b984eb4415408ed9",
-    "g": "ac4875632c3c08e1",
-    "name": "Do not replay command from mqtt on startup",
-    "info": "",
-    "x": 4830,
-    "y": 480,
-    "wires": []
+    "info": "Do not replay command from mqtt on startup"
   },
   {
     "id": "fbf9779ea5af2111",
@@ -1605,13 +1526,14 @@
     "g": "ac4875632c3c08e1",
     "name": "rfxcom - DIO-54791 - source",
     "links": [
-      "24058eec92534b27"
+      "24058eec92534b27",
+      "f1a09e5456fe03fe"
     ],
     "x": 4395,
     "y": 540,
     "wires": [
       [
-        "c04bcd7a0e7a788c"
+        "daf0d80c53e0db5f"
       ]
     ]
   },
@@ -1633,11 +1555,11 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4530,
+    "x": 4730,
     "y": 540,
     "wires": [
       [
-        "daf0d80c53e0db5f"
+        "396a3bfdb0718a53"
       ]
     ]
   },
@@ -1651,7 +1573,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 5675,
+    "x": 5695,
     "y": 540,
     "wires": []
   },
@@ -1863,7 +1785,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5380,
     "y": 840,
     "wires": [
       [
@@ -1898,7 +1820,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5860,
+    "x": 5880,
     "y": 840,
     "wires": [
       [
@@ -1929,7 +1851,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5510,
+    "x": 5530,
     "y": 840,
     "wires": [
       [
@@ -1960,7 +1882,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5680,
+    "x": 5700,
     "y": 840,
     "wires": [
       [
@@ -1988,7 +1910,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5380,
     "y": 720,
     "wires": [
       [
@@ -2016,7 +1938,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5380,
     "y": 780,
     "wires": [
       [
@@ -2044,7 +1966,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5360,
+    "x": 5380,
     "y": 900,
     "wires": [
       [
@@ -2075,7 +1997,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5510,
+    "x": 5530,
     "y": 900,
     "wires": [
       [
@@ -2106,7 +2028,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5680,
+    "x": 5700,
     "y": 900,
     "wires": [
       [
@@ -2140,7 +2062,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 5010,
+    "x": 5030,
     "y": 840,
     "wires": [
       [
@@ -2172,7 +2094,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4850,
+    "x": 4870,
     "y": 840,
     "wires": [
       [
@@ -2201,7 +2123,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5180,
+    "x": 5200,
     "y": 900,
     "wires": [
       [
@@ -2217,8 +2139,8 @@
     "type": "gate",
     "z": "b984eb4415408ed9",
     "g": "32b0e7dfab2726d5",
-    "name": "",
-    "controlTopic": "gate",
+    "name": "gate source",
+    "controlTopic": "gate source",
     "defaultState": "closed",
     "openCmd": "open",
     "closeCmd": "close",
@@ -2227,67 +2149,14 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 4690,
+    "x": 4530,
     "y": 840,
     "wires": [
       [
-        "df6ef3b58ab095da"
+        "67a3679a821559e1"
       ]
-    ]
-  },
-  {
-    "id": "baa85c145ba7e3cd",
-    "type": "link in",
-    "z": "b984eb4415408ed9",
-    "g": "32b0e7dfab2726d5",
-    "name": "rfxcom - DIO-54760 - source gate",
-    "links": [
-      "94c79b8f52f0b6ba"
     ],
-    "x": 4375,
-    "y": 780,
-    "wires": [
-      [
-        "7c7b0c1ef742761b"
-      ]
-    ]
-  },
-  {
-    "id": "7c7b0c1ef742761b",
-    "type": "trigger",
-    "z": "b984eb4415408ed9",
-    "g": "32b0e7dfab2726d5",
-    "name": "wait 10 s",
-    "op1": "",
-    "op2": "open",
-    "op1type": "nul",
-    "op2type": "str",
-    "duration": "10",
-    "extend": false,
-    "overrideDelay": false,
-    "units": "s",
-    "reset": "",
-    "bytopic": "all",
-    "topic": "topic",
-    "outputs": 1,
-    "x": 4520,
-    "y": 780,
-    "wires": [
-      [
-        "40b53bd7b2dd3fda"
-      ]
-    ]
-  },
-  {
-    "id": "fd7c381284fe78b5",
-    "type": "comment",
-    "z": "b984eb4415408ed9",
-    "g": "32b0e7dfab2726d5",
-    "name": "Do not replay command from mqtt on startup",
-    "info": "",
-    "x": 4810,
-    "y": 780,
-    "wires": []
+    "info": "Do not replay command from mqtt on startup"
   },
   {
     "id": "db5251d07949a8c0",
@@ -2296,13 +2165,14 @@
     "g": "32b0e7dfab2726d5",
     "name": "rfxcom - DIO-54760 - source",
     "links": [
-      "24058eec92534b27"
+      "24058eec92534b27",
+      "f1a09e5456fe03fe"
     ],
     "x": 4375,
     "y": 840,
     "wires": [
       [
-        "67a3679a821559e1"
+        "40b53bd7b2dd3fda"
       ]
     ]
   },
@@ -2324,11 +2194,11 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4510,
+    "x": 4710,
     "y": 840,
     "wires": [
       [
-        "40b53bd7b2dd3fda"
+        "df6ef3b58ab095da"
       ]
     ]
   },
@@ -2342,7 +2212,7 @@
     "links": [
       "14a0a0839924964f"
     ],
-    "x": 6395,
+    "x": 6415,
     "y": 840,
     "wires": []
   },
@@ -2621,7 +2491,7 @@
     "y": 240,
     "wires": [
       [
-        "014d8a5287538444"
+        "be945e0c2c2208b0"
       ]
     ]
   },
@@ -2655,8 +2525,8 @@
       "bd614b03c17a2dcd",
       "0e9fc0eb536659f8"
     ],
-    "x": 1215,
-    "y": 240,
+    "x": 995,
+    "y": 300,
     "wires": []
   },
   {
@@ -2664,8 +2534,8 @@
     "type": "q-gate",
     "z": "b984eb4415408ed9",
     "g": "3ab6bcaac666ddc4",
-    "name": "",
-    "controlTopic": "gate",
+    "name": "gate source",
+    "controlTopic": "gate source",
     "defaultState": "queueing",
     "openCmd": "open",
     "closeCmd": "close",
@@ -2683,11 +2553,11 @@
     "qToggle": false,
     "persist": false,
     "storeName": "default",
-    "x": 590,
-    "y": 240,
+    "x": 390,
+    "y": 300,
     "wires": [
       [
-        "03eacf7a446d906c"
+        "014d8a5287538444"
       ]
     ]
   },
@@ -2696,12 +2566,11 @@
     "type": "link in",
     "z": "b984eb4415408ed9",
     "g": "3ab6bcaac666ddc4",
-    "name": "mqtt rfxcom gate",
+    "name": "mqtt rfxcom - gate source",
     "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
+      "f1a09e5456fe03fe"
     ],
-    "x": 455,
+    "x": 235,
     "y": 300,
     "wires": [
       [
@@ -2727,11 +2596,11 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 410,
-    "y": 240,
+    "x": 590,
+    "y": 300,
     "wires": [
       [
-        "be945e0c2c2208b0"
+        "03eacf7a446d906c"
       ]
     ]
   },
@@ -2758,8 +2627,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 240,
+    "x": 820,
+    "y": 300,
     "wires": [
       [
         "ed6bcbd32e72afe1"
@@ -2781,7 +2650,7 @@
     "correl": "",
     "expiry": "",
     "broker": "cdd708cca8782382",
-    "x": 1760,
+    "x": 1740,
     "y": 240,
     "wires": []
   },
@@ -2792,13 +2661,14 @@
     "g": "ae4487a0bf7f922f",
     "name": "mqtt rfxcom",
     "links": [
-      "89d2eebcaafb5013"
+      "89d2eebcaafb5013",
+      "95ce18294052c029"
     ],
-    "x": 1395,
-    "y": 240,
+    "x": 1175,
+    "y": 300,
     "wires": [
       [
-        "a39cfa7867f1affb"
+        "d63df3a878dcfda7"
       ]
     ]
   },
@@ -2815,7 +2685,7 @@
       "4c77acdbe9fb09c9",
       "dff88b670b073ad9"
     ],
-    "x": 1695,
+    "x": 1675,
     "y": 300,
     "wires": []
   },
@@ -2838,78 +2708,14 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1550,
-    "y": 240,
+    "x": 1530,
+    "y": 300,
     "wires": [
       [
         "a4f8287c851b1796",
         "f0991abcca9403bc"
       ]
     ]
-  },
-  {
-    "id": "21ece2cf0225f84c",
-    "type": "change",
-    "z": "b984eb4415408ed9",
-    "g": "f391c9146d7bbd74",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "rfxcom",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 60,
-    "wires": [
-      [
-        "957e5c162598e005"
-      ]
-    ]
-  },
-  {
-    "id": "c0f802fd747208b3",
-    "type": "link in",
-    "z": "b984eb4415408ed9",
-    "g": "f391c9146d7bbd74",
-    "name": "rfxcom - bucket",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 60,
-    "wires": [
-      [
-        "21ece2cf0225f84c"
-      ]
-    ]
-  },
-  {
-    "id": "957e5c162598e005",
-    "type": "link out",
-    "z": "b984eb4415408ed9",
-    "g": "f391c9146d7bbd74",
-    "name": "rfxcom - bucket",
-    "mode": "link",
-    "links": [],
-    "x": 395,
-    "y": 60,
-    "wires": []
   },
   {
     "id": "4125458fe3950d3d",
@@ -3333,7 +3139,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 2,
-    "x": 6060,
+    "x": 6080,
     "y": 840,
     "wires": [
       [
@@ -3364,11 +3170,34 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6270,
+    "x": 6290,
     "y": 900,
     "wires": [
       [
         "6d3f4589b84a4ae0"
+      ]
+    ]
+  },
+  {
+    "id": "d63df3a878dcfda7",
+    "type": "gate",
+    "z": "b984eb4415408ed9",
+    "g": "ae4487a0bf7f922f",
+    "name": "gate target",
+    "controlTopic": "gate target",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 1330,
+    "y": 300,
+    "wires": [
+      [
+        "a39cfa7867f1affb"
       ]
     ]
   }

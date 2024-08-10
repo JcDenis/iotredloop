@@ -8,31 +8,10 @@
     "env": []
   },
   {
-    "id": "ef7759af584f1554",
-    "type": "group",
-    "z": "29b296e6cd0e71d4",
-    "name": "alexa - bucket",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "cbbf8c62de0a42bf",
-      "30497b91559e19be",
-      "44f0ce21a685646d"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 342,
-    "h": 82
-  },
-  {
     "id": "9244bfd4d05d9c3e",
     "type": "group",
     "z": "29b296e6cd0e71d4",
-    "name": "alexa - cookie",
+    "name": "alexa - init",
     "style": {
       "fill": "#ff0000",
       "fill-opacity": "0.05",
@@ -41,14 +20,16 @@
     "nodes": [
       "1366f3887e6de0cb",
       "8231cb6e85943b7c",
-      "55cbb5ab30240ed6",
       "3b2c87205ae7f992",
-      "823b0b2460f6ef95"
+      "823b0b2460f6ef95",
+      "eadb9f80ae5d73a8",
+      "ba75869a8d314e54",
+      "e94465489f353958"
     ],
     "x": 74,
-    "y": 939,
-    "w": 672,
-    "h": 142
+    "y": 879,
+    "w": 772,
+    "h": 202
   },
   {
     "id": "bbefe025338a4088",
@@ -81,7 +62,7 @@
     "id": "0cf81dc631df6bea",
     "type": "group",
     "z": "29b296e6cd0e71d4",
-    "name": "alexa - devices list (for test)",
+    "name": "alexa - list",
     "style": {
       "label": true,
       "fill": "#ffffff",
@@ -93,8 +74,8 @@
       "343850ed88d34457"
     ],
     "x": 74,
-    "y": 819,
-    "w": 732,
+    "y": 759,
+    "w": 692,
     "h": 82
   },
   {
@@ -479,78 +460,12 @@
     "wires": []
   },
   {
-    "id": "cbbf8c62de0a42bf",
-    "type": "change",
-    "z": "29b296e6cd0e71d4",
-    "g": "ef7759af584f1554",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "alexa",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 60,
-    "wires": [
-      [
-        "44f0ce21a685646d"
-      ]
-    ]
-  },
-  {
-    "id": "30497b91559e19be",
-    "type": "link in",
-    "z": "29b296e6cd0e71d4",
-    "g": "ef7759af584f1554",
-    "name": "alexa - bucket",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 60,
-    "wires": [
-      [
-        "cbbf8c62de0a42bf"
-      ]
-    ]
-  },
-  {
-    "id": "44f0ce21a685646d",
-    "type": "link out",
-    "z": "29b296e6cd0e71d4",
-    "g": "ef7759af584f1554",
-    "name": "alexa - bucket",
-    "mode": "link",
-    "links": [
-      "3b2c87205ae7f992"
-    ],
-    "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
     "id": "1366f3887e6de0cb",
     "type": "debug",
     "z": "29b296e6cd0e71d4",
     "g": "9244bfd4d05d9c3e",
-    "name": "alexa - cookie",
-    "active": true,
+    "name": "alexa - init",
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -558,8 +473,8 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 620,
-    "y": 1040,
+    "x": 730,
+    "y": 920,
     "wires": []
   },
   {
@@ -570,37 +485,11 @@
     "name": "",
     "account": "b71b7e764b1feec5",
     "option": "initialise",
-    "x": 420,
-    "y": 1040,
+    "x": 540,
+    "y": 920,
     "wires": [
       [
         "1366f3887e6de0cb"
-      ]
-    ]
-  },
-  {
-    "id": "55cbb5ab30240ed6",
-    "type": "delay",
-    "z": "29b296e6cd0e71d4",
-    "g": "9244bfd4d05d9c3e",
-    "name": "15 s",
-    "pauseType": "delay",
-    "timeout": "15",
-    "timeoutUnits": "seconds",
-    "rate": "1",
-    "nbRateUnits": "1",
-    "rateUnits": "second",
-    "randomFirst": "1",
-    "randomLast": "5",
-    "randomUnits": "seconds",
-    "drop": false,
-    "allowrate": false,
-    "outputs": 1,
-    "x": 250,
-    "y": 1040,
-    "wires": [
-      [
-        "8231cb6e85943b7c"
       ]
     ]
   },
@@ -609,15 +498,15 @@
     "type": "link in",
     "z": "29b296e6cd0e71d4",
     "g": "9244bfd4d05d9c3e",
-    "name": "alexa - cookie",
+    "name": "alexa - init",
     "links": [
-      "44f0ce21a685646d"
+      "b76dfebb811b14bd"
     ],
     "x": 115,
-    "y": 1040,
+    "y": 980,
     "wires": [
       [
-        "55cbb5ab30240ed6"
+        "e94465489f353958"
       ]
     ]
   },
@@ -1677,8 +1566,8 @@
         }
       }
     },
-    "x": 430,
-    "y": 860,
+    "x": 450,
+    "y": 800,
     "wires": [
       [
         "343850ed88d34457"
@@ -1690,15 +1579,15 @@
     "type": "inject",
     "z": "29b296e6cd0e71d4",
     "g": "0cf81dc631df6bea",
-    "name": "get Alexa devices",
+    "name": "manual - alexa - list",
     "props": [],
     "repeat": "",
     "crontab": "",
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "x": 200,
-    "y": 860,
+    "x": 210,
+    "y": 800,
     "wires": [
       [
         "5de8989847f9f971"
@@ -1710,7 +1599,7 @@
     "type": "debug",
     "z": "29b296e6cd0e71d4",
     "g": "0cf81dc631df6bea",
-    "name": "alexa - devices list",
+    "name": "alexa - list",
     "active": true,
     "tosidebar": true,
     "console": false,
@@ -1719,8 +1608,8 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 670,
-    "y": 860,
+    "x": 660,
+    "y": 800,
     "wires": []
   },
   {
@@ -2266,7 +2155,7 @@
     "g": "208c778a4cf58d22",
     "name": "catch error",
     "scope": null,
-    "uncaught": false,
+    "uncaught": true,
     "x": 620,
     "y": 60,
     "wires": [
@@ -2494,7 +2383,7 @@
     "type": "inject",
     "z": "29b296e6cd0e71d4",
     "g": "9244bfd4d05d9c3e",
-    "name": "manual init",
+    "name": "manual - alexa - init",
     "props": [
       {
         "p": "payload"
@@ -2511,7 +2400,77 @@
     "topic": "",
     "payload": "",
     "payloadType": "date",
-    "x": 240,
+    "x": 210,
+    "y": 920,
+    "wires": [
+      [
+        "8231cb6e85943b7c"
+      ]
+    ]
+  },
+  {
+    "id": "eadb9f80ae5d73a8",
+    "type": "catch",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "catch - alexa - init",
+    "scope": [
+      "8231cb6e85943b7c"
+    ],
+    "uncaught": false,
+    "x": 180,
+    "y": 1040,
+    "wires": [
+      [
+        "ba75869a8d314e54"
+      ]
+    ]
+  },
+  {
+    "id": "ba75869a8d314e54",
+    "type": "delay",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "2 min",
+    "pauseType": "delay",
+    "timeout": "2",
+    "timeoutUnits": "minutes",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 370,
+    "y": 1040,
+    "wires": [
+      [
+        "8231cb6e85943b7c"
+      ]
+    ]
+  },
+  {
+    "id": "e94465489f353958",
+    "type": "trigger",
+    "z": "29b296e6cd0e71d4",
+    "g": "9244bfd4d05d9c3e",
+    "name": "30 s",
+    "op1": "",
+    "op2": "1",
+    "op1type": "nul",
+    "op2type": "str",
+    "duration": "30",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "s",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 370,
     "y": 980,
     "wires": [
       [

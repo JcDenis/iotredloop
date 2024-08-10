@@ -270,7 +270,7 @@
     "g": "0c72531717a01ea2",
     "name": "proxmox - ui - servers",
     "links": [
-      "94c79b8f52f0b6ba"
+      "e509e8b44c9007e1"
     ],
     "x": 135,
     "y": 980,
@@ -845,7 +845,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "#:(memoryOnly)::list_qemu",
+        "p": "#:(onMemory)::list_qemu",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
@@ -873,7 +873,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "#:(memoryOnly)::list_qemu[msg.parts.index]",
+        "p": "#:(onMemory)::list_qemu[msg.parts.index]",
         "pt": "flow",
         "to": "{\"label\":msg.payload.name, \"value\":msg.payload.vmid}",
         "tot": "jsonata"
@@ -928,7 +928,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "#:(memoryOnly)::list_qemu",
+        "to": "#:(onMemory)::list_qemu",
         "tot": "flow"
       },
       {
@@ -1006,7 +1006,7 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "current_id",
+        "to": "#:(onMemory)::current_id",
         "tot": "flow"
       },
       {
@@ -1018,14 +1018,14 @@
       },
       {
         "t": "set",
-        "p": "#:(memoryOnly)::current_vmid",
+        "p": "#:(onMemory)::current_vmid",
         "pt": "flow",
         "to": "payload",
         "tot": "msg"
       },
       {
         "t": "set",
-        "p": "#:(memoryOnly)::current_type",
+        "p": "#:(onMemory)::current_type",
         "pt": "flow",
         "to": "qemu",
         "tot": "str"
@@ -1438,7 +1438,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "#:(memoryOnly)::list_lxc",
+        "p": "#:(onMemory)::list_lxc",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
@@ -1487,7 +1487,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "#:(memoryOnly)::list_lxc[msg.parts.index]",
+        "p": "#:(onMemory)::list_lxc[msg.parts.index]",
         "pt": "flow",
         "to": "{\"label\":msg.payload.name, \"value\":msg.payload.vmid}",
         "tot": "jsonata"
@@ -1542,7 +1542,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "#:(memoryOnly)::list_lxc",
+        "to": "#:(onMemory)::list_lxc",
         "tot": "flow"
       },
       {
@@ -1598,7 +1598,7 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "current_id",
+        "to": "#:(onMemory)::current_id",
         "tot": "flow"
       },
       {
@@ -1610,14 +1610,14 @@
       },
       {
         "t": "set",
-        "p": "#:(memoryOnly)::current_vmid",
+        "p": "#:(onMemory)::current_vmid",
         "pt": "flow",
         "to": "payload",
         "tot": "msg"
       },
       {
         "t": "set",
-        "p": "#:(memoryOnly)::current_type",
+        "p": "#:(onMemory)::current_type",
         "pt": "flow",
         "to": "lxc",
         "tot": "str"
@@ -1689,14 +1689,14 @@
     "rules": [
       {
         "t": "set",
-        "p": "#:(memoryOnly)::current_vmid",
+        "p": "#:(onMemory)::current_vmid",
         "pt": "flow",
         "to": "0",
         "tot": "num"
       },
       {
         "t": "set",
-        "p": "current_type",
+        "p": "#:(onMemory)::current_type",
         "pt": "flow",
         "to": "",
         "tot": "str"
@@ -1742,21 +1742,21 @@
         "t": "set",
         "p": "type",
         "pt": "msg",
-        "to": "#:(memoryOnly)::current_type",
+        "to": "#:(onMemory)::current_type",
         "tot": "flow"
       },
       {
         "t": "set",
         "p": "vmid",
         "pt": "msg",
-        "to": "#:(memoryOnly)::current_vmid",
+        "to": "#:(onMemory)::current_vmid",
         "tot": "flow"
       },
       {
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "current_id",
+        "to": "#:(onMemory)::current_id",
         "tot": "flow"
       },
       {
@@ -3487,7 +3487,7 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "current_id",
+        "to": "#:(onMemory)::current_id",
         "tot": "flow"
       },
       {
@@ -3522,7 +3522,7 @@
         "t": "set",
         "p": "path",
         "pt": "msg",
-        "to": "current_id",
+        "to": "#:(onMemory)::current_id",
         "tot": "flow"
       },
       {
@@ -3845,7 +3845,7 @@
       },
       {
         "t": "set",
-        "p": "current_id",
+        "p": "#:(onMemory)::current_id",
         "pt": "flow",
         "to": "node_id",
         "tot": "msg"

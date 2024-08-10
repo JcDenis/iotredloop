@@ -8,27 +8,6 @@
     "env": []
   },
   {
-    "id": "3df91d363faee835",
-    "type": "group",
-    "z": "a1e22fa468f03c15",
-    "name": "linky - bucket",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "3325e4593048135a",
-      "05787fb2b77146c8",
-      "0ad08e9e45d5435d"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 342,
-    "h": 82
-  },
-  {
     "id": "f7b8f0b4a2f0c6c9",
     "type": "group",
     "z": "a1e22fa468f03c15",
@@ -88,7 +67,7 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 1824,
+    "w": 1964,
     "h": 194
   },
   {
@@ -283,14 +262,15 @@
     "nodes": [
       "c16f1ae420f44fb5",
       "b491f7eb02575108",
-      "ca7f0d58c55a1358",
       "3423fd727184042c",
       "fa2acb5ac9bb8c8c",
-      "a34aeb4c51bcf655"
+      "a34aeb4c51bcf655",
+      "10a09728dd2bd2fe",
+      "ca7f0d58c55a1358"
     ],
     "x": 94,
     "y": 199,
-    "w": 1162,
+    "w": 1102,
     "h": 142
   },
   {
@@ -308,11 +288,12 @@
       "b0b2d9829230be99",
       "5d53068f8b9e6936",
       "a7e18f888c96ad05",
-      "7a6db5a28141b284"
+      "7a6db5a28141b284",
+      "c234d490bce96573"
     ],
-    "x": 1354,
+    "x": 1294,
     "y": 199,
-    "w": 512,
+    "w": 712,
     "h": 142
   },
   {
@@ -399,74 +380,6 @@
     "y": 439,
     "w": 342,
     "h": 82
-  },
-  {
-    "id": "3325e4593048135a",
-    "type": "change",
-    "z": "a1e22fa468f03c15",
-    "g": "3df91d363faee835",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "linky",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 60,
-    "wires": [
-      [
-        "0ad08e9e45d5435d"
-      ]
-    ]
-  },
-  {
-    "id": "05787fb2b77146c8",
-    "type": "link in",
-    "z": "a1e22fa468f03c15",
-    "g": "3df91d363faee835",
-    "name": "linky - bucket",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 60,
-    "wires": [
-      [
-        "3325e4593048135a"
-      ]
-    ]
-  },
-  {
-    "id": "0ad08e9e45d5435d",
-    "type": "link out",
-    "z": "a1e22fa468f03c15",
-    "g": "3df91d363faee835",
-    "name": "linky - bucket",
-    "mode": "link",
-    "links": [
-      "60a457c83fc5f610",
-      "f5c52506bf786402",
-      "484e035839639ba9"
-    ],
-    "x": 395,
-    "y": 60,
-    "wires": []
   },
   {
     "id": "8546ac1e37b1b1fc",
@@ -1333,7 +1246,7 @@
     "type": "inject",
     "z": "a1e22fa468f03c15",
     "g": "543a74289e049295",
-    "name": "",
+    "name": "cron 90 s",
     "props": [
       {
         "p": "payload"
@@ -1912,7 +1825,7 @@
     "type": "inject",
     "z": "a1e22fa468f03c15",
     "g": "d0f7ea2cfc4571a3",
-    "name": "",
+    "name": "cron 60 s",
     "props": [
       {
         "p": "payload"
@@ -2648,7 +2561,7 @@
     "y": 240,
     "wires": [
       [
-        "fa2acb5ac9bb8c8c"
+        "ca7f0d58c55a1358"
       ]
     ]
   },
@@ -2663,53 +2576,20 @@
       "acc79920bf40652d",
       "ba77500cd9f7f6da"
     ],
-    "x": 1215,
-    "y": 240,
+    "x": 1155,
+    "y": 300,
     "wires": []
-  },
-  {
-    "id": "ca7f0d58c55a1358",
-    "type": "q-gate",
-    "z": "a1e22fa468f03c15",
-    "g": "fee31a77e542b203",
-    "name": "",
-    "controlTopic": "gate",
-    "defaultState": "queueing",
-    "openCmd": "open",
-    "closeCmd": "close",
-    "toggleCmd": "toggle",
-    "queueCmd": "close",
-    "defaultCmd": "default",
-    "triggerCmd": "trigger",
-    "flushCmd": "open",
-    "resetCmd": "reset",
-    "peekCmd": "peek",
-    "dropCmd": "drop",
-    "statusCmd": "status",
-    "maxQueueLength": "0",
-    "keepNewest": false,
-    "qToggle": false,
-    "persist": false,
-    "storeName": "default",
-    "x": 590,
-    "y": 240,
-    "wires": [
-      [
-        "a34aeb4c51bcf655"
-      ]
-    ]
   },
   {
     "id": "3423fd727184042c",
     "type": "link in",
     "z": "a1e22fa468f03c15",
     "g": "fee31a77e542b203",
-    "name": "mqtt teleinfo gate",
+    "name": "mqtt teleinfo - gate source",
     "links": [
-      "d68d686bbf684c95",
-      "8fdb5986494986cc"
+      "f1a09e5456fe03fe"
     ],
-    "x": 455,
+    "x": 235,
     "y": 300,
     "wires": [
       [
@@ -2735,11 +2615,11 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 390,
-    "y": 240,
+    "x": 590,
+    "y": 300,
     "wires": [
       [
-        "ca7f0d58c55a1358"
+        "10a09728dd2bd2fe"
       ]
     ]
   },
@@ -2766,8 +2646,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1040,
-    "y": 240,
+    "x": 980,
+    "y": 300,
     "wires": [
       [
         "b491f7eb02575108"
@@ -2789,7 +2669,7 @@
     "correl": "",
     "expiry": "",
     "broker": "d6ba6007b1901314",
-    "x": 1760,
+    "x": 1900,
     "y": 240,
     "wires": []
   },
@@ -2800,12 +2680,14 @@
     "d": true,
     "g": "0bf16a20b9656c59",
     "name": "mqtt teleinfo",
-    "links": [],
-    "x": 1395,
-    "y": 240,
+    "links": [
+      "95ce18294052c029"
+    ],
+    "x": 1335,
+    "y": 300,
     "wires": [
       [
-        "7a6db5a28141b284"
+        "c234d490bce96573"
       ]
     ]
   },
@@ -2817,7 +2699,7 @@
     "name": "mqtt teleinfo output",
     "mode": "link",
     "links": [],
-    "x": 1695,
+    "x": 1835,
     "y": 300,
     "wires": []
   },
@@ -2840,8 +2722,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1550,
-    "y": 240,
+    "x": 1690,
+    "y": 300,
     "wires": [
       [
         "b0b2d9829230be99",
@@ -3971,6 +3853,92 @@
     "wires": [
       [
         "23093777025257b9"
+      ]
+    ]
+  },
+  {
+    "id": "c234d490bce96573",
+    "type": "gate",
+    "z": "a1e22fa468f03c15",
+    "g": "0bf16a20b9656c59",
+    "name": "gate target",
+    "controlTopic": "gate target",
+    "defaultState": "closed",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "defaultCmd": "default",
+    "statusCmd": "status",
+    "persist": false,
+    "storeName": "default",
+    "x": 1490,
+    "y": 300,
+    "wires": [
+      [
+        "7a6db5a28141b284"
+      ]
+    ]
+  },
+  {
+    "id": "10a09728dd2bd2fe",
+    "type": "switch",
+    "z": "a1e22fa468f03c15",
+    "g": "fee31a77e542b203",
+    "name": "clean",
+    "property": "topic",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "regex",
+        "v": "status",
+        "vt": "str",
+        "case": false
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 770,
+    "y": 300,
+    "wires": [
+      [],
+      [
+        "a34aeb4c51bcf655"
+      ]
+    ]
+  },
+  {
+    "id": "ca7f0d58c55a1358",
+    "type": "q-gate",
+    "z": "a1e22fa468f03c15",
+    "g": "fee31a77e542b203",
+    "name": "gate source",
+    "controlTopic": "gate source",
+    "defaultState": "queueing",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "queueCmd": "close",
+    "defaultCmd": "default",
+    "triggerCmd": "trigger",
+    "flushCmd": "open",
+    "resetCmd": "reset",
+    "peekCmd": "peek",
+    "dropCmd": "drop",
+    "statusCmd": "status",
+    "maxQueueLength": "0",
+    "keepNewest": false,
+    "qToggle": false,
+    "persist": false,
+    "storeName": "default",
+    "x": 390,
+    "y": 300,
+    "wires": [
+      [
+        "fa2acb5ac9bb8c8c"
       ]
     ]
   }

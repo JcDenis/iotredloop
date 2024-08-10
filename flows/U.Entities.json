@@ -8,27 +8,6 @@
     "env": []
   },
   {
-    "id": "215a32642af29284",
-    "type": "group",
-    "z": "1362a4b4f08f3d5b",
-    "name": "entities - bucket",
-    "style": {
-      "fill": "#ffC000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ffC000"
-    },
-    "nodes": [
-      "1d1b97b90e8247f3",
-      "633ef89ae7ff3aac",
-      "7d77f0bc3fa0e695"
-    ],
-    "x": 94,
-    "y": 19,
-    "w": 342,
-    "h": 82
-  },
-  {
     "id": "3c6b51ae156a9cac",
     "type": "group",
     "z": "1362a4b4f08f3d5b",
@@ -48,31 +27,6 @@
     "y": 19,
     "w": 422,
     "h": 82
-  },
-  {
-    "id": "d62c9cf0cb81a537",
-    "type": "group",
-    "z": "1362a4b4f08f3d5b",
-    "name": "entities - register rooms",
-    "style": {
-      "label": true,
-      "fill": "#ff0000",
-      "fill-opacity": "0.05"
-    },
-    "nodes": [
-      "69a45eebaa58325f",
-      "6eafb2a9c1ec95c0",
-      "39740b8338a622fd",
-      "4e5188bf59004a54",
-      "cc946bae3f4b46d8",
-      "fc14608145819575",
-      "6b5dd5979114ad9c",
-      "a1dbeb8cf51c3366"
-    ],
-    "x": 94,
-    "y": 379,
-    "w": 1052,
-    "h": 142
   },
   {
     "id": "7a3b686f86cb9beb",
@@ -159,30 +113,6 @@
     "y": 739,
     "w": 1672,
     "h": 1062
-  },
-  {
-    "id": "4aa11d03f1b394a5",
-    "type": "group",
-    "z": "1362a4b4f08f3d5b",
-    "name": "entities - boot entities",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "c622c7d8b085a6d6",
-      "25579c2b6bf10a53",
-      "03f2f5c00addae38",
-      "316e053ce43b8176",
-      "1fe7191fde26e8cb",
-      "a8759eb49d4d47f1",
-      "8c9e51e853c941fe"
-    ],
-    "x": 94,
-    "y": 199,
-    "w": 1092,
-    "h": 142
   },
   {
     "id": "d163a291da272610",
@@ -453,74 +383,6 @@
     "h": 202
   },
   {
-    "id": "1d1b97b90e8247f3",
-    "type": "change",
-    "z": "1362a4b4f08f3d5b",
-    "g": "215a32642af29284",
-    "name": "bucket",
-    "rules": [
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "msg",
-        "to": "entities",
-        "tot": "str"
-      },
-      {
-        "t": "set",
-        "p": "bucket",
-        "pt": "flow",
-        "to": "bucket",
-        "tot": "msg"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 270,
-    "y": 60,
-    "wires": [
-      [
-        "7d77f0bc3fa0e695"
-      ]
-    ]
-  },
-  {
-    "id": "633ef89ae7ff3aac",
-    "type": "link in",
-    "z": "1362a4b4f08f3d5b",
-    "g": "215a32642af29284",
-    "name": "entities - bucket",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 60,
-    "wires": [
-      [
-        "1d1b97b90e8247f3"
-      ]
-    ]
-  },
-  {
-    "id": "7d77f0bc3fa0e695",
-    "type": "link out",
-    "z": "1362a4b4f08f3d5b",
-    "g": "215a32642af29284",
-    "name": "entities - bucket",
-    "mode": "link",
-    "links": [
-      "035760b14c0a3455",
-      "595853542a4259b5",
-      "c94f5e94ee5a1918"
-    ],
-    "x": 395,
-    "y": 60,
-    "wires": []
-  },
-  {
     "id": "73b58c6d90a26112",
     "type": "catch",
     "z": "1362a4b4f08f3d5b",
@@ -726,8 +588,7 @@
     "g": "7a3b686f86cb9beb",
     "name": "entities - add entity",
     "links": [
-      "21fbe912a43d9c26",
-      "7d77f0bc3fa0e695",
+      "e509e8b44c9007e1",
       "fdea9ff531a587a8"
     ],
     "x": 1015,
@@ -2125,7 +1986,8 @@
       "206c1fb4a48067df",
       "595853542a4259b5",
       "7c98833082d48029",
-      "c94f5e94ee5a1918"
+      "c94f5e94ee5a1918",
+      "9bac1aa814ac44eb"
     ],
     "x": 835,
     "y": 1760,
@@ -2217,125 +2079,6 @@
     ]
   },
   {
-    "id": "c622c7d8b085a6d6",
-    "type": "link in",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "entities - boot entities",
-    "links": [
-      "25445f5a9b787a0a"
-    ],
-    "x": 135,
-    "y": 300,
-    "wires": [
-      [
-        "25579c2b6bf10a53"
-      ]
-    ]
-  },
-  {
-    "id": "25579c2b6bf10a53",
-    "type": "change",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "get entities from global",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "entities",
-        "tot": "global"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 440,
-    "y": 300,
-    "wires": [
-      [
-        "03f2f5c00addae38"
-      ]
-    ]
-  },
-  {
-    "id": "03f2f5c00addae38",
-    "type": "split",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "md5",
-    "splt": "\\n",
-    "spltType": "str",
-    "arraySplt": 1,
-    "arraySpltType": "len",
-    "stream": false,
-    "addname": "",
-    "x": 650,
-    "y": 300,
-    "wires": [
-      [
-        "1fe7191fde26e8cb"
-      ]
-    ]
-  },
-  {
-    "id": "316e053ce43b8176",
-    "type": "debug",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "entities - boot entities",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 1040,
-    "y": 240,
-    "wires": []
-  },
-  {
-    "id": "1fe7191fde26e8cb",
-    "type": "function",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "set device",
-    "func": "var msg = msg;\nvar newmsg = {};\n\nnewmsg = msg.payload;\n\nreturn newmsg;",
-    "outputs": 1,
-    "timeout": 0,
-    "noerr": 0,
-    "initialize": "",
-    "finalize": "",
-    "libs": [],
-    "x": 820,
-    "y": 300,
-    "wires": [
-      [
-        "a8759eb49d4d47f1",
-        "316e053ce43b8176"
-      ]
-    ]
-  },
-  {
-    "id": "a8759eb49d4d47f1",
-    "type": "link out",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "entities - boot entities",
-    "mode": "link",
-    "links": [
-      "d85fe6335a6eae7b"
-    ],
-    "x": 955,
-    "y": 300,
-    "wires": []
-  },
-  {
     "id": "035760b14c0a3455",
     "type": "link in",
     "z": "1362a4b4f08f3d5b",
@@ -2344,7 +2087,7 @@
     "links": [
       "1d9d8c969ccdf2be",
       "72f3d70342e83655",
-      "7d77f0bc3fa0e695",
+      "e509e8b44c9007e1",
       "fdea9ff531a587a8"
     ],
     "x": 1895,
@@ -3137,7 +2880,8 @@
       "035760b14c0a3455",
       "206c1fb4a48067df",
       "595853542a4259b5",
-      "7c98833082d48029"
+      "7c98833082d48029",
+      "9bac1aa814ac44eb"
     ],
     "x": 855,
     "y": 2480,
@@ -3285,36 +3029,6 @@
     "wires": [
       [
         "21beb0360e865da3"
-      ]
-    ]
-  },
-  {
-    "id": "8c9e51e853c941fe",
-    "type": "inject",
-    "z": "1362a4b4f08f3d5b",
-    "g": "4aa11d03f1b394a5",
-    "name": "reload entities",
-    "props": [
-      {
-        "p": "payload"
-      },
-      {
-        "p": "topic",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "payload": "",
-    "payloadType": "date",
-    "x": 210,
-    "y": 240,
-    "wires": [
-      [
-        "25579c2b6bf10a53"
       ]
     ]
   },
@@ -3835,7 +3549,7 @@
     "name": "entities - export entities",
     "links": [
       "72f3d70342e83655",
-      "7d77f0bc3fa0e695",
+      "e509e8b44c9007e1",
       "fdea9ff531a587a8"
     ],
     "x": 245,
@@ -3902,7 +3616,8 @@
     "links": [
       "035760b14c0a3455",
       "206c1fb4a48067df",
-      "7c98833082d48029"
+      "7c98833082d48029",
+      "9bac1aa814ac44eb"
     ],
     "x": 4755,
     "y": 2780,
@@ -4382,24 +4097,6 @@
         "5c6e003545ed92a0"
       ]
     ]
-  },
-  {
-    "id": "69a45eebaa58325f",
-    "type": "debug",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "entities - register rooms",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 870,
-    "y": 420,
-    "wires": []
   },
   {
     "id": "5d3538459077156c",
@@ -5566,7 +5263,7 @@
         "t": "set",
         "p": "list_entities[msg.parts.index]",
         "pt": "flow",
-        "to": "{\t    'bucket':msg.payload.bucket,\t    'measurement':msg.payload.measurement,\t    'field':msg.payload.field,\t    'protocol':msg.payload.protocol,\t    'id':msg.payload.id,\t    'option':msg.payload.option,\t    'value':msg.option.default,\t    'brand':msg.payload.brand,\t    'mdoel':msg.payload.model\t}",
+        "to": "{\t    'bucket':msg.payload.bucket,\t    'measurement':msg.payload.measurement,\t    'field':msg.payload.field,\t    'protocol':msg.payload.protocol,\t    'id':msg.payload.id,\t    'option':msg.payload.option,\t    'value':msg.option.default,\t    'brand':msg.payload.brand,\t    'model':msg.payload.model\t}",
         "tot": "jsonata"
       }
     ],
@@ -6302,7 +5999,8 @@
     "links": [
       "206c1fb4a48067df",
       "6934471d55d3dc61",
-      "dc7b00050a7d145a"
+      "dc7b00050a7d145a",
+      "f83897b1f3c48879"
     ],
     "x": 995,
     "y": 3260,
@@ -6731,7 +6429,8 @@
     "mode": "link",
     "links": [
       "dc7b00050a7d145a",
-      "6934471d55d3dc61"
+      "6934471d55d3dc61",
+      "f83897b1f3c48879"
     ],
     "x": 1295,
     "y": 3560,
@@ -7157,7 +6856,11 @@
     "z": "1362a4b4f08f3d5b",
     "g": "433d0b51637d03f5",
     "name": "entities - export rooms",
-    "links": [],
+    "links": [
+      "39c9aaaef7274169",
+      "69f377a19c3aaebb",
+      "e509e8b44c9007e1"
+    ],
     "x": 135,
     "y": 3680,
     "wires": [
@@ -7384,183 +7087,5 @@
     "x": 1695,
     "y": 3740,
     "wires": []
-  },
-  {
-    "id": "6eafb2a9c1ec95c0",
-    "type": "link in",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "entities - rooms to buckets",
-    "links": [
-      "f4e4d84dd55f9d0d"
-    ],
-    "x": 135,
-    "y": 480,
-    "wires": [
-      [
-        "4e5188bf59004a54"
-      ]
-    ]
-  },
-  {
-    "id": "39740b8338a622fd",
-    "type": "split",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "rooms",
-    "splt": "\\n",
-    "spltType": "str",
-    "arraySplt": 1,
-    "arraySpltType": "len",
-    "stream": false,
-    "addname": "room",
-    "property": "payload",
-    "x": 650,
-    "y": 480,
-    "wires": [
-      [
-        "fc14608145819575",
-        "69a45eebaa58325f"
-      ]
-    ]
-  },
-  {
-    "id": "4e5188bf59004a54",
-    "type": "change",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "get rooms from global",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "rooms",
-        "tot": "global"
-      },
-      {
-        "t": "set",
-        "p": "payload.home",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "payload.config",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 440,
-    "y": 480,
-    "wires": [
-      [
-        "39740b8338a622fd"
-      ]
-    ]
-  },
-  {
-    "id": "cc946bae3f4b46d8",
-    "type": "change",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "to global metrics",
-    "rules": [
-      {
-        "t": "set",
-        "p": "metrics[msg.room]",
-        "pt": "global",
-        "to": "{}",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1040,
-    "y": 480,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "fc14608145819575",
-    "type": "switch",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "has bucket",
-    "property": "metrics",
-    "propertyType": "global",
-    "rules": [
-      {
-        "t": "hask",
-        "v": "room",
-        "vt": "msg"
-      },
-      {
-        "t": "else"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 830,
-    "y": 480,
-    "wires": [
-      [],
-      [
-        "cc946bae3f4b46d8"
-      ]
-    ]
-  },
-  {
-    "id": "6b5dd5979114ad9c",
-    "type": "comment",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "buckets which are rooms",
-    "info": "",
-    "x": 590,
-    "y": 420,
-    "wires": []
-  },
-  {
-    "id": "a1dbeb8cf51c3366",
-    "type": "inject",
-    "z": "1362a4b4f08f3d5b",
-    "g": "d62c9cf0cb81a537",
-    "name": "reload rooms",
-    "props": [
-      {
-        "p": "payload"
-      },
-      {
-        "p": "topic",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "payload": "",
-    "payloadType": "date",
-    "x": 210,
-    "y": 420,
-    "wires": [
-      [
-        "4e5188bf59004a54"
-      ]
-    ]
   }
 ]
