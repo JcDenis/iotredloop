@@ -7528,7 +7528,7 @@
     "repair": false,
     "outputs": 2,
     "x": 910,
-    "y": 5280,
+    "y": 5220,
     "wires": [
       [
         "92d4def3b42f658e"
@@ -7545,7 +7545,7 @@
     "g": "d62c9cf0cb81a537",
     "name": "buckets which are rooms",
     "info": "",
-    "x": 650,
+    "x": 930,
     "y": 5160,
     "wires": []
   },
@@ -12066,7 +12066,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 490,
+    "x": 670,
     "y": 5280,
     "wires": [
       [
