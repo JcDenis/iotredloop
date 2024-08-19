@@ -313,11 +313,12 @@
       "e314d68876ac9938",
       "192d06a39b1a1f66",
       "517ffa31c1e561c3",
-      "8296521e661aabf6"
+      "8296521e661aabf6",
+      "9e6b8f297621f50f"
     ],
     "x": 1574,
     "y": 919,
-    "w": 782,
+    "w": 1002,
     "h": 262
   },
   {
@@ -3183,7 +3184,7 @@
     "y": 1080,
     "wires": [
       [
-        "08048d875b38ceb8"
+        "9e6b8f297621f50f"
       ]
     ]
   },
@@ -3198,24 +3199,24 @@
     "rules": [
       {
         "t": "eq",
-        "v": "salon/cible/pilot",
-        "vt": "str"
+        "v": "msg.bucket&'/cible/pilot'",
+        "vt": "jsonata"
       },
       {
         "t": "eq",
-        "v": "salon/air conditioner/actif",
-        "vt": "str"
+        "v": "msg.bucket&'/air conditioner/actif'",
+        "vt": "jsonata"
       },
       {
         "t": "eq",
-        "v": "salon/thermostat/temperature setpoint",
-        "vt": "str"
+        "v": "msg.bucket&'/thermostat/temperature setpoint'",
+        "vt": "jsonata"
       }
     ],
     "checkall": "false",
     "repair": false,
     "outputs": 3,
-    "x": 1750,
+    "x": 1970,
     "y": 1080,
     "wires": [
       [
@@ -3240,7 +3241,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 2315,
+    "x": 2535,
     "y": 1080,
     "wires": []
   },
@@ -3271,6 +3272,13 @@
         "pt": "msg",
         "to": "metrics[msg.bucket]thermostat['temperature setpoint']",
         "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "repeat",
+        "pt": "msg",
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -3278,7 +3286,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2010,
+    "x": 2230,
     "y": 1140,
     "wires": [
       [
@@ -3313,7 +3321,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1960,
+    "x": 2180,
     "y": 1020,
     "wires": [
       [
@@ -3348,7 +3356,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1950,
+    "x": 2170,
     "y": 1080,
     "wires": [
       [
@@ -3372,7 +3380,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2170,
+    "x": 2390,
     "y": 960,
     "wires": [
       [
@@ -3398,7 +3406,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 2180,
+    "x": 2400,
     "y": 1020,
     "wires": [
       [
@@ -3429,10 +3437,17 @@
       },
       {
         "t": "set",
+        "p": "mode",
+        "pt": "msg",
+        "to": "metrics[msg.bucket]thermostat['operating mode']",
+        "tot": "global"
+      },
+      {
+        "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "4",
-        "tot": "str"
+        "to": "msg.mode='cold'?'3':'4'",
+        "tot": "jsonata"
       }
     ],
     "action": "",
@@ -3440,7 +3455,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1960,
+    "x": 2180,
     "y": 960,
     "wires": [
       [
@@ -5815,6 +5830,8 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
         "label": "Auto",
@@ -5826,6 +5843,7 @@
     "topic": "mode",
     "topicType": "str",
     "className": "",
+    "typeIsComboBox": true,
     "x": 7270,
     "y": 960,
     "wires": [
@@ -7377,6 +7395,32 @@
     "wires": [
       [
         "5b23a7e32b5b478a"
+      ]
+    ]
+  },
+  {
+    "id": "9e6b8f297621f50f",
+    "type": "switch",
+    "z": "f125f568d4e332ee",
+    "g": "00798774fd655f5e",
+    "name": "bucket has ac",
+    "property": "metrics[msg.bucket]",
+    "propertyType": "global",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "air conditioner",
+        "vt": "str"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 1,
+    "x": 1780,
+    "y": 1080,
+    "wires": [
+      [
+        "08048d875b38ceb8"
       ]
     ]
   }

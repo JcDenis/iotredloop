@@ -2087,10 +2087,17 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
-        "label": "Automatique",
+        "label": "Chauffage",
         "value": "automatic",
+        "type": "str"
+      },
+      {
+        "label": "Climatisation",
+        "value": "cool",
         "type": "str"
       },
       {
@@ -2113,6 +2120,7 @@
     "topic": "heating",
     "topicType": "str",
     "className": "",
+    "typeIsComboBox": true,
     "x": 1740,
     "y": 360,
     "wires": [
