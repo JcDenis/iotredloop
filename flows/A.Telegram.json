@@ -3317,17 +3317,17 @@
     "rules": [
       {
         "t": "set",
-        "p": "payload.chatId",
-        "pt": "msg",
-        "to": "devices[msg.bucket]telegram.message.id",
-        "tot": "global"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "old_payload",
         "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload.chatId",
+        "pt": "msg",
+        "to": "devices[msg.bucket]telegram.message.id",
+        "tot": "global"
       },
       {
         "t": "delete",
