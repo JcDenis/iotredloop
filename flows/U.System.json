@@ -475,7 +475,6 @@
       "3cc31621bae4b8f4",
       "fad6ea5928c43d20",
       "c44490a40f109a5c",
-      "14f915e43eee9cb9",
       "3373b870924b043e",
       "e26532940aaa52c6",
       "b4802ba3090bfb72",
@@ -487,11 +486,15 @@
       "8009a084ca3785ef",
       "f53cc6991fe5640c",
       "c0a84f51998336e3",
-      "da26fce301e2b672"
+      "da26fce301e2b672",
+      "fb5a869082c28238",
+      "4e15e2ceec7f8bf0",
+      "b70d53e7c8c8615f",
+      "0ca8ceaa6a406075"
     ],
     "x": 94,
     "y": 3679,
-    "w": 2072,
+    "w": 2472,
     "h": 262
   },
   {
@@ -5018,7 +5021,7 @@
     "y": 3780,
     "wires": [
       [
-        "fad6ea5928c43d20"
+        "fb5a869082c28238"
       ]
     ]
   },
@@ -5092,41 +5095,6 @@
     ]
   },
   {
-    "id": "14f915e43eee9cb9",
-    "type": "change",
-    "z": "677f66663a198839",
-    "g": "57bf8eefe70206c0",
-    "name": "add",
-    "rules": [
-      {
-        "t": "set",
-        "p": "tmp",
-        "pt": "msg",
-        "to": "$split(payload.timer.path,'/')",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "#:(onMemory)::timers[msg.parts.index]",
-        "pt": "flow",
-        "to": "{\t    \"Scène\":msg.tmp[0],\t    \"Pièce\":msg.tmp[1],\t    \"Equipement\":msg.tmp[3],\t    \"Champs\":msg.tmp[2],\t    \"Fin\":msg.date\t    }",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1570,
-    "y": 3720,
-    "wires": [
-      [
-        "3373b870924b043e"
-      ]
-    ]
-  },
-  {
     "id": "3373b870924b043e",
     "type": "join",
     "z": "677f66663a198839",
@@ -5147,7 +5115,7 @@
     "reduceInit": "",
     "reduceInitType": "",
     "reduceFixup": "",
-    "x": 1730,
+    "x": 2130,
     "y": 3720,
     "wires": [
       [
@@ -5182,7 +5150,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1910,
+    "x": 2310,
     "y": 3720,
     "wires": [
       [
@@ -5204,7 +5172,7 @@
     "maxrows": 0,
     "autocols": true,
     "columns": [],
-    "x": 2090,
+    "x": 2490,
     "y": 3780,
     "wires": [
       []
@@ -5493,7 +5461,7 @@
     "y": 3720,
     "wires": [
       [
-        "14f915e43eee9cb9"
+        "4e15e2ceec7f8bf0"
       ]
     ]
   },
@@ -12389,5 +12357,134 @@
     "x": 615,
     "y": 4080,
     "wires": []
+  },
+  {
+    "id": "fb5a869082c28238",
+    "type": "trigger",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "wait 500 ms",
+    "op1": "",
+    "op2": "",
+    "op1type": "nul",
+    "op2type": "payl",
+    "duration": "500",
+    "extend": true,
+    "overrideDelay": false,
+    "units": "ms",
+    "reset": "",
+    "bytopic": "all",
+    "topic": "topic",
+    "outputs": 1,
+    "x": 290,
+    "y": 3780,
+    "wires": [
+      [
+        "fad6ea5928c43d20"
+      ]
+    ]
+  },
+  {
+    "id": "4e15e2ceec7f8bf0",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "payload.timer.path",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "$split(msg.metric,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "scene",
+        "pt": "msg",
+        "to": "metric[0]",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "msg.metric[1]&'/'&msg.metric[2]&'/'&msg.metric[3]",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1570,
+    "y": 3720,
+    "wires": [
+      [
+        "b70d53e7c8c8615f"
+      ]
+    ]
+  },
+  {
+    "id": "b70d53e7c8c8615f",
+    "type": "link call",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "",
+    "links": [
+      "025e219749a67439"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 1770,
+    "y": 3720,
+    "wires": [
+      [
+        "0ca8ceaa6a406075"
+      ]
+    ]
+  },
+  {
+    "id": "0ca8ceaa6a406075",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "$split(msg.payload.timer.path,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "#:(onMemory)::timers[msg.parts.index]",
+        "pt": "flow",
+        "to": "{\t    \"Scène\":msg.scene,\t    \"Pièce\":msg.trans.bucket,\t    \"Equipement\":msg.trans.measurement,\t    \"Champs\":msg.trans.field,\t    \"Fin\":msg.date\t    }",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1970,
+    "y": 3720,
+    "wires": [
+      [
+        "3373b870924b043e"
+      ]
+    ]
   }
 ]

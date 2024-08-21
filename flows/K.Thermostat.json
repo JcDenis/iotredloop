@@ -8432,7 +8432,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "e6edd4684b272434",
-    "name": "thermostat / cold setpoint  / number / 0",
+    "name": "thermostat / cold setpoint  / number / 18",
     "rules": [
       {
         "t": "set",
@@ -8452,7 +8452,7 @@
         "t": "set",
         "p": "default",
         "pt": "msg",
-        "to": "0",
+        "to": "18",
         "tot": "num"
       }
     ],
@@ -9481,7 +9481,7 @@
     "type": "comment",
     "z": "80f2ffd4953c67e9",
     "g": "e6edd4684b272434",
-    "name": "set \"cold setpoint\" to 0 to disable it",
+    "name": "set \"cold setpoint\" to 18 to disable it",
     "info": "",
     "x": 260,
     "y": 480,
