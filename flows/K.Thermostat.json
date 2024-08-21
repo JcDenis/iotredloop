@@ -134,7 +134,7 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 3384,
+    "w": 3684,
     "h": 2174
   },
   {
@@ -481,11 +481,13 @@
       "b74bf0ca5e271336",
       "f914f5311d82ce56",
       "e0613fa53ec99a7d",
-      "b0670866409f1f18"
+      "b0670866409f1f18",
+      "e6d722a527fd1dc8",
+      "ea1b7dbf3573fd5e"
     ],
     "x": 1334,
     "y": 199,
-    "w": 2092,
+    "w": 2392,
     "h": 2122
   },
   {
@@ -6766,7 +6768,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 41,
+    "order": 39,
     "width": "6",
     "height": "1",
     "name": "seens",
@@ -7401,13 +7403,6 @@
     "rules": [
       {
         "t": "set",
-        "p": "old_payload",
-        "pt": "msg",
-        "to": "payload",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
         "p": "payload",
         "pt": "msg",
         "to": "metrics",
@@ -7573,6 +7568,13 @@
     "rules": [
       {
         "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "$substring(msg.metric,1)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
         "p": "options",
         "pt": "msg",
         "to": "thermostat.options",
@@ -7615,7 +7617,9 @@
     "x": 3350,
     "y": 2220,
     "wires": [
-      []
+      [
+        "ea1b7dbf3573fd5e"
+      ]
     ]
   },
   {
@@ -8368,7 +8372,7 @@
         "t": "set",
         "p": "metric",
         "pt": "msg",
-        "to": "msg.bucket&'/'&msg.measurement&'/'&msg.field",
+        "to": "'/'&msg.bucket&'/'&msg.measurement&'/'&msg.field",
         "tot": "jsonata"
       }
     ],
@@ -8575,7 +8579,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "272756073495f0a8",
     "name": "thermostat compute cool request",
-    "func": "// 26in 30out 23set : 30-23+26-23 : 30+26-(2x23) : 56-46 : 10\n// 23in 27out 23set : 27+23-(2x23) : 50-46 : 4\n// 24in 25out 23set : 25+24-(2x23) : 49-46 : 3\n// 24in 25out 24set : 49-48 : 1\n// 24in 25out 19set : 49-38 : 11\n// 26in 30out 0set  : 30+0-(2x26) : 30-56 : -26\n\nvar calcul = msg.th['outdoor temperature'] + msg.th['indoor temperature'] - 2 * msg.th['temperature setpoint'] - 5;\ncalcul = calcul.toFixed(1);\n\n// positive result for heat request\nmsg.th.compute = calcul;\n\nif (msg.th.compute > 0) {\n    node.status({\n        fill: \"blue\", shape: \"ring\", text: msg.th.bucket+' cool resquest at '+msg.th.compute\n    });\n}\nif (msg.th.compute <= 0) {\n    node.status({\n        fill: \"green\", shape: \"ring\", text: msg.th.bucket+' at '+msg.th.compute\n    });\n}\n\nreturn msg;",
+    "func": "// compute temperatures\nvar interieur = msg.th['indoor temperature'] - msg.th['temperature setpoint'] - 2;\nvar exterieur = (msg.th['outdoor temperature'] - msg.th['temperature setpoint']) *3;\nvar compute = interieur + exterieur;\ncompute = compute.toFixed(1);\n\nmsg.th.compute = compute;\n\n//var calcul = msg.th['outdoor temperature'] + msg.th['indoor temperature'] - 2 * msg.th['temperature setpoint'] - 5;\n//calcul = calcul.toFixed(1);\n//msg.th.compute = calcul;\n\nif (msg.th.compute > 0) {\n    node.status({\n        fill: \"blue\", shape: \"ring\", text: msg.th.bucket+' cool resquest at '+msg.th.compute\n    });\n}\nif (msg.th.compute <= 0) {\n    node.status({\n        fill: \"green\", shape: \"ring\", text: msg.th.bucket+' at '+msg.th.compute\n    });\n}\n\nreturn msg;",
     "outputs": 1,
     "timeout": "",
     "noerr": 0,
@@ -10373,6 +10377,54 @@
     ],
     "x": 3035,
     "y": 5520,
+    "wires": []
+  },
+  {
+    "id": "e6d722a527fd1dc8",
+    "type": "inject",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "manual - reload options",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "str",
+    "x": 1680,
+    "y": 2280,
+    "wires": [
+      [
+        "0711217590341f99"
+      ]
+    ]
+  },
+  {
+    "id": "ea1b7dbf3573fd5e",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "ui - thermostat - options",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 3570,
+    "y": 2220,
     "wires": []
   }
 ]

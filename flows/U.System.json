@@ -490,7 +490,8 @@
       "fb5a869082c28238",
       "4e15e2ceec7f8bf0",
       "b70d53e7c8c8615f",
-      "0ca8ceaa6a406075"
+      "0ca8ceaa6a406075",
+      "970c53cf60f3037d"
     ],
     "x": 94,
     "y": 3679,
@@ -5461,7 +5462,7 @@
     "y": 3720,
     "wires": [
       [
-        "4e15e2ceec7f8bf0"
+        "970c53cf60f3037d"
       ]
     ]
   },
@@ -12470,7 +12471,7 @@
         "t": "set",
         "p": "#:(onMemory)::timers[msg.parts.index]",
         "pt": "flow",
-        "to": "{\t    \"Scène\":msg.scene,\t    \"Pièce\":msg.trans.bucket,\t    \"Equipement\":msg.trans.measurement,\t    \"Champs\":msg.trans.field,\t    \"Fin\":msg.date\t    }",
+        "to": "{\t    \"Scène\":msg.trans.scene,\t    \"Pièce\":msg.trans.bucket,\t    \"Equipement\":msg.trans.measurement,\t    \"Champs\":msg.trans.field,\t    \"Fin\":msg.date\t    }",
         "tot": "jsonata"
       }
     ],
@@ -12484,6 +12485,34 @@
     "wires": [
       [
         "3373b870924b043e"
+      ]
+    ]
+  },
+  {
+    "id": "970c53cf60f3037d",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "57bf8eefe70206c0",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "payload.timer.path",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1570,
+    "y": 3760,
+    "wires": [
+      [
+        "b70d53e7c8c8615f"
       ]
     ]
   }
