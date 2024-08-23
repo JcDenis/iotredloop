@@ -488,7 +488,6 @@
       "c0a84f51998336e3",
       "da26fce301e2b672",
       "fb5a869082c28238",
-      "4e15e2ceec7f8bf0",
       "b70d53e7c8c8615f",
       "0ca8ceaa6a406075",
       "970c53cf60f3037d"
@@ -12364,73 +12363,24 @@
     "type": "trigger",
     "z": "677f66663a198839",
     "g": "57bf8eefe70206c0",
-    "name": "wait 500 ms",
+    "name": "wait 1s",
     "op1": "",
     "op2": "",
     "op1type": "nul",
     "op2type": "payl",
-    "duration": "500",
+    "duration": "1",
     "extend": true,
     "overrideDelay": false,
-    "units": "ms",
+    "units": "s",
     "reset": "",
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 290,
+    "x": 640,
     "y": 3780,
     "wires": [
       [
         "fad6ea5928c43d20"
-      ]
-    ]
-  },
-  {
-    "id": "4e15e2ceec7f8bf0",
-    "type": "change",
-    "z": "677f66663a198839",
-    "g": "57bf8eefe70206c0",
-    "name": "metric",
-    "rules": [
-      {
-        "t": "set",
-        "p": "metric",
-        "pt": "msg",
-        "to": "payload.timer.path",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "metric",
-        "pt": "msg",
-        "to": "$split(msg.metric,'/')",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "scene",
-        "pt": "msg",
-        "to": "metric[0]",
-        "tot": "msg"
-      },
-      {
-        "t": "set",
-        "p": "metric",
-        "pt": "msg",
-        "to": "msg.metric[1]&'/'&msg.metric[2]&'/'&msg.metric[3]",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 1570,
-    "y": 3720,
-    "wires": [
-      [
-        "b70d53e7c8c8615f"
       ]
     ]
   },
@@ -12471,7 +12421,7 @@
         "t": "set",
         "p": "#:(onMemory)::timers[msg.parts.index]",
         "pt": "flow",
-        "to": "{\t    \"Scène\":msg.trans.scene,\t    \"Pièce\":msg.trans.bucket,\t    \"Equipement\":msg.trans.measurement,\t    \"Champs\":msg.trans.field,\t    \"Fin\":msg.date\t    }",
+        "to": "{\t    \"Scène\":msg.trans.scene,\t    \"Chemin\":msg.trans.path,\t    \"Fin\":msg.date\t    }",
         "tot": "jsonata"
       }
     ],
@@ -12509,7 +12459,7 @@
     "to": "",
     "reg": false,
     "x": 1570,
-    "y": 3760,
+    "y": 3720,
     "wires": [
       [
         "b70d53e7c8c8615f"
