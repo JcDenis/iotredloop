@@ -8579,7 +8579,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "272756073495f0a8",
     "name": "thermostat compute cool request",
-    "func": "// compute temperatures\nvar interieur = msg.th['indoor temperature'] - msg.th['temperature setpoint'] - 2;\nvar exterieur = (msg.th['outdoor temperature'] - msg.th['temperature setpoint']) *3;\nvar compute = interieur + exterieur;\ncompute = compute.toFixed(1);\n\nmsg.th.compute = compute;\n\n//var calcul = msg.th['outdoor temperature'] + msg.th['indoor temperature'] - 2 * msg.th['temperature setpoint'] - 5;\n//calcul = calcul.toFixed(1);\n//msg.th.compute = calcul;\n\nif (msg.th.compute > 0) {\n    node.status({\n        fill: \"blue\", shape: \"ring\", text: msg.th.bucket+' cool resquest at '+msg.th.compute\n    });\n}\nif (msg.th.compute <= 0) {\n    node.status({\n        fill: \"green\", shape: \"ring\", text: msg.th.bucket+' at '+msg.th.compute\n    });\n}\n\nreturn msg;",
+    "func": "// compute temperatures\nvar interieur = msg.th['indoor temperature'] - msg.th['temperature setpoint'] - 2;\nvar exterieur = (msg.th['outdoor temperature'] - msg.th['temperature setpoint']) *2;\nvar compute = interieur + exterieur;\ncompute = compute.toFixed(1);\n\nmsg.th.compute = compute;\n\n//var calcul = msg.th['outdoor temperature'] + msg.th['indoor temperature'] - 2 * msg.th['temperature setpoint'] - 5;\n//calcul = calcul.toFixed(1);\n//msg.th.compute = calcul;\n\nif (msg.th.compute > 0) {\n    node.status({\n        fill: \"blue\", shape: \"ring\", text: msg.th.bucket+' cool resquest at '+msg.th.compute\n    });\n}\nif (msg.th.compute <= 0) {\n    node.status({\n        fill: \"green\", shape: \"ring\", text: msg.th.bucket+' at '+msg.th.compute\n    });\n}\n\nreturn msg;",
     "outputs": 1,
     "timeout": "",
     "noerr": 0,
