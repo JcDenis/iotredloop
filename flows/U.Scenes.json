@@ -319,7 +319,8 @@
       "4b6a5d60e2d13046",
       "51fd890f206eb658",
       "9e20d3f498cdecdb",
-      "82b97ac85ee0461e"
+      "82b97ac85ee0461e",
+      "46ef1597d55e6f33"
     ],
     "x": 74,
     "y": 5979,
@@ -467,7 +468,8 @@
       "5e78b5bb6e312f78",
       "26785f8d855e5ba6",
       "6c449a3408acee90",
-      "d7f64b57a1fb0517"
+      "d7f64b57a1fb0517",
+      "b774564805fcc717"
     ],
     "x": 74,
     "y": 5559,
@@ -5656,12 +5658,13 @@
     "arraySplt": 1,
     "arraySpltType": "len",
     "stream": false,
-    "addname": "type",
+    "addname": "field",
+    "property": "payload",
     "x": 360,
     "y": 6140,
     "wires": [
       [
-        "c7bd298ffb4de55f"
+        "46ef1597d55e6f33"
       ]
     ]
   },
@@ -5848,7 +5851,7 @@
         "t": "set",
         "p": "type",
         "pt": "msg",
-        "to": "{\t    \"label\":msg.type,\t    \"value\":msg.type\t    }",
+        "to": "{\t    \"label\":msg.trans,\t    \"value\":msg.field\t    }",
         "tot": "jsonata"
       },
       {
@@ -8527,12 +8530,13 @@
     "arraySplt": 1,
     "arraySpltType": "len",
     "stream": false,
-    "addname": "type",
+    "addname": "field",
+    "property": "payload",
     "x": 360,
     "y": 5660,
     "wires": [
       [
-        "2ff8057143b92a16"
+        "b774564805fcc717"
       ]
     ]
   },
@@ -8547,7 +8551,7 @@
         "t": "set",
         "p": "type",
         "pt": "msg",
-        "to": "{\t    \"label\":msg.type,\t    \"value\":msg.type\t    }",
+        "to": "{\t    \"label\":msg.trans,\t    \"value\":msg.field\t    }",
         "tot": "jsonata"
       },
       {
@@ -13472,6 +13476,44 @@
     "wires": [
       [
         "af0dcb4755815ad4"
+      ]
+    ]
+  },
+  {
+    "id": "b774564805fcc717",
+    "type": "link call",
+    "z": "2365e16185f43e03",
+    "g": "55a7f287721494a0",
+    "name": "",
+    "links": [
+      "df0e4ab2e1efc286"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 740,
+    "y": 5660,
+    "wires": [
+      [
+        "2ff8057143b92a16"
+      ]
+    ]
+  },
+  {
+    "id": "46ef1597d55e6f33",
+    "type": "link call",
+    "z": "2365e16185f43e03",
+    "g": "77a176666a9075c0",
+    "name": "",
+    "links": [
+      "df0e4ab2e1efc286"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 740,
+    "y": 6140,
+    "wires": [
+      [
+        "c7bd298ffb4de55f"
       ]
     ]
   }
