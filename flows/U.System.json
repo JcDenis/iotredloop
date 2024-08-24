@@ -941,8 +941,8 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "",
-        "tot": "str"
+        "to": "false",
+        "tot": "bool"
       },
       {
         "t": "set",

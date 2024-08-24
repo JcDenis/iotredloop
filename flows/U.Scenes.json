@@ -6480,6 +6480,8 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
         "label": "» recharger",
@@ -6491,6 +6493,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
+    "typeIsComboBox": true,
     "x": 4140,
     "y": 2120,
     "wires": [

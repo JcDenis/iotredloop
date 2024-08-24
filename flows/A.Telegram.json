@@ -388,7 +388,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       }
     ],
@@ -476,7 +476,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       },
       {
@@ -568,7 +568,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       },
       {
@@ -685,7 +685,7 @@
       },
       {
         "t": "set",
-        "p": "query.bucket",
+        "p": "#:(onMemory)::query.bucket",
         "pt": "flow",
         "to": "bucket",
         "tot": "msg"
@@ -933,7 +933,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "query.measurement",
+        "p": "#:(onMemory)::query.measurement",
         "pt": "flow",
         "to": "payload.content",
         "tot": "msg"
@@ -961,7 +961,7 @@
     "rules": [
       {
         "t": "delete",
-        "p": "query.measurement",
+        "p": "#:(onMemory)::query.measurement",
         "pt": "flow"
       }
     ],
@@ -984,7 +984,7 @@
     "z": "52347795767acd3f",
     "g": "6a1e1fb203c6236a",
     "name": "has measurement",
-    "property": "query.measurement",
+    "property": "#:(onMemory)::query.measurement",
     "propertyType": "flow",
     "rules": [
       {
@@ -1082,7 +1082,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       },
       {
@@ -1123,7 +1123,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -1173,7 +1173,7 @@
     "z": "52347795767acd3f",
     "g": "6a1e1fb203c6236a",
     "name": "has measurement",
-    "property": "query.measurement",
+    "property": "#:(onMemory)::query.measurement",
     "propertyType": "flow",
     "rules": [
       {
@@ -1238,7 +1238,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -1334,7 +1334,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       }
     ],
@@ -1362,7 +1362,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -1395,7 +1395,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       },
       {
@@ -1521,7 +1521,7 @@
         "t": "set",
         "p": "tmp",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -1584,7 +1584,14 @@
         "t": "set",
         "p": "payload.caption",
         "pt": "msg",
-        "to": "\"snapshot \" & flow.query.bucket",
+        "to": "#:(onMemory)::query.bucket",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "payload.caption",
+        "pt": "msg",
+        "to": "\"snapshot \" & msg.payload.caption",
         "tot": "jsonata"
       },
       {
@@ -1644,7 +1651,7 @@
       },
       {
         "t": "delete",
-        "p": "query",
+        "p": "#:(onMemory)::query",
         "pt": "flow"
       },
       {
@@ -1683,7 +1690,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "query.measurement",
+        "p": "#:(onMemory)::query.measurement",
         "pt": "flow",
         "to": "payload.content",
         "tot": "msg"
@@ -1730,7 +1737,7 @@
     "z": "52347795767acd3f",
     "g": "6a1e1fb203c6236a",
     "name": "has measurement",
-    "property": "query.measurement",
+    "property": "#:(onMemory)::query.measurement",
     "propertyType": "flow",
     "rules": [
       {
@@ -1754,7 +1761,7 @@
     "z": "52347795767acd3f",
     "g": "6a1e1fb203c6236a",
     "name": "has measurement",
-    "property": "query.measurement",
+    "property": "#:(onMemory)::query.measurement",
     "propertyType": "flow",
     "rules": [
       {
@@ -1778,7 +1785,7 @@
     "z": "52347795767acd3f",
     "g": "6a1e1fb203c6236a",
     "name": "has measurement",
-    "property": "query.measurement",
+    "property": "#:(onMemory)::query.measurement",
     "propertyType": "flow",
     "rules": [
       {
@@ -1943,7 +1950,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -2014,7 +2021,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -2263,7 +2270,7 @@
         "t": "set",
         "p": "bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       },
       {
@@ -2334,7 +2341,7 @@
         "t": "set",
         "p": "scene.bucket",
         "pt": "msg",
-        "to": "query.bucket",
+        "to": "#:(onMemory)::query.bucket",
         "tot": "flow"
       }
     ],

@@ -200,12 +200,12 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/pieces",
     "icon": "door",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "0e53487482752cfe",
     "order": 1,
     "className": "",
     "visible": true,
-    "disabled": "false"
+    "disabled": false
   },
   {
     "id": "36396f5285df476c",
@@ -235,7 +235,8 @@
       "pagePadding": "8px",
       "groupGap": "8px",
       "groupBorderRadius": "12px",
-      "widgetGap": "4px"
+      "widgetGap": "4px",
+      "density": "comfortable"
     }
   },
   {
@@ -299,7 +300,7 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/reglage",
     "icon": "cog",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "0e53487482752cfe",
     "order": 3,
     "className": "",
@@ -352,7 +353,7 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/config",
     "icon": "tune",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "0e53487482752cfe",
     "order": 4,
     "className": "",
@@ -664,11 +665,11 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/agenda",
     "icon": "calendar",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "0e53487482752cfe",
     "order": 2,
     "className": "",
-    "visible": true,
+    "visible": "true",
     "disabled": "false"
   },
   {
@@ -759,11 +760,11 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/entities",
     "icon": "auto-fix",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "b9e3784065d1d1b2",
     "order": 5,
     "className": "",
-    "visible": true,
+    "visible": "true",
     "disabled": "false"
   },
   {
@@ -895,12 +896,12 @@
     "ui": "2d75e4809d2a6fbf",
     "path": "/scenes",
     "icon": "puzzle",
-    "layout": "flex",
+    "layout": "notebook",
     "theme": "b9e3784065d1d1b2",
     "order": 6,
     "className": "",
-    "visible": true,
-    "disabled": false
+    "visible": "true",
+    "disabled": "false"
   },
   {
     "id": "86da7af07264458b",

@@ -1947,7 +1947,7 @@
     "rules": [
       {
         "t": "set",
-        "p": "ac[msg.bucket]",
+        "p": "#:(onMemory)::ac[msg.bucket]",
         "pt": "flow",
         "to": "{}",
         "tot": "jsonata"

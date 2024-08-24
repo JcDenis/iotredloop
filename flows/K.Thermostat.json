@@ -3306,7 +3306,7 @@
         "t": "set",
         "p": "th",
         "pt": "msg",
-        "to": "thermostattest",
+        "to": "#:(onMemory)::thermostattest",
         "tot": "flow"
       },
       {
@@ -3318,7 +3318,7 @@
       },
       {
         "t": "set",
-        "p": "thermostattest",
+        "p": "#:(onMemory)::thermostattest",
         "pt": "flow",
         "to": "th",
         "tot": "msg"
@@ -3353,7 +3353,7 @@
       },
       {
         "t": "set",
-        "p": "thermostattest",
+        "p": "#:(onMemory)::thermostattest",
         "pt": "flow",
         "to": "th",
         "tot": "msg"
@@ -3384,7 +3384,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['indoor temperature']",
+        "to": "#:(onMemory)::thermostattest['indoor temperature']",
         "tot": "flow"
       }
     ],
@@ -3459,7 +3459,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['outdoor temperature']",
+        "to": "#:(onMemory)::thermostattest['outdoor temperature']",
         "tot": "flow"
       }
     ],
@@ -3567,7 +3567,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['temperature setpoint']",
+        "to": "#:(onMemory)::thermostattest['temperature setpoint']",
         "tot": "flow"
       }
     ],
@@ -3595,7 +3595,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['indoor coefficient']",
+        "to": "#:(onMemory)::thermostattest['indoor coefficient']",
         "tot": "flow"
       }
     ],
@@ -3623,7 +3623,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['outdoor coefficient']",
+        "to": "#:(onMemory)::thermostattest['outdoor coefficient']",
         "tot": "flow"
       }
     ],
@@ -3651,7 +3651,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['preheat time']",
+        "to": "#:(onMemory)::thermostattest['preheat time']",
         "tot": "flow"
       }
     ],
@@ -3679,7 +3679,7 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "thermostattest['cycle time']",
+        "to": "#:(onMemory)::thermostattest['cycle time']",
         "tot": "flow"
       }
     ],
@@ -6965,7 +6965,7 @@
     "g": "bb2ebd173a2ba06c",
     "name": "150 ms",
     "pauseType": "delay",
-    "timeout": "150",
+    "timeout": "250",
     "timeoutUnits": "milliseconds",
     "rate": "1",
     "nbRateUnits": "1",
@@ -7410,14 +7410,14 @@
       },
       {
         "t": "set",
-        "p": "thermostat.options",
+        "p": "#:(onMemory)::thermostat.options",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
       },
       {
         "t": "set",
-        "p": "thermostat.options[0]",
+        "p": "#:(onMemory)::thermostat.options[0]",
         "pt": "flow",
         "to": "{\t    'label': 'non assigné',\t    'value': ''\t}",
         "tot": "jsonata"
@@ -7577,7 +7577,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -7603,7 +7603,7 @@
       },
       {
         "t": "set",
-        "p": "thermostat.options",
+        "p": "#:(onMemory)::thermostat.options",
         "pt": "flow",
         "to": "options",
         "tot": "msg"
@@ -7633,7 +7633,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -7722,7 +7722,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -7823,7 +7823,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -7891,7 +7891,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -7959,7 +7959,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {
@@ -9366,7 +9366,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "thermostat.options",
+        "to": "#:(onMemory)::thermostat.options",
         "tot": "flow"
       },
       {

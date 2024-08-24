@@ -2056,11 +2056,17 @@
     "outs": "end",
     "topic": "reset timer",
     "topicType": "str",
-    "thumbLabel": true,
+    "thumbLabel": "true",
+    "showTicks": "false",
     "min": "1",
     "max": "30",
     "step": "0.5",
     "className": "",
+    "iconPrepend": "",
+    "iconAppend": "",
+    "color": "",
+    "colorTrack": "",
+    "colorThumb": "",
     "x": 1130,
     "y": 300,
     "wires": [
@@ -4798,6 +4804,8 @@
     "height": "1",
     "passthru": false,
     "multiple": false,
+    "chips": false,
+    "clearable": false,
     "options": [
       {
         "label": "» recharger",
@@ -4809,6 +4817,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
+    "typeIsComboBox": true,
     "x": 2610,
     "y": 540,
     "wires": [
@@ -5011,13 +5020,18 @@
     "chartType": "line",
     "category": "_field",
     "categoryType": "property",
+    "xAxisLabel": "",
     "xAxisProperty": "_time",
     "xAxisPropertyType": "msg",
     "xAxisType": "time",
+    "xAxisFormat": "",
+    "xAxisFormatType": "auto",
+    "yAxisLabel": "",
     "yAxisProperty": "_value",
     "ymin": "",
     "ymax": "",
     "action": "replace",
+    "stackSeries": false,
     "pointShape": "false",
     "pointRadius": "2",
     "showLegend": false,
@@ -5035,7 +5049,15 @@
       "#9467bd",
       "#c5b0d5"
     ],
-    "width": 6,
+    "textColor": [
+      "#666666"
+    ],
+    "textColorDefault": true,
+    "gridColor": [
+      "#e5e5e5"
+    ],
+    "gridColorDefault": true,
+    "width": "6",
     "height": "6",
     "className": "",
     "x": 540,
@@ -17231,8 +17253,8 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "",
-        "tot": "str"
+        "to": "true",
+        "tot": "bool"
       }
     ],
     "action": "",
@@ -17295,14 +17317,11 @@
     "z": "aab0c030de7df5cc",
     "g": "b64c96e257072f51",
     "name": "exception",
-    "property": "room",
+    "property": "payload",
     "propertyType": "msg",
     "rules": [
       {
-        "t": "regex",
-        "v": "(agenda|system)",
-        "vt": "str",
-        "case": false
+        "t": "false"
       },
       {
         "t": "else"
