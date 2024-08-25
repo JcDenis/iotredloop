@@ -1627,7 +1627,7 @@
     "type": "inject",
     "z": "bcb1eeac454a68aa",
     "g": "78d96244e9eac38d",
-    "name": "manual update",
+    "name": "manual - unifi - read version",
     "props": [
       {
         "p": "payload"
@@ -1644,7 +1644,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "str",
-    "x": 1680,
+    "x": 1720,
     "y": 240,
     "wires": [
       [
@@ -1822,7 +1822,7 @@
     "type": "inject",
     "z": "bcb1eeac454a68aa",
     "g": "61d1d619cb7e91c6",
-    "name": "manual update",
+    "name": "manual - unifi - read led",
     "props": [
       {
         "p": "payload"
@@ -1839,7 +1839,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "str",
-    "x": 1680,
+    "x": 1700,
     "y": 420,
     "wires": [
       [

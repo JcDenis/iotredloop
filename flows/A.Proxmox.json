@@ -260,7 +260,7 @@
     ],
     "x": 1534,
     "y": 199,
-    "w": 1932,
+    "w": 2032,
     "h": 142
   },
   {
@@ -3372,7 +3372,7 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 2940,
+    "x": 3040,
     "y": 300,
     "wires": [
       [
@@ -3385,7 +3385,7 @@
     "type": "inject",
     "z": "422511c2793ff288",
     "g": "02f2098631b8f1bc",
-    "name": "manual update",
+    "name": "manual - proxmox - read version",
     "props": [
       {
         "p": "payload"
@@ -3402,7 +3402,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "str",
-    "x": 1660,
+    "x": 1710,
     "y": 240,
     "wires": [
       [
@@ -3424,7 +3424,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 3320,
+    "x": 3420,
     "y": 240,
     "wires": []
   },
@@ -3467,7 +3467,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3110,
+    "x": 3210,
     "y": 300,
     "wires": [
       [
@@ -3583,7 +3583,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1870,
+    "x": 1970,
     "y": 300,
     "wires": [
       [
@@ -3604,7 +3604,7 @@
     "stream": false,
     "addname": "bucket",
     "property": "payload",
-    "x": 2060,
+    "x": 2160,
     "y": 300,
     "wires": [
       [
@@ -3619,7 +3619,7 @@
     "g": "02f2098631b8f1bc",
     "name": "scan buckets to find proxmox and to query it to update values",
     "info": "",
-    "x": 2020,
+    "x": 2120,
     "y": 240,
     "wires": []
   },
@@ -3636,7 +3636,7 @@
     "stream": false,
     "addname": "field",
     "property": "payload",
-    "x": 2450,
+    "x": 2550,
     "y": 300,
     "wires": [
       [
@@ -3664,7 +3664,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2260,
+    "x": 2360,
     "y": 300,
     "wires": [
       [
@@ -3690,7 +3690,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2610,
+    "x": 2710,
     "y": 300,
     "wires": [
       [
@@ -3725,7 +3725,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2770,
+    "x": 2870,
     "y": 300,
     "wires": [
       [
@@ -3743,7 +3743,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 3235,
+    "x": 3335,
     "y": 300,
     "wires": []
   },

@@ -26,7 +26,7 @@
     ],
     "x": 68,
     "y": 1013,
-    "w": 1574,
+    "w": 1614,
     "h": 2174
   },
   {
@@ -184,7 +184,7 @@
     ],
     "x": 94,
     "y": 1579,
-    "w": 1522,
+    "w": 1562,
     "h": 142
   },
   {
@@ -211,11 +211,12 @@
       "6430485715d1b2a6",
       "8c5505de0a4d3dcd",
       "5b6872ce327b1bf3",
-      "1cde90641d601c65"
+      "1cde90641d601c65",
+      "e56c9406efe177ab"
     ],
     "x": 94,
     "y": 1759,
-    "w": 892,
+    "w": 792,
     "h": 562
   },
   {
@@ -245,7 +246,7 @@
     ],
     "x": 94,
     "y": 2359,
-    "w": 802,
+    "w": 842,
     "h": 562
   },
   {
@@ -1212,7 +1213,7 @@
     "reduceInit": "",
     "reduceInitType": "",
     "reduceFixup": "",
-    "x": 780,
+    "x": 820,
     "y": 1620,
     "wires": [
       [
@@ -1233,7 +1234,7 @@
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 1280,
+    "x": 1320,
     "y": 1620,
     "wires": [
       [
@@ -1246,7 +1247,7 @@
     "type": "inject",
     "z": "a1e22fa468f03c15",
     "g": "543a74289e049295",
-    "name": "cron 90 s",
+    "name": "teleinfo - cron 90 s",
     "props": [
       {
         "p": "payload"
@@ -1263,7 +1264,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "date",
-    "x": 210,
+    "x": 230,
     "y": 1620,
     "wires": [
       [
@@ -1320,7 +1321,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 610,
+    "x": 650,
     "y": 1620,
     "wires": [
       [
@@ -1376,7 +1377,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 610,
+    "x": 650,
     "y": 1680,
     "wires": [
       [
@@ -1393,7 +1394,7 @@
     "links": [
       "e340056f7c0ff7e6"
     ],
-    "x": 1575,
+    "x": 1615,
     "y": 1620,
     "wires": []
   },
@@ -1436,7 +1437,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1450,
+    "x": 1490,
     "y": 1620,
     "wires": [
       [
@@ -1464,7 +1465,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 790,
+    "x": 690,
     "y": 1800,
     "wires": [
       []
@@ -1490,7 +1491,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 800,
+    "x": 700,
     "y": 1860,
     "wires": [
       []
@@ -1516,7 +1517,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 790,
+    "x": 690,
     "y": 1920,
     "wires": [
       []
@@ -1550,7 +1551,7 @@
     "checkall": "true",
     "repair": false,
     "outputs": 3,
-    "x": 510,
+    "x": 410,
     "y": 1860,
     "wires": [
       [
@@ -1575,7 +1576,7 @@
     "type": "inject",
     "z": "a1e22fa468f03c15",
     "g": "213d292b79e5fbcc",
-    "name": "Manual init >> DO NOT PRESS UNTIL REALLY NEEDED >>",
+    "name": "manual - teleinfo stat init",
     "props": [
       {
         "p": "payload"
@@ -1592,7 +1593,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "date",
-    "x": 360,
+    "x": 370,
     "y": 2280,
     "wires": [
       [
@@ -1628,7 +1629,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 680,
     "y": 1980,
     "wires": [
       []
@@ -1654,7 +1655,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 790,
+    "x": 690,
     "y": 2040,
     "wires": [
       []
@@ -1680,7 +1681,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 680,
     "y": 2100,
     "wires": [
       []
@@ -1706,7 +1707,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 680,
     "y": 2280,
     "wires": [
       []
@@ -1732,7 +1733,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 790,
+    "x": 690,
     "y": 2220,
     "wires": [
       []
@@ -1758,7 +1759,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 780,
+    "x": 680,
     "y": 2160,
     "wires": [
       []
@@ -1812,7 +1813,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2400,
     "wires": [
       [
@@ -1825,7 +1826,7 @@
     "type": "inject",
     "z": "a1e22fa468f03c15",
     "g": "d0f7ea2cfc4571a3",
-    "name": "cron 60 s",
+    "name": "teleinfo - cron 60 s",
     "props": [
       {
         "p": "payload"
@@ -1842,7 +1843,7 @@
     "topic": "",
     "payload": "",
     "payloadType": "date",
-    "x": 210,
+    "x": 230,
     "y": 2400,
     "wires": [
       [
@@ -1867,7 +1868,7 @@
     "links": [
       "e340056f7c0ff7e6"
     ],
-    "x": 855,
+    "x": 895,
     "y": 2400,
     "wires": []
   },
@@ -1910,7 +1911,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 730,
+    "x": 770,
     "y": 2400,
     "wires": [
       [
@@ -1966,7 +1967,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 460,
+    "x": 500,
     "y": 2460,
     "wires": [
       [
@@ -2022,7 +2023,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2520,
     "wires": [
       [
@@ -2078,7 +2079,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2580,
     "wires": [
       [
@@ -2134,7 +2135,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2640,
     "wires": [
       [
@@ -2190,7 +2191,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2700,
     "wires": [
       [
@@ -2246,7 +2247,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 440,
+    "x": 480,
     "y": 2760,
     "wires": [
       [
@@ -2302,7 +2303,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2820,
     "wires": [
       [
@@ -2358,7 +2359,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 450,
+    "x": 490,
     "y": 2880,
     "wires": [
       [
@@ -2397,7 +2398,7 @@
     "precision": "",
     "retentionPolicy": "",
     "org": "iotredloop",
-    "x": 420,
+    "x": 460,
     "y": 1620,
     "wires": [
       [
@@ -2417,7 +2418,7 @@
     "precision": "",
     "retentionPolicy": "",
     "org": "iotredloop",
-    "x": 400,
+    "x": 440,
     "y": 1680,
     "wires": [
       [
@@ -2779,7 +2780,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 950,
+    "x": 990,
     "y": 1620,
     "wires": [
       [
@@ -2803,7 +2804,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1110,
+    "x": 1150,
     "y": 1620,
     "wires": [
       [
@@ -2818,7 +2819,7 @@
     "g": "543a74289e049295",
     "name": "",
     "info": "",
-    "x": 790,
+    "x": 830,
     "y": 1680,
     "wires": []
   },
@@ -3941,5 +3942,16 @@
         "fa2acb5ac9bb8c8c"
       ]
     ]
+  },
+  {
+    "id": "e56c9406efe177ab",
+    "type": "comment",
+    "z": "a1e22fa468f03c15",
+    "g": "213d292b79e5fbcc",
+    "name": "DO NOT PRESS UNTIL REALLY NEEDED",
+    "info": "",
+    "x": 320,
+    "y": 2220,
+    "wires": []
   }
 ]
