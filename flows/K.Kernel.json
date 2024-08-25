@@ -134,7 +134,7 @@
     ],
     "x": 68,
     "y": 6773,
-    "w": 2044,
+    "w": 2664,
     "h": 194
   },
   {
@@ -417,7 +417,7 @@
     ],
     "x": 94,
     "y": 3499,
-    "w": 1072,
+    "w": 1052,
     "h": 262
   },
   {
@@ -476,7 +476,9 @@
       "b5c48a301d98335a",
       "61d22e09bde69211",
       "503349dbea6cdfc6",
-      "68c1fe82aaee4b1b"
+      "68c1fe82aaee4b1b",
+      "de5de22f333ae09b",
+      "ab62f258e01d8e30"
     ],
     "x": 94,
     "y": 3019,
@@ -499,11 +501,12 @@
       "d40db95f9a154c3a",
       "0f1e413815ecc824",
       "19a5c46ec6c71456",
-      "ea12553cbabf2ffb"
+      "ea12553cbabf2ffb",
+      "acb5a947386c9b74"
     ],
-    "x": 1394,
+    "x": 1834,
     "y": 6799,
-    "w": 692,
+    "w": 872,
     "h": 142
   },
   {
@@ -518,18 +521,21 @@
       "label": true
     },
     "nodes": [
-      "a19b9fbac3e9f89c",
       "e12bb3f8258f4439",
       "b961d989c357e6d6",
       "2cc2cdcf0b1f710e",
       "56d93c268a656fc4",
       "d02f1b2f2c3a2a30",
       "208df23ea752ffdf",
-      "18e9d5a1fd096ab2"
+      "18e9d5a1fd096ab2",
+      "a4f59906627b6ae2",
+      "6e55698d1398bc7c",
+      "529a05416b2791b3",
+      "5bf1d90326c0f62a"
     ],
     "x": 94,
     "y": 6799,
-    "w": 1202,
+    "w": 1642,
     "h": 142
   },
   {
@@ -2680,9 +2686,9 @@
     "type": "comment",
     "z": "ab51b1e8cad7b700",
     "g": "d1b208e623179a25",
-    "name": "MQTT nodered base topic must be same as automate name (default is iotredloop)",
+    "name": "MQTT nodered base topic is automate name (default is iotredloop)",
     "info": "",
-    "x": 860,
+    "x": 1220,
     "y": 6900,
     "wires": []
   },
@@ -3089,15 +3095,15 @@
     "rules": [
       {
         "t": "regex",
-        "v": "^iotredloop",
-        "vt": "str",
+        "v": "automate",
+        "vt": "msg",
         "case": false
       }
     ],
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 1770,
+    "x": 2390,
     "y": 6840,
     "wires": [
       [
@@ -3118,7 +3124,7 @@
       "e942462a899825f8",
       "ff1a30fbddcaa9fd"
     ],
-    "x": 1915,
+    "x": 2535,
     "y": 6900,
     "wires": []
   },
@@ -3133,7 +3139,7 @@
       "a9b3a11e9a293e92",
       "c5465d5f64db4b45"
     ],
-    "x": 1435,
+    "x": 1875,
     "y": 6840,
     "wires": [
       [
@@ -3155,8 +3161,8 @@
     "userProps": "",
     "correl": "",
     "expiry": "",
-    "broker": "51fc92ba27d12eaa",
-    "x": 1980,
+    "broker": "1a33c4adcafb7a63",
+    "x": 2600,
     "y": 6840,
     "wires": []
   },
@@ -3182,7 +3188,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 830,
+    "x": 1270,
     "y": 6840,
     "wires": [
       [],
@@ -3212,8 +3218,8 @@
         "t": "set",
         "p": "source",
         "pt": "msg",
-        "to": "iotredloop",
-        "tot": "str"
+        "to": "about.automate",
+        "tot": "global"
       }
     ],
     "action": "",
@@ -3221,7 +3227,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1080,
+    "x": 1520,
     "y": 6840,
     "wires": [
       [
@@ -3247,7 +3253,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 610,
+    "x": 1050,
     "y": 6840,
     "wires": [
       [
@@ -3267,31 +3273,9 @@
       "f4fed668dbff1da4",
       "206c1fb4a48067df"
     ],
-    "x": 1255,
+    "x": 1695,
     "y": 6840,
     "wires": []
-  },
-  {
-    "id": "a19b9fbac3e9f89c",
-    "type": "mqtt in",
-    "z": "ab51b1e8cad7b700",
-    "g": "d1b208e623179a25",
-    "name": "MQTT nodered",
-    "topic": "iotredloop/#",
-    "qos": "2",
-    "datatype": "utf8",
-    "broker": "51fc92ba27d12eaa",
-    "nl": false,
-    "rap": true,
-    "rh": 0,
-    "inputs": 0,
-    "x": 200,
-    "y": 6840,
-    "wires": [
-      [
-        "18e9d5a1fd096ab2"
-      ]
-    ]
   },
   {
     "id": "0aca727fc835e615",
@@ -4093,25 +4077,7 @@
     "type": "debug",
     "z": "ab51b1e8cad7b700",
     "g": "e9bd98a0b6e0d58c",
-    "name": "journal console only seen",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "payload",
-    "targetType": "msg",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 930,
-    "y": 3660,
-    "wires": []
-  },
-  {
-    "id": "a441e9df790a0c3c",
-    "type": "debug",
-    "z": "ab51b1e8cad7b700",
-    "g": "e9bd98a0b6e0d58c",
-    "name": "journal console only thermostat",
+    "name": "kernel - write to journal - seen",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -4121,6 +4087,24 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 950,
+    "y": 3660,
+    "wires": []
+  },
+  {
+    "id": "a441e9df790a0c3c",
+    "type": "debug",
+    "z": "ab51b1e8cad7b700",
+    "g": "e9bd98a0b6e0d58c",
+    "name": "kernel - write to journal - thermostat",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 960,
     "y": 3600,
     "wires": []
   },
@@ -4129,7 +4113,7 @@
     "type": "debug",
     "z": "ab51b1e8cad7b700",
     "g": "e9bd98a0b6e0d58c",
-    "name": "journal console others",
+    "name": "kernel - write to journal - others",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -4138,7 +4122,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 920,
+    "x": 950,
     "y": 3720,
     "wires": []
   },
@@ -4147,7 +4131,7 @@
     "type": "debug",
     "z": "ab51b1e8cad7b700",
     "g": "e9bd98a0b6e0d58c",
-    "name": "journal console only linky and power",
+    "name": "kernel - write to journal - power",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -4156,7 +4140,7 @@
     "targetType": "msg",
     "statusVal": "",
     "statusType": "auto",
-    "x": 970,
+    "x": 950,
     "y": 3540,
     "wires": []
   },
@@ -4647,7 +4631,7 @@
     "type": "comment",
     "z": "ab51b1e8cad7b700",
     "g": "20b116b788ef3f27",
-    "name": "If more than 12 msg / sec during 4 sec, then lock gate for one sec",
+    "name": "If more than 12 msg / sec during 5 sec, then lock gate for 2 sec",
     "info": "",
     "x": 4090,
     "y": 3420,
@@ -4658,12 +4642,12 @@
     "type": "trigger",
     "z": "ab51b1e8cad7b700",
     "g": "20b116b788ef3f27",
-    "name": "wait 4 s then true",
+    "name": "wait 5 s then true",
     "op1": "",
     "op2": "true",
     "op1type": "nul",
     "op2type": "bool",
-    "duration": "4",
+    "duration": "5",
     "extend": false,
     "overrideDelay": false,
     "units": "s",
@@ -4833,7 +4817,7 @@
     "op2": "open",
     "op1type": "str",
     "op2type": "str",
-    "duration": "1",
+    "duration": "2",
     "extend": true,
     "overrideDelay": false,
     "units": "s",
@@ -6144,7 +6128,7 @@
       "24e4813caee6f465",
       "d40db95f9a154c3a"
     ],
-    "x": 1655,
+    "x": 1825,
     "y": 3120,
     "wires": []
   },
@@ -6477,11 +6461,11 @@
     "statusCmd": "status",
     "persist": false,
     "storeName": "default",
-    "x": 1580,
+    "x": 2020,
     "y": 6840,
     "wires": [
       [
-        "19a5c46ec6c71456"
+        "acb5a947386c9b74"
       ]
     ]
   },
@@ -6577,7 +6561,7 @@
     "links": [
       "0834ba091c1e77d9"
     ],
-    "x": 255,
+    "x": 695,
     "y": 6900,
     "wires": [
       [
@@ -7746,7 +7730,7 @@
     "qToggle": false,
     "persist": false,
     "storeName": "onFile",
-    "x": 410,
+    "x": 850,
     "y": 6840,
     "wires": [
       [
@@ -9286,7 +9270,8 @@
       "6eafb2a9c1ec95c0",
       "804c8129107645c1",
       "49270b06a63f91cf",
-      "4a37f8f670a1c789"
+      "4a37f8f670a1c789",
+      "529a05416b2791b3"
     ],
     "x": 555,
     "y": 960,
@@ -10532,7 +10517,8 @@
       "d4c051fdcf3414f6",
       "d40db95f9a154c3a",
       "3a5d788b6c9b1490",
-      "8f3269222142f0f4"
+      "8f3269222142f0f4",
+      "ab62f258e01d8e30"
     ],
     "x": 1955,
     "y": 1620,
@@ -11906,6 +11892,199 @@
       [
         "3cc6bbbc6844b7b1",
         "ba7189be579ed3f7"
+      ]
+    ]
+  },
+  {
+    "id": "de5de22f333ae09b",
+    "type": "q-gate",
+    "z": "ab51b1e8cad7b700",
+    "g": "20b116b788ef3f27",
+    "name": "gate loop",
+    "controlTopic": "gate loop",
+    "defaultState": "queueing",
+    "openCmd": "open",
+    "closeCmd": "close",
+    "toggleCmd": "toggle",
+    "queueCmd": "close",
+    "defaultCmd": "default",
+    "triggerCmd": "trigger",
+    "flushCmd": "open",
+    "resetCmd": "reset",
+    "peekCmd": "peek",
+    "dropCmd": "drop",
+    "statusCmd": "status",
+    "maxQueueLength": "100",
+    "keepNewest": false,
+    "qToggle": false,
+    "persist": false,
+    "storeName": "onFile",
+    "x": 1700,
+    "y": 3120,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ab62f258e01d8e30",
+    "type": "link in",
+    "z": "ab51b1e8cad7b700",
+    "g": "20b116b788ef3f27",
+    "name": "kernel - undefined metric - gate",
+    "links": [
+      "094771ea30e6c0b6"
+    ],
+    "x": 1555,
+    "y": 3060,
+    "wires": [
+      [
+        "de5de22f333ae09b"
+      ]
+    ]
+  },
+  {
+    "id": "a4f59906627b6ae2",
+    "type": "mqtt in",
+    "z": "ab51b1e8cad7b700",
+    "g": "d1b208e623179a25",
+    "name": "MQTT nodered",
+    "topic": "",
+    "qos": "2",
+    "datatype": "utf8",
+    "broker": "1a33c4adcafb7a63",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 1,
+    "x": 640,
+    "y": 6840,
+    "wires": [
+      [
+        "18e9d5a1fd096ab2"
+      ]
+    ]
+  },
+  {
+    "id": "6e55698d1398bc7c",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "g": "d1b208e623179a25",
+    "name": "mqtt topic",
+    "rules": [
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "about.automate",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "topic",
+        "pt": "msg",
+        "to": "{'topic':msg.topic&'/#','qos':2}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "action",
+        "pt": "msg",
+        "to": "subscribe",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 440,
+    "y": 6840,
+    "wires": [
+      [
+        "a4f59906627b6ae2"
+      ]
+    ]
+  },
+  {
+    "id": "529a05416b2791b3",
+    "type": "link in",
+    "z": "ab51b1e8cad7b700",
+    "g": "d1b208e623179a25",
+    "name": "link in 1",
+    "links": [
+      "a0f0f63b3934f168"
+    ],
+    "x": 135,
+    "y": 6840,
+    "wires": [
+      [
+        "6e55698d1398bc7c"
+      ]
+    ]
+  },
+  {
+    "id": "5bf1d90326c0f62a",
+    "type": "inject",
+    "z": "ab51b1e8cad7b700",
+    "g": "d1b208e623179a25",
+    "name": "manual - mqtt topic",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "str",
+    "x": 230,
+    "y": 6900,
+    "wires": [
+      [
+        "6e55698d1398bc7c"
+      ]
+    ]
+  },
+  {
+    "id": "acb5a947386c9b74",
+    "type": "change",
+    "z": "ab51b1e8cad7b700",
+    "g": "c706245ab487b7e2",
+    "name": "automate",
+    "rules": [
+      {
+        "t": "set",
+        "p": "automate",
+        "pt": "msg",
+        "to": "about.automate",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "automate",
+        "pt": "msg",
+        "to": "'^'&msg.automate",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2200,
+    "y": 6840,
+    "wires": [
+      [
+        "19a5c46ec6c71456"
       ]
     ]
   }
