@@ -69,7 +69,7 @@
       "6e4f87c323cc4659"
     ],
     "x": 94,
-    "y": 6259,
+    "y": 6519,
     "w": 1752,
     "h": 502
   },
@@ -108,10 +108,10 @@
       "b3bc1717c16dc7dc",
       "6f1f772c23d57e24",
       "e653f3ec3dc88a8f",
-      "93075511ad056e6d",
       "8ecd405cd0a1e5ac",
       "3c533bc3592e06b9",
-      "f987d89b8997cf8d"
+      "f987d89b8997cf8d",
+      "57656fc40a9ba454"
     ],
     "x": 68,
     "y": 4613,
@@ -130,11 +130,13 @@
     },
     "nodes": [
       "e6edd4684b272434",
-      "bb2ebd173a2ba06c"
+      "bb2ebd173a2ba06c",
+      "eafad08e39c60266",
+      "f4f5c470dc44c769"
     ],
     "x": 68,
     "y": 173,
-    "w": 3684,
+    "w": 6584,
     "h": 2174
   },
   {
@@ -161,30 +163,6 @@
     "h": 142
   },
   {
-    "id": "93075511ad056e6d",
-    "type": "group",
-    "z": "80f2ffd4953c67e9",
-    "g": "ef2c257bbe04f8d2",
-    "name": "thermostat - trigger - outdoor temperature",
-    "style": {
-      "label": true,
-      "fill": "#ff0000",
-      "fill-opacity": "0.05"
-    },
-    "nodes": [
-      "8bbf52c2a83e09ea",
-      "0a9cb3219b03ca53",
-      "6fbdfc1ab44f9754",
-      "818c3dadf81b379e",
-      "8f03e932f3d0abb1",
-      "5f3bd047f14b97ae"
-    ],
-    "x": 94,
-    "y": 4819,
-    "w": 832,
-    "h": 142
-  },
-  {
     "id": "e653f3ec3dc88a8f",
     "type": "group",
     "z": "80f2ffd4953c67e9",
@@ -207,7 +185,7 @@
       "b7a2b83163ce711a"
     ],
     "x": 94,
-    "y": 4999,
+    "y": 4819,
     "w": 1692,
     "h": 142
   },
@@ -292,12 +270,14 @@
       "bae9495793960012",
       "d93c5182974350b0",
       "ae60f951124d5757",
-      "a21d727b6d73b7f1"
+      "a21d727b6d73b7f1",
+      "f97b5115e1d99d4b",
+      "08830b1bec822cd0"
     ],
     "x": 94,
     "y": 199,
     "w": 1142,
-    "h": 1762
+    "h": 1882
   },
   {
     "id": "8ecd405cd0a1e5ac",
@@ -334,7 +314,7 @@
     ],
     "x": 94,
     "y": 5179,
-    "w": 2752,
+    "w": 2792,
     "h": 202
   },
   {
@@ -441,24 +421,11 @@
       "ff2211c1efd24971",
       "f814aebd5bd599b5",
       "8c3c9bc4a66b1e32",
-      "0711217590341f99",
-      "3930f84bd36fd5aa",
-      "b6f3145afc37707c",
-      "7a9f4d42d5c7497c",
-      "dd517b4d06983aac",
-      "e7dcdd83cf9e08e1",
-      "73dc6a2b0e041f8e",
-      "bcfed6ac5d278d3c",
       "93e874f6e4a1f87a",
-      "fcbda9c625fdecac",
-      "f5cf184989e2cc69",
       "3d40410e159beaab",
       "4565730f04bd7072",
-      "95eb528329f90cf2",
       "79764253e9e92fda",
-      "3e6cd35a857771f8",
       "4ad97596d0efa64b",
-      "f19ecf4219ed5190",
       "33fde1af7428bf26",
       "1d92bf6b8fc98959",
       "25b3542fda8fae4d",
@@ -473,21 +440,25 @@
       "db3ebf0b6421aeae",
       "10c3697bddec1a05",
       "4f0ea1cdd4d0b719",
-      "ad09f7f6ad1acedd",
-      "7bb3239b80bb5650",
       "b87af6e4d9e65d33",
       "aefd619aa22eea0b",
       "bc775d86aa14a73f",
       "b74bf0ca5e271336",
-      "f914f5311d82ce56",
-      "e0613fa53ec99a7d",
-      "b0670866409f1f18",
-      "e6d722a527fd1dc8",
-      "ea1b7dbf3573fd5e"
+      "f8705fb32062a93f",
+      "3afbcb94c2dd9a98",
+      "5058697599c00bfb",
+      "788641b627884830",
+      "2a09806bd2dd8204",
+      "2daacd754d59567f",
+      "2f53d6a12a1b9648",
+      "38b3de42eccb63ea",
+      "cd64045ae78319dc",
+      "74b33297e4369aee",
+      "a3a5880c2003c6cd"
     ],
     "x": 1334,
     "y": 199,
-    "w": 2392,
+    "w": 1962,
     "h": 2122
   },
   {
@@ -784,6 +755,108 @@
     "x": 94,
     "y": 5599,
     "w": 592,
+    "h": 142
+  },
+  {
+    "id": "eafad08e39c60266",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "9cb08113dfb0f712",
+    "name": "thermostat - ui - apertures",
+    "style": {
+      "stroke": "#ff0000",
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "ea1b7dbf3573fd5e",
+      "0711217590341f99",
+      "3930f84bd36fd5aa",
+      "b6f3145afc37707c",
+      "7a9f4d42d5c7497c",
+      "dd517b4d06983aac",
+      "e7dcdd83cf9e08e1",
+      "73dc6a2b0e041f8e",
+      "ad09f7f6ad1acedd",
+      "7bb3239b80bb5650",
+      "e0613fa53ec99a7d",
+      "b0670866409f1f18",
+      "7421f25ff88e96ea",
+      "1e23b9043692efc9",
+      "ed6edb1e6f6e0603",
+      "c1311d74af614a6b",
+      "c5b1171ac4cfb2fa",
+      "f80f5a53d9b07000",
+      "2d0116a7f0e5267e",
+      "47121b9ebadde960",
+      "e770267366a41538"
+    ],
+    "x": 3374,
+    "y": 199,
+    "w": 3252,
+    "h": 262
+  },
+  {
+    "id": "f4f5c470dc44c769",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "9cb08113dfb0f712",
+    "name": "thermostat - ui - outdoors",
+    "style": {
+      "stroke": "#ff0000",
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "99820dc85872f042",
+      "e22365b6f5faa937",
+      "d2068bbda5e20f86",
+      "7b0cbcf02bc8dd7e",
+      "61a21c746c904524",
+      "b5a2ecd26dffba3a",
+      "67d347fd47288266",
+      "64580efef0e57642",
+      "aee1a18c7263ba86",
+      "b0ad0b1193226130",
+      "00f707d1661e4bef",
+      "127c961637b6310d",
+      "354a444bcb3837e0",
+      "3da0bd1cf66878da",
+      "ad6b3250a3541a1f",
+      "3dda93172bdc65d7",
+      "b3e1001ef74f47b3",
+      "713df21fb71f138b"
+    ],
+    "x": 3374,
+    "y": 559,
+    "w": 3092,
+    "h": 202
+  },
+  {
+    "id": "57656fc40a9ba454",
+    "type": "group",
+    "z": "80f2ffd4953c67e9",
+    "g": "ef2c257bbe04f8d2",
+    "name": "thermostat - trigger - outdoor temperature",
+    "style": {
+      "label": true,
+      "fill": "#ff0000",
+      "fill-opacity": "0.05"
+    },
+    "nodes": [
+      "5c2ee7a9a0b1a4f4",
+      "60f65b4b5f4c2cc4",
+      "f425887de67cad57",
+      "7a3b533f0e9d934a",
+      "33151ec7b379db49",
+      "b3f3ee85862b09ef",
+      "5f67fdb103a398c8"
+    ],
+    "x": 94,
+    "y": 4999,
+    "w": 1172,
     "h": 142
   },
   {
@@ -2893,71 +2966,6 @@
     "wires": []
   },
   {
-    "id": "8bbf52c2a83e09ea",
-    "type": "link in",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "thermostat - update - outdoor temperature",
-    "links": [
-      "6b4c87d53563c36d"
-    ],
-    "x": 135,
-    "y": 4920,
-    "wires": [
-      [
-        "0a9cb3219b03ca53"
-      ]
-    ]
-  },
-  {
-    "id": "0a9cb3219b03ca53",
-    "type": "switch",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "trigger",
-    "property": "path",
-    "propertyType": "msg",
-    "rules": [
-      {
-        "t": "eq",
-        "v": "parking/temperature/probe",
-        "vt": "str"
-      },
-      {
-        "t": "eq",
-        "v": "jardin/temperature/probe",
-        "vt": "str"
-      }
-    ],
-    "checkall": "false",
-    "repair": false,
-    "outputs": 2,
-    "x": 270,
-    "y": 4920,
-    "wires": [
-      [
-        "5f3bd047f14b97ae"
-      ],
-      [
-        "5f3bd047f14b97ae"
-      ]
-    ]
-  },
-  {
-    "id": "6fbdfc1ab44f9754",
-    "type": "link out",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "thermostat - update - outdoor temperature",
-    "mode": "link",
-    "links": [
-      "63f9a6d8c925d3d3"
-    ],
-    "x": 575,
-    "y": 4920,
-    "wires": []
-  },
-  {
     "id": "3099e4a17fd21410",
     "type": "link in",
     "z": "80f2ffd4953c67e9",
@@ -2967,7 +2975,7 @@
       "6b4c87d53563c36d"
     ],
     "x": 135,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "b7a2b83163ce711a"
@@ -3002,7 +3010,7 @@
     "to": "",
     "reg": false,
     "x": 1300,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "d09ad27d05d54698",
@@ -3021,7 +3029,7 @@
       "63f9a6d8c925d3d3"
     ],
     "x": 1435,
-    "y": 5100,
+    "y": 4920,
     "wires": []
   },
   {
@@ -3043,7 +3051,7 @@
     "repair": false,
     "outputs": 1,
     "x": 470,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "9eb8cf78caf3141d"
@@ -3062,7 +3070,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 670,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "313fbd5fc01985a5"
@@ -3088,7 +3096,7 @@
     "repair": false,
     "outputs": 1,
     "x": 870,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "b7ffd39578f29c8b"
@@ -3114,7 +3122,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 1080,
-    "y": 5100,
+    "y": 4920,
     "wires": [
       [
         "a2b07c98d61de126"
@@ -3143,7 +3151,7 @@
     "step": 1,
     "className": "",
     "x": 870,
-    "y": 6420,
+    "y": 6680,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3172,7 +3180,7 @@
     "step": 1,
     "className": "",
     "x": 880,
-    "y": 6540,
+    "y": 6800,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3201,7 +3209,7 @@
     "step": 1,
     "className": "",
     "x": 880,
-    "y": 6360,
+    "y": 6620,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3230,7 +3238,7 @@
     "step": 1,
     "className": "",
     "x": 870,
-    "y": 6480,
+    "y": 6740,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3259,7 +3267,7 @@
     "step": "5",
     "className": "",
     "x": 850,
-    "y": 6720,
+    "y": 6980,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3288,7 +3296,7 @@
     "step": "5",
     "className": "",
     "x": 840,
-    "y": 6660,
+    "y": 6920,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3330,7 +3338,7 @@
     "to": "",
     "reg": false,
     "x": 1090,
-    "y": 6360,
+    "y": 6620,
     "wires": [
       [
         "6e4f87c323cc4659"
@@ -3365,7 +3373,7 @@
     "to": "",
     "reg": false,
     "x": 330,
-    "y": 6300,
+    "y": 6560,
     "wires": [
       [
         "67e91e753d3708e2",
@@ -3394,7 +3402,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6420,
+    "y": 6680,
     "wires": [
       [
         "659f9752db0967bc"
@@ -3420,7 +3428,7 @@
     "allowrate": false,
     "outputs": 1,
     "x": 500,
-    "y": 6360,
+    "y": 6620,
     "wires": [
       [
         "c932311ec07112b5",
@@ -3441,7 +3449,7 @@
     "name": "thermostat - ui - test",
     "links": [],
     "x": 135,
-    "y": 6300,
+    "y": 6560,
     "wires": [
       [
         "dc37631fe73fce2a"
@@ -3469,7 +3477,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6540,
+    "y": 6800,
     "wires": [
       [
         "9caafb8c1719d275"
@@ -3498,7 +3506,7 @@
     "topic": "topic",
     "topicType": "msg",
     "x": 170,
-    "y": 6360,
+    "y": 6620,
     "wires": [
       [
         "dc37631fe73fce2a"
@@ -3524,7 +3532,7 @@
     "color": "#717171",
     "className": "",
     "x": 1770,
-    "y": 6300,
+    "y": 6560,
     "wires": []
   },
   {
@@ -3549,7 +3557,7 @@
     "step": 1,
     "className": "",
     "x": 870,
-    "y": 6600,
+    "y": 6860,
     "wires": [
       [
         "d60c017a8962d3f8"
@@ -3577,7 +3585,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6360,
+    "y": 6620,
     "wires": [
       [
         "515b0c184c8a3628"
@@ -3605,7 +3613,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6480,
+    "y": 6740,
     "wires": [
       [
         "13697bbd73295b46"
@@ -3633,7 +3641,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6600,
+    "y": 6860,
     "wires": [
       [
         "f10733a435dc7390"
@@ -3661,7 +3669,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6720,
+    "y": 6980,
     "wires": [
       [
         "c6fdc57a80266f04"
@@ -3689,7 +3697,7 @@
     "to": "",
     "reg": false,
     "x": 670,
-    "y": 6660,
+    "y": 6920,
     "wires": [
       [
         "b7bc73260cea8570"
@@ -3717,7 +3725,7 @@
     "to": "",
     "reg": false,
     "x": 1600,
-    "y": 6300,
+    "y": 6560,
     "wires": [
       [
         "c9291360c0f0b490"
@@ -3736,7 +3744,7 @@
     "linkType": "static",
     "timeout": "30",
     "x": 1340,
-    "y": 6300,
+    "y": 6560,
     "wires": [
       [
         "bf5b9cb6fe9e3550"
@@ -3893,7 +3901,9 @@
         "3683e8f63f0dc5aa",
         "bae9495793960012",
         "d93c5182974350b0",
-        "ae60f951124d5757"
+        "ae60f951124d5757",
+        "f97b5115e1d99d4b",
+        "08830b1bec822cd0"
       ]
     ]
   },
@@ -4985,7 +4995,7 @@
     "to": "",
     "reg": false,
     "x": 760,
-    "y": 1860,
+    "y": 1980,
     "wires": [
       [
         "1707bc7a4bb0daa5"
@@ -5027,7 +5037,7 @@
     "to": "",
     "reg": false,
     "x": 760,
-    "y": 1920,
+    "y": 2040,
     "wires": [
       [
         "1707bc7a4bb0daa5"
@@ -5061,7 +5071,7 @@
     "links": [
       "63f9a6d8c925d3d3"
     ],
-    "x": 2515,
+    "x": 2555,
     "y": 5340,
     "wires": []
   },
@@ -5149,8 +5159,8 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2200,
-    "y": 5340,
+    "x": 2240,
+    "y": 5300,
     "wires": [
       [
         "86cb7c12e7bccf56"
@@ -5184,7 +5194,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2380,
+    "x": 2420,
     "y": 5340,
     "wires": [
       [
@@ -5207,7 +5217,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 2650,
+    "x": 2690,
     "y": 5280,
     "wires": []
   },
@@ -5226,24 +5236,6 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 1580,
-    "y": 5040,
-    "wires": []
-  },
-  {
-    "id": "818c3dadf81b379e",
-    "type": "debug",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "thermostat - trigger - outdoor temperature",
-    "active": false,
-    "tosidebar": true,
-    "console": false,
-    "tostatus": false,
-    "complete": "true",
-    "targetType": "full",
-    "statusVal": "",
-    "statusType": "auto",
-    "x": 720,
     "y": 4860,
     "wires": []
   },
@@ -5838,8 +5830,8 @@
     "y": 240,
     "wires": [
       [
-        "fbb1bdcb44abce21",
-        "4b8267934ced5596"
+        "4b8267934ced5596",
+        "fbb1bdcb44abce21"
       ]
     ]
   },
@@ -6177,13 +6169,23 @@
       },
       {
         "t": "eq",
+        "v": "outdoor 1",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
+        "v": "outdoor 2",
+        "vt": "str"
+      },
+      {
+        "t": "eq",
         "v": "last pilot",
         "vt": "str"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 27,
+    "outputs": 29,
     "x": 1910,
     "y": 600,
     "wires": [
@@ -6259,22 +6261,28 @@
         "4f0ea1cdd4d0b719"
       ],
       [
-        "bcfed6ac5d278d3c"
+        "3afbcb94c2dd9a98"
       ],
       [
-        "f5cf184989e2cc69"
+        "5058697599c00bfb"
       ],
       [
-        "95eb528329f90cf2"
+        "788641b627884830"
       ],
       [
-        "3e6cd35a857771f8"
+        "2a09806bd2dd8204"
       ],
       [
-        "f19ecf4219ed5190"
+        "2daacd754d59567f"
       ],
       [
-        "f914f5311d82ce56"
+        "2f53d6a12a1b9648"
+      ],
+      [
+        "74b33297e4369aee"
+      ],
+      [
+        "a3a5880c2003c6cd"
       ],
       [
         "c4f79cb042dc36a1"
@@ -6289,7 +6297,7 @@
     "name": "",
     "input": "msg.payload",
     "x": 2250,
-    "y": 2160,
+    "y": 2280,
     "wires": [
       [
         "2efa063af4b505d2"
@@ -6317,7 +6325,7 @@
     "to": "",
     "reg": false,
     "x": 2070,
-    "y": 2160,
+    "y": 2280,
     "wires": [
       [
         "26bdcbaa93cfcc27"
@@ -6374,9 +6382,8 @@
     "y": 300,
     "wires": [
       [
-        "6c6cf33417f59f97",
         "39615dab9370d868",
-        "fcbda9c625fdecac"
+        "f8705fb32062a93f"
       ]
     ]
   },
@@ -6768,7 +6775,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 39,
+    "order": 41,
     "width": "6",
     "height": "1",
     "name": "seens",
@@ -6781,7 +6788,7 @@
     "color": "#717171",
     "className": "",
     "x": 2610,
-    "y": 2160,
+    "y": 2280,
     "wires": []
   },
   {
@@ -6805,7 +6812,7 @@
     "to": "",
     "reg": false,
     "x": 2430,
-    "y": 2160,
+    "y": 2280,
     "wires": [
       [
         "f23d5105ca948593"
@@ -7398,9 +7405,16 @@
     "id": "0711217590341f99",
     "type": "change",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "from global",
     "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
       {
         "t": "set",
         "p": "payload",
@@ -7410,14 +7424,14 @@
       },
       {
         "t": "set",
-        "p": "#:(onMemory)::thermostat.options",
+        "p": "#:(onMemory)::thermostat.apertures",
         "pt": "flow",
         "to": "[]",
         "tot": "jsonata"
       },
       {
         "t": "set",
-        "p": "#:(onMemory)::thermostat.options[0]",
+        "p": "#:(onMemory)::thermostat.apertures[0]",
         "pt": "flow",
         "to": "{\t    'label': 'non assigné',\t    'value': ''\t}",
         "tot": "jsonata"
@@ -7428,8 +7442,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1910,
-    "y": 2220,
+    "x": 3890,
+    "y": 360,
     "wires": [
       [
         "3930f84bd36fd5aa"
@@ -7440,8 +7454,8 @@
     "id": "3930f84bd36fd5aa",
     "type": "split",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "",
+    "g": "eafad08e39c60266",
+    "name": "buckets",
     "splt": "\\n",
     "spltType": "str",
     "arraySplt": 1,
@@ -7449,8 +7463,8 @@
     "stream": false,
     "addname": "bucket",
     "property": "payload",
-    "x": 2090,
-    "y": 2220,
+    "x": 4080,
+    "y": 360,
     "wires": [
       [
         "b6f3145afc37707c"
@@ -7461,8 +7475,8 @@
     "id": "b6f3145afc37707c",
     "type": "split",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "",
+    "g": "eafad08e39c60266",
+    "name": "measurements",
     "splt": "\\n",
     "spltType": "str",
     "arraySplt": 1,
@@ -7470,8 +7484,8 @@
     "stream": false,
     "addname": "measurement",
     "property": "payload",
-    "x": 2250,
-    "y": 2220,
+    "x": 4280,
+    "y": 360,
     "wires": [
       [
         "7a9f4d42d5c7497c"
@@ -7482,7 +7496,7 @@
     "id": "7a9f4d42d5c7497c",
     "type": "switch",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "measurement",
     "property": "measurement",
     "propertyType": "msg",
@@ -7496,19 +7510,25 @@
         "t": "eq",
         "v": "photovoltaic",
         "vt": "str"
+      },
+      {
+        "t": "else"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 2,
-    "x": 2440,
-    "y": 2220,
+    "outputs": 3,
+    "x": 4500,
+    "y": 360,
     "wires": [
       [
         "dd517b4d06983aac"
       ],
       [
         "e0613fa53ec99a7d"
+      ],
+      [
+        "c1311d74af614a6b"
       ]
     ]
   },
@@ -7516,7 +7536,7 @@
     "id": "dd517b4d06983aac",
     "type": "split",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "",
     "splt": "\\n",
     "spltType": "str",
@@ -7525,8 +7545,8 @@
     "stream": false,
     "addname": "field",
     "property": "payload",
-    "x": 2630,
-    "y": 2220,
+    "x": 4690,
+    "y": 240,
     "wires": [
       [
         "e7dcdd83cf9e08e1"
@@ -7537,7 +7557,7 @@
     "id": "e7dcdd83cf9e08e1",
     "type": "switch",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "field",
     "property": "field",
     "propertyType": "msg",
@@ -7546,16 +7566,22 @@
         "t": "neq",
         "v": "shutter",
         "vt": "str"
+      },
+      {
+        "t": "else"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 1,
-    "x": 2790,
-    "y": 2220,
+    "outputs": 2,
+    "x": 4850,
+    "y": 240,
     "wires": [
       [
         "ad09f7f6ad1acedd"
+      ],
+      [
+        "f80f5a53d9b07000"
       ]
     ]
   },
@@ -7563,7 +7589,7 @@
     "id": "73dc6a2b0e041f8e",
     "type": "change",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "add",
     "rules": [
       {
@@ -7577,7 +7603,7 @@
         "t": "set",
         "p": "options",
         "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
+        "to": "#:(onMemory)::thermostat.apertures",
         "tot": "flow"
       },
       {
@@ -7603,7 +7629,7 @@
       },
       {
         "t": "set",
-        "p": "#:(onMemory)::thermostat.options",
+        "p": "#:(onMemory)::thermostat.apertures",
         "pt": "flow",
         "to": "options",
         "tot": "msg"
@@ -7614,46 +7640,11 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3350,
-    "y": 2220,
+    "x": 5410,
+    "y": 240,
     "wires": [
       [
-        "ea1b7dbf3573fd5e"
-      ]
-    ]
-  },
-  {
-    "id": "bcfed6ac5d278d3c",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 1800,
-    "wires": [
-      [
-        "93e874f6e4a1f87a"
+        "f80f5a53d9b07000"
       ]
     ]
   },
@@ -7687,62 +7678,6 @@
     "wires": [
       [
         "37aa96c6d80d8ade"
-      ]
-    ]
-  },
-  {
-    "id": "fcbda9c625fdecac",
-    "type": "rbe",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "",
-    "func": "rbe",
-    "gap": "",
-    "start": "",
-    "inout": "out",
-    "septopics": false,
-    "property": "bucket",
-    "topi": "topic",
-    "x": 1730,
-    "y": 2220,
-    "wires": [
-      [
-        "0711217590341f99"
-      ]
-    ]
-  },
-  {
-    "id": "f5cf184989e2cc69",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 1860,
-    "wires": [
-      [
-        "3d40410e159beaab"
       ]
     ]
   },
@@ -7813,41 +7748,6 @@
     ]
   },
   {
-    "id": "95eb528329f90cf2",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 1920,
-    "wires": [
-      [
-        "4565730f04bd7072"
-      ]
-    ]
-  },
-  {
     "id": "79764253e9e92fda",
     "type": "ui-dropdown",
     "z": "80f2ffd4953c67e9",
@@ -7881,41 +7781,6 @@
     ]
   },
   {
-    "id": "3e6cd35a857771f8",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 1980,
-    "wires": [
-      [
-        "79764253e9e92fda"
-      ]
-    ]
-  },
-  {
     "id": "4ad97596d0efa64b",
     "type": "ui-dropdown",
     "z": "80f2ffd4953c67e9",
@@ -7945,41 +7810,6 @@
     "wires": [
       [
         "37aa96c6d80d8ade"
-      ]
-    ]
-  },
-  {
-    "id": "f19ecf4219ed5190",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 2040,
-    "wires": [
-      [
-        "4ad97596d0efa64b"
       ]
     ]
   },
@@ -8365,7 +8195,7 @@
     "id": "ad09f7f6ad1acedd",
     "type": "change",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "metric",
     "rules": [
       {
@@ -8381,8 +8211,8 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2950,
-    "y": 2220,
+    "x": 5010,
+    "y": 240,
     "wires": [
       [
         "7bb3239b80bb5650"
@@ -8393,15 +8223,15 @@
     "id": "7bb3239b80bb5650",
     "type": "link call",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "",
     "links": [
       "025e219749a67439"
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 3150,
-    "y": 2220,
+    "x": 5210,
+    "y": 240,
     "wires": [
       [
         "73dc6a2b0e041f8e"
@@ -8795,7 +8625,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1400,
+    "x": 1440,
     "y": 5280,
     "wires": [
       [
@@ -8811,7 +8641,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 1",
     "rules": [
       {
         "t": "set",
@@ -8847,7 +8677,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 440,
+    "x": 450,
     "y": 5280,
     "wires": [
       [
@@ -8882,7 +8712,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 800,
+    "x": 840,
     "y": 5280,
     "wires": [
       [
@@ -8903,7 +8733,7 @@
     "stream": false,
     "addname": "aperture_path",
     "property": "apertures",
-    "x": 980,
+    "x": 1020,
     "y": 5280,
     "wires": [
       [
@@ -8930,7 +8760,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1360,
+    "x": 1400,
     "y": 5340,
     "wires": [
       [
@@ -8961,7 +8791,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1870,
+    "x": 1910,
     "y": 5280,
     "wires": [
       [
@@ -8991,11 +8821,11 @@
     "reduceInit": "",
     "reduceInitType": "",
     "reduceFixup": "",
-    "x": 2030,
+    "x": 2070,
     "y": 5340,
     "wires": [
       [
-        "748b1f355c0e00f8"
+        "86cb7c12e7bccf56"
       ]
     ]
   },
@@ -9004,7 +8834,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 2",
     "rules": [
       {
         "t": "set",
@@ -9040,7 +8870,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 470,
+    "x": 490,
     "y": 5280,
     "wires": [
       [
@@ -9053,7 +8883,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 3",
     "rules": [
       {
         "t": "set",
@@ -9089,7 +8919,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 510,
+    "x": 530,
     "y": 5280,
     "wires": [
       [
@@ -9102,7 +8932,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 4",
     "rules": [
       {
         "t": "set",
@@ -9138,7 +8968,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 550,
+    "x": 570,
     "y": 5280,
     "wires": [
       [
@@ -9151,7 +8981,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 5",
     "rules": [
       {
         "t": "set",
@@ -9187,7 +9017,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 580,
+    "x": 610,
     "y": 5280,
     "wires": [
       [
@@ -9217,7 +9047,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1170,
+    "x": 1210,
     "y": 5280,
     "wires": [
       [
@@ -9233,7 +9063,7 @@
     "type": "change",
     "z": "80f2ffd4953c67e9",
     "g": "8ecd405cd0a1e5ac",
-    "name": "apertures",
+    "name": "aperture 6",
     "rules": [
       {
         "t": "set",
@@ -9269,7 +9099,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 620,
+    "x": 650,
     "y": 5280,
     "wires": [
       [
@@ -9356,45 +9186,10 @@
     ]
   },
   {
-    "id": "f914f5311d82ce56",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "options",
-    "rules": [
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "#:(onMemory)::thermostat.options",
-        "tot": "flow"
-      },
-      {
-        "t": "set",
-        "p": "options",
-        "pt": "msg",
-        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
-        "tot": "jsonata"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2080,
-    "y": 2100,
-    "wires": [
-      [
-        "b74bf0ca5e271336"
-      ]
-    ]
-  },
-  {
     "id": "e0613fa53ec99a7d",
     "type": "split",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "",
     "splt": "\\n",
     "spltType": "str",
@@ -9403,8 +9198,8 @@
     "stream": false,
     "addname": "field",
     "property": "payload",
-    "x": 2630,
-    "y": 2280,
+    "x": 4690,
+    "y": 300,
     "wires": [
       [
         "b0670866409f1f18"
@@ -9415,7 +9210,7 @@
     "id": "b0670866409f1f18",
     "type": "switch",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
+    "g": "eafad08e39c60266",
     "name": "field",
     "property": "field",
     "propertyType": "msg",
@@ -9424,16 +9219,22 @@
         "t": "eq",
         "v": "production power",
         "vt": "str"
+      },
+      {
+        "t": "else"
       }
     ],
     "checkall": "false",
     "repair": false,
-    "outputs": 1,
-    "x": 2790,
-    "y": 2280,
+    "outputs": 2,
+    "x": 4850,
+    "y": 300,
     "wires": [
       [
         "ad09f7f6ad1acedd"
+      ],
+      [
+        "f80f5a53d9b07000"
       ]
     ]
   },
@@ -9458,7 +9259,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 1660,
+    "x": 1700,
     "y": 5220,
     "wires": [
       [
@@ -9468,17 +9269,6 @@
         "abef8f252aedce0a"
       ]
     ]
-  },
-  {
-    "id": "8f03e932f3d0abb1",
-    "type": "comment",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "use personnal trigger",
-    "info": "",
-    "x": 220,
-    "y": 4860,
-    "wires": []
   },
   {
     "id": "a21d727b6d73b7f1",
@@ -9590,7 +9380,8 @@
       "8bbf52c2a83e09ea",
       "3099e4a17fd21410",
       "7837b5fcc1432bfa",
-      "079470627ad50e8f"
+      "079470627ad50e8f",
+      "5c2ee7a9a0b1a4f4"
     ],
     "x": 1375,
     "y": 4740,
@@ -9777,7 +9568,8 @@
       "6fbdfc1ab44f9754",
       "d09ad27d05d54698",
       "6632e88ee0633e4c",
-      "5bf92e5b12ab168c"
+      "5bf92e5b12ab168c",
+      "b3f3ee85862b09ef"
     ],
     "x": 135,
     "y": 5700,
@@ -9838,39 +9630,10 @@
     "repair": false,
     "outputs": 1,
     "x": 290,
-    "y": 5100,
-    "wires": [
-      [
-        "4c169fc26f833802"
-      ]
-    ]
-  },
-  {
-    "id": "5f3bd047f14b97ae",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "93075511ad056e6d",
-    "name": "set field",
-    "rules": [
-      {
-        "t": "set",
-        "p": "field",
-        "pt": "msg",
-        "to": "outdoor temperature",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 440,
     "y": 4920,
     "wires": [
       [
-        "6fbdfc1ab44f9754",
-        "818c3dadf81b379e"
+        "4c169fc26f833802"
       ]
     ]
   },
@@ -10380,41 +10143,11 @@
     "wires": []
   },
   {
-    "id": "e6d722a527fd1dc8",
-    "type": "inject",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "manual - reload options",
-    "props": [
-      {
-        "p": "payload"
-      },
-      {
-        "p": "topic",
-        "vt": "str"
-      }
-    ],
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "onceDelay": 0.1,
-    "topic": "",
-    "payload": "",
-    "payloadType": "str",
-    "x": 1680,
-    "y": 2280,
-    "wires": [
-      [
-        "0711217590341f99"
-      ]
-    ]
-  },
-  {
     "id": "ea1b7dbf3573fd5e",
     "type": "debug",
     "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "ui - thermostat - options",
+    "g": "eafad08e39c60266",
+    "name": "ui - thermostat - apertures",
     "active": false,
     "tosidebar": true,
     "console": false,
@@ -10423,8 +10156,1273 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 3570,
+    "x": 6470,
+    "y": 360,
+    "wires": []
+  },
+  {
+    "id": "f8705fb32062a93f",
+    "type": "rbe",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "func": "rbe",
+    "gap": "",
+    "start": "",
+    "inout": "out",
+    "septopics": false,
+    "property": "bucket",
+    "topi": "topic",
+    "x": 1730,
+    "y": 300,
+    "wires": [
+      [
+        "6c6cf33417f59f97"
+      ]
+    ]
+  },
+  {
+    "id": "7421f25ff88e96ea",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "thermostat - ui - apertures",
+    "links": [],
+    "x": 3415,
+    "y": 420,
+    "wires": [
+      [
+        "e770267366a41538"
+      ]
+    ]
+  },
+  {
+    "id": "1e23b9043692efc9",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "thermostat - ui - apertures",
+    "mode": "return",
+    "links": [],
+    "x": 6375,
+    "y": 420,
+    "wires": []
+  },
+  {
+    "id": "ed6edb1e6f6e0603",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5890,
+    "y": 360,
+    "wires": [
+      [
+        "2d0116a7f0e5267e"
+      ]
+    ]
+  },
+  {
+    "id": "c1311d74af614a6b",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5730,
+    "y": 360,
+    "wires": [
+      [
+        "ed6edb1e6f6e0603"
+      ]
+    ]
+  },
+  {
+    "id": "c5b1171ac4cfb2fa",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "#:(onMemory)::thermostat.apertures",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6240,
+    "y": 420,
+    "wires": [
+      [
+        "1e23b9043692efc9",
+        "ea1b7dbf3573fd5e"
+      ]
+    ]
+  },
+  {
+    "id": "3afbcb94c2dd9a98",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 1800,
+    "wires": [
+      [
+        "93e874f6e4a1f87a"
+      ]
+    ]
+  },
+  {
+    "id": "5058697599c00bfb",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 1860,
+    "wires": [
+      [
+        "3d40410e159beaab"
+      ]
+    ]
+  },
+  {
+    "id": "788641b627884830",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 1920,
+    "wires": [
+      [
+        "4565730f04bd7072"
+      ]
+    ]
+  },
+  {
+    "id": "2a09806bd2dd8204",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 1980,
+    "wires": [
+      [
+        "79764253e9e92fda"
+      ]
+    ]
+  },
+  {
+    "id": "2daacd754d59567f",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 2040,
+    "wires": [
+      [
+        "4ad97596d0efa64b"
+      ]
+    ]
+  },
+  {
+    "id": "2f53d6a12a1b9648",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "7421f25ff88e96ea"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 2100,
+    "wires": [
+      [
+        "b74bf0ca5e271336"
+      ]
+    ]
+  },
+  {
+    "id": "f80f5a53d9b07000",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5570,
+    "y": 300,
+    "wires": [
+      [
+        "c1311d74af614a6b"
+      ]
+    ]
+  },
+  {
+    "id": "2d0116a7f0e5267e",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6060,
+    "y": 360,
+    "wires": [
+      [
+        "c5b1171ac4cfb2fa"
+      ]
+    ]
+  },
+  {
+    "id": "47121b9ebadde960",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "done",
+    "property": "#:(onMemory)::thermostat",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "apertures",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 3710,
+    "y": 420,
+    "wires": [
+      [
+        "c5b1171ac4cfb2fa"
+      ],
+      [
+        "0711217590341f99"
+      ]
+    ]
+  },
+  {
+    "id": "e770267366a41538",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "eafad08e39c60266",
+    "name": "1 / s",
+    "pauseType": "rate",
+    "timeout": "2",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 3550,
+    "y": 420,
+    "wires": [
+      [
+        "47121b9ebadde960"
+      ]
+    ]
+  },
+  {
+    "id": "f97b5115e1d99d4b",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e6edd4684b272434",
+    "name": "thermostat / outdoor 1 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor 1",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 720,
+    "y": 1860,
+    "wires": [
+      [
+        "1707bc7a4bb0daa5"
+      ]
+    ]
+  },
+  {
+    "id": "08830b1bec822cd0",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e6edd4684b272434",
+    "name": "thermostat / outdoor 2 / text / ",
+    "rules": [
+      {
+        "t": "set",
+        "p": "field",
+        "pt": "msg",
+        "to": "outdoor 2",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "format",
+        "pt": "msg",
+        "to": "text",
+        "tot": "str"
+      },
+      {
+        "t": "set",
+        "p": "default",
+        "pt": "msg",
+        "to": "",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 720,
+    "y": 1920,
+    "wires": [
+      [
+        "1707bc7a4bb0daa5"
+      ]
+    ]
+  },
+  {
+    "id": "38b3de42eccb63ea",
+    "type": "ui-dropdown",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "group": "28836135eb153545",
+    "name": "outdoor 1",
+    "label": "Temperature exterieur 1 :",
+    "tooltip": "",
+    "order": 39,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "chips": false,
+    "clearable": false,
+    "options": [
+      {
+        "label": "non assigné",
+        "value": "",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "outdoor 1",
+    "topicType": "str",
+    "className": "",
+    "typeIsComboBox": true,
+    "x": 2880,
+    "y": 2160,
+    "wires": [
+      [
+        "37aa96c6d80d8ade"
+      ]
+    ]
+  },
+  {
+    "id": "cd64045ae78319dc",
+    "type": "ui-dropdown",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "group": "28836135eb153545",
+    "name": "outdoor 2",
+    "label": "Temperature exterieur 2 :",
+    "tooltip": "",
+    "order": 40,
+    "width": "6",
+    "height": "1",
+    "passthru": false,
+    "multiple": false,
+    "chips": false,
+    "clearable": false,
+    "options": [
+      {
+        "label": "non assigné",
+        "value": "",
+        "type": "str"
+      }
+    ],
+    "payload": "",
+    "topic": "outdoor 2",
+    "topicType": "str",
+    "className": "",
+    "typeIsComboBox": true,
+    "x": 2880,
     "y": 2220,
+    "wires": [
+      [
+        "37aa96c6d80d8ade"
+      ]
+    ]
+  },
+  {
+    "id": "99820dc85872f042",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "ui - thermostat - outdoors",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 6310,
+    "y": 660,
+    "wires": []
+  },
+  {
+    "id": "e22365b6f5faa937",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "from global",
+    "rules": [
+      {
+        "t": "set",
+        "p": "old_payload",
+        "pt": "msg",
+        "to": "payload",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "metrics",
+        "tot": "global"
+      },
+      {
+        "t": "set",
+        "p": "#:(onMemory)::thermostat.outdoors",
+        "pt": "flow",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "#:(onMemory)::thermostat.outdoors[0]",
+        "pt": "flow",
+        "to": "{\t    'label': 'non assigné',\t    'value': ''\t}",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 3890,
+    "y": 660,
+    "wires": [
+      [
+        "d2068bbda5e20f86"
+      ]
+    ]
+  },
+  {
+    "id": "d2068bbda5e20f86",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "buckets",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "bucket",
+    "property": "payload",
+    "x": 4080,
+    "y": 660,
+    "wires": [
+      [
+        "7b0cbcf02bc8dd7e"
+      ]
+    ]
+  },
+  {
+    "id": "7b0cbcf02bc8dd7e",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "measurements",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "measurement",
+    "property": "payload",
+    "x": 4280,
+    "y": 660,
+    "wires": [
+      [
+        "61a21c746c904524"
+      ]
+    ]
+  },
+  {
+    "id": "61a21c746c904524",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "measurement",
+    "property": "measurement",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "temperature",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 4500,
+    "y": 660,
+    "wires": [
+      [
+        "b5a2ecd26dffba3a"
+      ],
+      [
+        "354a444bcb3837e0"
+      ]
+    ]
+  },
+  {
+    "id": "b5a2ecd26dffba3a",
+    "type": "split",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "",
+    "splt": "\\n",
+    "spltType": "str",
+    "arraySplt": 1,
+    "arraySpltType": "len",
+    "stream": false,
+    "addname": "field",
+    "property": "payload",
+    "x": 4690,
+    "y": 600,
+    "wires": [
+      [
+        "64580efef0e57642"
+      ]
+    ]
+  },
+  {
+    "id": "67d347fd47288266",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "add",
+    "rules": [
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "$substring(msg.metric,1)",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "#:(onMemory)::thermostat.outdoors",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "count",
+        "pt": "msg",
+        "to": "$count(msg.options)-1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "count",
+        "pt": "msg",
+        "to": "msg.count+1",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "options[msg.count]",
+        "pt": "msg",
+        "to": "{\t    'label': msg.trans.path,\t    'value': msg.metric\t}",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "#:(onMemory)::thermostat.outdoors",
+        "pt": "flow",
+        "to": "options",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5250,
+    "y": 600,
+    "wires": [
+      [
+        "ad6b3250a3541a1f"
+      ]
+    ]
+  },
+  {
+    "id": "64580efef0e57642",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "metric",
+    "rules": [
+      {
+        "t": "set",
+        "p": "metric",
+        "pt": "msg",
+        "to": "'/'&msg.bucket&'/'&msg.measurement&'/'&msg.field",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4850,
+    "y": 600,
+    "wires": [
+      [
+        "aee1a18c7263ba86"
+      ]
+    ]
+  },
+  {
+    "id": "aee1a18c7263ba86",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "",
+    "links": [
+      "025e219749a67439"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 5050,
+    "y": 600,
+    "wires": [
+      [
+        "67d347fd47288266"
+      ]
+    ]
+  },
+  {
+    "id": "b0ad0b1193226130",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "thermostat - ui - outdoors",
+    "links": [],
+    "x": 3415,
+    "y": 720,
+    "wires": [
+      [
+        "713df21fb71f138b"
+      ]
+    ]
+  },
+  {
+    "id": "00f707d1661e4bef",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "thermostat - ui - outdoors",
+    "mode": "return",
+    "links": [],
+    "x": 6215,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "127c961637b6310d",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5730,
+    "y": 660,
+    "wires": [
+      [
+        "3dda93172bdc65d7"
+      ]
+    ]
+  },
+  {
+    "id": "354a444bcb3837e0",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5570,
+    "y": 660,
+    "wires": [
+      [
+        "127c961637b6310d"
+      ]
+    ]
+  },
+  {
+    "id": "3da0bd1cf66878da",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "options",
+    "rules": [
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "#:(onMemory)::thermostat.outdoors",
+        "tot": "flow"
+      },
+      {
+        "t": "set",
+        "p": "options",
+        "pt": "msg",
+        "to": "$sort(msg.options, function($l, $r) {\t  $l[0].label > $r[0].label\t})",
+        "tot": "jsonata"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 6080,
+    "y": 720,
+    "wires": [
+      [
+        "00f707d1661e4bef",
+        "99820dc85872f042"
+      ]
+    ]
+  },
+  {
+    "id": "ad6b3250a3541a1f",
+    "type": "join",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "",
+    "mode": "auto",
+    "build": "object",
+    "property": "payload",
+    "propertyType": "msg",
+    "key": "topic",
+    "joiner": "\\n",
+    "joinerType": "str",
+    "useparts": false,
+    "accumulate": "false",
+    "timeout": "",
+    "count": "",
+    "reduceRight": false,
+    "x": 5410,
+    "y": 600,
+    "wires": [
+      [
+        "354a444bcb3837e0"
+      ]
+    ]
+  },
+  {
+    "id": "3dda93172bdc65d7",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "payload",
+    "rules": [
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "old_payload",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5900,
+    "y": 660,
+    "wires": [
+      [
+        "3da0bd1cf66878da"
+      ]
+    ]
+  },
+  {
+    "id": "b3e1001ef74f47b3",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "done",
+    "property": "#:(onMemory)::thermostat",
+    "propertyType": "flow",
+    "rules": [
+      {
+        "t": "hask",
+        "v": "outdoors",
+        "vt": "str"
+      },
+      {
+        "t": "else"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 3710,
+    "y": 720,
+    "wires": [
+      [
+        "3da0bd1cf66878da"
+      ],
+      [
+        "e22365b6f5faa937"
+      ]
+    ]
+  },
+  {
+    "id": "713df21fb71f138b",
+    "type": "delay",
+    "z": "80f2ffd4953c67e9",
+    "g": "f4f5c470dc44c769",
+    "name": "1 / s",
+    "pauseType": "rate",
+    "timeout": "2",
+    "timeoutUnits": "seconds",
+    "rate": "1",
+    "nbRateUnits": "1",
+    "rateUnits": "second",
+    "randomFirst": "1",
+    "randomLast": "5",
+    "randomUnits": "seconds",
+    "drop": false,
+    "allowrate": false,
+    "outputs": 1,
+    "x": 3550,
+    "y": 720,
+    "wires": [
+      [
+        "b3e1001ef74f47b3"
+      ]
+    ]
+  },
+  {
+    "id": "74b33297e4369aee",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "b0ad0b1193226130"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 2160,
+    "wires": [
+      [
+        "38b3de42eccb63ea"
+      ]
+    ]
+  },
+  {
+    "id": "a3a5880c2003c6cd",
+    "type": "link call",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "",
+    "links": [
+      "b0ad0b1193226130"
+    ],
+    "linkType": "static",
+    "timeout": "30",
+    "x": 2130,
+    "y": 2220,
+    "wires": [
+      [
+        "cd64045ae78319dc"
+      ]
+    ]
+  },
+  {
+    "id": "5c2ee7a9a0b1a4f4",
+    "type": "link in",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "thermostat - update - outdoor temperature",
+    "links": [
+      "6b4c87d53563c36d"
+    ],
+    "x": 135,
+    "y": 5100,
+    "wires": [
+      [
+        "60f65b4b5f4c2cc4"
+      ]
+    ]
+  },
+  {
+    "id": "60f65b4b5f4c2cc4",
+    "type": "switch",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "trigger",
+    "property": "path",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "eq",
+        "v": "th['outdoor 1']",
+        "vt": "msg"
+      },
+      {
+        "t": "eq",
+        "v": "th['outdoor 2']",
+        "vt": "msg"
+      }
+    ],
+    "checkall": "false",
+    "repair": false,
+    "outputs": 2,
+    "x": 270,
+    "y": 5100,
+    "wires": [
+      [
+        "f425887de67cad57"
+      ],
+      [
+        "f425887de67cad57"
+      ]
+    ]
+  },
+  {
+    "id": "f425887de67cad57",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "temperature 1",
+    "rules": [
+      {
+        "t": "set",
+        "p": "temperatures",
+        "pt": "msg",
+        "to": "[]",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "th['outdoor 1']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "msg.tmp!=\"\"?msg.tmp:'a/a/a'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "spl",
+        "pt": "msg",
+        "to": "$split(msg.tmp,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "temperatures[0]",
+        "pt": "msg",
+        "to": "metrics[msg.spl[0]][msg.spl[1]][msg.spl[2]]",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 460,
+    "y": 5100,
+    "wires": [
+      [
+        "7a3b533f0e9d934a"
+      ]
+    ]
+  },
+  {
+    "id": "7a3b533f0e9d934a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "temperature 2",
+    "rules": [
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "th['outdoor 2']",
+        "tot": "msg"
+      },
+      {
+        "t": "set",
+        "p": "tmp",
+        "pt": "msg",
+        "to": "msg.tmp!=\"\"?msg.tmp:'a/a/a'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "spl",
+        "pt": "msg",
+        "to": "$split(msg.tmp,'/')",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "temperatures[1]",
+        "pt": "msg",
+        "to": "metrics[msg.spl[0]][msg.spl[1]][msg.spl[2]]",
+        "tot": "global"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 500,
+    "y": 5100,
+    "wires": [
+      [
+        "33151ec7b379db49"
+      ]
+    ]
+  },
+  {
+    "id": "33151ec7b379db49",
+    "type": "function",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "compute temperatures",
+    "func": "var msg = msg;\nvar temperature = 0;\n\nif (typeof msg.temperatures[1] !== 'undefined') {\n    temperature = msg.temperatures[1];\n}\nif (typeof msg.temperatures[0] !== 'undefined') {\n    temperature = msg.temperatures[0];\n}\nif (typeof msg.temperatures[0] !== 'undefined' && typeof msg.temperatures[1] !== 'undefined') {\n    temperature = (msg.temperatures[0] + msg.temperatures[1]) / 2;\n}\n\ntemperature = temperature.toFixed(1);\nmsg.trigger_payload = temperature;\nmsg.field = 'outdoor temperature';\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 740,
+    "y": 5100,
+    "wires": [
+      [
+        "b3f3ee85862b09ef",
+        "5f67fdb103a398c8"
+      ]
+    ]
+  },
+  {
+    "id": "b3f3ee85862b09ef",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "thermostat - update - outdoor temperature",
+    "mode": "link",
+    "links": [
+      "63f9a6d8c925d3d3"
+    ],
+    "x": 915,
+    "y": 5100,
+    "wires": []
+  },
+  {
+    "id": "5f67fdb103a398c8",
+    "type": "debug",
+    "z": "80f2ffd4953c67e9",
+    "g": "57656fc40a9ba454",
+    "name": "thermostat - trigger - outdoor temperature",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1060,
+    "y": 5040,
     "wires": []
   }
 ]
