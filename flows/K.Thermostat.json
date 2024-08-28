@@ -272,7 +272,9 @@
       "ae60f951124d5757",
       "a21d727b6d73b7f1",
       "f97b5115e1d99d4b",
-      "08830b1bec822cd0"
+      "08830b1bec822cd0",
+      "8f479a7a6d5419a5",
+      "14793d33b66432fd"
     ],
     "x": 94,
     "y": 199,
@@ -372,8 +374,6 @@
     "nodes": [
       "9737afb19d9c9fbb",
       "dd49b4996fb683ff",
-      "fbb1bdcb44abce21",
-      "6c6cf33417f59f97",
       "fc673a36d8691d63",
       "37aa96c6d80d8ade",
       "1ef76a4c1fab9b78",
@@ -382,9 +382,6 @@
       "c4f79cb042dc36a1",
       "f391ba85b3d53073",
       "7e364afe6e09d405",
-      "b8374382f89b46c6",
-      "5b4d546fd3646af7",
-      "fafbe160c912822f",
       "f85914dec075a3d8",
       "bd8ab43b4a91a2ae",
       "19b6504e1bbece40",
@@ -454,7 +451,10 @@
       "38b3de42eccb63ea",
       "cd64045ae78319dc",
       "74b33297e4369aee",
-      "a3a5880c2003c6cd"
+      "a3a5880c2003c6cd",
+      "86a901b933d34c8a",
+      "d820170df2717cca",
+      "3a1f2c63baddb5b7"
     ],
     "x": 1334,
     "y": 199,
@@ -5831,7 +5831,7 @@
     "wires": [
       [
         "4b8267934ced5596",
-        "fbb1bdcb44abce21"
+        "86a901b933d34c8a"
       ]
     ]
   },
@@ -5849,85 +5849,6 @@
     "wires": [
       [
         "7e364afe6e09d405"
-      ]
-    ]
-  },
-  {
-    "id": "fbb1bdcb44abce21",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "reset",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"hide\": [\"Pièces:Thermostat\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "reset",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2450,
-    "y": 240,
-    "wires": [
-      [
-        "b8374382f89b46c6",
-        "fafbe160c912822f"
-      ]
-    ]
-  },
-  {
-    "id": "6c6cf33417f59f97",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "set",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"show\": [\"Pièces:Thermostat\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2450,
-    "y": 300,
-    "wires": [
-      [
-        "fafbe160c912822f",
-        "b8374382f89b46c6"
       ]
     ]
   },
@@ -6388,70 +6309,6 @@
     ]
   },
   {
-    "id": "b8374382f89b46c6",
-    "type": "change",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "Aucune thermostat",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 2620,
-    "y": 240,
-    "wires": [
-      [
-        "5b4d546fd3646af7"
-      ]
-    ]
-  },
-  {
-    "id": "5b4d546fd3646af7",
-    "type": "ui-text",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "group": "28836135eb153545",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "name": "none",
-    "label": "",
-    "format": "{{msg.payload}}",
-    "layout": "row-center",
-    "style": false,
-    "font": "",
-    "fontSize": 16,
-    "color": "#717171",
-    "className": "",
-    "x": 2790,
-    "y": 240,
-    "wires": []
-  },
-  {
-    "id": "fafbe160c912822f",
-    "type": "ui-control",
-    "z": "80f2ffd4953c67e9",
-    "g": "bb2ebd173a2ba06c",
-    "name": "",
-    "ui": "2d75e4809d2a6fbf",
-    "events": "all",
-    "x": 2620,
-    "y": 300,
-    "wires": [
-      []
-    ]
-  },
-  {
     "id": "f85914dec075a3d8",
     "type": "ui-switch",
     "z": "80f2ffd4953c67e9",
@@ -6459,7 +6316,7 @@
     "name": "actif",
     "label": "",
     "group": "28836135eb153545",
-    "order": 3,
+    "order": 2,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -6491,7 +6348,7 @@
     "name": "aperture opened",
     "label": "",
     "group": "28836135eb153545",
-    "order": 7,
+    "order": 6,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -6521,7 +6378,7 @@
     "name": "delayed aperture",
     "label": "",
     "group": "28836135eb153545",
-    "order": 8,
+    "order": 7,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -6552,7 +6409,7 @@
     "name": "operating mode",
     "label": "Mode",
     "tooltip": "",
-    "order": 12,
+    "order": 11,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -6588,7 +6445,7 @@
     "name": "eco setpoint",
     "label": "",
     "tooltip": "",
-    "order": 14,
+    "order": 13,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -6617,7 +6474,7 @@
     "name": "confort setpoint",
     "label": "",
     "tooltip": "",
-    "order": 16,
+    "order": 15,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -6645,7 +6502,7 @@
     "name": "pilot",
     "label": "",
     "group": "28836135eb153545",
-    "order": 6,
+    "order": 5,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -6675,7 +6532,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 10,
+    "order": 9,
     "width": "2",
     "height": "1",
     "name": "indoor temperature",
@@ -6697,7 +6554,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 9,
+    "order": 8,
     "width": "2",
     "height": "1",
     "name": "temperature setpoint",
@@ -6775,7 +6632,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 41,
+    "order": 40,
     "width": "6",
     "height": "1",
     "name": "seens",
@@ -6828,7 +6685,7 @@
     "name": "indoor coefficient",
     "label": "",
     "tooltip": "",
-    "order": 20,
+    "order": 19,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -6857,7 +6714,7 @@
     "name": "outdoor coefficient",
     "label": "",
     "tooltip": "",
-    "order": 22,
+    "order": 21,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -6883,7 +6740,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 4,
+    "order": 3,
     "width": "2",
     "height": "1",
     "name": "status",
@@ -6905,7 +6762,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 13,
+    "order": 12,
     "width": "2",
     "height": "1",
     "name": "eco setpoint (txt)",
@@ -6927,7 +6784,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 19,
+    "order": 18,
     "width": "2",
     "height": "1",
     "name": "indoor coefficient (txt)",
@@ -6949,7 +6806,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 21,
+    "order": 20,
     "width": "2",
     "height": "1",
     "name": "outdoor coefficient (txt)",
@@ -6997,7 +6854,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 15,
+    "order": 14,
     "width": "2",
     "height": "1",
     "name": "confort setpoint (txt)",
@@ -7094,7 +6951,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 23,
+    "order": 22,
     "width": "2",
     "height": "1",
     "name": "preheat time(txt)",
@@ -7119,7 +6976,7 @@
     "name": "preheat time",
     "label": "",
     "tooltip": "",
-    "order": 24,
+    "order": 23,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -7145,7 +7002,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 25,
+    "order": 24,
     "width": "2",
     "height": "1",
     "name": "cycle time(txt)",
@@ -7170,7 +7027,7 @@
     "name": "cycle time",
     "label": "",
     "tooltip": "",
-    "order": 26,
+    "order": 25,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -7196,7 +7053,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 31,
+    "order": 30,
     "width": "2",
     "height": "1",
     "name": "offloading power (txt)",
@@ -7221,7 +7078,7 @@
     "name": "offloading power",
     "label": "",
     "tooltip": "",
-    "order": 32,
+    "order": 31,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -7249,7 +7106,7 @@
     "name": "heat request",
     "label": "",
     "group": "28836135eb153545",
-    "order": 5,
+    "order": 4,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -7305,7 +7162,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 11,
+    "order": 10,
     "width": "2",
     "height": "1",
     "name": "outdoor temperature",
@@ -7330,7 +7187,7 @@
     "name": "aperture delay",
     "label": "",
     "tooltip": "",
-    "order": 28,
+    "order": 27,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -7359,7 +7216,7 @@
     "name": "offloading delay",
     "label": "",
     "tooltip": "",
-    "order": 30,
+    "order": 29,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -7385,7 +7242,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 27,
+    "order": 26,
     "width": "2",
     "height": "1",
     "name": "aperture delay(txt)",
@@ -7657,7 +7514,7 @@
     "name": "aperture 1",
     "label": "Ouverture 1 :",
     "tooltip": "",
-    "order": 33,
+    "order": 32,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -7690,7 +7547,7 @@
     "name": "aperture 2",
     "label": "Ouverture 2 :",
     "tooltip": "",
-    "order": 34,
+    "order": 33,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -7723,7 +7580,7 @@
     "name": "aperture 3",
     "label": "Ouverture 3 :",
     "tooltip": "",
-    "order": 35,
+    "order": 34,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -7756,7 +7613,7 @@
     "name": "aperture 4",
     "label": "Ouverture 4 :",
     "tooltip": "",
-    "order": 36,
+    "order": 35,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -7789,7 +7646,7 @@
     "name": "aperture 5",
     "label": "Ouverture 5 :",
     "tooltip": "",
-    "order": 37,
+    "order": 36,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -7819,7 +7676,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 29,
+    "order": 28,
     "width": "2",
     "height": "1",
     "name": "offloading delay(txt)",
@@ -7869,7 +7726,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 2,
+    "order": 1,
     "width": "5",
     "height": "1",
     "name": "actif (txt)",
@@ -8337,7 +8194,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "bb2ebd173a2ba06c",
     "group": "28836135eb153545",
-    "order": 17,
+    "order": 16,
     "width": "2",
     "height": "1",
     "name": "cold setpoint (txt)",
@@ -8362,7 +8219,7 @@
     "name": "cold setpoint",
     "label": "",
     "tooltip": "",
-    "order": 18,
+    "order": 17,
     "width": "4",
     "height": "1",
     "passthru": false,
@@ -9158,7 +9015,7 @@
     "name": "aperture 6",
     "label": "Ouverture 6 :",
     "tooltip": "",
-    "order": 38,
+    "order": 37,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -10177,7 +10034,7 @@
     "y": 300,
     "wires": [
       [
-        "6c6cf33417f59f97"
+        "3a1f2c63baddb5b7"
       ]
     ]
   },
@@ -10615,7 +10472,7 @@
     "name": "outdoor 1",
     "label": "Temperature exterieur 1 :",
     "tooltip": "",
-    "order": 39,
+    "order": 38,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -10651,7 +10508,7 @@
     "name": "outdoor 2",
     "label": "Temperature exterieur 2 :",
     "tooltip": "",
-    "order": 40,
+    "order": 39,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -10684,7 +10541,7 @@
     "z": "80f2ffd4953c67e9",
     "g": "f4f5c470dc44c769",
     "name": "ui - thermostat - outdoors",
-    "active": true,
+    "active": false,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -11424,5 +11281,97 @@
     "x": 1060,
     "y": 5040,
     "wires": []
+  },
+  {
+    "id": "8f479a7a6d5419a5",
+    "type": "comment",
+    "z": "80f2ffd4953c67e9",
+    "g": "e6edd4684b272434",
+    "name": "set a \"power production\" as aperture enable cold features",
+    "info": "",
+    "x": 330,
+    "y": 1800,
+    "wires": []
+  },
+  {
+    "id": "14793d33b66432fd",
+    "type": "comment",
+    "z": "80f2ffd4953c67e9",
+    "g": "e6edd4684b272434",
+    "name": "one or more outdoor temperature probes must be set",
+    "info": "",
+    "x": 310,
+    "y": 1860,
+    "wires": []
+  },
+  {
+    "id": "86a901b933d34c8a",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "group",
+    "rules": [
+      {
+        "t": "set",
+        "p": "group",
+        "pt": "msg",
+        "to": "Thermostat",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2050,
+    "y": 240,
+    "wires": [
+      [
+        "d820170df2717cca"
+      ]
+    ]
+  },
+  {
+    "id": "d820170df2717cca",
+    "type": "link out",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "room - ui - thermostat - control",
+    "mode": "link",
+    "links": [
+      "4afaf74fbb2e3c7f"
+    ],
+    "x": 2175,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "3a1f2c63baddb5b7",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "bb2ebd173a2ba06c",
+    "name": "control",
+    "rules": [
+      {
+        "t": "set",
+        "p": "control",
+        "pt": "msg",
+        "to": "show",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 1890,
+    "y": 300,
+    "wires": [
+      [
+        "86a901b933d34c8a"
+      ]
+    ]
   }
 ]

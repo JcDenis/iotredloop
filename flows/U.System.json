@@ -912,11 +912,6 @@
       "511350d9f34ce767",
       "7aaae6f81accc54b",
       "20845c677b589935",
-      "acfd5fff279e15de",
-      "674dd33239c8c3e7",
-      "d2846ad9c776708a",
-      "4f9d174388a77ea5",
-      "f77679312512233c",
       "f5f89b6efb421399",
       "5673ce2c9088f475",
       "f718cac6e7ec06c5",
@@ -926,7 +921,10 @@
       "af46ed6d30e60e05",
       "7f2dd140d1c88cb9",
       "dad6bb6b40fef41e",
-      "a65aa958e432f9a5"
+      "a65aa958e432f9a5",
+      "dfa33a746c317040",
+      "655dfbfe2810fe09",
+      "4a94f4581ddd3f73"
     ],
     "x": 2414,
     "y": 1939,
@@ -11711,8 +11709,8 @@
     "y": 1980,
     "wires": [
       [
-        "acfd5fff279e15de",
-        "61ed7b677cad542e"
+        "61ed7b677cad542e",
+        "dfa33a746c317040"
       ]
     ]
   },
@@ -11755,151 +11753,8 @@
     "y": 2040,
     "wires": [
       [
-        "f77679312512233c",
-        "a87c14e04ed75544"
-      ]
-    ]
-  },
-  {
-    "id": "acfd5fff279e15de",
-    "type": "change",
-    "z": "677f66663a198839",
-    "g": "90046052f5bcb625",
-    "name": "reset",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"hide\": [\"Pièces:Horloge\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "reset",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 3150,
-    "y": 1980,
-    "wires": [
-      [
-        "674dd33239c8c3e7",
-        "4f9d174388a77ea5"
-      ]
-    ]
-  },
-  {
-    "id": "674dd33239c8c3e7",
-    "type": "change",
-    "z": "677f66663a198839",
-    "g": "90046052f5bcb625",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "Aucune horloge",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 3320,
-    "y": 1980,
-    "wires": [
-      [
-        "d2846ad9c776708a"
-      ]
-    ]
-  },
-  {
-    "id": "d2846ad9c776708a",
-    "type": "ui-text",
-    "z": "677f66663a198839",
-    "g": "90046052f5bcb625",
-    "group": "3f693201c9dfc80c",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "name": "none",
-    "label": "",
-    "format": "{{msg.payload}}",
-    "layout": "row-center",
-    "style": false,
-    "font": "",
-    "fontSize": 16,
-    "color": "#717171",
-    "className": "",
-    "x": 3490,
-    "y": 1980,
-    "wires": []
-  },
-  {
-    "id": "4f9d174388a77ea5",
-    "type": "ui-control",
-    "z": "677f66663a198839",
-    "g": "90046052f5bcb625",
-    "name": "",
-    "ui": "2d75e4809d2a6fbf",
-    "events": "all",
-    "x": 3320,
-    "y": 2040,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "f77679312512233c",
-    "type": "change",
-    "z": "677f66663a198839",
-    "g": "90046052f5bcb625",
-    "name": "set",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"show\": [\"Pièces:Horloge\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 3150,
-    "y": 2040,
-    "wires": [
-      [
-        "4f9d174388a77ea5",
-        "674dd33239c8c3e7"
+        "a87c14e04ed75544",
+        "4a94f4581ddd3f73"
       ]
     ]
   },
@@ -11970,7 +11825,7 @@
     "name": "work day",
     "label": "",
     "group": "3f693201c9dfc80c",
-    "order": 3,
+    "order": 2,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -12000,7 +11855,7 @@
     "name": "work eve",
     "label": "",
     "group": "3f693201c9dfc80c",
-    "order": 5,
+    "order": 4,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -12080,7 +11935,7 @@
     "z": "677f66663a198839",
     "g": "90046052f5bcb625",
     "group": "3f693201c9dfc80c",
-    "order": 2,
+    "order": 1,
     "width": "5",
     "height": "1",
     "name": "work day (txt)",
@@ -12158,7 +12013,7 @@
     "z": "677f66663a198839",
     "g": "90046052f5bcb625",
     "group": "3f693201c9dfc80c",
-    "order": 4,
+    "order": 3,
     "width": "5",
     "height": "1",
     "name": "work eve (txt)",
@@ -12517,6 +12372,76 @@
     "wires": [
       [
         "b70d53e7c8c8615f"
+      ]
+    ]
+  },
+  {
+    "id": "dfa33a746c317040",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "90046052f5bcb625",
+    "name": "group",
+    "rules": [
+      {
+        "t": "set",
+        "p": "group",
+        "pt": "msg",
+        "to": "Horloge",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2970,
+    "y": 1980,
+    "wires": [
+      [
+        "655dfbfe2810fe09"
+      ]
+    ]
+  },
+  {
+    "id": "655dfbfe2810fe09",
+    "type": "link out",
+    "z": "677f66663a198839",
+    "g": "90046052f5bcb625",
+    "name": "room - ui - clock - control",
+    "mode": "link",
+    "links": [
+      "4afaf74fbb2e3c7f"
+    ],
+    "x": 3095,
+    "y": 1980,
+    "wires": []
+  },
+  {
+    "id": "4a94f4581ddd3f73",
+    "type": "change",
+    "z": "677f66663a198839",
+    "g": "90046052f5bcb625",
+    "name": "control",
+    "rules": [
+      {
+        "t": "set",
+        "p": "control",
+        "pt": "msg",
+        "to": "show",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 2810,
+    "y": 2040,
+    "wires": [
+      [
+        "dfa33a746c317040"
       ]
     ]
   }

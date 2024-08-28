@@ -98,7 +98,7 @@
     ],
     "x": 68,
     "y": 173,
-    "w": 7064,
+    "w": 7164,
     "h": 714
   },
   {
@@ -166,11 +166,6 @@
       "df15e932155f2ba9",
       "c30333f4e590339e",
       "ce7f4614862751ea",
-      "9646351e993f370b",
-      "add6ed83ed30f23d",
-      "b83c5421732aa53c",
-      "6e81c498073124d6",
-      "f182def43c9b706e",
       "f7de59496ae60d1b",
       "0845db45a9ff77b2",
       "b3ca9cbe02a17956",
@@ -180,9 +175,12 @@
       "80954cb6ad16cefc",
       "b4d39d580663092e",
       "cc8a05125b23ef33",
-      "0cd42c49ccab909c"
+      "0cd42c49ccab909c",
+      "be58415c114fa1ba",
+      "f150dd253413b8a1",
+      "3e3b47476e81ce90"
     ],
-    "x": 3554,
+    "x": 3654,
     "y": 199,
     "w": 3552,
     "h": 662
@@ -788,7 +786,7 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 4250,
+    "x": 4350,
     "y": 540,
     "wires": [
       [
@@ -807,7 +805,7 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 4250,
+    "x": 4350,
     "y": 600,
     "wires": [
       [
@@ -828,7 +826,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
-    "x": 4570,
+    "x": 4670,
     "y": 600,
     "wires": [
       [
@@ -856,7 +854,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4410,
+    "x": 4510,
     "y": 600,
     "wires": [
       [
@@ -884,7 +882,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4730,
+    "x": 4830,
     "y": 600,
     "wires": [
       [
@@ -909,7 +907,7 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 4890,
+    "x": 4990,
     "y": 600,
     "wires": [
       [
@@ -965,7 +963,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5060,
+    "x": 5160,
     "y": 600,
     "wires": [
       [
@@ -983,7 +981,7 @@
     "method": "GET",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 6150,
+    "x": 6250,
     "y": 700,
     "wires": [
       [
@@ -1048,7 +1046,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5570,
+    "x": 5670,
     "y": 600,
     "wires": [
       [
@@ -1083,7 +1081,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6310,
+    "x": 6410,
     "y": 580,
     "wires": [
       [
@@ -1133,7 +1131,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6470,
+    "x": 6570,
     "y": 700,
     "wires": [
       [
@@ -1153,7 +1151,7 @@
     "initialize": "",
     "finalize": "",
     "libs": [],
-    "x": 6660,
+    "x": 6760,
     "y": 760,
     "wires": [
       [
@@ -1188,7 +1186,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6480,
+    "x": 6580,
     "y": 760,
     "wires": [
       [
@@ -1223,7 +1221,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6470,
+    "x": 6570,
     "y": 640,
     "wires": [
       [
@@ -1238,7 +1236,7 @@
     "g": "7df081d38de8d887",
     "name": "",
     "input": "",
-    "x": 6650,
+    "x": 6750,
     "y": 640,
     "wires": [
       [
@@ -1287,7 +1285,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5410,
+    "x": 5510,
     "y": 480,
     "wires": [
       [
@@ -1339,7 +1337,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5410,
+    "x": 5510,
     "y": 420,
     "wires": [
       [
@@ -1369,7 +1367,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 6310,
+    "x": 6410,
     "y": 640,
     "wires": [
       [
@@ -1395,7 +1393,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 6310,
+    "x": 6410,
     "y": 760,
     "wires": [
       [
@@ -1421,7 +1419,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 6310,
+    "x": 6410,
     "y": 700,
     "wires": [
       [
@@ -1449,7 +1447,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4410,
+    "x": 4510,
     "y": 540,
     "wires": [
       [
@@ -1470,7 +1468,7 @@
     "stream": false,
     "addname": "",
     "property": "payload",
-    "x": 4570,
+    "x": 4670,
     "y": 540,
     "wires": [
       [
@@ -1498,7 +1496,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4730,
+    "x": 4830,
     "y": 540,
     "wires": [
       [
@@ -1523,7 +1521,7 @@
     "timeout": "",
     "count": "",
     "reduceRight": false,
-    "x": 4890,
+    "x": 4990,
     "y": 540,
     "wires": [
       [
@@ -1579,7 +1577,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5060,
+    "x": 5160,
     "y": 540,
     "wires": [
       [
@@ -1640,7 +1638,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5570,
+    "x": 5670,
     "y": 540,
     "wires": [
       [
@@ -1667,7 +1665,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 6470,
+    "x": 6570,
     "y": 520,
     "wires": [
       [
@@ -1707,7 +1705,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4410,
+    "x": 4510,
     "y": 480,
     "wires": [
       [
@@ -1725,7 +1723,7 @@
     "method": "POST",
     "payload": "",
     "server": "b2b86208a514c8a7",
-    "x": 6980,
+    "x": 7080,
     "y": 340,
     "wires": [
       []
@@ -1786,7 +1784,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6810,
+    "x": 6910,
     "y": 340,
     "wires": [
       [
@@ -1814,7 +1812,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6470,
+    "x": 6570,
     "y": 580,
     "wires": [
       [
@@ -1847,7 +1845,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6310,
+    "x": 6410,
     "y": 820,
     "wires": [
       [
@@ -1873,7 +1871,7 @@
     "bytopic": "all",
     "topic": "topic",
     "outputs": 1,
-    "x": 5960,
+    "x": 6060,
     "y": 700,
     "wires": [
       [
@@ -1908,7 +1906,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 5240,
+    "x": 5340,
     "y": 600,
     "wires": [
       [
@@ -1927,7 +1925,7 @@
     "name": "Liste LXC",
     "label": "Liste LXC",
     "tooltip": "",
-    "order": 3,
+    "order": 2,
     "width": "6",
     "height": "1",
     "passthru": false,
@@ -1945,7 +1943,7 @@
     "topic": "topic",
     "topicType": "msg",
     "className": "",
-    "x": 5240,
+    "x": 5340,
     "y": 540,
     "wires": [
       [
@@ -1963,7 +1961,7 @@
     "group": "c758b19593f570d4",
     "name": "start",
     "label": "",
-    "order": 4,
+    "order": 3,
     "width": "2",
     "height": "1",
     "emulateClick": false,
@@ -1977,7 +1975,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 6630,
+    "x": 6730,
     "y": 340,
     "wires": [
       [
@@ -1994,7 +1992,7 @@
     "group": "c758b19593f570d4",
     "name": "shutdown",
     "label": "",
-    "order": 6,
+    "order": 5,
     "width": "2",
     "height": "1",
     "emulateClick": false,
@@ -2008,7 +2006,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 6640,
+    "x": 6740,
     "y": 460,
     "wires": [
       [
@@ -2025,7 +2023,7 @@
     "group": "c758b19593f570d4",
     "name": "stop",
     "label": "",
-    "order": 5,
+    "order": 4,
     "width": "2",
     "height": "1",
     "emulateClick": false,
@@ -2039,7 +2037,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 6630,
+    "x": 6730,
     "y": 400,
     "wires": [
       [
@@ -2056,7 +2054,7 @@
     "group": "c758b19593f570d4",
     "name": "reboot",
     "label": "",
-    "order": 7,
+    "order": 6,
     "width": "2",
     "height": "1",
     "emulateClick": false,
@@ -2070,7 +2068,7 @@
     "payloadType": "str",
     "topic": "topic",
     "topicType": "msg",
-    "x": 6630,
+    "x": 6730,
     "y": 520,
     "wires": [
       [
@@ -2085,7 +2083,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 8,
+    "order": 7,
     "width": "3",
     "height": "1",
     "name": "uptime",
@@ -2097,7 +2095,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 7010,
+    "x": 7110,
     "y": 640,
     "wires": []
   },
@@ -2107,7 +2105,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 9,
+    "order": 8,
     "width": "3",
     "height": "1",
     "name": "state",
@@ -2119,7 +2117,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 7010,
+    "x": 7110,
     "y": 580,
     "wires": []
   },
@@ -2129,7 +2127,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 10,
+    "order": 9,
     "width": "3",
     "height": "1",
     "name": "cpu",
@@ -2141,7 +2139,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 7010,
+    "x": 7110,
     "y": 700,
     "wires": []
   },
@@ -2151,7 +2149,7 @@
     "z": "422511c2793ff288",
     "g": "7df081d38de8d887",
     "group": "c758b19593f570d4",
-    "order": 11,
+    "order": 10,
     "width": "3",
     "height": "1",
     "name": "memory",
@@ -2163,7 +2161,7 @@
     "fontSize": 16,
     "color": "#717171",
     "className": "",
-    "x": 7020,
+    "x": 7120,
     "y": 760,
     "wires": []
   },
@@ -2187,7 +2185,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6840,
+    "x": 6940,
     "y": 640,
     "wires": [
       [
@@ -2213,7 +2211,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 3920,
+    "x": 4020,
     "y": 540,
     "wires": [
       [
@@ -2240,7 +2238,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 5750,
+    "x": 5850,
     "y": 700,
     "wires": [
       [
@@ -2296,7 +2294,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 6860,
+    "x": 6960,
     "y": 420,
     "wires": [
       [
@@ -2314,7 +2312,7 @@
     "links": [
       "206c1fb4a48067df"
     ],
-    "x": 7035,
+    "x": 7135,
     "y": 420,
     "wires": []
   },
@@ -2733,7 +2731,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5410,
+    "x": 5510,
     "y": 540,
     "wires": [
       [
@@ -2765,7 +2763,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 2,
-    "x": 5410,
+    "x": 5510,
     "y": 600,
     "wires": [
       [
@@ -2785,12 +2783,12 @@
     "links": [
       "9e4bfee0db3051d4"
     ],
-    "x": 3595,
+    "x": 3695,
     "y": 240,
     "wires": [
       [
-        "9646351e993f370b",
-        "0845db45a9ff77b2"
+        "0845db45a9ff77b2",
+        "be58415c114fa1ba"
       ]
     ]
   },
@@ -2803,7 +2801,7 @@
     "links": [
       "b6323e1460f6f50c"
     ],
-    "x": 3595,
+    "x": 3695,
     "y": 300,
     "wires": [
       [
@@ -2829,148 +2827,12 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 3760,
+    "x": 3860,
     "y": 300,
     "wires": [
       [
         "80954cb6ad16cefc"
       ]
-    ]
-  },
-  {
-    "id": "9646351e993f370b",
-    "type": "change",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "reset",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"hide\":[\"Pièces:Proxmox VE\"]\t   }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5070,
-    "y": 240,
-    "wires": [
-      [
-        "f182def43c9b706e",
-        "add6ed83ed30f23d"
-      ]
-    ]
-  },
-  {
-    "id": "add6ed83ed30f23d",
-    "type": "change",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "Aucun relevé photovoltaic",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5240,
-    "y": 240,
-    "wires": [
-      [
-        "b83c5421732aa53c"
-      ]
-    ]
-  },
-  {
-    "id": "b83c5421732aa53c",
-    "type": "ui-text",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "group": "c758b19593f570d4",
-    "order": 2,
-    "width": "6",
-    "height": "1",
-    "name": "none",
-    "label": "",
-    "format": "{{msg.payload}}",
-    "layout": "row-center",
-    "style": false,
-    "font": "",
-    "fontSize": 16,
-    "color": "#717171",
-    "className": "",
-    "x": 5410,
-    "y": 240,
-    "wires": []
-  },
-  {
-    "id": "6e81c498073124d6",
-    "type": "change",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "set",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t   \"groups\":{\t       \"show\":[\"Pièces:Proxmox VE\"]\t   }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5070,
-    "y": 300,
-    "wires": [
-      [
-        "f182def43c9b706e",
-        "add6ed83ed30f23d"
-      ]
-    ]
-  },
-  {
-    "id": "f182def43c9b706e",
-    "type": "ui-control",
-    "z": "422511c2793ff288",
-    "g": "7df081d38de8d887",
-    "name": "",
-    "ui": "2d75e4809d2a6fbf",
-    "events": "all",
-    "x": 5240,
-    "y": 300,
-    "wires": [
-      []
     ]
   },
   {
@@ -2985,7 +2847,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5070,
+    "x": 5170,
     "y": 360,
     "wires": [
       [
@@ -3012,7 +2874,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 3730,
+    "x": 3830,
     "y": 360,
     "wires": [
       [
@@ -3038,7 +2900,7 @@
     "drop": false,
     "allowrate": false,
     "outputs": 1,
-    "x": 3740,
+    "x": 3840,
     "y": 480,
     "wires": [
       [
@@ -3353,7 +3215,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 5070,
+    "x": 5170,
     "y": 480,
     "wires": [
       [
@@ -3503,7 +3365,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4090,
+    "x": 4190,
     "y": 540,
     "wires": [
       [
@@ -3538,7 +3400,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4090,
+    "x": 4190,
     "y": 600,
     "wires": [
       [
@@ -3774,7 +3636,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 3980,
+    "x": 4080,
     "y": 300,
     "wires": [
       [
@@ -3795,7 +3657,7 @@
     "stream": false,
     "addname": "field",
     "property": "payload",
-    "x": 4170,
+    "x": 4270,
     "y": 300,
     "wires": [
       [
@@ -3821,7 +3683,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 4330,
+    "x": 4430,
     "y": 300,
     "wires": [
       [
@@ -3863,12 +3725,82 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 4500,
+    "x": 4600,
     "y": 300,
     "wires": [
       [
         "b3ca9cbe02a17956",
-        "6e81c498073124d6"
+        "3e3b47476e81ce90"
+      ]
+    ]
+  },
+  {
+    "id": "be58415c114fa1ba",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "group",
+    "rules": [
+      {
+        "t": "set",
+        "p": "group",
+        "pt": "msg",
+        "to": "Proxmox VE",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4930,
+    "y": 240,
+    "wires": [
+      [
+        "f150dd253413b8a1"
+      ]
+    ]
+  },
+  {
+    "id": "f150dd253413b8a1",
+    "type": "link out",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "room - ui - proxmox list - control",
+    "mode": "link",
+    "links": [
+      "4afaf74fbb2e3c7f"
+    ],
+    "x": 5055,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "3e3b47476e81ce90",
+    "type": "change",
+    "z": "422511c2793ff288",
+    "g": "7df081d38de8d887",
+    "name": "control",
+    "rules": [
+      {
+        "t": "set",
+        "p": "control",
+        "pt": "msg",
+        "to": "show",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4770,
+    "y": 300,
+    "wires": [
+      [
+        "be58415c114fa1ba"
       ]
     ]
   }

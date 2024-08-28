@@ -278,11 +278,6 @@
       "1d6b2ca73ae11560",
       "befe8bfd3d3446cc",
       "2936573edcac41e4",
-      "661f755eabe3c32b",
-      "45ec5e8001fad3fa",
-      "9c9162236e4b23a6",
-      "ce9aca3509c7c320",
-      "42cb1c19195b7aaf",
       "6495af71a7195bb4",
       "bf793e9865c9e834",
       "5f4fe9067e1fd9a0",
@@ -295,7 +290,10 @@
       "12697008ac3ea99d",
       "97087ce25aae4515",
       "4edb12baad4c5bd0",
-      "58e1c9e33b0a90f3"
+      "58e1c9e33b0a90f3",
+      "1dec76a256793b0b",
+      "30c0ca5c8f8631ea",
+      "024254ee38afd638"
     ],
     "x": 4454,
     "y": 259,
@@ -3613,8 +3611,8 @@
     "y": 300,
     "wires": [
       [
-        "45ec5e8001fad3fa",
-        "58e1c9e33b0a90f3"
+        "58e1c9e33b0a90f3",
+        "1dec76a256793b0b"
       ]
     ]
   },
@@ -3654,8 +3652,8 @@
     "y": 360,
     "wires": [
       [
-        "661f755eabe3c32b",
-        "bf793e9865c9e834"
+        "bf793e9865c9e834",
+        "024254ee38afd638"
       ]
     ]
   },
@@ -3682,149 +3680,6 @@
     ]
   },
   {
-    "id": "661f755eabe3c32b",
-    "type": "change",
-    "z": "52347795767acd3f",
-    "g": "35fa81df547b4491",
-    "name": "set",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"show\": [\"Pièces:Telegram\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "remove",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5190,
-    "y": 360,
-    "wires": [
-      [
-        "42cb1c19195b7aaf",
-        "9c9162236e4b23a6"
-      ]
-    ]
-  },
-  {
-    "id": "45ec5e8001fad3fa",
-    "type": "change",
-    "z": "52347795767acd3f",
-    "g": "35fa81df547b4491",
-    "name": "reset",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "{\t    \"groups\": {\t        \"hide\": [\"Pièces:Telegram\"]\t    }\t}",
-        "tot": "jsonata"
-      },
-      {
-        "t": "set",
-        "p": "reset",
-        "pt": "msg",
-        "to": "true",
-        "tot": "bool"
-      },
-      {
-        "t": "set",
-        "p": "class",
-        "pt": "msg",
-        "to": "",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5190,
-    "y": 300,
-    "wires": [
-      [
-        "9c9162236e4b23a6",
-        "42cb1c19195b7aaf"
-      ]
-    ]
-  },
-  {
-    "id": "9c9162236e4b23a6",
-    "type": "change",
-    "z": "52347795767acd3f",
-    "g": "35fa81df547b4491",
-    "name": "payload",
-    "rules": [
-      {
-        "t": "set",
-        "p": "payload",
-        "pt": "msg",
-        "to": "Aucun assistant Telegram",
-        "tot": "str"
-      }
-    ],
-    "action": "",
-    "property": "",
-    "from": "",
-    "to": "",
-    "reg": false,
-    "x": 5360,
-    "y": 300,
-    "wires": [
-      [
-        "ce9aca3509c7c320"
-      ]
-    ]
-  },
-  {
-    "id": "ce9aca3509c7c320",
-    "type": "ui-text",
-    "z": "52347795767acd3f",
-    "g": "35fa81df547b4491",
-    "group": "cfbed463c3e70b05",
-    "order": 1,
-    "width": "6",
-    "height": "1",
-    "name": "none",
-    "label": "",
-    "format": "{{msg.payload}}",
-    "layout": "row-center",
-    "style": false,
-    "font": "",
-    "fontSize": 16,
-    "color": "#717171",
-    "className": "",
-    "x": 5530,
-    "y": 300,
-    "wires": []
-  },
-  {
-    "id": "42cb1c19195b7aaf",
-    "type": "ui-control",
-    "z": "52347795767acd3f",
-    "g": "35fa81df547b4491",
-    "name": "",
-    "ui": "2d75e4809d2a6fbf",
-    "events": "all",
-    "x": 5360,
-    "y": 360,
-    "wires": [
-      []
-    ]
-  },
-  {
     "id": "6495af71a7195bb4",
     "type": "ui-switch",
     "z": "52347795767acd3f",
@@ -3832,7 +3687,7 @@
     "name": "actif",
     "label": "",
     "group": "cfbed463c3e70b05",
-    "order": 3,
+    "order": 2,
     "width": "1",
     "height": "1",
     "passthru": false,
@@ -3891,7 +3746,7 @@
     "group": "cfbed463c3e70b05",
     "name": "",
     "label": "Message",
-    "order": 4,
+    "order": 3,
     "width": "5",
     "height": "1",
     "topic": "topic",
@@ -3919,7 +3774,7 @@
     "group": "cfbed463c3e70b05",
     "name": "send",
     "label": "",
-    "order": 5,
+    "order": 4,
     "width": "1",
     "height": "1",
     "emulateClick": false,
@@ -4125,7 +3980,7 @@
     "z": "52347795767acd3f",
     "g": "35fa81df547b4491",
     "group": "cfbed463c3e70b05",
-    "order": 2,
+    "order": 1,
     "width": "5",
     "height": "1",
     "name": "actif (txt)",
@@ -4215,6 +4070,76 @@
     "wires": [
       [
         "b203a4b79c347218"
+      ]
+    ]
+  },
+  {
+    "id": "1dec76a256793b0b",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "35fa81df547b4491",
+    "name": "group",
+    "rules": [
+      {
+        "t": "set",
+        "p": "group",
+        "pt": "msg",
+        "to": "Telegram",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 5010,
+    "y": 300,
+    "wires": [
+      [
+        "30c0ca5c8f8631ea"
+      ]
+    ]
+  },
+  {
+    "id": "30c0ca5c8f8631ea",
+    "type": "link out",
+    "z": "52347795767acd3f",
+    "g": "35fa81df547b4491",
+    "name": "room - ui - telegram - control",
+    "mode": "link",
+    "links": [
+      "4afaf74fbb2e3c7f"
+    ],
+    "x": 5135,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "024254ee38afd638",
+    "type": "change",
+    "z": "52347795767acd3f",
+    "g": "35fa81df547b4491",
+    "name": "control",
+    "rules": [
+      {
+        "t": "set",
+        "p": "control",
+        "pt": "msg",
+        "to": "show",
+        "tot": "str"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 4850,
+    "y": 360,
+    "wires": [
+      [
+        "1dec76a256793b0b"
       ]
     ]
   }
