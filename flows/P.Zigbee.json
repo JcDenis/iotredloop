@@ -4833,11 +4833,6 @@
     "name": "mqtt zigbee",
     "mode": "link",
     "links": [
-      "85491b834d936a64",
-      "688beab146efae13",
-      "b07f193a0642cf53",
-      "a06c81c7dbe18d43",
-      "3be6b8c3d6485c46",
       "ba77500cd9f7f6da"
     ],
     "x": 1235,
@@ -5026,8 +5021,6 @@
     "name": "mqtt zigbee output",
     "mode": "link",
     "links": [
-      "c4571e81ac381f3e",
-      "76a866f04ab291ef",
       "b2547f7ff4878848"
     ],
     "x": 1905,

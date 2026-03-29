@@ -2503,27 +2503,7 @@
     "name": "mqtt rfxcom",
     "mode": "link",
     "links": [
-      "2dba8c9110e069a7",
-      "35e7aab1f0314355",
-      "5d58266f86a39f1a",
-      "617755f6bb1e2972",
-      "6390818317da9a22",
-      "8a3a49343040e9dd",
-      "92c37a3c88284082",
-      "aeec616505632135",
-      "beb26a3a88ba29ec",
-      "c55d2fbe9a6e0312",
-      "ca854a261959d5e3",
-      "cd0b7dc3cdbb9e58",
-      "dac6324a7409b4c0",
-      "dfe710104e247c4c",
-      "e6048bb9f2a4ecee",
-      "3256d8e9e4075f1f",
-      "d53118042e7346dc",
-      "3be6b8c3d6485c46",
-      "ba77500cd9f7f6da",
-      "bd614b03c17a2dcd",
-      "0e9fc0eb536659f8"
+      "ba77500cd9f7f6da"
     ],
     "x": 995,
     "y": 300,
@@ -2680,9 +2660,6 @@
     "name": "mqtt rfxcom output",
     "mode": "link",
     "links": [
-      "881b1ed942ae2f5d",
-      "e1bd888198e8ad2b",
-      "4c77acdbe9fb09c9",
       "dff88b670b073ad9"
     ],
     "x": 1675,

@@ -1323,10 +1323,8 @@
     "name": "agenda - birthday - source",
     "mode": "link",
     "links": [
-      "1c148e0bd7c295b9",
       "206c1fb4a48067df",
-      "a9620e892125509b",
-      "99a002b04c9f0bd2"
+      "a9620e892125509b"
     ],
     "x": 2695,
     "y": 660,
@@ -3099,10 +3097,8 @@
     "name": "agenda - trash - source",
     "mode": "link",
     "links": [
-      "0a53f27ca3a07d20",
       "206c1fb4a48067df",
-      "f9c15b253d5cfe9e",
-      "959cdd09db6a54e5"
+      "f9c15b253d5cfe9e"
     ],
     "x": 2675,
     "y": 2700,

@@ -5373,7 +5373,6 @@
     "name": "routine timer out",
     "mode": "link",
     "links": [
-      "96f83c7e2e8a15cc",
       "3cc31621bae4b8f4"
     ],
     "x": 1895,
@@ -6399,6 +6398,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
+    "property": "payload",
     "x": 2230,
     "y": 480,
     "wires": [
@@ -6533,6 +6533,7 @@
     "arraySpltType": "len",
     "stream": false,
     "addname": "",
+    "property": "payload",
     "x": 1910,
     "y": 480,
     "wires": [

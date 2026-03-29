@@ -460,7 +460,6 @@
     "g": "f65dfdda10900ffc",
     "name": "teleinfo",
     "links": [
-      "1f088dee7d4ae695",
       "b21521b6cbd2de78"
     ],
     "x": 135,
@@ -2574,7 +2573,6 @@
     "name": "mqtt teleinfo",
     "mode": "link",
     "links": [
-      "acc79920bf40652d",
       "ba77500cd9f7f6da"
     ],
     "x": 1155,

@@ -86,6 +86,111 @@
     "h": 854
   },
   {
+    "id": "8661cca3effea007",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "catch error",
+    "style": {
+      "fill": "#ff0000",
+      "fill-opacity": "0.05",
+      "label": true,
+      "stroke": "#ff0000"
+    },
+    "nodes": [
+      "64318333e0c24a2e",
+      "ccb5ea956a7da538",
+      "cff2ab3b56cd2174"
+    ],
+    "x": 534,
+    "y": 19,
+    "w": 422,
+    "h": 82
+  },
+  {
+    "id": "880406b4567be814",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - notification",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "1da397975de7d1ec",
+      "f8be0b4c8fdf7515",
+      "c76679b82b664526"
+    ],
+    "x": 68,
+    "y": 2393,
+    "w": 4644,
+    "h": 314
+  },
+  {
+    "id": "1021acef5727d683",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "room - clock",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "69645e55501064d8",
+      "a4306c9de01d4722",
+      "90046052f5bcb625"
+    ],
+    "x": 68,
+    "y": 1913,
+    "w": 3584,
+    "h": 434
+  },
+  {
+    "id": "1d2cd86f8aa4ad98",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - update",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "15c8b4ba4882bbdd",
+      "dcc6c15deafac254",
+      "1fb10d380183f0fb",
+      "0164b91ce85885f1",
+      "c09962536325e13b",
+      "efb33694649f8cca"
+    ],
+    "x": 68,
+    "y": 5025.5,
+    "w": 3844,
+    "h": 1401.5
+  },
+  {
+    "id": "3d031d2deeae776a",
+    "type": "group",
+    "z": "677f66663a198839",
+    "name": "system - ui - various",
+    "style": {
+      "fill": "#777777",
+      "fill-opacity": "0.05",
+      "label": true
+    },
+    "nodes": [
+      "57bf8eefe70206c0",
+      "dad2ac027d4f9f24",
+      "dd003c121420d45a",
+      "a0476b1a7ec53d40"
+    ],
+    "x": 68,
+    "y": 3653,
+    "w": 2524,
+    "h": 1334
+  },
+  {
     "id": "efb33694649f8cca",
     "type": "group",
     "z": "677f66663a198839",
@@ -233,47 +338,6 @@
     "h": 142
   },
   {
-    "id": "8661cca3effea007",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "catch error",
-    "style": {
-      "fill": "#ff0000",
-      "fill-opacity": "0.05",
-      "label": true,
-      "stroke": "#ff0000"
-    },
-    "nodes": [
-      "64318333e0c24a2e",
-      "ccb5ea956a7da538",
-      "cff2ab3b56cd2174"
-    ],
-    "x": 534,
-    "y": 19,
-    "w": 422,
-    "h": 82
-  },
-  {
-    "id": "880406b4567be814",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "system - notification",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "1da397975de7d1ec",
-      "f8be0b4c8fdf7515",
-      "c76679b82b664526"
-    ],
-    "x": 68,
-    "y": 2393,
-    "w": 4644,
-    "h": 314
-  },
-  {
     "id": "dcc6c15deafac254",
     "type": "group",
     "z": "677f66663a198839",
@@ -341,26 +405,6 @@
     "y": 6259,
     "w": 1712,
     "h": 142
-  },
-  {
-    "id": "1021acef5727d683",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "room - clock",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "69645e55501064d8",
-      "a4306c9de01d4722",
-      "90046052f5bcb625"
-    ],
-    "x": 68,
-    "y": 1913,
-    "w": 3584,
-    "h": 434
   },
   {
     "id": "dad2ac027d4f9f24",
@@ -930,50 +974,6 @@
     "y": 1939,
     "w": 1212,
     "h": 382
-  },
-  {
-    "id": "1d2cd86f8aa4ad98",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "system - update",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "15c8b4ba4882bbdd",
-      "dcc6c15deafac254",
-      "1fb10d380183f0fb",
-      "0164b91ce85885f1",
-      "c09962536325e13b",
-      "efb33694649f8cca"
-    ],
-    "x": 68,
-    "y": 5025.5,
-    "w": 3844,
-    "h": 1401.5
-  },
-  {
-    "id": "3d031d2deeae776a",
-    "type": "group",
-    "z": "677f66663a198839",
-    "name": "system - ui - various",
-    "style": {
-      "fill": "#777777",
-      "fill-opacity": "0.05",
-      "label": true
-    },
-    "nodes": [
-      "57bf8eefe70206c0",
-      "dad2ac027d4f9f24",
-      "dd003c121420d45a",
-      "a0476b1a7ec53d40"
-    ],
-    "x": 68,
-    "y": 3653,
-    "w": 2524,
-    "h": 1334
   },
   {
     "id": "da2f54e055f1d1ac",
@@ -5223,7 +5223,13 @@
     "height": "1",
     "maxrows": 0,
     "autocols": true,
+    "showSearch": false,
+    "deselect": true,
+    "selectionType": "none",
     "columns": [],
+    "mobileBreakpoint": "sm",
+    "mobileBreakpointType": "defaults",
+    "action": "replace",
     "x": 2490,
     "y": 3780,
     "wires": [
@@ -10520,9 +10526,7 @@
     "g": "dad2ac027d4f9f24",
     "name": "system - ui - kernel read from file",
     "mode": "link",
-    "links": [
-      "92dac97dfb662f2d"
-    ],
+    "links": [],
     "x": 615,
     "y": 4200,
     "wires": []

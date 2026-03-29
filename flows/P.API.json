@@ -2304,7 +2304,7 @@
     "z": "f125f568d4e332ee",
     "g": "e7dd5536e7ec485b",
     "name": "api - BRP069B45 - metric error",
-    "active": false,
+    "active": true,
     "tosidebar": true,
     "console": false,
     "tostatus": false,
@@ -2727,7 +2727,7 @@
         "t": "set",
         "p": "#:(onMemory)::ac[msg.bucket]['temperature setpoint']",
         "pt": "flow",
-        "to": "$number(msg.pair[1])",
+        "to": "$number(msg.pair[1])?23",
         "tot": "jsonata"
       }
     ],
@@ -3214,7 +3214,7 @@
     "wires": [
       [
         "a76580bfbb24a34e",
-        "8296521e661aabf6"
+        "192d06a39b1a1f66"
       ],
       [
         "e314d68876ac9938"
@@ -3362,7 +3362,7 @@
     "type": "switch",
     "z": "f125f568d4e332ee",
     "g": "00798774fd655f5e",
-    "name": "if true",
+    "name": "pilot",
     "property": "payload",
     "propertyType": "msg",
     "rules": [
@@ -3373,11 +3373,11 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 2390,
+    "x": 2130,
     "y": 900,
     "wires": [
       [
-        "d5cdd8f60040d125"
+        "8296521e661aabf6"
       ]
     ]
   },
@@ -3439,7 +3439,14 @@
         "t": "set",
         "p": "payload",
         "pt": "msg",
-        "to": "msg.mode='cold'?'3':'4'",
+        "to": "msg.mode='cool'?'3':'4'",
+        "tot": "jsonata"
+      },
+      {
+        "t": "set",
+        "p": "payload",
+        "pt": "msg",
+        "to": "$string(msg.payload)",
         "tot": "jsonata"
       }
     ],
@@ -3448,11 +3455,11 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 2180,
+    "x": 2340,
     "y": 900,
     "wires": [
       [
-        "192d06a39b1a1f66"
+        "d5cdd8f60040d125"
       ]
     ]
   },
@@ -6812,7 +6819,7 @@
     "name": "image",
     "order": 1,
     "width": "6",
-    "height": "7",
+    "height": "18",
     "head": "",
     "format": "<template>\n    <img ref=\"iotnode-camera\" class=\"\" alt=\"Aucune camera\" width=\"100%\" src=\"\" />\n</template>\n\n<script>\nexport default {\n  name: 'MyCamera',\n  mounted () {\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n        // get the Video's DOM element\n        const iotnodecamera = this.$refs['iotnode-camera']\n\n        if (msg.class==='remove') {\n          iotnodecamera.class = 'remove'\n        } else {\n          iotnodecamera.class = ''\n          iotnodecamera.src = msg.payload\n        }\n    })\n  },\n  unmounted () {\n    this.$socket.off(`msg-input:${this.id}`)\n  }\n}\n</script>",
     "storeOutMessages": true,

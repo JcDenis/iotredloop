@@ -182,11 +182,12 @@
       "313fbd5fc01985a5",
       "b7ffd39578f29c8b",
       "c3b17da928d7afba",
-      "b7a2b83163ce711a"
+      "b7a2b83163ce711a",
+      "d6f1bbdcd49da530"
     ],
     "x": 94,
     "y": 4819,
-    "w": 1692,
+    "w": 1852,
     "h": 142
   },
   {
@@ -2659,8 +2660,7 @@
       "37b31a14146e2a3f",
       "64754ad76b3561d6",
       "e50f34cde29f1023",
-      "ffdbc6f74f0bd44a",
-      "6e0cafa29c0a6d42"
+      "ffdbc6f74f0bd44a"
     ],
     "x": 1035,
     "y": 2700,
@@ -2905,8 +2905,7 @@
       "3bc159f186c762cd",
       "502bf87b213069c7",
       "92add418b3868c54",
-      "f9fad454dec37bc7",
-      "ab22bd17459bcba2"
+      "f9fad454dec37bc7"
     ],
     "x": 135,
     "y": 4500,
@@ -3009,7 +3008,7 @@
     "from": "",
     "to": "",
     "reg": false,
-    "x": 1300,
+    "x": 1460,
     "y": 4920,
     "wires": [
       [
@@ -3028,7 +3027,7 @@
     "links": [
       "63f9a6d8c925d3d3"
     ],
-    "x": 1435,
+    "x": 1595,
     "y": 4920,
     "wires": []
   },
@@ -3054,7 +3053,7 @@
     "y": 4920,
     "wires": [
       [
-        "9eb8cf78caf3141d"
+        "d6f1bbdcd49da530"
       ]
     ]
   },
@@ -3069,7 +3068,7 @@
     ],
     "linkType": "static",
     "timeout": "30",
-    "x": 670,
+    "x": 830,
     "y": 4920,
     "wires": [
       [
@@ -3095,7 +3094,7 @@
     "checkall": "false",
     "repair": false,
     "outputs": 1,
-    "x": 870,
+    "x": 1030,
     "y": 4920,
     "wires": [
       [
@@ -3121,7 +3120,7 @@
     "drop": true,
     "allowrate": false,
     "outputs": 1,
-    "x": 1080,
+    "x": 1240,
     "y": 4920,
     "wires": [
       [
@@ -5235,7 +5234,7 @@
     "targetType": "full",
     "statusVal": "",
     "statusType": "auto",
-    "x": 1580,
+    "x": 1740,
     "y": 4860,
     "wires": []
   },
@@ -7085,11 +7084,18 @@
     "outs": "end",
     "topic": "offloading power",
     "topicType": "str",
-    "thumbLabel": true,
-    "min": "100",
+    "thumbLabel": "true",
+    "showTicks": "false",
+    "min": "0",
     "max": "1500",
     "step": "100",
     "className": "",
+    "iconPrepend": "",
+    "iconAppend": "",
+    "color": "",
+    "colorTrack": "",
+    "colorThumb": "",
+    "showTextField": false,
     "x": 2900,
     "y": 1740,
     "wires": [
@@ -7110,6 +7116,7 @@
     "width": "1",
     "height": "1",
     "passthru": false,
+    "decouple": false,
     "topic": "topic",
     "topicType": "msg",
     "style": "",
@@ -7749,7 +7756,7 @@
     "g": "bb2ebd173a2ba06c",
     "name": "50 ms",
     "pauseType": "delay",
-    "timeout": "50",
+    "timeout": "10",
     "timeoutUnits": "milliseconds",
     "rate": "1",
     "nbRateUnits": "1",
@@ -9234,7 +9241,6 @@
     "name": "thermostat - trigger - input",
     "mode": "link",
     "links": [
-      "8bbf52c2a83e09ea",
       "3099e4a17fd21410",
       "7837b5fcc1432bfa",
       "079470627ad50e8f",
@@ -9422,7 +9428,6 @@
     "g": "f987d89b8997cf8d",
     "name": "thermostat - trigger - output",
     "links": [
-      "6fbdfc1ab44f9754",
       "d09ad27d05d54698",
       "6632e88ee0633e4c",
       "5bf92e5b12ab168c",
@@ -11371,6 +11376,34 @@
     "wires": [
       [
         "86a901b933d34c8a"
+      ]
+    ]
+  },
+  {
+    "id": "d6f1bbdcd49da530",
+    "type": "change",
+    "z": "80f2ffd4953c67e9",
+    "g": "e653f3ec3dc88a8f",
+    "name": "scene",
+    "rules": [
+      {
+        "t": "set",
+        "p": "scene.bucket",
+        "pt": "msg",
+        "to": "th.bucket",
+        "tot": "msg"
+      }
+    ],
+    "action": "",
+    "property": "",
+    "from": "",
+    "to": "",
+    "reg": false,
+    "x": 630,
+    "y": 4920,
+    "wires": [
+      [
+        "9eb8cf78caf3141d"
       ]
     ]
   }

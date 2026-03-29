@@ -182,9 +182,7 @@
     "g": "cf382d5398b6de43",
     "name": "mqtt bluetooth",
     "mode": "link",
-    "links": [
-      "60e7ca843ea8f2e0"
-    ],
+    "links": [],
     "x": 1015,
     "y": 300,
     "wires": []
@@ -340,8 +338,6 @@
     "name": "mqtt bluetooth output",
     "mode": "link",
     "links": [
-      "3ce812bf89416c2e",
-      "b5e020af24b6c81a",
       "824a1416d7a3cfe1"
     ],
     "x": 1695,
